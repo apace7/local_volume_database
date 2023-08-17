@@ -1,0 +1,28 @@
+table descriptions (tab/sheet)
+dwarf_mw : Milky Way dwarf galaxies
+dwarf_m31: M31 dwarf galaxies
+gc_ufsc: post Harris catalog star clusters in the MW halo (abs(b) > ~5-10)
+dwarf_local_field: dwarf galaxies outside of MW/M31 to ~ 3 Mpc, mostly follows McConnachie 2012
+name_discovery: key, discovery year, discovery reference, name, and alternative names
+
+columns:
+key: unique identifier for each object
+rhalf: half-light radius (or plummer radius) in arcmin
+ellipticity: 1 - minor/major axis (or 1 - axis ratio)
+position_angle: N->E (degree)
+distance: kpc units
+rhalf_physical: rhalf * distance in parsec
+rhalf_sph_physical: rhalf * distance * sqrt(1-ellipticity) in parsec
+vlos_systemic, vlos_sigma: km/s
+metallicity: spectroscopic metallicity (generally)
+pmra (etc): proper motion from Gaia DR3 mas/yr
+rcore, rking: profile fits with king profile in arcmin
+age: Gyr units
+metallicity_photometric: metallicity isochrone fitting
+flux_HI: (  Jy km s−1 ), this is a relatively new column and mostly incomplete
+ref: reference of author last name + ADS bibcode
+
+error columns: _em = error minus = minus 1 sigma (or 16% confidence interval) and similarly for _ep
+_ul = upper limit at 95% confidence interval (some are 90% or 84%, the goal is to make it consistent)
+
+ref: reference of author last name + ADS bibcode
