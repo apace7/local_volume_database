@@ -7,18 +7,31 @@ name_discovery: key, discovery year, discovery reference, name, and alternative 
 
 columns:
 key: unique identifier for each object
-rhalf: half-light radius (or plummer radius) in arcmin
+host: host of system [MW, LMC, M31, etc]
+confirmed_real: system has been confirmed with either deeper photometry, follow-up spectroscopy, proper motion, or other methods
+confirmed_dwarf: (or confirmed_star_cluster) system has been confirmed to be dwarf galaxy (or star cluster) based on spectroscopy, and/or deeper photometry.
+ra: right ascension ICRS [degree]
+dec: declination ICRS [degree]
+rhalf: half-light radius (or plummer radius) in [arcmin]
 ellipticity: 1 - minor/major axis (or 1 - axis ratio)
-position_angle: N->E (degree)
-distance: kpc units
-rhalf_physical: rhalf * distance in parsec
-rhalf_sph_physical: rhalf * distance * sqrt(1-ellipticity) in parsec
-vlos_systemic, vlos_sigma: km/s
-metallicity: spectroscopic metallicity (generally)
-pmra (etc): proper motion from Gaia DR3 mas/yr
+position_angle: N->E [degree] 
+distance_modulus [mag]
+distance: [kpc] 
+rhalf_physical: rhalf * distance  [parsec] (computed from other columns)
+rhalf_sph_physical: rhalf * distance * sqrt(1-ellipticity) in [parsec] (computed from other columns)
+apparent_magnitude_V: apparent magnitude in V-band
+M_V: absolute V-band magnitude, computed from distance_modulus and apparent_magnitude_V
+surface_brightness_rhalf: average surface brightness within spherically averaged half-light radius [mag arcsec^-2]
+vlos_systemic: heliocentric velocity of system [km/s]
+vlos_sigma: velocity dispersion in line-of-sight [km/s]
+metallicity: spectroscopic metallicity [dex]
+metallicity_sigma: spectroscopic metallicity dispersion [dex]
+pmra: proper motion in right ascension, includes cos(dec) term following Gaia [mas/yr]
+pmdec: proper motion in declination direction [mas/yr]
 rcore, rking: profile fits with king profile in arcmin
+rad_sersic, n_sersic: sersic profile parameters. rad_sersic in arcmin
 age: Gyr units
-metallicity_photometric: metallicity isochrone fitting
+metallicity_photometric: metallicity isochrone fitting (or non-spectroscopic metallicity)
 flux_HI: (  Jy km s−1 ), this is a relatively new column and mostly incomplete
 ref: reference of author last name + ADS bibcode
 
