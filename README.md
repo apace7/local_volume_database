@@ -2,12 +2,13 @@
 
 ### DESCRIPTION:
 
-Data of local volume galaxies and star clusters. The database is for objects with resolved stars (D ~ 3-10 Mpc), this distance will increase with JWST.  The star cluster collections are limited to new (post Harris 1996) star cluster/globular clusters, primarily in the MW halo.  
+Database of local volume galaxies and star clusters. The database limit is galaxies with resolved stars. The limit is currently set by HST (D ~ 3-10 Mpc), but this distance will increase with JWST.  The star cluster collections are limited to new star cluster/globular clusters (post Harris 1996), primarily in the MW halo.  
 
 ### LATEST CHANGES:
 
 ### REQUIREMENTS:
 
 ### INSTALLATION:
+Todo.
 
-the data is available as csv files (and other files)
+The data is available as csv files (and other files)
