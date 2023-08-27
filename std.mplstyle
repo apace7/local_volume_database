@@ -1,0 +1,23 @@
+font.size : 14
+axes.labelsize : 20
+axes.titlesize : 14
+legend.fontsize : 14
+xtick.labelsize : 14
+ytick.labelsize : 14
+xtick.major.size : 8
+xtick.minor.size : 8
+xtick.major.width : 2
+xtick.minor.width : 2
+ytick.major.size : 8
+ytick.minor.size : 8
+ytick.major.width : 2
+ytick.minor.width : 2
+xtick.major.pad : 6
+ytick.major.pad : 6
+legend.frameon : True
+legend.loc : upper right
+axes.linewidth : 2
+xtick.top : True
+xtick.direction : in
+ytick.direction : in
+ytick.right : True
