@@ -1,4 +1,10 @@
 key,notes
-eridanus_3,observed mass segration in Baumgardt2022MNRAS.510.3531B; there is potential metallicity dispersion in CaH\&K photometry but main sequence stars are included in this calculation Fu2023arXiv230606260F; size + luminosity is consistent with both GC and dwarf; no published spectroscopy; classifiction unclear
-draco_2,observed mass segration in Baumgardt2022MNRAS.510.3531B; there is potential metallicity dispersion in CaH\&K photometry but main sequence stars are included in this calculation Fu2023arXiv230606260F; no spectroscopic metallicity dispersion or velocity dispersion Longeard2020MNRAS.491..356L; size is large for star cluster
+eridanus_3,observed mass segregation in Baumgardt2022MNRAS.510.3531B; there is potential metallicity dispersion in CaH\&K photometry but main sequence stars are included in this calculation Fu2023arXiv230606260F; size + luminosity is consistent with both GC and dwarf; no published spectroscopy; classifiction unclear
+draco_2,observed mass segregation in Baumgardt2022MNRAS.510.3531B; there is potential metallicity dispersion in CaH\&K photometry but main sequence stars are included in this calculation Fu2023arXiv230606260F; no spectroscopic metallicity dispersion or velocity dispersion Longeard2020MNRAS.491..356L; size is large for star cluster
 des_sag_2,note that this object is referred to as Cetus III in the discovery paper if it is a dwarf Luque2017MNRAS.468...97L but a second system found in the HSC survey has the Cetus III name Homma2018PASJ...70S..18H
+delve_2,size+luminosity is in dwarf + star cluster overlap region; set to star cluster based off original classification Cerny2021ApJ...910...18C
+hydrus_1,possible rotation Koposov2018MNRAS.479.5343K
+sagittarius_1,tidally disrupting
+tucana_3,tidal tails DrlicaWagner2015ApJ...813..109D + Shipp2018ApJ...862..114S + Li2018ApJ...866...22L
+tucana_3,classification remains unclear with unresolved velocity dispersion + metallicity dispersion Simon2017ApJ...838...11S ; r-process abundances Hansen2017ApJ...838...44H + Marshall2019ApJ...882..177M ; large size MutluPakdil2018ApJ...863...25M ; inconclusive mass segregation Baumgardt2022MNRAS.510.3531B
+willman_1,potential tidal disruption + unclear kinematics Willman2011AJ....142..128W 
