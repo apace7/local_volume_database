@@ -1,8 +1,11 @@
 table descriptions (tab/sheet)
 dwarf_mw : Milky Way dwarf galaxies
 dwarf_m31: M31 dwarf galaxies
-gc_ufsc: post Harris catalog star clusters in the MW halo (abs(b) > ~5-10)
 dwarf_local_field: dwarf galaxies outside of MW/M31 to ~ 3 Mpc, mostly follows McConnachie 2012
+
+gc_ufsc: post Harris catalog star clusters in the MW halo (abs(b) > ~5-10)
+gc_disk: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these objects might be open clusters
+
 name_discovery: key, discovery year, discovery reference, name, and alternative names
 pm_overview: key, reference, proper motion measurement, method (this includes most proper motion measurements of dwarf galaxies)
 j_factor.csv: key, reference, angle, j-factor measurement [units are log10 GeV^2 cm^-5], notes (this includes some literature j-factor measurements, mostly from A. B. Pace)
