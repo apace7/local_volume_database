@@ -7,7 +7,7 @@ dsph_m31 = table.Table.read('data/dwarf_m31.csv')
 dsph_lf = table.Table.read('data/dwarf_local_field.csv')
 ufsc = table.Table.read('data/gc_ufsc.csv')
 gc_disk = table.Table.read('data/gc_disk.csv')
-
+gc_harris = table.Table.read('data/gc_harris.csv')
 
 x = "data/lvdb.bib"
 bib_database = bibtexparser.parse_file(x)
@@ -18,7 +18,7 @@ for k in bib_database.entries:
 
 
 missing = []
-for test_table in [dsph_mw, dsph_m31, dsph_lf, ufsc, gc_disk]:
+for test_table in [dsph_mw, dsph_m31, dsph_lf, ufsc, gc_disk, gc_harris]:
     for kk in ['ref_structure',  'ref_metallicity_photometric', 'ref_age', 'ref_sersic', 'ref_king', 'ref_metallicity', 'ref_proper_motion', 'ref_vlos', 'ref_surface_brightness', 'ref_mv', 'ref_distance']:
         for individual in range(len(test_table[kk])):
             if test_table[kk][individual] !='--':
