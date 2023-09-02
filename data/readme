@@ -5,6 +5,7 @@ dwarf_local_field: dwarf galaxies outside of MW/M31 to ~ 3 Mpc, mostly follows M
 
 gc_ufsc: post Harris catalog star clusters in the MW halo (abs(b) > ~5-10)
 gc_disk: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these objects might be open clusters
+gc_harris: globular clusters in Harris catalog
 
 name_discovery: key, discovery year, discovery reference, name, and alternative names
 pm_overview: key, reference, proper motion measurement, method (this includes most proper motion measurements of dwarf galaxies)
@@ -37,10 +38,12 @@ rcore, rking: profile fits with king profile in arcmin
 rad_sersic, n_sersic: sersic profile parameters. rad_sersic in arcmin
 age: Gyr units
 metallicity_photometric: metallicity isochrone fitting (or non-spectroscopic metallicity)
-flux_HI: (  Jy km s−1 ), this is a relatively new column and mostly incomplete
+flux_HI: (  Jy km s−1 ), flux in HI only included for dwarf galaxies
 ref: reference of author last name + ADS bibcode
 
-error columns: _em = error minus = minus 1 sigma (or 16% confidence interval) and similarly for _ep
+error columns: 
+_em = error minus = minus 1 sigma (or 16% confidence interval) 
+_ep = error plus = plus 1 sigma (84% confidence interval)
 _ul = upper limit at 95% confidence interval (some are 90% or 84%, the goal is to make it consistent)
 
 ref: reference of author last name + ADS bibcode
