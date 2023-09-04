@@ -1,0 +1,79 @@
+distance:
+  distance: 130.6
+  distance_em: 6.1
+  distance_ep: 6.1
+  distance_modulus: 20.58
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
+  ref: MutluPakdil2020ApJ...902..106M
+flux_HI:
+  flux_HI_ul: 0.37
+  ref: Putman2021ApJ...913...53P
+key: hercules_1
+location:
+  dec: 12.7852
+  ra: 247.7722
+m_v:
+  apparent_magnitude_v: 14.773
+  apparent_magnitude_v_em: 0.17
+  apparent_magnitude_v_ep: 0.17
+  ref: Munoz2018ApJ...860...66M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2006
+  host: MW
+  name: Hercules
+  ref_discovery_1: Belokurov2007ApJ...654..897B
+  table: dwarf_mw
+proper_motion:
+  pmdec: -0.339
+  pmdec_em: 0.036
+  pmdec_ep: 0.035
+  pmra: -0.035
+  pmra_em: 0.042
+  pmra_ep: 0.042
+  ref: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref: Simon2019ARA&A..57..375S
+  spec_metallicity: -2.47
+  spec_metallicity_em: 0.12
+  spec_metallicity_ep: 0.13
+  spec_metallicity_sigma: 0.47
+  spec_metallicity_sigma_em: 0.08
+  spec_metallicity_sigma_ep: 0.11
+structure:
+  ellipticity: 0.69
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.03
+  position_angle: -73.0
+  position_angle_em: 2.0
+  position_angle_ep: 2.0
+  ref: Munoz2018ApJ...860...66M
+  rhalf: 5.63
+  rhalf_em: 0.46
+  rhalf_ep: 0.46
+structure_king:
+  rcore: 3.29
+  rcore_em: 0.54
+  rcore_ep: 0.54
+  ref: Munoz2018ApJ...860...66M
+  rking: 39.9
+  rking_em: 4.7
+  rking_ep: 4.7
+structure_sersic:
+  n_sersic: 1.19
+  n_sersic_em: 0.17
+  n_sersic_ep: 0.17
+  rad_sersic: 5.99
+  rad_sersic_em: 0.58
+  rad_sersic_ep: 0.58
+  ref: Munoz2018ApJ...860...66M
+velocity:
+  ref: Simon2007ApJ...670..313S
+  vlos_sigma: 5.1
+  vlos_sigma_em: 0.9
+  vlos_sigma_ep: 0.9
+  vlos_systemic: 45.0
+  vlos_systemic_em: 1.1
+  vlos_systemic_ep: 1.1

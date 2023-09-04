@@ -1,0 +1,60 @@
+distance:
+  distance: 76.7
+  distance_em: 6.1
+  distance_ep: 4.0
+  distance_modulus: 19.42
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.01
+  ref: Cerny2021ApJ...920L..44C
+key: eridanus_4
+location:
+  dec: -9.515
+  ra: 76.438
+m_v:
+  apparent_magnitude_v: 14.72
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref: Cerny2021ApJ...920L..44C
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2001
+  host: MW
+  name: Eridanus IV
+  ref_discovery_1: Cerny2021ApJ...920L..44C
+  table: dwarf_mw
+proper_motion:
+  pmdec: -0.1
+  pmdec_em: 0.05
+  pmdec_ep: 0.05
+  pmra: 0.25
+  pmra_em: 0.06
+  pmra_ep: 0.06
+  ref: Cerny2021ApJ...920L..44C
+spec_metallicity:
+  ref: Heiger2023arXiv230808602H
+  spec_metallicity: -2.87
+  spec_metallicity_em: 0.07
+  spec_metallicity_ep: 0.08
+  spec_metallicity_sigma: 0.2
+  spec_metallicity_sigma_em: 0.09
+  spec_metallicity_sigma_ep: 0.09
+structure:
+  ellipticity: 0.54
+  ellipticity_em: 0.14
+  ellipticity_ep: 0.1
+  position_angle: 65.0
+  position_angle_em: 8.0
+  position_angle_ep: 9.0
+  ref: Cerny2021ApJ...920L..44C
+  rhalf: 4.9
+  rhalf_em: 0.8
+  rhalf_ep: 1.1
+velocity:
+  ref: Heiger2023arXiv230808602H
+  vlos_sigma: 6.1
+  vlos_sigma_em: 0.9
+  vlos_sigma_ep: 1.2
+  vlos_systemic: -31.5
+  vlos_systemic_em: 1.2
+  vlos_systemic_ep: 1.3

@@ -1,0 +1,59 @@
+distance:
+  distance: 102.0
+  distance_em: 7.0
+  distance_ep: 7.0
+  distance_modulus: 20.04
+  distance_modulus_em: 0.15
+  distance_modulus_ep: 0.15
+  ref: Cerny2023ApJ...953....1C
+key: bootes_5
+location:
+  dec: 32.914
+  ra: 213.909
+m_v:
+  apparent_magnitude_v: 16.84
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref: Cerny2023ApJ...953....1C
+metallicity_photometric:
+  metallicity_photometric: -2.2
+  ref: Cerny2023ApJ...953....1C
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 1
+  discovery_year: 2022
+  host: MW
+  name: Bootes V
+  other_name_1: DELVE J1415+3254
+  ref_discovery_1: Smith2022arXiv220908242S
+  ref_discovery_2: Cerny2023ApJ...953....1C
+  table: dwarf_mw
+proper_motion:
+  pmdec: -0.28
+  pmdec_em: 0.07
+  pmdec_ep: 0.07
+  pmra: -0.22
+  pmra_em: 0.05
+  pmra_ep: 0.05
+  ref: Cerny2023ApJ...953....1C
+spec_metallicity:
+  ref: Smith2023AJ....166...76S
+  spec_metallicity: -2.85
+  spec_metallicity_em: 0.1
+  spec_metallicity_ep: 0.1
+structure:
+  ellipticity: 0.2
+  ellipticity_em: 0.1
+  ellipticity_ep: 0.1
+  position_angle: 18.0
+  position_angle_em: 13.0
+  position_angle_ep: 15.0
+  ref: Cerny2023ApJ...953....1C
+  rhalf: 0.76
+  rhalf_em: 0.07
+  rhalf_ep: 0.08
+velocity:
+  ref: Smith2023AJ....166...76S
+  vlos_systemic: 5.1
+  vlos_systemic_em: 13.4
+  vlos_systemic_ep: 13.4

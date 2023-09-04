@@ -1,0 +1,82 @@
+distance:
+  distance: 258.2
+  distance_em: 9.3
+  distance_ep: 9.7
+  distance_modulus: 22.06
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref: Stetson2014PASP..126..616S
+flux_HI:
+  flux_HI_ul: 0.23
+  ref: Spekkens2014ApJ...795L...5S
+key: leo_1
+location:
+  dec: 12.3059
+  ra: 152.1146
+m_v:
+  apparent_magnitude_v: 10.24
+  apparent_magnitude_v_em: 0.28
+  apparent_magnitude_v_ep: 0.28
+  ref: Munoz2018ApJ...860...66M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1950
+  host: MW
+  name: Leo I
+  other_name_1: UGC 5470
+  other_name_2: DDO 74
+  other_name_3: Regulus Dwarf
+  ref_discovery_1: Harrington1950PASP...62..118H
+  table: dwarf_mw
+proper_motion:
+  pmdec: -0.12
+  pmdec_em: 0.01
+  pmdec_ep: 0.01
+  pmra: -0.05
+  pmra_em: 0.014
+  pmra_ep: 0.014
+  ref: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref: Simon2019ARA&A..57..375S
+  spec_metallicity: -1.48
+  spec_metallicity_em: 0.01
+  spec_metallicity_ep: 0.02
+  spec_metallicity_sigma: 0.26
+  spec_metallicity_sigma_em: 0.01
+  spec_metallicity_sigma_ep: 0.01
+structure:
+  ellipticity: 0.3
+  ellipticity_em: 0.1
+  ellipticity_ep: 0.1
+  position_angle: 78.0
+  position_angle_em: 1.0
+  position_angle_ep: 1.0
+  ref: Munoz2018ApJ...860...66M
+  rhalf: 3.65
+  rhalf_em: 0.03
+  rhalf_ep: 0.03
+structure_king:
+  rcore: 3.6
+  rcore_em: 0.1
+  rcore_ep: 0.1
+  ref: Munoz2018ApJ...860...66M
+  rking: 13.5
+  rking_em: 0.3
+  rking_ep: 0.3
+structure_sersic:
+  n_sersic: 0.77
+  n_sersic_em: 0.02
+  n_sersic_ep: 0.02
+  rad_sersic: 3.3
+  rad_sersic_em: 0.03
+  rad_sersic_ep: 0.03
+  ref: Munoz2018ApJ...860...66M
+velocity:
+  ref: Mateo2008ApJ...675..201M
+  vlos_sigma: 9.2
+  vlos_sigma_em: 0.4
+  vlos_sigma_ep: 0.4
+  vlos_systemic: 282.9
+  vlos_systemic_em: 0.5
+  vlos_systemic_ep: 0.5

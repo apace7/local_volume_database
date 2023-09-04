@@ -1,0 +1,79 @@
+distance:
+  distance: 42.0
+  distance_em: 1.0
+  distance_ep: 2.0
+  distance_modulus: 18.13
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref: Musella2009ApJ...695L..83M
+flux_HI:
+  flux_HI_ul: 0.14
+  ref: Spekkens2014ApJ...795L...5S
+key: coma_berenices_1
+location:
+  dec: 23.9069
+  ra: 186.7454
+m_v:
+  apparent_magnitude_v: 13.84
+  apparent_magnitude_v_em: 0.25
+  apparent_magnitude_v_ep: 0.25
+  ref: Munoz2018ApJ...860...66M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2006
+  host: MW
+  name: Coma Berenices
+  ref_discovery_1: Belokurov2007ApJ...654..897B
+  table: dwarf_mw
+proper_motion:
+  pmdec: -1.721
+  pmdec_em: 0.024
+  pmdec_ep: 0.024
+  pmra: 0.423
+  pmra_em: 0.027
+  pmra_ep: 0.026
+  ref: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref: Simon2019ARA&A..57..375S
+  spec_metallicity: -2.43
+  spec_metallicity_em: 0.11
+  spec_metallicity_ep: 0.11
+  spec_metallicity_sigma: 0.46
+  spec_metallicity_sigma_em: 0.08
+  spec_metallicity_sigma_ep: 0.09
+structure:
+  ellipticity: 0.37
+  ellipticity_em: 0.05
+  ellipticity_ep: 0.05
+  position_angle: -57.0
+  position_angle_em: 4.0
+  position_angle_ep: 4.0
+  ref: Munoz2018ApJ...860...66M
+  rhalf: 5.64
+  rhalf_em: 0.3
+  rhalf_ep: 0.3
+structure_king:
+  rcore: 4.25
+  rcore_em: 0.73
+  rcore_ep: 0.73
+  ref: Munoz2018ApJ...860...66M
+  rking: 26.1
+  rking_em: 3.9
+  rking_ep: 3.9
+structure_sersic:
+  n_sersic: 0.93
+  n_sersic_em: 0.12
+  n_sersic_ep: 0.12
+  rad_sersic: 5.63
+  rad_sersic_em: 0.3
+  rad_sersic_ep: 0.3
+  ref: Munoz2018ApJ...860...66M
+velocity:
+  ref: Simon2007ApJ...670..313S
+  vlos_sigma: 4.6
+  vlos_sigma_em: 0.8
+  vlos_sigma_ep: 0.8
+  vlos_systemic: 98.1
+  vlos_systemic_em: 0.9
+  vlos_systemic_ep: 0.9

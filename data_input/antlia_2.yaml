@@ -1,0 +1,63 @@
+distance:
+  distance: 124.1
+  distance_em: 5.4
+  distance_ep: 5.4
+  distance_modulus: 20.47
+  distance_modulus_em: 0.09
+  distance_modulus_ep: 0.09
+  ref: Vivas2022ApJ...926...78V
+flux_HI:
+  flux_HI_ul: 0.027
+  ref: Putman2021ApJ...913...53P
+key: antlia_2
+location:
+  dec: -36.6991
+  ra: 143.8079
+m_v:
+  apparent_magnitude_v: 10.74
+  apparent_magnitude_v_em: 0.08
+  apparent_magnitude_v_ep: 0.08
+  ref: Ji2021ApJ...921...32J
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2019
+  host: MW
+  name: Antlia II
+  ref_discovery_1: Torrealba2019MNRAS.488.2743T
+  table: dwarf_mw
+proper_motion:
+  pmdec: 0.1
+  pmdec_em: 0.009
+  pmdec_ep: 0.009
+  pmra: -0.093
+  pmra_em: 0.008
+  pmra_ep: 0.008
+  ref: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref: Ji2021ApJ...921...32J
+  spec_metallicity: -1.9
+  spec_metallicity_em: 0.04
+  spec_metallicity_ep: 0.04
+  spec_metallicity_sigma: 0.34
+  spec_metallicity_sigma_em: 0.03
+  spec_metallicity_sigma_ep: 0.03
+structure:
+  ellipticity: 0.6
+  ellipticity_em: 0.04
+  ellipticity_ep: 0.04
+  position_angle: 156.0
+  position_angle_em: 2.4
+  position_angle_ep: 2.4
+  ref: Ji2021ApJ...921...32J
+  rhalf: 104.6
+  rhalf_em: 8.6
+  rhalf_ep: 8.6
+velocity:
+  ref: Ji2021ApJ...921...32J
+  vlos_sigma: 5.98
+  vlos_sigma_em: 0.36
+  vlos_sigma_ep: 0.37
+  vlos_systemic: 288.8
+  vlos_systemic_em: 0.4
+  vlos_systemic_ep: 0.4

@@ -1,0 +1,75 @@
+distance:
+  distance: 36.6
+  distance_em: 2.4
+  distance_ep: 2.5
+  distance_modulus: 17.81
+  distance_modulus_em: 0.15
+  distance_modulus_ep: 0.14
+  ref: Boettcher2013AJ....146...94B
+flux_HI:
+  flux_HI_ul: 0.95
+  ref: Putman2021ApJ...913...53P
+key: segue_2
+location:
+  dec: 20.1624
+  ra: 34.8226
+m_v:
+  apparent_magnitude_v: 15.86
+  apparent_magnitude_v_em: 0.88
+  apparent_magnitude_v_ep: 0.88
+  ref: Munoz2018ApJ...860...66M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2009
+  host: MW
+  name: Segue 2
+  ref_discovery_1: Belokurov2009MNRAS.397.1748B
+  table: dwarf_mw
+proper_motion:
+  pmdec: -0.322
+  pmdec_em: 0.05
+  pmdec_ep: 0.049
+  pmra: 1.446
+  pmra_em: 0.059
+  pmra_ep: 0.059
+  ref: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref: Kirby2013ApJ...770...16K
+  spec_metallicity: -2.22
+  spec_metallicity_em: 0.13
+  spec_metallicity_ep: 0.13
+  spec_metallicity_sigma: 0.43
+structure:
+  ellipticity: 0.22
+  ellipticity_em: 0.07
+  ellipticity_ep: 0.07
+  position_angle: 164.0
+  position_angle_em: 14.0
+  position_angle_ep: 14.0
+  ref: Munoz2018ApJ...860...66M
+  rhalf: 3.76
+  rhalf_em: 0.28
+  rhalf_ep: 0.28
+structure_king:
+  rcore: 0.2
+  rcore_em: 0.03
+  rcore_ep: 0.03
+  ref: Munoz2018ApJ...860...66M
+  rking: 8.41
+  rking_em: 1.69
+  rking_ep: 1.69
+structure_sersic:
+  n_sersic: 0.82
+  n_sersic_em: 0.16
+  n_sersic_ep: 0.16
+  rad_sersic: 3.64
+  rad_sersic_em: 0.29
+  rad_sersic_ep: 0.29
+  ref: Munoz2018ApJ...860...66M
+velocity:
+  ref: Kirby2013ApJ...770...16K
+  vlos_sigma_ul: 2.6
+  vlos_systemic: -40.2
+  vlos_systemic_em: 0.9
+  vlos_systemic_ep: 0.9

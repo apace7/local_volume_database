@@ -1,0 +1,73 @@
+distance:
+  distance: 79.0
+  distance_em: 4.0
+  distance_ep: 4.0
+  distance_modulus: 19.5
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
+  ref: Koposov2015ApJ...805..130K
+flux_HI:
+  flux_HI_ul: 0.51
+  ref: Putman2021ApJ...913...53P
+key: horologium_1
+location:
+  dec: -54.116
+  ra: 43.8813
+m_v:
+  apparent_magnitude_v: 16.1
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref: Koposov2015ApJ...805..130K
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: LMC
+  name: Horologium I
+  other_name_1: DES J0255.4-5406
+  ref_discovery_1: Bechtol2015ApJ...807...50B
+  ref_discovery_2: Koposov2015ApJ...805..130K
+  table: dwarf_mw
+proper_motion:
+  pmdec: -0.607
+  pmdec_em: 0.035
+  pmdec_ep: 0.035
+  pmra: 0.847
+  pmra_em: 0.035
+  pmra_ep: 0.034
+  ref: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref: Koposov2015ApJ...811...62K
+  spec_metallicity: -2.76
+  spec_metallicity_em: 0.1
+  spec_metallicity_ep: 0.1
+  spec_metallicity_sigma: 0.17
+  spec_metallicity_sigma_em: 0.03
+  spec_metallicity_sigma_ep: 0.2
+structure:
+  ellipticity: 0.16
+  ellipticity_em: 0.05
+  ellipticity_ep: 0.06
+  position_angle: 67.0
+  position_angle_em: 14.0
+  position_angle_ep: 13.0
+  ref: Moskowitz2020ApJ...892...27M
+  rhalf: 1.7
+  rhalf_em: 0.1
+  rhalf_ep: 0.1
+structure_sersic:
+  n_sersic: 0.98
+  n_sersic_em: 0.47
+  n_sersic_ep: 0.47
+  rad_sersic: 1.54
+  rad_sersic_em: 0.34
+  rad_sersic_ep: 0.34
+  ref: Munoz2018ApJ...860...66M
+velocity:
+  ref: Koposov2015ApJ...811...62K
+  vlos_sigma: 4.9
+  vlos_sigma_em: 0.9
+  vlos_sigma_ep: 2.8
+  vlos_systemic: 112.8
+  vlos_systemic_em: 2.6
+  vlos_systemic_ep: 2.5

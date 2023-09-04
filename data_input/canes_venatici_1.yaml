@@ -1,0 +1,79 @@
+distance:
+  distance: 210.0
+  distance_em: 5.0
+  distance_ep: 7.0
+  distance_modulus: 21.62
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref: Kuehn2008ApJ...674L..81K
+flux_HI:
+  flux_HI_ul: 0.104
+  ref: Spekkens2014ApJ...795L...5S
+key: canes_venatici_1
+location:
+  dec: 33.5521
+  ra: 202.0091
+m_v:
+  apparent_magnitude_v: 12.89
+  apparent_magnitude_v_em: 0.06
+  apparent_magnitude_v_ep: 0.06
+  ref: Munoz2018ApJ...860...66M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2006
+  host: MW
+  name: Canes Venatici I
+  ref_discovery_1: Zucker2006ApJ...643L.103Z
+  table: dwarf_mw
+proper_motion:
+  pmdec: -0.116
+  pmdec_em: 0.02
+  pmdec_ep: 0.02
+  pmra: -0.096
+  pmra_em: 0.031
+  pmra_ep: 0.03
+  ref: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref: Simon2019ARA&A..57..375S
+  spec_metallicity: -1.91
+  spec_metallicity_em: 0.04
+  spec_metallicity_ep: 0.04
+  spec_metallicity_sigma: 0.39
+  spec_metallicity_sigma_em: 0.02
+  spec_metallicity_sigma_ep: 0.03
+structure:
+  ellipticity: 0.44
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.03
+  position_angle: 80.0
+  position_angle_em: 2.0
+  position_angle_ep: 2.0
+  ref: Munoz2018ApJ...860...66M
+  rhalf: 7.12
+  rhalf_em: 0.21
+  rhalf_ep: 0.21
+structure_king:
+  rcore: 6.7
+  rcore_em: 0.5
+  rcore_ep: 0.5
+  ref: Munoz2018ApJ...860...66M
+  rking: 30.9
+  rking_em: 1.0
+  rking_ep: 1.0
+structure_sersic:
+  n_sersic: 0.78
+  n_sersic_em: 0.04
+  n_sersic_ep: 0.04
+  rad_sersic: 7.67
+  rad_sersic_em: 0.23
+  rad_sersic_ep: 0.23
+  ref: Munoz2018ApJ...860...66M
+velocity:
+  ref: Simon2007ApJ...670..313S
+  vlos_sigma: 7.6
+  vlos_sigma_em: 0.4
+  vlos_sigma_ep: 0.4
+  vlos_systemic: 30.9
+  vlos_systemic_em: 0.6
+  vlos_systemic_ep: 0.6

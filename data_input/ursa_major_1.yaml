@@ -1,0 +1,79 @@
+distance:
+  distance: 97.3
+  distance_em: 5.7
+  distance_ep: 6.0
+  distance_modulus: 19.94
+  distance_modulus_em: 0.13
+  distance_modulus_ep: 0.13
+  ref: Garofalo2013ApJ...767...62G
+flux_HI:
+  flux_HI_ul: 3.11
+  ref: Putman2021ApJ...913...53P
+key: ursa_major_1
+location:
+  dec: 51.9479
+  ra: 158.7706
+m_v:
+  apparent_magnitude_v: 14.8
+  apparent_magnitude_v_em: 0.38
+  apparent_magnitude_v_ep: 0.38
+  ref: Munoz2018ApJ...860...66M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2005
+  host: MW
+  name: Ursa Major I
+  ref_discovery_1: Willman2005ApJ...626L..85W
+  table: dwarf_mw
+proper_motion:
+  pmdec: -0.613
+  pmdec_em: 0.042
+  pmdec_ep: 0.04
+  pmra: -0.401
+  pmra_em: 0.036
+  pmra_ep: 0.036
+  ref: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref: Simon2019ARA&A..57..375S
+  spec_metallicity: -2.16
+  spec_metallicity_em: 0.13
+  spec_metallicity_ep: 0.11
+  spec_metallicity_sigma: 0.62
+  spec_metallicity_sigma_em: 0.08
+  spec_metallicity_sigma_ep: 0.1
+structure:
+  ellipticity: 0.59
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.03
+  position_angle: 67.0
+  position_angle_em: 2.0
+  position_angle_ep: 2.0
+  ref: Munoz2018ApJ...860...66M
+  rhalf: 8.31
+  rhalf_em: 0.35
+  rhalf_ep: 0.35
+structure_king:
+  rcore: 13.3
+  rcore_em: 2.9
+  rcore_ep: 2.9
+  ref: Munoz2018ApJ...860...66M
+  rking: 24.0
+  rking_em: 1.9
+  rking_ep: 1.9
+structure_sersic:
+  n_sersic: 0.47
+  n_sersic_em: 0.08
+  n_sersic_ep: 0.08
+  rad_sersic: 8.34
+  rad_sersic_em: 0.34
+  rad_sersic_ep: 0.34
+  ref: Munoz2018ApJ...860...66M
+velocity:
+  ref: Simon2007ApJ...670..313S
+  vlos_sigma: 7.0
+  vlos_sigma_em: 1.0
+  vlos_sigma_ep: 1.0
+  vlos_systemic: -55.3
+  vlos_systemic_em: 1.4
+  vlos_systemic_ep: 1.4
