@@ -1,0 +1,57 @@
+distance:
+  distance: 92.0
+  distance_em: 13.0
+  distance_ep: 13.0
+  distance_modulus: 19.81
+  distance_modulus_em: 0.31
+  distance_modulus_ep: 0.31
+  ref: DrlicaWagner2015ApJ...813..109D
+flux_HI:
+  flux_HI_ul: 0.5
+  ref: Putman2021ApJ...913...53P
+key: reticulum_3
+location:
+  dec: -60.45
+  ra: 56.36
+m_v:
+  apparent_magnitude_v: 16.51
+  apparent_magnitude_v_em: 0.29
+  apparent_magnitude_v_ep: 0.29
+  ref: DrlicaWagner2015ApJ...813..109D
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: MW
+  name: Reticulum III
+  other_name_1: DES J0345-6026
+  ref_discovery_1: DrlicaWagner2015ApJ...813..109D
+  table: dwarf_mw
+proper_motion:
+  pmdec: -0.502
+  pmdec_em: 0.226
+  pmdec_ep: 0.222
+  pmra: 0.26
+  pmra_em: 0.144
+  pmra_ep: 0.14
+  ref: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref: Fritz2019A&A...623A.129F
+  spec_metallicity: -2.81
+  spec_metallicity_em: 0.29
+  spec_metallicity_ep: 0.29
+  spec_metallicity_sigma: 0.35
+  spec_metallicity_sigma_em: 0.09
+  spec_metallicity_sigma_ep: 0.21
+structure:
+  ellipticity_ul: 0.4
+  ref: DrlicaWagner2015ApJ...813..109D
+  rhalf: 2.4
+  rhalf_em: 0.8
+  rhalf_ep: 0.9
+velocity:
+  ref: Fritz2019A&A...623A.129F
+  vlos_sigma_ul: 8.3
+  vlos_systemic: 274.2
+  vlos_systemic_em: 7.45
+  vlos_systemic_ep: 7.45

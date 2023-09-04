@@ -1,0 +1,61 @@
+distance:
+  distance: 47.0
+  distance_em: 4.0
+  distance_ep: 4.0
+  distance_modulus: 18.36
+  distance_modulus_em: 0.18
+  distance_modulus_ep: 0.18
+  ref: Simon2020ApJ...892..137S
+flux_HI:
+  flux_HI_ul: 0.44
+  ref: Putman2021ApJ...913...53P
+key: tucana_4
+location:
+  dec: -60.83
+  ra: 0.717
+m_v:
+  apparent_magnitude_v: 15.36
+  apparent_magnitude_v_em: 0.4
+  apparent_magnitude_v_ep: 0.3
+  ref: Simon2020ApJ...892..137S
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: MW
+  name: Tucana IV
+  other_name_1: DES J0002-6051
+  ref_discovery_1: DrlicaWagner2015ApJ...813..109D
+  table: dwarf_mw
+proper_motion:
+  pmdec: -1.707
+  pmdec_em: 0.055
+  pmdec_ep: 0.054
+  pmra: 0.534
+  pmra_em: 0.053
+  pmra_ep: 0.05
+  ref: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref: Simon2020ApJ...892..137S
+  spec_metallicity: -2.49
+  spec_metallicity_em: 0.16
+  spec_metallicity_ep: 0.15
+structure:
+  ellipticity: 0.39
+  ellipticity_em: 0.1
+  ellipticity_ep: 0.07
+  position_angle: 27.0
+  position_angle_em: 8.0
+  position_angle_ep: 9.0
+  ref: Simon2020ApJ...892..137S
+  rhalf: 9.3
+  rhalf_em: 0.9
+  rhalf_ep: 1.4
+velocity:
+  ref: Simon2020ApJ...892..137S
+  vlos_sigma: 4.3
+  vlos_sigma_em: 1.0
+  vlos_sigma_ep: 1.7
+  vlos_systemic: 15.9
+  vlos_systemic_em: 1.7
+  vlos_systemic_ep: 1.8

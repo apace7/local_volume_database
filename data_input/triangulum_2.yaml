@@ -1,0 +1,78 @@
+distance:
+  distance: 28.4
+  distance_em: 1.6
+  distance_ep: 1.6
+  distance_modulus: 17.27
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.11
+  ref: Carlin2017AJ....154..267C
+flux_HI:
+  flux_HI_ul: 0.58
+  ref: Putman2021ApJ...913...53P
+key: triangulum_2
+location:
+  dec: 36.1702
+  ra: 33.3252
+m_v:
+  apparent_magnitude_v: 16.07
+  apparent_magnitude_v_em: 0.4
+  apparent_magnitude_v_ep: 0.4
+  ref: Carlin2017AJ....154..267C
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: MW
+  name: Triangulum II
+  other_name_1: Laevens 2
+  ref_discovery_1: Laevens2015ApJ...802L..18L
+  table: dwarf_mw
+proper_motion:
+  pmdec: 0.112
+  pmdec_em: 0.067
+  pmdec_ep: 0.069
+  pmra: 0.575
+  pmra_em: 0.06
+  pmra_ep: 0.06
+  ref: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref: Kirby2017ApJ...838...83K
+  spec_metallicity: -2.24
+  spec_metallicity_em: 0.05
+  spec_metallicity_ep: 0.05
+  spec_metallicity_sigma: 0.53
+  spec_metallicity_sigma_em: 0.12
+  spec_metallicity_sigma_ep: 0.38
+structure:
+  ellipticity: 0.3
+  ellipticity_em: 0.1
+  ellipticity_ep: 0.1
+  position_angle: 73.0
+  position_angle_em: 17.0
+  position_angle_ep: 17.0
+  ref: Carlin2017AJ....154..267C
+  rhalf: 2.5
+  rhalf_em: 0.3
+  rhalf_ep: 0.3
+structure_king:
+  rcore: 2.1
+  rcore_em: 0.6
+  rcore_ep: 0.6
+  ref: Carlin2017AJ....154..267C
+  rking: 11.8
+  rking_em: 2.7
+  rking_ep: 2.7
+structure_sersic:
+  n_sersic: 1.45
+  n_sersic_em: 0.45
+  n_sersic_ep: 0.45
+  rad_sersic: 2.0
+  rad_sersic_em: 0.4
+  rad_sersic_ep: 0.4
+  ref: Munoz2018ApJ...860...66M
+velocity:
+  ref: Kirby2017ApJ...838...83K
+  vlos_sigma_ul: 4.2
+  vlos_systemic: -381.7
+  vlos_systemic_em: 1.1
+  vlos_systemic_ep: 1.1

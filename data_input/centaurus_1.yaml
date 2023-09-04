@@ -1,0 +1,60 @@
+distance:
+  distance: 116.3
+  distance_em: 0.6
+  distance_ep: 1.6
+  distance_modulus: 20.33
+  distance_modulus_em: 0.01
+  distance_modulus_ep: 0.03
+  ref: Mau2020ApJ...890..136M
+key: centaurus_1
+location:
+  dec: -40.902
+  ra: 189.585
+m_v:
+  apparent_magnitude_v: 14.78
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref: Mau2020ApJ...890..136M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2020
+  host: MW
+  name: Centaurus I
+  ref_discovery_1: Mau2020ApJ...890..136M
+  table: dwarf_mw
+proper_motion:
+  pmdec: -0.19
+  pmdec_em: 0.04
+  pmdec_ep: 0.04
+  pmra: -0.14
+  pmra_em: 0.05
+  pmra_ep: 0.05
+  ref: Heiger2023arXiv230808602H
+spec_metallicity:
+  ref: Heiger2023arXiv230808602H
+  spec_metallicity: -2.57
+  spec_metallicity_em: 0.08
+  spec_metallicity_ep: 0.08
+  spec_metallicity_sigma: 0.38
+  spec_metallicity_sigma_em: 0.05
+  spec_metallicity_sigma_ep: 0.07
+structure:
+  ellipticity: 0.4
+  ellipticity_em: 0.1
+  ellipticity_ep: 0.1
+  position_angle: 20.0
+  position_angle_em: 11.0
+  position_angle_ep: 11.0
+  ref: Mau2020ApJ...890..136M
+  rhalf: 2.9
+  rhalf_em: 0.4
+  rhalf_ep: 0.5
+velocity:
+  ref: Heiger2023arXiv230808602H
+  vlos_sigma: 4.2
+  vlos_sigma_em: 0.5
+  vlos_sigma_ep: 0.6
+  vlos_systemic: 44.8
+  vlos_systemic_em: 0.8
+  vlos_systemic_ep: 0.8

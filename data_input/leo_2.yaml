@@ -1,0 +1,82 @@
+distance:
+  distance: 233.0
+  distance_em: 15.0
+  distance_ep: 15.0
+  distance_modulus: 21.84
+  distance_modulus_em: 0.13
+  distance_modulus_ep: 0.13
+  ref: Bellazzini2005MNRAS.360..185B
+flux_HI:
+  flux_HI_ul: 0.15
+  ref: Spekkens2014ApJ...795L...5S
+key: leo_2
+location:
+  dec: 22.1529
+  ra: 168.3627
+m_v:
+  apparent_magnitude_v: 12.12
+  apparent_magnitude_v_em: 0.04
+  apparent_magnitude_v_ep: 0.04
+  ref: Munoz2018ApJ...860...66M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1950
+  host: MW
+  name: Leo II
+  other_name_1: Leo B
+  other_name_2: UGC 6253
+  other_name_3: DDO 93
+  ref_discovery_1: Harrington1950PASP...62..118H
+  table: dwarf_mw
+proper_motion:
+  pmdec: -0.15
+  pmdec_em: 0.026
+  pmdec_ep: 0.026
+  pmra: -0.109
+  pmra_em: 0.028
+  pmra_ep: 0.028
+  ref: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref: Simon2019ARA&A..57..375S
+  spec_metallicity: -1.68
+  spec_metallicity_em: 0.03
+  spec_metallicity_ep: 0.02
+  spec_metallicity_sigma: 0.34
+  spec_metallicity_sigma_em: 0.02
+  spec_metallicity_sigma_ep: 0.02
+structure:
+  ellipticity: 0.07
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 38.0
+  position_angle_em: 8.0
+  position_angle_ep: 8.0
+  ref: Munoz2018ApJ...860...66M
+  rhalf: 2.52
+  rhalf_em: 0.03
+  rhalf_ep: 0.03
+structure_king:
+  rcore: 2.25
+  rcore_em: 0.1
+  rcore_ep: 0.1
+  ref: Munoz2018ApJ...860...66M
+  rking: 9.82
+  rking_em: 0.41
+  rking_ep: 0.41
+structure_sersic:
+  n_sersic: 0.71
+  n_sersic_em: 0.02
+  n_sersic_ep: 0.02
+  rad_sersic: 2.48
+  rad_sersic_em: 0.03
+  rad_sersic_ep: 0.03
+  ref: Munoz2018ApJ...860...66M
+velocity:
+  ref: Spencer2017ApJ...836..202S
+  vlos_sigma: 7.4
+  vlos_sigma_em: 0.4
+  vlos_sigma_ep: 0.4
+  vlos_systemic: 78.5
+  vlos_systemic_em: 0.6
+  vlos_systemic_ep: 0.6

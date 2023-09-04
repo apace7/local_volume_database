@@ -1,0 +1,74 @@
+distance:
+  distance: 23.0
+  distance_em: 2.0
+  distance_ep: 2.0
+  distance_modulus: 16.8
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.2
+  ref: Belokurov2007ApJ...654..897B
+flux_HI:
+  flux_HI_ul: 0.089
+  ref: Spekkens2014ApJ...795L...5S
+key: segue_1
+location:
+  dec: 16.0756
+  ra: 151.7504
+m_v:
+  apparent_magnitude_v: 15.5
+  apparent_magnitude_v_em: 0.73
+  apparent_magnitude_v_ep: 0.73
+  ref: Munoz2018ApJ...860...66M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2006
+  host: MW
+  name: Segue 1
+  ref_discovery_1: Belokurov2007ApJ...654..897B
+  table: dwarf_mw
+proper_motion:
+  pmdec: -3.375
+  pmdec_em: 0.046
+  pmdec_ep: 0.044
+  pmra: -2.102
+  pmra_em: 0.051
+  pmra_ep: 0.051
+  ref: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref: Simon2011ApJ...733...46S
+  spec_metallicity: -2.5
+structure:
+  ellipticity: 0.33
+  ellipticity_em: 0.1
+  ellipticity_ep: 0.1
+  position_angle: 77.0
+  position_angle_em: 15.0
+  position_angle_ep: 15.0
+  ref: Munoz2018ApJ...860...66M
+  rhalf: 3.62
+  rhalf_em: 0.42
+  rhalf_ep: 0.42
+structure_king:
+  rcore: 3.24
+  rcore_em: 1.56
+  rcore_ep: 1.56
+  ref: Munoz2018ApJ...860...66M
+  rking: 16.4
+  rking_em: 2.6
+  rking_ep: 2.6
+structure_sersic:
+  n_sersic: 0.85
+  n_sersic_em: 0.28
+  n_sersic_ep: 0.28
+  rad_sersic: 3.95
+  rad_sersic_em: 0.48
+  rad_sersic_ep: 0.48
+  ref: Munoz2018ApJ...860...66M
+velocity:
+  ref: Simon2011ApJ...733...46S
+  vlos_sigma: 3.7
+  vlos_sigma_em: 1.1
+  vlos_sigma_ep: 1.4
+  vlos_systemic: 208.5
+  vlos_systemic_em: 0.9
+  vlos_systemic_ep: 0.9
