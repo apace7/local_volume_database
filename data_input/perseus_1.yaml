@@ -1,0 +1,60 @@
+distance:
+  distance: 704.7
+  distance_em: 19.0
+  distance_ep: 20.0
+  distance_modulus: 24.24
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Savino2022ApJ...938..101S
+key: perseus_1
+location:
+  dec: 40.99106
+  ra: 45.34617
+m_v:
+  apparent_magnitude_v: 14.19
+  apparent_magnitude_v_em: 0.7
+  apparent_magnitude_v_ep: 0.7
+  ref_m_v: Martin2013ApJ...779L..10M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2013
+  host: M_31
+  name: Perseus I
+  other_name:
+  - Andromeda XXXIII
+  ref_discovery:
+  - Martin2013ApJ...779L..10M
+  table: dwarf_m31
+spec_metallicity:
+  ref_spec_metallicity: Martin2014ApJ...793L..14M
+  spec_metallicity: -2.0
+  spec_metallicity_em: 0.2
+  spec_metallicity_ep: 0.2
+structure:
+  ellipticity: 0.04
+  ellipticity_em: 0.08
+  ellipticity_ep: 0.08
+  position_angle: 81.56
+  position_angle_em: 21.43
+  position_angle_ep: 21.43
+  ref_structure: Higgs2021MNRAS.503..176H
+  rhalf: 1.38
+  rhalf_em: 0.19
+  rhalf_ep: 0.19
+structure_sersic:
+  n_sersic: 0.79
+  n_sersic_em: 0.63
+  n_sersic_ep: 0.63
+  rad_sersic: 1.38
+  rad_sersic_em: 0.19
+  rad_sersic_ep: 0.19
+  ref_structure_sersic: Higgs2021MNRAS.503..176H
+velocity:
+  ref_vlos: Martin2014ApJ...793L..14M
+  vlos_sigma: 4.2
+  vlos_sigma_em: 4.2
+  vlos_sigma_ep: 3.6
+  vlos_systemic: -326.0
+  vlos_systemic_em: 3.0
+  vlos_systemic_ep: 3.0

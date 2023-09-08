@@ -1,0 +1,40 @@
+distance:
+  distance: 2700.0
+  distance_em: 90.0
+  distance_ep: 90.0
+  distance_modulus: 27.16
+  distance_modulus_em: 0.09
+  distance_modulus_ep: 0.09
+  ref_distance: Makarova2023ApJ...943..139M
+key: eso_006-001
+location:
+  dec: -85.14555556
+  ra: 124.8470833
+m_v:
+  apparent_magnitude_v: 14.75
+  ref_m_v: Makarova2023ApJ...943..139M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1982
+  host: LF
+  name: ESO 006-001
+  ref_discovery:
+  - Lauberts1982euse.book.....L
+  table: dwarf_local_field
+spec_metallicity:
+  ref_spec_metallicity: Makarova2023ApJ...943..139M
+  spec_metallicity: -1.5
+  spec_metallicity_em: 0.2
+  spec_metallicity_ep: 0.2
+structure:
+  ellipticity: 0.11
+  ref_structure: Makarova2023ApJ...943..139M
+  rhalf: 0.2833
+  rhalf_em: 0.025
+  rhalf_ep: 0.025
+velocity:
+  ref_vlos: Makarova2023ApJ...943..139M
+  vlos_systemic: 319.0
+  vlos_systemic_em: 57.0
+  vlos_systemic_ep: 57.0

@@ -1,0 +1,41 @@
+distance:
+  distance: 2270.0
+  distance_em: 188.0
+  distance_ep: 188.0
+  distance_modulus: 26.78
+  distance_modulus_em: 0.18
+  distance_modulus_ep: 0.18
+  ref_distance: McConnachie2012AJ....144....4M
+key: ic_3104
+location:
+  dec: -79.72611111
+  ra: 184.6916667
+m_v:
+  apparent_magnitude_v: 12.49
+  ref_m_v: McConnachie2012AJ....144....4M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1908
+  host: LF
+  name: IC 3104
+  other_name:
+  - ESO 020-G004
+  - UKS 1215-794
+  ref_discovery:
+  - Pickering1908AnHar..60..147P
+  table: dwarf_local_field
+structure:
+  ellipticity: 0.52
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  position_angle: 45.0
+  position_angle_em: 2.0
+  position_angle_ep: 2.0
+  ref_structure: McConnachie2012AJ....144....4M
+  rhalf: 2.01
+velocity:
+  ref_vlos: McConnachie2012AJ....144....4M
+  vlos_systemic: 429.0
+  vlos_systemic_em: 4.0
+  vlos_systemic_ep: 4.0

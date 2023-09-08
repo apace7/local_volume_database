@@ -3,10 +3,7 @@ distance:
   distance_em: 0.4
   distance_ep: 0.4
   distance_modulus: 17.86
-  ref: Torrealba2018MNRAS.475.5085T
-flux_HI:
-  flux_HI_ul: 0.72
-  ref: Putman2021ApJ...913...53P
+  ref_distance: Torrealba2018MNRAS.475.5085T
 key: carina_2
 location:
   dec: -57.9991
@@ -15,14 +12,15 @@ m_v:
   apparent_magnitude_v: 13.29
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
-  ref: Torrealba2018MNRAS.475.5085T
+  ref_m_v: Torrealba2018MNRAS.475.5085T
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2018
   host: LMC
   name: Carina II
-  ref_discovery_1: Torrealba2018MNRAS.475.5085T
+  ref_discovery:
+  - Torrealba2018MNRAS.475.5085T
   table: dwarf_mw
 proper_motion:
   pmdec: 0.133
@@ -31,9 +29,9 @@ proper_motion:
   pmra: 1.885
   pmra_em: 0.019
   pmra_ep: 0.018
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 spec_metallicity:
-  ref: Li2018ApJ...857..145L
+  ref_spec_metallicity: Li2018ApJ...857..145L
   spec_metallicity: -2.44
   spec_metallicity_em: 0.09
   spec_metallicity_ep: 0.09
@@ -47,12 +45,12 @@ structure:
   position_angle: 170.0
   position_angle_em: 9.0
   position_angle_ep: 9.0
-  ref: Torrealba2018MNRAS.475.5085T
+  ref_structure: Torrealba2018MNRAS.475.5085T
   rhalf: 8.69
   rhalf_em: 0.75
   rhalf_ep: 0.75
 velocity:
-  ref: Li2018ApJ...857..145L
+  ref_vlos: Li2018ApJ...857..145L
   vlos_sigma: 3.4
   vlos_sigma_em: 0.8
   vlos_sigma_ep: 1.2

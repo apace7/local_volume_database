@@ -1,0 +1,40 @@
+distance:
+  distance: 7.242
+  distance_em: 0.288
+  distance_ep: 0.299
+  distance_modulus: 14.299
+  distance_modulus_em: 0.088
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6256
+location:
+  dec: -37.120968
+  ra: 254.886107
+m_v:
+  apparent_magnitude_v: 7.19
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6256
+  table: gc_harris
+proper_motion:
+  pmdec: -1.6375
+  pmdec_em: 0.0304
+  pmdec_ep: 0.0304
+  pmra: -3.7149
+  pmra_em: 0.0312
+  pmra_ep: 0.0312
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Harris1996AJ....112.1487H
+  spec_metallicity: -1.02
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.4
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -99.75
+  vlos_systemic_em: 0.66
+  vlos_systemic_ep: 0.66

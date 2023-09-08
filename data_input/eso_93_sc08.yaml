@@ -1,0 +1,23 @@
+key: eso_93_sc08
+location:
+  dec: -65.22
+  ra: 169.925
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 1977
+  host: MW
+  name: ESO 93-SC08
+  other_name:
+  - ESO 93-SC08
+  ref_discovery:
+  - Holmberg1977A&AS...27..295H
+  table: gc_disk
+proper_motion:
+  pmdec: 1.4002
+  pmdec_em: 0.0338
+  pmdec_ep: 0.0338
+  pmra: -4.0679
+  pmra_em: 0.0329
+  pmra_ep: 0.0329
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V

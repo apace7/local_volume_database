@@ -1,0 +1,40 @@
+distance:
+  distance: 8.248
+  distance_em: 0.241
+  distance_ep: 0.248
+  distance_modulus: 14.582
+  distance_modulus_em: 0.064
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6440
+location:
+  dec: -20.360417
+  ra: 267.220167
+m_v:
+  apparent_magnitude_v: 5.67
+  apparent_magnitude_v_em: 0.13
+  apparent_magnitude_v_ep: 0.13
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6440
+  table: gc_harris
+proper_motion:
+  pmdec: -4.0196
+  pmdec_em: 0.0351
+  pmdec_ep: 0.0351
+  pmra: -1.187
+  pmra_em: 0.0365
+  pmra_ep: 0.0365
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Harris1996AJ....112.1487H
+  spec_metallicity: -0.36
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 0.55
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -69.39
+  vlos_systemic_em: 0.93
+  vlos_systemic_ep: 0.93

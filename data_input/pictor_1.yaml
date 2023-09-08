@@ -5,10 +5,7 @@ distance:
   distance_modulus: 20.3
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
-  ref: Koposov2015ApJ...805..130K
-flux_HI:
-  flux_HI_ul: 0.61
-  ref: Putman2021ApJ...913...53P
+  ref_distance: Koposov2015ApJ...805..130K
 key: pictor_1
 location:
   dec: -50.28305556
@@ -17,16 +14,18 @@ m_v:
   apparent_magnitude_v: 17.2
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
-  ref: Koposov2015ApJ...805..130K
+  ref_m_v: Koposov2015ApJ...805..130K
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
   discovery_year: 2015
   host: MW
   name: Pictor I
-  other_name_1: DES J0443.8-5017
-  ref_discovery_1: Bechtol2015ApJ...807...50B
-  ref_discovery_2: Koposov2015ApJ...805..130K
+  other_name:
+  - DES J0443.8-5017
+  ref_discovery:
+  - Bechtol2015ApJ...807...50B
+  - Koposov2015ApJ...805..130K
   table: dwarf_mw
 proper_motion:
   pmdec: 0.096
@@ -35,7 +34,7 @@ proper_motion:
   pmra: 0.153
   pmra_em: 0.088
   pmra_ep: 0.086
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 structure:
   ellipticity: 0.44
   ellipticity_em: 0.09
@@ -43,7 +42,7 @@ structure:
   position_angle: 55.0
   position_angle_em: 6.0
   position_angle_ep: 6.0
-  ref: Moskowitz2020ApJ...892...27M
+  ref_structure: Moskowitz2020ApJ...892...27M
   rhalf: 1.29
   rhalf_em: 0.15
   rhalf_ep: 0.15
@@ -54,4 +53,4 @@ structure_sersic:
   rad_sersic: 0.66
   rad_sersic_em: 0.32
   rad_sersic_ep: 0.32
-  ref: Munoz2018ApJ...860...66M
+  ref_structure_sersic: Munoz2018ApJ...860...66M

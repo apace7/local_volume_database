@@ -1,0 +1,32 @@
+distance:
+  distance: 5.466
+  distance_em: 0.476
+  distance_ep: 0.523
+  distance_modulus: 13.688
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: mercer_5
+location:
+  dec: -13.66722222
+  ra: 275.8291667
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 2005
+  host: MW
+  name: Mercer 5
+  other_name:
+  - '[MCM2005b]'
+  ref_discovery:
+  - Mercer2005ApJ...635..560M
+  - Longmore2011MNRAS.416..465L
+  table: gc_disk
+proper_motion:
+  pmdec: -7.2199
+  pmdec_em: 0.1106
+  pmdec_ep: 0.1106
+  pmra: -3.9647
+  pmra_em: 0.114
+  pmra_ep: 0.114
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Longmore2011MNRAS.416..465L

@@ -5,7 +5,7 @@ distance:
   distance_modulus: 19.3
   distance_modulus_em: 0.22
   distance_modulus_ep: 0.22
-  ref: Cerny2023ApJ...953....1C
+  ref_distance: Cerny2023ApJ...953....1C
 key: virgo_2
 location:
   dec: 5.909
@@ -14,22 +14,24 @@ m_v:
   apparent_magnitude_v: 17.7
   apparent_magnitude_v_em: 0.6
   apparent_magnitude_v_ep: 0.4
-  ref: Cerny2023ApJ...953....1C
+  ref_m_v: Cerny2023ApJ...953....1C
 metallicity_photometric:
   metallicity_photometric: -1.9
-  ref: Cerny2023ApJ...953....1C
+  ref_metallicity_photometric: Cerny2023ApJ...953....1C
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
   discovery_year: 2022
   host: MW
   name: Virgo II
-  other_name_1: DELVE J1500+0554
-  ref_discovery_1: Cerny2023ApJ...953....1C
+  other_name:
+  - DELVE J1500+0554
+  ref_discovery:
+  - Cerny2023ApJ...953....1C
   table: dwarf_mw
 structure:
   ellipticity_ul: 0.3
-  ref: Cerny2023ApJ...953....1C
+  ref_structure: Cerny2023ApJ...953....1C
   rhalf: 0.74
   rhalf_em: 0.11
   rhalf_ep: 0.13

@@ -5,10 +5,7 @@ distance:
   distance_modulus: 19.67
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
-  ref: Lee2009ApJ...703..692L
-flux_HI:
-  flux_HI_ul: 0.23
-  ref: Putman2021ApJ...913...53P
+  ref_distance: Lee2009ApJ...703..692L
 key: sextans_1
 location:
   dec: -1.6133
@@ -17,14 +14,15 @@ m_v:
   apparent_magnitude_v: 10.95
   apparent_magnitude_v_em: 0.06
   apparent_magnitude_v_ep: 0.06
-  ref: Munoz2018ApJ...860...66M
+  ref_m_v: Munoz2018ApJ...860...66M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1990
   host: MW
   name: Sextans
-  ref_discovery_1: Irwin1990MNRAS.244P..16I
+  ref_discovery:
+  - Irwin1990MNRAS.244P..16I
   table: dwarf_mw
 proper_motion:
   pmdec: 0.037
@@ -33,9 +31,9 @@ proper_motion:
   pmra: -0.409
   pmra_em: 0.008
   pmra_ep: 0.009
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 spec_metallicity:
-  ref: Simon2019ARA&A..57..375S
+  ref_spec_metallicity: Simon2019ARA&A..57..375S
   spec_metallicity: -1.97
   spec_metallicity_em: 0.04
   spec_metallicity_ep: 0.04
@@ -49,7 +47,7 @@ structure:
   position_angle: 57.0
   position_angle_em: 1.0
   position_angle_ep: 1.0
-  ref: Munoz2018ApJ...860...66M
+  ref_structure: Munoz2018ApJ...860...66M
   rhalf: 16.5
   rhalf_em: 0.1
   rhalf_ep: 0.1
@@ -57,7 +55,7 @@ structure_king:
   rcore: 20.1
   rcore_em: 0.5
   rcore_ep: 0.5
-  ref: Munoz2018ApJ...860...66M
+  ref_structure_king: Munoz2018ApJ...860...66M
   rking: 60.5
   rking_em: 0.6
   rking_ep: 0.6
@@ -68,9 +66,9 @@ structure_sersic:
   rad_sersic: 17.67
   rad_sersic_em: 0.17
   rad_sersic_ep: 0.17
-  ref: Munoz2018ApJ...860...66M
+  ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref: Walker2009AJ....137.3100W
+  ref_vlos: Walker2009AJ....137.3100W
   vlos_sigma: 7.9
   vlos_sigma_em: 1.3
   vlos_sigma_ep: 1.3

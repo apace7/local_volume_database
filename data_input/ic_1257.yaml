@@ -1,0 +1,38 @@
+distance:
+  distance: 26.587
+  distance_em: 1.392
+  distance_ep: 1.469
+  distance_modulus: 17.123
+  distance_modulus_em: 0.117
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ic_1257
+location:
+  dec: -7.093056
+  ra: 261.785431
+m_v:
+  apparent_magnitude_v: 11.97
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: IC 1257
+  table: gc_harris
+proper_motion:
+  pmdec: -1.4916
+  pmdec_em: 0.0321
+  pmdec_ep: 0.0321
+  pmra: -1.0069
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Harris1996AJ....112.1487H
+  spec_metallicity: -1.7
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 0.53
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -137.97
+  vlos_systemic_em: 2.04
+  vlos_systemic_ep: 2.04

@@ -1,0 +1,53 @@
+distance:
+  distance: 711.2
+  distance_em: 19.0
+  distance_ep: 20.0
+  distance_modulus: 24.26
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Savino2022ApJ...938..101S
+key: andromeda_29
+location:
+  dec: 30.75561
+  ra: 359.73167
+m_v:
+  apparent_magnitude_v: 16.09
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: Slater2015ApJ...806..230S
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2011
+  host: M_31
+  name: Andromeda XXIX
+  ref_discovery:
+  - Bell2011ApJ...742L..15B
+  table: dwarf_m31
+spec_metallicity:
+  ref_spec_metallicity: Slater2015ApJ...806..230S
+  spec_metallicity: -1.9
+  spec_metallicity_em: 0.12
+  spec_metallicity_ep: 0.12
+  spec_metallicity_sigma: 0.57
+  spec_metallicity_sigma_em: 0.11
+  spec_metallicity_sigma_ep: 0.11
+structure:
+  ellipticity: 0.29
+  ellipticity_em: 0.04
+  ellipticity_ep: 0.04
+  position_angle: 55.0
+  position_angle_em: 4.0
+  position_angle_ep: 4.0
+  ref_structure: Slater2015ApJ...806..230S
+  rhalf: 1.39
+  rhalf_em: 0.08
+  rhalf_ep: 0.08
+velocity:
+  ref_vlos: Tollerud2013ApJ...768...50T
+  vlos_sigma: 5.7
+  vlos_sigma_em: 1.2
+  vlos_sigma_ep: 1.2
+  vlos_systemic: -194.4
+  vlos_systemic_em: 1.5
+  vlos_systemic_ep: 1.5

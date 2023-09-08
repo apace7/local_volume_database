@@ -5,10 +5,7 @@ distance:
   distance_modulus: 21.66
   distance_modulus_em: 0.12
   distance_modulus_ep: 0.12
-  ref: Kim2016ApJ...833...16K
-flux_HI:
-  flux_HI_ul: 0.31
-  ref: Putman2021ApJ...913...53P
+  ref_distance: Kim2016ApJ...833...16K
 key: pegasus_3
 location:
   dec: 5.4150472
@@ -17,14 +14,15 @@ m_v:
   apparent_magnitude_v: 17.49
   apparent_magnitude_v_em: 0.22
   apparent_magnitude_v_ep: 0.19
-  ref: Richstein2022ApJ...933..217R
+  ref_m_v: Richstein2022ApJ...933..217R
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2015
   host: MW
   name: Pegasus III
-  ref_discovery_1: Kim2015ApJ...804L..44K
+  ref_discovery:
+  - Kim2015ApJ...804L..44K
   table: dwarf_mw
 proper_motion:
   pmdec: -0.58
@@ -33,9 +31,9 @@ proper_motion:
   pmra: -0.03
   pmra_em: 0.21
   pmra_ep: 0.21
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 spec_metallicity:
-  ref: Kim2016ApJ...833...16K
+  ref_spec_metallicity: Kim2016ApJ...833...16K
   spec_metallicity: -2.55
   spec_metallicity_em: 0.15
   spec_metallicity_ep: 0.15
@@ -46,12 +44,12 @@ structure:
   position_angle: 83.0
   position_angle_em: 7.0
   position_angle_ep: 8.0
-  ref: Richstein2022ApJ...933..217R
+  ref_structure: Richstein2022ApJ...933..217R
   rhalf: 1.67
   rhalf_em: 0.21
   rhalf_ep: 0.26
 velocity:
-  ref: Kim2016ApJ...833...16K
+  ref_vlos: Kim2016ApJ...833...16K
   vlos_sigma: 5.4
   vlos_sigma_em: 2.5
   vlos_sigma_ep: 3.0

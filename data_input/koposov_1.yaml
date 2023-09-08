@@ -1,0 +1,57 @@
+distance:
+  distance: 48.3
+  distance_modulus: 18.42
+  ref_distance: Munoz2018ApJ...860...66M
+key: koposov_1
+location:
+  dec: 12.2615
+  ra: 179.8253
+m_v:
+  apparent_magnitude_v: 17.38
+  apparent_magnitude_v_em: 0.69
+  apparent_magnitude_v_ep: 0.69
+  ref_m_v: Munoz2018ApJ...860...66M
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2007
+  host: MW
+  name: Koposov 1
+  ref_discovery:
+  - Koposov2007ApJ...669..337K
+  table: gc_ufsc
+proper_motion:
+  pmdec: -0.814
+  pmdec_em: 0.105
+  pmdec_ep: 0.105
+  pmra: -1.513
+  pmra_em: 0.135
+  pmra_ep: 0.135
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ellipticity: 0.45
+  ellipticity_em: 0.15
+  ellipticity_ep: 0.15
+  position_angle: 7.0
+  position_angle_em: 21.0
+  position_angle_ep: 21.0
+  ref_structure: Munoz2018ApJ...860...66M
+  rhalf: 0.62
+  rhalf_em: 0.18
+  rhalf_ep: 0.18
+structure_king:
+  rcore: 0.29
+  rcore_em: 0.12
+  rcore_ep: 0.12
+  ref_structure_king: Munoz2018ApJ...860...66M
+  rking: 4.3
+  rking_em: 2.1
+  rking_ep: 2.1
+structure_sersic:
+  n_sersic: 1.27
+  n_sersic_em: 0.56
+  n_sersic_ep: 0.56
+  rad_sersic: 0.72
+  rad_sersic_em: 0.18
+  rad_sersic_ep: 0.18
+  ref_structure_sersic: Munoz2018ApJ...860...66M

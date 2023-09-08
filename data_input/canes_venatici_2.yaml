@@ -5,10 +5,7 @@ distance:
   distance_modulus: 21.02
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
-  ref: Greco2008ApJ...675L..73G
-flux_HI:
-  flux_HI_ul: 0.4
-  ref: Putman2021ApJ...913...53P
+  ref_distance: Greco2008ApJ...675L..73G
 key: canes_venatici_2
 location:
   dec: 34.3226
@@ -17,16 +14,18 @@ m_v:
   apparent_magnitude_v: 15.85
   apparent_magnitude_v_em: 0.32
   apparent_magnitude_v_ep: 0.32
-  ref: Munoz2018ApJ...860...66M
+  ref_m_v: Munoz2018ApJ...860...66M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2006
   host: MW
   name: Canes Venatici II
-  other_name_1: SDSS J1257+3419
-  ref_discovery_1: Belokurov2007ApJ...654..897B
-  ref_discovery_2: Sakamoto2006ApJ...653L..29S
+  other_name:
+  - SDSS J1257+3419
+  ref_discovery:
+  - Belokurov2007ApJ...654..897B
+  - Sakamoto2006ApJ...653L..29S
   table: dwarf_mw
 proper_motion:
   pmdec: -0.254
@@ -35,9 +34,9 @@ proper_motion:
   pmra: -0.124
   pmra_em: 0.115
   pmra_ep: 0.117
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 spec_metallicity:
-  ref: Simon2019ARA&A..57..375S
+  ref_spec_metallicity: Simon2019ARA&A..57..375S
   spec_metallicity: -2.35
   spec_metallicity_em: 0.19
   spec_metallicity_ep: 0.16
@@ -51,7 +50,7 @@ structure:
   position_angle: 9.0
   position_angle_em: 15.0
   position_angle_ep: 15.0
-  ref: Munoz2018ApJ...860...66M
+  ref_structure: Munoz2018ApJ...860...66M
   rhalf: 1.52
   rhalf_em: 0.24
   rhalf_ep: 0.24
@@ -59,7 +58,7 @@ structure_king:
   rcore: 0.89
   rcore_em: 0.65
   rcore_ep: 0.65
-  ref: Munoz2018ApJ...860...66M
+  ref_structure_king: Munoz2018ApJ...860...66M
   rking: 5.37
   rking_em: 4.0
   rking_ep: 4.0
@@ -70,9 +69,9 @@ structure_sersic:
   rad_sersic: 1.51
   rad_sersic_em: 0.23
   rad_sersic_ep: 0.23
-  ref: Munoz2018ApJ...860...66M
+  ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref: Simon2007ApJ...670..313S
+  ref_vlos: Simon2007ApJ...670..313S
   vlos_sigma: 4.6
   vlos_sigma_em: 0.8
   vlos_sigma_ep: 0.8

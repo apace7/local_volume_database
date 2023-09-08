@@ -1,0 +1,34 @@
+distance:
+  distance: 4.808
+  distance_em: 0.233
+  distance_ep: 0.258
+  distance_modulus: 13.41
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: bh_140
+location:
+  dec: -67.177
+  ra: 193.473
+m_v:
+  apparent_magnitude_v: 7.29
+  apparent_magnitude_v_em: 0.12
+  apparent_magnitude_v_ep: 0.12
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  host: MW
+  name: BH 140
+  ref_discovery:
+  - CantatGaudin2018A&A...618A..93C
+  table: gc_disk
+proper_motion:
+  pmdec: 1.2241
+  pmdec_em: 0.0243
+  pmdec_ep: 0.0243
+  pmra: -14.848
+  pmra_em: 0.0244
+  pmra_ep: 0.0244
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 4.45

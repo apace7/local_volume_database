@@ -5,10 +5,7 @@ distance:
   distance_modulus: 20.51
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
-  ref: MartinezVazquez2019MNRAS.490.2183M
-flux_HI:
-  flux_HI_ul: 0.65
-  ref: Putman2021ApJ...913...53P
+  ref_distance: MartinezVazquez2019MNRAS.490.2183M
 key: grus_1
 location:
   dec: -50.168
@@ -17,14 +14,15 @@ m_v:
   apparent_magnitude_v: 16.38
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
-  ref: Cantu2021ApJ...916...81C
+  ref_m_v: Cantu2021ApJ...916...81C
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2015
   host: MW
   name: Grus I
-  ref_discovery_1: Koposov2015ApJ...805..130K
+  ref_discovery:
+  - Koposov2015ApJ...805..130K
   table: dwarf_mw
 proper_motion:
   pmdec: -0.248
@@ -33,9 +31,9 @@ proper_motion:
   pmra: 0.069
   pmra_em: 0.05
   pmra_ep: 0.051
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 spec_metallicity:
-  ref: Chiti2022ApJ...939...41C
+  ref_spec_metallicity: Chiti2022ApJ...939...41C
   spec_metallicity: -2.62
   spec_metallicity_em: 0.11
   spec_metallicity_ep: 0.11
@@ -46,7 +44,7 @@ structure:
   position_angle: 153.0
   position_angle_em: 7.0
   position_angle_ep: 8.0
-  ref: Cantu2021ApJ...916...81C
+  ref_structure: Cantu2021ApJ...916...81C
   rhalf: 4.16
   rhalf_em: 0.74
   rhalf_ep: 0.54
@@ -57,9 +55,9 @@ structure_sersic:
   rad_sersic: 2.08
   rad_sersic_em: 0.87
   rad_sersic_ep: 0.87
-  ref: Munoz2018ApJ...860...66M
+  ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref: Chiti2022ApJ...939...41C
+  ref_vlos: Chiti2022ApJ...939...41C
   vlos_sigma: 2.5
   vlos_sigma_em: 0.8
   vlos_sigma_ep: 1.3

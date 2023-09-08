@@ -1,0 +1,40 @@
+distance:
+  distance: 8.165
+  distance_em: 0.379
+  distance_ep: 0.395
+  distance_modulus: 14.56
+  distance_modulus_em: 0.103
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6539
+location:
+  dec: -7.585858
+  ra: 271.207276
+m_v:
+  apparent_magnitude_v: 6.79
+  apparent_magnitude_v_em: 0.04
+  apparent_magnitude_v_ep: 0.04
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6539
+  table: gc_harris
+proper_motion:
+  pmdec: -3.5374
+  pmdec_em: 0.026
+  pmdec_ep: 0.026
+  pmra: -6.8958
+  pmra_em: 0.0264
+  pmra_ep: 0.0264
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Harris1996AJ....112.1487H
+  spec_metallicity: -0.63
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.55
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 35.19
+  vlos_systemic_em: 0.5
+  vlos_systemic_ep: 0.5

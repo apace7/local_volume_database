@@ -1,0 +1,43 @@
+distance:
+  distance: 5.166
+  distance_em: 0.369
+  distance_ep: 0.4
+  distance_modulus: 13.566
+  distance_modulus_em: 0.161
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: terzan_12
+location:
+  dec: -22.741944
+  ra: 273.065833
+m_v:
+  apparent_magnitude_v: 7.46
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: Terzan 12
+  other_name:
+  - ESO 522-1
+  - MWSC 2838
+  table: gc_harris
+proper_motion:
+  pmdec: -3.0524
+  pmdec_em: 0.0336
+  pmdec_ep: 0.0336
+  pmra: -6.2223
+  pmra_em: 0.037
+  pmra_ep: 0.037
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Harris1996AJ....112.1487H
+  spec_metallicity: -0.5
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.18
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 95.61
+  vlos_systemic_em: 1.21
+  vlos_systemic_ep: 1.21

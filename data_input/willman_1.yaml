@@ -5,10 +5,7 @@ distance:
   distance_modulus: 17.9
   distance_modulus_em: 0.4
   distance_modulus_ep: 0.4
-  ref: Willman2006astro.ph..3486W
-flux_HI:
-  flux_HI_ul: 10.9
-  ref: Putman2021ApJ...913...53P
+  ref_distance: Willman2006astro.ph..3486W
 key: willman_1
 location:
   dec: 51.0501
@@ -17,15 +14,17 @@ m_v:
   apparent_magnitude_v: 15.37
   apparent_magnitude_v_em: 0.74
   apparent_magnitude_v_ep: 0.74
-  ref: Munoz2018ApJ...860...66M
+  ref_m_v: Munoz2018ApJ...860...66M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2004
   host: MW
   name: Willman 1
-  other_name_1: SDSS J1049+5103
-  ref_discovery_1: Willman2005AJ....129.2692W
+  other_name:
+  - SDSS J1049+5103
+  ref_discovery:
+  - Willman2005AJ....129.2692W
   table: dwarf_mw
 notes:
 - potential tidal disruption + unclear kinematics Willman2011AJ....142..128W
@@ -36,9 +35,9 @@ proper_motion:
   pmra: 0.255
   pmra_em: 0.087
   pmra_ep: 0.077
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 spec_metallicity:
-  ref: Willman2011AJ....142..128W
+  ref_spec_metallicity: Willman2011AJ....142..128W
   spec_metallicity: -2.19
   spec_metallicity_em: 0.08
   spec_metallicity_ep: 0.08
@@ -49,7 +48,7 @@ structure:
   position_angle: 73.0
   position_angle_em: 4.0
   position_angle_ep: 4.0
-  ref: Munoz2018ApJ...860...66M
+  ref_structure: Munoz2018ApJ...860...66M
   rhalf: 2.51
   rhalf_em: 0.22
   rhalf_ep: 0.22
@@ -60,9 +59,9 @@ structure_sersic:
   rad_sersic: 2.53
   rad_sersic_em: 0.22
   rad_sersic_ep: 0.22
-  ref: Munoz2018ApJ...860...66M
+  ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref: Willman2011AJ....142..128W
+  ref_vlos: Willman2011AJ....142..128W
   vlos_sigma: 4.0
   vlos_sigma_em: 0.8
   vlos_sigma_ep: 0.8

@@ -5,10 +5,7 @@ distance:
   distance_modulus: 21.31
   distance_modulus_em: 0.11
   distance_modulus_ep: 0.11
-  ref: Carlin2017AJ....154..267C
-flux_HI:
-  flux_HI_ul: 0.66
-  ref: Putman2021ApJ...913...53P
+  ref_distance: Carlin2017AJ....154..267C
 key: columba_1
 location:
   dec: -28.04253
@@ -17,15 +14,17 @@ m_v:
   apparent_magnitude_v: 17.11
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
-  ref: Carlin2017AJ....154..267C
+  ref_m_v: Carlin2017AJ....154..267C
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
   discovery_year: 2015
   host: MW
   name: Columba
-  other_name_1: DES J0531-2801
-  ref_discovery_1: DrlicaWagner2015ApJ...813..109D
+  other_name:
+  - DES J0531-2801
+  ref_discovery:
+  - DrlicaWagner2015ApJ...813..109D
   table: dwarf_mw
 proper_motion:
   pmdec: -0.4
@@ -34,9 +33,9 @@ proper_motion:
   pmra: 0.169
   pmra_em: 0.073
   pmra_ep: 0.071
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 spec_metallicity:
-  ref: Fritz2019A&A...623A.129F
+  ref_spec_metallicity: Fritz2019A&A...623A.129F
   spec_metallicity: -2.37
   spec_metallicity_em: 0.34
   spec_metallicity_ep: 0.35
@@ -50,7 +49,7 @@ structure:
   position_angle: 24.0
   position_angle_em: 9.0
   position_angle_ep: 9.0
-  ref: Carlin2017AJ....154..267C
+  ref_structure: Carlin2017AJ....154..267C
   rhalf: 2.2
   rhalf_em: 0.2
   rhalf_ep: 0.2
@@ -58,12 +57,12 @@ structure_king:
   rcore: 2.1
   rcore_em: 0.6
   rcore_ep: 0.6
-  ref: Carlin2017AJ....154..267C
+  ref_structure_king: Carlin2017AJ....154..267C
   rking: 8.9
   rking_em: 2.5
   rking_ep: 2.5
 velocity:
-  ref: Fritz2019A&A...623A.129F
+  ref_vlos: Fritz2019A&A...623A.129F
   vlos_sigma_ul: 6.7
   vlos_systemic: 153.7
   vlos_systemic_em: 4.9

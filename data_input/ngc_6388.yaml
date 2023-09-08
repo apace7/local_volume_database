@@ -1,0 +1,40 @@
+distance:
+  distance: 11.171
+  distance_em: 0.161
+  distance_ep: 0.162
+  distance_modulus: 15.24
+  distance_modulus_em: 0.032
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6388
+location:
+  dec: -44.7355
+  ra: 264.071777
+m_v:
+  apparent_magnitude_v: 5.68
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6388
+  table: gc_harris
+proper_motion:
+  pmdec: -2.7088
+  pmdec_em: 0.0259
+  pmdec_ep: 0.0259
+  pmra: -1.3159
+  pmra_em: 0.0262
+  pmra_ep: 0.0262
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Harris1996AJ....112.1487H
+  spec_metallicity: -0.55
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 0.8
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 83.11
+  vlos_systemic_em: 0.45
+  vlos_systemic_ep: 0.45

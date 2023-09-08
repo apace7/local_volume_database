@@ -1,0 +1,55 @@
+age:
+  age: 11.2
+  age_em: 0.9
+  age_ep: 1.0
+  ref_age: Conn2018ApJ...852...68C
+distance:
+  distance: 76.0
+  distance_em: 4.0
+  distance_ep: 4.0
+  distance_modulus: 19.4
+  distance_modulus_em: 0.12
+  distance_modulus_ep: 312.0
+  ref_distance: Conn2018ApJ...852...68C
+key: des_1
+location:
+  dec: -49.0386111
+  ra: 8.4991667
+m_v:
+  apparent_magnitude_v: 17.98
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.5
+  ref_m_v: Conn2018ApJ...852...68C
+metallicity_photometric:
+  metallicity_photometric: -2.38
+  metallicity_photometric_em: 0.19
+  metallicity_photometric_ep: 0.21
+  ref_metallicity_photometric: Conn2018ApJ...852...68C
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2015
+  host: MW
+  name: DES 1
+  ref_discovery:
+  - Luque2016MNRAS.458..603L
+  table: gc_ufsc
+structure:
+  ellipticity: 0.41
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.03
+  position_angle: 112.0
+  position_angle_em: 3.0
+  position_angle_ep: 3.0
+  ref_structure: Conn2018ApJ...852...68C
+  rhalf: 0.245
+  rhalf_em: 0.027
+  rhalf_ep: 0.036
+structure_king:
+  rcore: 0.116
+  rcore_em: 0.037
+  rcore_ep: 0.04
+  ref_structure_king: Conn2018ApJ...852...68C
+  rking: 2.114
+  rking_em: 0.707
+  rking_ep: 0.729

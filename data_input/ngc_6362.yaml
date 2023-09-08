@@ -1,0 +1,40 @@
+distance:
+  distance: 7.649
+  distance_em: 0.066
+  distance_ep: 0.067
+  distance_modulus: 14.418
+  distance_modulus_em: 0.019
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6362
+location:
+  dec: -67.048332
+  ra: 262.979096
+m_v:
+  apparent_magnitude_v: 7.17
+  apparent_magnitude_v_em: 0.04
+  apparent_magnitude_v_ep: 0.04
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6362
+  table: gc_harris
+proper_motion:
+  pmdec: -4.7629
+  pmdec_em: 0.024
+  pmdec_ep: 0.024
+  pmra: -5.5058
+  pmra_em: 0.0238
+  pmra_ep: 0.0238
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Harris1996AJ....112.1487H
+  spec_metallicity: -0.99
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 2.31
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -14.58
+  vlos_systemic_em: 0.18
+  vlos_systemic_ep: 0.18

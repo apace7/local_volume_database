@@ -5,10 +5,7 @@ distance:
   distance_modulus: 19.11
   distance_modulus_em: 0.08
   distance_modulus_ep: 0.08
-  ref: DallOra2006ApJ...653L.109D
-flux_HI:
-  flux_HI_ul: 0.25
-  ref: Spekkens2014ApJ...795L...5S
+  ref_distance: DallOra2006ApJ...653L.109D
 key: bootes_1
 location:
   dec: 14.5135
@@ -17,14 +14,15 @@ m_v:
   apparent_magnitude_v: 13.09
   apparent_magnitude_v_em: 0.25
   apparent_magnitude_v_ep: 0.25
-  ref: Munoz2018ApJ...860...66M
+  ref_m_v: Munoz2018ApJ...860...66M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2006
   host: MW
   name: Bootes I
-  ref_discovery_1: Belokurov2006ApJ...647L.111B
+  ref_discovery:
+  - Belokurov2006ApJ...647L.111B
   table: dwarf_mw
 proper_motion:
   pmdec: -1.068
@@ -33,9 +31,9 @@ proper_motion:
   pmra: -0.385
   pmra_em: 0.017
   pmra_ep: 0.017
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 spec_metallicity:
-  ref: Simon2019ARA&A..57..375S
+  ref_spec_metallicity: Simon2019ARA&A..57..375S
   spec_metallicity: -2.35
   spec_metallicity_em: 0.08
   spec_metallicity_ep: 0.09
@@ -49,7 +47,7 @@ structure:
   position_angle: 6.0
   position_angle_em: 3.0
   position_angle_ep: 3.0
-  ref: Munoz2018ApJ...860...66M
+  ref_structure: Munoz2018ApJ...860...66M
   rhalf: 9.97
   rhalf_em: 0.27
   rhalf_ep: 0.27
@@ -57,7 +55,7 @@ structure_king:
   rcore: 11.9
   rcore_em: 1.0
   rcore_ep: 1.0
-  ref: Munoz2018ApJ...860...66M
+  ref_structure_king: Munoz2018ApJ...860...66M
   rking: 37.5
   rking_em: 0.9
   rking_ep: 0.9
@@ -68,9 +66,9 @@ structure_sersic:
   rad_sersic: 11.26
   rad_sersic_em: 0.27
   rad_sersic_ep: 0.27
-  ref: Munoz2018ApJ...860...66M
+  ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref: Koposov2011ApJ...736..146K
+  ref_vlos: Koposov2011ApJ...736..146K
   vlos_sigma: 4.6
   vlos_sigma_em: 0.6
   vlos_sigma_ep: 0.8

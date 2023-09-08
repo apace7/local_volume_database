@@ -5,10 +5,7 @@ distance:
   distance_modulus: 18.3
   distance_modulus_em: 0.15
   distance_modulus_ep: 0.12
-  ref: DrlicaWagner2016ApJ...833L...5D
-flux_HI:
-  flux_HI_ul: 0.58
-  ref: Putman2021ApJ...913...53P
+  ref_distance: DrlicaWagner2016ApJ...833L...5D
 key: pictor_2
 location:
   dec: -59.897
@@ -17,19 +14,20 @@ m_v:
   apparent_magnitude_v: 15.1
   apparent_magnitude_v_em: 0.5
   apparent_magnitude_v_ep: 0.4
-  ref: DrlicaWagner2016ApJ...833L...5D
+  ref_m_v: DrlicaWagner2016ApJ...833L...5D
 metallicity_photometric:
   metallicity_photometric: -1.8
   metallicity_photometric_em: 0.3
   metallicity_photometric_ep: 0.3
-  ref: DrlicaWagner2016ApJ...833L...5D
+  ref_metallicity_photometric: DrlicaWagner2016ApJ...833L...5D
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
   discovery_year: 2016
   host: MW
   name: Pictor II
-  ref_discovery_1: DrlicaWagner2016ApJ...833L...5D
+  ref_discovery:
+  - DrlicaWagner2016ApJ...833L...5D
   table: dwarf_mw
 proper_motion:
   pmdec: 1.14
@@ -38,7 +36,7 @@ proper_motion:
   pmra: 1.15
   pmra_em: 0.06
   pmra_ep: 0.06
-  ref: Battaglia2022A&A...657A..54B
+  ref_proper_motion: Battaglia2022A&A...657A..54B
 structure:
   ellipticity: 0.13
   ellipticity_em: 0.13
@@ -46,7 +44,7 @@ structure:
   position_angle: 14.0
   position_angle_em: 66.0
   position_angle_ep: 60.0
-  ref: DrlicaWagner2016ApJ...833L...5D
+  ref_structure: DrlicaWagner2016ApJ...833L...5D
   rhalf: 3.8
   rhalf_em: 1.0
   rhalf_ep: 1.5

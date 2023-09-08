@@ -5,7 +5,7 @@ distance:
   distance_modulus: 19.77
   distance_modulus_em: 0.03
   distance_modulus_ep: 0.03
-  ref: Cerny2023ApJ...942..111C
+  ref_distance: Cerny2023ApJ...942..111C
 key: pegasus_4
 location:
   dec: 26.62
@@ -14,14 +14,15 @@ m_v:
   apparent_magnitude_v: 15.52
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
-  ref: Cerny2023ApJ...942..111C
+  ref_m_v: Cerny2023ApJ...942..111C
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2022
   host: MW
   name: Pegasus IV
-  ref_discovery_1: Cerny2023ApJ...942..111C
+  ref_discovery:
+  - Cerny2023ApJ...942..111C
   table: dwarf_mw
 proper_motion:
   pmdec: -0.21
@@ -30,9 +31,9 @@ proper_motion:
   pmra: 0.33
   pmra_em: 0.07
   pmra_ep: 0.07
-  ref: Cerny2023ApJ...942..111C
+  ref_proper_motion: Cerny2023ApJ...942..111C
 spec_metallicity:
-  ref: Cerny2023ApJ...942..111C
+  ref_spec_metallicity: Cerny2023ApJ...942..111C
   spec_metallicity: -2.67
   spec_metallicity_em: 0.29
   spec_metallicity_ep: 0.25
@@ -44,12 +45,12 @@ structure:
   position_angle: 115.0
   position_angle_em: 41.0
   position_angle_ep: 27.0
-  ref: Cerny2023ApJ...942..111C
+  ref_structure: Cerny2023ApJ...942..111C
   rhalf: 1.6
   rhalf_em: 0.25
   rhalf_ep: 0.29
 velocity:
-  ref: Cerny2023ApJ...942..111C
+  ref_vlos: Cerny2023ApJ...942..111C
   vlos_sigma: 3.3
   vlos_sigma_em: 1.1
   vlos_sigma_ep: 1.7

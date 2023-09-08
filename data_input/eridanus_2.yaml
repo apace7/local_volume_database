@@ -5,10 +5,7 @@ distance:
   distance_modulus: 22.82
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
-  ref: Crnojevic2016ApJ...824L..14C
-flux_HI:
-  flux_HI_ul: 0.089
-  ref: Crnojevic2016ApJ...824L..14C
+  ref_distance: Crnojevic2016ApJ...824L..14C
 key: eridanus_2
 location:
   dec: -43.5329
@@ -17,16 +14,18 @@ m_v:
   apparent_magnitude_v: 15.72
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
-  ref: Crnojevic2016ApJ...824L..14C
+  ref_m_v: Crnojevic2016ApJ...824L..14C
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2015
   host: MW
   name: Eridanus II
-  other_name_1: DES J0344.3-4331
-  ref_discovery_1: Bechtol2015ApJ...807...50B
-  ref_discovery_2: Koposov2015ApJ...805..130K
+  other_name:
+  - DES J0344.3-4331
+  ref_discovery:
+  - Bechtol2015ApJ...807...50B
+  - Koposov2015ApJ...805..130K
   table: dwarf_mw
 proper_motion:
   pmdec: 0.013
@@ -35,9 +34,9 @@ proper_motion:
   pmra: 0.125
   pmra_em: 0.1
   pmra_ep: 0.101
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 spec_metallicity:
-  ref: Li2017ApJ...838....8L
+  ref_spec_metallicity: Li2017ApJ...838....8L
   spec_metallicity: -2.38
   spec_metallicity_em: 0.13
   spec_metallicity_ep: 0.13
@@ -51,7 +50,7 @@ structure:
   position_angle: 72.6
   position_angle_em: 3.3
   position_angle_ep: 3.3
-  ref: Crnojevic2016ApJ...824L..14C
+  ref_structure: Crnojevic2016ApJ...824L..14C
   rhalf: 2.31
   rhalf_em: 0.12
   rhalf_ep: 0.12
@@ -62,9 +61,9 @@ structure_sersic:
   rad_sersic: 1.81
   rad_sersic_em: 0.17
   rad_sersic_ep: 0.17
-  ref: Munoz2018ApJ...860...66M
+  ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref: Li2017ApJ...838....8L
+  ref_vlos: Li2017ApJ...838....8L
   vlos_sigma: 6.9
   vlos_sigma_em: 0.9
   vlos_sigma_ep: 1.2

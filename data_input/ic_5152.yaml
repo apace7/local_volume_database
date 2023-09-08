@@ -1,0 +1,38 @@
+distance:
+  distance: 1950.0
+  distance_em: 45.0
+  distance_ep: 45.0
+  distance_modulus: 26.45
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: McConnachie2012AJ....144....4M
+key: ic_5152
+location:
+  dec: -51.29638889
+  ra: 330.6729167
+m_v:
+  apparent_magnitude_v: 10.59
+  ref_m_v: McConnachie2012AJ....144....4M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1899
+  host: LF
+  name: IC 5152
+  ref_discovery:
+  - Pickering1899ApJ.....9..173P
+  table: dwarf_local_field
+structure:
+  ellipticity: 0.38
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  position_angle: 100.0
+  position_angle_em: 2.0
+  position_angle_ep: 2.0
+  ref_structure: McConnachie2012AJ....144....4M
+  rhalf: 0.97
+velocity:
+  ref_vlos: McConnachie2012AJ....144....4M
+  vlos_systemic: 122.0
+  vlos_systemic_em: 2.0
+  vlos_systemic_ep: 2.0

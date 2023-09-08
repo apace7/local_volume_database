@@ -1,0 +1,43 @@
+distance:
+  distance: 5.909
+  distance_em: 0.265
+  distance_ep: 0.279
+  distance_modulus: 13.858
+  distance_modulus_em: 0.1
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6540
+location:
+  dec: -27.765286
+  ra: 271.535657
+m_v:
+  apparent_magnitude_v: 7.7
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6540
+  other_name:
+  - Djorg 3
+  - MWSC 2804
+  table: gc_harris
+proper_motion:
+  pmdec: -2.7911
+  pmdec_em: 0.0318
+  pmdec_ep: 0.0318
+  pmra: -3.7019
+  pmra_em: 0.032
+  pmra_ep: 0.032
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Harris1996AJ....112.1487H
+  spec_metallicity: -1.35
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.54
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -16.5
+  vlos_systemic_em: 0.78
+  vlos_systemic_ep: 0.78

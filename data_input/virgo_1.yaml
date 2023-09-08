@@ -5,10 +5,7 @@ distance:
   distance_modulus: 19.8
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.2
-  ref: Homma2018PASJ...70S..18H
-flux_HI:
-  flux_HI_ul: 0.45
-  ref: Putman2021ApJ...913...53P
+  ref_distance: Homma2018PASJ...70S..18H
 key: virgo_1
 location:
   dec: -0.681
@@ -17,15 +14,17 @@ m_v:
   apparent_magnitude_v: 19.47
   apparent_magnitude_v_em: 0.87
   apparent_magnitude_v_ep: 0.75
-  ref: Homma2018PASJ...70S..18H
+  ref_m_v: Homma2018PASJ...70S..18H
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
   discovery_year: 2016
   host: MW
   name: Virgo I
-  other_name_1: HSC J1200-0040
-  ref_discovery_1: Homma2016ApJ...832...21H
+  other_name:
+  - HSC J1200-0040
+  ref_discovery:
+  - Homma2016ApJ...832...21H
   table: dwarf_mw
 structure:
   ellipticity: 0.59
@@ -34,7 +33,7 @@ structure:
   position_angle: 62.0
   position_angle_em: 13.0
   position_angle_ep: 8.0
-  ref: Homma2018PASJ...70S..18H
+  ref_structure: Homma2018PASJ...70S..18H
   rhalf: 1.76
   rhalf_em: 0.4
   rhalf_ep: 0.49
