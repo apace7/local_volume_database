@@ -1,0 +1,54 @@
+age:
+  age: 12.5
+  age_em: 0.7
+  age_ep: 1.0
+  ref_age: Mau2020ApJ...890..136M
+distance:
+  distance: 19.0
+  distance_em: 0.6
+  distance_ep: 0.5
+  distance_modulus: 16.39
+  distance_modulus_em: 0.12
+  distance_modulus_ep: 0.12
+  ref_distance: Mau2020ApJ...890..136M
+key: delve_1
+location:
+  dec: -0.972
+  ra: 247.725
+m_v:
+  apparent_magnitude_v: 16.19
+  apparent_magnitude_v_em: 0.6
+  apparent_magnitude_v_ep: 0.8
+  ref_m_v: Mau2020ApJ...890..136M
+metallicity_photometric:
+  metallicity_photometric: -1.5
+  ref_metallicity_photometric: Mau2020ApJ...890..136M
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 0
+  discovery_year: 2020
+  host: MW
+  name: DELVE 1
+  ref_discovery:
+  - Mau2020ApJ...890..136M
+  - DrlicaWagner2020ApJ...893...47D
+  table: gc_ufsc
+proper_motion:
+  pmdec: -1.54
+  pmdec_em: 0.05
+  pmdec_ep: 0.05
+  pmra: 0.04
+  pmra_em: 0.07
+  pmra_ep: 0.07
+  ref_proper_motion: Battaglia2022A&A...657A..54B
+structure:
+  ellipticity: 0.2
+  ellipticity_em: 0.2
+  ellipticity_ep: 0.1
+  position_angle: 21.0
+  position_angle_em: 30.0
+  position_angle_ep: 26.0
+  ref_structure: Mau2020ApJ...890..136M
+  rhalf: 0.97
+  rhalf_em: 0.19
+  rhalf_ep: 0.27

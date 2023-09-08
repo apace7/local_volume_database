@@ -1,0 +1,63 @@
+distance:
+  distance: 21.5
+  distance_em: 0.4
+  distance_ep: 0.4
+  distance_modulus: 16.67
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Longeard2018MNRAS.480.2609L
+key: draco_2
+location:
+  dec: 64.56527778
+  ra: 238.1983333
+m_v:
+  apparent_magnitude_v: 15.87
+  apparent_magnitude_v_em: 1.0
+  apparent_magnitude_v_ep: 0.4
+  ref_m_v: Longeard2018MNRAS.480.2609L
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 0
+  discovery_year: 2015
+  host: MW
+  name: Draco II
+  other_name:
+  - Laevens 5
+  ref_discovery:
+  - Laevens2015ApJ...813...44L
+  table: gc_ufsc
+notes:
+- observed mass segregation in Baumgardt2022MNRAS.510.3531B; there is potential metallicity
+  dispersion in CaH\&K photometry but main sequence stars are included in this calculation
+  Fu2023arXiv230606260F; no spectroscopic metallicity dispersion or velocity dispersion
+  Longeard2020MNRAS.491..356L; size is large for star cluster
+proper_motion:
+  pmdec: 0.887
+  pmdec_em: 0.072
+  pmdec_ep: 0.072
+  pmra: 1.027
+  pmra_em: 0.065
+  pmra_ep: 0.067
+  ref_proper_motion: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref_spec_metallicity: Longeard2018MNRAS.480.2609L
+  spec_metallicity: -2.7
+  spec_metallicity_em: 0.1
+  spec_metallicity_ep: 0.1
+structure:
+  ellipticity: 0.23
+  ellipticity_em: 0.15
+  ellipticity_ep: 0.15
+  position_angle: 76.0
+  position_angle_em: 32.0
+  position_angle_ep: 22.0
+  ref_structure: Longeard2018MNRAS.480.2609L
+  rhalf: 3.0
+  rhalf_em: 0.5
+  rhalf_ep: 0.7
+velocity:
+  ref_vlos: Longeard2018MNRAS.480.2609L
+  vlos_sigma_ul: 5.9
+  vlos_systemic: -342.5
+  vlos_systemic_em: 1.2
+  vlos_systemic_ep: 1.1

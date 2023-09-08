@@ -5,10 +5,7 @@ distance:
   distance_modulus: 16.8
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
-  ref: MutluPakdil2018ApJ...863...25M
-flux_HI:
-  flux_HI_ul: 0.61
-  ref: Putman2021ApJ...913...53P
+  ref_distance: MutluPakdil2018ApJ...863...25M
 key: tucana_3
 location:
   dec: -59.58332
@@ -17,15 +14,17 @@ m_v:
   apparent_magnitude_v: 15.5
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
-  ref: MutluPakdil2018ApJ...863...25M
+  ref_m_v: MutluPakdil2018ApJ...863...25M
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
   discovery_year: 2015
   host: MW
   name: Tucana III
-  other_name_1: DES J2356-5935
-  ref_discovery_1: DrlicaWagner2015ApJ...813..109D
+  other_name:
+  - DES J2356-5935
+  ref_discovery:
+  - DrlicaWagner2015ApJ...813..109D
   table: dwarf_mw
 notes:
 - tidal tails DrlicaWagner2015ApJ...813..109D + Shipp2018ApJ...862..114S + Li2018ApJ...866...22L
@@ -40,9 +39,9 @@ proper_motion:
   pmra: -0.048
   pmra_em: 0.036
   pmra_ep: 0.035
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 spec_metallicity:
-  ref: Simon2017ApJ...838...11S
+  ref_spec_metallicity: Simon2017ApJ...838...11S
   spec_metallicity: -2.42
   spec_metallicity_em: 0.08
   spec_metallicity_ep: 0.07
@@ -53,12 +52,12 @@ structure:
   position_angle: 25.0
   position_angle_em: 38.0
   position_angle_ep: 38.0
-  ref: MutluPakdil2018ApJ...863...25M
+  ref_structure: MutluPakdil2018ApJ...863...25M
   rhalf: 5.1
   rhalf_em: 1.2
   rhalf_ep: 1.2
 velocity:
-  ref: Simon2017ApJ...838...11S
+  ref_vlos: Simon2017ApJ...838...11S
   vlos_sigma_ul: 1.5
   vlos_systemic: -102.3
   vlos_systemic_em: 0.4

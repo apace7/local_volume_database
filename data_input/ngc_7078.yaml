@@ -1,0 +1,44 @@
+distance:
+  distance: 10.709
+  distance_em: 0.095
+  distance_ep: 0.096
+  distance_modulus: 15.149
+  distance_modulus_em: 0.019
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_7078
+location:
+  dec: 12.167001
+  ra: 322.493042
+m_v:
+  apparent_magnitude_v: 5.97
+  apparent_magnitude_v_em: 0.07
+  apparent_magnitude_v_ep: 0.07
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 7078
+  other_name:
+  - M 15
+  table: gc_harris
+proper_motion:
+  pmdec: -3.8025
+  pmdec_em: 0.0236
+  pmdec_ep: 0.0236
+  pmra: -0.6588
+  pmra_em: 0.0239
+  pmra_ep: 0.0239
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Harris1996AJ....112.1487H
+  spec_metallicity: -2.37
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 0.65
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_sigma: 13.5
+  vlos_sigma_em: 0.9
+  vlos_systemic: -106.84
+  vlos_systemic_em: 0.3
+  vlos_systemic_ep: 0.3

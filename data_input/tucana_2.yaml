@@ -5,10 +5,7 @@ distance:
   distance_modulus: 18.75
   distance_modulus_em: 0.2
   distance_modulus_ep: 0.2
-  ref: Vivas2020ApJS..247...35V
-flux_HI:
-  flux_HI_ul: 0.27
-  ref: Putman2021ApJ...913...53P
+  ref_distance: Vivas2020ApJS..247...35V
 key: tucana_2
 location:
   dec: -58.5689
@@ -17,16 +14,18 @@ m_v:
   apparent_magnitude_v: 15.0
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
-  ref: Koposov2015ApJ...805..130K
+  ref_m_v: Koposov2015ApJ...805..130K
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2015
   host: MW
   name: Tucana II
-  other_name_1: DES J2251.2-5836
-  ref_discovery_1: Bechtol2015ApJ...807...50B
-  ref_discovery_2: Koposov2015ApJ...805..130K
+  other_name:
+  - DES J2251.2-5836
+  ref_discovery:
+  - Bechtol2015ApJ...807...50B
+  - Koposov2015ApJ...805..130K
   table: dwarf_mw
 proper_motion:
   pmdec: -1.28
@@ -35,9 +34,9 @@ proper_motion:
   pmra: 0.911
   pmra_em: 0.026
   pmra_ep: 0.024
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 spec_metallicity:
-  ref: Chiti2021NatAs...5..392C
+  ref_spec_metallicity: Chiti2021NatAs...5..392C
   spec_metallicity: -2.77
 structure:
   ellipticity: 0.39
@@ -46,12 +45,12 @@ structure:
   position_angle: 107.0
   position_angle_em: 18.0
   position_angle_ep: 18.0
-  ref: Koposov2015ApJ...805..130K
+  ref_structure: Koposov2015ApJ...805..130K
   rhalf: 12.89
   rhalf_em: 1.98
   rhalf_ep: 1.71
 velocity:
-  ref: Chiti2023AJ....165...55C
+  ref_vlos: Chiti2023AJ....165...55C
   vlos_sigma: 3.8
   vlos_sigma_em: 0.7
   vlos_sigma_ep: 1.1

@@ -1,0 +1,61 @@
+distance:
+  distance: 666.8
+  distance_em: 15.0
+  distance_ep: 16.0
+  distance_modulus: 24.12
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Savino2022ApJ...938..101S
+key: andromeda_02
+location:
+  dec: 33.43528
+  ra: 19.11167
+m_v:
+  apparent_magnitude_v: 12.4
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: Martin2016ApJ...833..167M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1972
+  host: M_31
+  name: Andromeda II
+  ref_discovery:
+  - vandenBergh1972ApJ...171L..31V
+  table: dwarf_m31
+spec_metallicity:
+  ref_spec_metallicity: Wojno2020ApJ...895...78W
+  spec_metallicity: -1.47
+  spec_metallicity_em: 0.006
+  spec_metallicity_ep: 0.006
+structure:
+  ellipticity: 0.16
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  position_angle: 31.0
+  position_angle_em: 5.0
+  position_angle_ep: 5.0
+  ref_structure: Martin2016ApJ...833..167M
+  rhalf: 5.3
+  rhalf_em: 0.1
+  rhalf_ep: 0.1
+structure_king:
+  king_concentration: 0.63
+  king_concentration_em: 0.03
+  king_concentration_ep: 0.03
+  rcore: 5.2
+  rcore_em: 0.2
+  rcore_ep: 0.2
+  ref_structure_king: McConnachie2006MNRAS.365.1263M
+  rking: 22.0
+  rking_em: 1.0
+  rking_ep: 1.0
+velocity:
+  ref_vlos: Ho2012ApJ...758..124H
+  vlos_sigma: 7.8
+  vlos_sigma_em: 1.1
+  vlos_sigma_ep: 1.1
+  vlos_systemic: -192.4
+  vlos_systemic_em: 0.5
+  vlos_systemic_ep: 0.5

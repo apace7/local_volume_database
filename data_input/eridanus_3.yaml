@@ -1,0 +1,79 @@
+age:
+  age: 12.5
+  age_em: 0.7
+  age_ep: 0.5
+  ref_age: Conn2018ApJ...852...68C
+distance:
+  distance: 91.0
+  distance_em: 4.0
+  distance_ep: 4.0
+  distance_modulus: 19.8
+  distance_modulus_em: 0.04
+  distance_modulus_ep: 0.04
+  ref_distance: Conn2018ApJ...852...68C
+key: eridanus_3
+location:
+  dec: -52.2838
+  ra: 35.6952
+m_v:
+  apparent_magnitude_v: 17.73
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.5
+  ref_m_v: Conn2018ApJ...852...68C
+metallicity_photometric:
+  metallicity_photometric: -2.4
+  metallicity_photometric_em: 0.12
+  metallicity_photometric_ep: 0.19
+  ref_metallicity_photometric: Conn2018ApJ...852...68C
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 0
+  discovery_year: 2015
+  host: MW
+  name: Eridanus III
+  other_name:
+  - DES J0222.7-5217
+  ref_discovery:
+  - Bechtol2015ApJ...807...50B
+  - Koposov2015ApJ...805..130K
+  table: gc_ufsc
+notes:
+- observed mass segregation in Baumgardt2022MNRAS.510.3531B; there is potential metallicity
+  dispersion in CaH\&K photometry but main sequence stars are included in this calculation
+  Fu2023arXiv230606260F; size + luminosity is consistent with both GC and dwarf; no
+  published spectroscopy; classifiction unclear
+proper_motion:
+  pmdec: -0.64
+  pmdec_em: 0.14
+  pmdec_ep: 0.14
+  pmra: 1.39
+  pmra_em: 0.13
+  pmra_ep: 0.13
+  ref_proper_motion: Battaglia2022A&A...657A..54B
+structure:
+  ellipticity: 0.44
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.02
+  position_angle: 109.0
+  position_angle_em: 5.0
+  position_angle_ep: 5.0
+  ref_structure: Conn2018ApJ...852...68C
+  rhalf: 0.315
+  rhalf_em: 0.027
+  rhalf_ep: 0.036
+structure_king:
+  rcore: 0.19
+  rcore_em: 0.049
+  rcore_ep: 0.053
+  ref_structure_king: Conn2018ApJ...852...68C
+  rking: 2.08
+  rking_em: 0.91
+  rking_ep: 0.97
+structure_sersic:
+  n_sersic: 1.64
+  n_sersic_em: 0.27
+  n_sersic_ep: 0.27
+  rad_sersic: 0.29
+  rad_sersic_em: 0.23
+  rad_sersic_ep: 0.23
+  ref_structure_sersic: Munoz2018ApJ...860...66M

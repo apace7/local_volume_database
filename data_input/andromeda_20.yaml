@@ -1,0 +1,45 @@
+distance:
+  distance: 741.3
+  distance_em: 27.0
+  distance_ep: 28.0
+  distance_modulus: 24.35
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Savino2022ApJ...938..101S
+key: andromeda_20
+location:
+  dec: 35.12694
+  ra: 1.8775
+m_v:
+  apparent_magnitude_v: 18.0
+  apparent_magnitude_v_em: 0.4
+  apparent_magnitude_v_ep: 0.4
+  ref_m_v: Martin2016ApJ...833..167M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2008
+  host: M_31
+  name: Andromeda XX
+  ref_discovery:
+  - McConnachie2008ApJ...688.1009M
+  table: dwarf_m31
+structure:
+  ellipticity: 0.11
+  ellipticity_em: 0.11
+  ellipticity_ep: 0.41
+  position_angle: 90.0
+  position_angle_em: 44.0
+  position_angle_ep: 20.0
+  ref_structure: Martin2016ApJ...833..167M
+  rhalf: 0.4
+  rhalf_em: 0.1
+  rhalf_ep: 0.2
+velocity:
+  ref_vlos: Collins2013ApJ...768..172C
+  vlos_sigma: 7.1
+  vlos_sigma_em: 2.5
+  vlos_sigma_ep: 3.9
+  vlos_systemic: -456.2
+  vlos_systemic_em: 3.6
+  vlos_systemic_ep: 3.1

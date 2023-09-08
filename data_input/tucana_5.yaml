@@ -5,10 +5,7 @@ distance:
   distance_modulus: 18.7
   distance_modulus_em: 0.21
   distance_modulus_ep: 0.21
-  ref: Simon2020ApJ...892..137S
-flux_HI:
-  flux_HI_ul: 0.51
-  ref: Putman2021ApJ...913...53P
+  ref_distance: Simon2020ApJ...892..137S
 key: tucana_5
 location:
   dec: -63.266
@@ -17,15 +14,17 @@ m_v:
   apparent_magnitude_v: 17.6
   apparent_magnitude_v_em: 0.6
   apparent_magnitude_v_ep: 0.5
-  ref: Simon2020ApJ...892..137S
+  ref_m_v: Simon2020ApJ...892..137S
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
   discovery_year: 2015
   host: MW
   name: Tucana V
-  other_name_1: DES J2337-6316
-  ref_discovery_1: DrlicaWagner2015ApJ...813..109D
+  other_name:
+  - DES J2337-6316
+  ref_discovery:
+  - DrlicaWagner2015ApJ...813..109D
   table: dwarf_mw
 proper_motion:
   pmdec: -1.18
@@ -34,9 +33,9 @@ proper_motion:
   pmra: -0.14
   pmra_em: 0.05
   pmra_ep: 0.04
-  ref: Battaglia2022A&A...657A..54B
+  ref_proper_motion: Battaglia2022A&A...657A..54B
 spec_metallicity:
-  ref: Simon2020ApJ...892..137S
+  ref_spec_metallicity: Simon2020ApJ...892..137S
   spec_metallicity: -2.17
   spec_metallicity_em: 0.23
   spec_metallicity_ep: 0.23
@@ -47,12 +46,12 @@ structure:
   position_angle: 29.0
   position_angle_em: 11.0
   position_angle_ep: 11.0
-  ref: Simon2020ApJ...892..137S
+  ref_structure: Simon2020ApJ...892..137S
   rhalf: 2.1
   rhalf_em: 0.4
   rhalf_ep: 0.6
 velocity:
-  ref: Simon2020ApJ...892..137S
+  ref_vlos: Simon2020ApJ...892..137S
   vlos_sigma_ul: 7.4
   vlos_systemic: -36.2
   vlos_systemic_em: 2.2

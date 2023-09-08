@@ -1,0 +1,50 @@
+distance:
+  distance: 7.431
+  distance_em: 0.26
+  distance_ep: 0.27
+  distance_modulus: 14.355
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: fsr_1716
+location:
+  dec: -53.7489
+  ra: 242.625
+m_v:
+  apparent_magnitude_v: 9.57
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2006
+  host: MW
+  name: FSR 1716
+  other_name:
+  - VVV-GC05
+  ref_discovery:
+  - Froebrich2007MNRAS.374..399F
+  table: gc_disk
+proper_motion:
+  pmdec: -8.8318
+  pmdec_em: 0.0312
+  pmdec_ep: 0.0312
+  pmra: -4.3537
+  pmra_em: 0.0334
+  pmra_ep: 0.0334
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Koch2017A&A...605A.128K
+  spec_metallicity: -1.38
+  spec_metallicity_em: 0.2
+  spec_metallicity_ep: 0.2
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.71
+velocity:
+  ref_vlos: Koch2017A&A...605A.128K
+  vlos_sigma: 2.5
+  vlos_sigma_em: 0.9
+  vlos_sigma_ep: 0.9
+  vlos_systemic: -30.3
+  vlos_systemic_em: 1.2
+  vlos_systemic_ep: 1.2

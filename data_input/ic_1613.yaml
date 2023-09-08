@@ -1,0 +1,70 @@
+distance:
+  distance: 731.1
+  distance_em: 17.0
+  distance_ep: 17.0
+  distance_modulus: 24.32
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Savino2022ApJ...938..101S
+key: ic_1613
+location:
+  dec: 2.117777778
+  ra: 16.1991667
+m_v:
+  apparent_magnitude_v: 9.2
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: McConnachie2012AJ....144....4M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1906
+  host: LF
+  name: IC 1613
+  other_name:
+  - DDO 8
+  - UGC 668
+  ref_discovery:
+  - Wolf1906MNRAS..67...91W
+  table: dwarf_local_field
+proper_motion:
+  pmdec: 0.01
+  pmdec_em: 0.01
+  pmdec_ep: 0.01
+  pmra: 0.04
+  pmra_em: 0.02
+  pmra_ep: 0.02
+  ref_proper_motion: Battaglia2022A&A...657A..54B
+spec_metallicity:
+  ref_spec_metallicity: Kirby2013ApJ...779..102K
+  spec_metallicity: -1.19
+  spec_metallicity_em: 0.01
+  spec_metallicity_ep: 0.01
+  spec_metallicity_sigma: 0.37
+structure:
+  ellipticity: 0.2
+  ellipticity_em: 0.05
+  ellipticity_ep: 0.05
+  position_angle: 90.49
+  position_angle_em: 1.02
+  position_angle_ep: 1.02
+  ref_structure: Higgs2021MNRAS.503..176H
+  rhalf: 7.57
+  rhalf_em: 0.05
+  rhalf_ep: 0.05
+structure_sersic:
+  n_sersic: 0.43
+  n_sersic_em: 0.02
+  n_sersic_ep: 0.02
+  rad_sersic: 7.57
+  rad_sersic_em: 0.05
+  rad_sersic_ep: 0.05
+  ref_structure_sersic: Higgs2021MNRAS.503..176H
+velocity:
+  ref_vlos: Kirby2014MNRAS.439.1015K
+  vlos_sigma: 10.8
+  vlos_sigma_em: 0.9
+  vlos_sigma_ep: 1.0
+  vlos_systemic: -231.6
+  vlos_systemic_em: 1.2
+  vlos_systemic_ep: 1.2

@@ -5,10 +5,7 @@ distance:
   distance_modulus: 20.9
   distance_modulus_em: 0.11
   distance_modulus_ep: 0.11
-  ref: Vivas2016AJ....151..118V
-flux_HI:
-  flux_HI_ul: 0.6
-  ref: Putman2021ApJ...913...53P
+  ref_distance: Vivas2016AJ....151..118V
 key: hydra_2
 location:
   dec: -31.986
@@ -17,14 +14,15 @@ m_v:
   apparent_magnitude_v: 15.8
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
-  ref: Martin2015ApJ...804L...5M
+  ref_m_v: Martin2015ApJ...804L...5M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2015
   host: MW
   name: Hydra II
-  ref_discovery_1: Martin2015ApJ...804L...5M
+  ref_discovery:
+  - Martin2015ApJ...804L...5M
   table: dwarf_mw
 proper_motion:
   pmdec: 0.0
@@ -33,9 +31,9 @@ proper_motion:
   pmra: -0.394
   pmra_em: 0.14
   pmra_ep: 0.14
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 spec_metallicity:
-  ref: Kirby2015ApJ...810...56K
+  ref_spec_metallicity: Kirby2015ApJ...810...56K
   spec_metallicity: -2.02
   spec_metallicity_em: 0.08
   spec_metallicity_ep: 0.08
@@ -49,7 +47,7 @@ structure:
   position_angle: 28.0
   position_angle_em: 35.0
   position_angle_ep: 40.0
-  ref: Martin2015ApJ...804L...5M
+  ref_structure: Martin2015ApJ...804L...5M
   rhalf: 1.7
   rhalf_em: 0.2
   rhalf_ep: 0.3
@@ -60,9 +58,9 @@ structure_sersic:
   rad_sersic: 1.5
   rad_sersic_em: 0.32
   rad_sersic_ep: 0.32
-  ref: Munoz2018ApJ...860...66M
+  ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref: Kirby2015ApJ...810...56K
+  ref_vlos: Kirby2015ApJ...810...56K
   vlos_sigma_ul: 4.5
   vlos_systemic: 303.1
   vlos_systemic_em: 1.4

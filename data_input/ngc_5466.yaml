@@ -1,0 +1,40 @@
+distance:
+  distance: 16.12
+  distance_em: 0.162
+  distance_ep: 0.164
+  distance_modulus: 16.037
+  distance_modulus_em: 0.022
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_5466
+location:
+  dec: 28.534445
+  ra: 211.363709
+m_v:
+  apparent_magnitude_v: 9.32
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 5466
+  table: gc_harris
+proper_motion:
+  pmdec: -0.8223
+  pmdec_em: 0.0242
+  pmdec_ep: 0.0242
+  pmra: -5.3423
+  pmra_em: 0.0245
+  pmra_ep: 0.0245
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Harris1996AJ....112.1487H
+  spec_metallicity: -1.98
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 2.04
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 106.82
+  vlos_systemic_em: 0.2
+  vlos_systemic_ep: 0.2

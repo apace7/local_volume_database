@@ -1,0 +1,47 @@
+distance:
+  distance: 820.4
+  distance_em: 26.0
+  distance_ep: 27.0
+  distance_modulus: 24.57
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Savino2022ApJ...938..101S
+key: andromeda_13
+location:
+  dec: 33.00444
+  ra: 12.9625
+m_v:
+  apparent_magnitude_v: 17.8
+  apparent_magnitude_v_em: 0.4
+  apparent_magnitude_v_ep: 0.4
+  ref_m_v: Martin2016ApJ...833..167M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2006
+  host: M_31
+  name: Andromeda XIII
+  other_name:
+  - Pisces III
+  ref_discovery:
+  - Martin2006MNRAS.371.1983M
+  table: dwarf_m31
+structure:
+  ellipticity: 0.61
+  ellipticity_em: 0.2
+  ellipticity_ep: 0.14
+  position_angle: -20.0
+  position_angle_em: 12.0
+  position_angle_ep: 9.0
+  ref_structure: Martin2016ApJ...833..167M
+  rhalf: 0.8
+  rhalf_em: 0.3
+  rhalf_ep: 0.4
+velocity:
+  ref_vlos: Tollerud2012ApJ...752...45T
+  vlos_sigma: 5.8
+  vlos_sigma_em: 2.0
+  vlos_sigma_ep: 2.0
+  vlos_systemic: -185.4
+  vlos_systemic_em: 2.4
+  vlos_systemic_ep: 2.4

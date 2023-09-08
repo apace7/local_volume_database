@@ -1,0 +1,51 @@
+distance:
+  distance: 631.0
+  distance_em: 17.0
+  distance_ep: 18.0
+  distance_modulus: 24.0
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Savino2022ApJ...938..101S
+key: andromeda_10
+location:
+  dec: 44.8075
+  ra: 16.6475
+m_v:
+  apparent_magnitude_v: 16.7
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: Martin2016ApJ...833..167M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2006
+  host: M_31
+  name: Andromeda X
+  ref_discovery:
+  - Zucker2007ApJ...659L..21Z
+  table: dwarf_m31
+spec_metallicity:
+  ref_spec_metallicity: Kirby2020AJ....159...46K
+  spec_metallicity: -2.27
+  spec_metallicity_em: 0.03
+  spec_metallicity_ep: 0.03
+  spec_metallicity_sigma: 0.47
+structure:
+  ellipticity: 0.1
+  ellipticity_em: 0.1
+  ellipticity_ep: 0.34
+  position_angle: 30.0
+  position_angle_em: 12.0
+  position_angle_ep: 20.0
+  ref_structure: Martin2016ApJ...833..167M
+  rhalf: 1.1
+  rhalf_em: 0.2
+  rhalf_ep: 0.4
+velocity:
+  ref_vlos: Tollerud2012ApJ...752...45T
+  vlos_sigma: 6.4
+  vlos_sigma_em: 1.4
+  vlos_sigma_ep: 1.4
+  vlos_systemic: -164.1
+  vlos_systemic_em: 1.7
+  vlos_systemic_ep: 1.7

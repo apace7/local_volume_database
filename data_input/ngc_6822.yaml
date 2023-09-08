@@ -1,0 +1,71 @@
+distance:
+  distance: 570.0
+  distance_em: 12.0
+  distance_ep: 12.0
+  distance_modulus: 23.78
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Higgs2021MNRAS.503..176H
+key: ngc_6822
+location:
+  dec: -14.78916667
+  ra: 296.2358333
+m_v:
+  apparent_magnitude_v: 8.1
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: McConnachie2012AJ....144....4M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1884
+  host: LF
+  name: NGC 6822
+  other_name:
+  - IC 4895
+  - DDO 209
+  - "Barnard\u2019s Galaxy"
+  ref_discovery:
+  - Barnard1884AN....110..125B
+  table: dwarf_local_field
+proper_motion:
+  pmdec: -0.07
+  pmdec_em: 0.01
+  pmdec_ep: 0.01
+  pmra: -0.06
+  pmra_em: 0.01
+  pmra_ep: 0.01
+  ref_proper_motion: Battaglia2022A&A...657A..54B
+spec_metallicity:
+  ref_spec_metallicity: Kirby2013ApJ...779..102K
+  spec_metallicity: -1.05
+  spec_metallicity_em: 0.01
+  spec_metallicity_ep: 0.01
+  spec_metallicity_sigma: 0.49
+structure:
+  ellipticity: 0.28
+  ellipticity_em: 0.15
+  ellipticity_ep: 0.15
+  position_angle: 66.88
+  position_angle_em: 14.93
+  position_angle_ep: 14.93
+  ref_structure: Higgs2021MNRAS.503..176H
+  rhalf: 11.95
+  rhalf_em: 0.07
+  rhalf_ep: 0.07
+structure_sersic:
+  n_sersic: 0.73
+  n_sersic_em: 0.02
+  n_sersic_ep: 0.02
+  rad_sersic: 11.95
+  rad_sersic_em: 0.07
+  rad_sersic_ep: 0.07
+  ref_structure_sersic: Higgs2021MNRAS.503..176H
+velocity:
+  ref_vlos: Kirby2014MNRAS.439.1015K
+  vlos_sigma: 23.2
+  vlos_sigma_em: 1.2
+  vlos_sigma_ep: 1.2
+  vlos_systemic: -54.5
+  vlos_systemic_em: 1.7
+  vlos_systemic_ep: 1.7

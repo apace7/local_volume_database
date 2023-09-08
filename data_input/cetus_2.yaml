@@ -5,10 +5,7 @@ distance:
   distance_modulus: 17.38
   distance_modulus_em: 0.19
   distance_modulus_ep: 0.19
-  ref: DrlicaWagner2015ApJ...813..109D
-flux_HI:
-  flux_HI_ul: 0.6
-  ref: Putman2021ApJ...913...53P
+  ref_distance: DrlicaWagner2015ApJ...813..109D
 key: cetus_2
 location:
   dec: -17.42
@@ -17,15 +14,17 @@ m_v:
   apparent_magnitude_v: 17.38
   apparent_magnitude_v_em: 0.68
   apparent_magnitude_v_ep: 0.68
-  ref: DrlicaWagner2015ApJ...813..109D
+  ref_m_v: DrlicaWagner2015ApJ...813..109D
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
   discovery_year: 2015
   host: MW
   name: Cetus II
-  other_name_1: DES J0117-1725
-  ref_discovery_1: DrlicaWagner2015ApJ...813..109D
+  other_name:
+  - DES J0117-1725
+  ref_discovery:
+  - DrlicaWagner2015ApJ...813..109D
   table: dwarf_mw
 proper_motion:
   pmdec: 0.474
@@ -34,10 +33,10 @@ proper_motion:
   pmra: 2.844
   pmra_em: 0.059
   pmra_ep: 0.061
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 structure:
   ellipticity_ul: 0.4
-  ref: DrlicaWagner2015ApJ...813..109D
+  ref_structure: DrlicaWagner2015ApJ...813..109D
   rhalf: 1.9
   rhalf_em: 0.5
   rhalf_ep: 1.0

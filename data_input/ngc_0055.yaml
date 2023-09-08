@@ -1,0 +1,42 @@
+distance:
+  distance: 1932.0
+  distance_em: 107.0
+  distance_ep: 107.0
+  distance_modulus: 26.43
+  distance_modulus_em: 0.12
+  distance_modulus_ep: 0.12
+  ref_distance: McConnachie2012AJ....144....4M
+key: ngc_0055
+location:
+  dec: -39.19666667
+  ra: 3.7233333
+m_v:
+  apparent_magnitude_v: 7.9
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: McConnachie2012AJ....144....4M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1828
+  host: LF
+  name: NGC 55
+  ref_discovery:
+  - Dunlop1828RSPT..118..113D
+  table: dwarf_local_field
+structure:
+  ellipticity: 0.83
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 108.0
+  position_angle_em: 2.0
+  position_angle_ep: 2.0
+  ref_structure: McConnachie2012AJ....144....4M
+  rhalf: 5.16
+  rhalf_em: 0.2
+  rhalf_ep: 0.02
+velocity:
+  ref_vlos: McConnachie2012AJ....144....4M
+  vlos_systemic: 129.0
+  vlos_systemic_em: 2.0
+  vlos_systemic_ep: 2.0

@@ -5,10 +5,7 @@ distance:
   distance_modulus: 17.5
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
-  ref: MutluPakdil2018ApJ...863...25M
-flux_HI:
-  flux_HI_ul: 0.6
-  ref: Putman2021ApJ...913...53P
+  ref_distance: MutluPakdil2018ApJ...863...25M
 key: reticulum_2
 location:
   dec: -54.0513
@@ -17,16 +14,18 @@ m_v:
   apparent_magnitude_v: 14.4
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
-  ref: MutluPakdil2018ApJ...863...25M
+  ref_m_v: MutluPakdil2018ApJ...863...25M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2015
   host: LMC
   name: Reticulum II
-  other_name_1: DES J0335.6-5403
-  ref_discovery_1: Bechtol2015ApJ...807...50B
-  ref_discovery_2: Koposov2015ApJ...805..130K
+  other_name:
+  - DES J0335.6-5403
+  ref_discovery:
+  - Bechtol2015ApJ...807...50B
+  - Koposov2015ApJ...805..130K
   table: dwarf_mw
 proper_motion:
   pmdec: -1.379
@@ -35,9 +34,9 @@ proper_motion:
   pmra: 2.377
   pmra_em: 0.024
   pmra_ep: 0.023
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 spec_metallicity:
-  ref: Simon2015ApJ...808...95S
+  ref_spec_metallicity: Simon2015ApJ...808...95S
   spec_metallicity: -2.65
   spec_metallicity_em: 0.07
   spec_metallicity_ep: 0.07
@@ -51,7 +50,7 @@ structure:
   position_angle: 68.0
   position_angle_em: 2.0
   position_angle_ep: 2.0
-  ref: MutluPakdil2018ApJ...863...25M
+  ref_structure: MutluPakdil2018ApJ...863...25M
   rhalf: 6.3
   rhalf_em: 0.4
   rhalf_ep: 0.4
@@ -62,9 +61,9 @@ structure_sersic:
   rad_sersic: 5.59
   rad_sersic_em: 0.21
   rad_sersic_ep: 0.21
-  ref: Munoz2018ApJ...860...66M
+  ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref: Walker2015ApJ...808..108W
+  ref_vlos: Walker2015ApJ...808..108W
   vlos_sigma: 3.6
   vlos_sigma_em: 0.7
   vlos_sigma_ep: 1.0

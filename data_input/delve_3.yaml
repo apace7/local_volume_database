@@ -1,0 +1,45 @@
+distance:
+  distance: 56.0
+  distance_em: 6.0
+  distance_ep: 2.0
+  distance_modulus: 18.73
+  distance_modulus_em: 0.23
+  distance_modulus_ep: 0.09
+  ref_distance: Cerny2023ApJ...953....1C
+key: delve_3
+location:
+  dec: -60.784
+  ra: 290.396
+m_v:
+  apparent_magnitude_v: 17.43
+  apparent_magnitude_v_em: 0.6
+  apparent_magnitude_v_ep: 0.4
+  ref_m_v: Cerny2023ApJ...953....1C
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 0
+  discovery_year: 2022
+  host: MW
+  name: DELVE 3
+  other_name:
+  - DELVE J1921-6047
+  ref_discovery:
+  - Cerny2023ApJ...953....1C
+  table: gc_ufsc
+proper_motion:
+  pmdec: -0.8
+  pmdec_em: 0.32
+  pmdec_ep: 0.35
+  pmra: -0.33
+  pmra_em: 0.34
+  pmra_ep: 0.31
+  ref_proper_motion: Cerny2023ApJ...953....1C
+structure:
+  ellipticity_ul: 0.4
+  position_angle: 87.0
+  position_angle_em: 35.0
+  position_angle_ep: 30.0
+  ref_structure: Cerny2023ApJ...953....1C
+  rhalf: 0.4
+  rhalf_em: 0.08
+  rhalf_ep: 0.12

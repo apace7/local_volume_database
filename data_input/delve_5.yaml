@@ -1,0 +1,53 @@
+age:
+  age: 10.0
+  ref_age: Cerny2023ApJ...953....1C
+distance:
+  distance: 39.0
+  distance_em: 3.0
+  distance_ep: 3.0
+  distance_modulus: 17.97
+  distance_modulus_em: 0.17
+  distance_modulus_ep: 0.17
+  ref_distance: Cerny2023ApJ...953....1C
+key: delve_5
+location:
+  dec: 17.468
+  ra: 222.104
+m_v:
+  apparent_magnitude_v: 18.37
+  apparent_magnitude_v_em: 0.9
+  apparent_magnitude_v_ep: 0.4
+  ref_m_v: Cerny2023ApJ...953....1C
+metallicity_photometric:
+  metallicity_photometric: -2.2
+  ref_metallicity_photometric: Cerny2023ApJ...953....1C
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 0
+  discovery_year: 2022
+  host: MW
+  name: DELVE 5
+  other_name:
+  - DELVE J1448+1728
+  ref_discovery:
+  - Cerny2023ApJ...953....1C
+  table: gc_ufsc
+proper_motion:
+  pmdec: -0.93
+  pmdec_em: 0.12
+  pmdec_ep: 0.12
+  pmra: -1.82
+  pmra_em: 0.12
+  pmra_ep: 0.13
+  ref_proper_motion: Cerny2023ApJ...953....1C
+structure:
+  ellipticity: 0.6
+  ellipticity_em: 0.2
+  ellipticity_ep: 0.1
+  position_angle: 77.0
+  position_angle_em: 11.0
+  position_angle_ep: 10.0
+  ref_structure: Cerny2023ApJ...953....1C
+  rhalf: 0.68
+  rhalf_em: 0.17
+  rhalf_ep: 0.24

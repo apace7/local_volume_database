@@ -1,0 +1,39 @@
+distance:
+  distance: 46.0
+  distance_em: 4.0
+  distance_ep: 4.0
+  distance_modulus: 18.3
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.2
+  ref_distance: Homma2019PASJ...71...94H
+key: hsc_1
+location:
+  dec: 3.48
+  ra: 334.309
+m_v:
+  apparent_magnitude_v: 18.1
+  apparent_magnitude_v_em: 0.83
+  apparent_magnitude_v_ep: 0.59
+  ref_m_v: Homma2019PASJ...71...94H
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 2019
+  host: MW
+  name: HSC 1
+  other_name:
+  - HSC J2217+0328
+  ref_discovery:
+  - Homma2019PASJ...71...94H
+  table: gc_ufsc
+structure:
+  ellipticity: 0.46
+  ellipticity_em: 0.1
+  ellipticity_ep: 0.08
+  position_angle: -12.0
+  position_angle_em: 11.0
+  position_angle_ep: 11.0
+  ref_structure: Homma2019PASJ...71...94H
+  rhalf: 0.44
+  rhalf_em: 0.06
+  rhalf_ep: 0.07

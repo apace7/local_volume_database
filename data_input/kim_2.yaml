@@ -1,0 +1,69 @@
+age:
+  age: 11.5
+  age_em: 3.5
+  age_ep: 2.0
+  ref_age: Kim2015ApJ...803...63K
+distance:
+  distance: 104.7
+  distance_em: 4.1
+  distance_ep: 4.1
+  distance_modulus: 20.1
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
+  ref_distance: Kim2015ApJ...803...63K
+key: kim_2
+location:
+  dec: -51.1671
+  ra: 317.202
+m_v:
+  apparent_magnitude_v: 18.6
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.5
+  ref_m_v: Kim2015ApJ...803...63K
+metallicity_photometric:
+  metallicity_photometric: -1.0
+  metallicity_photometric_em: 0.21
+  metallicity_photometric_ep: 0.18
+  ref_metallicity_photometric: Kim2015ApJ...803...63K
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2015
+  host: MW
+  name: Kim 2
+  other_name:
+  - Indus I
+  - Indus 1
+  - DES J2108.8-5109
+  ref_discovery:
+  - Kim2015ApJ...803...63K
+  - Bechtol2015ApJ...807...50B
+  - Koposov2015ApJ...805..130K
+  table: gc_ufsc
+structure:
+  ellipticity: 0.12
+  ellipticity_em: 0.1
+  ellipticity_ep: 0.1
+  position_angle: 35.0
+  position_angle_em: 5.0
+  position_angle_ep: 5.0
+  ref_structure: Kim2015ApJ...803...63K
+  rhalf: 0.42
+  rhalf_em: 0.02
+  rhalf_ep: 0.02
+structure_king:
+  rcore: 0.279
+  rcore_em: 0.02
+  rcore_ep: 0.02
+  ref_structure_king: Kim2015ApJ...803...63K
+  rking: 2.101
+  rking_em: 0.02
+  rking_ep: 0.02
+structure_sersic:
+  n_sersic: 1.22
+  n_sersic_em: 0.44
+  n_sersic_ep: 0.44
+  rad_sersic: 0.87
+  rad_sersic_em: 0.45
+  rad_sersic_ep: 0.45
+  ref_structure_sersic: Munoz2018ApJ...860...66M

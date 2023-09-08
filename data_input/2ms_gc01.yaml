@@ -1,0 +1,27 @@
+distance:
+  distance: 3.373
+  distance_em: 0.567
+  distance_ep: 0.682
+  distance_modulus: 12.64
+  distance_modulus_em: 0.4
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: 2ms_gc01
+location:
+  dec: -19.829723
+  ra: 272.090851
+m_v:
+  apparent_magnitude_v: 6.57
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: 2MASS GC-01
+  table: gc_harris
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 4.07
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -31.28
+  vlos_systemic_em: 0.5
+  vlos_systemic_ep: 0.5

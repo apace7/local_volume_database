@@ -5,10 +5,7 @@ distance:
   distance_modulus: 19.46
   distance_modulus_em: 0.2
   distance_modulus_ep: 0.2
-  ref: Kim2015ApJ...808L..39K
-flux_HI:
-  flux_HI_ul: 0.54
-  ref: Putman2021ApJ...913...53P
+  ref_distance: Kim2015ApJ...808L..39K
 key: horologium_2
 location:
   dec: -50.0486
@@ -17,14 +14,15 @@ m_v:
   apparent_magnitude_v: 16.86
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.2
-  ref: Kim2015ApJ...808L..39K
+  ref_m_v: Kim2015ApJ...808L..39K
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
   discovery_year: 2015
   host: MW
   name: Horologium II
-  ref_discovery_1: Kim2015ApJ...808L..39K
+  ref_discovery:
+  - Kim2015ApJ...808L..39K
   table: dwarf_mw
 proper_motion:
   pmdec: -0.771
@@ -33,7 +31,7 @@ proper_motion:
   pmra: 0.967
   pmra_em: 0.171
   pmra_ep: 0.173
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 structure:
   ellipticity: 0.52
   ellipticity_em: 0.17
@@ -41,7 +39,7 @@ structure:
   position_angle: 127.0
   position_angle_em: 11.0
   position_angle_ep: 11.0
-  ref: Kim2015ApJ...808L..39K
+  ref_structure: Kim2015ApJ...808L..39K
   rhalf: 2.09
   rhalf_em: 0.41
   rhalf_ep: 0.44
@@ -52,4 +50,4 @@ structure_sersic:
   rad_sersic: 2.83
   rad_sersic_em: 1.31
   rad_sersic_ep: 1.31
-  ref: Munoz2018ApJ...860...66M
+  ref_structure_sersic: Munoz2018ApJ...860...66M

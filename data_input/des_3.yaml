@@ -1,0 +1,47 @@
+age:
+  age: 9.8
+  age_em: 1.1
+  age_ep: 1.1
+  ref_age: Luque2018MNRAS.478.2006L
+distance:
+  distance: 76.2
+  distance_em: 3.9
+  distance_ep: 2.8
+  distance_modulus: 19.41
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.08
+  ref_distance: Luque2018MNRAS.478.2006L
+key: des_3
+location:
+  dec: -52.5418
+  ra: 325.0551667
+m_v:
+  apparent_magnitude_v: 17.81
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.5
+  ref_m_v: Luque2018MNRAS.478.2006L
+metallicity_photometric:
+  metallicity_photometric: -1.84
+  metallicity_photometric_em: 0.12
+  metallicity_photometric_ep: 0.22
+  ref_metallicity_photometric: Luque2018MNRAS.478.2006L
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 2017
+  host: MW
+  name: DES 3
+  ref_discovery:
+  - Luque2018MNRAS.478.2006L
+  table: gc_ufsc
+structure:
+  ellipticity: 0.18
+  ellipticity_em: 0.12
+  ellipticity_ep: 0.14
+  position_angle: -11.59
+  position_angle_em: 32.18
+  position_angle_ep: 30.83
+  ref_structure: Luque2018MNRAS.478.2006L
+  rhalf: 0.3
+  rhalf_em: 0.04
+  rhalf_ep: 0.05

@@ -1,0 +1,40 @@
+distance:
+  distance: 18.891
+  distance_em: 0.25
+  distance_ep: 0.253
+  distance_modulus: 16.381
+  distance_modulus_em: 0.029
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ic_4499
+location:
+  dec: -82.213792
+  ra: 225.077188
+m_v:
+  apparent_magnitude_v: 9.13
+  apparent_magnitude_v_em: 0.05
+  apparent_magnitude_v_ep: 0.05
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: IC 4499
+  table: gc_harris
+proper_motion:
+  pmdec: -0.489
+  pmdec_em: 0.0253
+  pmdec_ep: 0.0253
+  pmra: 0.4658
+  pmra_em: 0.0253
+  pmra_ep: 0.0253
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Harris1996AJ....112.1487H
+  spec_metallicity: -1.53
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.87
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 38.41
+  vlos_systemic_em: 0.31
+  vlos_systemic_ep: 0.31

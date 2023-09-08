@@ -1,0 +1,43 @@
+distance:
+  distance: 10.212
+  distance_em: 0.396
+  distance_ep: 0.412
+  distance_modulus: 15.046
+  distance_modulus_em: 0.086
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: terzan_10
+location:
+  dec: -26.066944
+  ra: 270.740833
+m_v:
+  apparent_magnitude_v: 8.03
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: Terzan 10
+  other_name:
+  - ESO 521-16
+  - MWSC 2793
+  table: gc_harris
+proper_motion:
+  pmdec: -6.4384
+  pmdec_em: 0.0358
+  pmdec_ep: 0.0358
+  pmra: 2.5655
+  pmra_em: 0.039
+  pmra_ep: 0.039
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Harris1996AJ....112.1487H
+  spec_metallicity: -1.0
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.16
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 211.37
+  vlos_systemic_em: 2.27
+  vlos_systemic_ep: 2.27

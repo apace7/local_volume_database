@@ -1,0 +1,47 @@
+distance:
+  distance: 1349.0
+  distance_em: 62.0
+  distance_ep: 62.0
+  distance_modulus: 25.65
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
+  ref_distance: McConnachie2012AJ....144....4M
+key: antlia_1
+location:
+  dec: -27.33111111
+  ra: 151.0170833
+m_v:
+  apparent_magnitude_v: 15.2
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: McConnachie2012AJ....144....4M
+metallicity_photometric:
+  metallicity_photometric: -1.6
+  metallicity_photometric_em: 0.1
+  metallicity_photometric_ep: 0.1
+  ref_metallicity_photometric: McConnachie2006MNRAS.365.1263M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1997
+  host: LF
+  name: Antlia
+  ref_discovery:
+  - Whiting1997AJ....114..996W
+  table: dwarf_local_field
+structure:
+  ellipticity: 0.4
+  ellipticity_em: 0.04
+  ellipticity_ep: 0.04
+  position_angle: 135.0
+  position_angle_em: 5.0
+  position_angle_ep: 5.0
+  ref_structure: McConnachie2012AJ....144....4M
+  rhalf: 1.2
+  rhalf_em: 0.12
+  rhalf_ep: 0.12
+velocity:
+  ref_vlos: Barnes2001AJ....122..825B
+  vlos_systemic: 362.0
+  vlos_systemic_em: 2.0
+  vlos_systemic_ep: 2.0

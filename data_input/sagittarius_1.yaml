@@ -5,10 +5,7 @@ distance:
   distance_modulus: 17.1
   distance_modulus_em: 0.15
   distance_modulus_ep: 0.15
-  ref: McConnachie2012AJ....144....4M
-flux_HI:
-  flux_HI_ul: 0.73
-  ref: Putman2021ApJ...913...53P
+  ref_distance: McConnachie2012AJ....144....4M
 key: sagittarius_1
 location:
   dec: -30.5454
@@ -17,14 +14,15 @@ m_v:
   apparent_magnitude_v: 3.6
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
-  ref: McConnachie2012AJ....144....4M
+  ref_m_v: McConnachie2012AJ....144....4M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1994
   host: MW
   name: Sagittarius
-  ref_discovery_1: Ibata1994Natur.370..194I
+  ref_discovery:
+  - Ibata1994Natur.370..194I
   table: dwarf_mw
 notes:
 - tidally disrupting
@@ -35,9 +33,9 @@ proper_motion:
   pmra: -2.692
   pmra_em: 0.001
   pmra_ep: 0.001
-  ref: Gaia_Helmi2018A&A...616A..12G
+  ref_proper_motion: Gaia_Helmi2018A&A...616A..12G
 spec_metallicity:
-  ref: Simon2019ARA&A..57..375S
+  ref_spec_metallicity: Simon2019ARA&A..57..375S
   spec_metallicity: -0.53
   spec_metallicity_em: 0.02
   spec_metallicity_ep: 0.03
@@ -51,12 +49,12 @@ structure:
   position_angle: 102.0
   position_angle_em: 2.0
   position_angle_ep: 2.0
-  ref: McConnachie2012AJ....144....4M
+  ref_structure: McConnachie2012AJ....144....4M
   rhalf: 342.0
   rhalf_em: 12.0
   rhalf_ep: 12.0
 velocity:
-  ref: McConnachie2012AJ....144....4M
+  ref_vlos: McConnachie2012AJ....144....4M
   vlos_sigma: 11.4
   vlos_sigma_em: 0.7
   vlos_sigma_ep: 0.7

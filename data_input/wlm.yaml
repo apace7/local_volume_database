@@ -1,0 +1,67 @@
+distance:
+  distance: 934.0
+  distance_em: 21.0
+  distance_ep: 21.0
+  distance_modulus: 24.85
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Higgs2021MNRAS.503..176H
+key: wlm
+location:
+  dec: -15.46083333
+  ra: 0.4925
+m_v:
+  apparent_magnitude_v: 10.6
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: McConnachie2012AJ....144....4M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1910
+  host: LF
+  name: WLM
+  other_name:
+  - Wolf-Lundmark-Melotte
+  - UGCA 444
+  - DDO 221
+  - LEDA 143
+  ref_discovery:
+  - Wolf1909AN....183..187W
+  - Melotte1926MNRAS..86..636M
+  table: dwarf_local_field
+proper_motion:
+  pmdec: -0.07
+  pmdec_em: 0.02
+  pmdec_ep: 0.02
+  pmra: 0.09
+  pmra_em: 0.03
+  pmra_ep: 0.03
+  ref_proper_motion: Battaglia2022A&A...657A..54B
+structure:
+  ellipticity: 0.54
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.06
+  position_angle: 177.02
+  position_angle_em: 0.5
+  position_angle_ep: 0.5
+  ref_structure: Higgs2021MNRAS.503..176H
+  rhalf: 4.1
+  rhalf_em: 0.13
+  rhalf_ep: 0.13
+structure_sersic:
+  n_sersic: 0.77
+  n_sersic_em: 0.04
+  n_sersic_ep: 0.04
+  rad_sersic: 4.1
+  rad_sersic_em: 0.13
+  rad_sersic_ep: 0.13
+  ref_structure_sersic: Higgs2021MNRAS.503..176H
+velocity:
+  ref_vlos: Leaman2013ApJ...767..131L
+  vlos_sigma: 17.5
+  vlos_sigma_em: 2.0
+  vlos_sigma_ep: 2.0
+  vlos_systemic: -130.0
+  vlos_systemic_em: 1.0
+  vlos_systemic_ep: 1.0

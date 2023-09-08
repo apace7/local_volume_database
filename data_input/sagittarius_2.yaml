@@ -1,0 +1,55 @@
+distance:
+  distance: 70.2
+  distance_em: 5.0
+  distance_ep: 5.0
+  distance_modulus: 19.2
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.2
+  ref_distance: MutluPakdil2018ApJ...863...25M
+key: sagittarius_2
+location:
+  dec: -22.06805556
+  ra: 298.16875
+m_v:
+  apparent_magnitude_v: 14.0
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: MutluPakdil2018ApJ...863...25M
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2015
+  host: MW
+  name: Sagittarius II
+  other_name:
+  - Laevens 4
+  ref_discovery:
+  - Laevens2015ApJ...813...44L
+  table: gc_ufsc
+proper_motion:
+  pmdec: -0.903
+  pmdec_em: 0.023
+  pmdec_ep: 0.022
+  pmra: -0.769
+  pmra_em: 0.035
+  pmra_ep: 0.035
+  ref_proper_motion: Pace2022ApJ...940..136P
+spec_metallicity:
+  ref_spec_metallicity: Longeard2021MNRAS.503.2754L
+  spec_metallicity: -2.23
+  spec_metallicity_em: 0.07
+  spec_metallicity_ep: 0.07
+structure:
+  ellipticity_ul: 0.1
+  ref_structure: MutluPakdil2018ApJ...863...25M
+  rhalf: 1.6
+  rhalf_em: 0.1
+  rhalf_ep: 0.1
+velocity:
+  ref_vlos: Longeard2021MNRAS.503.2754L
+  vlos_sigma: 1.7
+  vlos_sigma_em: 0.5
+  vlos_sigma_ep: 0.5
+  vlos_systemic: -177.2
+  vlos_systemic_em: 0.6
+  vlos_systemic_ep: 0.5

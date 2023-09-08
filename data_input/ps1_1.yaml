@@ -1,0 +1,25 @@
+distance:
+  distance: 29.6
+  distance_modulus: 17.4
+  ref_distance: Torrealba2019MNRAS.484.2181T
+key: ps1_1
+location:
+  dec: -27.82721
+  ra: 289.17121
+m_v:
+  apparent_magnitude_v: 15.5
+  ref_m_v: Torrealba2019MNRAS.484.2181T
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 2018
+  host: MW
+  name: PS1 1
+  other_name:
+  - Prestgard 64
+  ref_discovery:
+  - Torrealba2019MNRAS.484.2181T
+  table: gc_ufsc
+structure:
+  ref_structure: Torrealba2019MNRAS.484.2181T
+  rhalf: 0.55

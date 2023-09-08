@@ -1,0 +1,40 @@
+distance:
+  distance: 20.711
+  distance_em: 0.359
+  distance_ep: 0.365
+  distance_modulus: 16.581
+  distance_modulus_em: 0.038
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: rup106
+location:
+  dec: -51.15027778
+  ra: 189.6675
+m_v:
+  apparent_magnitude_v: 10.43
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Baumgardt2020PASA...37...46B
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: Rup 106
+  table: gc_harris
+proper_motion:
+  pmdec: 0.4009
+  pmdec_em: 0.0261
+  pmdec_ep: 0.0261
+  pmra: -1.2535
+  pmra_em: 0.0264
+  pmra_ep: 0.0264
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+spec_metallicity:
+  ref_spec_metallicity: Harris1996AJ....112.1487H
+  spec_metallicity: -1.68
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.26
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -38.36
+  vlos_systemic_em: 0.26
+  vlos_systemic_ep: 0.26

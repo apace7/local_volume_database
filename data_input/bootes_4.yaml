@@ -5,7 +5,7 @@ distance:
   distance_modulus: 21.6
   distance_modulus_em: 0.2
   distance_modulus_ep: 0.2
-  ref: Homma2019PASJ...71...94H
+  ref_distance: Homma2019PASJ...71...94H
 key: bootes_4
 location:
   dec: 43.726
@@ -14,15 +14,17 @@ m_v:
   apparent_magnitude_v: 17.07
   apparent_magnitude_v_em: 0.21
   apparent_magnitude_v_ep: 0.23
-  ref: Homma2019PASJ...71...94H
+  ref_m_v: Homma2019PASJ...71...94H
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
   discovery_year: 2019
   host: MW
   name: Bootes IV
-  other_name_1: HSC J1534+4343
-  ref_discovery_1: Homma2019PASJ...71...94H
+  other_name:
+  - HSC J1534+4343
+  ref_discovery:
+  - Homma2019PASJ...71...94H
   table: dwarf_mw
 proper_motion:
   pmdec: 0.489
@@ -31,7 +33,7 @@ proper_motion:
   pmra: 0.469
   pmra_em: 0.244
   pmra_ep: 0.18
-  ref: Pace2022ApJ...940..136P
+  ref_proper_motion: Pace2022ApJ...940..136P
 structure:
   ellipticity: 0.64
   ellipticity_em: 0.05
@@ -39,7 +41,7 @@ structure:
   position_angle: 3.0
   position_angle_em: 4.0
   position_angle_ep: 4.0
-  ref: Homma2019PASJ...71...94H
+  ref_structure: Homma2019PASJ...71...94H
   rhalf: 7.6
   rhalf_em: 0.8
   rhalf_ep: 0.8
