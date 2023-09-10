@@ -73,7 +73,7 @@ def add_to_table(yaml_input, table_output, place, ):
     table_output['key'][place] = yaml_input['key']
     table_output['ra'][place] = yaml_input['location']['ra']
     table_output['dec'][place] = yaml_input['location']['dec']
-    for y in ['structure', 'distance','m_v', 'velocity', 'proper_motion', 'spec_metallicity', 'structure_king', 'structure_sersic', 'age', 'metallicity_photometric', 'flux_HI', 'name_discovery']:
+    for y in ['structure', 'distance','m_v', 'velocity', 'proper_motion', 'metallicity_spectroscopic', 'structure_king', 'structure_sersic', 'age', 'metallicity_photometric', 'flux_HI', 'name_discovery']:
         if y in yaml_input.keys():
             x = list(yaml_input[y].keys())
             for list_key in range(len(x)):
@@ -97,8 +97,16 @@ def value_add(input_table, table_type='dwarf'):
     input_table['distance_ep'] = dep
 
     input_table['rhalf_physical'] = input_table['distance']*1000.*input_table['rhalf']/60./180.*np.pi
-    input_table['rhalf_physical_sph'] = input_table['rhalf_physical']*np.sqrt(1.-input_table['ellipticity'])
+    input_table['rhalf_sph_physical'] = np.ma.masked_all(len(input_table), dtype=float)
+    for i in range(len(input_table)):
+        if ma.is_masked(input_table['ellipticity'][i])==False:
+            input_table['rhalf_sph_physical'][i] = input_table['rhalf_physical'][i]*np.sqrt(1.-input_table['ellipticity'][i])
+        else:
+            input_table['rhalf_sph_physical'][i] = input_table['rhalf_physical'][i]
+
     
+    input_table['surface_brightness_rhalf'] = input_table['M_V'] + 19.78 + input_table['distance_modulus'] +  2.5 * np.log10(np.degrees(np.arctan(input_table['rhalf_sph_physical']/1000./input_table['distance']))**2)
+
     if table_type=='dwarf':
         input_table['mass_HI'] = np.log10(235600 * input_table['flux_HI']*(input_table['distance']/1000.)**2 )
         input_table['mass_HI_ul'] = np.log10(235600 * input_table['flux_HI_ul']*(input_table['distance']/1000.)**2 )
