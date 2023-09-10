@@ -1,3 +1,6 @@
+## this script creates yaml files from the csv files. 
+## this does not need to be run ever again.
+
 import numpy as np
 import matplotlib.pyplot as plt
 
