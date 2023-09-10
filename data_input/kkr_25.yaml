@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
   ref_distance: McConnachie2012AJ....144....4M
+flux_HI:
+  flux_HI_ul: 0.7
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: kkr_25
 location:
   dec: 54.37111111
@@ -30,7 +33,6 @@ name_discovery:
   - Karachentseva1998A&AS..127..409K
   - Karachentseva1999A&AS..135..221K
   - Karachentsev2001A&A...379..407K
-  table: dwarf_local_field
 structure:
   ellipticity: 0.41
   ellipticity_em: 0.02
@@ -39,6 +41,7 @@ structure:
   rhalf: 0.4
   rhalf_em: 0.06
   rhalf_ep: 0.06
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: -139.5

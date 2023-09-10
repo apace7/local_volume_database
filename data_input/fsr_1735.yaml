@@ -23,7 +23,6 @@ name_discovery:
   - 2MASS GC-03
   ref_discovery:
   - Froebrich2007MNRAS.374..399F
-  table: gc_harris
 proper_motion:
   pmdec: -1.5341
   pmdec_em: 0.0476
@@ -35,6 +34,7 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 0.79
+table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -69.85

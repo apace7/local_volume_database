@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.09
   distance_modulus_ep: 0.09
   ref_distance: Vivas2022ApJ...926...78V
+flux_HI:
+  flux_HI_ul: 0.027
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: antlia_2
 location:
   dec: -36.6991
@@ -15,6 +18,14 @@ m_v:
   apparent_magnitude_v_em: 0.08
   apparent_magnitude_v_ep: 0.08
   ref_m_v: Ji2021ApJ...921...32J
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.9
+  metallicity_spectroscopic_em: 0.04
+  metallicity_spectroscopic_ep: 0.04
+  metallicity_spectroscopic_sigma: 0.34
+  metallicity_spectroscopic_sigma_em: 0.03
+  metallicity_spectroscopic_sigma_ep: 0.03
+  ref_metallicity_spectroscopic: Ji2021ApJ...921...32J
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -23,7 +34,6 @@ name_discovery:
   name: Antlia II
   ref_discovery:
   - Torrealba2019MNRAS.488.2743T
-  table: dwarf_mw
 proper_motion:
   pmdec: 0.1
   pmdec_em: 0.009
@@ -32,14 +42,6 @@ proper_motion:
   pmra_em: 0.008
   pmra_ep: 0.008
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Ji2021ApJ...921...32J
-  spec_metallicity: -1.9
-  spec_metallicity_em: 0.04
-  spec_metallicity_ep: 0.04
-  spec_metallicity_sigma: 0.34
-  spec_metallicity_sigma_em: 0.03
-  spec_metallicity_sigma_ep: 0.03
 structure:
   ellipticity: 0.6
   ellipticity_em: 0.04
@@ -51,6 +53,7 @@ structure:
   rhalf: 104.6
   rhalf_em: 8.6
   rhalf_ep: 8.6
+table: dwarf_mw
 velocity:
   ref_vlos: Ji2021ApJ...921...32J
   vlos_sigma: 5.98

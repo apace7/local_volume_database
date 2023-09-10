@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.08
   distance_modulus_ep: 0.08
   ref_distance: MartinezVazquez2017ApJ...850..137M
+flux_HI:
+  flux_HI_ul: 0.37
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: andromeda_16
 location:
   dec: 33.37611
@@ -25,7 +28,6 @@ name_discovery:
   - Pisces V
   ref_discovery:
   - Ibata2007ApJ...671.1591I
-  table: dwarf_m31
 structure:
   ellipticity: 0.29
   ellipticity_em: 0.08
@@ -37,6 +39,7 @@ structure:
   rhalf: 1.0
   rhalf_em: 0.1
   rhalf_ep: 0.1
+table: dwarf_m31
 velocity:
   ref_vlos: Tollerud2012ApJ...752...45T
   vlos_sigma: 3.8

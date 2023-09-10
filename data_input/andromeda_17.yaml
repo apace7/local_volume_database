@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
   ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.34
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: andromeda_17
 location:
   dec: 44.32306
@@ -23,7 +26,6 @@ name_discovery:
   name: Andromeda XVII
   ref_discovery:
   - Irwin2008ApJ...676L..17I
-  table: dwarf_m31
 structure:
   ellipticity: 0.5
   ellipticity_em: 0.1
@@ -35,6 +37,7 @@ structure:
   rhalf: 1.4
   rhalf_em: 0.3
   rhalf_ep: 0.3
+table: dwarf_m31
 velocity:
   ref_vlos: Collins2013ApJ...768..172C
   vlos_sigma: 2.9

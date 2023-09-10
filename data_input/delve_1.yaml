@@ -32,7 +32,6 @@ name_discovery:
   ref_discovery:
   - Mau2020ApJ...890..136M
   - DrlicaWagner2020ApJ...893...47D
-  table: gc_ufsc
 proper_motion:
   pmdec: -1.54
   pmdec_em: 0.05
@@ -52,3 +51,4 @@ structure:
   rhalf: 0.97
   rhalf_em: 0.19
   rhalf_ep: 0.27
+table: gc_ufsc

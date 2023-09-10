@@ -17,7 +17,7 @@ name_discovery:
   name: DES 5
   ref_discovery:
   - Torrealba2019MNRAS.484.2181T
-  table: gc_ufsc
 structure:
   ref_structure: Torrealba2019MNRAS.484.2181T
   rhalf: 0.18
+table: gc_ufsc

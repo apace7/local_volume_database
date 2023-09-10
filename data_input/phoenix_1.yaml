@@ -6,15 +6,28 @@ distance:
   distance_modulus_em: 0.12
   distance_modulus_ep: 0.21
   ref_distance: Battaglia2012MNRAS.424.1113B
+flux_HI:
+  flux_HI: 2.95
+  flux_HI_em: 0.1
+  flux_HI_ep: 0.1
+  ref_flux_HI: Young2007ApJ...659..331Y
 key: phoenix_1
 location:
-  dec: -44.44499999999999
+  dec: -44.445
   ra: 27.775
 m_v:
   apparent_magnitude_v: 13.19
   apparent_magnitude_v_em: 0.4
   apparent_magnitude_v_ep: 0.4
   ref_m_v: vandeRydt1991AJ....102..130V
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.49
+  metallicity_spectroscopic_em: 0.04
+  metallicity_spectroscopic_ep: 0.04
+  metallicity_spectroscopic_sigma: 0.51
+  metallicity_spectroscopic_sigma_em: 0.04
+  metallicity_spectroscopic_sigma_ep: 0.04
+  ref_metallicity_spectroscopic: Kacharov2017MNRAS.466.2006K
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -24,7 +37,6 @@ name_discovery:
   ref_discovery:
   - Schuster1976A&A....49..129S
   - Canterna1977ApJ...212L..57C
-  table: dwarf_local_field
 proper_motion:
   pmdec: -0.06
   pmdec_em: 0.04
@@ -33,14 +45,6 @@ proper_motion:
   pmra_em: 0.03
   pmra_ep: 0.03
   ref_proper_motion: Battaglia2022A&A...657A..54B
-spec_metallicity:
-  ref_spec_metallicity: Kacharov2017MNRAS.466.2006K
-  spec_metallicity: -1.49
-  spec_metallicity_em: 0.04
-  spec_metallicity_ep: 0.04
-  spec_metallicity_sigma: 0.51
-  spec_metallicity_sigma_em: 0.04
-  spec_metallicity_sigma_ep: 0.04
 structure:
   ellipticity: 0.3
   ellipticity_em: 0.03
@@ -68,6 +72,7 @@ structure_sersic:
   rad_sersic_em: 0.06
   rad_sersic_ep: 0.06
   ref_structure_sersic: Battaglia2012MNRAS.424.1113B
+table: dwarf_local_field
 velocity:
   ref_vlos: Kacharov2017MNRAS.466.2006K
   vlos_sigma: 9.3

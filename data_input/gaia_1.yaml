@@ -19,6 +19,11 @@ m_v:
 metallicity_photometric:
   metallicity_photometric: -0.7
   ref_metallicity_photometric: Koposov2017MNRAS.470.2702K
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.13
+  metallicity_spectroscopic_em: 0.13
+  metallicity_spectroscopic_ep: 0.13
+  ref_metallicity_spectroscopic: Simpson2017MNRAS.471.4087S
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -27,17 +32,12 @@ name_discovery:
   name: Gaia 1
   ref_discovery:
   - Koposov2017MNRAS.470.2702K
-  table: gc_disk
-spec_metallicity:
-  ref_spec_metallicity: Simpson2017MNRAS.471.4087S
-  spec_metallicity: -0.13
-  spec_metallicity_em: 0.13
-  spec_metallicity_ep: 0.13
 structure:
   ref_structure: Koposov2017MNRAS.470.2702K
   rhalf: 6.5
   rhalf_em: 0.4
   rhalf_ep: 0.4
+table: gc_disk
 velocity:
   ref_vlos: Simpson2017MNRAS.471.4087S
   vlos_sigma: 0.94

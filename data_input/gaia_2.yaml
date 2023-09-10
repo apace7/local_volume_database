@@ -31,7 +31,6 @@ name_discovery:
   name: Gaia 2
   ref_discovery:
   - Koposov2017MNRAS.470.2702K
-  table: gc_disk
 structure:
   ellipticity: 0.18
   ellipticity_em: 0.12
@@ -40,6 +39,7 @@ structure:
   rhalf: 1.9
   rhalf_em: 0.34
   rhalf_ep: 0.4
+table: gc_disk
 velocity:
   ref_vlos: Garro2023A&A...669A.136G
   vlos_systemic: -54.36

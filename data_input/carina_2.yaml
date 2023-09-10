@@ -4,6 +4,9 @@ distance:
   distance_ep: 0.4
   distance_modulus: 17.86
   ref_distance: Torrealba2018MNRAS.475.5085T
+flux_HI:
+  flux_HI_ul: 0.72
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: carina_2
 location:
   dec: -57.9991
@@ -13,6 +16,14 @@ m_v:
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
   ref_m_v: Torrealba2018MNRAS.475.5085T
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.44
+  metallicity_spectroscopic_em: 0.09
+  metallicity_spectroscopic_ep: 0.09
+  metallicity_spectroscopic_sigma: 0.22
+  metallicity_spectroscopic_sigma_em: 0.07
+  metallicity_spectroscopic_sigma_ep: 0.1
+  ref_metallicity_spectroscopic: Li2018ApJ...857..145L
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -21,7 +32,6 @@ name_discovery:
   name: Carina II
   ref_discovery:
   - Torrealba2018MNRAS.475.5085T
-  table: dwarf_mw
 proper_motion:
   pmdec: 0.133
   pmdec_em: 0.019
@@ -30,14 +40,6 @@ proper_motion:
   pmra_em: 0.019
   pmra_ep: 0.018
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Li2018ApJ...857..145L
-  spec_metallicity: -2.44
-  spec_metallicity_em: 0.09
-  spec_metallicity_ep: 0.09
-  spec_metallicity_sigma: 0.22
-  spec_metallicity_sigma_em: 0.07
-  spec_metallicity_sigma_ep: 0.1
 structure:
   ellipticity: 0.34
   ellipticity_em: 0.07
@@ -49,6 +51,7 @@ structure:
   rhalf: 8.69
   rhalf_em: 0.75
   rhalf_ep: 0.75
+table: dwarf_mw
 velocity:
   ref_vlos: Li2018ApJ...857..145L
   vlos_sigma: 3.4

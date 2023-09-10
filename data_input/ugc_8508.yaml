@@ -28,7 +28,6 @@ name_discovery:
   name: UGC 8508
   ref_discovery:
   - VorontsovVelYaminov1962TrSht..32..207V
-  table: dwarf_local_field
 structure:
   ellipticity: 0.45
   ellipticity_em: 0.05
@@ -40,6 +39,7 @@ structure:
   rhalf: 0.42
   rhalf_em: 0.04
   rhalf_ep: 0.04
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 56.0

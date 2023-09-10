@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.08
   distance_modulus_ep: 0.08
   ref_distance: EDD
+flux_HI:
+  flux_HI: 116.0
+  ref_flux_HI: EDD
 key: eso_274-001
 location:
   dec: -46.8125
@@ -22,10 +25,10 @@ name_discovery:
   - PGC054392
   - RFGC2937
   - HIPASS J1514-46
-  table: dwarf_local_field
 structure:
   ellipticity: 0.9
   ref_structure: LVGDB
+table: dwarf_local_field
 velocity:
   ref_vlos: EDD
   vlos_systemic: 522.0

@@ -14,11 +14,15 @@ m_v:
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
   ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.48
+  metallicity_spectroscopic_em: 0.11
+  metallicity_spectroscopic_ep: 0.06
+  ref_metallicity_spectroscopic: Simpson2018MNRAS.477.4565S
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: ESO280 SC06
-  table: gc_harris
 proper_motion:
   pmdec: -2.7775
   pmdec_em: 0.0332
@@ -27,14 +31,10 @@ proper_motion:
   pmra_em: 0.0392
   pmra_ep: 0.0392
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
-spec_metallicity:
-  ref_spec_metallicity: Simpson2018MNRAS.477.4565S
-  spec_metallicity: -2.48
-  spec_metallicity_em: 0.11
-  spec_metallicity_ep: 0.06
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.15
+table: gc_harris
 velocity:
   ref_vlos: Simpson2018MNRAS.477.4565S
   vlos_systemic: 92.5

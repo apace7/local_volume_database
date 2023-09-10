@@ -20,7 +20,6 @@ name_discovery:
   name: BH 140
   ref_discovery:
   - CantatGaudin2018A&A...618A..93C
-  table: gc_disk
 proper_motion:
   pmdec: 1.2241
   pmdec_em: 0.0243
@@ -32,3 +31,4 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 4.45
+table: gc_disk

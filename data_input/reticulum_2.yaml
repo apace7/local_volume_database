@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
   ref_distance: MutluPakdil2018ApJ...863...25M
+flux_HI:
+  flux_HI_ul: 0.6
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: reticulum_2
 location:
   dec: -54.0513
@@ -15,6 +18,14 @@ m_v:
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
   ref_m_v: MutluPakdil2018ApJ...863...25M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.65
+  metallicity_spectroscopic_em: 0.07
+  metallicity_spectroscopic_ep: 0.07
+  metallicity_spectroscopic_sigma: 0.28
+  metallicity_spectroscopic_sigma_em: 0.09
+  metallicity_spectroscopic_sigma_ep: 0.09
+  ref_metallicity_spectroscopic: Simon2015ApJ...808...95S
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -26,7 +37,6 @@ name_discovery:
   ref_discovery:
   - Bechtol2015ApJ...807...50B
   - Koposov2015ApJ...805..130K
-  table: dwarf_mw
 proper_motion:
   pmdec: -1.379
   pmdec_em: 0.025
@@ -35,14 +45,6 @@ proper_motion:
   pmra_em: 0.024
   pmra_ep: 0.023
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Simon2015ApJ...808...95S
-  spec_metallicity: -2.65
-  spec_metallicity_em: 0.07
-  spec_metallicity_ep: 0.07
-  spec_metallicity_sigma: 0.28
-  spec_metallicity_sigma_em: 0.09
-  spec_metallicity_sigma_ep: 0.09
 structure:
   ellipticity: 0.6
   ellipticity_em: 0.1
@@ -62,6 +64,7 @@ structure_sersic:
   rad_sersic_em: 0.21
   rad_sersic_ep: 0.21
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: dwarf_mw
 velocity:
   ref_vlos: Walker2015ApJ...808..108W
   vlos_sigma: 3.6

@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
   ref_distance: EDD
+flux_HI:
+  flux_HI_ul: 0.68
+  ref_flux_HI: LVGDB
 key: kks_53
 location:
   dec: -38.9061
@@ -22,8 +25,8 @@ name_discovery:
   - PGC2815820
   - '[KK2000] 53'
   - Cen7
-  table: dwarf_local_field
 structure:
   ellipticity: 0.13
   ref_structure: LVGDB
   rhalf: 0.79
+table: dwarf_local_field

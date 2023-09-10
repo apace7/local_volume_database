@@ -4,6 +4,11 @@ distance:
   distance_modulus: 25.705
   distance_modulus_em: 0.079
   ref_distance: Dalcanton2009ApJS..183...67D
+flux_HI:
+  flux_HI: 159.37
+  flux_HI_em: 12.42
+  flux_HI_ep: 12.42
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: sextans_a
 location:
   dec: -4.692777778
@@ -27,7 +32,6 @@ name_discovery:
   - DDO 75
   ref_discovery:
   - Zwicky1942PhRv...61..489Z
-  table: dwarf_local_field
 proper_motion:
   pmdec: -0.03
   pmdec_em: 0.05
@@ -45,6 +49,7 @@ structure:
   position_angle_ep: 1.0
   ref_structure: McConnachie2012AJ....144....4M
   rhalf: 2.47
+table: dwarf_local_field
 velocity:
   ref_vlos: Koribalski2004AJ....128...16K
   vlos_systemic: 324.0

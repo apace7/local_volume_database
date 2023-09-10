@@ -19,7 +19,6 @@ name_discovery:
   ref_discovery:
   - Mercer2005ApJ...635..560M
   - Longmore2011MNRAS.416..465L
-  table: gc_disk
 proper_motion:
   pmdec: -7.2199
   pmdec_em: 0.1106
@@ -30,3 +29,4 @@ proper_motion:
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Longmore2011MNRAS.416..465L
+table: gc_disk

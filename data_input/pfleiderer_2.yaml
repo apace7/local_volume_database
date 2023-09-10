@@ -30,7 +30,6 @@ name_discovery:
   ref_discovery:
   - Pfleiderer1977stcl.symp...39P
   - Ortolani2009AJ....138..889O
-  table: gc_disk
 proper_motion:
   pmdec: -4.1576
   pmdec_em: 0.0313
@@ -52,3 +51,4 @@ structure_king:
   rking: 4.8
   rking_em: 0.7
   rking_ep: 0.7
+table: gc_disk

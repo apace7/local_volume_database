@@ -23,10 +23,10 @@ name_discovery:
   confirmed_real: 1
   host: NGC_2403
   name: DDO 44
-  table: dwarf_local_field
 structure:
   ellipticity: 0.6
   ref_structure: Carlin2019ApJ...886..109C
   rhalf: 0.74
   rhalf_em: 0.02
   rhalf_ep: 0.02
+table: dwarf_local_field

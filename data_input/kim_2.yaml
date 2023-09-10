@@ -39,7 +39,6 @@ name_discovery:
   - Kim2015ApJ...803...63K
   - Bechtol2015ApJ...807...50B
   - Koposov2015ApJ...805..130K
-  table: gc_ufsc
 structure:
   ellipticity: 0.12
   ellipticity_em: 0.1
@@ -67,3 +66,4 @@ structure_sersic:
   rad_sersic_em: 0.45
   rad_sersic_ep: 0.45
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: gc_ufsc

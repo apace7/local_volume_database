@@ -33,7 +33,6 @@ name_discovery:
   - PGC050961
   ref_discovery:
   - vandenBergh1959PDDO....2..147V
-  table: dwarf_local_field
 structure:
   ellipticity: 0.4
   ellipticity_em: 0.05
@@ -45,6 +44,7 @@ structure:
   rhalf: 0.64
   rhalf_em: 0.07
   rhalf_ep: 0.07
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 152.0

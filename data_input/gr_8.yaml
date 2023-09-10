@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.12
   distance_modulus_ep: 0.12
   ref_distance: McConnachie2012AJ....144....4M
+flux_HI:
+  flux_HI: 9.74
+  ref_flux_HI: Young2003ApJ...592..111Y
 key: gr_8
 location:
   dec: 14.2175
@@ -27,7 +30,6 @@ name_discovery:
   - DDO 155
   ref_discovery:
   - Reaves1956AJ.....61...69R
-  table: dwarf_local_field
 structure:
   ellipticity: 0.2
   ellipticity_em: 0.05
@@ -39,6 +41,7 @@ structure:
   rhalf: 0.32
   rhalf_em: 0.04
   rhalf_ep: 0.04
+table: dwarf_local_field
 velocity:
   ref_vlos: Young2003ApJ...592..111Y
   vlos_systemic: 213.9

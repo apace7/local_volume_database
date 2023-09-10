@@ -30,7 +30,6 @@ name_discovery:
   name: Patchick 99
   ref_discovery:
   - Bica2019AJ....157...12B
-  table: gc_disk
 proper_motion:
   pmdec: -5.49
   pmdec_em: 2.02
@@ -46,3 +45,4 @@ structure_king:
   rcore: 1.2
   ref_structure_king: Garro2021A&A...649A..86G
   rking: 10.0
+table: gc_disk

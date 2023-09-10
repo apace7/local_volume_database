@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.08
   distance_modulus_ep: 0.08
   ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.42
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: andromeda_20
 location:
   dec: 35.12694
@@ -23,7 +26,6 @@ name_discovery:
   name: Andromeda XX
   ref_discovery:
   - McConnachie2008ApJ...688.1009M
-  table: dwarf_m31
 structure:
   ellipticity: 0.11
   ellipticity_em: 0.11
@@ -35,6 +37,7 @@ structure:
   rhalf: 0.4
   rhalf_em: 0.1
   rhalf_ep: 0.2
+table: dwarf_m31
 velocity:
   ref_vlos: Collins2013ApJ...768..172C
   vlos_sigma: 7.1

@@ -27,7 +27,6 @@ name_discovery:
   name: FSR 19
   ref_discovery:
   - Froebrich2007MNRAS.374..399F
-  table: gc_disk
 proper_motion:
   pmdec: -5.02
   pmdec_em: 0.47
@@ -49,3 +48,4 @@ structure_king:
   rking: 2.54
   rking_em: 0.23
   rking_ep: 0.23
+table: gc_disk

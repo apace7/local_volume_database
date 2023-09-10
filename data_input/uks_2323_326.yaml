@@ -33,7 +33,6 @@ name_discovery:
   - PGC071431
   ref_discovery:
   - Longmore1978MNRAS.183P..97L
-  table: dwarf_local_field
 structure:
   ellipticity: 0.1
   ellipticity_em: 0.01
@@ -45,6 +44,7 @@ structure:
   rhalf: 0.9
   rhalf_em: 0.1
   rhalf_ep: 0.1
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 62.0

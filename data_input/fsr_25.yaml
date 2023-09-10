@@ -27,7 +27,6 @@ name_discovery:
   name: FSR 25
   ref_discovery:
   - Froebrich2007MNRAS.374..399F
-  table: gc_disk
 proper_motion:
   pmdec: -5.23
   pmdec_em: 0.74
@@ -49,3 +48,4 @@ structure_king:
   rking: 3.27
   rking_em: 0.85
   rking_ep: 0.85
+table: gc_disk

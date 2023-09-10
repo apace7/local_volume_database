@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.13
   distance_modulus_ep: 0.13
   ref_distance: Garofalo2013ApJ...767...62G
+flux_HI:
+  flux_HI_ul: 3.11
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: ursa_major_1
 location:
   dec: 51.9479
@@ -15,6 +18,14 @@ m_v:
   apparent_magnitude_v_em: 0.38
   apparent_magnitude_v_ep: 0.38
   ref_m_v: Munoz2018ApJ...860...66M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.16
+  metallicity_spectroscopic_em: 0.13
+  metallicity_spectroscopic_ep: 0.11
+  metallicity_spectroscopic_sigma: 0.62
+  metallicity_spectroscopic_sigma_em: 0.08
+  metallicity_spectroscopic_sigma_ep: 0.1
+  ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -23,7 +34,6 @@ name_discovery:
   name: Ursa Major I
   ref_discovery:
   - Willman2005ApJ...626L..85W
-  table: dwarf_mw
 proper_motion:
   pmdec: -0.613
   pmdec_em: 0.042
@@ -32,14 +42,6 @@ proper_motion:
   pmra_em: 0.036
   pmra_ep: 0.036
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Simon2019ARA&A..57..375S
-  spec_metallicity: -2.16
-  spec_metallicity_em: 0.13
-  spec_metallicity_ep: 0.11
-  spec_metallicity_sigma: 0.62
-  spec_metallicity_sigma_em: 0.08
-  spec_metallicity_sigma_ep: 0.1
 structure:
   ellipticity: 0.59
   ellipticity_em: 0.03
@@ -67,6 +69,7 @@ structure_sersic:
   rad_sersic_em: 0.34
   rad_sersic_ep: 0.34
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: dwarf_mw
 velocity:
   ref_vlos: Simon2007ApJ...670..313S
   vlos_sigma: 7.0

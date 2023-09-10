@@ -25,7 +25,6 @@ name_discovery:
   - Andromeda XXXIV
   ref_discovery:
   - Collins2022MNRAS.515L..72C
-  table: dwarf_m31
 structure:
   ellipticity: 0.01
   ellipticity_em: 0.01
@@ -37,3 +36,4 @@ structure:
   rhalf: 0.4
   rhalf_em: 0.1
   rhalf_ep: 0.2
+table: dwarf_m31

@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
   ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.59
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: andromeda_23
 location:
   dec: 38.72389
@@ -23,7 +26,6 @@ name_discovery:
   name: Andromeda XXIII
   ref_discovery:
   - Richardson2011ApJ...732...76R
-  table: dwarf_m31
 structure:
   ellipticity: 0.41
   ellipticity_em: 0.06
@@ -35,6 +37,7 @@ structure:
   rhalf: 5.4
   rhalf_em: 0.4
   rhalf_ep: 0.4
+table: dwarf_m31
 velocity:
   ref_vlos: Collins2013ApJ...768..172C
   vlos_sigma: 7.1

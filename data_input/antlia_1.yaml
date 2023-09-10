@@ -6,6 +6,11 @@ distance:
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
   ref_distance: McConnachie2012AJ....144....4M
+flux_HI:
+  flux_HI: 1.7
+  flux_HI_em: 0.16
+  flux_HI_ep: 0.16
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: antlia_1
 location:
   dec: -27.33111111
@@ -28,7 +33,6 @@ name_discovery:
   name: Antlia
   ref_discovery:
   - Whiting1997AJ....114..996W
-  table: dwarf_local_field
 structure:
   ellipticity: 0.4
   ellipticity_em: 0.04
@@ -40,6 +44,7 @@ structure:
   rhalf: 1.2
   rhalf_em: 0.12
   rhalf_ep: 0.12
+table: dwarf_local_field
 velocity:
   ref_vlos: Barnes2001AJ....122..825B
   vlos_systemic: 362.0

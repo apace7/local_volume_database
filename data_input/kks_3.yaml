@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
   ref_distance: Karachentsev2015MNRAS.447L..85K
+flux_HI:
+  flux_HI_ul: 0.474
+  ref_flux_HI: LVGDB
 key: kks_3
 location:
   dec: -73.51416667
@@ -13,6 +16,9 @@ location:
 m_v:
   apparent_magnitude_v: 15.33
   ref_m_v: Karachentsev2015MNRAS.447L..85K
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.9
+  ref_metallicity_spectroscopic: Karachentsev2015MNRAS.447L..85K
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -27,14 +33,11 @@ name_discovery:
   - Corwin1985sgcc.book.....C
   - Karachentseva2000A&AS..146..359K
   - Whiting2002ApJS..141..123W
-  table: dwarf_local_field
-spec_metallicity:
-  ref_spec_metallicity: Karachentsev2015MNRAS.447L..85K
-  spec_metallicity: -1.9
 structure:
   ellipticity: 0.6
   ref_structure: LVGDB
   rhalf: 2.45
+table: dwarf_local_field
 velocity:
   ref_vlos: Karachentsev2015AN....336..707K
   vlos_systemic: 316.0

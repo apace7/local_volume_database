@@ -28,7 +28,6 @@ name_discovery:
   name: KKH 98
   ref_discovery:
   - Karachentsev2001A&A...366..428K
-  table: dwarf_local_field
 structure:
   ellipticity: 0.41
   ellipticity_em: 0.01
@@ -40,6 +39,7 @@ structure:
   rhalf: 0.64
   rhalf_em: 0.06
   rhalf_ep: 0.06
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: -136.9

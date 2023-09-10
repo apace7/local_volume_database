@@ -33,7 +33,6 @@ name_discovery:
   ref_discovery:
   - Karachentseva1998A&AS..127..409K
   - Karachentseva1999A&AS..135..221K
-  table: dwarf_local_field
 structure:
   ellipticity: 0.05
   ellipticity_em: 0.01
@@ -45,6 +44,7 @@ structure:
   rhalf: 0.36
   rhalf_em: 0.04
   rhalf_ep: 0.04
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 63.3

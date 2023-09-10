@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.11
   distance_modulus_ep: 0.11
   ref_distance: Carlin2017AJ....154..267C
+flux_HI:
+  flux_HI_ul: 0.58
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: triangulum_2
 location:
   dec: 36.1702
@@ -15,6 +18,14 @@ m_v:
   apparent_magnitude_v_em: 0.4
   apparent_magnitude_v_ep: 0.4
   ref_m_v: Carlin2017AJ....154..267C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.24
+  metallicity_spectroscopic_em: 0.05
+  metallicity_spectroscopic_ep: 0.05
+  metallicity_spectroscopic_sigma: 0.53
+  metallicity_spectroscopic_sigma_em: 0.12
+  metallicity_spectroscopic_sigma_ep: 0.38
+  ref_metallicity_spectroscopic: Kirby2017ApJ...838...83K
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -25,7 +36,6 @@ name_discovery:
   - Laevens 2
   ref_discovery:
   - Laevens2015ApJ...802L..18L
-  table: dwarf_mw
 proper_motion:
   pmdec: 0.112
   pmdec_em: 0.067
@@ -34,14 +44,6 @@ proper_motion:
   pmra_em: 0.06
   pmra_ep: 0.06
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Kirby2017ApJ...838...83K
-  spec_metallicity: -2.24
-  spec_metallicity_em: 0.05
-  spec_metallicity_ep: 0.05
-  spec_metallicity_sigma: 0.53
-  spec_metallicity_sigma_em: 0.12
-  spec_metallicity_sigma_ep: 0.38
 structure:
   ellipticity: 0.3
   ellipticity_em: 0.1
@@ -69,6 +71,7 @@ structure_sersic:
   rad_sersic_em: 0.4
   rad_sersic_ep: 0.4
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: dwarf_mw
 velocity:
   ref_vlos: Kirby2017ApJ...838...83K
   vlos_sigma_ul: 4.2

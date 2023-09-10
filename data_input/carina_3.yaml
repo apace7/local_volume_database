@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
   ref_distance: Torrealba2018MNRAS.475.5085T
+flux_HI:
+  flux_HI_ul: 0.547
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: carina_3
 location:
   dec: -57.8997
@@ -23,7 +26,6 @@ name_discovery:
   name: Carina III
   ref_discovery:
   - Torrealba2018MNRAS.475.5085T
-  table: dwarf_mw
 proper_motion:
   pmdec: 1.395
   pmdec_em: 0.045
@@ -43,6 +45,7 @@ structure:
   rhalf: 3.75
   rhalf_em: 1.0
   rhalf_ep: 1.0
+table: dwarf_mw
 velocity:
   ref_vlos: Li2018ApJ...857..145L
   vlos_sigma: 5.6

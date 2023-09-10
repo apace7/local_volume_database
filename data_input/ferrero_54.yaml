@@ -20,7 +20,6 @@ name_discovery:
   confirmed_star_cluster: 1
   host: MW
   name: Ferrero 54
-  table: gc_disk
 proper_motion:
   pmdec: 1.31
   pmdec_em: 0.34
@@ -29,6 +28,7 @@ proper_motion:
   pmra_em: 0.27
   pmra_ep: 0.27
   ref_proper_motion: Garro2022A&A...659A.155G
+table: gc_disk
 velocity:
   ref_vlos: Garro2023A&A...669A.136G
   vlos_systemic: 56.06

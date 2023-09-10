@@ -33,7 +33,6 @@ name_discovery:
   - WHI B0200-03
   ref_discovery:
   - Whiting2002ApJS..141..123W
-  table: gc_harris
 proper_motion:
   pmdec: -2.0458
   pmdec_em: 0.0561
@@ -53,6 +52,7 @@ structure_sersic:
   rad_sersic_em: 0.07
   rad_sersic_ep: 0.07
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -130.41

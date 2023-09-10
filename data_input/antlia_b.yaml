@@ -6,6 +6,11 @@ distance:
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
   ref_distance: Hargis2020ApJ...888...31H
+flux_HI:
+  flux_HI: 0.72
+  flux_HI_em: 0.05
+  flux_HI_ep: 0.05
+  ref_flux_HI: Sand2015ApJ...812L..13S
 key: antlia_b
 location:
   dec: -25.99
@@ -23,7 +28,6 @@ name_discovery:
   name: Antlia B
   ref_discovery:
   - Sand2015ApJ...812L..13S
-  table: dwarf_local_field
 structure:
   ellipticity: 0.3
   ellipticity_em: 0.05
@@ -35,6 +39,7 @@ structure:
   rhalf: 0.72
   rhalf_em: 0.07
   rhalf_ep: 0.07
+table: dwarf_local_field
 velocity:
   ref_vlos: Zoutendijk2021arXiv211209374Z
   vlos_sigma: 8.0

@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
   ref_distance: Kuehn2008ApJ...674L..81K
+flux_HI:
+  flux_HI_ul: 0.104
+  ref_flux_HI: Spekkens2014ApJ...795L...5S
 key: canes_venatici_1
 location:
   dec: 33.5521
@@ -15,6 +18,14 @@ m_v:
   apparent_magnitude_v_em: 0.06
   apparent_magnitude_v_ep: 0.06
   ref_m_v: Munoz2018ApJ...860...66M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.91
+  metallicity_spectroscopic_em: 0.04
+  metallicity_spectroscopic_ep: 0.04
+  metallicity_spectroscopic_sigma: 0.39
+  metallicity_spectroscopic_sigma_em: 0.02
+  metallicity_spectroscopic_sigma_ep: 0.03
+  ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -23,7 +34,6 @@ name_discovery:
   name: Canes Venatici I
   ref_discovery:
   - Zucker2006ApJ...643L.103Z
-  table: dwarf_mw
 proper_motion:
   pmdec: -0.116
   pmdec_em: 0.02
@@ -32,14 +42,6 @@ proper_motion:
   pmra_em: 0.031
   pmra_ep: 0.03
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Simon2019ARA&A..57..375S
-  spec_metallicity: -1.91
-  spec_metallicity_em: 0.04
-  spec_metallicity_ep: 0.04
-  spec_metallicity_sigma: 0.39
-  spec_metallicity_sigma_em: 0.02
-  spec_metallicity_sigma_ep: 0.03
 structure:
   ellipticity: 0.44
   ellipticity_em: 0.03
@@ -67,6 +69,7 @@ structure_sersic:
   rad_sersic_em: 0.23
   rad_sersic_ep: 0.23
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: dwarf_mw
 velocity:
   ref_vlos: Simon2007ApJ...670..313S
   vlos_sigma: 7.6

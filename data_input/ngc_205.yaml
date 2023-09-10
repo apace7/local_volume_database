@@ -6,6 +6,11 @@ distance:
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
   ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI: 2.5
+  flux_HI_em: 0.19
+  flux_HI_ep: 0.19
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: ngc_205
 location:
   dec: 41.68638889
@@ -24,7 +29,6 @@ name_discovery:
   other_name:
   - M110
   - UGC 426
-  table: dwarf_m31
 structure:
   ellipticity: 0.43
   ellipticity_em: 0.1
@@ -36,6 +40,7 @@ structure:
   rhalf: 2.46
   rhalf_em: 0.1
   rhalf_ep: 0.1
+table: dwarf_m31
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_sigma: 35.0

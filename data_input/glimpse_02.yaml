@@ -21,7 +21,6 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
   name: Glimpse 2
-  table: gc_harris
 structure:
   ref_structure: Kurtev2008A&A...489..583K
   rhalf: 1.73
@@ -30,3 +29,4 @@ structure_king:
   rcore: 0.7
   ref_structure_king: Kurtev2008A&A...489..583K
   rking: 15.0
+table: gc_harris

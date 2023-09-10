@@ -15,6 +15,11 @@ m_v:
   apparent_magnitude_v_em: 1.0
   apparent_magnitude_v_ep: 0.4
   ref_m_v: Longeard2018MNRAS.480.2609L
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.7
+  metallicity_spectroscopic_em: 0.1
+  metallicity_spectroscopic_ep: 0.1
+  ref_metallicity_spectroscopic: Longeard2018MNRAS.480.2609L
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
@@ -25,7 +30,6 @@ name_discovery:
   - Laevens 5
   ref_discovery:
   - Laevens2015ApJ...813...44L
-  table: gc_ufsc
 notes:
 - observed mass segregation in Baumgardt2022MNRAS.510.3531B; there is potential metallicity
   dispersion in CaH\&K photometry but main sequence stars are included in this calculation
@@ -39,11 +43,6 @@ proper_motion:
   pmra_em: 0.065
   pmra_ep: 0.067
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Longeard2018MNRAS.480.2609L
-  spec_metallicity: -2.7
-  spec_metallicity_em: 0.1
-  spec_metallicity_ep: 0.1
 structure:
   ellipticity: 0.23
   ellipticity_em: 0.15
@@ -55,6 +54,7 @@ structure:
   rhalf: 3.0
   rhalf_em: 0.5
   rhalf_ep: 0.7
+table: gc_ufsc
 velocity:
   ref_vlos: Longeard2018MNRAS.480.2609L
   vlos_sigma_ul: 5.9

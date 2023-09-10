@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.06
   ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.43
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: andromeda_21
 location:
   dec: 42.47056
@@ -15,6 +18,11 @@ m_v:
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
   ref_m_v: Martin2016ApJ...833..167M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.7
+  metallicity_spectroscopic_em: 0.1
+  metallicity_spectroscopic_ep: 0.1
+  ref_metallicity_spectroscopic: Collins2021MNRAS.505.5686C
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -23,12 +31,6 @@ name_discovery:
   name: Andromeda XXI
   ref_discovery:
   - Martin2009ApJ...705..758M
-  table: dwarf_m31
-spec_metallicity:
-  ref_spec_metallicity: Collins2021MNRAS.505.5686C
-  spec_metallicity: -1.7
-  spec_metallicity_em: 0.1
-  spec_metallicity_ep: 0.1
 structure:
   ellipticity: 0.36
   ellipticity_em: 0.13
@@ -40,6 +42,7 @@ structure:
   rhalf: 4.1
   rhalf_em: 0.4
   rhalf_ep: 0.8
+table: dwarf_m31
 velocity:
   ref_vlos: Collins2021MNRAS.505.5686C
   vlos_sigma: 6.1

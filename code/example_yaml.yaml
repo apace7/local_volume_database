@@ -1,0 +1,78 @@
+key: example_yaml
+table: misc
+location:
+  dec: 0
+  ra: 0
+distance:
+  distance_modulus: 0
+  distance_modulus_em: 0
+  distance_modulus_ep: 0
+  ref_distance: ref
+m_v:
+  apparent_magnitude_v: 0
+  apparent_magnitude_v_em: 0
+  apparent_magnitude_v_ep: 0
+  ref_m_v: ref
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 0
+  host: misc
+  name: name
+  other_name:
+  - list
+  ref_discovery:
+  - list
+notes:
+  - list
+proper_motion:
+  pmdec: 0
+  pmdec_em: 0
+  pmdec_ep: 0
+  pmra: 0
+  pmra_em: 0
+  pmra_ep: 0
+  ref_proper_motion: ref
+metallicity_spectroscopic:
+  metallicity_spectroscopic: 0
+  metallicity_spectroscopic_em: 0
+  metallicity_spectroscopic_ep: 0
+  metallicity_spectroscopic_sigma: 0
+  metallicity_spectroscopic_sigma_em: 0
+  metallicity_spectroscopic_sigma_ep: 0
+  metallicity_spectroscopic_sigma_ul: 0
+  ref_metallicity_spectroscopic: ref
+structure:
+  ellipticity: 0
+  ellipticity_em: 0
+  ellipticity_ep: 0
+  ellipticity_ul: 0
+  position_angle: 0
+  position_angle_em: 0
+  position_angle_ep: 0
+  ref_structure: ref
+  rhalf: 0
+  rhalf_em: 0
+  rhalf_ep: 0
+structure_king:
+  rcore: 0
+  rcore_em: 0
+  rcore_ep: 0
+  ref_structure_king: ref
+  rking: 0
+  rking_em: 0
+  rking_ep: 0
+velocity:
+  ref_vlos: ref 
+  vlos_sigma: 0
+  vlos_sigma_em: 0
+  vlos_sigma_ep: 0
+  vlos_systemic: 0
+  vlos_systemic_em: 0
+  vlos_systemic_ep: 0
+flux_HI:
+  flux_HI:  0
+  flux_HI_em: 0
+  flux_HI_ep: 0
+  flux_HI_ul: 0
+  ref_flux_HI: ref

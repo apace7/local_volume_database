@@ -33,7 +33,6 @@ name_discovery:
   name: Segue 3
   ref_discovery:
   - Belokurov2010ApJ...712L.103B
-  table: gc_ufsc
 proper_motion:
   pmdec: -1.667
   pmdec_em: 0.081
@@ -69,6 +68,7 @@ structure_sersic:
   rad_sersic_em: 0.09
   rad_sersic_ep: 0.09
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: gc_ufsc
 velocity:
   ref_vlos: Fadely2011AJ....142...88F
   vlos_sigma: 1.2
