@@ -15,6 +15,7 @@ m_v:
   ref_m_v: ref
 name_discovery:
   confirmed_dwarf: 0
+  confirmed_star_cluster: 0
   confirmed_real: 0
   discovery_year: 0
   host: misc
@@ -75,4 +76,10 @@ flux_HI:
   flux_HI_em: 0
   flux_HI_ep: 0
   flux_HI_ul: 0
+  flux_HI_rotation_velocity: 
+  flux_HI_rotation_velocity_em: 
+  flux_HI_rotation_velocity_ep: 
+  flux_HI_dispersion: 
+  flux_HI_dispersion_em: 
+  flux_HI_dispersion_ep: 
   ref_flux_HI: ref
