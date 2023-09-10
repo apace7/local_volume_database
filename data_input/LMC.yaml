@@ -47,4 +47,4 @@ flux_HI:
   flux_HI_dispersion: 15.8
   flux_HI_dispersion_em: 0.2
   flux_HI_dispersion_ep: 0.2
-  ref_flux_HI: McConnachie2012AJ....144....4M
+  ref_flux_HI: Bruns2005A&A...432...45B
