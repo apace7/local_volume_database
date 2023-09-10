@@ -2,6 +2,9 @@ distance:
   distance: 2700.0
   distance_modulus: 27.16
   ref_distance: LVGDB
+flux_HI:
+  flux_HI: 0.67
+  ref_flux_HI: LVGDB
 key: AGC749235
 location:
   dec: 26.23111111
@@ -16,11 +19,11 @@ name_discovery:
   name: AGC749235
   other_name:
   - PGC5059199
-  table: dwarf_local_field
 structure:
   ellipticity: 0.78
   ref_structure: LVGDB
   rhalf: 0.12
+table: dwarf_local_field
 velocity:
   ref_vlos: LVGDB
   vlos_systemic: 288.0

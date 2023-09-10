@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.2
   distance_modulus_ep: 0.2
   ref_distance: Kim2015ApJ...808L..39K
+flux_HI:
+  flux_HI_ul: 0.54
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: horologium_2
 location:
   dec: -50.0486
@@ -23,7 +26,6 @@ name_discovery:
   name: Horologium II
   ref_discovery:
   - Kim2015ApJ...808L..39K
-  table: dwarf_mw
 proper_motion:
   pmdec: -0.771
   pmdec_em: 0.23
@@ -51,3 +53,4 @@ structure_sersic:
   rad_sersic_em: 1.31
   rad_sersic_ep: 1.31
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: dwarf_mw

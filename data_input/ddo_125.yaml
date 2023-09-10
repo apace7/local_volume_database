@@ -30,7 +30,6 @@ name_discovery:
   - UGC 7577
   ref_discovery:
   - vandenBergh1959PDDO....2..147V
-  table: dwarf_local_field
 structure:
   ellipticity: 0.41
   ellipticity_em: 0.01
@@ -42,6 +41,7 @@ structure:
   rhalf: 1.04
   rhalf_em: 0.1
   rhalf_ep: 0.1
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 194.9

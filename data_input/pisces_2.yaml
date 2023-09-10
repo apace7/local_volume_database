@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.17
   distance_modulus_ep: 0.17
   ref_distance: Sand2012ApJ...756...79S
+flux_HI:
+  flux_HI_ul: 0.2
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: pisces_2
 location:
   dec: 5.9555444
@@ -15,6 +18,14 @@ m_v:
   apparent_magnitude_v_em: 0.16
   apparent_magnitude_v_ep: 0.19
   ref_m_v: Richstein2022ApJ...933..217R
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.45
+  metallicity_spectroscopic_em: 0.07
+  metallicity_spectroscopic_ep: 0.07
+  metallicity_spectroscopic_sigma: 0.48
+  metallicity_spectroscopic_sigma_em: 0.29
+  metallicity_spectroscopic_sigma_ep: 0.7
+  ref_metallicity_spectroscopic: Kirby2015ApJ...810...56K
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -23,7 +34,6 @@ name_discovery:
   name: Pisces II
   ref_discovery:
   - Belokurov2010ApJ...712L.103B
-  table: dwarf_mw
 proper_motion:
   pmdec: -0.645
   pmdec_em: 0.209
@@ -32,14 +42,6 @@ proper_motion:
   pmra_em: 0.307
   pmra_ep: 0.309
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Kirby2015ApJ...810...56K
-  spec_metallicity: -2.45
-  spec_metallicity_em: 0.07
-  spec_metallicity_ep: 0.07
-  spec_metallicity_sigma: 0.48
-  spec_metallicity_sigma_em: 0.29
-  spec_metallicity_sigma_ep: 0.7
 structure:
   ellipticity: 0.37
   ellipticity_em: 0.03
@@ -67,6 +69,7 @@ structure_sersic:
   rad_sersic_em: 0.2
   rad_sersic_ep: 0.2
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: dwarf_mw
 velocity:
   ref_vlos: Kirby2015ApJ...810...56K
   vlos_sigma: 5.4

@@ -30,7 +30,6 @@ name_discovery:
   - ESO 102-G014
   ref_discovery:
   - Lunt1902MNRAS..62..468L
-  table: dwarf_local_field
 structure:
   ellipticity: 0.27
   ellipticity_em: 0.01
@@ -42,6 +41,7 @@ structure:
   rhalf: 0.48
   rhalf_em: 0.05
   rhalf_ep: 0.05
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 302.0

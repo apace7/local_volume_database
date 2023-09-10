@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
   ref_distance: Crnojevic2016ApJ...824L..14C
+flux_HI:
+  flux_HI_ul: 0.089
+  ref_flux_HI: Crnojevic2016ApJ...824L..14C
 key: eridanus_2
 location:
   dec: -43.5329
@@ -15,6 +18,14 @@ m_v:
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
   ref_m_v: Crnojevic2016ApJ...824L..14C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.38
+  metallicity_spectroscopic_em: 0.13
+  metallicity_spectroscopic_ep: 0.13
+  metallicity_spectroscopic_sigma: 0.47
+  metallicity_spectroscopic_sigma_em: 0.9
+  metallicity_spectroscopic_sigma_ep: 0.12
+  ref_metallicity_spectroscopic: Li2017ApJ...838....8L
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -26,7 +37,6 @@ name_discovery:
   ref_discovery:
   - Bechtol2015ApJ...807...50B
   - Koposov2015ApJ...805..130K
-  table: dwarf_mw
 proper_motion:
   pmdec: 0.013
   pmdec_em: 0.127
@@ -35,14 +45,6 @@ proper_motion:
   pmra_em: 0.1
   pmra_ep: 0.101
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Li2017ApJ...838....8L
-  spec_metallicity: -2.38
-  spec_metallicity_em: 0.13
-  spec_metallicity_ep: 0.13
-  spec_metallicity_sigma: 0.47
-  spec_metallicity_sigma_em: 0.9
-  spec_metallicity_sigma_ep: 0.12
 structure:
   ellipticity: 0.48
   ellipticity_em: 0.04
@@ -62,6 +64,7 @@ structure_sersic:
   rad_sersic_em: 0.17
   rad_sersic_ep: 0.17
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: dwarf_mw
 velocity:
   ref_vlos: Li2017ApJ...838....8L
   vlos_sigma: 6.9

@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
   ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.17
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: andromeda_06
 location:
   dec: 24.5825
@@ -25,7 +28,6 @@ name_discovery:
   - Pegasus dSph
   ref_discovery:
   - Karachentsev1999A&A...341..355K
-  table: dwarf_m31
 structure:
   ellipticity: 0.41
   ellipticity_em: 0.03
@@ -48,6 +50,7 @@ structure_king:
   rking: 6.2
   rking_em: 0.4
   rking_ep: 0.4
+table: dwarf_m31
 velocity:
   ref_vlos: Collins2013ApJ...768..172C
   vlos_sigma: 12.4

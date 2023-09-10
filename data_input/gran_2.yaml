@@ -12,6 +12,11 @@ m_v:
 metallicity_photometric:
   metallicity_photometric: -2.12
   ref_metallicity_photometric: Gran2022MNRAS.509.4962G
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.07
+  metallicity_spectroscopic_em: 0.17
+  metallicity_spectroscopic_ep: 0.17
+  ref_metallicity_spectroscopic: Gran2022MNRAS.509.4962G
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -20,21 +25,16 @@ name_discovery:
   name: Gran 2
   ref_discovery:
   - Gran2022MNRAS.509.4962G
-  table: gc_disk
 proper_motion:
   pmdec: -2.57
   pmra: 0.19
   ref_proper_motion: Gran2022MNRAS.509.4962G
-spec_metallicity:
-  ref_spec_metallicity: Gran2022MNRAS.509.4962G
-  spec_metallicity: -2.07
-  spec_metallicity_em: 0.17
-  spec_metallicity_ep: 0.17
 structure:
   ref_structure: Gran2022MNRAS.509.4962G
   rhalf: 1.07
   rhalf_em: 0.03
   rhalf_ep: 0.03
+table: gc_disk
 velocity:
   ref_vlos: Gran2022MNRAS.509.4962G
   vlos_systemic: 53.22

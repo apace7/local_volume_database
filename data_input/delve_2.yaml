@@ -32,7 +32,6 @@ name_discovery:
   - DELVE J0155-6815
   ref_discovery:
   - Cerny2021ApJ...910...18C
-  table: gc_ufsc
 notes:
 - size+luminosity is in dwarf + star cluster overlap region; set to star cluster based
   off original classification Cerny2021ApJ...910...18C
@@ -55,3 +54,4 @@ structure:
   rhalf: 1.04
   rhalf_em: 0.15
   rhalf_ep: 0.19
+table: gc_ufsc

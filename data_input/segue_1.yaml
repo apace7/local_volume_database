@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.2
   distance_modulus_ep: 0.2
   ref_distance: Belokurov2007ApJ...654..897B
+flux_HI:
+  flux_HI_ul: 0.089
+  ref_flux_HI: Spekkens2014ApJ...795L...5S
 key: segue_1
 location:
   dec: 16.0756
@@ -15,6 +18,9 @@ m_v:
   apparent_magnitude_v_em: 0.73
   apparent_magnitude_v_ep: 0.73
   ref_m_v: Munoz2018ApJ...860...66M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.5
+  ref_metallicity_spectroscopic: Simon2011ApJ...733...46S
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -23,7 +29,6 @@ name_discovery:
   name: Segue 1
   ref_discovery:
   - Belokurov2007ApJ...654..897B
-  table: dwarf_mw
 proper_motion:
   pmdec: -3.375
   pmdec_em: 0.046
@@ -32,9 +37,6 @@ proper_motion:
   pmra_em: 0.051
   pmra_ep: 0.051
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Simon2011ApJ...733...46S
-  spec_metallicity: -2.5
 structure:
   ellipticity: 0.33
   ellipticity_em: 0.1
@@ -62,6 +64,7 @@ structure_sersic:
   rad_sersic_em: 0.48
   rad_sersic_ep: 0.48
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: dwarf_mw
 velocity:
   ref_vlos: Simon2011ApJ...733...46S
   vlos_sigma: 3.7

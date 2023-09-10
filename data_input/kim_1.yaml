@@ -33,7 +33,6 @@ name_discovery:
   name: Kim 1
   ref_discovery:
   - Kim2015ApJ...799...73K
-  table: gc_ufsc
 structure:
   ellipticity: 0.42
   ellipticity_em: 0.1
@@ -53,3 +52,4 @@ structure_sersic:
   rad_sersic_em: 0.22
   rad_sersic_ep: 0.22
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: gc_ufsc

@@ -31,7 +31,6 @@ name_discovery:
   - NGC 4167
   ref_discovery:
   - Herschel1789RSPT...79..212H
-  table: dwarf_local_field
 structure:
   ellipticity: 0.3
   ellipticity_em: 0.05
@@ -43,6 +42,7 @@ structure:
   rhalf: 0.45
   rhalf_em: 0.05
   rhalf_ep: 0.05
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 165.0

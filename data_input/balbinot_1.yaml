@@ -33,7 +33,6 @@ name_discovery:
   name: Balbinot 1
   ref_discovery:
   - Balbinot2013ApJ...767..101B
-  table: gc_ufsc
 structure:
   ref_structure: Balbinot2013ApJ...767..101B
   rhalf: 0.6
@@ -55,3 +54,4 @@ structure_sersic:
   rad_sersic_em: 0.11
   rad_sersic_ep: 0.11
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: gc_ufsc

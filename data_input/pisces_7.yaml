@@ -25,7 +25,6 @@ name_discovery:
   - Triangulum III
   ref_discovery:
   - MartinezDelgado2022MNRAS.509...16M
-  table: dwarf_m31
 structure:
   ellipticity_ul: 0.1
   position_angle: 96.0
@@ -35,3 +34,4 @@ structure:
   rhalf: 0.67
   rhalf_em: 0.1
   rhalf_ep: 0.2
+table: dwarf_m31

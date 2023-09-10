@@ -34,7 +34,6 @@ name_discovery:
   ref_discovery:
   - Borissova2014A&A...569A..24B
   - Minniti2021A&A...650L..11M
-  table: gc_disk
 proper_motion:
   pmdec: -16.8
   pmdec_em: 0.1
@@ -50,6 +49,7 @@ structure_king:
   rcore: 0.38
   ref_structure_king: Minniti2021A&A...650L..11M
   rking: 50.0
+table: gc_disk
 velocity:
   ref_vlos: Garro2023A&A...669A.136G
   vlos_systemic: 245.3

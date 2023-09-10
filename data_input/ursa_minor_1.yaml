@@ -4,6 +4,9 @@ distance:
   distance_ep: 3.0
   distance_modulus: 19.1
   ref_distance: Nemec1988AJ.....96..528N
+flux_HI:
+  flux_HI_ul: 0.046
+  ref_flux_HI: Spekkens2014ApJ...795L...5S
 key: ursa_minor_1
 location:
   dec: 67.2221
@@ -13,6 +16,14 @@ m_v:
   apparent_magnitude_v_em: 0.05
   apparent_magnitude_v_ep: 0.05
   ref_m_v: Munoz2018ApJ...860...66M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.13
+  metallicity_spectroscopic_em: 0.02
+  metallicity_spectroscopic_ep: 0.02
+  metallicity_spectroscopic_sigma: 0.35
+  metallicity_spectroscopic_sigma_em: 0.01
+  metallicity_spectroscopic_sigma_ep: 0.01
+  ref_metallicity_spectroscopic: Pace2020MNRAS.495.3022P
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -25,7 +36,6 @@ name_discovery:
   - PGC 54074
   ref_discovery:
   - Wilson1955PASP...67...27W
-  table: dwarf_mw
 proper_motion:
   pmdec: 0.071
   pmdec_em: 0.005
@@ -34,14 +44,6 @@ proper_motion:
   pmra_em: 0.005
   pmra_ep: 0.005
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Pace2020MNRAS.495.3022P
-  spec_metallicity: -2.13
-  spec_metallicity_em: 0.02
-  spec_metallicity_ep: 0.02
-  spec_metallicity_sigma: 0.35
-  spec_metallicity_sigma_em: 0.01
-  spec_metallicity_sigma_ep: 0.01
 structure:
   ellipticity: 0.55
   ellipticity_em: 0.01
@@ -69,6 +71,7 @@ structure_sersic:
   rad_sersic_em: 0.11
   rad_sersic_ep: 0.11
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: dwarf_mw
 velocity:
   ref_vlos: Spencer2018AJ....156..257S
   vlos_sigma: 8.6

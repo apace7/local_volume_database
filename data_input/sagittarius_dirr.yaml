@@ -6,6 +6,11 @@ distance:
   distance_modulus_em: 0.08
   distance_modulus_ep: 0.08
   ref_distance: Higgs2021MNRAS.503..176H
+flux_HI:
+  flux_HI: 32.81
+  flux_HI_em: 5.59
+  flux_HI_ep: 5.59
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: sagittarius_dirr
 location:
   dec: -17.68083333
@@ -20,6 +25,11 @@ metallicity_photometric:
   metallicity_photometric_em: 0.5
   metallicity_photometric_ep: 0.5
   ref_metallicity_photometric: McConnachie2006MNRAS.365.1263M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.88
+  metallicity_spectroscopic_em: 0.09
+  metallicity_spectroscopic_ep: 0.13
+  ref_metallicity_spectroscopic: Kirby2017ApJ...834....9K
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -31,7 +41,6 @@ name_discovery:
   ref_discovery:
   - Cesarsky1977A&A....61L..31C
   - Longmore1978MNRAS.183P..97L
-  table: dwarf_local_field
 proper_motion:
   pmdec: -0.37
   pmdec_em: 0.17
@@ -40,11 +49,6 @@ proper_motion:
   pmra_em: 0.18
   pmra_ep: 0.19
   ref_proper_motion: Battaglia2022A&A...657A..54B
-spec_metallicity:
-  ref_spec_metallicity: Kirby2017ApJ...834....9K
-  spec_metallicity: -1.88
-  spec_metallicity_em: 0.09
-  spec_metallicity_ep: 0.13
 structure:
   ellipticity: 0.56
   ellipticity_em: 0.18
@@ -64,6 +68,7 @@ structure_sersic:
   rad_sersic_em: 0.08
   rad_sersic_ep: 0.08
   ref_structure_sersic: Higgs2021MNRAS.503..176H
+table: dwarf_local_field
 velocity:
   ref_vlos: Kirby2017ApJ...834....9K
   vlos_sigma: 9.4

@@ -19,7 +19,6 @@ name_discovery:
   name: Koposov 2
   ref_discovery:
   - Koposov2007ApJ...669..337K
-  table: gc_ufsc
 proper_motion:
   pmdec: -0.025
   pmdec_em: 0.189
@@ -55,3 +54,4 @@ structure_sersic:
   rad_sersic_em: 0.09
   rad_sersic_ep: 0.09
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: gc_ufsc

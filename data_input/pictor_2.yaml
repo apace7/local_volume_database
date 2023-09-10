@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.15
   distance_modulus_ep: 0.12
   ref_distance: DrlicaWagner2016ApJ...833L...5D
+flux_HI:
+  flux_HI_ul: 0.58
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: pictor_2
 location:
   dec: -59.897
@@ -28,7 +31,6 @@ name_discovery:
   name: Pictor II
   ref_discovery:
   - DrlicaWagner2016ApJ...833L...5D
-  table: dwarf_mw
 proper_motion:
   pmdec: 1.14
   pmdec_em: 0.05
@@ -48,3 +50,4 @@ structure:
   rhalf: 3.8
   rhalf_em: 1.0
   rhalf_ep: 1.5
+table: dwarf_mw

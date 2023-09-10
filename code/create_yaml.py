@@ -25,9 +25,9 @@ for table_to_load in tables_to_split:
         
         location = {'ra':float(loaded_table_name['ra'][i]), 'dec':float(loaded_table_name['dec'][i])}
         d_t['location'] = location
-        
+        d_t['table'] = str(loaded_table_name['table'][i])
         discovery = {}
-        for prop in ['name', 'table', 'host' ]:
+        for prop in ['name',  'host' ]:
             if prop in loaded_table_name.dtype.names and ma.is_masked(loaded_table_name[prop][i])==False:
                 discovery[prop] = str(loaded_table_name[prop][i])
         for prop in ['confirmed_real', 'confirmed_dwarf', 'confirmed_star_cluster', 'discovery_year']:
@@ -84,11 +84,11 @@ for table_to_load in tables_to_split:
             d_t['proper_motion'] = pm
         
         if ma.is_masked(loaded_table_name['ref_metallicity'][i])==False:
-            spec_metallicity = {'ref_spec_metallicity': str(loaded_table_name['ref_metallicity'][i]) }
-            for prop in ['metallicity', 'metallicity_em', 'metallicity_ep', 'metallicity_sigma', 'metallicity_sigma_em', 'metallicity_sigma_ep', ]:
+            spec_metallicity = {'ref_metallicity_spectroscopic': str(loaded_table_name['ref_metallicity'][i]) }
+            for prop, name in zip(['metallicity', 'metallicity_em', 'metallicity_ep', 'metallicity_sigma', 'metallicity_sigma_em', 'metallicity_sigma_ep', ] ,['metallicity_spectroscopic', 'metallicity_spectroscopic_em', 'metallicity_spectroscopic_ep', 'metallicity_spectroscopic_sigma', 'metallicity_spectroscopic_sigma_em', 'metallicity_spectroscopic_sigma_ep', ]):
                 if prop in loaded_table_name.dtype.names and ma.is_masked(loaded_table_name[prop][i])==False:
-                    spec_metallicity['spec_'+prop] = float(loaded_table_name[prop][i])
-            d_t['spec_metallicity'] = spec_metallicity
+                    spec_metallicity[name] = float(loaded_table_name[prop][i])
+            d_t['metallicity_spectroscopic'] = spec_metallicity
         
         if ma.is_masked(loaded_table_name['ref_king'][i])==False:
             king = {'ref_structure_king': str(loaded_table_name['ref_king'][i])}
@@ -118,7 +118,7 @@ for table_to_load in tables_to_split:
                     metallicity_photometric[prop] = float(loaded_table_name[prop][i])
             d_t['metallicity_photometric'] = metallicity_photometric
         
-        if 'ref_flux_HI' in loaded_table_name.dtype.name:
+        if 'ref_flux_HI' in loaded_table_name.dtype.names:
             if ma.is_masked(loaded_table_name['ref_flux_HI'][i])==False:
                 flux_HI = {'ref_flux_HI': str(loaded_table_name['ref_flux_HI'][i])}
                 for prop in ['flux_HI', 'flux_HI_em', 'flux_HI_ep', 'flux_HI_ul'  ]:

@@ -6,6 +6,11 @@ distance:
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.05
   ref_distance: Higgs2021MNRAS.503..176H
+flux_HI:
+  flux_HI: 297.4
+  flux_HI_em: 24.38
+  flux_HI_ep: 24.38
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: wlm
 location:
   dec: -15.46083333
@@ -29,7 +34,6 @@ name_discovery:
   ref_discovery:
   - Wolf1909AN....183..187W
   - Melotte1926MNRAS..86..636M
-  table: dwarf_local_field
 proper_motion:
   pmdec: -0.07
   pmdec_em: 0.02
@@ -57,6 +61,7 @@ structure_sersic:
   rad_sersic_em: 0.13
   rad_sersic_ep: 0.13
   ref_structure_sersic: Higgs2021MNRAS.503..176H
+table: dwarf_local_field
 velocity:
   ref_vlos: Leaman2013ApJ...767..131L
   vlos_sigma: 17.5

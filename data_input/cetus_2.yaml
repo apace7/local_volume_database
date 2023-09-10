@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.19
   distance_modulus_ep: 0.19
   ref_distance: DrlicaWagner2015ApJ...813..109D
+flux_HI:
+  flux_HI_ul: 0.6
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: cetus_2
 location:
   dec: -17.42
@@ -25,7 +28,6 @@ name_discovery:
   - DES J0117-1725
   ref_discovery:
   - DrlicaWagner2015ApJ...813..109D
-  table: dwarf_mw
 proper_motion:
   pmdec: 0.474
   pmdec_em: 0.063
@@ -40,3 +42,4 @@ structure:
   rhalf: 1.9
   rhalf_em: 0.5
   rhalf_ep: 1.0
+table: dwarf_mw

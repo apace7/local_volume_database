@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.11
   distance_modulus_ep: 0.11
   ref_distance: Carlin2017AJ....154..267C
+flux_HI:
+  flux_HI_ul: 0.66
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: columba_1
 location:
   dec: -28.04253
@@ -15,6 +18,14 @@ m_v:
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
   ref_m_v: Carlin2017AJ....154..267C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.37
+  metallicity_spectroscopic_em: 0.34
+  metallicity_spectroscopic_ep: 0.35
+  metallicity_spectroscopic_sigma: 0.71
+  metallicity_spectroscopic_sigma_em: 0.24
+  metallicity_spectroscopic_sigma_ep: 0.49
+  ref_metallicity_spectroscopic: Fritz2019A&A...623A.129F
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
@@ -25,7 +36,6 @@ name_discovery:
   - DES J0531-2801
   ref_discovery:
   - DrlicaWagner2015ApJ...813..109D
-  table: dwarf_mw
 proper_motion:
   pmdec: -0.4
   pmdec_em: 0.079
@@ -34,14 +44,6 @@ proper_motion:
   pmra_em: 0.073
   pmra_ep: 0.071
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Fritz2019A&A...623A.129F
-  spec_metallicity: -2.37
-  spec_metallicity_em: 0.34
-  spec_metallicity_ep: 0.35
-  spec_metallicity_sigma: 0.71
-  spec_metallicity_sigma_em: 0.24
-  spec_metallicity_sigma_ep: 0.49
 structure:
   ellipticity: 0.3
   ellipticity_em: 0.1
@@ -61,6 +63,7 @@ structure_king:
   rking: 8.9
   rking_em: 2.5
   rking_ep: 2.5
+table: dwarf_mw
 velocity:
   ref_vlos: Fritz2019A&A...623A.129F
   vlos_sigma_ul: 6.7

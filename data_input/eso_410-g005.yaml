@@ -6,6 +6,11 @@ distance:
   distance_modulus_em: 0.04
   distance_modulus_ep: 0.04
   ref_distance: McConnachie2012AJ....144....4M
+flux_HI:
+  flux_HI: 0.84
+  flux_HI_em: 0.03
+  flux_HI_ep: 0.03
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: eso_410-g005
 location:
   dec: -32.18
@@ -30,7 +35,6 @@ name_discovery:
   - UKS 0013-324
   ref_discovery:
   - Lauberts1982euse.book.....L
-  table: dwarf_local_field
 structure:
   ellipticity: 0.37
   position_angle: 57.0
@@ -38,6 +42,7 @@ structure:
   rhalf: 0.5
   rhalf_em: 0.05
   rhalf_ep: 0.05
+table: dwarf_local_field
 velocity:
   ref_vlos: Bouchard2005AJ....130.2058B
   vlos_systemic: 158.9

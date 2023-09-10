@@ -36,7 +36,6 @@ name_discovery:
   ref_discovery:
   - Bechtol2015ApJ...807...50B
   - Koposov2015ApJ...805..130K
-  table: gc_ufsc
 notes:
 - observed mass segregation in Baumgardt2022MNRAS.510.3531B; there is potential metallicity
   dispersion in CaH\&K photometry but main sequence stars are included in this calculation
@@ -77,3 +76,4 @@ structure_sersic:
   rad_sersic_em: 0.23
   rad_sersic_ep: 0.23
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: gc_ufsc

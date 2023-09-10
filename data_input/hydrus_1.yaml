@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.04
   distance_modulus_ep: 0.04
   ref_distance: Koposov2018MNRAS.479.5343K
+flux_HI:
+  flux_HI_ul: 0.68
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: hydrus_1
 location:
   dec: -79.3089
@@ -15,6 +18,14 @@ m_v:
   apparent_magnitude_v_em: 0.08
   apparent_magnitude_v_ep: 0.08
   ref_m_v: Koposov2018MNRAS.479.5343K
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.52
+  metallicity_spectroscopic_em: 0.09
+  metallicity_spectroscopic_ep: 0.09
+  metallicity_spectroscopic_sigma: 0.41
+  metallicity_spectroscopic_sigma_em: 0.08
+  metallicity_spectroscopic_sigma_ep: 0.08
+  ref_metallicity_spectroscopic: Koposov2018MNRAS.479.5343K
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -23,7 +34,6 @@ name_discovery:
   name: Hydrus I
   ref_discovery:
   - Koposov2018MNRAS.479.5343K
-  table: dwarf_mw
 notes:
 - possible rotation Koposov2018MNRAS.479.5343K
 proper_motion:
@@ -34,14 +44,6 @@ proper_motion:
   pmra_em: 0.016
   pmra_ep: 0.016
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Koposov2018MNRAS.479.5343K
-  spec_metallicity: -2.52
-  spec_metallicity_em: 0.09
-  spec_metallicity_ep: 0.09
-  spec_metallicity_sigma: 0.41
-  spec_metallicity_sigma_em: 0.08
-  spec_metallicity_sigma_ep: 0.08
 structure:
   ellipticity: 0.21
   ellipticity_em: 0.07
@@ -53,6 +55,7 @@ structure:
   rhalf: 7.42
   rhalf_em: 0.54
   rhalf_ep: 0.62
+table: dwarf_mw
 velocity:
   ref_vlos: Koposov2018MNRAS.479.5343K
   vlos_sigma: 2.7

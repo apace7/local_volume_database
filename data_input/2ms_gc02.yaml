@@ -19,10 +19,10 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: 2MASS GC-02
-  table: gc_harris
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.39
+table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -237.75

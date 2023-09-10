@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.02
   distance_modulus_ep: 0.02
   ref_distance: Carlin2018ApJ...865....7C
+flux_HI:
+  flux_HI_ul: 0.21
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: bootes_3
 location:
   dec: 26.8
@@ -15,6 +18,12 @@ m_v:
   apparent_magnitude_v_em: 0.5
   apparent_magnitude_v_ep: 0.5
   ref_m_v: Correnti2009MNRAS.397L..26C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.1
+  metallicity_spectroscopic_em: 0.2
+  metallicity_spectroscopic_ep: 0.2
+  metallicity_spectroscopic_sigma: 0.6
+  ref_metallicity_spectroscopic: Carlin2009ApJ...702L...9C
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
@@ -23,7 +32,6 @@ name_discovery:
   name: Bootes III
   ref_discovery:
   - Grillmair2009ApJ...693.1118G
-  table: dwarf_mw
 proper_motion:
   pmdec: -0.89
   pmdec_em: 0.015
@@ -32,12 +40,6 @@ proper_motion:
   pmra_em: 0.019
   pmra_ep: 0.019
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Carlin2009ApJ...702L...9C
-  spec_metallicity: -2.1
-  spec_metallicity_em: 0.2
-  spec_metallicity_ep: 0.2
-  spec_metallicity_sigma: 0.6
 structure:
   ellipticity: 0.33
   ellipticity_em: 0.09
@@ -49,6 +51,7 @@ structure:
   rhalf: 40.6
   rhalf_em: 3.8
   rhalf_ep: 4.2
+table: dwarf_mw
 velocity:
   ref_vlos: Carlin2009ApJ...702L...9C
   vlos_sigma: 14.0

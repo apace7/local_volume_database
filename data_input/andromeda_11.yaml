@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
   ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.36
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: andromeda_11
 location:
   dec: 33.80278
@@ -23,7 +26,6 @@ name_discovery:
   name: Andromeda XI
   ref_discovery:
   - Martin2006MNRAS.371.1983M
-  table: dwarf_m31
 structure:
   ellipticity: 0.19
   ellipticity_em: 0.19
@@ -35,6 +37,7 @@ structure:
   rhalf: 0.6
   rhalf_em: 0.2
   rhalf_ep: 0.2
+table: dwarf_m31
 velocity:
   ref_vlos: Collins2013ApJ...768..172C
   vlos_sigma: 7.6

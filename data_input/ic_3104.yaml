@@ -24,7 +24,6 @@ name_discovery:
   - UKS 1215-794
   ref_discovery:
   - Pickering1908AnHar..60..147P
-  table: dwarf_local_field
 structure:
   ellipticity: 0.52
   ellipticity_em: 0.02
@@ -34,6 +33,7 @@ structure:
   position_angle_ep: 2.0
   ref_structure: McConnachie2012AJ....144....4M
   rhalf: 2.01
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 429.0

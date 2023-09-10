@@ -28,7 +28,6 @@ name_discovery:
   - BLISS J0321+0438
   ref_discovery:
   - Mau2019ApJ...875..154M
-  table: gc_ufsc
 proper_motion:
   pmdec: 0.138
   pmdec_em: 0.038
@@ -46,3 +45,4 @@ structure:
   rhalf: 0.6
   rhalf_em: 0.14
   rhalf_ep: 0.19
+table: gc_ufsc

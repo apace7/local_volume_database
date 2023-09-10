@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.31
   distance_modulus_ep: 0.31
   ref_distance: DrlicaWagner2015ApJ...813..109D
+flux_HI:
+  flux_HI_ul: 0.5
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: reticulum_3
 location:
   dec: -60.45
@@ -15,6 +18,14 @@ m_v:
   apparent_magnitude_v_em: 0.29
   apparent_magnitude_v_ep: 0.29
   ref_m_v: DrlicaWagner2015ApJ...813..109D
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.81
+  metallicity_spectroscopic_em: 0.29
+  metallicity_spectroscopic_ep: 0.29
+  metallicity_spectroscopic_sigma: 0.35
+  metallicity_spectroscopic_sigma_em: 0.09
+  metallicity_spectroscopic_sigma_ep: 0.21
+  ref_metallicity_spectroscopic: Fritz2019A&A...623A.129F
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -25,7 +36,6 @@ name_discovery:
   - DES J0345-6026
   ref_discovery:
   - DrlicaWagner2015ApJ...813..109D
-  table: dwarf_mw
 proper_motion:
   pmdec: -0.502
   pmdec_em: 0.226
@@ -34,20 +44,13 @@ proper_motion:
   pmra_em: 0.144
   pmra_ep: 0.14
   ref_proper_motion: Pace2022ApJ...940..136P
-spec_metallicity:
-  ref_spec_metallicity: Fritz2019A&A...623A.129F
-  spec_metallicity: -2.81
-  spec_metallicity_em: 0.29
-  spec_metallicity_ep: 0.29
-  spec_metallicity_sigma: 0.35
-  spec_metallicity_sigma_em: 0.09
-  spec_metallicity_sigma_ep: 0.21
 structure:
   ellipticity_ul: 0.4
   ref_structure: DrlicaWagner2015ApJ...813..109D
   rhalf: 2.4
   rhalf_em: 0.8
   rhalf_ep: 0.9
+table: dwarf_mw
 velocity:
   ref_vlos: Fritz2019A&A...623A.129F
   vlos_sigma_ul: 8.3

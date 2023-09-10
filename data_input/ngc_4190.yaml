@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
   ref_distance: EDD
+flux_HI:
+  flux_HI: 16.0
+  ref_flux_HI: EDD
 key: ngc_4190
 location:
   dec: 36.63333333
@@ -22,11 +25,11 @@ name_discovery:
   - PGC039023
   - UGC07232
   - CGCG 187-024
-  table: dwarf_local_field
 structure:
   ellipticity: 0.12
   ref_structure: Karachentsev2004AJ....127.2031K
   rhalf: 1.7
+table: dwarf_local_field
 velocity:
   ref_vlos: EDD
   vlos_systemic: 235.0

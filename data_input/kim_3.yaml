@@ -33,7 +33,6 @@ name_discovery:
   name: Kim 3
   ref_discovery:
   - Kim2016ApJ...820..119K
-  table: gc_ufsc
 proper_motion:
   pmdec: 3.396
   pmdec_em: 0.14
@@ -53,3 +52,4 @@ structure:
   rhalf: 0.52
   rhalf_em: 0.11
   rhalf_ep: 0.24
+table: gc_ufsc

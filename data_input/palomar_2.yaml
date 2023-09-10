@@ -14,11 +14,13 @@ m_v:
   apparent_magnitude_v_em: 0.06
   apparent_magnitude_v_ep: 0.06
   ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.42
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: Palomar 2
-  table: gc_harris
 proper_motion:
   pmdec: -1.5218
   pmdec_em: 0.0312
@@ -27,9 +29,6 @@ proper_motion:
   pmra_em: 0.0341
   pmra_ep: 0.0341
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
-spec_metallicity:
-  ref_spec_metallicity: Harris1996AJ....112.1487H
-  spec_metallicity: -1.42
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 0.63
@@ -41,6 +40,7 @@ structure_sersic:
   rad_sersic_em: 0.02
   rad_sersic_ep: 0.02
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -135.97

@@ -4,6 +4,11 @@ distance:
   distance_modulus: 25.72
   distance_modulus_em: 0.056
   ref_distance: Dalcanton2009ApJS..183...67D
+flux_HI:
+  flux_HI: 106.5
+  flux_HI_em: 2.09
+  flux_HI_ep: 2.09
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: sextans_b
 location:
   dec: 5.332222222
@@ -24,7 +29,6 @@ name_discovery:
   - DDO 70
   ref_discovery:
   - Holmberg1958_hand
-  table: dwarf_local_field
 proper_motion:
   pmdec: -0.28
   pmdec_em: 0.17
@@ -44,6 +48,7 @@ structure:
   rhalf: 1.06
   rhalf_em: 0.1
   rhalf_ep: 0.1
+table: dwarf_local_field
 velocity:
   ref_vlos: Hoffman1996ApJS..105..269H
   vlos_systemic: 304.0

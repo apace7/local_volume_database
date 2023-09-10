@@ -28,7 +28,6 @@ name_discovery:
   name: VVV CL0002
   ref_discovery:
   - MoniBidin2011A&A...535A..33M
-  table: gc_disk
 proper_motion:
   pmdec: 2.39
   pmdec_em: 0.0852
@@ -50,3 +49,4 @@ structure_king:
   rking: 1.8
   rking_em: 0.1
   rking_ep: 0.1
+table: gc_disk

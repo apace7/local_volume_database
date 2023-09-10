@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.45
   distance_modulus_ep: 0.55
   ref_distance: Sand2022ApJ...935L..17S
+flux_HI:
+  flux_HI_ul: 0.86
+  ref_flux_HI: Sand2022ApJ...935L..17S
 key: tucana_b
 location:
   dec: -58.4075
@@ -23,10 +26,10 @@ name_discovery:
   name: Tucana B
   ref_discovery:
   - Sand2022ApJ...935L..17S
-  table: dwarf_local_field
 structure:
   ellipticity_ul: 0.35
   ref_structure: Sand2022ApJ...935L..17S
   rhalf: 0.2
   rhalf_em: 0.0833
   rhalf_ep: 0.0833
+table: dwarf_local_field

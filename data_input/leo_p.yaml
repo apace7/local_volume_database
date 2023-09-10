@@ -6,6 +6,11 @@ distance:
   distance_modulus_em: 0.2
   distance_modulus_ep: 0.2
   ref_distance: McQuinn2015ApJ...812..158M
+flux_HI:
+  flux_HI: 1.52
+  flux_HI_em: 0.27
+  flux_HI_ep: 0.27
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: leo_p
 location:
   dec: 18.08805556
@@ -23,12 +28,12 @@ name_discovery:
   name: Leo P
   ref_discovery:
   - Giovanelli2013AJ....146...15G
-  table: dwarf_local_field
 structure:
   ellipticity: 0.52
   position_angle: 335.0
   ref_structure: McQuinn2015ApJ...812..158M
   rhalf: 1.2
+table: dwarf_local_field
 velocity:
   ref_vlos: BernsteinCooper2014AJ....148...35B
   vlos_systemic: 260.8

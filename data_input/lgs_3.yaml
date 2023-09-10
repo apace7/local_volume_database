@@ -6,6 +6,11 @@ distance:
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.05
   ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI: 2.73
+  flux_HI_em: 0.14
+  flux_HI_ep: 0.14
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: lgs_3
 location:
   dec: 21.885
@@ -28,7 +33,6 @@ name_discovery:
   ref_discovery:
   - Karachentseva1976SoSAO..18...42K
   - Kowal1978IAUC.3305....2K
-  table: dwarf_m31
 structure:
   ellipticity: 0.2
   position_angle: 0.0
@@ -36,6 +40,7 @@ structure:
   rhalf: 2.1
   rhalf_em: 0.2
   rhalf_ep: 0.2
+table: dwarf_m31
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_sigma: 7.9

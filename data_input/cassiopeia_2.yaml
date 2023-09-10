@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
   ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.37
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: cassiopeia_2
 location:
   dec: 49.64694
@@ -23,7 +26,6 @@ name_discovery:
   name: Cassiopeia II
   other_name:
   - Andromeda XXX
-  table: dwarf_m31
 structure:
   ellipticity: 0.43
   ellipticity_em: 0.12
@@ -35,6 +37,7 @@ structure:
   rhalf: 1.5
   rhalf_em: 0.2
   rhalf_ep: 0.2
+table: dwarf_m31
 velocity:
   ref_vlos: Collins2013ApJ...768..172C
   vlos_sigma: 11.8

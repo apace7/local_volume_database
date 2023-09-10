@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
   ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.62
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: ngc_147
 location:
   dec: 48.50777778
@@ -29,7 +32,6 @@ name_discovery:
   - Caldwell 17
   ref_discovery:
   - Herschel1833RSPT..123..359H
-  table: dwarf_m31
 proper_motion:
   pmdec: 0.0378
   pmdec_em: 0.0146
@@ -47,6 +49,7 @@ structure:
   position_angle_ep: 3.0
   ref_structure: McConnachie2012AJ....144....4M
   rhalf: 3.17
+table: dwarf_m31
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_sigma: 16.0

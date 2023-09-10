@@ -25,7 +25,6 @@ name_discovery:
   - DELVE J1921-6047
   ref_discovery:
   - Cerny2023ApJ...953....1C
-  table: gc_ufsc
 proper_motion:
   pmdec: -0.8
   pmdec_em: 0.32
@@ -43,3 +42,4 @@ structure:
   rhalf: 0.4
   rhalf_em: 0.08
   rhalf_ep: 0.12
+table: gc_ufsc

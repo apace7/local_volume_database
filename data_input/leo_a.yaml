@@ -6,6 +6,11 @@ distance:
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.05
   ref_distance: Higgs2021MNRAS.503..176H
+flux_HI:
+  flux_HI: 73.3
+  flux_HI_em: 6.67
+  flux_HI_ep: 6.67
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: leo_a
 location:
   dec: 30.74638889
@@ -15,6 +20,11 @@ m_v:
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
   ref_m_v: McConnachie2012AJ....144....4M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.67
+  metallicity_spectroscopic_em: 0.08
+  metallicity_spectroscopic_ep: 0.09
+  ref_metallicity_spectroscopic: Kirby2017ApJ...834....9K
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -28,7 +38,6 @@ name_discovery:
   - PGC 28868
   ref_discovery:
   - Zwicky1942PhRv...61..489Z
-  table: dwarf_local_field
 proper_motion:
   pmdec: -0.06
   pmdec_em: 0.08
@@ -37,11 +46,6 @@ proper_motion:
   pmra_em: 0.09
   pmra_ep: 0.09
   ref_proper_motion: Battaglia2022A&A...657A..54B
-spec_metallicity:
-  ref_spec_metallicity: Kirby2017ApJ...834....9K
-  spec_metallicity: -1.67
-  spec_metallicity_em: 0.08
-  spec_metallicity_ep: 0.09
 structure:
   ellipticity: 0.42
   ellipticity_em: 0.05
@@ -61,6 +65,7 @@ structure_sersic:
   rad_sersic_em: 0.09
   rad_sersic_ep: 0.09
   ref_structure_sersic: Higgs2021MNRAS.503..176H
+table: dwarf_local_field
 velocity:
   ref_vlos: Kirby2017ApJ...834....9K
   vlos_sigma: 9.0

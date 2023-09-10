@@ -33,7 +33,6 @@ name_discovery:
   name: DES 1
   ref_discovery:
   - Luque2016MNRAS.458..603L
-  table: gc_ufsc
 structure:
   ellipticity: 0.41
   ellipticity_em: 0.06
@@ -53,3 +52,4 @@ structure_king:
   rking: 2.114
   rking_em: 0.707
   rking_ep: 0.729
+table: gc_ufsc

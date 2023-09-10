@@ -6,6 +6,11 @@ distance:
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
   ref_distance: McConnachie2012AJ....144....4M
+flux_HI:
+  flux_HI: 1720.0
+  flux_HI_em: 181.0
+  flux_HI_ep: 181.0
+  ref_flux_HI: Westmeier2011MNRAS.410.2217W
 key: ngc_0300
 location:
   dec: -37.68444444
@@ -23,7 +28,6 @@ name_discovery:
   name: NGC 300
   ref_discovery:
   - Dunlop1828RSPT..118..113D
-  table: dwarf_local_field
 structure:
   ellipticity: 0.83
   ellipticity_em: 0.01
@@ -33,6 +37,7 @@ structure:
   position_angle_ep: 2.0
   ref_structure: McConnachie2012AJ....144....4M
   rhalf: 5.0
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 146.0

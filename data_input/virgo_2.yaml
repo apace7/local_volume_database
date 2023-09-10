@@ -28,10 +28,10 @@ name_discovery:
   - DELVE J1500+0554
   ref_discovery:
   - Cerny2023ApJ...953....1C
-  table: dwarf_mw
 structure:
   ellipticity_ul: 0.3
   ref_structure: Cerny2023ApJ...953....1C
   rhalf: 0.74
   rhalf_em: 0.11
   rhalf_ep: 0.13
+table: dwarf_mw

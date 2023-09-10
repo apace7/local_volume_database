@@ -14,6 +14,9 @@ m_v:
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
   ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.0
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -21,7 +24,6 @@ name_discovery:
   other_name:
   - ESO 521-16
   - MWSC 2793
-  table: gc_harris
 proper_motion:
   pmdec: -6.4384
   pmdec_em: 0.0358
@@ -30,12 +32,10 @@ proper_motion:
   pmra_em: 0.039
   pmra_ep: 0.039
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
-spec_metallicity:
-  ref_spec_metallicity: Harris1996AJ....112.1487H
-  spec_metallicity: -1.0
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.16
+table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 211.37

@@ -31,7 +31,6 @@ name_discovery:
   ref_discovery:
   - Ryu2018ApJ...856..152R
   - Ryu2018ApJ...863L..38R
-  table: gc_disk
 proper_motion:
   pmdec: 0.7697
   pmdec_em: 0.047
@@ -56,3 +55,4 @@ structure_king:
   rking: 0.93
   rking_em: 0.4
   rking_ep: 0.4
+table: gc_disk

@@ -15,6 +15,11 @@ m_v:
   apparent_magnitude_v_em: 0.97
   apparent_magnitude_v_ep: 0.97
   ref_m_v: Munoz2018ApJ...860...66M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.46
+  metallicity_spectroscopic_em: 0.32
+  metallicity_spectroscopic_ep: 0.32
+  ref_metallicity_spectroscopic: Munoz2012ApJ...753L..15M
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
@@ -23,7 +28,6 @@ name_discovery:
   name: Munoz 1
   ref_discovery:
   - Munoz2012ApJ...753L..15M
-  table: gc_ufsc
 proper_motion:
   pmdec: -0.02
   pmdec_em: 0.207
@@ -32,11 +36,6 @@ proper_motion:
   pmra_em: 0.203
   pmra_ep: 0.203
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
-spec_metallicity:
-  ref_spec_metallicity: Munoz2012ApJ...753L..15M
-  spec_metallicity: -1.46
-  spec_metallicity_em: 0.32
-  spec_metallicity_ep: 0.32
 structure:
   ellipticity: 0.34
   ellipticity_em: 0.17
@@ -64,6 +63,7 @@ structure_sersic:
   rad_sersic_em: 0.32
   rad_sersic_ep: 0.32
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: gc_ufsc
 velocity:
   ref_vlos: Munoz2012ApJ...753L..15M
   vlos_sigma_ul: 4.7

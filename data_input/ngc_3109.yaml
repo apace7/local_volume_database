@@ -6,6 +6,11 @@ distance:
   distance_modulus_em: 0.08
   distance_modulus_ep: 0.08
   ref_distance: McConnachie2012AJ....144....4M
+flux_HI:
+  flux_HI: 1130.2
+  flux_HI_em: 73.3
+  flux_HI_ep: 73.3
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: ngc_3109
 location:
   dec: -26.15972222
@@ -31,7 +36,6 @@ name_discovery:
   - UGCA 194
   ref_discovery:
   - Herschel1847raom.book.....H
-  table: dwarf_local_field
 proper_motion:
   pmdec: -0.01
   pmdec_em: 0.03
@@ -51,6 +55,7 @@ structure:
   rhalf: 4.3
   rhalf_em: 0.1
   rhalf_ep: 0.1
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 403.0

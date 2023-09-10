@@ -34,7 +34,6 @@ name_discovery:
   ref_discovery:
   - Minniti2017RNAAS...1...54M
   - Minniti2021A&A...652A.129M
-  table: gc_disk
 proper_motion:
   pmdec: -6.0
   pmdec_em: 0.5
@@ -48,3 +47,4 @@ structure:
   rhalf: 6.0
   rhalf_em: 1.0
   rhalf_ep: 1.0
+table: gc_disk

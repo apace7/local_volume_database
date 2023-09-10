@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
   ref_distance: Koposov2015ApJ...805..130K
+flux_HI:
+  flux_HI_ul: 0.61
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: pictor_1
 location:
   dec: -50.28305556
@@ -26,7 +29,6 @@ name_discovery:
   ref_discovery:
   - Bechtol2015ApJ...807...50B
   - Koposov2015ApJ...805..130K
-  table: dwarf_mw
 proper_motion:
   pmdec: 0.096
   pmdec_em: 0.114
@@ -54,3 +56,4 @@ structure_sersic:
   rad_sersic_em: 0.32
   rad_sersic_ep: 0.32
   ref_structure_sersic: Munoz2018ApJ...860...66M
+table: dwarf_mw

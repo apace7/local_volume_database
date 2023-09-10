@@ -25,7 +25,6 @@ name_discovery:
   confirmed_star_cluster: 1
   host: MW
   name: Patchick 126
-  table: gc_disk
 proper_motion:
   pmdec: -6.68
   pmdec_em: 0.62
@@ -37,6 +36,7 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 0.48
+table: gc_disk
 velocity:
   ref_vlos: Garro2023A&A...669A.136G
   vlos_systemic: -123.56

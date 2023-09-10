@@ -22,11 +22,11 @@ name_discovery:
   - ESO468-020
   - '[KK98]258'
   - PGC069468
-  table: dwarf_local_field
 structure:
   ellipticity: 0.5
   ref_structure: Karachentsev2004AJ....127.2031K
   rhalf: 1.6
+table: dwarf_local_field
 velocity:
   ref_vlos: Karachentsev2014MNRAS.443.1281K
   vlos_systemic: 92.0

@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
   ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.42
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: andromeda_13
 location:
   dec: 33.00444
@@ -25,7 +28,6 @@ name_discovery:
   - Pisces III
   ref_discovery:
   - Martin2006MNRAS.371.1983M
-  table: dwarf_m31
 structure:
   ellipticity: 0.61
   ellipticity_em: 0.2
@@ -37,6 +39,7 @@ structure:
   rhalf: 0.8
   rhalf_em: 0.3
   rhalf_ep: 0.4
+table: dwarf_m31
 velocity:
   ref_vlos: Tollerud2012ApJ...752...45T
   vlos_sigma: 5.8

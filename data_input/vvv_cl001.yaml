@@ -13,6 +13,11 @@ m_v:
   apparent_magnitude_v_em: 0.5
   apparent_magnitude_v_ep: 0.5
   ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.04
+  metallicity_spectroscopic_em: 0.02
+  metallicity_spectroscopic_ep: 0.02
+  ref_metallicity_spectroscopic: OlivaresCarvajal2022MNRAS.513.3993O
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -21,7 +26,6 @@ name_discovery:
   name: VVV CL0001
   ref_discovery:
   - Minniti2011A&A...527A..81M
-  table: gc_disk
 proper_motion:
   pmdec: -1.6523
   pmdec_em: 0.1075
@@ -30,14 +34,10 @@ proper_motion:
   pmra_em: 0.1437
   pmra_ep: 0.1437
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
-spec_metallicity:
-  ref_spec_metallicity: OlivaresCarvajal2022MNRAS.513.3993O
-  spec_metallicity: -2.04
-  spec_metallicity_em: 0.02
-  spec_metallicity_ep: 0.02
 structure:
   ref_structure: Minniti2011A&A...527A..81M
   rhalf: 1.0
+table: gc_disk
 velocity:
   ref_vlos: OlivaresCarvajal2022MNRAS.513.3993O
   vlos_systemic: -324.9

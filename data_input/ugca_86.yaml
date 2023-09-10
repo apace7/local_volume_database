@@ -23,7 +23,6 @@ name_discovery:
   - VIIZw009
   ref_discovery:
   - Nilson1974UppOR...5....0N
-  table: dwarf_local_field
 structure:
   ellipticity: 0.32
   ellipticity_em: 0.03
@@ -33,6 +32,7 @@ structure:
   position_angle_ep: 1.0
   ref_structure: McConnachie2012AJ....144....4M
   rhalf: 0.94
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 67.0

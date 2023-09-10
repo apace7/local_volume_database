@@ -27,7 +27,6 @@ name_discovery:
   name: Leo M
   ref_discovery:
   - McQuinn2023arXiv230708738M
-  table: dwarf_local_field
 structure:
   ellipticity: 0.17
   ellipticity_em: 0.11
@@ -39,3 +38,4 @@ structure:
   rhalf: 0.5166666667
   rhalf_em: 0.08333333333
   rhalf_ep: 0.1
+table: dwarf_local_field

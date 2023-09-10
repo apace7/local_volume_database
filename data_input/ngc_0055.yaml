@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.12
   distance_modulus_ep: 0.12
   ref_distance: McConnachie2012AJ....144....4M
+flux_HI:
+  flux_HI: 1522.0
+  ref_flux_HI: Puche1991AJ....101..447P
 key: ngc_0055
 location:
   dec: -39.19666667
@@ -23,7 +26,6 @@ name_discovery:
   name: NGC 55
   ref_discovery:
   - Dunlop1828RSPT..118..113D
-  table: dwarf_local_field
 structure:
   ellipticity: 0.83
   ellipticity_em: 0.01
@@ -35,6 +37,7 @@ structure:
   rhalf: 5.16
   rhalf_em: 0.2
   rhalf_ep: 0.02
+table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 129.0

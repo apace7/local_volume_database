@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.2
   ref_distance: Homma2018PASJ...70S..18H
+flux_HI:
+  flux_HI_ul: 0.45
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: virgo_1
 location:
   dec: -0.681
@@ -25,7 +28,6 @@ name_discovery:
   - HSC J1200-0040
   ref_discovery:
   - Homma2016ApJ...832...21H
-  table: dwarf_mw
 structure:
   ellipticity: 0.59
   ellipticity_em: 0.14
@@ -37,3 +39,4 @@ structure:
   rhalf: 1.76
   rhalf_em: 0.4
   rhalf_ep: 0.49
+table: dwarf_mw

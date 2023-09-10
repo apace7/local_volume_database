@@ -25,7 +25,6 @@ name_discovery:
   - DELVE J1057+2852
   ref_discovery:
   - Cerny2023ApJ...953....1C
-  table: dwarf_mw
 proper_motion:
   pmdec: -1.29
   pmdec_em: 0.4
@@ -40,3 +39,4 @@ structure:
   rhalf: 1.09
   rhalf_em: 0.35
   rhalf_ep: 0.37
+table: dwarf_mw

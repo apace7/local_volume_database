@@ -6,6 +6,9 @@ distance:
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.2
   ref_distance: Homma2018PASJ...70S..18H
+flux_HI:
+  flux_HI_ul: 0.57
+  ref_flux_HI: Putman2021ApJ...913...53P
 key: cetus_3
 location:
   dec: -4.27
@@ -25,7 +28,6 @@ name_discovery:
   - "HSC J0209 \u2212 0416"
   ref_discovery:
   - Homma2018PASJ...70S..18H
-  table: dwarf_mw
 structure:
   ellipticity: 0.76
   ellipticity_em: 0.08
@@ -37,3 +39,4 @@ structure:
   rhalf: 1.23
   rhalf_em: 0.19
   rhalf_ep: 0.42
+table: dwarf_mw

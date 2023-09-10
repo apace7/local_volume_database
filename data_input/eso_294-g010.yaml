@@ -6,6 +6,11 @@ distance:
   distance_modulus_em: 0.04
   distance_modulus_ep: 0.04
   ref_distance: McConnachie2012AJ....144....4M
+flux_HI:
+  flux_HI: 0.342
+  flux_HI_em: 0.017
+  flux_HI_ep: 0.017
+  ref_flux_HI: Bouchard2005AJ....130.2058B
 key: eso_294-g010
 location:
   dec: -41.85527778
@@ -28,7 +33,6 @@ name_discovery:
   name: ESO 294-G010
   ref_discovery:
   - Lauberts1982euse.book.....L
-  table: dwarf_local_field
 structure:
   ellipticity: 0.37
   position_angle: 57.0
@@ -36,6 +40,7 @@ structure:
   rhalf: 0.42
   rhalf_em: 0.04
   rhalf_ep: 0.04
+table: dwarf_local_field
 velocity:
   ref_vlos: Bouchard2005AJ....130.2058B
   vlos_systemic: 106.9

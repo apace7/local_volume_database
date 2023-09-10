@@ -19,7 +19,6 @@ name_discovery:
   name: SMASH 1
   ref_discovery:
   - Martin2016ApJ...830L..10M
-  table: gc_ufsc
 structure:
   ellipticity: 0.62
   ellipticity_em: 0.21
@@ -31,3 +30,4 @@ structure:
   rhalf: 0.57
   rhalf_em: 0.18
   rhalf_ep: 0.32
+table: gc_ufsc
