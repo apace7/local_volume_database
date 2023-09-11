@@ -1,0 +1,42 @@
+distance:
+  distance: 4.554
+  distance_em: 0.243
+  distance_ep: 0.263
+  distance_modulus: 13.292
+  distance_modulus_em: 0.119
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ic_1276
+location:
+  dec: -7.207595
+  ra: 272.684441
+m_v:
+  apparent_magnitude_v: 6.59
+  apparent_magnitude_v_em: 0.06
+  apparent_magnitude_v_ep: 0.06
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.75
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: IC 1276
+  other_name:
+  - Palomar 7
+proper_motion:
+  pmdec: -4.5676
+  pmdec_em: 0.0257
+  pmdec_ep: 0.0257
+  pmra: -2.5531
+  pmra_em: 0.0258
+  pmra_ep: 0.0258
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 2.42
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 155.06
+  vlos_systemic_em: 0.69
+  vlos_systemic_ep: 0.69

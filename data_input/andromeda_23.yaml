@@ -1,0 +1,48 @@
+distance:
+  distance: 744.7
+  distance_em: 24.0
+  distance_ep: 24.0
+  distance_modulus: 24.36
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.59
+  ref_flux_HI: Putman2021ApJ...913...53P
+key: andromeda_23
+location:
+  dec: 38.72389
+  ra: 22.3375
+m_v:
+  apparent_magnitude_v: 14.6
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: Martin2016ApJ...833..167M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2011
+  host: M_31
+  name: Andromeda XXIII
+  ref_discovery:
+  - Richardson2011ApJ...732...76R
+structure:
+  ellipticity: 0.41
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.05
+  position_angle: 138.0
+  position_angle_em: 5.0
+  position_angle_ep: 5.0
+  ref_structure: Martin2016ApJ...833..167M
+  rhalf: 5.4
+  rhalf_em: 0.4
+  rhalf_ep: 0.4
+table: dwarf_m31
+velocity:
+  ref_vlos: Collins2013ApJ...768..172C
+  vlos_sigma: 7.1
+  vlos_sigma_em: 1.0
+  vlos_sigma_ep: 1.0
+  vlos_systemic: -237.7
+  vlos_systemic_em: 1.2
+  vlos_systemic_ep: 1.2

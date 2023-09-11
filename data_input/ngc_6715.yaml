@@ -1,0 +1,44 @@
+distance:
+  distance: 26.283
+  distance_em: 0.325
+  distance_ep: 0.328
+  distance_modulus: 17.098
+  distance_modulus_em: 0.027
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6715
+location:
+  dec: -30.479862
+  ra: 283.763855
+m_v:
+  apparent_magnitude_v: 7.1
+  apparent_magnitude_v_em: 0.06
+  apparent_magnitude_v_ep: 0.06
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.49
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6715
+  other_name:
+  - M 54
+proper_motion:
+  pmdec: -1.3865
+  pmdec_em: 0.0254
+  pmdec_ep: 0.0254
+  pmra: -2.6792
+  pmra_em: 0.0253
+  pmra_ep: 0.0253
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 0.47
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_sigma: 10.5
+  vlos_sigma_em: 0.3
+  vlos_systemic: 143.13
+  vlos_systemic_em: 0.43
+  vlos_systemic_ep: 0.43

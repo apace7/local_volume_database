@@ -1,0 +1,42 @@
+distance:
+  distance: 7.524
+  distance_em: 0.131
+  distance_ep: 0.133
+  distance_modulus: 14.382
+  distance_modulus_em: 0.038
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6717
+location:
+  dec: -22.701473
+  ra: 283.775177
+m_v:
+  apparent_magnitude_v: 8.3
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.26
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6717
+  other_name:
+  - Palomar 9
+proper_motion:
+  pmdec: -5.0082
+  pmdec_em: 0.0271
+  pmdec_ep: 0.0271
+  pmra: -3.1253
+  pmra_em: 0.0273
+  pmra_ep: 0.0273
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.2
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 30.25
+  vlos_systemic_em: 0.9
+  vlos_systemic_ep: 0.9

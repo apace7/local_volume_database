@@ -1,0 +1,48 @@
+distance:
+  distance: 559.8
+  distance_em: 15.0
+  distance_ep: 16.0
+  distance_modulus: 23.74
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.37
+  ref_flux_HI: Putman2021ApJ...913...53P
+key: cassiopeia_2
+location:
+  dec: 49.64694
+  ra: 9.14417
+m_v:
+  apparent_magnitude_v: 16.0
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: Martin2016ApJ...833..167M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2012
+  host: M_31
+  name: Cassiopeia II
+  other_name:
+  - Andromeda XXX
+structure:
+  ellipticity: 0.43
+  ellipticity_em: 0.12
+  ellipticity_ep: 0.1
+  position_angle: 110.0
+  position_angle_em: 9.0
+  position_angle_ep: 9.0
+  ref_structure: Martin2016ApJ...833..167M
+  rhalf: 1.5
+  rhalf_em: 0.2
+  rhalf_ep: 0.2
+table: dwarf_m31
+velocity:
+  ref_vlos: Collins2013ApJ...768..172C
+  vlos_sigma: 11.8
+  vlos_sigma_em: 4.7
+  vlos_sigma_ep: 7.7
+  vlos_systemic: -139.8
+  vlos_systemic_em: 6.6
+  vlos_systemic_ep: 36.0

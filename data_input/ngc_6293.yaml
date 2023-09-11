@@ -1,0 +1,40 @@
+distance:
+  distance: 9.192
+  distance_em: 0.274
+  distance_ep: 0.282
+  distance_modulus: 14.817
+  distance_modulus_em: 0.066
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6293
+location:
+  dec: -26.582083
+  ra: 257.5425
+m_v:
+  apparent_magnitude_v: 7.39
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.99
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6293
+proper_motion:
+  pmdec: -4.326
+  pmdec_em: 0.0275
+  pmdec_ep: 0.0275
+  pmra: 0.8703
+  pmra_em: 0.028
+  pmra_ep: 0.028
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 0.83
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -143.66
+  vlos_systemic_em: 0.39
+  vlos_systemic_ep: 0.39

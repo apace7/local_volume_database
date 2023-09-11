@@ -1,0 +1,40 @@
+distance:
+  distance: 6.152
+  distance_em: 0.146
+  distance_ep: 0.15
+  distance_modulus: 13.945
+  distance_modulus_em: 0.052
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6304
+location:
+  dec: -29.462028
+  ra: 258.634399
+m_v:
+  apparent_magnitude_v: 6.52
+  apparent_magnitude_v_em: 0.07
+  apparent_magnitude_v_ep: 0.07
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.45
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6304
+proper_motion:
+  pmdec: -1.0878
+  pmdec_em: 0.0283
+  pmdec_ep: 0.0283
+  pmra: -4.07
+  pmra_em: 0.0285
+  pmra_ep: 0.0285
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.02
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -108.62
+  vlos_systemic_em: 0.39
+  vlos_systemic_ep: 0.39

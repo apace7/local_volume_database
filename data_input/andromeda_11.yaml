@@ -1,0 +1,48 @@
+distance:
+  distance: 751.6
+  distance_em: 24.0
+  distance_ep: 25.0
+  distance_modulus: 24.38
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.36
+  ref_flux_HI: Putman2021ApJ...913...53P
+key: andromeda_11
+location:
+  dec: 33.80278
+  ra: 11.58208
+m_v:
+  apparent_magnitude_v: 18.0
+  apparent_magnitude_v_em: 0.4
+  apparent_magnitude_v_ep: 0.4
+  ref_m_v: Martin2016ApJ...833..167M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2006
+  host: M_31
+  name: Andromeda XI
+  ref_discovery:
+  - Martin2006MNRAS.371.1983M
+structure:
+  ellipticity: 0.19
+  ellipticity_em: 0.19
+  ellipticity_ep: 0.28
+  position_angle: 54.0
+  position_angle_em: 30.0
+  position_angle_ep: 30.0
+  ref_structure: Martin2016ApJ...833..167M
+  rhalf: 0.6
+  rhalf_em: 0.2
+  rhalf_ep: 0.2
+table: dwarf_m31
+velocity:
+  ref_vlos: Collins2013ApJ...768..172C
+  vlos_sigma: 7.6
+  vlos_sigma_em: 2.8
+  vlos_sigma_ep: 4.0
+  vlos_systemic: -427.5
+  vlos_systemic_em: 3.5
+  vlos_systemic_ep: 3.4

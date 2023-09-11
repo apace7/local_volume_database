@@ -1,0 +1,67 @@
+distance:
+  distance: 755.0
+  distance_em: 24.0
+  distance_ep: 24.0
+  distance_modulus: 24.39
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: McConnachie2012AJ....144....4M
+flux_HI:
+  flux_HI_ul: 0.71
+  ref_flux_HI: Putman2021ApJ...913...53P
+key: cetus_1
+location:
+  dec: -11.04444444
+  ra: 6.5458333
+m_v:
+  apparent_magnitude_v: 13.2
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: McConnachie2012AJ....144....4M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.74
+  metallicity_spectroscopic_em: 0.06
+  metallicity_spectroscopic_ep: 0.06
+  metallicity_spectroscopic_sigma: 0.42
+  metallicity_spectroscopic_sigma_em: 0.04
+  metallicity_spectroscopic_sigma_ep: 0.04
+  ref_metallicity_spectroscopic: Taibi2018A&A...618A.122T
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1999
+  host: LF
+  name: Cetus
+  ref_discovery:
+  - Whiting1999AJ....118.2767W
+structure:
+  ellipticity: 0.33
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.06
+  position_angle: 63.0
+  position_angle_em: 3.0
+  position_angle_ep: 3.0
+  ref_structure: McConnachie2012AJ....144....4M
+  rhalf: 3.2
+  rhalf_em: 0.1
+  rhalf_ep: 0.1
+structure_king:
+  king_concentration: 1.4
+  king_concentration_em: 0.1
+  king_concentration_ep: 0.1
+  rcore: 1.3
+  rcore_em: 0.1
+  rcore_ep: 0.1
+  ref_structure_king: McConnachie2006MNRAS.365.1263M
+  rking: 32.0
+  rking_em: 6.5
+  rking_ep: 6.5
+table: dwarf_local_field
+velocity:
+  ref_vlos: Kirby2014MNRAS.439.1015K
+  vlos_sigma: 8.3
+  vlos_sigma_em: 1.0
+  vlos_sigma_ep: 1.0
+  vlos_systemic: -83.9
+  vlos_systemic_em: 1.2
+  vlos_systemic_ep: 1.2

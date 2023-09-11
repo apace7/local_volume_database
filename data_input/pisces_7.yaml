@@ -1,0 +1,37 @@
+distance:
+  distance: 952.0
+  distance_em: 81.0
+  distance_ep: 81.0
+  distance_modulus: 24.9
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.2
+  ref_distance: Collins2023arXiv230513966C
+key: pisces_7
+location:
+  dec: 26.391
+  ra: 20.419
+m_v:
+  apparent_magnitude_v: 19.2
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: Collins2023arXiv230513966C
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2022
+  host: M_33
+  name: Pisces VII
+  other_name:
+  - Triangulum III
+  ref_discovery:
+  - MartinezDelgado2022MNRAS.509...16M
+structure:
+  ellipticity_ul: 0.1
+  position_angle: 96.0
+  position_angle_em: 36.0
+  position_angle_ep: 32.0
+  ref_structure: Collins2023arXiv230513966C
+  rhalf: 0.67
+  rhalf_em: 0.1
+  rhalf_ep: 0.2
+table: dwarf_m31

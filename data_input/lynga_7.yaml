@@ -1,0 +1,42 @@
+distance:
+  distance: 7.899
+  distance_em: 0.159
+  distance_ep: 0.163
+  distance_modulus: 14.488
+  distance_modulus_em: 0.044
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: lynga_7
+location:
+  dec: -55.317776
+  ra: 242.765213
+m_v:
+  apparent_magnitude_v: 7.62
+  apparent_magnitude_v_em: 0.14
+  apparent_magnitude_v_ep: 0.14
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.01
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: Lynga 7
+  other_name:
+  - BH 184
+proper_motion:
+  pmdec: -7.0495
+  pmdec_em: 0.0271
+  pmdec_ep: 0.0271
+  pmra: -3.851
+  pmra_em: 0.0269
+  pmra_ep: 0.0269
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.7
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 17.86
+  vlos_systemic_em: 0.83
+  vlos_systemic_ep: 0.83

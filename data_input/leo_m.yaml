@@ -1,0 +1,41 @@
+distance:
+  distance: 457.0
+  distance_em: 18.0
+  distance_ep: 87.0
+  distance_modulus: 23.3
+  distance_modulus_em: 0.09
+  distance_modulus_ep: 0.41
+  ref_distance: McQuinn2023arXiv230708738M
+key: leo_m
+location:
+  dec: 25.3452147
+  ra: 166.3381893
+m_v:
+  apparent_magnitude_v: 18.0
+  apparent_magnitude_v_em: 0.4
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: McQuinn2023arXiv230708738M
+metallicity_photometric:
+  metallicity_photometric: -1.9
+  metallicity_photometric_em: 0.1
+  ref_metallicity_photometric: McQuinn2023arXiv230708738M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2023
+  host: LF
+  name: Leo M
+  ref_discovery:
+  - McQuinn2023arXiv230708738M
+structure:
+  ellipticity: 0.17
+  ellipticity_em: 0.11
+  ellipticity_ep: 0.12
+  position_angle: 112.0
+  position_angle_em: 4.0
+  position_angle_ep: 4.0
+  ref_structure: McQuinn2023arXiv230708738M
+  rhalf: 0.5166666667
+  rhalf_em: 0.08333333333
+  rhalf_ep: 0.1
+table: dwarf_local_field

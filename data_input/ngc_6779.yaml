@@ -1,0 +1,44 @@
+distance:
+  distance: 10.43
+  distance_em: 0.142
+  distance_ep: 0.144
+  distance_modulus: 15.091
+  distance_modulus_em: 0.03
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6779
+location:
+  dec: 30.183472
+  ra: 289.148193
+m_v:
+  apparent_magnitude_v: 7.35
+  apparent_magnitude_v_em: 0.05
+  apparent_magnitude_v_ep: 0.05
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.98
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6779
+  other_name:
+  - M 56
+proper_motion:
+  pmdec: 1.6176
+  pmdec_em: 0.0252
+  pmdec_ep: 0.0252
+  pmra: -2.0179
+  pmra_em: 0.0251
+  pmra_ep: 0.0251
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 0.98
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_sigma: 4.0
+  vlos_sigma_em: 0.6
+  vlos_systemic: -136.97
+  vlos_systemic_em: 0.45
+  vlos_systemic_ep: 0.45

@@ -1,0 +1,49 @@
+age:
+  age: 11.7
+  age_em: 1.3
+  age_ep: 1.7
+  ref_age: Gatto2022ApJ...929L..21G
+distance:
+  distance: 55.5
+  distance_em: 4.2
+  distance_ep: 4.0
+  distance_modulus: 18.72
+  distance_modulus_em: 0.17
+  distance_modulus_ep: 0.15
+  ref_distance: Gatto2022ApJ...929L..21G
+key: ymca_1
+location:
+  dec: -64.8319
+  ra: 110.8378
+m_v:
+  apparent_magnitude_v: 18.25
+  apparent_magnitude_v_em: 0.57
+  apparent_magnitude_v_ep: 0.57
+  ref_m_v: Gatto2022ApJ...929L..21G
+metallicity_photometric:
+  metallicity_photometric: -1.12
+  metallicity_photometric_em: 0.13
+  metallicity_photometric_ep: 0.21
+  ref_metallicity_photometric: Gatto2022ApJ...929L..21G
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 0
+  discovery_year: 2021
+  host: MW
+  name: YMCA-1
+  ref_discovery:
+  - Gatto2021RNAAS...5..159G
+proper_motion:
+  pmdec: 1.107
+  pmdec_em: 0.209
+  pmdec_ep: 0.209
+  pmra: 1.044
+  pmra_em: 0.402
+  pmra_ep: 0.402
+  ref_proper_motion: Piatti2022MNRAS.515.4005P
+structure:
+  ref_structure: Gatto2022ApJ...929L..21G
+  rhalf: 0.2167948414
+  rhalf_em: 0.03097069163
+  rhalf_ep: 0.03097069163
+table: gc_ufsc

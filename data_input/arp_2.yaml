@@ -1,0 +1,40 @@
+distance:
+  distance: 28.726
+  distance_em: 0.342
+  distance_ep: 0.346
+  distance_modulus: 17.291
+  distance_modulus_em: 0.026
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: arp_2
+location:
+  dec: -30.355639
+  ra: 292.183807
+m_v:
+  apparent_magnitude_v: 11.34
+  apparent_magnitude_v_em: 0.04
+  apparent_magnitude_v_ep: 0.04
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.75
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: ARP 2
+proper_motion:
+  pmdec: -1.4753
+  pmdec_em: 0.0294
+  pmdec_ep: 0.0294
+  pmra: -2.3307
+  pmra_em: 0.0313
+  pmra_ep: 0.0313
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.7
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 122.64
+  vlos_systemic_em: 0.29
+  vlos_systemic_ep: 0.29

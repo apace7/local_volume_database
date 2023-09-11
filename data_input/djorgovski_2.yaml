@@ -1,0 +1,45 @@
+distance:
+  distance: 8.764
+  distance_em: 0.174
+  distance_ep: 0.178
+  distance_modulus: 14.714
+  distance_modulus_em: 0.044
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: djorgovski_2
+location:
+  dec: -27.825819
+  ra: 270.454378
+m_v:
+  apparent_magnitude_v: 8.2
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.65
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: Djorgobski 2
+  other_name:
+  - ESO456
+  - Djorg 2
+  - ESO 456-38
+  - MWSC 2779
+proper_motion:
+  pmdec: -2.9828
+  pmdec_em: 0.0371
+  pmdec_ep: 0.0371
+  pmra: 0.6619
+  pmra_em: 0.0415
+  pmra_ep: 0.0415
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.82
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -149.75
+  vlos_systemic_em: 1.1
+  vlos_systemic_ep: 1.1

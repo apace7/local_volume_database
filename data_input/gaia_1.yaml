@@ -1,0 +1,48 @@
+age:
+  age: 3.5
+  ref_age: Simpson2017MNRAS.471.4087S
+distance:
+  distance: 4.46
+  distance_em: 0.21
+  distance_ep: 0.21
+  distance_modulus: 13.25
+  ref_distance: Simpson2017MNRAS.471.4087S
+key: gaia_1
+location:
+  dec: -16.75
+  ra: 101.47
+m_v:
+  apparent_magnitude_v: 8.3
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Koposov2017MNRAS.470.2702K
+metallicity_photometric:
+  metallicity_photometric: -0.7
+  ref_metallicity_photometric: Koposov2017MNRAS.470.2702K
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.13
+  metallicity_spectroscopic_em: 0.13
+  metallicity_spectroscopic_ep: 0.13
+  ref_metallicity_spectroscopic: Simpson2017MNRAS.471.4087S
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2017
+  host: MW
+  name: Gaia 1
+  ref_discovery:
+  - Koposov2017MNRAS.470.2702K
+structure:
+  ref_structure: Koposov2017MNRAS.470.2702K
+  rhalf: 6.5
+  rhalf_em: 0.4
+  rhalf_ep: 0.4
+table: gc_disk
+velocity:
+  ref_vlos: Simpson2017MNRAS.471.4087S
+  vlos_sigma: 0.94
+  vlos_sigma_em: 0.15
+  vlos_sigma_ep: 0.15
+  vlos_systemic: 58.3
+  vlos_systemic_em: 0.22
+  vlos_systemic_ep: 0.22

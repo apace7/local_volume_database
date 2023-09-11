@@ -1,0 +1,82 @@
+distance:
+  distance: 83.9
+  distance_em: 1.5
+  distance_ep: 1.5
+  distance_modulus: 19.62
+  distance_modulus_em: 0.04
+  distance_modulus_ep: 0.04
+  ref_distance: MartinezVazquez2015MNRAS.454.1509M
+flux_HI:
+  flux_HI_ul: 1.84
+  ref_flux_HI: Putman2021ApJ...913...53P
+key: sculptor_1
+location:
+  dec: -33.7186
+  ra: 15.0183
+m_v:
+  apparent_magnitude_v: 8.85
+  apparent_magnitude_v_em: 0.14
+  apparent_magnitude_v_ep: 0.14
+  ref_m_v: Munoz2018ApJ...860...66M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.73
+  metallicity_spectroscopic_em: 0.02
+  metallicity_spectroscopic_ep: 0.03
+  metallicity_spectroscopic_sigma: 0.44
+  metallicity_spectroscopic_sigma_em: 0.02
+  metallicity_spectroscopic_sigma_ep: 0.02
+  ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1938
+  host: MW
+  name: Sculptor
+  other_name:
+  - ESO 351-G30
+  ref_discovery:
+  - Shapley1938BHarO.908....1S
+proper_motion:
+  pmdec: -0.158
+  pmdec_em: 0.002
+  pmdec_ep: 0.002
+  pmra: 0.1
+  pmra_em: 0.002
+  pmra_ep: 0.002
+  ref_proper_motion: Pace2022ApJ...940..136P
+structure:
+  ellipticity: 0.33
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 92.0
+  position_angle_em: 1.0
+  position_angle_ep: 1.0
+  ref_structure: Munoz2018ApJ...860...66M
+  rhalf: 11.17
+  rhalf_em: 0.05
+  rhalf_ep: 0.05
+structure_king:
+  rcore: 7.03
+  rcore_em: 0.05
+  rcore_ep: 0.05
+  ref_structure_king: Munoz2018ApJ...860...66M
+  rking: 74.1
+  rking_em: 0.4
+  rking_ep: 0.4
+structure_sersic:
+  n_sersic: 1.16
+  n_sersic_em: 0.01
+  n_sersic_ep: 0.01
+  rad_sersic: 12.33
+  rad_sersic_em: 0.05
+  rad_sersic_ep: 0.05
+  ref_structure_sersic: Munoz2018ApJ...860...66M
+table: dwarf_mw
+velocity:
+  ref_vlos: Walker2009AJ....137.3100W
+  vlos_sigma: 9.2
+  vlos_sigma_em: 1.1
+  vlos_sigma_ep: 1.1
+  vlos_systemic: 111.4
+  vlos_systemic_em: 0.1
+  vlos_systemic_ep: 0.1

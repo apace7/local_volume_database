@@ -1,0 +1,36 @@
+distance:
+  distance: 7.1
+  distance_em: 0.4
+  distance_ep: 0.4
+  distance_modulus: 14.27
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: Garro2022A&A...659A.155G
+key: ferrero_54
+location:
+  dec: -44.44694444
+  ra: 128.45125
+metallicity_photometric:
+  metallicity_photometric: -0.2
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: Garro2022A&A...659A.155G
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  host: MW
+  name: Ferrero 54
+proper_motion:
+  pmdec: 1.31
+  pmdec_em: 0.34
+  pmdec_ep: 0.34
+  pmra: -1.33
+  pmra_em: 0.27
+  pmra_ep: 0.27
+  ref_proper_motion: Garro2022A&A...659A.155G
+table: gc_disk
+velocity:
+  ref_vlos: Garro2023A&A...669A.136G
+  vlos_systemic: 56.06
+  vlos_systemic_em: 3.17
+  vlos_systemic_ep: 3.17

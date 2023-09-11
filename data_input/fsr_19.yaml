@@ -1,0 +1,51 @@
+age:
+  age: 11.0
+  ref_age: Obasi2021A&A...654A..39O
+distance:
+  distance: 7.2
+  distance_em: 0.7
+  distance_ep: 0.7
+  distance_modulus: 14.29
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Obasi2021A&A...654A..39O
+key: fsr_19
+location:
+  dec: -21.07
+  ra: 263.91
+m_v:
+  apparent_magnitude_v: 9.67
+  ref_m_v: Obasi2021A&A...654A..39O
+metallicity_photometric:
+  metallicity_photometric: -0.5
+  ref_metallicity_photometric: Obasi2021A&A...654A..39O
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 2006
+  host: MW
+  name: FSR 19
+  ref_discovery:
+  - Froebrich2007MNRAS.374..399F
+proper_motion:
+  pmdec: -5.02
+  pmdec_em: 0.47
+  pmdec_ep: 0.47
+  pmra: -2.5
+  pmra_em: 0.76
+  pmra_ep: 0.76
+  ref_proper_motion: Obasi2021A&A...654A..39O
+structure:
+  ref_structure: Obasi2021A&A...654A..39O
+  rhalf: 0.9
+  rhalf_em: 0.07
+  rhalf_ep: 0.07
+structure_king:
+  rcore: 1.32
+  rcore_em: 0.17
+  rcore_ep: 0.17
+  ref_structure_king: Obasi2021A&A...654A..39O
+  rking: 2.54
+  rking_em: 0.23
+  rking_ep: 0.23
+table: gc_disk

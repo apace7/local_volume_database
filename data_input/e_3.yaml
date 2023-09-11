@@ -1,0 +1,40 @@
+distance:
+  distance: 7.876
+  distance_em: 0.245
+  distance_ep: 0.254
+  distance_modulus: 14.482
+  distance_modulus_em: 0.069
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: e_3
+location:
+  dec: -77.281891
+  ra: 140.237793
+m_v:
+  apparent_magnitude_v: 10.92
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.83
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: E 3
+proper_motion:
+  pmdec: 7.0827
+  pmdec_em: 0.0271
+  pmdec_ep: 0.0271
+  pmra: -2.7274
+  pmra_em: 0.0272
+  pmra_ep: 0.0272
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.92
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 11.71
+  vlos_systemic_em: 0.34
+  vlos_systemic_ep: 0.34

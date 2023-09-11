@@ -1,0 +1,48 @@
+age:
+  age: 10.0
+  age_em: 2.0
+  age_ep: 2.0
+  ref_age: Garro2021A&A...649A..86G
+distance:
+  distance: 6.6
+  distance_em: 0.6
+  distance_ep: 0.6
+  distance_modulus: 14.02
+  distance_modulus_em: 0.04
+  distance_modulus_ep: 0.04
+  ref_distance: Garro2021A&A...649A..86G
+key: patchick_99
+location:
+  dec: -29.81277778
+  ra: 273.9458333
+m_v:
+  apparent_magnitude_v: 8.82
+  ref_m_v: Garro2021A&A...649A..86G
+metallicity_photometric:
+  metallicity_photometric: -0.2
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: Garro2021A&A...649A..86G
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  host: MW
+  name: Patchick 99
+  ref_discovery:
+  - Bica2019AJ....157...12B
+proper_motion:
+  pmdec: -5.49
+  pmdec_em: 2.02
+  pmdec_ep: 2.02
+  pmra: -2.98
+  pmra_em: 1.74
+  pmra_ep: 1.74
+  ref_proper_motion: Garro2021A&A...649A..86G
+structure:
+  ref_structure: Garro2021A&A...649A..86G
+  rhalf: 1.87
+structure_king:
+  rcore: 1.2
+  ref_structure_king: Garro2021A&A...649A..86G
+  rking: 10.0
+table: gc_disk

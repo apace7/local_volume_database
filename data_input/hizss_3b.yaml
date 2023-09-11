@@ -1,0 +1,32 @@
+distance:
+  distance: 1675.0
+  distance_em: 108.0
+  distance_ep: 108.0
+  distance_modulus: 26.12
+  distance_modulus_em: 0.14
+  distance_modulus_ep: 0.14
+  ref_distance: McConnachie2012AJ....144....4M
+flux_HI:
+  flux_HI: 3.93
+  flux_HI_em: 0.45
+  flux_HI_ep: 0.45
+  ref_flux_HI: Putman2021ApJ...913...53P
+key: hizss_3b
+location:
+  dec: -4.208333333
+  ra: 105.1220833
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2000
+  host: LF
+  name: HIZSS 3B
+  ref_discovery:
+  - Henning2000AJ....119.2686H
+  - Begum2005MNRAS.359L..53B
+table: dwarf_local_field
+velocity:
+  ref_vlos: McConnachie2012AJ....144....4M
+  vlos_systemic: 322.6
+  vlos_systemic_em: 1.4
+  vlos_systemic_ep: 1.4

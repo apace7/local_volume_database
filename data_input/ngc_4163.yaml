@@ -1,0 +1,50 @@
+distance:
+  distance: 2858.0
+  distance_em: 39.0
+  distance_ep: 39.0
+  distance_modulus: 27.28
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: McConnachie2012AJ....144....4M
+key: ngc_4163
+location:
+  dec: 36.16916667
+  ra: 183.0379167
+m_v:
+  apparent_magnitude_v: 13.2
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: McConnachie2012AJ....144....4M
+metallicity_photometric:
+  metallicity_photometric: -1.65
+  metallicity_photometric_em: 0.15
+  metallicity_photometric_ep: 0.15
+  ref_metallicity_photometric: McConnachie2006MNRAS.365.1263M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1789
+  host: LF
+  name: NGC 4163
+  other_name:
+  - UGC 7199
+  - NGC 4167
+  ref_discovery:
+  - Herschel1789RSPT...79..212H
+structure:
+  ellipticity: 0.3
+  ellipticity_em: 0.05
+  ellipticity_ep: 0.05
+  position_angle: 11.0
+  position_angle_em: 2.0
+  position_angle_ep: 2.0
+  ref_structure: McConnachie2012AJ....144....4M
+  rhalf: 0.45
+  rhalf_em: 0.05
+  rhalf_ep: 0.05
+table: dwarf_local_field
+velocity:
+  ref_vlos: McConnachie2012AJ....144....4M
+  vlos_systemic: 165.0
+  vlos_systemic_em: 5.0
+  vlos_systemic_ep: 5.0
