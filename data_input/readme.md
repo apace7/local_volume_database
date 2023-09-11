@@ -2,15 +2,14 @@
 Below is the example_yaml file for reference
 
 - key: example_yaml
-- table: misc
-- location:
+- table: misc (dwarf_mw, dwarf_m31, dwarf_local_field, gc_harris, gc_disk, gc_ufsc)
+- location: ra, dec 
 -- ra: 0
 -- dec: 0
+
 distance:
-  distance_modulus: 0
-  distance_modulus_em: 0
-  distance_modulus_ep: 0
-  ## some files have distance, distance_em, and distance_ep.  These are old and the distance in the tables is computed from the distance modulus
+  distance_modulus: 
+  
   ref_distance: ref
 m_v:
   apparent_magnitude_v: 0
@@ -52,6 +51,7 @@ metallicity_photometric:
   metallicity_photometric_em: 0
   metallicity_photometric_ep: 0
   ref_metallicity_photometric: ref
+
 structure:
 ## the ellipticity, position_angle here are the version in the standard table
   rhalf: 0
@@ -65,6 +65,7 @@ structure:
   position_angle_em: 0
   position_angle_ep: 0
   ref_structure: ref
+
 structure_king:
 ## the ellipticity, position_angle here are not propagated to the standard table
   rcore: 0
@@ -81,6 +82,7 @@ structure_king:
   position_angle_em: 0
   position_angle_ep: 0
   ref_structure_king: ref
+
 structure_sersic:
 ## the ellipticity, position_angle here are not propagated to the standard table
   n_sersic: 0
@@ -97,6 +99,7 @@ structure_sersic:
   position_angle_em: 0
   position_angle_ep: 0
   ref_structure_sersic: ref
+
 velocity:
   vlos_systemic: 0
   vlos_systemic_em: 0
@@ -105,6 +108,7 @@ velocity:
   vlos_sigma_em: 0
   vlos_sigma_ep: 0
   ref_vlos: ref 
+
 flux_HI:
   flux_HI:  0
   flux_HI_em: 0
@@ -117,6 +121,7 @@ flux_HI:
   flux_HI_dispersion_em: 
   flux_HI_dispersion_ep: 
   ref_flux_HI: ref
+
 age:
   age: 0
   age_em: 0
