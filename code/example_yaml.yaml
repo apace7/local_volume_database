@@ -114,3 +114,8 @@ flux_HI:
   flux_HI_dispersion_em: 
   flux_HI_dispersion_ep: 
   ref_flux_HI: ref
+age:
+  age: 0
+  age_em: 0
+  age_ep: 0
+  ref_age: ref

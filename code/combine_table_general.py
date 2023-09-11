@@ -16,7 +16,7 @@ import os
 
 path = "data_input/"
 dir_list = os.listdir(path)
-
+dir_list = [i for i in dir_list if i!='readme.md']
 ## this is to get a list of all "key"s which should correspond to file names (+.yaml)
 table_list = []
 for i in range(len(dir_list)):
@@ -199,3 +199,7 @@ comb_dwarf_lf.write('data/dwarf_local_field.fits', format='fits', overwrite=True
 comb_gc_disk.write('data/gc_disk.fits', format='fits', overwrite=True)
 comb_gc_harris.write('data/gc_harris.fits', format='fits', overwrite=True)
 comb_gc_ufsc.write('data/gc_ufsc.fits', format='fits', overwrite=True)
+
+comb_dwarf = table.vstack([comb_dwarf_mw, comb_dwarf_m31, comb_dwarf_lf])
+comb_dwarf.write('data/dwarf_all.csv', format='csv', overwrite=True)
+comb_dwarf.write('data/dwarf_all.fits', format='fits', overwrite=True)
