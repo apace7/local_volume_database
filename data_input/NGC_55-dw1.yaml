@@ -21,6 +21,8 @@ name_discovery:
   name: NGC 55-dw1
   ref_discovery:
   - McNanna2023arXiv230904467M
+  other_name:
+  - DES J0015-3825
 metallicity_photometric:
   metallicity_photometric: -1.8
   ref_metallicity_photometric: McNanna2023arXiv230904467M
