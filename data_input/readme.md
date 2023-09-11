@@ -1,11 +1,11 @@
 
 Below is the example_yaml file for reference
 
-key: example_yaml
-table: misc
-location:
-  ra: 0
-  dec: 0
+- key: example_yaml
+- table: misc
+- location:
+-- ra: 0
+-- dec: 0
 distance:
   distance_modulus: 0
   distance_modulus_em: 0
