@@ -1,0 +1,38 @@
+distance:
+  distance: 15.581
+  distance_em: 0.55
+  distance_ep: 0.57
+  distance_modulus: 15.963
+  distance_modulus_em: 0.078
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: uks_1
+location:
+  dec: -24.145277
+  ra: 268.613312
+m_v:
+  apparent_magnitude_v: 9.17
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.64
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: UKS 1
+proper_motion:
+  pmdec: -2.7541
+  pmdec_em: 0.0633
+  pmdec_ep: 0.0633
+  pmra: -2.0401
+  pmra_em: 0.0948
+  pmra_ep: 0.0948
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 0.66
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 59.38
+  vlos_systemic_em: 2.63
+  vlos_systemic_ep: 2.63

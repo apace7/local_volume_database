@@ -1,0 +1,57 @@
+age:
+  age: 12.0
+  ref_age: Minniti2021A&A...650L..11M
+distance:
+  distance: 4.0
+  distance_em: 0.2
+  distance_ep: 0.2
+  distance_modulus: 13.01
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
+  ref_distance: Minniti2021A&A...650L..11M
+key: vvv_cl160
+location:
+  dec: -20.015
+  ra: 271.738
+m_v:
+  apparent_magnitude_v: 8.19
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.5
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_photometric:
+  metallicity_photometric: -1.4
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: Minniti2021A&A...650L..11M
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2014
+  host: MW
+  name: VVV CL160
+  other_name:
+  - RCR-01
+  ref_discovery:
+  - Borissova2014A&A...569A..24B
+  - Minniti2021A&A...650L..11M
+proper_motion:
+  pmdec: -16.8
+  pmdec_em: 0.1
+  pmdec_ep: 0.1
+  pmra: -2.3
+  pmra_em: 0.1
+  pmra_ep: 0.1
+  ref_proper_motion: Minniti2021A&A...650L..11M
+structure:
+  ref_structure: Minniti2021A&A...650L..11M
+  rhalf: 2.2
+structure_king:
+  rcore: 0.38
+  ref_structure_king: Minniti2021A&A...650L..11M
+  rking: 50.0
+table: gc_disk
+velocity:
+  ref_vlos: Garro2023A&A...669A.136G
+  vlos_systemic: 245.3
+  vlos_systemic_em: 0.81
+  vlos_systemic_ep: 0.81

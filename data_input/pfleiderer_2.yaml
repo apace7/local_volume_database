@@ -1,0 +1,54 @@
+age:
+  age: 10.0
+  age_em: 2.0
+  age_ep: 2.0
+  ref_age: Ortolani2009AJ....138..889O
+distance:
+  distance: 16.4
+  distance_em: 2.0
+  distance_ep: 2.0
+  distance_modulus: 16.07
+  ref_distance: Ortolani2009AJ....138..889O
+key: pfleiderer_2
+location:
+  dec: -5.075
+  ra: 269.6667
+m_v:
+  apparent_magnitude_v: 13.57
+  ref_m_v: Ortolani2009AJ....138..889O
+metallicity_photometric:
+  metallicity_photometric: 0.0
+  ref_metallicity_photometric: Ortolani2009AJ....138..889O
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 1977
+  host: MW
+  name: Pfleiderer 2
+  other_name:
+  - PWM2
+  ref_discovery:
+  - Pfleiderer1977stcl.symp...39P
+  - Ortolani2009AJ....138..889O
+proper_motion:
+  pmdec: -4.1576
+  pmdec_em: 0.0313
+  pmdec_ep: 0.0313
+  pmra: -2.7837
+  pmra_em: 0.034
+  pmra_ep: 0.034
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Ortolani2009AJ....138..889O
+  rhalf: 1.24
+  rhalf_em: 0.13
+  rhalf_ep: 0.13
+structure_king:
+  rcore: 1.18
+  rcore_em: 0.16
+  rcore_ep: 0.16
+  ref_structure_king: Ortolani2009AJ....138..889O
+  rking: 4.8
+  rking_em: 0.7
+  rking_ep: 0.7
+table: gc_disk

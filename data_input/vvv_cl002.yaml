@@ -1,0 +1,52 @@
+distance:
+  distance: 7.3
+  distance_em: 0.9
+  distance_ep: 0.9
+  distance_modulus: 14.32
+  distance_modulus_em: 0.23
+  distance_modulus_ep: 0.23
+  ref_distance: MoniBidin2011A&A...535A..33M
+key: vvv_cl002
+location:
+  dec: -28.84508333
+  ra: 256.52625
+m_v:
+  apparent_magnitude_v: 10.92
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: MoniBidin2011A&A...535A..33M
+metallicity_photometric:
+  metallicity_photometric: -0.4
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: MoniBidin2011A&A...535A..33M
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 2011
+  host: MW
+  name: VVV CL0002
+  ref_discovery:
+  - MoniBidin2011A&A...535A..33M
+proper_motion:
+  pmdec: 2.39
+  pmdec_em: 0.0852
+  pmdec_ep: 0.0852
+  pmra: -8.8674
+  pmra_em: 0.1425
+  pmra_ep: 0.1425
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: MoniBidin2011A&A...535A..33M
+  rhalf: 0.75
+  rhalf_em: 0.1
+  rhalf_ep: 0.1
+structure_king:
+  king_concentration: 0.65
+  king_concentration_em: 0.26
+  king_concentration_ep: 0.26
+  ref_structure_king: MoniBidin2011A&A...535A..33M
+  rking: 1.8
+  rking_em: 0.1
+  rking_ep: 0.1
+table: gc_disk

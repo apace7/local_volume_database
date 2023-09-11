@@ -1,0 +1,76 @@
+distance:
+  distance: 717.0
+  distance_em: 17.0
+  distance_ep: 17.0
+  distance_modulus: 24.28
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Higgs2021MNRAS.503..176H
+flux_HI:
+  flux_HI: 73.3
+  flux_HI_em: 6.67
+  flux_HI_ep: 6.67
+  ref_flux_HI: Putman2021ApJ...913...53P
+key: leo_a
+location:
+  dec: 30.74638889
+  ra: 149.8604167
+m_v:
+  apparent_magnitude_v: 12.4
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: McConnachie2012AJ....144....4M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.67
+  metallicity_spectroscopic_em: 0.08
+  metallicity_spectroscopic_ep: 0.09
+  ref_metallicity_spectroscopic: Kirby2017ApJ...834....9K
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1942
+  host: LF
+  name: Leo A
+  other_name:
+  - Leo III
+  - UGC 5364
+  - DDO 69
+  - PGC 28868
+  ref_discovery:
+  - Zwicky1942PhRv...61..489Z
+proper_motion:
+  pmdec: -0.06
+  pmdec_em: 0.08
+  pmdec_ep: 0.09
+  pmra: -0.06
+  pmra_em: 0.09
+  pmra_ep: 0.09
+  ref_proper_motion: Battaglia2022A&A...657A..54B
+structure:
+  ellipticity: 0.42
+  ellipticity_em: 0.05
+  ellipticity_ep: 0.05
+  position_angle: 116.4
+  position_angle_em: 6.11
+  position_angle_ep: 6.11
+  ref_structure: Higgs2021MNRAS.503..176H
+  rhalf: 2.3
+  rhalf_em: 0.09
+  rhalf_ep: 0.09
+structure_sersic:
+  n_sersic: 0.72
+  n_sersic_em: 0.07
+  n_sersic_ep: 0.07
+  rad_sersic: 2.3
+  rad_sersic_em: 0.09
+  rad_sersic_ep: 0.09
+  ref_structure_sersic: Higgs2021MNRAS.503..176H
+table: dwarf_local_field
+velocity:
+  ref_vlos: Kirby2017ApJ...834....9K
+  vlos_sigma: 9.0
+  vlos_sigma_em: 0.6
+  vlos_sigma_ep: 0.8
+  vlos_systemic: 26.2
+  vlos_systemic_em: 0.9
+  vlos_systemic_ep: 1.0

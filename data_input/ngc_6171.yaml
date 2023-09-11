@@ -1,0 +1,42 @@
+distance:
+  distance: 5.631
+  distance_em: 0.076
+  distance_ep: 0.077
+  distance_modulus: 13.753
+  distance_modulus_em: 0.03
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6171
+location:
+  dec: -13.053778
+  ra: 248.132752
+m_v:
+  apparent_magnitude_v: 7.26
+  apparent_magnitude_v_em: 0.04
+  apparent_magnitude_v_ep: 0.04
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.02
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6171
+  other_name:
+  - M 107
+proper_motion:
+  pmdec: -5.9789
+  pmdec_em: 0.025
+  pmdec_ep: 0.025
+  pmra: -1.9392
+  pmra_em: 0.0253
+  pmra_ep: 0.0253
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.58
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -34.71
+  vlos_systemic_em: 0.18
+  vlos_systemic_ep: 0.18

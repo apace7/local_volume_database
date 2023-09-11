@@ -1,0 +1,46 @@
+distance:
+  distance: 717.8
+  distance_em: 23.0
+  distance_ep: 27.0
+  distance_modulus: 24.28
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.08
+  ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.39
+  ref_flux_HI: Putman2021ApJ...913...53P
+key: andromeda_12
+location:
+  dec: 34.37722
+  ra: 11.86792
+m_v:
+  apparent_magnitude_v: 17.7
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.5
+  ref_m_v: Martin2016ApJ...833..167M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2006
+  host: M_31
+  name: Andromeda XII
+  ref_discovery:
+  - Martin2006MNRAS.371.1983M
+structure:
+  ellipticity: 0.61
+  ellipticity_em: 0.48
+  ellipticity_ep: 0.16
+  position_angle: 16.0
+  position_angle_em: 36.0
+  position_angle_ep: 12.0
+  ref_structure: Martin2016ApJ...833..167M
+  rhalf: 1.8
+  rhalf_em: 0.7
+  rhalf_ep: 1.2
+table: dwarf_m31
+velocity:
+  ref_vlos: Collins2013ApJ...768..172C
+  vlos_sigma_ul: 4.0
+  vlos_systemic: -557.1
+  vlos_systemic_em: 1.7
+  vlos_systemic_ep: 1.7

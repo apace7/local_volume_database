@@ -1,0 +1,33 @@
+distance:
+  distance: 57.0
+  distance_modulus: 18.8
+  ref_distance: Martin2016ApJ...830L..10M
+key: smash_1
+location:
+  dec: -80.3966
+  ra: 95.2496
+m_v:
+  apparent_magnitude_v: 17.8
+  apparent_magnitude_v_em: 0.9
+  apparent_magnitude_v_ep: 0.9
+  ref_m_v: Martin2016ApJ...830L..10M
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 2016
+  host: MW
+  name: SMASH 1
+  ref_discovery:
+  - Martin2016ApJ...830L..10M
+structure:
+  ellipticity: 0.62
+  ellipticity_em: 0.21
+  ellipticity_ep: 0.17
+  position_angle: -24.0
+  position_angle_em: 16.0
+  position_angle_ep: 16.0
+  ref_structure: Martin2016ApJ...830L..10M
+  rhalf: 0.57
+  rhalf_em: 0.18
+  rhalf_ep: 0.32
+table: gc_ufsc

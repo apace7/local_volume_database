@@ -1,0 +1,55 @@
+age:
+  age: 9.5
+  age_em: 1.7
+  age_ep: 3.0
+  ref_age: Kim2016ApJ...820..119K
+distance:
+  distance: 15.14
+  distance_em: 0.28
+  distance_ep: 1.0
+  distance_modulus: 15.9
+  distance_modulus_em: 0.04
+  distance_modulus_ep: 0.11
+  ref_distance: Kim2016ApJ...820..119K
+key: kim_3
+location:
+  dec: -30.6
+  ra: 200.688
+m_v:
+  apparent_magnitude_v: 16.6
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: Kim2016ApJ...820..119K
+metallicity_photometric:
+  metallicity_photometric: -1.6
+  metallicity_photometric_em: 0.3
+  metallicity_photometric_ep: 0.45
+  ref_metallicity_photometric: Kim2016ApJ...820..119K
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 2016
+  host: MW
+  name: Kim 3
+  ref_discovery:
+  - Kim2016ApJ...820..119K
+proper_motion:
+  pmdec: 3.396
+  pmdec_em: 0.14
+  pmdec_ep: 0.14
+  pmra: -0.849
+  pmra_em: 0.178
+  pmra_ep: 0.178
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ellipticity: 0.17
+  ellipticity_em: 0.17
+  ellipticity_ep: 0.26
+  position_angle: 4.0
+  position_angle_em: 24.0
+  position_angle_ep: 24.0
+  ref_structure: Kim2016ApJ...820..119K
+  rhalf: 0.52
+  rhalf_em: 0.11
+  rhalf_ep: 0.24
+table: gc_ufsc

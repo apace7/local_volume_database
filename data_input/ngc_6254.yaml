@@ -1,0 +1,42 @@
+distance:
+  distance: 5.067
+  distance_em: 0.063
+  distance_ep: 0.064
+  distance_modulus: 13.524
+  distance_modulus_em: 0.027
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6254
+location:
+  dec: -4.100306
+  ra: 254.28772
+m_v:
+  apparent_magnitude_v: 5.75
+  apparent_magnitude_v_em: 0.04
+  apparent_magnitude_v_ep: 0.04
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.56
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6254
+  other_name:
+  - M 10
+proper_motion:
+  pmdec: -6.5968
+  pmdec_em: 0.0236
+  pmdec_ep: 0.0236
+  pmra: -4.7577
+  pmra_em: 0.0235
+  pmra_ep: 0.0235
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 2.03
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 74.21
+  vlos_systemic_em: 0.23
+  vlos_systemic_ep: 0.23

@@ -1,0 +1,64 @@
+distance:
+  distance: 107.9
+  distance_em: 3.3
+  distance_ep: 3.3
+  distance_modulus: 20.16
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Torrealba2016MNRAS.463..712T
+flux_HI:
+  flux_HI_ul: 0.66
+  ref_flux_HI: Putman2021ApJ...913...53P
+key: aquarius_2
+location:
+  dec: -9.3274
+  ra: 338.4813
+m_v:
+  apparent_magnitude_v: 15.8
+  apparent_magnitude_v_em: 0.14
+  apparent_magnitude_v_ep: 0.14
+  ref_m_v: Torrealba2016MNRAS.463..712T
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.57
+  metallicity_spectroscopic_em: 0.17
+  metallicity_spectroscopic_ep: 0.17
+  metallicity_spectroscopic_sigma: 0.36
+  metallicity_spectroscopic_sigma_em: 0.14
+  metallicity_spectroscopic_sigma_ep: 0.2
+  ref_metallicity_spectroscopic: Bruce2023ApJ...950..167B
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2016
+  host: MW
+  name: Aquarius II
+  ref_discovery:
+  - Torrealba2016MNRAS.463..712T
+proper_motion:
+  pmdec: -0.466
+  pmdec_em: 0.095
+  pmdec_ep: 0.096
+  pmra: -0.179
+  pmra_em: 0.113
+  pmra_ep: 0.119
+  ref_proper_motion: Pace2022ApJ...940..136P
+structure:
+  ellipticity: 0.39
+  ellipticity_em: 0.09
+  ellipticity_ep: 0.09
+  position_angle: 121.0
+  position_angle_em: 9.0
+  position_angle_ep: 9.0
+  ref_structure: Torrealba2016MNRAS.463..712T
+  rhalf: 5.1
+  rhalf_em: 0.8
+  rhalf_ep: 0.8
+table: dwarf_mw
+velocity:
+  ref_vlos: Bruce2023ApJ...950..167B
+  vlos_sigma: 4.7
+  vlos_sigma_em: 1.2
+  vlos_sigma_ep: 1.8
+  vlos_systemic: -65.3
+  vlos_systemic_em: 1.8
+  vlos_systemic_ep: 1.8

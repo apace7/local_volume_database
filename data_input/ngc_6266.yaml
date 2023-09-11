@@ -1,0 +1,42 @@
+distance:
+  distance: 6.412
+  distance_em: 0.104
+  distance_ep: 0.105
+  distance_modulus: 14.035
+  distance_modulus_em: 0.036
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: ngc_6266
+location:
+  dec: -30.11339
+  ra: 255.304153
+m_v:
+  apparent_magnitude_v: 5.15
+  apparent_magnitude_v_em: 0.06
+  apparent_magnitude_v_ep: 0.06
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.18
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6266
+  other_name:
+  - M 62
+proper_motion:
+  pmdec: -2.9467
+  pmdec_em: 0.0263
+  pmdec_ep: 0.0263
+  pmra: -4.9778
+  pmra_em: 0.0265
+  pmra_ep: 0.0265
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 0.99
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -73.98
+  vlos_systemic_em: 0.67
+  vlos_systemic_ep: 0.67

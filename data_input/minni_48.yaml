@@ -1,0 +1,50 @@
+age:
+  age: 10.0
+  age_em: 2.0
+  age_ep: 2.0
+  ref_age: Minniti2021A&A...652A.129M
+distance:
+  distance: 8.4
+  distance_em: 0.3
+  distance_ep: 0.3
+  distance_modulus: 14.62
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Minniti2021A&A...652A.129M
+key: minni_48
+location:
+  dec: -28.00055556
+  ra: 263.325
+m_v:
+  apparent_magnitude_v: 8.12
+  apparent_magnitude_v_em: 0.8
+  apparent_magnitude_v_ep: 0.8
+  ref_m_v: Minniti2021A&A...652A.129M
+metallicity_photometric:
+  metallicity_photometric: -0.2
+  metallicity_photometric_em: 0.3
+  metallicity_photometric_ep: 0.3
+  ref_metallicity_photometric: Minniti2021A&A...652A.129M
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 2017
+  host: MW
+  name: Minni 48
+  ref_discovery:
+  - Minniti2017RNAAS...1...54M
+  - Minniti2021A&A...652A.129M
+proper_motion:
+  pmdec: -6.0
+  pmdec_em: 0.5
+  pmdec_ep: 0.5
+  pmra: -3.5
+  pmra_em: 0.5
+  pmra_ep: 0.5
+  ref_proper_motion: Minniti2021A&A...652A.129M
+structure:
+  ref_structure: Minniti2021A&A...652A.129M
+  rhalf: 6.0
+  rhalf_em: 1.0
+  rhalf_ep: 1.0
+table: gc_disk

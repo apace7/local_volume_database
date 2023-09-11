@@ -1,0 +1,55 @@
+distance:
+  distance: 801.7
+  distance_em: 22.0
+  distance_ep: 23.0
+  distance_modulus: 24.52
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.54
+  ref_flux_HI: Putman2021ApJ...913...53P
+key: cassiopeia_3
+location:
+  dec: 51.55972
+  ra: 8.9975
+m_v:
+  apparent_magnitude_v: 12.15
+  apparent_magnitude_v_em: 0.7
+  apparent_magnitude_v_ep: 0.7
+  ref_m_v: Martin2013ApJ...772...15M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.7
+  metallicity_spectroscopic_em: 0.1
+  metallicity_spectroscopic_ep: 0.1
+  ref_metallicity_spectroscopic: Martin2014ApJ...793L..14M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2013
+  host: M_31
+  name: Cassiopeia III
+  other_name:
+  - Andromeda XXXII
+  ref_discovery:
+  - Martin2013ApJ...772...15M
+structure:
+  ellipticity: 0.5
+  ellipticity_em: 0.09
+  ellipticity_ep: 0.09
+  position_angle: -90.0
+  position_angle_em: 7.0
+  position_angle_ep: 7.0
+  ref_structure: Martin2013ApJ...772...15M
+  rhalf: 6.5
+  rhalf_em: 1.0
+  rhalf_ep: 1.2
+table: dwarf_m31
+velocity:
+  ref_vlos: Martin2014ApJ...793L..14M
+  vlos_sigma: 8.4
+  vlos_sigma_em: 0.6
+  vlos_sigma_ep: 0.6
+  vlos_systemic: -371.6
+  vlos_systemic_em: 0.7
+  vlos_systemic_ep: 0.7
