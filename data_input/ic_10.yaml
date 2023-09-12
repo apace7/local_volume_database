@@ -1,11 +1,8 @@
 distance:
-  distance: 794.0
-  distance_em: 44.0
-  distance_ep: 44.0
-  distance_modulus: 24.5
-  distance_modulus_em: 0.12
-  distance_modulus_ep: 0.12
-  ref_distance: McConnachie2012AJ....144....4M
+  distance_modulus: 24.43
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: McQuinn2017ApJ...834...78M
 flux_HI:
   flux_HI: 336.6
   flux_HI_em: 40.4
@@ -45,3 +42,11 @@ velocity:
   vlos_systemic: -348.0
   vlos_systemic_em: 1.0
   vlos_systemic_ep: 1.0
+proper_motion:
+  pmra: 0.039
+  pmra_em: 0.009
+  pmra_ep: 0.009
+  pmdec: 0.031
+  pmdec_em: 0.008
+  pmdec_ep: 0.008
+  ref_proper_motion: Brunthaler2007A&A...462..101B

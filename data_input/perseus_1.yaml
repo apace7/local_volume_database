@@ -11,13 +11,13 @@ flux_HI:
   ref_flux_HI: Putman2021ApJ...913...53P
 key: perseus_1
 location:
-  dec: 40.99106
-  ra: 45.34617
+  ra: 45.347666666666655
+  dec: 40.984833333333334
 m_v:
-  apparent_magnitude_v: 14.19
-  apparent_magnitude_v_em: 0.7
-  apparent_magnitude_v_ep: 0.7
-  ref_m_v: Martin2013ApJ...779L..10M
+  apparent_magnitude_v: 15.37
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: Rhode2023arXiv230901045R
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.0
   metallicity_spectroscopic_em: 0.2
@@ -34,24 +34,30 @@ name_discovery:
   ref_discovery:
   - Martin2013ApJ...779L..10M
 structure:
-  ellipticity: 0.04
-  ellipticity_em: 0.08
-  ellipticity_ep: 0.08
-  position_angle: 81.56
-  position_angle_em: 21.43
-  position_angle_ep: 21.43
-  ref_structure: Higgs2021MNRAS.503..176H
-  rhalf: 1.38
-  rhalf_em: 0.19
-  rhalf_ep: 0.19
+  ellipticity: 0.09
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.06
+  position_angle: -59
+  position_angle_em: 20
+  position_angle_ep: 23
+  ref_structure: Rhode2023arXiv230901045R
+  rhalf: 1.40
+  rhalf_em: 0.06
+  rhalf_ep: 0.07
 structure_sersic:
-  n_sersic: 0.79
-  n_sersic_em: 0.63
-  n_sersic_ep: 0.63
-  rad_sersic: 1.38
-  rad_sersic_em: 0.19
-  rad_sersic_ep: 0.19
-  ref_structure_sersic: Higgs2021MNRAS.503..176H
+  ellipticity: 0.09
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.06
+  position_angle: -58
+  position_angle_em: 21
+  position_angle_ep: 25
+  n_sersic: 0.7
+  n_sersic_em: 0.1
+  n_sersic_ep: 0.1
+  rad_sersic: 1.39
+  rad_sersic_em: 0.07
+  rad_sersic_ep: 0.07
+  ref_structure_sersic: Rhode2023arXiv230901045R
 table: dwarf_m31
 velocity:
   ref_vlos: Martin2014ApJ...793L..14M
