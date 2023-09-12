@@ -11,13 +11,13 @@ flux_HI:
   ref_flux_HI: Putman2021ApJ...913...53P
 key: lacerta_1
 location:
-  dec: 41.29111
-  ra: 344.56792
+  ra: 344.5509166666666
+  dec: 41.30619444444444
 m_v:
-  apparent_magnitude_v: 12.7
-  apparent_magnitude_v_em: 0.7
-  apparent_magnitude_v_ep: 0.7
-  ref_m_v: Martin2013ApJ...772...15M
+  apparent_magnitude_v: 13.15
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: Rhode2023arXiv230901045R
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.0
   metallicity_spectroscopic_em: 0.1
@@ -34,16 +34,16 @@ name_discovery:
   ref_discovery:
   - Martin2013ApJ...772...15M
 structure:
-  ellipticity: 0.43
-  ellipticity_em: 0.07
-  ellipticity_ep: 0.07
-  position_angle: -59.0
-  position_angle_em: 6.0
-  position_angle_ep: 6.0
-  ref_structure: Martin2013ApJ...772...15M
-  rhalf: 4.2
-  rhalf_em: 0.5
-  rhalf_ep: 0.4
+  ellipticity: 0.40
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: -63
+  position_angle_em: 1
+  position_angle_ep: 1
+  ref_structure: Rhode2023arXiv230901045R
+  rhalf: 3.13
+  rhalf_em: 0.05
+  rhalf_ep: 0.05
 table: dwarf_m31
 velocity:
   ref_vlos: Martin2014ApJ...793L..14M
@@ -53,3 +53,17 @@ velocity:
   vlos_systemic: -198.4
   vlos_systemic_em: 1.1
   vlos_systemic_ep: 1.1
+structure_sersic:
+  n_sersic: 0.83
+  n_sersic_em: 0.03
+  n_sersic_ep: 0.03
+  rad_sersic: 3.18
+  rad_sersic_em: 0.05
+  rad_sersic_ep: 0.05
+  ellipticity: 0.41
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: -64
+  position_angle_em: 1
+  position_angle_ep: 1
+  ref_structure_sersic: Rhode2023arXiv230901045R
