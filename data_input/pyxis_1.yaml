@@ -53,3 +53,8 @@ velocity:
   vlos_systemic: 40.46
   vlos_systemic_em: 0.21
   vlos_systemic_ep: 0.21
+age:
+  age: 11.5
+  age_em: 1.0
+  age_ep: 1.0
+  ref_age: Dotter2011ApJ...738...74D

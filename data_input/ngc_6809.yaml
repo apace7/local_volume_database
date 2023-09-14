@@ -42,3 +42,8 @@ velocity:
   vlos_systemic: 174.7
   vlos_systemic_em: 0.17
   vlos_systemic_ep: 0.17
+age:
+  age: 12.93
+  age_em: 0.51
+  age_ep: 0.51
+  ref_age: Kruijssen2019MNRAS.486.3180K

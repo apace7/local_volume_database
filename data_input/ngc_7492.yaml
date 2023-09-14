@@ -48,3 +48,8 @@ velocity:
   vlos_systemic: -176.7
   vlos_systemic_em: 0.27
   vlos_systemic_ep: 0.27
+age:
+  age: 12.0
+  age_em: 1.4
+  age_ep: 1.4
+  ref_age: Forbes2010MNRAS.404.1203F
