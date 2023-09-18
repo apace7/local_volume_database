@@ -72,9 +72,10 @@ structure_sersic:
 table: dwarf_mw
 velocity:
   ref_vlos: Jenkins2021ApJ...920...92J
-  vlos_sigma: 0.1
-  vlos_sigma_em: 0.1
-  vlos_sigma_ep: 1.5
+  # vlos_sigma: 0.1
+  # vlos_sigma_em: 0.1
+  # vlos_sigma_ep: 1.5
   vlos_systemic: 173.1
   vlos_systemic_em: 0.8
   vlos_systemic_ep: 1.0
+  vlos_sigma_ul: 4.7
