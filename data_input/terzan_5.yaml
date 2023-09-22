@@ -20,7 +20,12 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
-  name: Terzan_5_11
+  name: Terzan 5 
+  discovery_year: 1968
+  other_name:
+  - Terzan 11
+  ref_discovery:
+  - Terzan1968CRASB.267.1245T
 proper_motion:
   pmdec: -5.2433
   pmdec_em: 0.0661
