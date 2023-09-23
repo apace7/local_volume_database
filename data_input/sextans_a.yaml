@@ -32,6 +32,8 @@ name_discovery:
   - DDO 75
   ref_discovery:
   - Zwicky1942PhRv...61..489Z
+notes:
+- Loose NGC 3109 subgroup. MC12
 proper_motion:
   pmdec: -0.03
   pmdec_em: 0.05
