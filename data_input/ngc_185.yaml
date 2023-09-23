@@ -30,6 +30,8 @@ name_discovery:
   - UGC 396
   ref_discovery:
   - Herschel1789RSPT...79..212H
+notes:
+- Binary w/ NGC 147? MC12
 proper_motion:
   pmdec: 0.0058
   pmdec_em: 0.0147
