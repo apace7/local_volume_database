@@ -32,7 +32,7 @@ name_discovery:
   other_name:
   - DELVE J1415+3254
   ref_discovery:
-  - Smith2022arXiv220908242S
+  - Smith2023AJ....166...76S
   - Cerny2023ApJ...953....1C
 proper_motion:
   pmdec: -0.28
