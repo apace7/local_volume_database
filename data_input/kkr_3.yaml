@@ -33,6 +33,8 @@ name_discovery:
   ref_discovery:
   - Karachentseva1998A&AS..127..409K
   - Karachentseva1999A&AS..135..221K
+notes:
+- Member of the Canes Venatici I cloud MC12
 structure:
   ellipticity: 0.05
   ellipticity_em: 0.01
