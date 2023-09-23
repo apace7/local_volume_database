@@ -32,6 +32,8 @@ name_discovery:
   - Lavery1992AJ....103...81L
   - Lavery1990IAUC.5139....2L
   - Corwin1985sgcc.book.....C
+notes:
+- Isolated dSph; defines R_LG MC12
 structure:
   ellipticity: 0.48
   ellipticity_em: 0.03
