@@ -26,6 +26,10 @@ name_discovery:
   - Djorg 2
   - ESO 456-38
   - MWSC 2779
+  discovery_year: 1978
+  ref_discovery:
+  - Holmberg1978A&AS...34..285H
+  - Djorgovski1987ApJ...317L..13D
 proper_motion:
   pmdec: -2.9828
   pmdec_em: 0.0371

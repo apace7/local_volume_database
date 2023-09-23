@@ -21,6 +21,9 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 5694
+  discovery_year: 1784
+notes:
+- discovered in 1784 by Herschel
 proper_motion:
   pmdec: -1.1046
   pmdec_em: 0.029

@@ -24,6 +24,9 @@ name_discovery:
   other_name:
   - HP 4
   - Gcl 66.1
+  discovery_year: 1968
+  ref_discovery:
+  - Terzan1968CRASB.267.1245T
 proper_motion:
   pmdec: -3.711
   pmdec_em: 0.0481

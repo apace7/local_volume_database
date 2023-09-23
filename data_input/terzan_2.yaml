@@ -27,6 +27,9 @@ name_discovery:
   - MWSC 2600
   - Haute-Provence 3
   - BH 228
+  discovery_year: 1967
+  ref_discovery:
+  - Terzan1967CRASB.265..734T
 proper_motion:
   pmdec: -6.2626
   pmdec_em: 0.0382

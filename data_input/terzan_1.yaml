@@ -26,6 +26,9 @@ name_discovery:
   - ESO 455-23
   - Haute-Provence 2
   - MWSC 2635
+  discovery_year: 1966
+  ref_discovery:
+  - Terzan1966CRASB.263..221T
 proper_motion:
   pmdec: -4.8613
   pmdec_em: 0.0548

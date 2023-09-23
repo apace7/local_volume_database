@@ -21,6 +21,9 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: Palomar 14
+  discovery_year: 1960
+  ref_discovery:
+  - Arp1960PASP...72...48A
 proper_motion:
   pmdec: -0.4132
   pmdec_em: 0.0378

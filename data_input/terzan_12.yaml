@@ -24,6 +24,9 @@ name_discovery:
   other_name:
   - ESO 522-1
   - MWSC 2838
+  discovery_year: 1971
+  ref_discovery:
+  - Terzan1971A&A....12..477T
 proper_motion:
   pmdec: -3.0524
   pmdec_em: 0.0336

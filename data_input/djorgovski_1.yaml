@@ -23,6 +23,9 @@ name_discovery:
   name: Djorgobski 1
   other_name:
   - Djorg 1
+  discovery_year: 1987
+  ref_discovery:
+  - Djorgovski1987ApJ...317L..13D
 proper_motion:
   pmdec: -8.4678
   pmdec_em: 0.0411

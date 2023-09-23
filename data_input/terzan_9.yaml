@@ -24,6 +24,9 @@ name_discovery:
   other_name:
   - Gcl 80.1
   - MWSC 2778
+  discovery_year: 1971
+  ref_discovery:
+  - Terzan1971A&A....12..477T
 proper_motion:
   pmdec: -7.7633
   pmdec_em: 0.0485

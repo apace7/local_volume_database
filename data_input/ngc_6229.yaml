@@ -21,6 +21,9 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 6229
+  discovery_year: 1787
+notes:
+- discovered by Herschel in 1787
 proper_motion:
   pmdec: -0.4665
   pmdec_em: 0.0267

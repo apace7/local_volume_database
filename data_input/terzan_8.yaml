@@ -23,6 +23,9 @@ name_discovery:
   name: Terzan 8
   other_name:
   - ESO 398-SC 021
+  discovery_year: 1968
+  ref_discovery:
+  - Terzan1968CRASB.267.1245T
 proper_motion:
   pmdec: -1.5807
   pmdec_em: 0.026
