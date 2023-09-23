@@ -36,6 +36,8 @@ name_discovery:
   - UGCA 194
   ref_discovery:
   - Herschel1847raom.book.....H
+notes:
+- Loose NGC 3109 subgroup. Interacting with Antlia? MC12
 proper_motion:
   pmdec: -0.01
   pmdec_em: 0.03
