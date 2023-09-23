@@ -41,6 +41,8 @@ name_discovery:
   ref_discovery:
   - Cesarsky1977A&A....61L..31C
   - Longmore1978MNRAS.183P..97L
+notes:
+- Defines R_LG MC12
 proper_motion:
   pmdec: -0.37
   pmdec_em: 0.17
