@@ -35,6 +35,8 @@ name_discovery:
   - DDO 210
   ref_discovery:
   - vandenBergh1959PDDO....2..147V
+notes:
+- Defines R_LG MC12
 structure:
   ellipticity: 0.53
   ellipticity_em: 0.05
