@@ -34,6 +34,8 @@ name_discovery:
   ref_discovery:
   - Wolf1909AN....183..187W
   - Melotte1926MNRAS..86..636M
+notes:
+- Defines R_LG MC12
 proper_motion:
   pmdec: -0.07
   pmdec_em: 0.02
