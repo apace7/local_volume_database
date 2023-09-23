@@ -36,6 +36,8 @@ name_discovery:
   - ESO 351-G30
   ref_discovery:
   - Shapley1938BHarO.908....1S
+notes:
+- The prototypical dSph MC12
 proper_motion:
   pmdec: -0.158
   pmdec_em: 0.002
