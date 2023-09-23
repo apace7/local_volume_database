@@ -33,6 +33,8 @@ name_discovery:
   name: ESO 294-G010
   ref_discovery:
   - Lauberts1982euse.book.....L
+notes:
+- NGC 55 sub-group, forming "bridge" to Sculptor? MC12
 structure:
   ellipticity: 0.37
   position_angle: 57.0
