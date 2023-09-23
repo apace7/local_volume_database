@@ -37,6 +37,8 @@ name_discovery:
   ref_discovery:
   - Kopylov2008MNRAS.387L..45K
   - VorontsovVelyaminov1959VV....C......0V
+notes:
+- Defines R_LG MC12
 proper_motion:
   pmdec: -0.04
   pmdec_em: 0.09
