@@ -28,6 +28,8 @@ name_discovery:
   name: NGC 300
   ref_discovery:
   - Dunlop1828RSPT..118..113D
+notes:
+- NGC 55 sub-group, forming "bridge" to Sculptor? MC12
 structure:
   ellipticity: 0.83
   ellipticity_em: 0.01
