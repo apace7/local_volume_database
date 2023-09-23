@@ -30,6 +30,8 @@ name_discovery:
   - DDO 155
   ref_discovery:
   - Reaves1956AJ.....61...69R
+notes:
+- Gibson Reaves gave this galaxy his initials MC12
 structure:
   ellipticity: 0.2
   ellipticity_em: 0.05
