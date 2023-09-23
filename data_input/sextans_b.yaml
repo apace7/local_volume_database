@@ -29,6 +29,8 @@ name_discovery:
   - DDO 70
   ref_discovery:
   - Holmberg1958_hand
+notes:
+- Loose NGC 3109 subgroup. MC12
 proper_motion:
   pmdec: -0.28
   pmdec_em: 0.17
