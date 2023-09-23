@@ -33,6 +33,8 @@ name_discovery:
   - PGC071431
   ref_discovery:
   - Longmore1978MNRAS.183P..97L
+notes:
+- NGC 55 sub-group, forming "bridge" to Sculptor? MC12
 structure:
   ellipticity: 0.1
   ellipticity_em: 0.01
