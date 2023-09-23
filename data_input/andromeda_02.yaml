@@ -31,6 +31,8 @@ name_discovery:
   name: Andromeda II
   ref_discovery:
   - vandenBergh1972ApJ...171L..31V
+notes:
+- In Pisces MC12
 structure:
   ellipticity: 0.16
   ellipticity_em: 0.02
