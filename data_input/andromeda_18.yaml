@@ -31,6 +31,8 @@ name_discovery:
   name: Andromeda XVIII
   ref_discovery:
   - McConnachie2008ApJ...688.1009M
+notes:
+- Isolated dSph MC12
 structure:
   ellipticity: 0.44
   ellipticity_em: 0.12
