@@ -24,6 +24,8 @@ name_discovery:
   ref_discovery:
   - Henning2000AJ....119.2686H
   - Begum2005MNRAS.359L..53B
+notes:
+- Zone of obscuration. Binary with HIZSS 3A? MC12
 table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
