@@ -28,6 +28,8 @@ name_discovery:
   - Triangulum I
   ref_discovery:
   - Martin2009ApJ...705..758M
+notes:
+- M33 Satellite? In Pisces MC12
 structure:
   ellipticity: 0.61
   ellipticity_em: 0.14
