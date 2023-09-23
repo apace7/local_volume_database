@@ -31,6 +31,8 @@ name_discovery:
   name: Andromeda XIV
   ref_discovery:
   - Majewski2007ApJ...670L...9M
+notes:
+- Unbound to M31? In Pisces
 structure:
   ellipticity: 0.17
   ellipticity_em: 0.17
