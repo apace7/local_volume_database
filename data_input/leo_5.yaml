@@ -34,6 +34,8 @@ name_discovery:
   name: Leo V
   ref_discovery:
   - Belokurov2008ApJ...686L..83B
+notes:
+- Cluster? Binary w/ Leo IV? MC12
 proper_motion:
   pmdec: -0.391
   pmdec_em: 0.153
