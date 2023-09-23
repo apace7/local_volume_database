@@ -24,6 +24,9 @@ name_discovery:
   other_name:
   - ESO 521-16
   - MWSC 2793
+  discovery_year: 1971
+  ref_discovery:
+  - Terzan1971A&A....12..477T
 proper_motion:
   pmdec: -6.4384
   pmdec_em: 0.0358

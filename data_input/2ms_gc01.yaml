@@ -16,6 +16,9 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: 2MASS GC-01
+  discovery_year: 2000
+  ref_discovery:
+  - Hurt2000AJ....120.1876H
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 4.07

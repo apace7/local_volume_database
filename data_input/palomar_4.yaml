@@ -21,6 +21,9 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: Palomar 4
+  discovery_year: 1955
+  ref_discovery:
+  - Abell1955PASP...67..258A
 proper_motion:
   pmdec: -0.4761
   pmdec_em: 0.0409

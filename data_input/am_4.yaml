@@ -21,6 +21,9 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: AM 4
+  discovery_year: 1982
+  ref_discovery:
+  - Madore1982PASP...94...40M
 proper_motion:
   pmdec: -2.5119
   pmdec_em: 0.3441
