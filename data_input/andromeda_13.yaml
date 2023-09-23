@@ -28,6 +28,8 @@ name_discovery:
   - Pisces III
   ref_discovery:
   - Martin2006MNRAS.371.1983M
+notes:
+- In Pisces MC12
 structure:
   ellipticity: 0.61
   ellipticity_em: 0.2
