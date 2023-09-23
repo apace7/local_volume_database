@@ -28,6 +28,8 @@ name_discovery:
   - Pisces V
   ref_discovery:
   - Ibata2007ApJ...671.1591I
+notes:
+- In Pisces MC12
 structure:
   ellipticity: 0.29
   ellipticity_em: 0.08
