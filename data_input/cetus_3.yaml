@@ -25,7 +25,7 @@ name_discovery:
   host: MW
   name: Cetus III
   other_name:
-  - "HSC J0209 \u2212 0416"
+  - "HSC J0209-0416"
   ref_discovery:
   - Homma2018PASJ...70S..18H
 structure:
