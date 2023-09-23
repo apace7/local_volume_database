@@ -34,6 +34,8 @@ name_discovery:
   name: Leo IV
   ref_discovery:
   - Belokurov2007ApJ...654..897B
+notes:
+- Binary w/ Leo V? MC12
 proper_motion:
   pmdec: -0.279
   pmdec_em: 0.112
