@@ -35,9 +35,11 @@ name_discovery:
   other_name:
   - IC 4895
   - DDO 209
-  - "Barnard\u2019s Galaxy"
+  - "Barnard's Galaxy"
   ref_discovery:
   - Barnard1884AN....110..125B
+notes:
+- Polar ring morphology MC12
 proper_motion:
   pmdec: -0.07
   pmdec_em: 0.01
