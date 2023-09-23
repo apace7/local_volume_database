@@ -38,6 +38,8 @@ name_discovery:
   - PGC 28868
   ref_discovery:
   - Zwicky1942PhRv...61..489Z
+notes:
+- Defines R_LG MC12
 proper_motion:
   pmdec: -0.06
   pmdec_em: 0.08
