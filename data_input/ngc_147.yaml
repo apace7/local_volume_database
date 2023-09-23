@@ -33,7 +33,7 @@ name_discovery:
   ref_discovery:
   - Herschel1833RSPT..123..359H
 notes:
-- Binary w/ NGC 185? Tidal stream
+- Binary w/ NGC 185? Tidal stream MC12
 proper_motion:
   pmdec: 0.0378
   pmdec_em: 0.0146
