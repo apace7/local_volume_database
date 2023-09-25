@@ -2,7 +2,9 @@ distance:
   distance: 37.4
   distance_em: 0.4
   distance_ep: 0.4
-  distance_modulus: 17.86
+  distance_modulus: 17.864
+  distance_modulus_em: 0.023
+  distance_modulus_ep: 0.023
   ref_distance: Torrealba2018MNRAS.475.5085T
 flux_HI:
   flux_HI_ul: 0.72
