@@ -1,9 +1,15 @@
+age:
+  age: 12.0
+  age_em: 0.75
+  age_ep: 0.75
+  ref_age: Dotter2011ApJ...738...74D
 distance:
   distance: 18.891
   distance_em: 0.25
   distance_ep: 0.253
   distance_modulus: 16.381
   distance_modulus_em: 0.029
+  distance_modulus_ep: 0.029
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: ic_4499
 location:
@@ -38,8 +44,3 @@ velocity:
   vlos_systemic: 38.41
   vlos_systemic_em: 0.31
   vlos_systemic_ep: 0.31
-age:
-  age: 12.0
-  age_em: 0.75
-  age_ep: 0.75
-  ref_age: Dotter2011ApJ...738...74D

@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.36
   distance_modulus: 14.308
   distance_modulus_em: 0.105
+  distance_modulus_ep: 0.105
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: terzan_6
 location:
@@ -20,6 +21,7 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
+  discovery_year: 1968
   name: Terzan 6
   other_name:
   - HP 5
@@ -27,7 +29,6 @@ name_discovery:
   - Haute-Provence 5
   - BH 249
   - MWSC 2719
-  discovery_year: 1968
   ref_discovery:
   - Terzan1968CRASB.267.1245T
 proper_motion:

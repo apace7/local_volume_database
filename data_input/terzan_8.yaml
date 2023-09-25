@@ -1,9 +1,15 @@
+age:
+  age: 12.89
+  age_em: 0.43
+  age_ep: 0.43
+  ref_age: Kruijssen2019MNRAS.486.3180K
 distance:
   distance: 27.535
   distance_em: 0.415
   distance_ep: 0.421
   distance_modulus: 17.199
   distance_modulus_em: 0.033
+  distance_modulus_ep: 0.033
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: terzan_8
 location:
@@ -20,10 +26,10 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
+  discovery_year: 1968
   name: Terzan 8
   other_name:
   - ESO 398-SC 021
-  discovery_year: 1968
   ref_discovery:
   - Terzan1968CRASB.267.1245T
 proper_motion:
@@ -43,8 +49,3 @@ velocity:
   vlos_systemic: 148.43
   vlos_systemic_em: 0.17
   vlos_systemic_ep: 0.17
-age:
-  age: 12.89
-  age_em: 0.43
-  age_ep: 0.43
-  ref_age: Kruijssen2019MNRAS.486.3180K

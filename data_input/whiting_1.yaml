@@ -9,6 +9,7 @@ distance:
   distance_ep: 1.192
   distance_modulus: 17.428
   distance_modulus_em: 0.083
+  distance_modulus_ep: 0.083
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: whiting_1
 location:

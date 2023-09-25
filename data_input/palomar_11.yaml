@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.517
   distance_modulus: 15.734
   distance_modulus_em: 0.079
+  distance_modulus_ep: 0.079
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: palomar_11
 location:

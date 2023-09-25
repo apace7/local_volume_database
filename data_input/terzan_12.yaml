@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.4
   distance_modulus: 13.566
   distance_modulus_em: 0.161
+  distance_modulus_ep: 0.162
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: terzan_12
 location:
@@ -20,11 +21,11 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
+  discovery_year: 1971
   name: Terzan 12
   other_name:
   - ESO 522-1
   - MWSC 2838
-  discovery_year: 1971
   ref_discovery:
   - Terzan1971A&A....12..477T
 proper_motion:

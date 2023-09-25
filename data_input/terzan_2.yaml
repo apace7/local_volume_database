@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.332
   distance_modulus: 14.447
   distance_modulus_em: 0.091
+  distance_modulus_ep: 0.091
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: terzan_2
 location:
@@ -20,6 +21,7 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
+  discovery_year: 1967
   name: Terzan 2
   other_name:
   - HP 3
@@ -27,7 +29,6 @@ name_discovery:
   - MWSC 2600
   - Haute-Provence 3
   - BH 228
-  discovery_year: 1967
   ref_discovery:
   - Terzan1967CRASB.265..734T
 proper_motion:

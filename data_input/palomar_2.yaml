@@ -4,6 +4,7 @@ distance:
   distance_ep: 1.317
   distance_modulus: 17.089
   distance_modulus_em: 0.107
+  distance_modulus_ep: 0.107
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: palomar_2
 location:
@@ -20,8 +21,8 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
-  name: Palomar 2
   discovery_year: 1955
+  name: Palomar 2
   ref_discovery:
   - Abell1955PASP...67..258A
 proper_motion:

@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.353
   distance_modulus: 14.532
   distance_modulus_em: 0.093
+  distance_modulus_ep: 0.093
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: liller_1
 location:

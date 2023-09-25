@@ -1,9 +1,15 @@
+age:
+  age: 9.7
+  age_em: 0.84
+  age_ep: 0.84
+  ref_age: Kruijssen2019MNRAS.486.3180K
 distance:
   distance: 84.684
   distance_em: 2.838
   distance_ep: 2.936
   distance_modulus: 19.639
   distance_modulus_em: 0.074
+  distance_modulus_ep: 0.074
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: eridanus_1
 location:
@@ -49,8 +55,3 @@ velocity:
   vlos_systemic: -23.15
   vlos_systemic_em: 0.73
   vlos_systemic_ep: 0.73
-age:
-  age: 9.7
-  age_em: 0.84
-  age_ep: 0.84
-  ref_age: Kruijssen2019MNRAS.486.3180K

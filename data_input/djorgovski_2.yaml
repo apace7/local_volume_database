@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.178
   distance_modulus: 14.714
   distance_modulus_em: 0.044
+  distance_modulus_ep: 0.044
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: djorgovski_2
 location:
@@ -20,13 +21,13 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
+  discovery_year: 1978
   name: Djorgobski 2
   other_name:
   - ESO456
   - Djorg 2
   - ESO 456-38
   - MWSC 2779
-  discovery_year: 1978
   ref_discovery:
   - Holmberg1978A&AS...34..285H
   - Djorgovski1987ApJ...317L..13D

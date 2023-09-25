@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.682
   distance_modulus: 12.64
   distance_modulus_em: 0.4
+  distance_modulus_ep: 0.4
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: 2ms_gc01
 location:
@@ -15,8 +16,8 @@ m_v:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
-  name: 2MASS GC-01
   discovery_year: 2000
+  name: 2MASS GC-01
   ref_discovery:
   - Hurt2000AJ....120.1876H
 structure:

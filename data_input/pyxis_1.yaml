@@ -1,9 +1,15 @@
+age:
+  age: 11.5
+  age_em: 1.0
+  age_ep: 1.0
+  ref_age: Dotter2011ApJ...738...74D
 distance:
   distance: 36.526
   distance_em: 0.65
   distance_ep: 0.662
   distance_modulus: 17.813
   distance_modulus_em: 0.039
+  distance_modulus_ep: 0.039
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: pyxis_1
 location:
@@ -53,8 +59,3 @@ velocity:
   vlos_systemic: 40.46
   vlos_systemic_em: 0.21
   vlos_systemic_ep: 0.21
-age:
-  age: 11.5
-  age_em: 1.0
-  age_ep: 1.0
-  ref_age: Dotter2011ApJ...738...74D
