@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.15
   distance_modulus: 14.103
   distance_modulus_em: 0.049
+  distance_modulus_ep: 0.049
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: terzan_5
 location:
@@ -20,8 +21,8 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
-  name: Terzan 5 
   discovery_year: 1968
+  name: Terzan 5
   other_name:
   - Terzan 11
   ref_discovery:

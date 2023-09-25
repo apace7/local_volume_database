@@ -1,9 +1,15 @@
+age:
+  age: 10.2
+  age_em: 0.84
+  age_ep: 0.84
+  ref_age: Kruijssen2019MNRAS.486.3180K
 distance:
   distance: 101.391
   distance_em: 2.536
   distance_ep: 2.601
   distance_modulus: 20.03
   distance_modulus_em: 0.055
+  distance_modulus_ep: 0.055
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: palomar_4
 location:
@@ -20,8 +26,8 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
-  name: Palomar 4
   discovery_year: 1955
+  name: Palomar 4
   ref_discovery:
   - Abell1955PASP...67..258A
 proper_motion:
@@ -49,8 +55,3 @@ velocity:
   vlos_systemic: 72.4
   vlos_systemic_em: 0.24
   vlos_systemic_ep: 0.24
-age:
-  age: 10.2
-  age_em: 0.84
-  age_ep: 0.84
-  ref_age: Kruijssen2019MNRAS.486.3180K

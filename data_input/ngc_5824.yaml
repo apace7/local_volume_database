@@ -1,9 +1,15 @@
+age:
+  age: 12.8
+  age_em: 0.9
+  age_ep: 0.9
+  ref_age: Forbes2010MNRAS.404.1203F
 distance:
   distance: 31.713
   distance_em: 0.593
   distance_ep: 0.604
   distance_modulus: 17.506
   distance_modulus_em: 0.041
+  distance_modulus_ep: 0.041
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: ngc_5824
 location:
@@ -46,8 +52,3 @@ velocity:
   vlos_systemic: -25.24
   vlos_systemic_em: 0.52
   vlos_systemic_ep: 0.52
-age:
-  age: 12.8
-  age_em: 0.9
-  age_ep: 0.9
-  ref_age: Forbes2010MNRAS.404.1203F

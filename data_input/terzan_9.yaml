@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.356
   distance_modulus: 13.806
   distance_modulus_em: 0.129
+  distance_modulus_ep: 0.13
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: terzan_9
 location:
@@ -20,11 +21,11 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
+  discovery_year: 1971
   name: Terzan 9
   other_name:
   - Gcl 80.1
   - MWSC 2778
-  discovery_year: 1971
   ref_discovery:
   - Terzan1971A&A....12..477T
 proper_motion:

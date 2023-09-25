@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.7
   distance_modulus: 13.3
   distance_modulus_em: 0.3
+  distance_modulus_ep: 0.308
   ref_distance: Kurtev2008A&A...489..583K
 key: glimpse_02
 location:
@@ -20,11 +21,11 @@ metallicity_photometric:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
+  discovery_year: 2005
   name: Glimpse 2
   other_name:
   - GLIMPSE-C02
   - Mercer 3
-  discovery_year: 2005
   ref_discovery:
   - Mercer2005ApJ...635..560M
   - Kurtev2008A&A...489..583K

@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.5
   distance_modulus: 12.46
   distance_modulus_em: 0.38
+  distance_modulus_ep: 0.325
   ref_distance: Kobulnicky2005AJ....129..239K
 key: glimpse_01
 location:
@@ -15,10 +16,10 @@ m_v:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
+  discovery_year: 2005
   name: Glimpse 1
   other_name:
   - GLIMPSE-C01
-  discovery_year: 2005
   ref_discovery:
   - Kobulnicky2005AJ....129..239K
   - Mercer2005ApJ...635..560M

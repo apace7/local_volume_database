@@ -1,9 +1,15 @@
+age:
+  age: 10.9
+  age_em: 0.86
+  age_ep: 0.86
+  ref_age: Kruijssen2019MNRAS.486.3180K
 distance:
   distance: 21.941
   distance_em: 0.508
   distance_ep: 0.52
   distance_modulus: 16.706
   distance_modulus_em: 0.051
+  distance_modulus_ep: 0.051
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: palomar_5
 location:
@@ -40,8 +46,3 @@ velocity:
   vlos_systemic: -58.61
   vlos_systemic_em: 0.15
   vlos_systemic_ep: 0.15
-age:
-  age: 10.9
-  age_em: 0.86
-  age_ep: 0.86
-  ref_age: Kruijssen2019MNRAS.486.3180K

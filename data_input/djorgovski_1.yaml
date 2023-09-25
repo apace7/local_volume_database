@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.671
   distance_modulus: 14.974
   distance_modulus_em: 0.143
+  distance_modulus_ep: 0.143
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: djorgovski_1
 location:
@@ -20,10 +21,10 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
+  discovery_year: 1987
   name: Djorgobski 1
   other_name:
   - Djorg 1
-  discovery_year: 1987
   ref_discovery:
   - Djorgovski1987ApJ...317L..13D
 proper_motion:

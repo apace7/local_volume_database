@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.347
   distance_modulus: 14.951
   distance_modulus_em: 0.075
+  distance_modulus_ep: 0.076
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: ngc_6638
 location:

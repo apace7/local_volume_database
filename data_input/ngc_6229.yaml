@@ -4,6 +4,7 @@ distance:
   distance_ep: 0.475
   distance_modulus: 17.393
   distance_modulus_em: 0.034
+  distance_modulus_ep: 0.034
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: ngc_6229
 location:
@@ -20,8 +21,8 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
-  name: NGC 6229
   discovery_year: 1787
+  name: NGC 6229
 notes:
 - discovered by Herschel in 1787
 proper_motion:

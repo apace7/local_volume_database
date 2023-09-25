@@ -1,9 +1,15 @@
+age:
+  age: 12.22
+  age_em: 0.43
+  age_ep: 0.43
+  ref_age: Kruijssen2019MNRAS.486.3180K
 distance:
   distance: 7.419
   distance_em: 0.075
   distance_ep: 0.076
   distance_modulus: 14.352
   distance_modulus_em: 0.022
+  distance_modulus_ep: 0.022
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: ngc_6205
 location:
@@ -40,8 +46,3 @@ velocity:
   vlos_systemic: -244.9
   vlos_systemic_em: 0.3
   vlos_systemic_ep: 0.3
-age:
-  age: 12.22
-  age_em: 0.43
-  age_ep: 0.43
-  ref_age: Kruijssen2019MNRAS.486.3180K

@@ -1,9 +1,15 @@
+age:
+  age: 12.65
+  age_em: 0.71
+  age_ep: 0.71
+  ref_age: Kruijssen2019MNRAS.486.3180K
 distance:
   distance: 88.471
   distance_em: 2.371
   distance_ep: 2.437
   distance_modulus: 19.734
   distance_modulus_em: 0.059
+  distance_modulus_ep: 0.059
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: ngc_2419
 location:
@@ -20,10 +26,8 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
-  name: NGC 2419
   discovery_year: 1788
-  # ref_discovery:
-  # - Abell1955PASP...67..258A
+  name: NGC 2419
 notes:
 - discovered by W. Herschel in 1788
 proper_motion:
@@ -51,8 +55,3 @@ velocity:
   vlos_systemic: -21.1
   vlos_systemic_em: 0.31
   vlos_systemic_ep: 0.31
-age:
-  age: 12.65
-  age_em: 0.71
-  age_ep: 0.71
-  ref_age: Kruijssen2019MNRAS.486.3180K
