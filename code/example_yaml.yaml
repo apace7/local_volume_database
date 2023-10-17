@@ -1,19 +1,8 @@
 key: example_yaml
 table: misc
 location:
-  ra: 0
-  dec: 0
-distance:
-  distance_modulus: 0
-  distance_modulus_em: 0
-  distance_modulus_ep: 0
-  ## some files have distance, distance_em, and distance_ep.  These are old and the distance in the tables is computed from the distance modulus
-  ref_distance: ref
-m_v:
-  apparent_magnitude_v: 0
-  apparent_magnitude_v_em: 0
-  apparent_magnitude_v_ep: 0
-  ref_m_v: ref
+  ra: 0 # [deg]
+  dec: 0 # [deg]
 name_discovery:
   confirmed_dwarf: 0
   confirmed_star_cluster: 0
@@ -27,11 +16,35 @@ name_discovery:
   - list
 notes:
   - list
+structure:
+## the ellipticity, position_angle here are the version in the standard table
+  rhalf: 0 # [arcmin]
+  rhalf_em: 0
+  rhalf_ep: 0
+  ellipticity: 0
+  ellipticity_em: 0
+  ellipticity_ep: 0
+  ellipticity_ul: 0
+  position_angle: 0
+  position_angle_em: 0
+  position_angle_ep: 0
+  ref_structure: ref
+distance:
+  distance_modulus: 0 
+  distance_modulus_em: 0
+  distance_modulus_ep: 0
+  ## some files have distance, distance_em, and distance_ep.  These are old and the distance in the tables is computed from the distance modulus
+  ref_distance: ref
+m_v:
+  apparent_magnitude_v: 0
+  apparent_magnitude_v_em: 0
+  apparent_magnitude_v_ep: 0
+  ref_m_v: ref
 proper_motion:
-  pmra: 0
+  pmra: 0 # [mas/yr]
   pmra_em: 0
   pmra_ep: 0
-  pmdec: 0
+  pmdec: 0 # [mas/yr]
   pmdec_em: 0
   pmdec_ep: 0
   ref_proper_motion: ref
@@ -49,25 +62,12 @@ metallicity_photometric:
   metallicity_photometric_em: 0
   metallicity_photometric_ep: 0
   ref_metallicity_photometric: ref
-structure:
-## the ellipticity, position_angle here are the version in the standard table
-  rhalf: 0
-  rhalf_em: 0
-  rhalf_ep: 0
-  ellipticity: 0
-  ellipticity_em: 0
-  ellipticity_ep: 0
-  ellipticity_ul: 0
-  position_angle: 0
-  position_angle_em: 0
-  position_angle_ep: 0
-  ref_structure: ref
 structure_king:
 ## the ellipticity, position_angle here are not propagated to the standard table
-  rcore: 0
+  rcore: 0 # [arcmin]
   rcore_em: 0
   rcore_ep: 0
-  rking: 0
+  rking: 0 # [arcmin]
   rking_em: 0
   rking_ep: 0
   ellipticity: 0
@@ -83,7 +83,7 @@ structure_sersic:
   n_sersic: 0
   n_sersic_em: 0
   n_sersic_ep: 0
-  rad_sersic: 0
+  rad_sersic: 0 # [arcmin]
   rad_sersic_em: 0
   rad_sersic_ep: 0
   ellipticity: 0
@@ -95,27 +95,36 @@ structure_sersic:
   position_angle_ep: 0
   ref_structure_sersic: ref
 velocity:
-  vlos_systemic: 0
+  vlos_systemic: 0 # [km/s]
   vlos_systemic_em: 0
   vlos_systemic_ep: 0
-  vlos_sigma: 0
+  vlos_sigma: 0 # [km/s]
   vlos_sigma_em: 0
   vlos_sigma_ep: 0
   ref_vlos: ref 
 flux_HI:
-  flux_HI:  0
+  flux_HI:  0 # [Jy km/s ]
   flux_HI_em: 0
   flux_HI_ep: 0
   flux_HI_ul: 0
-  flux_HI_rotation_velocity: # not in standard table
-  flux_HI_rotation_velocity_em: 
-  flux_HI_rotation_velocity_ep: 
-  flux_HI_dispersion: # not in standard table
-  flux_HI_dispersion_em: 
-  flux_HI_dispersion_ep: 
+  # flux_HI_rotation_velocity: 0 # not in standard table
+  # flux_HI_rotation_velocity_em: 0
+  # flux_HI_rotation_velocity_ep: 0
+  # flux_HI_dispersion: 0 # not in standard table
+  # flux_HI_dispersion_em: 0
+  # flux_HI_dispersion_ep: 0
+  vlos_systemic_HI: 0 #[km/s]
+  vlos_systemic_HI_em: 0
+  vlos_systemic_HI_ep: 0
+  sigma_HI: 0 # [km/s] not in standard table
+  sigma_HI_em: 0
+  sigma_HI_ep: 0
+  vrot_HI: 0 # [km/s], not in standard table
+  vrot_HI_em: 0
+  vrot_HI_ep: 0
   ref_flux_HI: ref
 age:
-  age: 0
+  age: 0 ## [Gyr]
   age_em: 0
   age_ep: 0
   ref_age: ref
