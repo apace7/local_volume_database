@@ -1,3 +1,19 @@
+key: garro_2
+table: gc_disk
+location:
+  dec: -17.7
+  ra: 271.475
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 2022
+  host: MW
+  name: Garro 2
+  ref_discovery:
+  - Garro2022A&A...662A..95G
+notes:
+- MV errors are from M_Ks Garro2022A&A...662A..95G
+- rhalf computed from rc and rt Garro2022A&A...662A..95G
 age:
   age: 12.0
   age_em: 2.0
@@ -11,10 +27,6 @@ distance:
   distance_modulus_em: 0.31
   distance_modulus_ep: 0.31
   ref_distance: Garro2022A&A...662A..95G
-key: garro_2
-location:
-  dec: -17.7
-  ra: 271.475
 m_v:
   apparent_magnitude_v: 8.3
   apparent_magnitude_v_em: 1.23
@@ -29,14 +41,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -1.3
   metallicity_spectroscopic_em: 0.2
   ref_metallicity_spectroscopic: Garro2022A&A...662A..95G
-name_discovery:
-  confirmed_real: 0
-  confirmed_star_cluster: 0
-  discovery_year: 2022
-  host: MW
-  name: Garro 2
-  ref_discovery:
-  - Garro2022A&A...662A..95G
 proper_motion:
   pmdec: -6.15
   pmdec_em: 0.75
@@ -58,4 +62,4 @@ structure_king:
   rking: 7.13
   rking_em: 3.83
   rking_ep: 3.83
-table: gc_disk
+
