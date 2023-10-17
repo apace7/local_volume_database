@@ -15,7 +15,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -1.83
   metallicity_spectroscopic_em: 0.04
   metallicity_spectroscopic_ep: 0.03
-  ref_metallicity_spectroscopic: Pace2023arXiv230406904P
+  ref_metallicity_spectroscopic: Pace2023MNRAS.526.1075P
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -33,9 +33,9 @@ proper_motion:
   pmra: -3.74
   pmra_em: 0.03
   pmra_ep: 0.03
-  ref_proper_motion: Pace2023arXiv230406904P
+  ref_proper_motion: Pace2023MNRAS.526.1075P
 structure:
-  ref_structure: Pace2023arXiv230406904P
+  ref_structure: Pace2023MNRAS.526.1075P
   rhalf: 1.7
   rhalf_em: 0.2
   rhalf_ep: 0.2
@@ -43,10 +43,10 @@ structure_king:
   rcore: 1.1
   rcore_em: 0.2
   rcore_ep: 0.3
-  ref_structure_king: Pace2023arXiv230406904P
+  ref_structure_king: Pace2023MNRAS.526.1075P
 table: gc_disk
 velocity:
-  ref_vlos: Pace2023arXiv230406904P
+  ref_vlos: Pace2023MNRAS.526.1075P
   vlos_sigma: 1.9
   vlos_sigma_em: 0.3
   vlos_sigma_ep: 0.3
