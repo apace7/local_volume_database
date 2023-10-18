@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import astropy.table as table
 
 from astropy import units as u
+import astropy.coordinates as coord
 
 from collections import Counter
 
@@ -126,6 +127,11 @@ def value_add(input_table, table_type='dwarf'):
             input_table['metallicity_em'][i] = input_table['metallicity_photometric_em'][i]
             input_table['metallicity_ep'][i] = input_table['metallicity_photometric_ep'][i]
             input_table['metallicity_type'][i] = 'photometric'
+    
+    c_table_input = coord.SkyCoord(ra=input_table['ra']*u.deg, dec=input_table['dec']*u.deg,  frame='icrs',)
+    input_table['ll'] = c_table_input.galactic.l.value
+    input_table['bb'] = c_table_input.galactic.b.value
+    
     return input_table
 
 
