@@ -1,0 +1,26 @@
+key: des_j0225+0304
+table: candidate
+location:
+  ra: 36.4266700 # [deg]
+  dec: 3.0694700 # [deg]
+name_discovery:
+  false_positive: 1
+  discovery_year: 2016
+  host: MW
+  name: DES J0225+0304
+  ref_discovery:
+  - Luque2017MNRAS.468...97L
+notes:
+  - previously internally referred to as des_sag_2 
+  - false positive based on the lack of detection in DES year 3 search DrlicaWagner2020ApJ...893...47D
+  - false positive based on the the lack of an expected Gaia DR2 proper motion search Pace2019ApJ...875...77P + McConnachie2020AJ....160..124M
+  - on the name in the discovery paper "DES J0225+0304 will be named Cetus III if found to be a dwarf galaxy". This name is not included in the other_name column as there is another dwarf galaxy now known as Cetus III. 
+structure:
+  rhalf: 2.68 # [arcmin]
+  ref_structure: Luque2017MNRAS.468...97L
+distance:
+  distance_modulus: 16.88
+  ref_distance: Luque2017MNRAS.468...97L
+m_v:
+  apparent_magnitude_v: 15.78
+  ref_m_v: Luque2017MNRAS.468...97L

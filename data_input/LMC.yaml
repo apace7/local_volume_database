@@ -1,5 +1,5 @@
 key: LMC
-table: misc
+table: dwarf_mw
 location:
   dec: -69.7561
   ra: 80.894
@@ -21,6 +21,17 @@ name_discovery:
   name: Large Magellanic Cloud
   other_name:
   - Nubecula Major
+structure:
+  rhalf: 192.9 
+  rhalf_em: 0.2
+  rhalf_ep: 0.2
+  ellipticity: 0.164
+  ellipticity_em: 0.001
+  ellipticity_ep: 0.001
+  position_angle: 227.24
+  position_angle_em: 0.178
+  position_angle_ep: 0.188
+  ref_structure: Choi2018ApJ...869..125C
 proper_motion:
   pmdec: 0.229
   pmdec_em: 0.047

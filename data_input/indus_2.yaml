@@ -1,0 +1,25 @@
+key: indus_2
+table: candidate
+location:
+  ra: 309.72 # [deg]
+  dec: -46.16 # [deg]
+name_discovery:
+  discovery_year: 2015
+  false_positive: 1
+  host: MW
+  name: Indus II
+  other_name:
+  - DES J2038-4609
+  ref_discovery:
+  - DrlicaWagner2015ApJ...813..109D
+notes:
+  - false positive based on deep Magellan/Megacam photometry Cantu2021ApJ...916...81C
+structure:
+  rhalf: 2.9 # [arcmin]
+  ref_structure: DrlicaWagner2015ApJ...813..109D
+distance:
+  distance_modulus: 21.65 
+  ref_distance: DrlicaWagner2015ApJ...813..109D
+m_v:
+  apparent_magnitude_v: 16.35
+  ref_m_v: DrlicaWagner2015ApJ...813..109D

@@ -1,0 +1,23 @@
+key: sdss_j1329+2841
+table: candidate
+location:
+  ra: 202.30416666666662  # [deg]
+  dec: 28.690833333333334 # [deg]
+name_discovery:
+  discovery_year: 2008
+  false_positive: 1
+  host: MW
+  name: SDSS J1329+2841
+  ref_discovery:
+  - Liu2008A&A...477..139L
+notes:
+  - lack of detection in DES year 3/Pan-starrs DR1 search DrlicaWagner2020ApJ...893...47D
+structure:
+  rhalf: 8.8 # [arcmin]
+  ref_structure: Liu2008A&A...477..139L
+distance:
+  distance_modulus: 21.65 
+  ref_distance: Liu2008A&A...477..139L
+m_v:
+  apparent_magnitude_v: 15.48
+  ref_m_v: Liu2008A&A...477..139L
