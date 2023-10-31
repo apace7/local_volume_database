@@ -26,6 +26,8 @@ name_discovery:
   name: VVV CL0001
   ref_discovery:
   - Minniti2011A&A...527A..81M
+  other_name:
+  - VVV GC001
 proper_motion:
   pmdec: -1.6523
   pmdec_em: 0.1075

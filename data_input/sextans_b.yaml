@@ -9,6 +9,13 @@ flux_HI:
   flux_HI_em: 2.09
   flux_HI_ep: 2.09
   ref_flux_HI: Putman2021ApJ...913...53P
+  vlos_systemic_HI: 304.0 #[km/s]
+  vlos_systemic_HI_em: 1.0
+  vlos_systemic_HI_ep: 1.0
+  sigma_HI: 19.2 
+  vrot_HI: 19.1 
+  ref_flux_HI: Putman2021ApJ...913...53P
+  ref_HI_kinematics: Hoffman1996ApJS..105..269H 
 key: sextans_b
 location:
   dec: 5.332222222
@@ -30,7 +37,7 @@ name_discovery:
   ref_discovery:
   - Holmberg1958_hand
 notes:
-- Loose NGC 3109 subgroup. MC12
+- Loose NGC 3109 subgroup. McConnachie2012AJ....144....4M
 proper_motion:
   pmdec: -0.28
   pmdec_em: 0.17

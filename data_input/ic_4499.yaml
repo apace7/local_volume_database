@@ -1,3 +1,7 @@
+key: ic_4499
+location:
+  dec: -82.213792
+  ra: 225.077188
 age:
   age: 12.0
   age_em: 0.75
@@ -11,18 +15,16 @@ distance:
   distance_modulus_em: 0.029
   distance_modulus_ep: 0.029
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ic_4499
-location:
-  dec: -82.213792
-  ra: 225.077188
 m_v:
   apparent_magnitude_v: 9.13
   apparent_magnitude_v_em: 0.05
   apparent_magnitude_v_ep: 0.05
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.53
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+  metallicity_spectroscopic: -1.52
+  metallicity_spectroscopic: 0.12
+  metallicity_spectroscopic: 0.12
+  ref_metallicity_spectroscopic: Hankey2011MNRAS.411.1536H
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1

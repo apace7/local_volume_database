@@ -1,0 +1,17 @@
+key: candidate_y
+table: candidate
+location:
+  ra:  168.146   # [deg]
+  dec: 43.440 # [deg]
+name_discovery:
+  discovery_year: 2007
+  false_positive: 1
+  host: MW
+  name: Candidate Y
+  other_name:
+  - Object Y
+  ref_discovery:
+  - Koposov2008ApJ...686..279K
+notes:
+  - Partially recovered in Martin2008ApJ...684.1075M
+
