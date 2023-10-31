@@ -1,3 +1,8 @@
+key: bh_261
+table: gc_harris
+location:
+  dec: -28.635
+  ra: 273.5275
 distance:
   distance: 6.115
   distance_em: 0.253
@@ -6,18 +11,17 @@ distance:
   distance_modulus_em: 0.092
   distance_modulus_ep: 0.092
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: bh_261
-location:
-  dec: -28.635
-  ra: 273.5275
 m_v:
   apparent_magnitude_v: 10.15
   apparent_magnitude_v_em: 0.04
   apparent_magnitude_v_ep: 0.04
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.3
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+  metallicity_spectroscopic: -1.07
+  metallicity_spectroscopic_em: 0.10
+  metallicity_spectroscopic_ep: 0.11
+  metallicity_spectroscopic_sigma_ul: 0.38
+  ref_metallicity_spectroscopic: Kunder2023arXiv231018575K
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -37,9 +41,11 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.65
-table: gc_harris
 velocity:
-  ref_vlos: Baumgardt2018MNRAS.478.1520B
-  vlos_systemic: -45.0
-  vlos_systemic_em: 15.0
-  vlos_systemic_ep: 15.0
+  ref_vlos: Kunder2023arXiv231018575K
+  vlos_systemic: -61
+  vlos_systemic_em: 2.6
+  vlos_systemic_ep: 2.6
+  vlos_sigma: 6.1 # [km/s]
+  vlos_sigma_em: 1.9
+  vlos_sigma_ep: 1.9
