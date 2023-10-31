@@ -8,7 +8,17 @@ flux_HI:
   flux_HI: 159.37
   flux_HI_em: 12.42
   flux_HI_ep: 12.42
+  vlos_systemic_HI: 324.0 #[km/s]
+  vlos_systemic_HI_em: 2.0
+  vlos_systemic_HI_ep: 2.0
+  sigma_HI: 8 
+  sigma_HI_em: 1
+  sigma_HI_ep: 1
+  vrot_HI: 20 
+  vrot_HI_em: 2
+  vrot_HI_ep: 2
   ref_flux_HI: Putman2021ApJ...913...53P
+  ref_HI_kinematics: Skillman1988A&A...198...33S
 key: sextans_a
 location:
   dec: -4.692777778
