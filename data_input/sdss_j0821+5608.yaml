@@ -1,0 +1,23 @@
+key: sdss_j0821+5608
+table: candidate
+location:
+  ra: 125.31249999999997  # [deg]
+  dec: 56.13777777777778 # [deg]
+name_discovery:
+  discovery_year: 2008
+  false_positive: 1
+  host: MW
+  name: SDSS J0821+5608
+  ref_discovery:
+  - Liu2008A&A...477..139LD
+notes:
+  - lack of detection in DES year 3/Pan-starrs DR1 search DrlicaWagner2020ApJ...893...47D
+structure:
+  rhalf: 4.3 # [arcmin]
+  ref_structure: Liu2008A&A...477..139LD
+distance:
+  distance_modulus: 21.65 
+  ref_distance: Liu2008A&A...477..139LD
+m_v:
+  apparent_magnitude_v: 14.28
+  ref_m_v: Liu2008A&A...477..139LD
