@@ -46,11 +46,14 @@ print(len(col_name_gc), len(col_type_gc))
 comb_gc_ufsc = table.Table(np.zeros((Counter(table_list)['gc_ufsc'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 comb_gc_harris = table.Table(np.zeros((Counter(table_list)['gc_harris'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 comb_gc_disk = table.Table(np.zeros((Counter(table_list)['gc_disk'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
+comb_gc_dwarf = table.Table(np.zeros((Counter(table_list)['gc_dwarf_hosted'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
+
 ## add all the columns.  The columns are masked for missing entries 
 for i,j in zip(col_name_gc, col_type_gc):
     comb_gc_ufsc[i] = np.ma.masked_all(len(comb_gc_ufsc), dtype=j)
     comb_gc_harris[i] = np.ma.masked_all(len(comb_gc_harris), dtype=j)
     comb_gc_disk[i] = np.ma.masked_all(len(comb_gc_disk), dtype=j)
+    comb_gc_dwarf[i] = np.ma.masked_all(len(comb_gc_dwarf), dtype=j)
 
 ## create dwarf tables
 comb_dwarf_mw = table.Table(np.zeros((Counter(table_list)['dwarf_mw'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
@@ -144,6 +147,7 @@ place_dwarf_local_field = 0
 place_gc_harris = 0
 place_gc_disk = 0
 place_gc_ufsc =0 
+place_gc_dwarf =0 
 ## this add each galaxy/star cluster to the tables. 
 for i in range(len(dir_list)):
     with open(path+ dir_list[i], 'r') as stream:
@@ -166,6 +170,9 @@ for i in range(len(dir_list)):
         elif stream_yaml['table'] == 'gc_ufsc':
             miss = add_to_table(stream_yaml, comb_gc_ufsc, place_gc_ufsc)
             place_gc_ufsc+=1 
+        elif stream_yaml['table'] == 'gc_dwarf_hosted':
+            miss = add_to_table(stream_yaml, comb_gc_dwarf, place_gc_dwarf)
+            place_gc_dwarf+=1 
         else:
             missing_table.append(stream_yaml['table'])
             missing_table_key.append(stream_yaml['key'])
@@ -181,6 +188,7 @@ print("objects missing (key)", Counter(missing_table_key))
 comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='gc')
 comb_gc_harris = value_add(comb_gc_harris, table_type='gc')
 comb_gc_disk = value_add(comb_gc_disk, table_type='gc')
+comb_gc_disk = value_add(comb_gc_dwarf, table_type='gc')
 
 comb_dwarf_mw = value_add(comb_dwarf_mw, table_type='dwarf')
 comb_dwarf_m31 = value_add(comb_dwarf_m31, table_type='dwarf')
@@ -194,6 +202,7 @@ comb_dwarf_lf.write('data/dwarf_local_field.csv', format='csv',overwrite=True)
 comb_gc_disk.write('data/gc_disk.csv', format='csv',overwrite=True)
 comb_gc_harris.write('data/gc_harris.csv', format='csv',overwrite=True)
 comb_gc_ufsc.write('data/gc_ufsc.csv', format='csv',overwrite=True)
+comb_gc_dwarf.write('data/gc_dwarf_hosted.csv', format='csv',overwrite=True)
 
 # comb_gc_ufsc.write('data/gc_ufsc.dat', format='ascii', overwrite=True)
 # comb_gc_ufsc.write('data/gc_ufsc.mrt', format='ascii.mrt', overwrite=True)
@@ -205,6 +214,7 @@ comb_dwarf_lf.write('data/dwarf_local_field.fits', format='fits', overwrite=True
 comb_gc_disk.write('data/gc_disk.fits', format='fits', overwrite=True)
 comb_gc_harris.write('data/gc_harris.fits', format='fits', overwrite=True)
 comb_gc_ufsc.write('data/gc_ufsc.fits', format='fits', overwrite=True)
+comb_gc_dwarf.write('data/gc_dwarf_hosted.fits', format='fits', overwrite=True)
 
 comb_dwarf = table.vstack([comb_dwarf_mw, comb_dwarf_m31, comb_dwarf_lf])
 comb_dwarf.write('data/dwarf_all.csv', format='csv', overwrite=True)

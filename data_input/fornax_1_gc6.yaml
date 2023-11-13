@@ -1,0 +1,62 @@
+key: fornax_1_gc6
+table: gc_dwarf_hosted
+location:
+  ra: 40.02875
+  dec: -34.422
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 1938
+  host: fornax_1
+  name: Fornax 6
+  ref_discovery:
+  - Shapley1938BHarO.908....1S
+  - Wang2019ApJ...875L..13W
+notes:
+- distance is assumed to be the distance to Fornax dSph
+structure:
+  rhalf: 0.28
+  rhalf_em: 0.033
+  rhalf_ep: 0.033
+  ellipticity: 0.41
+  ellipticity_em: 0.1
+  ellipticity_ep: 0.1
+  position_angle: 13.1
+  position_angle_em: 7.3
+  position_angle_ep: 10.4
+  ref_structure: Wang2019ApJ...875L..13W
+distance:
+  distance_modulus: 20.77
+  distance_modulus_em: 0.048
+  distance_modulus_ep: 0.048
+  # ref_distance: Oakes2022ApJ...929..116O
+m_v:
+  apparent_magnitude_v: 16.037
+  apparent_magnitude_v_em: 0.4
+  apparent_magnitude_v_ep: 0.4
+  ref_m_v: Wang2019ApJ...875L..13W
+proper_motion:
+  pmra: 0.392
+  pmra_em: 0.026
+  pmra_ep: 0.026
+  pmdec: -0.448
+  pmdec_em: 0.042
+  pmdec_ep: 0.042
+  ref_proper_motion: Pace2021ApJ...923...77P
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.7
+  metallicity_spectroscopic_em: 0.05
+  metallicity_spectroscopic_ep: 0.05
+  metallicity_spectroscopic_sigma: 0.03
+  metallicity_spectroscopic_sigma_em: 0.02
+  metallicity_spectroscopic_sigma_ep: 0.06
+  metallicity_spectroscopic_sigma_ul: 0.17
+  ref_metallicity_spectroscopic: Pace2021ApJ...923...77P
+velocity:
+  vlos_systemic: 50.5
+  vlos_systemic_em: 1.7
+  vlos_systemic_ep: 1.7
+  vlos_sigma: 5.6
+  vlos_sigma_em: 1.8
+  vlos_sigma_ep: 2
+  ref_vlos: Pace2021ApJ...923...77P

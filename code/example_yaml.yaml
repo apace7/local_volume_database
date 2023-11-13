@@ -95,6 +95,22 @@ structure_sersic:
   position_angle_em: 0
   position_angle_ep: 0
   ref_structure_sersic: ref
+structure_eff:
+## not included in standard table
+  gamma_eff: 0
+  gamma_eff_em: 0
+  gamma_eff_ep: 0
+  rad_eff: 0 # [arcmin]
+  rad_eff_em: 0
+  rad_eff_ep: 0
+  ellipticity: 0
+  ellipticity_em: 0
+  ellipticity_ep: 0
+  ellipticity_ul: 0
+  position_angle: 0
+  position_angle_em: 0
+  position_angle_ep: 0
+  ref_structure_eff: ref
 velocity:
   vlos_systemic: 0 # [km/s]
   vlos_systemic_em: 0
@@ -102,7 +118,7 @@ velocity:
   vlos_sigma: 0 # [km/s]
   vlos_sigma_em: 0
   vlos_sigma_ep: 0
-  vlos_sigma_central: 6
+  vlos_sigma_central: 0
   vlos_sigma_central_em: 0
   vlos_sigma_central_ep: 0
   ref_vlos: ref 
