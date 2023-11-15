@@ -188,7 +188,7 @@ print("objects missing (key)", Counter(missing_table_key))
 comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='gc')
 comb_gc_harris = value_add(comb_gc_harris, table_type='gc')
 comb_gc_disk = value_add(comb_gc_disk, table_type='gc')
-comb_gc_disk = value_add(comb_gc_dwarf, table_type='gc')
+comb_gc_dwarf = value_add(comb_gc_dwarf, table_type='gc')
 
 comb_dwarf_mw = value_add(comb_dwarf_mw, table_type='dwarf')
 comb_dwarf_m31 = value_add(comb_dwarf_m31, table_type='dwarf')
