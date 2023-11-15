@@ -1,3 +1,8 @@
+key: pegasus_1
+table: dwarf_local_field
+location:
+  dec: 14.74305556
+  ra: 352.15125
 distance:
   distance: 887.2
   distance_em: 20.0
@@ -11,10 +16,6 @@ flux_HI:
   flux_HI_em: 2.01
   flux_HI_ep: 2.01
   ref_flux_HI: Putman2021ApJ...913...53P
-key: pegasus_1
-location:
-  dec: 14.74305556
-  ra: 352.15125
 m_v:
   apparent_magnitude_v: 12.6
   apparent_magnitude_v_em: 0.2
@@ -64,7 +65,6 @@ structure_sersic:
   rad_sersic_em: 0.05
   rad_sersic_ep: 0.05
   ref_structure_sersic: Higgs2021MNRAS.503..176H
-table: dwarf_local_field
 velocity:
   ref_vlos: Kirby2014MNRAS.439.1015K
   vlos_sigma: 12.3

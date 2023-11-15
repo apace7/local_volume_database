@@ -1,0 +1,57 @@
+key: pegasus_1_gc1
+table: gc_dwarf_hosted
+location:
+  ra: 352.109583
+  dec: 14.74033
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 1982
+  host: pegasus_1
+  name: DDO 216-A1
+  # other_name:
+  # - list
+  ref_discovery:
+  - Hoessel1982ApJ...254...38H
+  - Cole2017ApJ...837...54C
+notes:
+- for vlos_systemic we have assumed delta V = 3 + error (added in quadrature) relative to the galaxy  (Leaman2020MNRAS.492.5102L) We used V_gal from Kirby2014MNRAS.439.1015K matching the vlos_systemic which is different (likely velocity zeropoint) than Leaman2020MNRAS.492.5102L 
+structure:
+  rhalf: 0.05167
+  ref_structure: Cole2017ApJ...837...54C
+distance:
+  distance_modulus: 24.77
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Cole2017ApJ...837...54C
+m_v:
+  apparent_magnitude_v: 17.63
+  apparent_magnitude_v_em: 0.16
+  apparent_magnitude_v_ep: 0.16
+  ref_m_v: Cole2017ApJ...837...54C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.79
+  metallicity_spectroscopic_em: 0.04
+  metallicity_spectroscopic_ep: 0.04
+  ref_metallicity_spectroscopic: Leaman2020MNRAS.492.5102L
+metallicity_photometric:
+  metallicity_photometric: -1.6
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: Cole2017ApJ...837...54C
+structure_king:
+  rcore: 0.035
+  rcore_em: 0.015
+  rcore_ep: 0.015
+  rking: 0.61
+  ref_structure_king: Cole2017ApJ...837...54C
+velocity:
+  vlos_systemic: -176.5
+  vlos_systemic_em: 9.5
+  vlos_systemic_ep: 9.5
+  ref_vlos: Leaman2020MNRAS.492.5102L
+age:
+  age: 12.3
+  age_em: 0.8
+  age_ep: 0.8
+  ref_age: Cole2017ApJ...837...54C
