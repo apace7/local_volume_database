@@ -1,3 +1,8 @@
+key: segue_3
+table: gc_ufsc
+location:
+  dec: 19.1176944
+  ra: 320.37925
 age:
   age: 12.0
   age_em: 0.4
@@ -11,10 +16,6 @@ distance:
   distance_modulus_em: 0.09
   distance_modulus_ep: 0.09
   ref_distance: Fadely2011AJ....142...88F
-key: segue_3
-location:
-  dec: 19.1176944
-  ra: 320.37925
 m_v:
   apparent_magnitude_v: 16.08
   apparent_magnitude_v_em: 0.78
@@ -68,9 +69,9 @@ structure_sersic:
   rad_sersic_em: 0.09
   rad_sersic_ep: 0.09
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_ufsc
 velocity:
   ref_vlos: Fadely2011AJ....142...88F
   vlos_sigma: 1.2
   vlos_sigma_em: 2.6
+  vlos_sigma_ep: 2.6
   vlos_systemic: -167.0
