@@ -2,7 +2,7 @@ key: sextans_a_gc1
 table: gc_dwarf_hosted
 location:
   ra: 152.6825
-  dec: 4.72467
+  dec: -4.72467
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1

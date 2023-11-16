@@ -9,8 +9,8 @@ name_discovery:
   discovery_year: 2009
   host: scl-dE1
   name: Scl-dE1 GC1
-  other_name:
-  - list
+  # other_name:
+  # - list
   ref_discovery:
   - DaCosta2009AJ....137.4361D
 notes:
