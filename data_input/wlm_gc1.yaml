@@ -1,0 +1,64 @@
+key: wlm_gc1
+table: gc_dwarf_hosted
+location:
+  ra: 0.4561666666666666 
+  dec: -15.458527777777777
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 1956
+  host: wlm
+  name: WLM GC 1
+  other_name:
+  - WLM 1
+  ref_discovery:
+  - Humason1956AJ.....61...97H
+notes:
+- ellipticity measurement from Stephens2006AJ....131.1426S
+structure:
+  rhalf: 0.051
+  rhalf_em: 0.004
+  rhalf_ep: 0.004
+  ellipticity: 0.172
+  ellipticity_em: 0.039
+  ellipticity_ep: 0.039
+  ref_structure: Hodge1999ApJ...521..577H
+distance:
+  distance_modulus: 24.73
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Hodge1999ApJ...521..577H
+m_v:
+  apparent_magnitude_v: 15.99
+  ref_m_v: Stephens2006AJ....131.1426S
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.96
+  metallicity_spectroscopic_em: 0.08
+  metallicity_spectroscopic_ep: 0.08
+  ref_metallicity_spectroscopic: Larsen2014A&A...565A..98L
+metallicity_photometric:
+  metallicity_photometric: -1.52
+  metallicity_photometric_em: 0.08
+  metallicity_photometric_ep: 0.08
+  ref_metallicity_photometric: Hodge1999ApJ...521..577H
+structure_king:
+  rcore: 0.0182
+  rcore_em: 0.0023
+  rcore_ep: 0
+  rking: 0.5167
+  rking_em: 0.25
+  rking_ep: 0.25
+  ref_structure_king: Hodge1999ApJ...521..577H
+velocity:
+  vlos_systemic: -105.8
+  vlos_systemic_em: 0.4
+  vlos_systemic_ep: 0.4
+  vlos_sigma_central: 9.1
+  vlos_sigma_central_em: 5.8
+  vlos_sigma_central_ep: 16.3
+  ref_vlos: Stephens2006AJ....131.1426S
+age:
+  age: 14.8
+  age_em: 0.6
+  age_ep: 0.6
+  ref_age: Hodge1999ApJ...521..577H
