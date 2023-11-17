@@ -1,0 +1,37 @@
+key: andromeda_1_gc1
+table: gc_dwarf_hosted
+location:
+  ra: 11.42881
+  dec: 38.03162
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2000
+  host: andromeda_01
+  name: And I-GC1
+  ref_discovery:
+  - Grebel2000AGM....17..P61G
+  - Caldwell2017PASA...34...39C
+notes:
+- apparent_magnitude_v errors from Vera mag Caldwell2017PASA...34...39C
+- distance modulus assumed to be andromeda_01 distance modulus
+structure:
+  rhalf: 0.019
+  rhalf_em: 0.002
+  rhalf_ep: 0.002
+  ref_structure: Caldwell2017PASA...34...39C
+distance:
+  distance_modulus: 24.45
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Savino2022ApJ...938..101S
+m_v:
+  apparent_magnitude_v: 20.1
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Caldwell2017PASA...34...39C
+metallicity_photometric:
+  metallicity_photometric: -1.5
+  metallicity_photometric_em: 0.4
+  metallicity_photometric_ep: 0.4
+  ref_metallicity_photometric: Caldwell2017PASA...34...39C

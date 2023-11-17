@@ -1,7 +1,9 @@
+key: andromeda_25
+table: dwarf_m31
+location:
+  dec: 46.86139
+  ra: 7.54125
 distance:
-  distance: 751.6
-  distance_em: 21.0
-  distance_ep: 25.0
   distance_modulus: 24.38
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.07
@@ -9,10 +11,6 @@ distance:
 flux_HI:
   flux_HI_ul: 1.86
   ref_flux_HI: Putman2021ApJ...913...53P
-key: andromeda_25
-location:
-  dec: 46.86139
-  ra: 7.54125
 m_v:
   apparent_magnitude_v: 15.3
   apparent_magnitude_v_em: 0.2
@@ -42,7 +40,6 @@ structure:
   rhalf: 2.7
   rhalf_em: 0.2
   rhalf_ep: 0.4
-table: dwarf_m31
 velocity:
   ref_vlos: Charles2023MNRAS.521.3527C
   vlos_sigma: 3.7
