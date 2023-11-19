@@ -1,0 +1,31 @@
+key: eso_006-001_gc1
+table: gc_dwarf_hosted
+location:
+  ra: 124.8542167
+  dec: -85.14143056
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2023
+  host: eso_006-001
+  name: ESO 006-001 GC
+  # other_name:
+  # - list
+  ref_discovery:
+  - Makarova2023ApJ...943..139M
+notes:
+- assuming the distance is the same to  eso_006-001 Makarova2023ApJ...943..139M
+structure:
+  rhalf: 0.002546479089
+  ref_structure: Makarova2023ApJ...943..139M
+distance:
+  distance_modulus: 27.16
+  distance_modulus_em: 0.09
+  distance_modulus_ep: 0.09
+  ref_distance: Makarova2023ApJ...943..139M
+m_v:
+  apparent_magnitude_v: 19.76
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Makarova2023ApJ...943..139M
+

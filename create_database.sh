@@ -1,8 +1,10 @@
-#!/bin/bash
+#!/bin/zsh
 
-python code/combine_table_general.py
+# source ~/.zshrc
 
-python code/create_latex_table.py
+# python code/combine_table_general.py
+
+# python code/create_latex_table.py
 
 cd table/
 

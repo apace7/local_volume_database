@@ -1,7 +1,9 @@
+key: eso_006-001
+table: dwarf_local_field
+location:
+  dec: -85.14555556
+  ra: 124.8470833
 distance:
-  distance: 2700.0
-  distance_em: 90.0
-  distance_ep: 90.0
   distance_modulus: 27.16
   distance_modulus_em: 0.09
   distance_modulus_ep: 0.09
@@ -9,10 +11,6 @@ distance:
 flux_HI:
   flux_HI: 0.75
   ref_flux_HI: Makarova2023ApJ...943..139M
-key: eso_006-001
-location:
-  dec: -85.14555556
-  ra: 124.8470833
 m_v:
   apparent_magnitude_v: 14.75
   ref_m_v: Makarova2023ApJ...943..139M
@@ -35,7 +33,6 @@ structure:
   rhalf: 0.2833
   rhalf_em: 0.025
   rhalf_ep: 0.025
-table: dwarf_local_field
 velocity:
   ref_vlos: Makarova2023ApJ...943..139M
   vlos_systemic: 319.0
