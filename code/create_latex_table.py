@@ -21,6 +21,8 @@ for i in list(string.ascii_lowercase):
     for j in list(string.ascii_lowercase):
         long_list.append(i+j)
 
+import os.path
+
 path = 'data_input/'
 
 def make_latex_value(value, em, ep, **kwargs):
@@ -77,6 +79,7 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
             out_str = '' + input_table['name'][i] + ' & '
             other_name = []
             ref = []
+            host = ''
             with open(path+ k +'.yaml', 'r') as stream:
                 try:
                     stream_yaml = yaml.load(stream, Loader=yaml.Loader)
@@ -91,6 +94,19 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
                             x = stream_yaml['name_discovery']['ref_discovery'][other_name_list]
                             x=x.replace('&', '\string&')
                             ref.append(x)
+                    if 'host' in stream_yaml['name_discovery'].keys():
+                        host_key = stream_yaml['name_discovery']['host']
+                        if host_key in ['MW', 'LF']:
+                            host = host_key
+                        else:
+                            if os.path.isfile(path + host_key +'.yaml'):  
+                                with open(path + host_key +'.yaml', 'r') as stream:
+                                    stream_yaml_key = yaml.load(stream, Loader=yaml.Loader)
+                                    host = stream_yaml_key['name_discovery']['name']
+                            else:
+                                host = host_key
+                                host=host.replace('_', ' ')
+                                print('no host key', host_key)
                 except yaml.YAMLError as exc:
                     print(exc)
             c = coord.SkyCoord(ra=input_table['ra'][i]*u.degree, dec=input_table['dec'][i]*u.degree)
@@ -103,6 +119,7 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
             else:
                 out_str +=  ' & '
             out_str += x1 + ' & ' + x2  + ' & '
+            out_str += host + ' & '
             if len(ref)>0:
                 out_str += "\\citet{" +ref[place] +'}' + ' & '
             else:
@@ -126,7 +143,7 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
                 out_str2 = ' & '
                 if len(other_name)>place:
                     out_str2 +=  other_name[place]
-                out_str2 += ' &&& '
+                out_str2 += ' &&&& '
                 if len(ref)>place:
                     out_str2 += "\\citet{" + ref[place]+'}'
                 out_str2 += ' \\\\ '
@@ -190,7 +207,7 @@ def create_latex_table_structure(output, output_citations, input_table):
             if len(comb2)==0:
                 str_rhalf=''
                 if ma.is_masked(input_table['rhalf_em'][i])==True or ma.is_masked(input_table['rhalf_ep'][i])==True and ma.is_masked(input_table['rhalf'][i])==False:
-                    rh = input_table['distance'][i]*input_table['rhalf'][i]/180./60.*1000.
+                    rh = input_table['distance'][i]*input_table['rhalf'][i]/180./60.*1000.*np.pi
                     if ma.is_masked(input_table['ellipticity'][i])==False:
                         rh = rh*np.sqrt(1.-input_table['ellipticity'][i])
                     str_rhalf=make_latex_value(rh, input_table['rhalf_em'][i], input_table['rhalf_em'][i], n=1)  
