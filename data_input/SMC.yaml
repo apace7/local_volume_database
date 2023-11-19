@@ -30,10 +30,11 @@ name_discovery:
   confirmed_real: 1
   discovery_year: 0
   host: LMC
-  name: Small Magellanic Cloud
+  name: SMC
   other_name:
   - Nubecula Minor
   - NGC 292
+  - Small Magellanic Cloud
 proper_motion:
   pmra: -0.83
   pmra_em: 0.02

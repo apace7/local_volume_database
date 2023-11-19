@@ -18,9 +18,10 @@ name_discovery:
   confirmed_real: 1
   discovery_year: 0
   host: MW
-  name: Large Magellanic Cloud
+  name: LMC
   other_name:
   - Nubecula Major
+  - Large Magellanic Cloud
 structure:
   rhalf: 192.9 
   rhalf_em: 0.2
