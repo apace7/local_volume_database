@@ -137,8 +137,11 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
             elif input_table[classification_column][i]==0:
                 out_str +=  '  '        
 
-
-            f.write( out_str+ ' \\\\'+'\n')
+            # if :
+            out_str += end_line+'\n'
+            # else:
+            #     out_str += '\n'
+            f.write(out_str )
             while len(other_name)>place or len(ref) > place:
                 out_str2 = ' & '
                 if len(other_name)>place:
@@ -146,7 +149,7 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
                 out_str2 += ' &&&& '
                 if len(ref)>place:
                     out_str2 += "\\citet{" + ref[place]+'}'
-                out_str2 += ' \\\\ '
+                out_str2 += end_line
                 place+=1
                 f.write( out_str2+'\n')
 
@@ -216,7 +219,9 @@ def create_latex_table_structure(output, output_citations, input_table):
                 str_rhalf = make_latex_value(mean[0], mean[0]-mean[1], mean[2]-mean[0], n=1)
         #     rhalf_pc = mean[0]
         #     rhalf_pc_error = (mean[2]-mean[1])/2.
-
+            end_line = '\\\\'
+            if i == len(input_table)-1:
+                end_line=''
             ## output each row of our table, plus the citations at the end of the line
             f.write(input_table['name'][i] + '&'+"{:0.4f}".format(input_table['ra'][i])+'&'+"{:0.4f}".format(input_table['dec'][i])+'&'+
                   make_latex_value(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], n=2)+'&'+
@@ -226,7 +231,7 @@ def create_latex_table_structure(output, output_citations, input_table):
                   make_latex_value(input_table['distance_modulus'][i], input_table['distance_modulus_em'][i], input_table['distance_modulus_ep'][i], n=2)+' & '+
                  make_latex_value(input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i], n=1)+ ' & '+ make_latex_value(input_table['apparent_magnitude_v'][i], np.ma.masked, np.ma.masked, n=1)+ ' & '+
                    make_latex_value(input_table['M_V'][i], input_table['M_V_em'][i], input_table['M_V_ep'][i], n=1)+ ' & '+ letter_to_list_string+
-                  '\\\\'+'\n')
+                  end_line+'\n')
     with open(output_citations, 'w+') as f:
         for i,j in zip(letter, citations):
         #     print(i, j)
@@ -274,7 +279,9 @@ def create_latex_table_kinematics(output, output_citations, input_table):
                 for kk in letter_to_list:
                     letter_to_list_string+=kk  +','
                 letter_to_list_string = letter_to_list_string[:-1]
-
+            end_line = '\\\\'
+            if i == len(input_table)-1:
+                end_line=''
             f.write(input_table['name'][i]+ '&'+"{:0.4f}".format(input_table['ll'][i])+'&'+"{:0.4f}".format(input_table['bb'][i])+'&'+ make_latex_value(input_table['vlos_systemic'][i], input_table['vlos_systemic_em'][i], input_table['vlos_systemic_ep'][i], n=1)+ '& '+
                make_latex_value(input_table['vlos_sigma'][i], input_table['vlos_sigma_em'][i], input_table['vlos_sigma_ep'][i], ul=input_table['vlos_sigma_ul'][i], n=2)+ '& '+
                     make_latex_value(input_table['metallicity_spectroscopic'][i], input_table['metallicity_spectroscopic_em'][i], input_table['metallicity_spectroscopic_ep'][i], n=2)+'&'+
@@ -282,7 +289,7 @@ def create_latex_table_kinematics(output, output_citations, input_table):
                   make_latex_value(input_table['pmra'][i], input_table['pmra_em'][i], input_table['pmra_ep'][i], n=3)+'&'+
                  make_latex_value(input_table['pmdec'][i], input_table['pmdec_em'][i], input_table['pmdec_ep'][i],  n=3)+ '& '+
                   letter_to_list_string+
-                  '\\\\'+'\n')
+                  end_line+'\n')
     with open(output_citations, 'w+') as f:
         for i,j in zip(letter, citations):
         #     print(i, j)
