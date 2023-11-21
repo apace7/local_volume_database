@@ -30,7 +30,7 @@ for i in range(len(dir_list)):
                 print(stream_yaml['key'], "missing table")
         except yaml.YAMLError as exc:
             print(exc)
-
+print("all tables")
 print(Counter(table_list))
 
 ## we don't use every possible column for the "standard" table
@@ -179,11 +179,12 @@ for i in range(len(dir_list)):
         missing_key.append(miss)
 
 print("missing yaml entry", Counter(np.concatenate(missing_key).flat))
-
+print()
 
 print("missing table", Counter(missing_table))
+print()
 print("objects missing (key)", Counter(missing_table_key))
-
+print()
 ## save output
 comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='gc')
 comb_gc_harris = value_add(comb_gc_harris, table_type='gc')
