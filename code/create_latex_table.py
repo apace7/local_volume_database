@@ -53,8 +53,8 @@ def add_year(table):
 
                 if 'discovery_year' in stream_yaml['name_discovery'].keys():
                     table['year'][i] = stream_yaml['name_discovery']['discovery_year']
-                else:
-                    print(stream_yaml['key'], "missing table")
+                # else:
+                #     print(stream_yaml['key'], "discovery_year")
             except yaml.YAMLError as exc:
                 print(exc)
     return table['year']

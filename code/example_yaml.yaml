@@ -62,6 +62,9 @@ metallicity_photometric:
   metallicity_photometric: 0
   metallicity_photometric_em: 0
   metallicity_photometric_ep: 0
+  metallicity_photometric_sigma: 0
+  metallicity_photometric_sigma_em: 0
+  metallicity_photometric_sigma_ep: 0
   ref_metallicity_photometric: ref
 structure_king:
 ## the ellipticity, position_angle here are not propagated to the standard table
