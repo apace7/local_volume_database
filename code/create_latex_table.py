@@ -296,6 +296,98 @@ def create_latex_table_kinematics(output, output_citations, input_table):
             j = j.replace('&', '\string&')
             f.write( "("+i+") \citet{"+j+"}\n",)
 
+def create_latex_table_mass(output, output_citations, input_table):
+    citations = []
+    letter = []
+
+    with open(output, 'w+') as f:
+        for i in range(len(input_table)):
+            letter_to_list = []
+            cite_temp = []
+            if ma.is_masked(input_table['ref_m_v'][i])==False:
+                cite_temp.append(input_table['ref_m_v'][i])
+            if ma.is_masked(input_table['ref_vlos'][i])==False:
+                cite_temp.append(input_table['ref_vlos'][i])
+            if ma.is_masked(input_table['ref_structure'][i])==False:
+                cite_temp.append(input_table['ref_structure'][i])
+            if ma.is_masked(input_table['ref_flux_HI'][i])==False:
+                cite_temp.append(input_table['ref_flux_HI'][i])
+
+
+            cite_temp2 = np.unique(cite_temp)
+            for tt in cite_temp2:
+                if  isinstance(tt,str)==False:
+                    continue
+                if tt in  citations:
+                    letter_to_list.append(letter[citations.index(tt)])
+                else:
+                    citations.append(tt)
+                    letter_to_list.append(long_list[len(letter)])
+                    letter.append(long_list[len(letter)])
+
+            letter_to_list_string = ""
+            if len(letter_to_list)>0:
+                for kk in letter_to_list:
+                    letter_to_list_string+=kk  +','
+                letter_to_list_string = letter_to_list_string[:-1]
+
+            # input_table
+            def lum(m_x, m_x_sun=4.83):
+                return pow(10., -.4*(m_x - m_x_sun) )
+            if ma.is_masked(input_table['M_V'][i])==False:
+                mstar = lum(input_table['M_V'][i]) * 2.
+                mstar_str = '$'+"{:0.1e}".format(mstar)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(mstar).split('e')[1]))+'}'+'$'
+            else:
+                mstar_str=''
+        #.replace('+','')    
+            mass_to_light_str = ''
+            m_dyn_str = ''
+            if ma.is_masked(input_table['vlos_sigma'][i])==False:
+                mdyn = 930 * input_table['rhalf_sph_physical'][i] * input_table['vlos_sigma'][i]**2
+                m_dyn_str = '$'+"{:0.1e}".format(mdyn)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(mdyn).split('e')[1]))+'}'+'$'
+                mass_to_light = mdyn/(mstar/2.)
+                mass_to_light_str = '$'+"{:0.1f}".format(mass_to_light)+'$'
+            elif ma.is_masked(input_table['vlos_sigma_ul'][i])==False:
+                mdyn_ul = 930 * input_table['rhalf_sph_physical'][i] * input_table['vlos_sigma_ul'][i]**2
+                m_dyn_str = '$<'+"{:0.1e}".format(mdyn_ul)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(mdyn_ul).split('e')[1]))+'}'+'$'
+                mass_to_light = mdyn/(mstar/2.)
+                mass_to_light_str = '$<'+"{:0.1f}".format(mass_to_light)+'$'
+        #         print(input_table['key'][i], m_dyn_str)
+            else:
+                m_dyn_str = ''
+                mass_to_light_str=''
+            m_HI_str=''
+            m_HI_m_star_str=''
+            if ma.is_masked(input_table['mass_HI'][i])==False:
+                mdyn = 10.**input_table['mass_HI'][i]
+                m_HI_str = '$'+"{:0.1e}".format(mdyn)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(mdyn).split('e')[1]))+'}'+'$'
+                m_HI_m_star = mdyn/mstar
+                m_HI_m_star_str = '$'+"{:0.1f}".format(m_HI_m_star)+'$'
+            elif ma.is_masked(input_table['mass_HI_ul'][i])==False:
+                temp = 10.**input_table['mass_HI_ul'][i]
+                m_HI_str = '$<'+"{:0.1e}".format(temp)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(temp).split('e')[1]))+'}'+'$'
+                m_HI_m_star = temp/mstar
+                ul_str = abs(int("{:0.1e}".format(m_HI_m_star).split('e')[1]))
+                fmt = "{:0."+str(ul_str)+"f}"
+                m_HI_m_star_str = '$<'+ fmt.format(m_HI_m_star)+'$'
+            else:
+                m_HI_str = ''
+                m_HI_m_star_str=''
+
+            end_line = '\\\\'
+            if i == len(input_table)-1:
+                end_line=''
+        #     mstar_s = "{:0.1e}".format(mstar)
+        #     mstar_split = mstar_s.split('e')
+        #     mstar_split[1]
+
+            f.write(input_table['name'][i] +' & ' +  mstar_str +' & ' + m_dyn_str +' & ' + mass_to_light_str +' & ' + m_HI_str+' & ' + m_HI_m_star_str+ '& '+ letter_to_list_string + end_line + '\n')
+
+    with open(output_citations, 'w+') as f:
+        for i,j in zip(letter, citations):
+        #     print(i, j)
+            j = j.replace('&', '\string&')
+            f.write( "("+i+") \citet{"+j+"}\n",)
 
 dsph_mw = table.Table.read('data/dwarf_mw.csv')
 dsph_m31 = table.Table.read('data/dwarf_m31.csv')
@@ -331,24 +423,29 @@ dsph_mw2 = dsph_mw2[dsph_mw2['key']!='SMC']
 dsph_mw2.sort('name')
 create_latex_table_structure('table/table_data/dwarf_mw_structure_data.tex', 'table/table_data/dwarf_mw_structure_citations.tex', dsph_mw2)
 create_latex_table_kinematics('table/table_data/dwarf_mw_kinematics_data.tex', 'table/table_data/dwarf_mw_kinematics_citations.tex', dsph_mw2)
+create_latex_table_mass('table/table_data/dwarf_mw_mass_data.tex', 'table/table_data/dwarf_mw_mass_citations.tex', dsph_mw2)
+
 
 dsph_m31.sort(['year', 'name'])
 create_latex_table_name_discovery('table/table_data/dwarf_m31_name_discovery_data.tex', dsph_m31)
 dsph_m31.sort('name')
 create_latex_table_structure('table/table_data/dwarf_m31_structure_data.tex', 'table/table_data/dwarf_m31_structure_citations.tex', dsph_m31)
 create_latex_table_kinematics('table/table_data/dwarf_m31_kinematics_data.tex', 'table/table_data/dwarf_m31_kinematics_citations.tex', dsph_m31)
+create_latex_table_mass('table/table_data/dwarf_m31_mass_data.tex', 'table/table_data/dwarf_m31_mass_citations.tex', dsph_m31)
 
 dsph_lf.sort(['year', 'name'])
 create_latex_table_name_discovery('table/table_data/dwarf_lf_name_discovery_data.tex', dsph_lf)
 dsph_lf.sort('name')
 create_latex_table_structure('table/table_data/dwarf_lf_structure_data.tex', 'table/table_data/dwarf_lf_structure_citations.tex', dsph_lf)
 create_latex_table_kinematics('table/table_data/dwarf_lf_kinematics_data.tex', 'table/table_data/dwarf_lf_kinematics_citations.tex', dsph_lf)
+create_latex_table_mass('table/table_data/dwarf_lf_mass_data.tex', 'table/table_data/dwarf_lf_mass_citations.tex', dsph_lf)
 
 gc_ufsc.sort(['year', 'name'])
 create_latex_table_name_discovery('table/table_data/gc_ufsc_name_discovery_data.tex', gc_ufsc, classification_column='confirmed_star_cluster', classification_output='Star Cluster')
 gc_ufsc.sort('name')
 create_latex_table_structure('table/table_data/gc_ufsc_structure_data.tex', 'table/table_data/gc_ufsc_structure_citations.tex', gc_ufsc)
 create_latex_table_kinematics('table/table_data/gc_ufsc_kinematics_data.tex', 'table/table_data/gc_ufsc_kinematics_citations.tex', gc_ufsc)
+# create_latex_table_mass('table/table_data/gc_ufsc_mass_data.tex', 'table/table_data/gc_ufsc_mass_citations.tex', gc_ufsc)
 
 gc_disk.sort(['year', 'name'])
 create_latex_table_name_discovery('table/table_data/gc_disk_name_discovery_data.tex', gc_disk, classification_column='confirmed_star_cluster', classification_output='Star Cluster')

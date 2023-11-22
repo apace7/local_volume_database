@@ -182,9 +182,9 @@ print("missing yaml entry", Counter(np.concatenate(missing_key).flat))
 print()
 
 print("missing table", Counter(missing_table))
-print()
+
 print("objects missing (key)", Counter(missing_table_key))
-print()
+
 ## save output
 comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='gc')
 comb_gc_harris = value_add(comb_gc_harris, table_type='gc')
