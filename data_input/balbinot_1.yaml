@@ -1,3 +1,16 @@
+key: balbinot_1
+table: gc_ufsc
+location:
+  dec: 14.9403
+  ra: 332.6791
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 0
+  discovery_year: 2013
+  host: MW
+  name: Balbinot 1
+  ref_discovery:
+  - Balbinot2013ApJ...767..101B
 age:
   age: 11.7
   age_em: 0.8
@@ -11,10 +24,6 @@ distance:
   distance_modulus_em: 0.11
   distance_modulus_ep: 0.07
   ref_distance: Balbinot2013ApJ...767..101B
-key: balbinot_1
-location:
-  dec: 14.9403
-  ra: 332.6791
 m_v:
   apparent_magnitude_v: 16.31
   apparent_magnitude_v_em: 0.66
@@ -25,14 +34,6 @@ metallicity_photometric:
   metallicity_photometric_em: 0.13
   metallicity_photometric_ep: 0.08
   ref_metallicity_photometric: Balbinot2013ApJ...767..101B
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 2013
-  host: MW
-  name: Balbinot 1
-  ref_discovery:
-  - Balbinot2013ApJ...767..101B
 structure:
   ref_structure: Balbinot2013ApJ...767..101B
   rhalf: 0.6
@@ -54,4 +55,4 @@ structure_sersic:
   rad_sersic_em: 0.11
   rad_sersic_ep: 0.11
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_ufsc
+

@@ -1,7 +1,17 @@
+key: ursa_major_2
+table: dwarf_mw
+location:
+  ra: 132.8726
+  dec: 63.1335
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2006
+  host: MW
+  name: Ursa Major II
+  ref_discovery:
+  - Zucker2006ApJ...650L..41Z  
 distance:
-  distance: 34.7
-  distance_em: 2.0
-  distance_ep: 2.1
   distance_modulus: 17.7
   distance_modulus_em: 0.13
   distance_modulus_ep: 0.13
@@ -9,10 +19,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.31
   ref_flux_HI: Spekkens2014ApJ...795L...5S
-key: ursa_major_2
-location:
-  dec: 63.1335
-  ra: 132.8726
 m_v:
   apparent_magnitude_v: 13.28
   apparent_magnitude_v_em: 0.26
@@ -26,14 +32,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.15
   metallicity_spectroscopic_sigma_ep: 0.2
   ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2006
-  host: MW
-  name: Ursa Major II
-  ref_discovery:
-  - Zucker2006ApJ...650L..41Z
 proper_motion:
   pmdec: -1.906
   pmdec_em: 0.025
@@ -69,7 +67,6 @@ structure_sersic:
   rad_sersic_em: 0.46
   rad_sersic_ep: 0.46
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Simon2007ApJ...670..313S
   vlos_sigma: 6.7

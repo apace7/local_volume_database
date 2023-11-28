@@ -1,24 +1,26 @@
-distance:
-  distance: 34.7
-  distance_modulus: 17.7
-  ref_distance: Munoz2018ApJ...860...66M
 key: koposov_2
+table: gc_ufsc
+
 location:
-  dec: 26.2574
   ra: 119.5715
-m_v:
-  apparent_magnitude_v: 16.78
-  apparent_magnitude_v_em: 0.81
-  apparent_magnitude_v_ep: 0.81
-  ref_m_v: Munoz2018ApJ...860...66M
+  dec: 26.2574
 name_discovery:
   confirmed_real: 1
-  confirmed_star_cluster: 1
+  confirmed_star_cluster: 0
   discovery_year: 2007
   host: MW
   name: Koposov 2
   ref_discovery:
   - Koposov2007ApJ...669..337K
+distance:
+  distance: 34.7
+  distance_modulus: 17.7
+  ref_distance: Munoz2018ApJ...860...66M
+m_v:
+  apparent_magnitude_v: 16.78
+  apparent_magnitude_v_em: 0.81
+  apparent_magnitude_v_ep: 0.81
+  ref_m_v: Munoz2018ApJ...860...66M
 proper_motion:
   pmdec: -0.025
   pmdec_em: 0.189
@@ -54,4 +56,3 @@ structure_sersic:
   rad_sersic_em: 0.09
   rad_sersic_ep: 0.09
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_ufsc

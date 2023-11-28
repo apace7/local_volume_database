@@ -1,30 +1,8 @@
-age:
-  age: 11.5
-  age_em: 3.5
-  age_ep: 2.0
-  ref_age: Kim2015ApJ...803...63K
-distance:
-  distance: 104.7
-  distance_em: 4.1
-  distance_ep: 4.1
-  distance_modulus: 20.1
-  distance_modulus_em: 0.1
-  distance_modulus_ep: 0.1
-  ref_distance: Kim2015ApJ...803...63K
 key: kim_2
+table: gc_ufsc
 location:
   dec: -51.1671
   ra: 317.202
-m_v:
-  apparent_magnitude_v: 18.6
-  apparent_magnitude_v_em: 0.5
-  apparent_magnitude_v_ep: 0.5
-  ref_m_v: Kim2015ApJ...803...63K
-metallicity_photometric:
-  metallicity_photometric: -1.0
-  metallicity_photometric_em: 0.21
-  metallicity_photometric_ep: 0.18
-  ref_metallicity_photometric: Kim2015ApJ...803...63K
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -39,6 +17,31 @@ name_discovery:
   - Kim2015ApJ...803...63K
   - Bechtol2015ApJ...807...50B
   - Koposov2015ApJ...805..130K
+notes:
+  - observed mass segregation suggests this is star cluster Kim2015ApJ...803...63K
+age:
+  age: 11.5
+  age_em: 3.5
+  age_ep: 2.0
+  ref_age: Kim2015ApJ...803...63K
+distance:
+  distance: 104.7
+  distance_em: 4.1
+  distance_ep: 4.1
+  distance_modulus: 20.1
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
+  ref_distance: Kim2015ApJ...803...63K
+m_v:
+  apparent_magnitude_v: 18.6
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.5
+  ref_m_v: Kim2015ApJ...803...63K
+metallicity_photometric:
+  metallicity_photometric: -1.0
+  metallicity_photometric_em: 0.21
+  metallicity_photometric_ep: 0.18
+  ref_metallicity_photometric: Kim2015ApJ...803...63K
 structure:
   ellipticity: 0.12
   ellipticity_em: 0.1
@@ -66,4 +69,4 @@ structure_sersic:
   rad_sersic_em: 0.45
   rad_sersic_ep: 0.45
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_ufsc
+

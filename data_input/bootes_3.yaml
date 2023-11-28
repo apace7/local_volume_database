@@ -1,3 +1,8 @@
+key: bootes_3
+table: dwarf_mw
+location:
+  dec: 26.8
+  ra: 209.3
 distance:
   distance: 46.5
   distance_em: 2.0
@@ -9,10 +14,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.21
   ref_flux_HI: Putman2021ApJ...913...53P
-key: bootes_3
-location:
-  dec: 26.8
-  ra: 209.3
 m_v:
   apparent_magnitude_v: 12.6
   apparent_magnitude_v_em: 0.5
@@ -25,7 +26,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma: 0.6
   ref_metallicity_spectroscopic: Carlin2009ApJ...702L...9C
 name_discovery:
-  confirmed_dwarf: 0
+  confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2008
   host: MW
@@ -34,6 +35,7 @@ name_discovery:
   - Grillmair2009ApJ...693.1118G
 notes:
 - Very diffuse. Tidal remnant? MC12
+- confirmed_dwarf == 1 due to resolved velocity dispersion and high mass-to-light ratio.
 proper_motion:
   pmdec: -0.89
   pmdec_em: 0.015
@@ -53,7 +55,6 @@ structure:
   rhalf: 40.6
   rhalf_em: 3.8
   rhalf_ep: 4.2
-table: dwarf_mw
 velocity:
   ref_vlos: Carlin2009ApJ...702L...9C
   vlos_sigma: 14.0
