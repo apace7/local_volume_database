@@ -1,3 +1,16 @@
+key: des_1
+table: gc_ufsc
+location:
+  dec: -49.0386111
+  ra: 8.4991667
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 0
+  discovery_year: 2015
+  host: MW
+  name: DES 1
+  ref_discovery:
+  - Luque2016MNRAS.458..603L
 age:
   age: 11.2
   age_em: 0.9
@@ -11,10 +24,6 @@ distance:
   distance_modulus_em: 0.12
   distance_modulus_ep: 0.12
   ref_distance: Conn2018ApJ...852...68C
-key: des_1
-location:
-  dec: -49.0386111
-  ra: 8.4991667
 m_v:
   apparent_magnitude_v: 17.98
   apparent_magnitude_v_em: 0.5
@@ -25,14 +34,6 @@ metallicity_photometric:
   metallicity_photometric_em: 0.19
   metallicity_photometric_ep: 0.21
   ref_metallicity_photometric: Conn2018ApJ...852...68C
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 2015
-  host: MW
-  name: DES 1
-  ref_discovery:
-  - Luque2016MNRAS.458..603L
 structure:
   ellipticity: 0.41
   ellipticity_em: 0.06
@@ -52,4 +53,4 @@ structure_king:
   rking: 2.114
   rking_em: 0.707
   rking_ep: 0.729
-table: gc_ufsc
+
