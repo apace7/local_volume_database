@@ -1,3 +1,16 @@
+key: andromeda_03
+table: dwarf_m31
+location:
+  ra: 8.87875
+  dec: 36.49889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1972
+  host: M_31
+  name: Andromeda III
+  ref_discovery:
+  - vandenBergh1972ApJ...171L..31V
 distance:
   distance: 721.1
   distance_em: 16.0
@@ -9,10 +22,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.47
   ref_flux_HI: Putman2021ApJ...913...53P
-key: andromeda_03
-location:
-  dec: 36.49889
-  ra: 8.87875
 m_v:
   apparent_magnitude_v: 14.8
   apparent_magnitude_v_em: 0.2
@@ -24,14 +33,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.03
   metallicity_spectroscopic_sigma: 0.43
   ref_metallicity_spectroscopic: Kirby2020AJ....159...46K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1972
-  host: M_31
-  name: Andromeda II
-  ref_discovery:
-  - vandenBergh1972ApJ...171L..31V
 structure:
   ellipticity: 0.59
   ellipticity_em: 0.04
@@ -54,7 +55,6 @@ structure_king:
   rking: 7.2
   rking_em: 1.2
   rking_ep: 1.2
-table: dwarf_m31
 velocity:
   ref_vlos: Tollerud2012ApJ...752...45T
   vlos_sigma: 9.3
