@@ -1,7 +1,8 @@
 Decription of tables 
 ===================================
 
-table descriptions (tab/sheet)
+table descriptions (tab/sheet). These are available as csv and fits files. 
+
 * dwarf_mw : Milky Way dwarf galaxies
 * dwarf_m31: M31 dwarf galaxies
 * dwarf_local_field: dwarf galaxies outside of MW/M31 to ~ 3 Mpc, mostly follows McConnachie 2012
@@ -18,6 +19,7 @@ Decription of table contents
 ===================================
 
 columns:
+
 * key: unique identifier for each object
 * host: host of system [MW, LMC, M31, etc]
 * confirmed_real: system has been confirmed with either deeper photometry, follow-up spectroscopy, proper motion, or other methods
@@ -52,6 +54,6 @@ columns:
 error columns: 
 * _em = error minus = minus 1 sigma (or 16% confidence interval) 
 * _ep = error plus = plus 1 sigma (84% confidence interval)
-* _ul = upper limit at 95% confidence interval (some are 90% or 84%, the goal is to make it consistent)
+* _ul = upper limit at 95% confidence interval (some are at 5sigma, 90% or 84%, but the goal is to make it consistent)
 
 ref: reference of author last name + ADS bibcode
