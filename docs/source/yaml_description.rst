@@ -71,3 +71,25 @@ The collections are split such that a single reference can describe the contents
   * **pmdec** [mas/yr]
 
   * **ref_proper_motion** 
+
+* **spectroscopic_metallicity**
+
+  * **metallicity_spectroscopic**
+
+  * **metallicity_spectroscopic_sigma** -- metallicity dispersion
+
+  * **ref_metallicity_spectroscopic**
+
+* **metallicity_photometric**
+
+  * **metallicity_photometric**
+
+  * **metallicity_photometric_sigma**
+
+  * **ref_metallicity_photometric**
+
+* **structure_king**
+* **structure_sersic**
+* **structure_eff**
+* **flux_HI**
+* **age**

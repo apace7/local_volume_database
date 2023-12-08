@@ -20,7 +20,7 @@ Decription of table contents
 
 columns:
 
-* key: unique identifier for each object
+* key: unique identifier for each system.  The yaml input files have the same name.
 * host: host of system [MW, LMC, M31, etc]
 * confirmed_real: system has been confirmed with either deeper photometry, follow-up spectroscopy, proper motion, or other methods
 * confirmed_dwarf: (or confirmed_star_cluster) system has been confirmed to be dwarf galaxy (or star cluster) based on spectroscopy, and/or deeper photometry.
@@ -33,7 +33,7 @@ columns:
 * distance: computed from distance_modulus [kpc] 
 * rhalf_physical: rhalf * distance  [parsec] (computed from other columns)
 * rhalf_sph_physical: rhalf * distance * sqrt(1-ellipticity) in [parsec] (computed from other columns)
-* apparent_magnitude_v: apparent magnitude in V-band
+* apparent_magnitude_v: apparent magnitude in V-band. Corrected for extinction. 
 * M_V: absolute V-band magnitude, computed from distance_modulus and apparent_magnitude_V
 * surface_brightness_rhalf: average surface brightness within spherically averaged half-light radius [mag arcsec^-2]
 * vlos_systemic: heliocentric velocity of system [km/s]
@@ -48,8 +48,8 @@ columns:
 * rad_sersic, n_sersic: sersic profile parameters. rad_sersic in arcmin
 * age: Gyr units
 * metallicity_photometric: metallicity isochrone fitting (or non-spectroscopic metallicity)
-* flux_HI: (  Jy km s−1 ), flux in HI only included for dwarf galaxies
-* ref: reference of author last name + ADS bibcode
+* flux_HI: ( Jy km s^−1 ), flux in HI only included for dwarf galaxies
+* ref: reference columns (ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion) of author last name + ADS bibcode
 
 error columns: 
 * _em = error minus = minus 1 sigma (or 16% confidence interval) 
