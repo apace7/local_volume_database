@@ -19,9 +19,10 @@ Contents
 
 .. toctree::
    :maxdepth: 1
-   
+
    usage
    tutorials
+   contributing
    table_description
    yaml_description
    api
