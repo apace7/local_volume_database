@@ -3,32 +3,22 @@ Usage
 
 .. _installation:
 
-Installation
+Installation (note that this doesn't work yet)
 ------------
 
-To use Lumache, first install it using pip:
+To use local_volume_database, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install local_volume_database
 
-Creating recipes
+Database content
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+The tables can be directly loaded into jupyter notebooks without having to download the repository:
 
-.. autofunction:: lumache.get_random_ingredients
+>>> import astropy.table as table
+>>> dwarf_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_mw.csv')
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
