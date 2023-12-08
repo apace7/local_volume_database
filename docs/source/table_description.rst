@@ -16,7 +16,7 @@ pm_overview: key, reference, proper motion measurement, method (this includes mo
 j_factor.csv: key, reference, angle, j-factor measurement [units are log10 GeV^2 cm^-5], notes (this includes some literature j-factor measurements, mostly from A. B. Pace)
 
 Decription of table contents
-===================================
+----------------------------
 
 columns:
 
