@@ -58,8 +58,12 @@ def add_year(table):
             except yaml.YAMLError as exc:
                 print(exc)
     return table['year']
-# def latex_name():
-
+def latex_name(name):
+    if name[:6] == 'Bootes':
+        name = name.replace('oo', 'o\\"{o}')
+    if name[:5] == 'Munoz':
+        name = name.replace('n', '{\\~n}')
+    return name
 
 coord.galactocentric_frame_defaults.set('v4.0')
 gc_frame = coord.Galactocentric()
@@ -78,9 +82,8 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
             if i == len(input_table)-1:
                 end_line=''
             k = input_table['key'][i]
-            name = input_table['name'][i]
-            if input_table['name'][i][:6] == 'Bootes':
-                name = name.replace('oo', 'o\\"{o}')
+            name = latex_name(input_table['name'][i])
+
             out_str = '' + name + ' & '
             other_name = []
             ref = []
@@ -150,7 +153,8 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
             while len(other_name)>place or len(ref) > place:
                 out_str2 = ' & '
                 if len(other_name)>place:
-                    out_str2 +=  other_name[place]
+                    name = latex_name(other_name[place])
+                    out_str2 +=  name
                 out_str2 += ' &&&& '
                 if len(ref)>place:
                     out_str2 += "\\citet{" + ref[place]+'}'
@@ -228,7 +232,8 @@ def create_latex_table_structure(output, output_citations, input_table):
             if i == len(input_table)-1:
                 end_line=''
             ## output each row of our table, plus the citations at the end of the line
-            f.write(input_table['name'][i] + '&'+"{:0.4f}".format(input_table['ra'][i])+'&'+"{:0.4f}".format(input_table['dec'][i])+'&'+
+            name = latex_name(input_table['name'][i])
+            f.write(name + '&'+"{:0.4f}".format(input_table['ra'][i])+'&'+"{:0.4f}".format(input_table['dec'][i])+'&'+
                   make_latex_value(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], n=2)+'&'+
                  make_latex_value(input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], ul=input_table['ellipticity_ul'][i], n=2)+ '& '+
                   make_latex_value(input_table['position_angle'][i], input_table['position_angle_em'][i], input_table['position_angle_ep'][i], n=1)+ '& '+
@@ -287,9 +292,8 @@ def create_latex_table_kinematics(output, output_citations, input_table):
             end_line = '\\\\'
             if i == len(input_table)-1:
                 end_line=''
-            if input_table['name'][i][:6] == 'Bootes':
-                name = name.replace('oo', 'o\\"{o}')
-            f.write(input_table['name'][i]+ '&'+"{:0.4f}".format(input_table['ll'][i])+'&'+"{:0.4f}".format(input_table['bb'][i])+'&'+ make_latex_value(input_table['vlos_systemic'][i], input_table['vlos_systemic_em'][i], input_table['vlos_systemic_ep'][i], n=1)+ '& '+
+            name = latex_name(input_table['name'][i])
+            f.write(name + '&'+"{:0.4f}".format(input_table['ll'][i])+'&'+"{:0.4f}".format(input_table['bb'][i])+'&'+ make_latex_value(input_table['vlos_systemic'][i], input_table['vlos_systemic_em'][i], input_table['vlos_systemic_ep'][i], n=1)+ '& '+
                make_latex_value(input_table['vlos_sigma'][i], input_table['vlos_sigma_em'][i], input_table['vlos_sigma_ep'][i], ul=input_table['vlos_sigma_ul'][i], n=2)+ '& '+
                     make_latex_value(input_table['metallicity_spectroscopic'][i], input_table['metallicity_spectroscopic_em'][i], input_table['metallicity_spectroscopic_ep'][i], n=2)+'&'+
                  make_latex_value(input_table['metallicity_spectroscopic_sigma'][i], input_table['metallicity_spectroscopic_sigma_em'][i], input_table['metallicity_spectroscopic_sigma_ep'][i], ul=input_table['metallicity_spectroscopic_sigma_ul'][i],  n=2)+ '& '+
@@ -387,9 +391,8 @@ def create_latex_table_mass(output, output_citations, input_table):
         #     mstar_s = "{:0.1e}".format(mstar)
         #     mstar_split = mstar_s.split('e')
         #     mstar_split[1]
-            name = input_table['name'][i]
-            if input_table['name'][i][:6] == 'Bootes':
-                name = name.replace('oo', 'o\\"{o}')
+            name = latex_name(input_table['name'][i])
+
             f.write(name +' & ' +  mstar_str +' & ' + m_dyn_str +' & ' + mass_to_light_str +' & ' + m_HI_str+' & ' + m_HI_m_star_str+ '& '+ letter_to_list_string + end_line + '\n')
 
     with open(output_citations, 'w+') as f:
