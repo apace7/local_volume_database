@@ -3,10 +3,15 @@ Tutorials \& Examples
 
 `ipython notebook example <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_plots.ipynb>`_ 
 
-Example: Accessing the database and creating figure (Rhalf-M_V plot)
+Example: Accessing the database and creating a figure 
 ---------------------------------------------
 
+This example creates a figure comparing half-light radius and absolute magnitude of dwarf galaxies and star clusters. 
+
+Load required packages.
+
 .. code-block:: python
+
     import numpy as np
     import matplotlib.pyplot as plt
     import astropy.table as table
@@ -14,6 +19,7 @@ Example: Accessing the database and creating figure (Rhalf-M_V plot)
 load the data from github
 
 .. code-block:: python
+
     dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_mw.csv')
     dsph_m31 = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_m31.csv')
     dsph_lf = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_local_field.csv')
@@ -24,6 +30,7 @@ load the data from github
 make a figure
 
 .. code-block:: python
+
     def const_mu(muV, rhalf):
         return muV - 36.57 - 2.5 * np.log10(2.*np.pi*rhalf**2)
     x = np.arange(1, 1e4, 1)
@@ -46,6 +53,8 @@ make a figure
     ## plt.tight_layout()
     ## plt.savefig('/example_rhalf_MV.png')
     plt.show()
+
+Figure from the sample (this does include custom matplotlib stylefile and latex for the captions).
 
 .. figure:: /figures/example_rhalf_MV.png
    :width: 60%
