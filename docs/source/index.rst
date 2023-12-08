@@ -18,7 +18,8 @@ Contents
 --------
 
 .. toctree::
-
+   :maxdepth: 1
+   
    usage
    tutorials
    table_description
