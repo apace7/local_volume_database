@@ -1,8 +1,12 @@
+key: sextans_b
+table: dwarf_local_field
+location:
+  dec: 5.332222222
+  ra: 150.0004167
 distance:
-  distance: 1390.0
-  distance_em: 36.0
   distance_modulus: 25.72
   distance_modulus_em: 0.056
+  distance_modulus_ep: 0.056
   ref_distance: Dalcanton2009ApJS..183...67D
 flux_HI:
   flux_HI: 106.5
@@ -16,10 +20,6 @@ flux_HI:
   vrot_HI: 19.1 
   ref_flux_HI: Putman2021ApJ...913...53P
   ref_HI_kinematics: Hoffman1996ApJS..105..269H 
-key: sextans_b
-location:
-  dec: 5.332222222
-  ra: 150.0004167
 m_v:
   apparent_magnitude_v: 11.3
   apparent_magnitude_v_em: 0.2
@@ -57,7 +57,6 @@ structure:
   rhalf: 1.06
   rhalf_em: 0.1
   rhalf_ep: 0.1
-table: dwarf_local_field
 velocity:
   ref_vlos: Hoffman1996ApJS..105..269H
   vlos_systemic: 304.0
