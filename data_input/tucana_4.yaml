@@ -22,6 +22,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -2.49
   metallicity_spectroscopic_em: 0.16
   metallicity_spectroscopic_ep: 0.15
+  metallicity_spectroscopic_sigma_ul: 0.64
   ref_metallicity_spectroscopic: Simon2020ApJ...892..137S
 name_discovery:
   confirmed_dwarf: 1
