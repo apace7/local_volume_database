@@ -29,22 +29,23 @@ The tables can be directly loaded into jupyter notebooks without having to downl
 Decription of tables 
 --------------------
 
-table descriptions (tab/sheet). These are available as csv and fits files. 
+The following are the available tables(in csv and fits file formats). 
 
-* dwarf_mw : Milky Way dwarf galaxies
+* dwarf_mw : Milky Way dwarf galaxies (the most distant is Eridanus 2)
 * dwarf_m31: M31 dwarf galaxies
-* dwarf_local_field: dwarf galaxies outside of MW/M31 to ~ 3 Mpc, mostly follows McConnachie 2012
-* gc_ufsc: post Harris catalog star clusters in the MW halo (abs(b) > ~5-10)
+* dwarf_local_field: dwarf galaxies outside of MW/M31 to ~ 3 Mpc, extension of galaxies from McConnachie 2012
+* gc_ufsc: faint star-cluster like systems (generally rhalf < 20 pc and M_V > -3 and at high Galactic latitudes abs(b) > ~5-10). A number of these systems are likely tidally stripped star clusters, tidally stripped dwarf galaxies, or the faintest dwarf galaxies. Many have are ambiguous classifications and are difficult to classify. 
 * gc_disk: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these objects might be open clusters
-* gc_harris: globular clusters in Harris catalog
+* gc_harris: globular clusters in Harris catalog (this exclude Koposov 1 and 2 which are in the gc_ufsc table)
+* gc_dwarf_hosted: Globular clusters hosted by dwarf galaxies. This does not include the Sagittarius GCs which are in gc_harris. 
 
-
-pm_overview: key, reference, proper motion measurement, method (this includes most proper motion measurements of dwarf galaxies)
+There are two extra tables (data/pm_overview.csv and data/j_factor.csv). Both are collections of measurements (the other tables have one measurement per object). 
+pm_overview.csv: key, reference, proper motion measurement, method (this includes most proper motion measurements of dwarf galaxies)
 
 j_factor.csv: key, reference, angle, j-factor measurement [units are log10 GeV^2 cm^-5], notes (this includes some literature j-factor measurements, mostly from A. B. Pace)
 
-Decription of table contents
-----------------------------
+.. Decription of table contents
+.. ----------------------------
 
 columns:
 
@@ -77,9 +78,12 @@ columns:
 * age: Gyr units
 * metallicity_photometric: metallicity isochrone fitting (or non-spectroscopic metallicity)
 * flux_HI: ( Jy km s^−1 ), flux in HI only included for dwarf galaxies
-* ref: reference columns (ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion) of author last name + ADS bibcode
+* ref: reference columns (ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion) of author last name + ADS bibcode. There is an associated bibtex file (latex/lvdb.bib) that includes all references in the database. 
+
+Many columns also have associatec error columns. These follow the format of name + _em (e.g., rhalf_em).
 
 error columns: 
+
 * _em = error minus = minus 1 sigma (or 16% confidence interval) 
 * _ep = error plus = plus 1 sigma (84% confidence interval)
 * _ul = upper limit at 95% confidence interval (some are at 5sigma, 90% or 84%, but the goal is to make it consistent)
@@ -134,15 +138,15 @@ The collections are split such that a single reference can describe the contents
 
 * **distance** -- yaml collection
 
-  * **distance_modulus**
+  * **distance_modulus** -- [mag] distance modulus of the system. This quantity is used to compute the distance in kpc for each system.
 
   * **ref_distance**
 
 * **m_v** -- yaml collection
 
-  * **apparent_magnitude_v** -- corrected for extinction
+  * **apparent_magnitude_v** -- Apparent V-band magnitude of the system. This quantity is corrected for extinction. This quantity is combined with **distance_modulus** to compute the absolute V-band magnitude in the combined tables. 
 
-  * **ref_m_v**
+  * **ref_m_v** -- reference
 
 * **velocity** -- stellar velocity/kinematics
 
@@ -154,30 +158,48 @@ The collections are split such that a single reference can describe the contents
 
 * **proper_motion**
   
-  * **pmra** [mas/yr]
+  * **pmra** -- systemic proper motion in the direction of right ascension (includes cosdec term) [mas/yr]
 
-  * **pmdec** [mas/yr]
+  * **pmdec** -- systemic proper motion in the direction of declination [mas/yr]
 
   * **ref_proper_motion** 
 
 * **spectroscopic_metallicity**
 
-  * **metallicity_spectroscopic**
+  * **metallicity_spectroscopic** -- mean metallicity
 
   * **metallicity_spectroscopic_sigma** -- metallicity dispersion
 
-  * **ref_metallicity_spectroscopic**
+  * **ref_metallicity_spectroscopic** -- reference
 
 * **metallicity_photometric**
 
-  * **metallicity_photometric**
+  * **metallicity_photometric** -- photometric metallicity. This can include isochrone fitting or narrow band photometry.
 
   * **metallicity_photometric_sigma**
 
   * **ref_metallicity_photometric**
 
 * **structure_king**
+
+  * **rcore** -- King core radius [arcmin]
+
+  * **rking** -- King limiting radius, sometimes referred to as the tidal radius [arcmin]
+  
+  * **ellipticity** and **position_angle** -- these are specfic to the King profile fit 
+
+  * **ref_structure_king** -- reference
+
 * **structure_sersic**
 * **structure_eff**
 * **flux_HI**
+
+   * **flux_HI**
+
+   * **ref_flux_HI**
+   
 * **age**
+  
+  * **age** -- mean age of the systemic in [Gyr]. Mainly for star clusters. 
+
+  * **ref_age**
