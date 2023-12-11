@@ -23,6 +23,7 @@ Contents
    usage
    tutorials
    contributing
-   table_description
-   yaml_description
-   api
+
+   .. table_description
+   .. yaml_description
+   .. api
