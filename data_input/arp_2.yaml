@@ -26,6 +26,7 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
+  host: sagittarius_1
   name: ARP 2
 proper_motion:
   pmdec: -1.4753
