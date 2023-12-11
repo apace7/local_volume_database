@@ -27,6 +27,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   discovery_year: 1968
+  host: sagittarius_1
   name: Terzan 7
   ref_discovery:
   - Terzan1968CRASB.267.1245T

@@ -28,6 +28,7 @@ name_discovery:
   confirmed_star_cluster: 1
   discovery_year: 1968
   name: Terzan 8
+  host: sagittarius_1
   other_name:
   - ESO 398-SC 021
   ref_discovery:

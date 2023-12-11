@@ -1,7 +1,7 @@
 Decription of yaml files 
 ===================================
 
-There is an `example yaml file <https://github.com/apace7/local_volume_database/tree/main/data/>`_ in the /code/ folder. 
+There is an `example yaml file <https://github.com/apace7/local_volume_database/blob/main/code/example_yaml.yaml>`_ in the /code/ folder. 
 It includes all collections and keys in the database with a short descrition and units.  Not all keys are placed into the csv tables.
 The yaml keys are **Bolded** below and the bullet points follow the yaml collection structure.  Errors columns are not included. 
 The collections are split such that a single reference can describe the contents.

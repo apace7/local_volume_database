@@ -30,6 +30,7 @@ name_discovery:
   confirmed_star_cluster: 0
   discovery_year: 2002
   name: Whiting 1
+  host: sagittarius_1
   other_name:
   - WHI B0200-03
   ref_discovery:
