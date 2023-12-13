@@ -29,6 +29,7 @@ name_discovery:
   name: Segue 1
   ref_discovery:
   - Belokurov2007ApJ...654..897B
+  abbreviation: Seg1
 proper_motion:
   pmdec: -3.375
   pmdec_em: 0.046

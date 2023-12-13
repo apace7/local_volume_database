@@ -31,6 +31,7 @@ name_discovery:
   name: Pictor II
   ref_discovery:
   - DrlicaWagner2016ApJ...833L...5D
+  abbreviation: PicII
 proper_motion:
   pmdec: 1.14
   pmdec_em: 0.05

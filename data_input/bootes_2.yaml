@@ -33,6 +33,7 @@ name_discovery:
   name: Bootes II
   ref_discovery:
   - Walsh2007ApJ...662L..83W
+  abbreviation: BooII
 proper_motion:
   pmdec: -0.414
   pmdec_em: 0.061

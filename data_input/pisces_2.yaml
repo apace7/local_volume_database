@@ -34,6 +34,7 @@ name_discovery:
   name: Pisces II
   ref_discovery:
   - Belokurov2010ApJ...712L.103B
+  abbreviation: PscII
 proper_motion:
   pmdec: -0.645
   pmdec_em: 0.209

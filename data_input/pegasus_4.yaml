@@ -31,6 +31,7 @@ name_discovery:
   name: Pegasus IV
   ref_discovery:
   - Cerny2023ApJ...942..111C
+  abbreviation: PegIV
 proper_motion:
   pmdec: -0.21
   pmdec_em: 0.08

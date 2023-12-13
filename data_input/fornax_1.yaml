@@ -38,6 +38,7 @@ name_discovery:
   - PGC 10093
   ref_discovery:
   - Shapley1938Natur.142..715S
+  abbreviation: For
 proper_motion:
   pmdec: -0.359
   pmdec_em: 0.002

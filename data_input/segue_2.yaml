@@ -32,6 +32,7 @@ name_discovery:
   name: Segue 2
   ref_discovery:
   - Belokurov2009MNRAS.397.1748B
+  abbreviation: Seg2
 proper_motion:
   pmdec: -0.322
   pmdec_em: 0.05

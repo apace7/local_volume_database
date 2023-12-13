@@ -38,6 +38,7 @@ name_discovery:
   - Regulus Dwarf
   ref_discovery:
   - Harrington1950PASP...62..118H
+  abbreviation: LeoI
 proper_motion:
   pmdec: -0.12
   pmdec_em: 0.01

@@ -31,6 +31,7 @@ name_discovery:
   name: Eridanus IV
   ref_discovery:
   - Cerny2021ApJ...920L..44C
+  abbreviation: EriIV
 proper_motion:
   pmdec: -0.1
   pmdec_em: 0.05

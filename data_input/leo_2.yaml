@@ -38,6 +38,7 @@ name_discovery:
   - DDO 93
   ref_discovery:
   - Harrington1950PASP...62..118H
+  abbreviation: LeoII
 proper_motion:
   pmdec: -0.15
   pmdec_em: 0.026

@@ -35,6 +35,7 @@ name_discovery:
   - DES J2204-4626
   ref_discovery:
   - DrlicaWagner2015ApJ...813..109D
+  abbreviation: GruII
 proper_motion:
   pmdec: -1.484
   pmdec_em: 0.04

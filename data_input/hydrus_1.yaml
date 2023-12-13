@@ -34,6 +34,7 @@ name_discovery:
   name: Hydrus I
   ref_discovery:
   - Koposov2018MNRAS.479.5343K
+  abbreviation: HyiI
 notes:
 - possible rotation Koposov2018MNRAS.479.5343K
 proper_motion:
