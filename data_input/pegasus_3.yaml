@@ -31,6 +31,7 @@ name_discovery:
   name: Pegasus III
   ref_discovery:
   - Kim2015ApJ...804L..44K
+  abbreviation: PegIII
 proper_motion:
   pmdec: -0.58
   pmdec_em: 0.208

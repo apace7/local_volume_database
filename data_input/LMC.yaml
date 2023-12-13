@@ -22,6 +22,7 @@ name_discovery:
   other_name:
   - Nubecula Major
   - Large Magellanic Cloud
+  abbreviation: LMC
 structure:
   rhalf: 192.9 
   rhalf_em: 0.2

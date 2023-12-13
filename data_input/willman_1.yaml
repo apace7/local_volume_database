@@ -33,6 +33,7 @@ name_discovery:
   - SDSS J1049+5103
   ref_discovery:
   - Willman2005AJ....129.2692W
+  abbreviation: Wil1
 notes:
 - potential tidal disruption + unclear kinematics Willman2011AJ....142..128W
 proper_motion:

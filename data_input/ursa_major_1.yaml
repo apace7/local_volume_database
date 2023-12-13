@@ -34,6 +34,7 @@ name_discovery:
   name: Ursa Major I
   ref_discovery:
   - Willman2005ApJ...626L..85W
+  abbreviation: UMaI
 proper_motion:
   pmdec: -0.613
   pmdec_em: 0.042

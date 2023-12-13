@@ -34,6 +34,7 @@ name_discovery:
   name: Bootes I
   ref_discovery:
   - Belokurov2006ApJ...647L.111B
+  abbreviation: BooI
 proper_motion:
   pmdec: -1.068
   pmdec_em: 0.013

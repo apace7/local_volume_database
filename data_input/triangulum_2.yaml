@@ -36,6 +36,7 @@ name_discovery:
   - Laevens 2
   ref_discovery:
   - Laevens2015ApJ...802L..18L
+  abbreviation: TriII
 proper_motion:
   pmdec: 0.112
   pmdec_em: 0.067

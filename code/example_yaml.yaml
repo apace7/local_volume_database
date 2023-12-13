@@ -15,6 +15,7 @@ name_discovery:
   - list
   ref_discovery:
   - list
+  abbreviation: ''
 notes:
   - list
 structure:

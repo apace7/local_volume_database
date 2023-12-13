@@ -37,6 +37,7 @@ name_discovery:
   - DDO 208
   ref_discovery:
   - Wilson1955PASP...67...27W
+  abbreviation: Dra
 proper_motion:
   pmdec: -0.188
   pmdec_em: 0.006

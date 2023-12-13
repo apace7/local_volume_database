@@ -12,7 +12,8 @@ name_discovery:
   other_name:
   - DES J0117-1725
   ref_discovery:
-  - DrlicaWagner2015ApJ...813..109D 
+  - DrlicaWagner2015ApJ...813..109D
+  abbreviation: CetII 
 # notes:
 #   - 
 distance:

@@ -33,6 +33,7 @@ name_discovery:
   name: Bootes III
   ref_discovery:
   - Grillmair2009ApJ...693.1118G
+  abbreviation: BooIII
 notes:
 - Very diffuse. Tidal remnant? MC12
 - confirmed_dwarf == 1 due to resolved velocity dispersion and high mass-to-light ratio.

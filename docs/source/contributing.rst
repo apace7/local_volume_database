@@ -61,6 +61,10 @@ These are the current tables:
 * local_field_distant
 * misc
 
+.. How the database is constructed
+.. ---------------------------------------------
+
+
 
 .. Items that could be added in the future
 .. ---------------------------------------

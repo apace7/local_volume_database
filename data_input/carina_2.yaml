@@ -34,6 +34,7 @@ name_discovery:
   name: Carina II
   ref_discovery:
   - Torrealba2018MNRAS.475.5085T
+  abbreviation: CarII
 proper_motion:
   pmdec: 0.133
   pmdec_em: 0.019
