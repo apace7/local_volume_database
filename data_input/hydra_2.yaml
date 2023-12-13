@@ -34,6 +34,7 @@ name_discovery:
   name: Hydra II
   ref_discovery:
   - Martin2015ApJ...804L...5M
+  abbreviation: HydII
 proper_motion:
   pmdec: 0.0
   pmdec_em: 0.104

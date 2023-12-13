@@ -36,6 +36,7 @@ name_discovery:
   - DES J0345-6026
   ref_discovery:
   - DrlicaWagner2015ApJ...813..109D
+  abbreviation: RetIII
 proper_motion:
   pmdec: -0.502
   pmdec_em: 0.226

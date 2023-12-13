@@ -15,6 +15,7 @@ name_discovery:
   - Gatto2023arXiv231106037G
   other_name:
   - KiDS-UFD-1
+  abbreviation: SxtII
 notes:
 - found in HSC and KiDS survey -> confirmed_real = 1
 structure:

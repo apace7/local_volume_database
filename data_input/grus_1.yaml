@@ -33,6 +33,7 @@ name_discovery:
   name: Grus I
   ref_discovery:
   - Koposov2015ApJ...805..130K
+  abbreviation: GruI
 proper_motion:
   pmdec: -0.248
   pmdec_em: 0.072

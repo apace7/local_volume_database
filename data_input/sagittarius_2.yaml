@@ -30,6 +30,7 @@ name_discovery:
   - Laevens 4
   ref_discovery:
   - Laevens2015ApJ...813...44L
+  abbreviation: SgrII
 proper_motion:
   pmdec: -0.903
   pmdec_em: 0.023

@@ -34,6 +34,7 @@ name_discovery:
   - DES J0002-6051
   ref_discovery:
   - DrlicaWagner2015ApJ...813..109D
+  abbreviation: TucIV
 proper_motion:
   pmdec: -1.707
   pmdec_em: 0.055

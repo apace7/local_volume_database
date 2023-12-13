@@ -34,6 +34,7 @@ name_discovery:
   name: Hercules
   ref_discovery:
   - Belokurov2007ApJ...654..897B
+  abbreviation: Her
 notes:
 - Tidally disrupting? Remnant? Cluster? MC12
 proper_motion:

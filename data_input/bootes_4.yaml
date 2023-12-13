@@ -23,6 +23,7 @@ name_discovery:
   - HSC J1534+4343
   ref_discovery:
   - Homma2019PASJ...71...94H
+  abbreviation: BooIV
 proper_motion:
   pmdec: 0.489
   pmdec_em: 0.255

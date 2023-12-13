@@ -32,6 +32,7 @@ name_discovery:
   ref_discovery:
   - Mau2020ApJ...890..136M
   - DrlicaWagner2020ApJ...893...47D
+  abbreviation: DEL1
 proper_motion:
   pmdec: -1.54
   pmdec_em: 0.05

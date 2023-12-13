@@ -34,6 +34,7 @@ name_discovery:
   name: Coma Berenices
   ref_discovery:
   - Belokurov2007ApJ...654..897B
+  abbreviation: CBe
 proper_motion:
   pmdec: -1.721
   pmdec_em: 0.024

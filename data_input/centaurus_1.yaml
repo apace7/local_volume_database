@@ -31,6 +31,7 @@ name_discovery:
   name: Centaurus I
   ref_discovery:
   - Mau2020ApJ...890..136M
+  abbreviation: CenI
 proper_motion:
   pmdec: -0.19
   pmdec_em: 0.04

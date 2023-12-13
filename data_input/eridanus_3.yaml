@@ -36,6 +36,7 @@ name_discovery:
   ref_discovery:
   - Bechtol2015ApJ...807...50B
   - Koposov2015ApJ...805..130K
+  abbreviation: EriIII
 notes:
 - observed mass segregation which would classifty Eri 3 as a star cluster Baumgardt2022MNRAS.510.3531B
 - there is a metallicity dispersion in CaH\&K photometry which would classify Eri 3 as a dwarf galaxy Fu2023arXiv230606260F

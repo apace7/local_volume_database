@@ -35,6 +35,7 @@ name_discovery:
   - Nubecula Minor
   - NGC 292
   - Small Magellanic Cloud
+  abbreviation: SMC
 proper_motion:
   pmra: -0.83
   pmra_em: 0.02

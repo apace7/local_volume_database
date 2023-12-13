@@ -34,6 +34,7 @@ name_discovery:
   ref_discovery:
   - Smith2023AJ....166...76S
   - Cerny2023ApJ...953....1C
+  abbreviation: BooV
 proper_motion:
   pmdec: -0.28
   pmdec_em: 0.07

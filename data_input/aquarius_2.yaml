@@ -34,6 +34,7 @@ name_discovery:
   name: Aquarius II
   ref_discovery:
   - Torrealba2016MNRAS.463..712T
+  abbreviation: AquII
 proper_motion:
   pmdec: -0.466
   pmdec_em: 0.095

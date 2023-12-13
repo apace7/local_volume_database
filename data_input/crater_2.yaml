@@ -34,6 +34,7 @@ name_discovery:
   name: Crater II
   ref_discovery:
   - Torrealba2016MNRAS.459.2370T
+  abbreviation: CraII
 proper_motion:
   pmdec: -0.112
   pmdec_em: 0.013

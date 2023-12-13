@@ -26,6 +26,7 @@ name_discovery:
   name: Horologium II
   ref_discovery:
   - Kim2015ApJ...808L..39K
+  abbreviation: HorII
 proper_motion:
   pmdec: -0.771
   pmdec_em: 0.23

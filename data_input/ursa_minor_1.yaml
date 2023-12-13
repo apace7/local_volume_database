@@ -36,6 +36,7 @@ name_discovery:
   - PGC 54074
   ref_discovery:
   - Wilson1955PASP...67...27W
+  abbreviation: UMi
 proper_motion:
   pmdec: 0.071
   pmdec_em: 0.005
