@@ -1,0 +1,37 @@
+key: ngc_6822_sc5
+table: gc_dwarf_hosted
+location:
+  ra: 295.92625
+  dec: -14.69991667
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2012
+  host: ngc_6822
+  name: NGC 6822-SC5
+  ref_discovery:
+  - Huxor2013MNRAS.429.1039H
+notes:
+- distance assumed to match ngc_6822
+# structure:
+## ABP I don't know where the rhalf comes from
+#   rhalf: 0.0183
+#   rhalf_em: 0.0007
+#   rhalf_ep: 0.0007
+#   ellipticity: 0
+#   ellipticity_em: 0
+#   ellipticity_ep: 0
+#   ellipticity_ul: 0
+#   position_angle: 0
+#   position_angle_em: 0
+#   position_angle_ep: 0
+#   ref_structure: ref
+distance:
+  distance_modulus: 23.78
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Higgs2021MNRAS.503..176H
+m_v:
+  apparent_magnitude_v_ul: 18.8
+  ref_m_v: Veljanoski2015MNRAS.452..320V
