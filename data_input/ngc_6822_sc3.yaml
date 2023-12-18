@@ -1,0 +1,53 @@
+key: ngc_6822_sc3
+table: gc_dwarf_hosted
+location:
+  ra: 296.4172917
+  dec: -14.82361111
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2011
+  host: ngc_6822
+  name: NGC 6822-SC3
+  other_name:
+  - NGC 6822-C3
+  ref_discovery:
+  - Hwang2011ApJ...738...58H
+notes:
+- distance assumed to match ngc_6822
+- chi^2 age/metallicity from Hwang2014ApJ...783...49H
+structure:
+  rhalf: 0.0549
+  rhalf_em: 0.0037
+  rhalf_ep: 0.0037
+  ref_structure: Hwang2011ApJ...738...58H
+distance:
+  distance_modulus: 23.78
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Higgs2021MNRAS.503..176H
+m_v:
+  apparent_magnitude_v: 18.44
+  apparent_magnitude_v_em: 0.04
+  apparent_magnitude_v_ep: 0.04
+  ref_m_v: Veljanoski2015MNRAS.452..320V
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.52
+  metallicity_spectroscopic_em: 0.06
+  metallicity_spectroscopic_ep: 0.06
+  ref_metallicity_spectroscopic: Hwang2014ApJ...783...49H
+metallicity_photometric:
+  metallicity_photometric: -1.7
+  metallicity_photometric_em: 0.4
+  metallicity_photometric_ep: 0.4
+  ref_metallicity_photometric: Veljanoski2015MNRAS.452..320V
+velocity:
+  vlos_systemic: -83
+  vlos_systemic_em: 14
+  vlos_systemic_ep: 14
+  ref_vlos: Veljanoski2015MNRAS.452..320V
+age:
+  age: 7.80
+  age_em: 0.74
+  age_ep: 0.74
+  ref_age: Hwang2014ApJ...783...49H
