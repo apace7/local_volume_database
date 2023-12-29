@@ -20,7 +20,7 @@ metallicity_photometric:
   ref_metallicity_photometric: Cerny2023ApJ...953....1C
 name_discovery:
   confirmed_dwarf: 0
-  confirmed_real: 0
+  confirmed_real: 1
   discovery_year: 2022
   host: MW
   name: Virgo II
