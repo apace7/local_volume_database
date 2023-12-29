@@ -23,7 +23,9 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -2.1
   metallicity_spectroscopic_em: 0.2
   metallicity_spectroscopic_ep: 0.2
-  metallicity_spectroscopic_sigma: 0.6
+  metallicity_spectroscopic_sigma: 0.55
+  metallicity_spectroscopic_sigma_em: 0.19
+  metallicity_spectroscopic_sigma_ep: 0.19
   ref_metallicity_spectroscopic: Carlin2009ApJ...702L...9C
 name_discovery:
   confirmed_dwarf: 1
@@ -37,6 +39,7 @@ name_discovery:
 notes:
 - Very diffuse. Tidal remnant? MC12
 - confirmed_dwarf == 1 due to resolved velocity dispersion and high mass-to-light ratio.
+- The spectroscopic sample (Carlin2009ApJ...702L...9C) is updated in Carlin2018ApJ...865....7C using Gaia astrometry. The velocity dispersion, mean velocity, and metallicity dispersion have updated values (Carlin2018ApJ...865....7C) 
 proper_motion:
   pmdec: -0.89
   pmdec_em: 0.015
@@ -58,9 +61,9 @@ structure:
   rhalf_ep: 4.2
 velocity:
   ref_vlos: Carlin2009ApJ...702L...9C
-  vlos_sigma: 14.0
-  vlos_sigma_em: 3.2
-  vlos_sigma_ep: 3.2
+  vlos_sigma: 10.7
+  vlos_sigma_em: 3.5
+  vlos_sigma_ep: 3.5
   vlos_systemic: 197.5
-  vlos_systemic_em: 3.8
-  vlos_systemic_ep: 3.8
+  vlos_systemic_em: 3.6
+  vlos_systemic_ep: 3.6
