@@ -1,7 +1,7 @@
 Welcome to the local_volume_database documentation!
 ===================================
 
-**local_volume_database** is a Python library for the fundamental properties of dwarf galaxies and star clusters in the local group. 
+**local_volume_database** is a Python library for the fundamental properties of dwarf galaxies and star clusters in the Local Volume. 
 
 The primary database tables are located here: `Database Tables <https://github.com/apace7/local_volume_database/tree/main/data/>`_ as csv and fits.
 
