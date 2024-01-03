@@ -9,7 +9,7 @@ There are 6 tables created directly from the yaml file:
 - gc_disk
 - gc_harris
 
-A 7th table is created that is the combined table of `dwarf_mw` `dwarf_m31` `and dwarf_local_field`
+A 7th table is created that is the combined table of `dwarf_mw` `dwarf_m31` and `dwarf_local_field`
 The `table` entry in the yaml file sets which table the object goes into. 
 
-Contributions of updates to yaml file, new yaml file (new objects), and code updates are welcome
+Contributions of updates to yaml file, new yaml file (new objects), and code updates are welcome.
