@@ -59,7 +59,7 @@ columns:
 * confirmed_dwarf: (or confirmed_star_cluster) system has been confirmed to be dwarf galaxy (or star cluster) based on spectroscopy, and/or deeper photometry.
 * ra: right ascension ICRS [degree]
 * dec: declination ICRS [degree]
-* rhalf: half-light radius (or plummer radius) in [arcmin]
+* rhalf: elliptical half-light radius (or plummer radius) in [arcmin]
 * ellipticity: 1 - minor/major axis (or 1 - axis ratio)
 * position_angle: N->E [degree] 
 * distance_modulus [mag]
@@ -132,7 +132,7 @@ The collections are split such that a single reference can describe the contents
 
 * **structure** -- yaml collection
   
-  * **rhalf** -- [arcmin] 
+  * **rhalf** -- elliptical half-light radius (or plummer radius) [arcmin]
 
   * **ellipticity**
 
@@ -142,7 +142,7 @@ The collections are split such that a single reference can describe the contents
 
 * **distance** -- yaml collection
 
-  * **distance_modulus** -- [mag] distance modulus of the system. This quantity is used to compute the distance in kpc for each system.
+  * **distance_modulus** --  distance modulus of the system. [mag] This quantity is used to compute the distance in kpc for each system.
 
   * **ref_distance**
 

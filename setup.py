@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-local_volume_database: basebase of the properties of local group galaxies and star clusters.
+local_volume_database: database of the properties of Local Volume galaxies and star clusters.
 
 Project website: https://github.com/apace7/local_volume_database
 
@@ -24,7 +24,7 @@ setup(
     url='https://github.com/apace7/local_volume_database',
     license='LICENSE',
     description=
-    'Database of the properties of local field dwarf galaxies and Milky Way Star Cluster',
+    'Database of the properties of Local Volume dwarf galaxies and Milky Way star cluster',
     long_description=open('README.md').read(),
     install_requires=[
         "numpy",
