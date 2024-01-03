@@ -30,9 +30,9 @@ Bruce et al (2023) made new measurements of the systemic velocity, velocity disp
         ref_metallicity_spectroscopic: Bruce2023ApJ...950..167B
 
 For any measurement in the database a reference needs to be included. 
-The format for the database is author last name + ADS bibcode ( Bruce + 2023ApJ...950..167B for this example). The author last name should be stripped of special characters and spaces but capitalization is left. 
+The format for the database is author last name + ADS bibcode ( ``Bruce2023ApJ...950..167B`` for this example). The author last name should be stripped of special characters and spaces but capitalization is left. 
 If the reference is not in the ``table/lvdb.bib`` file you should add it. 
-Create the reference with exportcitation on ADS and update the entry to match the reference format in the database. 
+Create the reference with "Export Citation" on ADS and update the entry to match the reference format in the database. 
 The content of the database can include both published and unpublished papers on the arXiv.  Papers only the arxiv have an ADS bibcode created.  The references can be updated to the published version later. 
 
 Example: How to add a new system the database
