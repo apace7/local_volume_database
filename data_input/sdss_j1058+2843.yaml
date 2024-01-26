@@ -9,7 +9,7 @@ name_discovery:
   host: MW
   name: SDSS J1058+2843
   ref_discovery:
-  - Liu2008A&A...477..139LD
+  - Liu2008A&A...477..139L
 notes:
   - detection/convergence of parameters Martin2008ApJ...684.1075M 
   - lack of detection in DES year 3/Pan-starrs DR1 search DrlicaWagner2020ApJ...893...47D

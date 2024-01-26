@@ -7,12 +7,12 @@ distance:
   distance_modulus: 26.71
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.12
-  ref_distance: McNanna2023arXiv230904467M
+  ref_distance: McNanna2024ApJ...961..126M
 m_v:
   apparent_magnitude_v: 18.71
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.5
-  ref_m_v: McNanna2023arXiv230904467M
+  ref_m_v: McNanna2024ApJ...961..126M
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
@@ -20,12 +20,12 @@ name_discovery:
   host: ngc_0055
   name: NGC 55-dw1
   ref_discovery:
-  - McNanna2023arXiv230904467M
+  - McNanna2024ApJ...961..126M
   other_name:
   - DES J0015-3825
 metallicity_photometric:
   metallicity_photometric: -1.8
-  ref_metallicity_photometric: McNanna2023arXiv230904467M
+  ref_metallicity_photometric: McNanna2024ApJ...961..126M
 structure:
   rhalf: 05.2
   rhalf_em: .8
@@ -36,9 +36,9 @@ structure:
   position_angle: 156
   position_angle_em: 8
   position_angle_ep: 7
-  ref_structure: McNanna2023arXiv230904467M
+  ref_structure: McNanna2024ApJ...961..126M
 age:
   age: 6.5
   age_em: 2.7
   age_ep: 4.3
-  ref_age: McNanna2023arXiv230904467M
+  ref_age: McNanna2024ApJ...961..126M

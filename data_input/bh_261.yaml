@@ -21,7 +21,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.10
   metallicity_spectroscopic_ep: 0.11
   metallicity_spectroscopic_sigma_ul: 0.38
-  ref_metallicity_spectroscopic: Kunder2023arXiv231018575K
+  ref_metallicity_spectroscopic: Kunder2024AJ....167...21K
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -42,7 +42,7 @@ structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.65
 velocity:
-  ref_vlos: Kunder2023arXiv231018575K
+  ref_vlos: Kunder2024AJ....167...21K
   vlos_systemic: -61
   vlos_systemic_em: 2.6
   vlos_systemic_ep: 2.6
