@@ -9,15 +9,15 @@ name_discovery:
   host: MW
   name: SDSS J0821+5608
   ref_discovery:
-  - Liu2008A&A...477..139LD
+  - Liu2008A&A...477..139L
 notes:
   - lack of detection in DES year 3/Pan-starrs DR1 search DrlicaWagner2020ApJ...893...47D
 structure:
   rhalf: 4.3 # [arcmin]
-  ref_structure: Liu2008A&A...477..139LD
+  ref_structure: Liu2008A&A...477..139L
 distance:
   distance_modulus: 21.65 
-  ref_distance: Liu2008A&A...477..139LD
+  ref_distance: Liu2008A&A...477..139L
 m_v:
   apparent_magnitude_v: 14.28
-  ref_m_v: Liu2008A&A...477..139LD
+  ref_m_v: Liu2008A&A...477..139L

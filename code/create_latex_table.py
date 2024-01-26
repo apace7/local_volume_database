@@ -476,3 +476,219 @@ create_latex_table_name_discovery('table/table_data/gc_dwarf_name_discovery_data
 gc_dwarf.sort('name')
 create_latex_table_structure('table/table_data/gc_dwarf_structure_data.tex', 'table/table_data/gc_dwarf_structure_citations.tex', gc_dwarf)
 create_latex_table_kinematics('table/table_data/gc_dwarf_kinematics_data.tex', 'table/table_data/gc_dwarf_kinematics_citations.tex', gc_dwarf)
+
+
+dir_list = os.listdir(path)
+dir_list = [i for i in dir_list if i!='readme.md']
+
+table_list = []
+for i in range(len(dir_list)):
+    with open(path+ dir_list[i], 'r') as stream:
+        try:
+            stream_yaml = yaml.load(stream, Loader=yaml.Loader)
+            if 'table' in stream_yaml.keys():
+                if stream_yaml['table'] == 'candidate':
+
+                    if 'discovery_year' in stream_yaml['name_discovery'].keys():
+                        y = stream_yaml['name_discovery']['discovery_year']
+                    else:
+                        y=0
+                    if 'name' in stream_yaml['name_discovery'].keys():
+                        n = stream_yaml['name_discovery']['name']
+                    else:
+                        n=0
+                    table_list.append((stream_yaml['key'], y, n))
+        except yaml.YAMLError as exc:
+            print(exc)
+print("candidate list", len(table_list))
+
+table_list_sort = sorted(table_list, key=lambda student: student[1])
+
+output = 'table/table_data//candidate_name_discovery_data.tex'
+with open(output, 'w+') as f:
+    for candidate in range(len(table_list_sort)):
+        yaml_name = table_list_sort[candidate][0]
+#         print(yaml_name)
+        end_line = '\\\\'
+        if i == len(table_list_sort)-1:
+            end_line=''
+        k = yaml_name
+        
+        other_name = []
+        ref = []
+        host = ''
+        with open(path+ yaml_name +'.yaml', 'r') as stream:
+            try:
+                stream_yaml = yaml.load(stream, Loader=yaml.Loader)
+                c = coord.SkyCoord(ra=stream_yaml['location']['ra']*u.degree, dec=stream_yaml['location']['dec']*u.degree)
+                x = c.to_string('hmsdms')
+                x1 = c.ra.to_string(unit=u.hourangle, sep=":", precision=1, alwayssign=False, pad=True)
+                x2 = c.dec.to_string(sep=":", precision=1, alwayssign=True, pad=True)
+                name = ''
+                if 'name' in stream_yaml['name_discovery'].keys():
+                    name= latex_name(stream_yaml['name_discovery']['name'])
+    #             out_str = ''
+                if 'other_name' in stream_yaml['name_discovery'].keys():
+                    for other_name_list in range(len(stream_yaml['name_discovery']['other_name'])):
+                        other_name.append(stream_yaml['name_discovery']['other_name'][other_name_list])
+    #             else:
+    #                 print(stream_yaml['key'], "missing table")
+                if 'ref_discovery' in stream_yaml['name_discovery'].keys():
+                    for other_name_list in range(len(stream_yaml['name_discovery']['ref_discovery'])):
+                        x = str(stream_yaml['name_discovery']['ref_discovery'][other_name_list])
+                        x=x.replace('&', '\string&')
+                        ref.append(x)
+                if 'host' in stream_yaml['name_discovery'].keys():
+                    host_key = stream_yaml['name_discovery']['host']
+                    if host_key in ['MW', 'LF']:
+                        host = host_key
+                    else:
+                        if os.path.isfile(path + host_key +'.yaml'):  
+                            with open(path + host_key +'.yaml', 'r') as stream:
+                                stream_yaml_key = yaml.load(stream, Loader=yaml.Loader)
+                                host = stream_yaml_key['name_discovery']['name']
+                        else:
+                            host = host_key
+                            host=host.replace('_', ' ')
+                            # print('no host key', host_key)
+                out_str = '' + name + ' & '
+                place =0
+                if len(other_name)>0:
+                    out_str += other_name[place] + ' & '
+                else:
+                    out_str +=  ' & '
+                out_str += x1 + ' & ' + x2  + ' & '
+                out_str += host + ' & '
+                if len(ref)>0:
+                    out_str += "\\citet{" +ref[place] +'}' + ' & '
+                else:
+                    out_str +=  ' & '
+                place +=1
+            #     print(k,  x1, x2)
+        #         print( out_str+ ' \\\\')
+                fp =0
+                if 'false_positive' in stream_yaml['name_discovery'].keys():
+                    fp = stream_yaml['name_discovery']['false_positive']
+#                     print(stream_yaml['name_discovery']['false_positive'])
+                if fp==1:
+                    out_str +=  ' FP & '
+                else:
+                    out_str +=  '  & '
+
+#                 if stream_yaml_key[classification_column][i]==1:
+#                     out_str +=  classification_output
+#                 elif input_table[classification_column][i]==0:
+#                     out_str +=  '  '        
+
+                # if :
+                out_str += end_line+'\n'
+                # else:
+                #     out_str += '\n'
+                f.write(out_str )
+                while len(other_name)>place or len(ref) > place:
+                    out_str2 = ' & '
+                    if len(other_name)>place:
+                        name = latex_name(other_name[place])
+                        out_str2 +=  name
+                    out_str2 += ' &&&& '
+                    if len(ref)>place:
+                        out_str2 += "\\citet{" + ref[place]+'}'
+                    out_str2 += end_line
+                    place+=1
+                    f.write( out_str2+'\n')
+            except yaml.YAMLError as exc:
+                    print(exc)
+
+citations = []
+letter = []
+# 
+output = 'table/table_data/candidate_structure_data.tex'
+output_citations = 'table/table_data/candidate_structure_citations.tex'
+
+with open(output, 'w+') as f:
+    for candidate in range(len(table_list_sort)):
+        letter_to_list = []
+        yaml_name = table_list_sort[candidate][0]
+        # print(yaml_name, path+ yaml_name +'.yaml')
+        
+        with open(path+ yaml_name +'.yaml', 'r') as stream:
+            try:
+                # yaml_name = table_list_sort[candidate][0]
+                stream_yaml = yaml.load(stream, Loader=yaml.Loader)
+                ## this adds combines all the citations per object that this table is using
+                cite_temp = []
+                if 'structure' in stream_yaml.keys() and 'ref_structure' in stream_yaml['structure'].keys():
+                    if ma.is_masked(stream_yaml['structure']['ref_structure'])==False:
+                        cite_temp.append(stream_yaml['structure']['ref_structure'])
+                if 'm_v' in stream_yaml.keys() and 'ref_m_v' in stream_yaml['m_v'].keys():
+                    if ma.is_masked(stream_yaml['m_v']['ref_m_v'])==False:
+                        cite_temp.append(stream_yaml['m_v']['ref_m_v'])
+                if 'distance' in stream_yaml.keys() and 'ref_distance' in stream_yaml['distance'].keys():
+                    if ma.is_masked(stream_yaml['distance']['ref_distance'])==False:
+                        cite_temp.append(stream_yaml['distance']['ref_distance'])
+
+                ## unique entries
+                cite_temp2 = np.unique(cite_temp)
+        #             print(input_table['key'][i], cite_temp2)
+                ## this checks if a citation has already been used and pulls it, otherwise it finds the next letter to assign to a citation 
+                for tt in cite_temp2:
+                    if  isinstance(tt,str)==False:
+                        continue
+        #                 if not tt:
+        #                     continue
+        #                 if len(tt)<5:
+        #                     continue
+                    if tt in  citations:
+                        letter_to_list.append(letter[citations.index(tt)])
+                    else:
+                        citations.append(tt)
+                        letter_to_list.append(long_list[len(letter)])
+                        letter.append(long_list[len(letter)])
+
+                letter_to_list_string = ""
+                if len(letter_to_list)>0:
+                    for kk in letter_to_list:
+                        letter_to_list_string+=kk  +','
+                    letter_to_list_string = letter_to_list_string[:-1]
+                rh_str = ''
+                str_rhalf = ''
+                if 'structure' in stream_yaml.keys() and 'rhalf' in stream_yaml['structure'].keys():
+                    rh_str = make_latex_value(stream_yaml['structure']['rhalf'], np.ma.masked,np.ma.masked, n=2)
+                def dm(x):
+                    return pow(10., x/5.+1.)/1000.
+                dist_str = ''
+                dm_str = ''
+                if 'distance' in stream_yaml.keys() and 'distance' in stream_yaml.keys()  and 'distance_modulus' in stream_yaml['distance'].keys():
+                    d = dm(stream_yaml['distance']['distance_modulus'])
+                    dm_str = make_latex_value(stream_yaml['distance']['distance_modulus'], np.ma.masked,np.ma.masked, n=2)
+                    dist_str = make_latex_value(d, np.ma.masked,np.ma.masked, n=1)
+                if 'distance' in stream_yaml.keys() and 'structure' in stream_yaml.keys() and 'rhalf' in stream_yaml['structure'].keys() and 'distance_modulus' in stream_yaml['distance'].keys():
+                    d = dm(stream_yaml['distance']['distance_modulus'])
+                    rh = d*stream_yaml['structure']['rhalf']/180./60.*1000.*np.pi
+                    str_rhalf = make_latex_value(rh, np.ma.masked,np.ma.masked, n=1)
+                v_str = ''
+                mv_str = ''
+                if 'distance' in stream_yaml.keys() and 'distance_modulus' in stream_yaml['distance'].keys() and 'apparent_magnitude_v' in stream_yaml['m_v'].keys():
+                    mv_str = make_latex_value(stream_yaml['m_v']['apparent_magnitude_v']-stream_yaml['distance']['distance_modulus'], np.ma.masked,np.ma.masked, n=1)
+                if 'm_v' in stream_yaml.keys() and 'apparent_magnitude_v' in stream_yaml['m_v'].keys():
+                    v_str = make_latex_value(stream_yaml['m_v']['apparent_magnitude_v'], np.ma.masked,np.ma.masked, n=1) 
+                end_line = '\\\\'
+                if i == len(table_list_sort)-1:
+                    end_line=''
+                ## output each row of our table, plus the citations at the end of the line
+                name = latex_name(stream_yaml['name_discovery']['name'])
+                f.write(name + '&'+"{:0.4f}".format(stream_yaml['location']['ra'])+'&'+"{:0.4f}".format(stream_yaml['location']['dec'])+'&'+
+                      rh_str+'&'+
+                      str_rhalf + '& '+
+                      dm_str +' & '+
+                     dist_str + ' & '+ v_str+ ' & '+
+                       mv_str + ' & '+ letter_to_list_string+
+                      end_line+'\n')
+            except yaml.YAMLError as exc:
+                print(exc)
+with open(output_citations, 'w+') as f:
+    for i,j in zip(letter, citations):
+    #     print(i, j)
+        j = j.replace('&', '\string&')
+        f.write( "("+i+") \citet{"+j+"}\n",)
+        

@@ -1,20 +1,28 @@
+key: patchick_99
+table: gc_disk
+location:
+  dec: -29.81277778
+  ra: 273.9458333
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 2004
+  host: MW
+  name: Patchick 99
+  other_name:
+  - DSH J1815.7-2948
+  ref_discovery:
+  - Bica2019AJ....157...12B
 age:
   age: 10.0
   age_em: 2.0
   age_ep: 2.0
   ref_age: Garro2021A&A...649A..86G
 distance:
-  distance: 6.6
-  distance_em: 0.6
-  distance_ep: 0.6
-  distance_modulus: 14.02
-  distance_modulus_em: 0.04
-  distance_modulus_ep: 0.04
-  ref_distance: Garro2021A&A...649A..86G
-key: patchick_99
-location:
-  dec: -29.81277778
-  ra: 273.9458333
+  distance_modulus: 14.13
+  distance_modulus_em: 0.13
+  distance_modulus_ep: 0.13
+  ref_distance: Butler2024arXiv240113825B
 m_v:
   apparent_magnitude_v: 8.82
   ref_m_v: Garro2021A&A...649A..86G
@@ -23,13 +31,6 @@ metallicity_photometric:
   metallicity_photometric_em: 0.2
   metallicity_photometric_ep: 0.2
   ref_metallicity_photometric: Garro2021A&A...649A..86G
-name_discovery:
-  confirmed_real: 0
-  confirmed_star_cluster: 0
-  host: MW
-  name: Patchick 99
-  ref_discovery:
-  - Bica2019AJ....157...12B
 proper_motion:
   pmdec: -5.49
   pmdec_em: 2.02
@@ -39,10 +40,19 @@ proper_motion:
   pmra_ep: 1.74
   ref_proper_motion: Garro2021A&A...649A..86G
 structure:
-  ref_structure: Garro2021A&A...649A..86G
   rhalf: 1.87
+  ref_structure: Garro2021A&A...649A..86G
 structure_king:
   rcore: 1.2
-  ref_structure_king: Garro2021A&A...649A..86G
   rking: 10.0
-table: gc_disk
+  ref_structure_king: Garro2021A&A...649A..86G
+velocity:
+  ref_vlos: Butler2024arXiv240113825B
+  vlos_systemic: -92
+  vlos_systemic_em: 10
+  vlos_systemic_ep: 10
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.75
+  metallicity_spectroscopic_em: 0.3
+  metallicity_spectroscopic_ep: 0.3
+  ref_metallicity_spectroscopic: Butler2024arXiv240113825B
