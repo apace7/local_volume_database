@@ -1,0 +1,41 @@
+key: Scl-MM-dw5
+table: dwarf_local_field_distant
+location:
+  ra: 12.60776
+  dec: -26.72726
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2023
+  host: NGC_0253
+  name: Scl-MM-Dw5
+  ref_discovery:
+  - MutluPakdil2022ApJ...926...77M
+notes:
+- HI gas upper limit 3 sigma
+- spatial units = arcsec
+structure:
+  rhalf: 19
+  rhalf_em: 5.2
+  rhalf_ep: 5.2
+  ellipticity: 0.66
+  ellipticity_em: 0.11
+  ellipticity_ep: 0.11
+  position_angle: 169.0
+  position_angle_em: 7.0
+  position_angle_ep: 7.0
+  ref_structure: MutluPakdil2022ApJ...926...77M
+distance:
+  distance_modulus: 27.95
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.15
+  ref_distance: MutluPakdil2022ApJ...926...77M
+m_v:
+  apparent_magnitude_v: 20.45
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.28
+  ref_m_v: MutluPakdil2022ApJ...926...77M
+flux_HI:
+  flux_HI_ul: 1
+  ref_flux_HI: MutluPakdil2022ApJ...926...77M
+

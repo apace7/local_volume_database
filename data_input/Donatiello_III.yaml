@@ -1,0 +1,55 @@
+key: Donatiello_III
+table: dwarf_local_field_distant
+location:
+  ra: 17.35240
+  dec: -27.34707
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2021
+  host: NGC_0253
+  name: Donatiello III
+  ref_discovery:
+  - MartinezDelgado2021A&A...652A..48M
+  - MutluPakdil2024arXiv240114457M
+notes:
+  - spatial units arcsec
+structure:
+  rhalf: 12.6
+  rhalf_em: 0.8
+  rhalf_ep: 0.8
+  ellipticity: 0.47
+  ellipticity_em: 0.05
+  ellipticity_ep: 0.05
+  position_angle: 173
+  position_angle_em: 4
+  position_angle_ep: 4
+  ref_structure: MutluPakdil2024arXiv240114457M
+distance:
+  distance_modulus: 27.64
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.11
+  ref_distance: MutluPakdil2024arXiv240114457M
+m_v:
+  apparent_magnitude_v: 18.73
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: MutluPakdil2024arXiv240114457M
+structure_sersic:
+  n_sersic: 0.56
+  n_sersic_em: 0.01
+  n_sersic_ep: 0.01
+  rad_sersic: 8.45
+  rad_sersic_em: 0.17
+  rad_sersic_ep: 0.17
+  ellipticity: 0.59
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: -10.4
+  position_angle_em: 1.6
+  position_angle_ep: 1.6
+  ref_structure_sersic: MartinezDelgado2021A&A...652A..48M
+flux_HI:
+  flux_HI_ul: 0.69
+  ref_flux_HI: MutluPakdil2024arXiv240114457M
+

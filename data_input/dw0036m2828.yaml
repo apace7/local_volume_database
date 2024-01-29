@@ -1,0 +1,44 @@
+key: dw0036m2828
+table: dwarf_local_field_distant
+location:
+  ra: 9.12783 # [deg]
+  dec: -28.46933 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2022
+  host: NGC_0253
+  name: dw0036m2828
+  # other_name:
+  # - list
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+  - MutluPakdil2024arXiv240114457M
+  abbreviation: ''
+notes:
+  - 3sigma HI gas mass upper limit MutluPakdil2024arXiv240114457M
+structure:
+## the ellipticity, position_angle here are the version in the standard table
+  rhalf: 18.38 # [arcmin]
+  rhalf_em: 2.4
+  rhalf_ep: 2.4
+  ellipticity: 0.38
+  ellipticity_em: 0.9
+  ellipticity_ep: 0.9
+  position_angle: 56
+  position_angle_em: 9
+  position_angle_ep: 9
+  ref_structure: MutluPakdil2024arXiv240114457M
+distance:
+  distance_modulus: 27.88 
+  distance_modulus_em: 0.20
+  distance_modulus_ep: 0.20
+  ref_distance: MutluPakdil2024arXiv240114457M
+m_v:
+  apparent_magnitude_v: 19.13
+  apparent_magnitude_v_em: 0.35
+  apparent_magnitude_v_ep: 0.35
+  ref_m_v: MutluPakdil2024arXiv240114457M
+flux_HI:
+  flux_HI_ul: 0.048
+  ref_flux_HI: MutluPakdil2024arXiv240114457M ## mostly for flux_HI
