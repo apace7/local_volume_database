@@ -59,11 +59,13 @@ for i,j in zip(col_name_gc, col_type_gc):
 comb_dwarf_mw = table.Table(np.zeros((Counter(table_list)['dwarf_mw'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 comb_dwarf_m31 = table.Table(np.zeros((Counter(table_list)['dwarf_m31'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 comb_dwarf_lf = table.Table(np.zeros((Counter(table_list)['dwarf_local_field'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
+comb_dwarf_lf_distant = table.Table(np.zeros((Counter(table_list)['dwarf_local_field_distant'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 
 for i,j in zip(col_name_dwarf, col_type_dwarf):
     comb_dwarf_mw[i] = np.ma.masked_all(len(comb_dwarf_mw), dtype=j)
     comb_dwarf_m31[i] = np.ma.masked_all(len(comb_dwarf_m31), dtype=j)
     comb_dwarf_lf[i] = np.ma.masked_all(len(comb_dwarf_lf), dtype=j)
+    comb_dwarf_lf_distant[i] = np.ma.masked_all(len(comb_dwarf_lf_distant), dtype=j)
 
 ## distance modulus
 def dist_mod(mu, mu_em=0, mu_ep=0):
@@ -89,7 +91,11 @@ def add_to_table(yaml_input, table_output, place, ):
                     table_output[name][place] = yaml_input[y][x[list_key]]
     return missing_key
 
-def value_add(input_table, table_type='dwarf'):
+def value_add(input_table, table_type='dwarf', **kwargs):
+    spatial_units = kwargs.get("spatial_units", "arcmin")
+    spatial_units_conversion = 60.
+    if spatial_units == 'arcsec':
+        spatial_units_conversion = 3600.
     ## value added columns
     input_table['M_V'] = input_table['apparent_magnitude_v']-input_table['distance_modulus']
     input_table['M_V_em'] = input_table['apparent_magnitude_v_em']
@@ -100,7 +106,7 @@ def value_add(input_table, table_type='dwarf'):
     input_table['distance_em'] = dem
     input_table['distance_ep'] = dep
 
-    input_table['rhalf_physical'] = input_table['distance']*1000.*input_table['rhalf']/60./180.*np.pi
+    input_table['rhalf_physical'] = input_table['distance']*1000.*input_table['rhalf']/spatial_units_conversion/180.*np.pi
     input_table['rhalf_sph_physical'] = np.ma.masked_all(len(input_table), dtype=float)
     for i in range(len(input_table)):
         if ma.is_masked(input_table['ellipticity'][i])==False:
@@ -144,6 +150,7 @@ missing_table_key = []
 place_dwarf_mw = 0
 place_dwarf_m31 = 0
 place_dwarf_local_field = 0
+place_dwarf_local_field_distant = 0
 place_gc_harris = 0
 place_gc_disk = 0
 place_gc_ufsc =0 
@@ -161,6 +168,9 @@ for i in range(len(dir_list)):
         elif stream_yaml['table'] == 'dwarf_local_field':
             miss = add_to_table(stream_yaml, comb_dwarf_lf, place_dwarf_local_field)
             place_dwarf_local_field+=1 
+        elif stream_yaml['table'] == 'dwarf_local_field_distant':
+            miss = add_to_table(stream_yaml, comb_dwarf_lf_distant, place_dwarf_local_field_distant)
+            place_dwarf_local_field_distant+=1 
         elif stream_yaml['table'] == 'gc_harris':
             miss = add_to_table(stream_yaml, comb_gc_harris, place_gc_harris)
             place_gc_harris+=1
@@ -194,11 +204,12 @@ comb_gc_dwarf = value_add(comb_gc_dwarf, table_type='gc')
 comb_dwarf_mw = value_add(comb_dwarf_mw, table_type='dwarf')
 comb_dwarf_m31 = value_add(comb_dwarf_m31, table_type='dwarf')
 comb_dwarf_lf = value_add(comb_dwarf_lf, table_type='dwarf')
-
+comb_dwarf_lf_distant = value_add(comb_dwarf_lf_distant, table_type='dwarf', spatial_units='arcsec')
 
 comb_dwarf_mw.write('data/dwarf_mw.csv', format='csv', overwrite=True)
 comb_dwarf_m31.write('data/dwarf_m31.csv', format='csv',overwrite=True)
 comb_dwarf_lf.write('data/dwarf_local_field.csv', format='csv',overwrite=True)
+comb_dwarf_lf_distant.write('data/dwarf_local_field_distant.csv', format='csv',overwrite=True)
 
 comb_gc_disk.write('data/gc_disk.csv', format='csv',overwrite=True)
 comb_gc_harris.write('data/gc_harris.csv', format='csv',overwrite=True)

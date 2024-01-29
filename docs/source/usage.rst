@@ -38,10 +38,11 @@ The following are the available tables(in csv and fits file formats).
 * dwarf_mw : Milky Way dwarf galaxies (the most distant is Eridanus 2)
 * dwarf_m31: M31 dwarf galaxies
 * dwarf_local_field: dwarf galaxies outside of MW/M31 to ~ 3 Mpc, extension of galaxies from McConnachie 2012
+* dwarf_local_field_distant: dwarf galaxies with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete. 
 * gc_ufsc: faint star-cluster like systems (generally rhalf < 20 pc and M_V > -3 and at high Galactic latitudes abs(b) > ~5-10). A number of these systems are likely tidally stripped star clusters, tidally stripped dwarf galaxies, or the faintest dwarf galaxies. Many have are ambiguous classifications and are difficult to classify. 
 * gc_disk: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these objects might be open clusters
 * gc_harris: globular clusters in Harris catalog (this exclude Koposov 1 and 2 which are in the gc_ufsc table)
-* gc_dwarf_hosted: Globular clusters hosted by dwarf galaxies. This does not include the Sagittarius GCs which are in gc_harris. 
+* gc_dwarf_hosted: Globular clusters hosted by dwarf galaxies. This does not include the Sagittarius GCs which are in gc_harris. Incomplete table.
 
 There are two extra tables (data/pm_overview.csv and data/j_factor.csv). Both are collections of measurements (the other tables have one measurement per object). 
 pm_overview.csv: key, reference, proper motion measurement, method (this includes most proper motion measurements of dwarf galaxies)
@@ -126,19 +127,19 @@ The collections are split such that a single reference can describe the contents
 
   * **confirmed_star_cluster** -- 0 or 1. 1 = confirmed star cluster.  
 
-  * **confirmed_real** --
+  * **confirmed_real** -- 1 = Object is confirmed to be physical system.  Generally from spectroscopic radial velocity measurements. 
 
-  * **false_positive** -- 
+  * **false_positive** -- 1 = Object is confirmed to be a false positive.  
 
 * **structure** -- yaml collection
   
-  * **rhalf** -- elliptical half-light radius (or plummer radius) [arcmin]
+  * **rhalf** -- elliptical half-light radius (or plummer radius) [arcmin]. This corresponds to the major axis. Note that for the distant objects (currently dwarf_local_field_distant) the units are arcsec. 
 
-  * **ellipticity**
+  * **ellipticity** -- Ellipticity of the system, defined as 1 - b/a = 1- minor axis/major axis. 
 
-  * **position_angle**
+  * **position_angle** -- position angle defined north to east [degree]
 
-  * **ref_structure**
+  * **ref_structure** -- reference
 
 * **distance** -- yaml collection
 
@@ -158,7 +159,7 @@ The collections are split such that a single reference can describe the contents
   
   * **vlos_sigma** -- stellar velocity dispersion. [km/s]
   
-  * **ref_vlos**
+  * **ref_vlos** -- reference
 
 * **proper_motion**
   
@@ -166,7 +167,7 @@ The collections are split such that a single reference can describe the contents
 
   * **pmdec** -- systemic proper motion in the direction of declination [mas/yr]
 
-  * **ref_proper_motion** 
+  * **ref_proper_motion** -- reference
 
 * **spectroscopic_metallicity**
 
@@ -180,9 +181,9 @@ The collections are split such that a single reference can describe the contents
 
   * **metallicity_photometric** -- photometric metallicity. This can include isochrone fitting or narrow band photometry.
 
-  * **metallicity_photometric_sigma**
+  * **metallicity_photometric_sigma** -- metallicity dispersion from photometric measurements. Many for narrow band photometry. 
 
-  * **ref_metallicity_photometric**
+  * **ref_metallicity_photometric** -- reference
 
 * **structure_king**
 
@@ -206,4 +207,4 @@ The collections are split such that a single reference can describe the contents
   
   * **age** -- mean age of the systemic in [Gyr]. Mainly for star clusters. 
 
-  * **ref_age**
+  * **ref_age** -- reference

@@ -59,8 +59,12 @@ def add_year(table):
                 print(exc)
     return table['year']
 def latex_name(name):
+    if len(name)<6:
+        return name
     if name[:6] == 'Bootes':
         name = name.replace('oo', 'o\\"{o}')
+    if len(name)<5:
+        return name
     if name[:5] == 'Munoz':
         name = name.replace('n', '{\\~n}')
     return name
@@ -162,9 +166,13 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
                 place+=1
                 f.write( out_str2+'\n')
 
-def create_latex_table_structure(output, output_citations, input_table):
+def create_latex_table_structure(output, output_citations, input_table, **kwargs):
     citations = []
     letter = []
+    spatial_units = kwargs.get("spatial_units", "arcmin")
+    spatial_units_conversion = 60.
+    if spatial_units == 'arcsec':
+        spatial_units_conversion = 3600.
     with open(output, 'w+') as f:
         for i in range(len(input_table)):
             letter_to_list = []
@@ -214,12 +222,12 @@ def create_latex_table_structure(output, output_citations, input_table):
             x2 = x[np.logical_and(y>=0, y<1)]
             y2 = y[np.logical_and(y>=0, y<1)]
             z2 = z[np.logical_and(y>=0, y<1)]
-            comb = x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2
+            comb = x2 *np.pi/180./spatial_units_conversion*1000.*np.sqrt(1. - y2)* z2
             comb2 = comb[~np.isnan(comb)]
             if len(comb2)==0:
                 str_rhalf=''
                 if ma.is_masked(input_table['rhalf_em'][i])==True or ma.is_masked(input_table['rhalf_ep'][i])==True and ma.is_masked(input_table['rhalf'][i])==False:
-                    rh = input_table['distance'][i]*input_table['rhalf'][i]/180./60.*1000.*np.pi
+                    rh = input_table['distance'][i]*input_table['rhalf'][i]/180./spatial_units_conversion*1000.*np.pi
                     if ma.is_masked(input_table['ellipticity'][i])==False:
                         rh = rh*np.sqrt(1.-input_table['ellipticity'][i])
                     str_rhalf=make_latex_value(rh, input_table['rhalf_em'][i], input_table['rhalf_em'][i], n=1)  
@@ -404,6 +412,7 @@ def create_latex_table_mass(output, output_citations, input_table):
 dsph_mw = table.Table.read('data/dwarf_mw.csv')
 dsph_m31 = table.Table.read('data/dwarf_m31.csv')
 dsph_lf = table.Table.read('data/dwarf_local_field.csv')
+dsph_lf_distant = table.Table.read('data/dwarf_local_field_distant.csv')
 gc_ufsc = table.Table.read('data/gc_ufsc.csv')
 gc_disk = table.Table.read('data/gc_disk.csv')
 gc_harris = table.Table.read('data/gc_harris.csv')
@@ -412,6 +421,7 @@ gc_dwarf = table.Table.read('data/gc_dwarf_hosted.csv')
 dsph_mw['year'] = add_year(dsph_mw)
 dsph_m31['year'] = add_year(dsph_m31)
 dsph_lf['year'] = add_year(dsph_lf)
+dsph_lf_distant['year'] = add_year(dsph_lf_distant)
 
 gc_ufsc['year'] = add_year(gc_ufsc)
 gc_disk['year'] = add_year(gc_disk)
@@ -421,6 +431,7 @@ gc_dwarf['year'] = add_year(gc_dwarf)
 add_coord(dsph_m31)
 add_coord(dsph_mw)
 add_coord(dsph_lf)
+add_coord(dsph_lf_distant)
 
 add_coord(gc_ufsc)
 add_coord(gc_harris)
@@ -451,6 +462,13 @@ dsph_lf.sort('name')
 create_latex_table_structure('table/table_data/dwarf_lf_structure_data.tex', 'table/table_data/dwarf_lf_structure_citations.tex', dsph_lf)
 create_latex_table_kinematics('table/table_data/dwarf_lf_kinematics_data.tex', 'table/table_data/dwarf_lf_kinematics_citations.tex', dsph_lf)
 create_latex_table_mass('table/table_data/dwarf_lf_mass_data.tex', 'table/table_data/dwarf_lf_mass_citations.tex', dsph_lf)
+
+dsph_lf_distant.sort(['year', 'name'])
+create_latex_table_name_discovery('table/table_data/dwarf_lf_distant_name_discovery_data.tex', dsph_lf_distant)
+dsph_lf_distant.sort('name')
+create_latex_table_structure('table/table_data/dwarf_lf_distant_structure_data.tex', 'table/table_data/dwarf_lf_distant_structure_citations.tex', dsph_lf_distant, spatial_units='arcsec')
+create_latex_table_kinematics('table/table_data/dwarf_lf_distant_kinematics_data.tex', 'table/table_data/dwarf_lf_distant_kinematics_citations.tex', dsph_lf_distant)
+create_latex_table_mass('table/table_data/dwarf_lf_distant_mass_data.tex', 'table/table_data/dwarf_lf_distant_mass_citations.tex', dsph_lf_distant)
 
 gc_ufsc.sort(['year', 'name'])
 create_latex_table_name_discovery('table/table_data/gc_ufsc_name_discovery_data.tex', gc_ufsc, classification_column='confirmed_star_cluster', classification_output='Star Cluster')

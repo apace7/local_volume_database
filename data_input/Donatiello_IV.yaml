@@ -1,0 +1,55 @@
+key: Donatiello_IV
+table: dwarf_local_field_distant
+location:
+  ra: 11.76255
+  dec: -21.68071
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2021
+  host: NGC_0253
+  name: Donatiello IV
+  ref_discovery:
+  - MartinezDelgado2021A&A...652A..48M
+  - MutluPakdil2024arXiv240114457M
+notes:
+- distance is assumed to be NGC 253 distance
+- structure rhalf from sersic fit
+structure:
+  rhalf: 16.2
+  rhalf_em: 2.1
+  rhalf_ep: 2.1
+  ellipticity: 0.41
+  ellipticity_em: 0.09
+  ellipticity_ep: 0.09
+  position_angle: 195
+  position_angle_em: 7
+  position_angle_ep: 7
+  ref_structure: MutluPakdil2024arXiv240114457M
+distance:
+  distance_modulus: 27.98
+  distance_modulus_em: 0.33
+  distance_modulus_ep: 0.33
+  ref_distance: MutluPakdil2024arXiv240114457M
+m_v:
+  apparent_magnitude_v: 19.37
+  apparent_magnitude_v_em: 0.34
+  apparent_magnitude_v_ep: 0.34
+  ref_m_v: MutluPakdil2024arXiv240114457M
+structure_sersic:
+  n_sersic: 0.85
+  n_sersic_em: 0.12
+  n_sersic_ep: 0.12
+  rad_sersic: 10.21
+  rad_sersic_em: 0.65
+  rad_sersic_ep: 0.65
+  ellipticity: 0.4
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.03
+  position_angle: 24.0
+  position_angle_em: 3.7
+  position_angle_ep: 3.7
+  ref_structure_sersic: MartinezDelgado2021A&A...652A..48M
+flux_HI:
+  flux_HI_ul: 0.94
+  ref_flux_HI: MutluPakdil2024arXiv240114457M

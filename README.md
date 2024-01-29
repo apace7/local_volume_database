@@ -4,7 +4,7 @@
 
 Database of Local Volume dwarf galaxies and Milky Way star clusters. The database is complete for dwarf galaxies within ~3 Mpc. 
 The planned limiting distance is ~10 Mpc (i.e. resolved stars with HST or JWST).  
-The star cluster collections are currently limited to old star clusters/globular clusters in the Milky Way halo and do not include open clusters.
+The star cluster collections are currently limited to old star clusters/globular clusters in the Milky Way halo and globular clusters/star clusters hosted by low mas dwarf galaxies.
 
 The main data tables are located in the [`data/`](data/) folder in `csv` and `fits` format. 
 There is a summary table of the database at [link](https://github.com/apace7/local_volume_database/blob/main/table/lvdb_table.pdf).
