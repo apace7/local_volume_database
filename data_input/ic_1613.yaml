@@ -1,3 +1,19 @@
+key: ic_1613
+table: dwarf_local_field
+location:
+  dec: 2.117777778
+  ra: 16.1991667
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1906
+  host: LF
+  name: IC 1613
+  other_name:
+  - DDO 8
+  - UGC 668
+  ref_discovery:
+  - Wolf1906MNRAS..67...91W
 distance:
   distance: 731.1
   distance_em: 17.0
@@ -11,10 +27,6 @@ flux_HI:
   flux_HI_em: 52.1
   flux_HI_ep: 52.1
   ref_flux_HI: Putman2021ApJ...913...53P
-key: ic_1613
-location:
-  dec: 2.117777778
-  ra: 16.1991667
 m_v:
   apparent_magnitude_v: 9.2
   apparent_magnitude_v_em: 0.1
@@ -26,17 +38,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.01
   metallicity_spectroscopic_sigma: 0.37
   ref_metallicity_spectroscopic: Kirby2013ApJ...779..102K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1906
-  host: LF
-  name: IC 1613
-  other_name:
-  - DDO 8
-  - UGC 668
-  ref_discovery:
-  - Wolf1906MNRAS..67...91W
 proper_motion:
   pmdec: 0.01
   pmdec_em: 0.01
@@ -64,7 +65,6 @@ structure_sersic:
   rad_sersic_em: 0.05
   rad_sersic_ep: 0.05
   ref_structure_sersic: Higgs2021MNRAS.503..176H
-table: dwarf_local_field
 velocity:
   ref_vlos: Kirby2014MNRAS.439.1015K
   vlos_sigma: 10.8
