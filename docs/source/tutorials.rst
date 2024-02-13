@@ -63,5 +63,12 @@ Figure from the sample (this does include custom matplotlib stylefile and latex 
 
    Example figure
 
+Some Recommendations 
+---------------------------------------------
 
+For detailed analysis, I would recommendation fixing the version of the tables instead of the current version.  
+Each table can be loaded from a specific commit. For example, this loads an older version of the data/dwarf_mw.csv table.
 
+.. code-block:: python
+
+    dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/3a473c7f839f228a5702fa0293cebfea5fe3bcb6/data/dwarf_mw.csv')

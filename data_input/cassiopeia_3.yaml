@@ -1,3 +1,8 @@
+key: cassiopeia_3
+table: dwarf_m31
+location:
+  ra: 8.989333333333333
+  dec: 51.56005555555555
 distance:
   distance: 801.7
   distance_em: 22.0
@@ -9,15 +14,11 @@ distance:
 flux_HI:
   flux_HI_ul: 0.54
   ref_flux_HI: Putman2021ApJ...913...53P
-key: cassiopeia_3
-location:
-  ra: 8.989333333333333
-  dec: 51.56005555555555
 m_v:
   apparent_magnitude_v: 12.12
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
-  ref_m_v: Rhode2023arXiv230901045R
+  ref_m_v: Rhode2023AJ....166..180R
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.7
   metallicity_spectroscopic_em: 0.1
@@ -40,11 +41,10 @@ structure:
   position_angle: 91.0
   position_angle_em: 2.0
   position_angle_ep: 2.0
-  ref_structure: Rhode2023arXiv230901045R
+  ref_structure: Rhode2023AJ....166..180R
   rhalf: 4.73
   rhalf_em: 0.09
   rhalf_ep: 0.09
-table: dwarf_m31
 velocity:
   ref_vlos: Martin2014ApJ...793L..14M
   vlos_sigma: 8.4
@@ -66,4 +66,4 @@ structure_sersic:
   position_angle: 91
   position_angle_em: 2
   position_angle_ep: 2
-  ref_structure_sersic: Rhode2023arXiv230901045R
+  ref_structure_sersic: Rhode2023AJ....166..180R

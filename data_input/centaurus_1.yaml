@@ -1,15 +1,13 @@
-distance:
-  distance: 116.3
-  distance_em: 0.6
-  distance_ep: 1.6
-  distance_modulus: 20.33
-  distance_modulus_em: 0.01
-  distance_modulus_ep: 0.03
-  ref_distance: Mau2020ApJ...890..136M
 key: centaurus_1
+table: dwarf_mw
 location:
   dec: -40.902
   ra: 189.585
+distance:
+  distance_modulus: 20.354
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: MartinezVazquez2021AJ....162..253M
 m_v:
   apparent_magnitude_v: 14.78
   apparent_magnitude_v_em: 0.11
@@ -22,7 +20,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma: 0.38
   metallicity_spectroscopic_sigma_em: 0.05
   metallicity_spectroscopic_sigma_ep: 0.07
-  ref_metallicity_spectroscopic: Heiger2023arXiv230808602H
+  ref_metallicity_spectroscopic: Heiger2024ApJ...961..234H
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -39,7 +37,7 @@ proper_motion:
   pmra: -0.14
   pmra_em: 0.05
   pmra_ep: 0.05
-  ref_proper_motion: Heiger2023arXiv230808602H
+  ref_proper_motion: Heiger2024ApJ...961..234H
 structure:
   ellipticity: 0.4
   ellipticity_em: 0.1
@@ -51,9 +49,8 @@ structure:
   rhalf: 2.9
   rhalf_em: 0.4
   rhalf_ep: 0.5
-table: dwarf_mw
 velocity:
-  ref_vlos: Heiger2023arXiv230808602H
+  ref_vlos: Heiger2024ApJ...961..234H
   vlos_sigma: 4.2
   vlos_sigma_em: 0.5
   vlos_sigma_ep: 0.6

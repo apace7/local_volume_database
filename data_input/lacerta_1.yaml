@@ -1,3 +1,8 @@
+key: lacerta_1
+table: dwarf_m31
+location:
+  ra: 344.5509166666666
+  dec: 41.30619444444444
 distance:
   distance: 744.7
   distance_em: 17.0
@@ -9,15 +14,11 @@ distance:
 flux_HI:
   flux_HI_ul: 0.71
   ref_flux_HI: Putman2021ApJ...913...53P
-key: lacerta_1
-location:
-  ra: 344.5509166666666
-  dec: 41.30619444444444
 m_v:
   apparent_magnitude_v: 13.15
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
-  ref_m_v: Rhode2023arXiv230901045R
+  ref_m_v: Rhode2023AJ....166..180R
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.0
   metallicity_spectroscopic_em: 0.1
@@ -40,11 +41,10 @@ structure:
   position_angle: -63
   position_angle_em: 1
   position_angle_ep: 1
-  ref_structure: Rhode2023arXiv230901045R
+  ref_structure: Rhode2023AJ....166..180R
   rhalf: 3.13
   rhalf_em: 0.05
   rhalf_ep: 0.05
-table: dwarf_m31
 velocity:
   ref_vlos: Martin2014ApJ...793L..14M
   vlos_sigma: 10.3
@@ -66,4 +66,4 @@ structure_sersic:
   position_angle: -64
   position_angle_em: 1
   position_angle_ep: 1
-  ref_structure_sersic: Rhode2023arXiv230901045R
+  ref_structure_sersic: Rhode2023AJ....166..180R

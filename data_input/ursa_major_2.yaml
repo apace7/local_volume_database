@@ -10,7 +10,8 @@ name_discovery:
   host: MW
   name: Ursa Major II
   ref_discovery:
-  - Zucker2006ApJ...650L..41Z  
+  - Zucker2006ApJ...650L..41Z
+  - Grillmair2006ApJ...645L..37G
   abbreviation: UMaII
 distance:
   distance_modulus: 17.7

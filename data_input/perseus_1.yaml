@@ -1,3 +1,8 @@
+key: perseus_1
+table: dwarf_m31
+location:
+  ra: 45.347666666666655
+  dec: 40.984833333333334
 distance:
   distance: 704.7
   distance_em: 19.0
@@ -9,15 +14,11 @@ distance:
 flux_HI:
   flux_HI_ul: 0.56
   ref_flux_HI: Putman2021ApJ...913...53P
-key: perseus_1
-location:
-  ra: 45.347666666666655
-  dec: 40.984833333333334
 m_v:
   apparent_magnitude_v: 15.37
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
-  ref_m_v: Rhode2023arXiv230901045R
+  ref_m_v: Rhode2023AJ....166..180R
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.0
   metallicity_spectroscopic_em: 0.2
@@ -40,7 +41,7 @@ structure:
   position_angle: -59
   position_angle_em: 20
   position_angle_ep: 23
-  ref_structure: Rhode2023arXiv230901045R
+  ref_structure: Rhode2023AJ....166..180R
   rhalf: 1.40
   rhalf_em: 0.06
   rhalf_ep: 0.07
@@ -57,8 +58,7 @@ structure_sersic:
   rad_sersic: 1.39
   rad_sersic_em: 0.07
   rad_sersic_ep: 0.07
-  ref_structure_sersic: Rhode2023arXiv230901045R
-table: dwarf_m31
+  ref_structure_sersic: Rhode2023AJ....166..180R
 velocity:
   ref_vlos: Martin2014ApJ...793L..14M
   vlos_sigma: 4.2
