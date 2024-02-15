@@ -1,7 +1,9 @@
+key: hydra_2
+table: dwarf_mw
+location:
+  ra: 185.4286
+  dec: -31.9728
 distance:
-  distance: 151.0
-  distance_em: 8.0
-  distance_ep: 8.0
   distance_modulus: 20.9
   distance_modulus_em: 0.11
   distance_modulus_ep: 0.11
@@ -9,15 +11,11 @@ distance:
 flux_HI:
   flux_HI_ul: 0.6
   ref_flux_HI: Putman2021ApJ...913...53P
-key: hydra_2
-location:
-  dec: -31.986
-  ra: 185.4251
 m_v:
   apparent_magnitude_v: 15.8
-  apparent_magnitude_v_em: 0.3
-  apparent_magnitude_v_ep: 0.3
-  ref_m_v: Martin2015ApJ...804L...5M
+  apparent_magnitude_v_em: 0.22
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: Richstein2024arXiv240208731R
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.02
   metallicity_spectroscopic_em: 0.08
@@ -43,17 +41,28 @@ proper_motion:
   pmra_em: 0.14
   pmra_ep: 0.14
   ref_proper_motion: Pace2022ApJ...940..136P
+# structure:
+#   rhalf: 2.13
+#   rhalf_em: 0.35
+#   rhalf_ep: 0.42
+#   ellipticity: 0.3
+#   ellipticity_em: 0.09
+#   ellipticity_ep: 0.09
+#   position_angle: -9
+#   position_angle_em: -9
+#   position_angle_ep: 8
+#   ref_structure: Richstein2024arXiv240208731R
 structure:
-  ellipticity: 0.01
-  ellipticity_em: 0.01
-  ellipticity_ep: 0.19
-  position_angle: 28.0
-  position_angle_em: 35.0
-  position_angle_ep: 40.0
-  ref_structure: Martin2015ApJ...804L...5M
-  rhalf: 1.7
-  rhalf_em: 0.2
-  rhalf_ep: 0.3
+  rhalf: 1.52
+  rhalf_em: 0.28
+  rhalf_ep: 0.28
+  ellipticity: 0.24
+  ellipticity_em: 0.16
+  ellipticity_ep: 0.16
+  position_angle: 16
+  position_angle_em: 25
+  position_angle_ep: 25
+  ref_structure: Munoz2018ApJ...860...66M
 structure_sersic:
   n_sersic: 1.2
   n_sersic_em: 0.46
@@ -62,7 +71,6 @@ structure_sersic:
   rad_sersic_em: 0.32
   rad_sersic_ep: 0.32
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Kirby2015ApJ...810...56K
   vlos_sigma_ul: 4.5

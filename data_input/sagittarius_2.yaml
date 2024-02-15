@@ -1,20 +1,18 @@
+key: sagittarius_2
+table: gc_ufsc
+location:
+  ra: 298.16875
+  dec: -22.06805556
 distance:
-  distance: 70.2
-  distance_em: 5.0
-  distance_ep: 5.0
   distance_modulus: 19.2
   distance_modulus_em: 0.2
   distance_modulus_ep: 0.2
   ref_distance: MutluPakdil2018ApJ...863...25M
-key: sagittarius_2
-location:
-  dec: -22.06805556
-  ra: 298.16875
 m_v:
-  apparent_magnitude_v: 14.0
-  apparent_magnitude_v_em: 0.1
-  apparent_magnitude_v_ep: 0.1
-  ref_m_v: MutluPakdil2018ApJ...863...25M
+  apparent_magnitude_v: 13.82
+  apparent_magnitude_v_em: 0.04
+  apparent_magnitude_v_ep: 0.06
+  ref_m_v: Richstein2024arXiv240208731R
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.23
   metallicity_spectroscopic_em: 0.07
@@ -27,7 +25,7 @@ name_discovery:
   host: MW
   name: Sagittarius II
   other_name:
-  - Laevens 4
+  - Laevens 5
   ref_discovery:
   - Laevens2015ApJ...813...44L
   abbreviation: SgrII
@@ -40,12 +38,15 @@ proper_motion:
   pmra_ep: 0.035
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
-  ellipticity_ul: 0.1
-  ref_structure: MutluPakdil2018ApJ...863...25M
-  rhalf: 1.6
-  rhalf_em: 0.1
-  rhalf_ep: 0.1
-table: gc_ufsc
+  rhalf: 1.85
+  rhalf_em: 0.07
+  rhalf_ep: 0.08
+  ellipticity: 0.03
+  ellipticity_ul: 0.08
+  position_angle: 96
+  position_angle_em: 32
+  position_angle_ep: 50
+  ref_structure: Richstein2024arXiv240208731R
 velocity:
   ref_vlos: Longeard2021MNRAS.503.2754L
   vlos_sigma: 1.7
