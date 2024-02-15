@@ -47,5 +47,5 @@ flux_HI:
   vlos_systemic_HI: 249.6 #[km/s]
   vlos_systemic_HI_em: 5.0
   vlos_systemic_HI_ep: 5.0
-  ref_flux_HI: reWestmeier2017MNRAS.472.4832Wf
+  ref_flux_HI: Westmeier2017MNRAS.472.4832W
 

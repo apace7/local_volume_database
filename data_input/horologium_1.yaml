@@ -1,7 +1,9 @@
+key: horologium_1
+table: dwarf_mw
+location:
+  ra: 43.8755
+  dec: -54.1174
 distance:
-  distance: 79.0
-  distance_em: 4.0
-  distance_ep: 4.0
   distance_modulus: 19.5
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
@@ -9,15 +11,11 @@ distance:
 flux_HI:
   flux_HI_ul: 0.51
   ref_flux_HI: Putman2021ApJ...913...53P
-key: horologium_1
-location:
-  dec: -54.116
-  ra: 43.8813
 m_v:
-  apparent_magnitude_v: 16.1
-  apparent_magnitude_v_em: 0.1
-  apparent_magnitude_v_ep: 0.1
-  ref_m_v: Koposov2015ApJ...805..130K
+  apparent_magnitude_v: 16.12
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.06
+  ref_m_v: Richstein2024arXiv240208731R
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.76
   metallicity_spectroscopic_em: 0.1
@@ -47,16 +45,16 @@ proper_motion:
   pmra_ep: 0.034
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
-  ellipticity: 0.16
+  rhalf: 1.61
+  rhalf_em: 0.13
+  rhalf_ep: 0.13
+  ellipticity: 0.27
   ellipticity_em: 0.05
-  ellipticity_ep: 0.06
-  position_angle: 67.0
-  position_angle_em: 14.0
-  position_angle_ep: 13.0
-  ref_structure: Moskowitz2020ApJ...892...27M
-  rhalf: 1.7
-  rhalf_em: 0.1
-  rhalf_ep: 0.1
+  ellipticity_ep: 0.05
+  position_angle: 44
+  position_angle_em: 6
+  position_angle_ep: 6
+  ref_structure: Richstein2024arXiv240208731R
 structure_sersic:
   n_sersic: 0.98
   n_sersic_em: 0.47
@@ -65,7 +63,6 @@ structure_sersic:
   rad_sersic_em: 0.34
   rad_sersic_ep: 0.34
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Koposov2015ApJ...811...62K
   vlos_sigma: 4.9

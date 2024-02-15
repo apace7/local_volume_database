@@ -1,7 +1,9 @@
+key: horologium_2
+table: dwarf_mw
+location:
+  ra: 49.1310
+  dec: -50.0090
 distance:
-  distance: 78.0
-  distance_em: 8.0
-  distance_ep: 8.0
   distance_modulus: 19.46
   distance_modulus_em: 0.2
   distance_modulus_ep: 0.2
@@ -9,18 +11,14 @@ distance:
 flux_HI:
   flux_HI_ul: 0.54
   ref_flux_HI: Putman2021ApJ...913...53P
-key: horologium_2
-location:
-  dec: -50.0486
-  ra: 49.1077
 m_v:
-  apparent_magnitude_v: 16.86
-  apparent_magnitude_v_em: 0.3
-  apparent_magnitude_v_ep: 0.2
-  ref_m_v: Kim2015ApJ...808L..39K
+  apparent_magnitude_v: 17.39
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Richstein2024arXiv240208731R
 name_discovery:
   confirmed_dwarf: 0
-  confirmed_real: 0
+  confirmed_real: 1
   discovery_year: 2015
   host: MW
   name: Horologium II
@@ -36,16 +34,16 @@ proper_motion:
   pmra_ep: 0.173
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
-  ellipticity: 0.52
-  ellipticity_em: 0.17
-  ellipticity_ep: 0.13
-  position_angle: 127.0
-  position_angle_em: 11.0
-  position_angle_ep: 11.0
-  ref_structure: Kim2015ApJ...808L..39K
-  rhalf: 2.09
-  rhalf_em: 0.41
-  rhalf_ep: 0.44
+  rhalf: 1.69
+  rhalf_em: 0.17
+  rhalf_ep: 0.18
+  ellipticity: 0.23
+  ellipticity_em: 0.08
+  ellipticity_ep: 0.07
+  position_angle: 103
+  position_angle_em: 14
+  position_angle_ep: 11
+  ref_structure: Richstein2024arXiv240208731R
 structure_sersic:
   n_sersic: 1.09
   n_sersic_em: 0.37
@@ -54,4 +52,3 @@ structure_sersic:
   rad_sersic_em: 1.31
   rad_sersic_ep: 1.31
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw

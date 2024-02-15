@@ -1,3 +1,8 @@
+key: draco_2
+table: gc_ufsc
+location:
+  dec: 64.56527778
+  ra: 238.1983333
 distance:
   distance: 21.5
   distance_em: 0.4
@@ -6,10 +11,6 @@ distance:
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.05
   ref_distance: Longeard2018MNRAS.480.2609L
-key: draco_2
-location:
-  dec: 64.56527778
-  ra: 238.1983333
 m_v:
   apparent_magnitude_v: 15.87
   apparent_magnitude_v_em: 1.0
@@ -27,7 +28,7 @@ name_discovery:
   host: MW
   name: Draco II
   other_name:
-  - Laevens 5
+  - Laevens 4
   ref_discovery:
   - Laevens2015ApJ...813...44L
   abbreviation: DraII
@@ -55,7 +56,6 @@ structure:
   rhalf: 3.0
   rhalf_em: 0.5
   rhalf_ep: 0.7
-table: gc_ufsc
 velocity:
   ref_vlos: Longeard2018MNRAS.480.2609L
   vlos_sigma_ul: 5.9
