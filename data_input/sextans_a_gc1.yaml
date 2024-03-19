@@ -33,15 +33,18 @@ m_v:
   apparent_magnitude_v: 18.04
   ref_m_v: Beasley2019MNRAS.487.1986B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.38
-  metallicity_spectroscopic_em: 0.29
-  metallicity_spectroscopic_ep: 0.29
-  ref_metallicity_spectroscopic: Beasley2019MNRAS.487.1986B
+  metallicity_spectroscopic: -2.14
+  metallicity_spectroscopic_em: 0.04
+  metallicity_spectroscopic_ep: 0.04
+  ref_metallicity_spectroscopic: Gvozdenko2024arXiv240310597G
 velocity:
-  vlos_systemic: 305
-  vlos_systemic_em: 15
-  vlos_systemic_ep: 15
-  ref_vlos: Beasley2019MNRAS.487.1986B
+  vlos_systemic: 340.4
+  vlos_systemic_em: 0.6
+  vlos_systemic_ep: 0.6
+  vlos_sigma: 5.41
+  vlos_sigma_em: 0.77
+  vlos_sigma_ep: 0.77
+  ref_vlos: Gvozdenko2024arXiv240310597G
 age:
   age: 8.6
   age_em: 2.7

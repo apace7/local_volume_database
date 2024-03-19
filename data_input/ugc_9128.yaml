@@ -1,15 +1,13 @@
-distance:
-  distance: 2291.0
-  distance_em: 42.0
-  distance_ep: 42.0
-  distance_modulus: 26.8
-  distance_modulus_em: 0.04
-  distance_modulus_ep: 0.04
-  ref_distance: McConnachie2012AJ....144....4M
 key: ugc_9128
+table: dwarf_local_field
 location:
   dec: 23.05527778
   ra: 213.9854167
+distance:
+  distance_modulus: 26.75
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Newman2024arXiv240303086N
 m_v:
   apparent_magnitude_v: 14.4
   apparent_magnitude_v_em: 0.3
@@ -44,7 +42,6 @@ structure:
   rhalf: 0.64
   rhalf_em: 0.07
   rhalf_ep: 0.07
-table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 152.0
