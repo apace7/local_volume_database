@@ -67,6 +67,8 @@ for i,j in zip(col_name_dwarf, col_type_dwarf):
     comb_dwarf_lf[i] = np.ma.masked_all(len(comb_dwarf_lf), dtype=j)
     comb_dwarf_lf_distant[i] = np.ma.masked_all(len(comb_dwarf_lf_distant), dtype=j)
 
+    # comb_gc_ufsc[i] = np.ma.masked_all(len(comb_gc_ufsc), dtype=j)
+
 ## distance modulus
 def dist_mod(mu, mu_em=0, mu_ep=0):
     def dm(x):
@@ -197,6 +199,8 @@ print("objects missing (key)", Counter(missing_table_key))
 
 ## save output
 comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='gc')
+# comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='dwarf')
+
 comb_gc_harris = value_add(comb_gc_harris, table_type='gc')
 comb_gc_disk = value_add(comb_gc_disk, table_type='gc')
 comb_gc_dwarf = value_add(comb_gc_dwarf, table_type='gc')

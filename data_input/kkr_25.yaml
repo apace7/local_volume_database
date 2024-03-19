@@ -17,12 +17,12 @@ m_v:
   apparent_magnitude_v: 15.9
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
-  ref_m_v: McConnachie2012AJ....144....4M
+  ref_m_v: Karachentsev2001A&A...379..407K
 metallicity_photometric:
   metallicity_photometric: -2.1
   metallicity_photometric_em: 0.3
   metallicity_photometric_ep: 0.3
-  ref_metallicity_photometric: McConnachie2006MNRAS.365.1263M
+  ref_metallicity_photometric: Karachentsev2001A&A...379..407K
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
