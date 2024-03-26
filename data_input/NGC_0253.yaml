@@ -1,0 +1,80 @@
+key: NGC_0253
+table:  dwarf_local_field_distant
+location:
+  ra: 11.88800
+  dec: -25.28822
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: NGC_0253
+  name: NGC 253
+  other_name:
+  - ESO474-029
+  - PGC002789
+  - UGCA013
+#   ref_discovery:
+#   - list
+# notes:
+# - list
+# structure:
+#   rhalf: 0
+#   rhalf_em: 0
+#   rhalf_ep: 0
+#   ellipticity: 0
+#   ellipticity_em: 0
+#   ellipticity_ep: 0
+#   ellipticity_ul: 0
+#   position_angle: 0
+#   position_angle_em: 0
+#   position_angle_ep: 0
+#   ref_structure: ref
+distance:
+  distance_modulus: 27.70 
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: RadburnSmith2011ApJS..195...18R
+m_v:
+  apparent_magnitude_v: 7.11
+  # apparent_magnitude_v_em: 0
+  # apparent_magnitude_v_ep: 0
+  ref_m_v: Bailin2011ApJ...736...24B
+# metallicity_spectroscopic:
+#   metallicity_spectroscopic: 0
+#   metallicity_spectroscopic_em: 0
+#   metallicity_spectroscopic_ep: 0
+#   metallicity_spectroscopic_sigma: 0
+#   metallicity_spectroscopic_sigma_em: 0
+#   metallicity_spectroscopic_sigma_ep: 0
+#   metallicity_spectroscopic_sigma_ul: 0
+#   ref_metallicity_spectroscopic: ref
+# metallicity_photometric:
+#   metallicity_photometric: 0
+#   metallicity_photometric_em: 0
+#   metallicity_photometric_ep: 0
+#   ref_metallicity_photometric: ref
+# structure_sersic:
+#   n_sersic: 0
+#   n_sersic_em: 0
+#   n_sersic_ep: 0
+#   rad_sersic: 0
+#   rad_sersic_em: 0
+#   rad_sersic_ep: 0
+#   ellipticity: 0
+#   ellipticity_em: 0
+#   ellipticity_ep: 0
+#   ellipticity_ul: 0
+#   position_angle: 0
+#   position_angle_em: 0
+#   position_angle_ep: 0
+#   ref_structure_sersic: ref
+velocity:
+  vlos_systemic: 260.6
+  vlos_systemic_em: 5
+  vlos_systemic_ep: 6
+  ref_vlos: Westmeier2017MNRAS.472.4832W
+flux_HI:
+  flux_HI: 668
+  flux_HI_em: 67
+  flux_HI_ep: 67
+  ref_flux_HI: Westmeier2017MNRAS.472.4832W

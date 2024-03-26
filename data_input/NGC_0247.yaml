@@ -1,0 +1,71 @@
+key: NGC_0247
+table:  dwarf_local_field_distant
+location:
+  ra:  11.78562
+  dec: -20.76039
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: NGC_0247
+  name: NGC 247
+  other_name:
+  - ESO540-022
+  - PGC002758
+  - UGCA011
+#   ref_discovery:
+#   - list
+# notes:
+# - list
+# structure:
+#   rhalf: 0
+#   rhalf_em: 0
+#   rhalf_ep: 0
+#   ellipticity: 0
+#   ellipticity_em: 0
+#   ellipticity_ep: 0
+#   ellipticity_ul: 0
+#   position_angle: 0
+#   position_angle_em: 0
+#   position_angle_ep: 0
+#   ref_structure: ref
+distance:
+  distance_modulus: 27.85
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Jacobs2009AJ....138..332J
+m_v:
+  apparent_magnitude_v: 8.98
+  # apparent_magnitude_v_em: 0
+  # apparent_magnitude_v_ep: 0
+  # ref_m_v: ref
+# metallicity_photometric:
+#   metallicity_photometric: 0
+#   metallicity_photometric_em: 0
+#   metallicity_photometric_ep: 0
+#   ref_metallicity_photometric: ref
+# structure_sersic:
+#   n_sersic: 0
+#   n_sersic_em: 0
+#   n_sersic_ep: 0
+#   rad_sersic: 0
+#   rad_sersic_em: 0
+#   rad_sersic_ep: 0
+#   ellipticity: 0
+#   ellipticity_em: 0
+#   ellipticity_ep: 0
+#   ellipticity_ul: 0
+#   position_angle: 0
+#   position_angle_em: 0
+#   position_angle_ep: 0
+#   ref_structure_sersic: ref
+velocity:
+  vlos_systemic: 153
+  vlos_systemic_em: 5
+  vlos_systemic_ep: 5
+  ref_vlos: Westmeier2017MNRAS.472.4832W
+flux_HI:
+  flux_HI: 607
+  flux_HI_em: 61
+  flux_HI_ep: 61
+  ref_flux_HI: Westmeier2017MNRAS.472.4832W
