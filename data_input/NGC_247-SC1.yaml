@@ -7,7 +7,7 @@ name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
   discovery_year: 2022
-  host: NGC_247
+  host: NGC_0247
   name: NGC 247-SC1
   ref_discovery:
   - Romanowsky2023MNRAS.518.3164R

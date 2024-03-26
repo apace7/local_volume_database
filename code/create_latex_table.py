@@ -171,8 +171,12 @@ def create_latex_table_structure(output, output_citations, input_table, **kwargs
     letter = []
     spatial_units = kwargs.get("spatial_units", "arcmin")
     spatial_units_conversion = 60.
+    round_rhalf = 1
+    round_distance = 1
     if spatial_units == 'arcsec':
         spatial_units_conversion = 3600.
+        round_rhalf = 0
+        round_distance = 0
     with open(output, 'w+') as f:
         for i in range(len(input_table)):
             letter_to_list = []
@@ -230,10 +234,10 @@ def create_latex_table_structure(output, output_citations, input_table, **kwargs
                     rh = input_table['distance'][i]*input_table['rhalf'][i]/180./spatial_units_conversion*1000.*np.pi
                     if ma.is_masked(input_table['ellipticity'][i])==False:
                         rh = rh*np.sqrt(1.-input_table['ellipticity'][i])
-                    str_rhalf=make_latex_value(rh, input_table['rhalf_em'][i], input_table['rhalf_em'][i], n=1)  
+                    str_rhalf=make_latex_value(rh, input_table['rhalf_em'][i], input_table['rhalf_em'][i], n=round_rhalf)  
             else:
                 mean = corner.quantile(comb2, [.5, .1587, .8413, 0.0227501, 0.97725])
-                str_rhalf = make_latex_value(mean[0], mean[0]-mean[1], mean[2]-mean[0], n=1)
+                str_rhalf = make_latex_value(mean[0], mean[0]-mean[1], mean[2]-mean[0], n=round_rhalf)
         #     rhalf_pc = mean[0]
         #     rhalf_pc_error = (mean[2]-mean[1])/2.
             end_line = '\\\\'
@@ -247,7 +251,7 @@ def create_latex_table_structure(output, output_citations, input_table, **kwargs
                   make_latex_value(input_table['position_angle'][i], input_table['position_angle_em'][i], input_table['position_angle_ep'][i], n=1)+ '& '+
                   str_rhalf + '& '+
                   make_latex_value(input_table['distance_modulus'][i], input_table['distance_modulus_em'][i], input_table['distance_modulus_ep'][i], n=2)+' & '+
-                 make_latex_value(input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i], n=1)+ ' & '+ make_latex_value(input_table['apparent_magnitude_v'][i], np.ma.masked, np.ma.masked, n=1)+ ' & '+
+                 make_latex_value(input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i], n=round_distance)+ ' & '+ make_latex_value(input_table['apparent_magnitude_v'][i], np.ma.masked, np.ma.masked, n=1)+ ' & '+
                    make_latex_value(input_table['M_V'][i], input_table['M_V_em'][i], input_table['M_V_ep'][i], n=1)+ ' & '+ letter_to_list_string+
                   end_line+'\n')
     with open(output_citations, 'w+') as f:
