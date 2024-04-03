@@ -1,3 +1,8 @@
+key: sagittarius_dirr
+table: dwarf_local_field
+location:
+  dec: -17.68083333
+  ra: 292.4958333
 distance:
   distance: 1198.0
   distance_em: 47.0
@@ -11,10 +16,6 @@ flux_HI:
   flux_HI_em: 5.59
   flux_HI_ep: 5.59
   ref_flux_HI: Putman2021ApJ...913...53P
-key: sagittarius_dirr
-location:
-  dec: -17.68083333
-  ra: 292.4958333
 m_v:
   apparent_magnitude_v: 13.6
   apparent_magnitude_v_em: 0.2
@@ -26,9 +27,15 @@ metallicity_photometric:
   metallicity_photometric_ep: 0.5
   ref_metallicity_photometric: McConnachie2006MNRAS.365.1263M
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.88
-  metallicity_spectroscopic_em: 0.09
-  metallicity_spectroscopic_ep: 0.13
+  # metallicity_spectroscopic: -1.88
+  # metallicity_spectroscopic_em: 0.09
+  # metallicity_spectroscopic_ep: 0.13
+  metallicity_spectroscopic: -1.85
+  metallicity_spectroscopic_em: 0.07
+  metallicity_spectroscopic_ep: 0.07
+  metallicity_spectroscopic_sigma: 0.43
+  metallicity_spectroscopic_sigma_em: 0.05
+  metallicity_spectroscopic_sigma_ep: 0.06
   ref_metallicity_spectroscopic: Kirby2017ApJ...834....9K
 name_discovery:
   confirmed_dwarf: 1
@@ -43,6 +50,7 @@ name_discovery:
   - Longmore1978MNRAS.183P..97L
 notes:
 - Defines R_LG MC12
+- ABP measured metallicity mean/sigma with Normal/Gaussian from data in Kirby2017ApJ...834....9K
 proper_motion:
   pmdec: -0.37
   pmdec_em: 0.17
@@ -70,7 +78,6 @@ structure_sersic:
   rad_sersic_em: 0.08
   rad_sersic_ep: 0.08
   ref_structure_sersic: Higgs2021MNRAS.503..176H
-table: dwarf_local_field
 velocity:
   ref_vlos: Kirby2017ApJ...834....9K
   vlos_sigma: 9.4

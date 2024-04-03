@@ -18,7 +18,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -1.02
   metallicity_spectroscopic_em: 0.11
   metallicity_spectroscopic_ep: 0.11
-  ref_metallicity_spectroscopic: Gran2023arXiv231009868G
+  ref_metallicity_spectroscopic: Gran2024A&A...683A.167G
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -38,7 +38,7 @@ structure:
   rhalf_ep: 0.04
 table: gc_disk
 velocity:
-  ref_vlos: Gran2023arXiv231009868G
+  ref_vlos: Gran2024A&A...683A.167G
   vlos_systemic: -59.19
   vlos_systemic_em: 4.93
   vlos_systemic_ep: 4.93

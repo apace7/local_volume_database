@@ -10,10 +10,11 @@ name_discovery:
   name: DES J0111-1341
   other_name:
   - DES 2
+  - DES Sgr 1
   ref_discovery:
   - Luque2017MNRAS.468...97L
 notes:
-  - previously internally referred to as des_sag_1
+  - previously internally referred to as des_sag_1 by ABP
   - false positive based on the lack of detection in DES year 3 search DrlicaWagner2020ApJ...893...47D
   - false positive based on the the lack of an expected Gaia DR2 proper motion search Pace2019ApJ...875...77P 
 structure:
