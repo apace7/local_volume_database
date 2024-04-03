@@ -1,18 +1,17 @@
-distance:
-  distance: 80.5
-  distance_em: 2.6
-  distance_ep: 2.6
-  distance_modulus: 19.53
-  distance_modulus_em: 0.07
-  distance_modulus_ep: 0.07
-  ref_distance: Muraveva2020MNRAS.499.4040M
-flux_HI:
-  flux_HI_ul: 0.098
-  ref_flux_HI: Spekkens2014ApJ...795L...5S
 key: draco_1
+table: dwarf_mw
 location:
   dec: 57.9185
   ra: 260.0684
+distance:
+  distance_modulus: 19.557
+  distance_modulus_em: 0.040
+  distance_modulus_ep: 0.040
+  # combination of statistical and systematic errors
+  ref_distance: Bhardwaj2024arXiv240401394B
+flux_HI:
+  flux_HI_ul: 0.098
+  ref_flux_HI: Spekkens2014ApJ...795L...5S
 m_v:
   apparent_magnitude_v: 10.69
   apparent_magnitude_v_em: 0.05
@@ -73,7 +72,6 @@ structure_sersic:
   rad_sersic_em: 0.09
   rad_sersic_ep: 0.09
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Walker2015MNRAS.448.2717W
   vlos_sigma: 9.1

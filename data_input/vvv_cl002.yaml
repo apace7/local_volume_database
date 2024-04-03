@@ -4,8 +4,8 @@ location:
   dec: -28.84508333
   ra: 256.52625
 name_discovery:
-  confirmed_real: 0
-  confirmed_star_cluster: 0
+  confirmed_real: 1
+  confirmed_star_cluster: 1
   discovery_year: 2011
   host: MW
   name: VVV CL0002
@@ -56,9 +56,9 @@ velocity:
   vlos_systemic: -27.3
   vlos_systemic_em: 0.1
   vlos_systemic_ep: 0.1
-  ref_vlos: Minniti2023arXiv231216028M 
+  ref_vlos: Minniti2024A&A...683A.150M
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.54
   metallicity_spectroscopic_em: 0.27
   metallicity_spectroscopic_ep: 0.27
-  ref_metallicity_spectroscopic: Minniti2023arXiv231216028M
+  ref_metallicity_spectroscopic: Minniti2024A&A...683A.150M

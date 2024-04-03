@@ -1,3 +1,8 @@
+key: leo_a
+table: dwarf_local_field
+location:
+  dec: 30.74638889
+  ra: 149.8604167
 distance:
   distance: 717.0
   distance_em: 17.0
@@ -11,19 +16,21 @@ flux_HI:
   flux_HI_em: 6.67
   flux_HI_ep: 6.67
   ref_flux_HI: Putman2021ApJ...913...53P
-key: leo_a
-location:
-  dec: 30.74638889
-  ra: 149.8604167
 m_v:
   apparent_magnitude_v: 12.4
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
   ref_m_v: McConnachie2012AJ....144....4M
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.67
-  metallicity_spectroscopic_em: 0.08
-  metallicity_spectroscopic_ep: 0.09
+  # metallicity_spectroscopic: -1.67
+  # metallicity_spectroscopic_em: 0.08
+  # metallicity_spectroscopic_ep: 0.09
+  metallicity_spectroscopic: -1.60
+  metallicity_spectroscopic_em: 0.03
+  metallicity_spectroscopic_ep: 0.03
+  metallicity_spectroscopic_sigma: 0.32
+  metallicity_spectroscopic_sigma_em: 0.03
+  metallicity_spectroscopic_sigma_ep: 0.03
   ref_metallicity_spectroscopic: Kirby2017ApJ...834....9K
 name_discovery:
   confirmed_dwarf: 1
@@ -40,6 +47,7 @@ name_discovery:
   - Zwicky1942PhRv...61..489Z
 notes:
 - Defines R_LG MC12
+- ABP measured metallicity mean/sigma with Normal/Gaussian from data in Kirby2017ApJ...834....9K 
 proper_motion:
   pmdec: -0.06
   pmdec_em: 0.08
@@ -67,7 +75,6 @@ structure_sersic:
   rad_sersic_em: 0.09
   rad_sersic_ep: 0.09
   ref_structure_sersic: Higgs2021MNRAS.503..176H
-table: dwarf_local_field
 velocity:
   ref_vlos: Kirby2017ApJ...834....9K
   vlos_sigma: 9.0
