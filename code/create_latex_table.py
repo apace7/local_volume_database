@@ -274,6 +274,8 @@ def create_latex_table_kinematics(output, output_citations, input_table):
                 cite_temp.append(input_table['ref_vlos'][i])
             if ma.is_masked(input_table['ref_proper_motion'][i])==False:
                 cite_temp.append(input_table['ref_proper_motion'][i])
+            if ma.is_masked(input_table['ref_metallicity_spectroscopic'][i])==False:
+                cite_temp.append(input_table['ref_metallicity_spectroscopic'][i])
 
             ## unique entries
     #         if not cite_temp:
