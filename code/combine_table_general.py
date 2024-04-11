@@ -50,6 +50,8 @@ comb_gc_dwarf = table.Table(np.zeros((Counter(table_list)['gc_dwarf_hosted'], 3)
 
 ## add all the columns.  The columns are masked for missing entries 
 for i,j in zip(col_name_gc, col_type_gc):
+## the only difference between GC and dwarf is whether HI gas columns are included.  Have empty columns is fine.
+# for i,j in zip(col_name_dwarf, col_type_dwarf):
     comb_gc_ufsc[i] = np.ma.masked_all(len(comb_gc_ufsc), dtype=j)
     comb_gc_harris[i] = np.ma.masked_all(len(comb_gc_harris), dtype=j)
     comb_gc_disk[i] = np.ma.masked_all(len(comb_gc_disk), dtype=j)
@@ -103,6 +105,10 @@ def value_add(input_table, table_type='dwarf', **kwargs):
     input_table['M_V_em'] = input_table['apparent_magnitude_v_em']
     input_table['M_V_ep'] = input_table['apparent_magnitude_v_ep']
 
+    def lum(m_x, m_x_sun=4.83):
+        return pow(10., -.4*(m_x - m_x_sun) )
+    input_table['mass_stellar'] = np.log10(lum(input_table['M_V']) * 2.)
+
     d, dem, dep = dist_mod( input_table['distance_modulus'], input_table['distance_modulus_em'], input_table['distance_modulus_ep'])
     input_table['distance'] = d
     input_table['distance_em'] = dem
@@ -116,7 +122,6 @@ def value_add(input_table, table_type='dwarf', **kwargs):
         else:
             input_table['rhalf_sph_physical'][i] = input_table['rhalf_physical'][i]
 
-    
     input_table['surface_brightness_rhalf'] = input_table['M_V'] + 19.78 + input_table['distance_modulus'] +  2.5 * np.log10(np.degrees(np.arctan(input_table['rhalf_sph_physical']/1000./input_table['distance']))**2)
 
     if table_type=='dwarf':

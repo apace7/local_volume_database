@@ -69,6 +69,7 @@ columns:
 * rhalf_sph_physical: rhalf * distance * sqrt(1-ellipticity) in [parsec] (computed from other columns)
 * apparent_magnitude_v: apparent magnitude in V-band. Corrected for extinction. 
 * M_V: absolute V-band magnitude, computed from distance_modulus and apparent_magnitude_V
+* mass_stellar: log10 stellar mass assuming M/L=2 and computed from M_V [Msun]
 * surface_brightness_rhalf: average surface brightness within spherically averaged half-light radius [mag arcsec^-2]
 * vlos_systemic: heliocentric velocity of system [km/s]
 * vlos_sigma: velocity dispersion in line-of-sight [km/s]
@@ -83,9 +84,10 @@ columns:
 * age: Gyr units
 * metallicity_photometric: metallicity isochrone fitting (or non-spectroscopic metallicity)
 * flux_HI: ( Jy km s^−1 ), flux in HI only included for dwarf galaxies
-* ref: reference columns (ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion) of author last name + ADS bibcode. There is an associated bibtex file (latex/lvdb.bib) that includes all references in the database. 
+* mass_HI: log10 HI mass computed from flux_HI and distance [Msun]
+* ref: reference columns (ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion) have the format: author last name + ADS bibcode. 
 
-Many columns also have associatec error columns. These follow the format of name + _em (e.g., rhalf_em).
+Many columns also have associated error columns. These follow the format of name + _em, + _ep + _ul (e.g., rhalf_em).
 
 error columns: 
 
@@ -93,7 +95,8 @@ error columns:
 * _ep = error plus = plus 1 sigma (84% confidence interval)
 * _ul = upper limit at 95% confidence interval (some are at 5sigma, 90% or 84%, but the goal is to make it consistent)
 
-ref: reference of author last name + ADS bibcode
+ref: reference format is author last name + ADS bibcode. The author last name has special characters removed but capitalization is unchanged. 
+There is an associated bibtex file (latex/lvdb.bib) that includes all references in the database. 
 
 Decription of yaml files 
 ------------------------
@@ -212,7 +215,7 @@ The collections are split such that a single reference can describe the contents
 Citations to database and citations to the LVDB input
 -----------------------------
 
-The LVDB is set up to enable citations to the analysis and papers that serves as input to the LVDB. All reference columns (**ref_**) follow the same format of author last name + `NASA ADS bibcode <https://ui.adsabs.harvard.edu/>`_. There is a BibTeX file (`table/lvdb.bib <https://github.com/apace7/local_volume_database/blob/main/table/lvdb.bib>`_) with BibTeX entries from ADS with the key matching the LVDB reference column. There is an `ADS public library <https://ui.adsabs.harvard.edu/public-libraries/fVKkEJbdRyCmscCOwzsz6w>`_ that contains many of the input papers to the LVDB (with the goal to eventually contain all papers in the LVDB).  Papers replaced in the future will likely not be removed. 
+The LVDB is set up to enable citations to the analysis and papers that serves as input to the LVDB. All reference columns (**ref_**) follow the same format of author last name (removed of special characters) + `NASA ADS bibcode <https://ui.adsabs.harvard.edu/>`_. There is a BibTeX file (`table/lvdb.bib <https://github.com/apace7/local_volume_database/blob/main/table/lvdb.bib>`_) with BibTeX entries from ADS with the key matching the LVDB reference column. There is an `ADS public library <https://ui.adsabs.harvard.edu/public-libraries/fVKkEJbdRyCmscCOwzsz6w>`_ that contains many of the input papers to the LVDB (with the goal to eventually contain all papers in the LVDB).  Papers replaced in the future will likely not be removed. 
 The example notebook `example_notebooks/example_latex_citations.ipynb/ <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_latex_citations.ipynb>`_ contains an example of creating a latex table with citations using the LVDB. 
 
 As ADS bibcode are a fixed length of 19 characters, the ADS bibcode can be retrieved from the LVDB reference columns.  Other public tools such as  `adstex <https://github.com/yymao/adstex>`_ can be used to create bibtex files. 
