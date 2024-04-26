@@ -33,18 +33,20 @@ There is also a `pdf document <https://github.com/apace7/local_volume_database/b
 Decription of tables 
 --------------------
 
-The following are the available tables(in csv and fits file formats). 
+The following are the available tables (in csv and fits file formats). 
 
-* dwarf_mw : Milky Way dwarf galaxies (the most distant is Eridanus 2)
+* dwarf_mw : Milky Way dwarf galaxies (the most distant dwarf galaxy is Eridanus II at ~ 350 kpc)
 * dwarf_m31: M31 dwarf galaxies
-* dwarf_local_field: dwarf galaxies outside of MW/M31 to ~ 3 Mpc, extension of galaxies from McConnachie 2012
+* dwarf_local_field: dwarf galaxies outside of MW/M31 within the Local group to a distance of ~ 3 Mpc. This is an extension of galaxies from McConnachie 2012
+* dwarf_all : combination of dwarf_mw, dwarf_m31, dwarf_local_field
 * dwarf_local_field_distant: dwarf galaxies with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete. 
-* gc_ufsc: faint star-cluster like systems (generally rhalf < 20 pc and M_V > -3 and at high Galactic latitudes abs(b) > ~5-10). A number of these systems are likely tidally stripped star clusters, tidally stripped dwarf galaxies, or the faintest dwarf galaxies. Many have are ambiguous classifications and are difficult to classify. 
-* gc_disk: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these objects might be open clusters
-* gc_harris: globular clusters in Harris catalog (this exclude Koposov 1 and 2 which are in the gc_ufsc table)
+* gc_ufsc: faint star-cluster like systems (generally rhalf < 20 pc and M_V > -3 and at high Galactic latitudes abs(b) > ~5-10). A number of these systems are likely tidally stripped star clusters, tidally stripped dwarf galaxies, or the faintest dwarf galaxies. Many have are ambiguous classifications and are difficult to classify. Ultra-faint compact stellar systems. 
+* gc_disk: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these objects might be open clusters, and some objects have not been confirmed
+* gc_harris: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_ufsc table)
 * gc_dwarf_hosted: Globular clusters hosted by dwarf galaxies. This does not include the Sagittarius GCs which are in gc_harris. Incomplete table.
 
 There are two extra tables (data/pm_overview.csv and data/j_factor.csv). Both are collections of measurements (the other tables have one measurement per object). 
+
 pm_overview.csv: key, reference, proper motion measurement, method (this includes most proper motion measurements of dwarf galaxies)
 
 j_factor.csv: key, reference, angle, j-factor measurement [units are log10 GeV^2 cm^-5], notes (this includes some literature j-factor measurements, mostly from A. B. Pace)
@@ -60,13 +62,13 @@ columns:
 * confirmed_dwarf: (or confirmed_star_cluster) system has been confirmed to be dwarf galaxy (or star cluster) based on spectroscopy, and/or deeper photometry.
 * ra: right ascension ICRS [degree]
 * dec: declination ICRS [degree]
-* rhalf: elliptical half-light radius (or plummer radius) in [arcmin]
+* rhalf: major half-light radius (or plummer radius) in [arcmin]
 * ellipticity: 1 - minor/major axis (or 1 - axis ratio)
 * position_angle: N->E [degree] 
 * distance_modulus [mag]
 * distance: computed from distance_modulus [kpc] 
-* rhalf_physical: rhalf * distance  [parsec] (computed from other columns)
-* rhalf_sph_physical: rhalf * distance * sqrt(1-ellipticity) in [parsec] (computed from other columns)
+* rhalf_physical: half-light radius in physical units --  rhalf * distance  [parsec] (computed from other columns)
+* rhalf_sph_physical: spherically averaged half-light radius; rhalf * distance * sqrt(1-ellipticity) in [parsec] (computed from other columns)
 * apparent_magnitude_v: apparent magnitude in V-band. Corrected for extinction. 
 * M_V: absolute V-band magnitude, computed from distance_modulus and apparent_magnitude_V
 * mass_stellar: log10 stellar mass assuming M/L=2 and computed from M_V [Msun]
@@ -81,11 +83,11 @@ columns:
 * pmdec: proper motion in declination direction [mas/yr]
 * rcore, rking: profile fits with king profile in arcmin
 * rad_sersic, n_sersic: sersic profile parameters. rad_sersic in arcmin
-* age: Gyr units
-* metallicity_photometric: metallicity isochrone fitting (or non-spectroscopic metallicity)
-* flux_HI: ( Jy km s^−1 ), flux in HI only included for dwarf galaxies
+* age: age of system [Gyr] 
+* metallicity_photometric: metallicity from isochrone fitting (or non-spectroscopic metallicity such as metallicity sensitive narrowband imaging)
+* flux_HI: flux in HI [Jy km s^−1]
 * mass_HI: log10 HI mass computed from flux_HI and distance [Msun]
-* ref: reference columns (ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion) have the format: author last name + ADS bibcode. 
+* ref_ + x : reference columns such as ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion.  All reference columns have the same format: author last name + ADS bibcode. 
 
 Many columns also have associated error columns. These follow the format of name + _em, + _ep + _ul (e.g., rhalf_em).
 
@@ -95,14 +97,14 @@ error columns:
 * _ep = error plus = plus 1 sigma (84% confidence interval)
 * _ul = upper limit at 95% confidence interval (some are at 5sigma, 90% or 84%, but the goal is to make it consistent)
 
-ref: reference format is author last name + ADS bibcode. The author last name has special characters removed but capitalization is unchanged. 
+The reference format is author last name + ADS bibcode. The author's last name has special characters removed but the capitalization is unchanged. 
 There is an associated bibtex file (latex/lvdb.bib) that includes all references in the database. 
 
 Decription of yaml files 
 ------------------------
 
 There is an `example yaml file <https://github.com/apace7/local_volume_database/blob/main/code/example_yaml.yaml>`_ in the /code/ folder. 
-It includes all collections and keys in the database with a short descrition and units.  Not all keys are placed into the csv tables.
+It includes all collections and keys in the database with a short descrition and units.  Not all keys are entered into the csv tables.
 The yaml keys are **Bolded** below and the bullet points follow the yaml collection structure.  Errors columns are not included. 
 The collections are split such that a single reference can describe the contents.
 

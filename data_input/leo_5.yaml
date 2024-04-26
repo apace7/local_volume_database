@@ -1,3 +1,8 @@
+key: leo_5
+table: dwarf_mw
+location:
+  dec: 2.2194
+  ra: 172.7857
 distance:
   distance: 169.0
   distance_em: 4.4
@@ -9,10 +14,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.054
   ref_flux_HI: Spekkens2014ApJ...795L...5S
-key: leo_5
-location:
-  dec: 2.2194
-  ra: 172.7857
 m_v:
   apparent_magnitude_v: 16.74
   apparent_magnitude_v_em: 0.36
@@ -38,13 +39,13 @@ name_discovery:
 notes:
 - Cluster? Binary w/ Leo IV? MC12
 proper_motion:
-  pmdec: -0.391
-  pmdec_em: 0.153
-  pmdec_ep: 0.155
-  pmra: 0.113
-  pmra_em: 0.219
-  pmra_ep: 0.219
-  ref_proper_motion: Pace2022ApJ...940..136P
+  pmra: 0.1186
+  pmra_em: 0.1943
+  pmra_ep: 0.1943
+  pmdec: -0.1183
+  pmdec_em: 0.1704
+  pmdec_ep: 0.1704
+  ref_proper_motion: Julio2024arXiv240416110J
 structure:
   ellipticity: 0.43
   ellipticity_em: 0.22
@@ -72,7 +73,6 @@ structure_sersic:
   rad_sersic_em: 0.22
   rad_sersic_ep: 0.22
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Jenkins2021ApJ...920...92J
   # vlos_sigma: 0.1
