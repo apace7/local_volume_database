@@ -1,3 +1,8 @@
+key: leo_4
+table: dwarf_mw
+location:
+  dec: -0.5453
+  ra: 173.2405
 distance:
   distance: 151.4
   distance_em: 4.4
@@ -9,10 +14,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.43
   ref_flux_HI: Putman2021ApJ...913...53P
-key: leo_4
-location:
-  dec: -0.5453
-  ra: 173.2405
 m_v:
   apparent_magnitude_v: 15.95
   apparent_magnitude_v_em: 0.26
@@ -38,13 +39,13 @@ name_discovery:
 notes:
 - Binary w/ Leo V? MC12
 proper_motion:
-  pmdec: -0.279
-  pmdec_em: 0.112
-  pmdec_ep: 0.115
-  pmra: -0.009
-  pmra_em: 0.152
-  pmra_ep: 0.152
-  ref_proper_motion: Pace2022ApJ...940..136P
+  pmra: -0.1921
+  pmra_em: 0.0514
+  pmra_ep: 0.0514
+  pmdec: -0.0686
+  pmdec_em: 00.0523
+  pmdec_ep: 0.0523
+  ref_proper_motion: Julio2024arXiv240416110J
 structure:
   ellipticity: 0.17
   ellipticity_em: 0.09
@@ -72,7 +73,6 @@ structure_sersic:
   rad_sersic_em: 0.31
   rad_sersic_ep: 0.31
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Jenkins2021ApJ...920...92J
   vlos_sigma: 3.4
