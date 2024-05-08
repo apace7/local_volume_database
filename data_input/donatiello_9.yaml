@@ -1,0 +1,51 @@
+key: donatiello_9
+table: dwarf_local_field_distant
+location:
+  ra: 10.676  # [deg]
+  dec: -23.76961 # [deg]
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2024
+  host: NGC_0253
+  name: Donatiello IX
+  ref_discovery:
+  - MartinezDelgado2024arXiv240503769M
+  abbreviation: 'Do IX'
+notes:
+  - spatial units arcsec
+  - distance fixed to current LVDB NGC_0253 distance (as of 5/8/2024); RadburnSmith2011ApJS..195...18R ; larger distance was assumed in discovery paper
+structure:
+  rhalf: 15.5 # [arcsec]
+  rhalf_em: 0.8
+  rhalf_ep: 0.8
+  ellipticity: 0.57
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: -27
+  position_angle_em: 2
+  position_angle_ep: 2
+  ref_structure: MartinezDelgado2024arXiv240503769M
+distance:
+  distance_modulus: 27.70 
+  ref_distance: RadburnSmith2011ApJS..195...18R
+m_v:
+  apparent_magnitude_v: 19.75
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: MartinezDelgado2024arXiv240503769M
+structure_sersic:
+  n_sersic: 0.76
+  n_sersic_em: 0.05
+  n_sersic_ep: 0.05
+  rad_sersic: 15.5 # [arcsec]
+  rad_sersic_em: 0.8
+  rad_sersic_ep: 0.8
+  ellipticity: 0.57
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: -27
+  position_angle_em: 2
+  position_angle_ep: 2
+  ref_structure_sersic: MartinezDelgado2024arXiv240503769M

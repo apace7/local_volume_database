@@ -445,33 +445,33 @@ add_coord(gc_disk)
 
 add_coord(gc_dwarf)
 
-dsph_mw.sort(['year', 'name'])
+dsph_mw.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/dwarf_mw_name_discovery_data.tex', dsph_mw)
 dsph_mw2 = dsph_mw[dsph_mw['key']!='LMC']
 dsph_mw2 = dsph_mw2[dsph_mw2['key']!='SMC']
-dsph_mw2.sort('name')
+dsph_mw2.sort('key')
 create_latex_table_structure('table/table_data/dwarf_mw_structure_data.tex', 'table/table_data/dwarf_mw_structure_citations.tex', dsph_mw2)
 create_latex_table_kinematics('table/table_data/dwarf_mw_kinematics_data.tex', 'table/table_data/dwarf_mw_kinematics_citations.tex', dsph_mw2)
 create_latex_table_mass('table/table_data/dwarf_mw_mass_data.tex', 'table/table_data/dwarf_mw_mass_citations.tex', dsph_mw2)
 
 
-dsph_m31.sort(['year', 'name'])
+dsph_m31.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/dwarf_m31_name_discovery_data.tex', dsph_m31)
-dsph_m31.sort('name')
+dsph_m31.sort('key')
 create_latex_table_structure('table/table_data/dwarf_m31_structure_data.tex', 'table/table_data/dwarf_m31_structure_citations.tex', dsph_m31)
 create_latex_table_kinematics('table/table_data/dwarf_m31_kinematics_data.tex', 'table/table_data/dwarf_m31_kinematics_citations.tex', dsph_m31)
 create_latex_table_mass('table/table_data/dwarf_m31_mass_data.tex', 'table/table_data/dwarf_m31_mass_citations.tex', dsph_m31)
 
-dsph_lf.sort(['year', 'name'])
+dsph_lf.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/dwarf_lf_name_discovery_data.tex', dsph_lf)
-dsph_lf.sort('name')
+dsph_lf.sort('key')
 create_latex_table_structure('table/table_data/dwarf_lf_structure_data.tex', 'table/table_data/dwarf_lf_structure_citations.tex', dsph_lf)
 create_latex_table_kinematics('table/table_data/dwarf_lf_kinematics_data.tex', 'table/table_data/dwarf_lf_kinematics_citations.tex', dsph_lf)
 create_latex_table_mass('table/table_data/dwarf_lf_mass_data.tex', 'table/table_data/dwarf_lf_mass_citations.tex', dsph_lf)
 
-dsph_lf_distant.sort(['year', 'name'])
+dsph_lf_distant.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/dwarf_lf_distant_name_discovery_data.tex', dsph_lf_distant)
-dsph_lf_distant.sort('name')
+dsph_lf_distant.sort('key')
 create_latex_table_structure('table/table_data/dwarf_lf_distant_structure_data.tex', 'table/table_data/dwarf_lf_distant_structure_citations.tex', dsph_lf_distant, spatial_units='arcsec')
 create_latex_table_kinematics('table/table_data/dwarf_lf_distant_kinematics_data.tex', 'table/table_data/dwarf_lf_distant_kinematics_citations.tex', dsph_lf_distant)
 create_latex_table_mass('table/table_data/dwarf_lf_distant_mass_data.tex', 'table/table_data/dwarf_lf_distant_mass_citations.tex', dsph_lf_distant)
@@ -483,9 +483,9 @@ create_latex_table_structure('table/table_data/gc_ufsc_structure_data.tex', 'tab
 create_latex_table_kinematics('table/table_data/gc_ufsc_kinematics_data.tex', 'table/table_data/gc_ufsc_kinematics_citations.tex', gc_ufsc)
 # create_latex_table_mass('table/table_data/gc_ufsc_mass_data.tex', 'table/table_data/gc_ufsc_mass_citations.tex', gc_ufsc)
 
-gc_disk.sort(['year', 'name'])
+gc_disk.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/gc_disk_name_discovery_data.tex', gc_disk, classification_column='confirmed_star_cluster', classification_output='Star Cluster')
-gc_disk.sort('name')
+gc_disk.sort('key')
 create_latex_table_structure('table/table_data/gc_disk_structure_data.tex', 'table/table_data/gc_disk_structure_citations.tex', gc_disk)
 create_latex_table_kinematics('table/table_data/gc_disk_kinematics_data.tex', 'table/table_data/gc_disk_kinematics_citations.tex', gc_disk)
 
@@ -495,9 +495,9 @@ gc_harris.sort('name')
 create_latex_table_structure('table/table_data/gc_harris_structure_data.tex', 'table/table_data/gc_harris_structure_citations.tex', gc_harris)
 create_latex_table_kinematics('table/table_data/gc_harris_kinematics_data.tex', 'table/table_data/gc_harris_kinematics_citations.tex', gc_harris)
 
-gc_dwarf.sort(['year', 'name'])
+gc_dwarf.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/gc_dwarf_name_discovery_data.tex', gc_dwarf, classification_column='confirmed_star_cluster', classification_output='Star Cluster')
-gc_dwarf.sort('name')
+gc_dwarf.sort('key')
 create_latex_table_structure('table/table_data/gc_dwarf_structure_data.tex', 'table/table_data/gc_dwarf_structure_citations.tex', gc_dwarf)
 create_latex_table_kinematics('table/table_data/gc_dwarf_kinematics_data.tex', 'table/table_data/gc_dwarf_kinematics_citations.tex', gc_dwarf)
 
@@ -534,7 +534,7 @@ with open(output, 'w+') as f:
         yaml_name = table_list_sort[candidate][0]
 #         print(yaml_name)
         end_line = '\\\\'
-        if i == len(table_list_sort)-1:
+        if candidate == len(table_list_sort)-1:
             end_line=''
         k = yaml_name
         
@@ -697,7 +697,7 @@ with open(output, 'w+') as f:
                 if 'm_v' in stream_yaml.keys() and 'apparent_magnitude_v' in stream_yaml['m_v'].keys():
                     v_str = make_latex_value(stream_yaml['m_v']['apparent_magnitude_v'], np.ma.masked,np.ma.masked, n=1) 
                 end_line = '\\\\'
-                if i == len(table_list_sort)-1:
+                if candidate == len(table_list_sort)-1:
                     end_line=''
                 ## output each row of our table, plus the citations at the end of the line
                 name = latex_name(stream_yaml['name_discovery']['name'])
