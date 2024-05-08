@@ -8,7 +8,7 @@ distance:
   distance_modulus_em: 0.040
   distance_modulus_ep: 0.040
   # combination of statistical and systematic errors
-  ref_distance: Bhardwaj2024arXiv240401394B
+  ref_distance: Bhardwaj2024AJ....167..247B
 flux_HI:
   flux_HI_ul: 0.098
   ref_flux_HI: Spekkens2014ApJ...795L...5S

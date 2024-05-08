@@ -1,3 +1,8 @@
+key: hercules_1
+table: dwarf_mw
+location:
+  dec: 12.7852
+  ra: 247.7722
 distance:
   distance: 130.6
   distance_em: 6.1
@@ -9,10 +14,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.37
   ref_flux_HI: Putman2021ApJ...913...53P
-key: hercules_1
-location:
-  dec: 12.7852
-  ra: 247.7722
 m_v:
   apparent_magnitude_v: 14.773
   apparent_magnitude_v_em: 0.17
@@ -72,7 +73,6 @@ structure_sersic:
   rad_sersic_em: 0.58
   rad_sersic_ep: 0.58
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Simon2007ApJ...670..313S
   vlos_sigma: 5.1

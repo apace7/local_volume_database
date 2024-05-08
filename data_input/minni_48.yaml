@@ -1,3 +1,8 @@
+key: minni_48
+table: gc_disk
+location:
+  ra: 263.325
+  dec: -28.00055556
 age:
   age: 10.0
   age_em: 2.0
@@ -11,10 +16,6 @@ distance:
   distance_modulus_em: 0.08
   distance_modulus_ep: 0.08
   ref_distance: Minniti2021A&A...652A.129M
-key: minni_48
-location:
-  dec: -28.00055556
-  ra: 263.325
 m_v:
   apparent_magnitude_v: 8.12
   apparent_magnitude_v_em: 0.8
@@ -47,4 +48,3 @@ structure:
   rhalf: 6.0
   rhalf_em: 1.0
   rhalf_ep: 1.0
-table: gc_disk

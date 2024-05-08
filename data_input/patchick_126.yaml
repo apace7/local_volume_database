@@ -25,6 +25,8 @@ name_discovery:
   confirmed_star_cluster: 1
   host: MW
   name: Patchick 126
+notes:
+  - classify as globular cluster Garro2022A&A...659A.155G
 proper_motion:
   pmdec: -6.68
   pmdec_em: 0.62

@@ -13,6 +13,9 @@ name_discovery:
   - DES Sgr 1
   ref_discovery:
   - Luque2017MNRAS.468...97L
+  ref_false_positive:
+  - Pace2019ApJ...875...77P 
+  - DrlicaWagner2020ApJ...893...47D
 notes:
   - previously internally referred to as des_sag_1 by ABP
   - false positive based on the lack of detection in DES year 3 search DrlicaWagner2020ApJ...893...47D

@@ -1,0 +1,38 @@
+key: camargo_1103
+table: candidate
+location:
+  ra: 271.631  # [deg]
+  dec: -25.162 # [deg]
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 1
+  discovery_year: 2018
+  host: MW
+  name: Camargo 1103
+  ref_discovery:
+  - Camargo2018ApJ...860L..27C
+  ref_false_positive:
+  - Lim2022A&A...666A..62L
+notes:
+  - Not recovered with spectroscopic follow-up; Lim2022A&A...666A..62L
+distance:
+  distance_modulus: 13.49 
+  distance_modulus_em: 0.38
+  distance_modulus_ep: 0.32
+  ref_distance: Camargo2018ApJ...860L..27C
+m_v:
+  apparent_magnitude_v: 6.59
+  apparent_magnitude_v_em: 1
+  apparent_magnitude_v_ep: 1
+  ref_m_v: Camargo2018ApJ...860L..27C
+metallicity_photometric:
+  metallicity_photometric: -1.8
+  metallicity_photometric_em: 0.3
+  metallicity_photometric_ep: 0.3
+  ref_metallicity_photometric: Camargo2018ApJ...860L..27C
+age:
+  age: 13.5 ## [Gyr]
+  age_em: 1
+  age_ep: 1
+  ref_age: Camargo2018ApJ...860L..27C

@@ -1,3 +1,16 @@
+key: fsr_0025
+table: gc_disk
+location:
+  dec: -19.571
+  ra: 265.43
+name_discovery:
+  confirmed_real: 0
+  confirmed_star_cluster: 0
+  discovery_year: 2006
+  host: MW
+  name: FSR 25
+  ref_discovery:
+  - Froebrich2007MNRAS.374..399F
 notes:
 - rhalf computed from rc and rt Obasi2021A&A...654A..39O
 age:
@@ -11,24 +24,12 @@ distance:
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
   ref_distance: Obasi2021A&A...654A..39O
-key: fsr_25
-location:
-  dec: -19.571
-  ra: 265.43
 m_v:
   apparent_magnitude_v: 10.02
   ref_m_v: Obasi2021A&A...654A..39O
 metallicity_photometric:
   metallicity_photometric: -0.5
   ref_metallicity_photometric: Obasi2021A&A...654A..39O
-name_discovery:
-  confirmed_real: 0
-  confirmed_star_cluster: 0
-  discovery_year: 2006
-  host: MW
-  name: FSR 25
-  ref_discovery:
-  - Froebrich2007MNRAS.374..399F
 proper_motion:
   pmdec: -5.23
   pmdec_em: 0.74
@@ -50,4 +51,4 @@ structure_king:
   rking: 3.27
   rking_em: 0.85
   rking_ep: 0.85
-table: gc_disk
+

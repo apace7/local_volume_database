@@ -28,6 +28,8 @@ name_discovery:
   confirmed_star_cluster: 1
   discovery_year: 1959
   name: Palomar 15
+  other_name:
+  - UGC 10642
   ref_discovery:
   - Zwicky1959_hand
 proper_motion:

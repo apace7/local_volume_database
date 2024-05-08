@@ -8,24 +8,21 @@ name_discovery:
   confirmed_star_cluster: 1
   discovery_year: 2011
   host: MW
-  name: VVV CL0002
+  name: VVV-CL002
   ref_discovery:
   - MoniBidin2011A&A...535A..33M
   other_name:
   - VVV GC002
 distance:
-  distance: 7.3
-  distance_em: 0.9
-  distance_ep: 0.9
-  distance_modulus: 14.32
-  distance_modulus_em: 0.23
-  distance_modulus_ep: 0.23
-  ref_distance: MoniBidin2011A&A...535A..33M
+  distance_modulus: 14.67
+  distance_modulus_em: 0.16
+  distance_modulus_ep: 0.15
+  ref_distance: Minniti2021A&A...648A..86M
 m_v:
-  apparent_magnitude_v: 10.92
-  apparent_magnitude_v_em: 0.3
-  apparent_magnitude_v_ep: 0.3
-  ref_m_v: MoniBidin2011A&A...535A..33M
+  apparent_magnitude_v: 10.06
+  # apparent_magnitude_v_em: 0.3
+  # apparent_magnitude_v_ep: 0.3
+  ref_m_v: Minniti2021A&A...648A..86M
 metallicity_photometric:
   metallicity_photometric: -0.4
   metallicity_photometric_em: 0.2
@@ -62,3 +59,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.27
   metallicity_spectroscopic_ep: 0.27
   ref_metallicity_spectroscopic: Minniti2024A&A...683A.150M
+age:
+  age_ll: 6.5
+  ref_age: MoniBidin2011A&A...535A..33M

@@ -1,0 +1,45 @@
+key: vvv_cl131
+table: gc_disk
+location:
+  ra:  265.321 # [deg]
+  dec:  -34.567 # [deg]
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  discovery_year: 2014
+  host: MW
+  name: VVV-CL131
+  ref_discovery:
+  - Borissova2014A&A...569A..24B
+notes:
+  - Note that the pmdec_error in Garro2022A&A...658A.120G is listed as 0.07 which is likely a typo given the magnitude of the pmra_error and the errors of other proper motion measurements in the paper.
+  - old OC or GlC candidate Borissova2014A&A...569A..24B
+  - classify as globular cluster Garro2022A&A...658A.120G
+distance:
+  distance_modulus: 14.77 
+  distance_modulus_em: 0.04
+  distance_modulus_ep: 0.04
+  ref_distance: Garro2022A&A...658A.120G
+m_v:
+  apparent_magnitude_v: 08.87
+  # apparent_magnitude_v_em: 0
+  # apparent_magnitude_v_ep: 0
+  ref_m_v: Garro2022A&A...658A.120G
+proper_motion:
+  pmra: -3.24 # [mas/yr]
+  pmra_em: 0.81
+  pmra_ep: 0.81
+  pmdec: -5.65 # [mas/yr]
+  pmdec_em: 0.70
+  pmdec_ep: 0.70
+  ref_proper_motion: Garro2022A&A...658A.120G
+metallicity_photometric:
+  metallicity_photometric: -0.6
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: Garro2022A&A...658A.120G
+age:
+  age: 10 ## [Gyr]
+  age_em: 3
+  age_ep: 3
+  ref_age: Garro2022A&A...658A.120G

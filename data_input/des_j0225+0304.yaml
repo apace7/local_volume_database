@@ -10,10 +10,13 @@ name_discovery:
   name: DES J0225+0304
   ref_discovery:
   - Luque2017MNRAS.468...97L
+  ref_false_positive:
+  - DrlicaWagner2020ApJ...893...47D
+  - McConnachie2020AJ....160..124M
   other_name:
   - DES Sgr 2
 notes:
-  - previously internally referred to as des_sag_2  by ABP
+  - previously internally referred to as des_sag_2 by ABP
   - false positive based on the lack of detection in DES year 3 search DrlicaWagner2020ApJ...893...47D
   - false positive based on the the lack of an expected Gaia DR2 proper motion search Pace2019ApJ...875...77P + McConnachie2020AJ....160..124M
   - on the name in the discovery paper "DES J0225+0304 will be named Cetus III if found to be a dwarf galaxy". This name is not included in the other_name column as there is another dwarf galaxy now known as Cetus III. 

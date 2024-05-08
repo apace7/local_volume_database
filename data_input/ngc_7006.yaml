@@ -1,3 +1,8 @@
+key: ngc_7006
+table: gc_harris
+location:
+  dec: 16.187323
+  ra: 315.372626
 age:
   age: 12.25
   age_em: 0.75
@@ -11,10 +16,6 @@ distance:
   distance_modulus_em: 0.031
   distance_modulus_ep: 0.031
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_7006
-location:
-  dec: 16.187323
-  ra: 315.372626
 m_v:
   apparent_magnitude_v: 10.47
   apparent_magnitude_v_em: 0.04
@@ -27,6 +28,9 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 7006
+  ref_discovery:
+  - Herschel1786RSPT...76..457H
+  discovery_year: 1786
 proper_motion:
   pmdec: -0.6329
   pmdec_em: 0.027
@@ -46,7 +50,6 @@ structure_sersic:
   rad_sersic_em: 0.01
   rad_sersic_ep: 0.01
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -383.47

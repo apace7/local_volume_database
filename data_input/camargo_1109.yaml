@@ -1,0 +1,34 @@
+key: camargo_1109
+table: gc_disk
+location:
+  ra: 266.861  # [deg]
+  dec: -26.648 # [deg]
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2019
+  host: MW
+  name: Camargo 1109
+  ref_discovery:
+  - Camargo2019MNRAS.484L..90C
+distance:
+  distance_modulus: 13.17 
+  distance_modulus_em: 0.33
+  distance_modulus_ep: 0.28
+  ref_distance: Camargo2019MNRAS.484L..90C
+m_v:
+  apparent_magnitude_v: 6.77
+  apparent_magnitude_v_em: 0.7
+  apparent_magnitude_v_ep: 0.7
+  ref_m_v: Camargo2019MNRAS.484L..90C
+metallicity_photometric:
+  metallicity_photometric: -1.5
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: Camargo2019MNRAS.484L..90C
+age:
+  age: 12.0 ## [Gyr]
+  age_em: 1.5
+  age_ep: 1.5
+  ref_age: Camargo2019MNRAS.484L..90C
