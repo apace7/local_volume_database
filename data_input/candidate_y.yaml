@@ -12,6 +12,8 @@ name_discovery:
   - Object Y
   ref_discovery:
   - Koposov2008ApJ...686..279K
+  ref_false_positive:
+  - Martin2008ApJ...684.1075M
 notes:
   - Partially recovered in Martin2008ApJ...684.1075M
 

@@ -1,0 +1,42 @@
+key: minni_22
+table: gc_disk
+location:
+  ra: 267.214  # [deg]
+  dec: -33.061 # [deg]
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  discovery_year: 2017
+  host: MW
+  name: Minni 22
+  # other_name:
+  # - list
+  ref_discovery:
+  - Minniti2017ApJ...849L..24M
+# notes:
+#   - list
+structure:
+  rhalf: 1.1 # [arcmin]
+  rhalf_em: 0.3
+  rhalf_ep: 0.3
+  ref_structure: Minniti2018ApJ...866...12M
+distance:
+  distance_modulus: 14.3 
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Minniti2018ApJ...866...12M
+m_v:
+  apparent_magnitude_v: 8.1
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.5
+  ref_m_v: Minniti2018ApJ...866...12M
+metallicity_photometric:
+  metallicity_photometric: -1.3
+  metallicity_photometric_em: 0.3
+  metallicity_photometric_ep: 0.3
+  ref_metallicity_photometric: Minniti2018ApJ...866...12M
+age:
+  age: 11.2 ## [Gyr]
+  age_em: 1
+  age_ep: 1
+  ref_age: Minniti2018ApJ...866...12M

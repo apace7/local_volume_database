@@ -20,6 +20,8 @@ name_discovery:
   confirmed_star_cluster: 1
   host: MW
   name: Ferrero 54
+notes:
+  - classify as globular cluster Garro2022A&A...659A.155G
 proper_motion:
   pmdec: 1.31
   pmdec_em: 0.34

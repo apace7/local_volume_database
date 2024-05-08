@@ -10,6 +10,8 @@ name_discovery:
   name: SDSS J1000+5730
   ref_discovery:
   - Liu2008A&A...477..139L
+  ref_false_positive:
+  - DrlicaWagner2020ApJ...893...47D
 notes:
   - lack of detection in DES year 3/Pan-starrs DR1 search DrlicaWagner2020ApJ...893...47D
 structure:

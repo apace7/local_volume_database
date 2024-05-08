@@ -1,3 +1,8 @@
+key: ngc_6229
+table: gc_harris
+location:
+  dec: 47.527796
+  ra: 251.745249
 distance:
   distance: 30.106
   distance_em: 0.467
@@ -6,10 +11,6 @@ distance:
   distance_modulus_em: 0.034
   distance_modulus_ep: 0.034
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_6229
-location:
-  dec: 47.527796
-  ra: 251.745249
 m_v:
   apparent_magnitude_v: 9.3
   apparent_magnitude_v_em: 0.05
@@ -23,6 +24,8 @@ name_discovery:
   confirmed_star_cluster: 1
   discovery_year: 1787
   name: NGC 6229
+  ref_discovery:
+  - Herschel1789RSPT...79..212H
 notes:
 - discovered by Herschel in 1787
 proper_motion:
@@ -44,7 +47,6 @@ structure_sersic:
   rad_sersic_em: 0.01
   rad_sersic_ep: 0.01
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -137.89

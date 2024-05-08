@@ -28,6 +28,8 @@ name_discovery:
   confirmed_star_cluster: 1
   discovery_year: 1976
   name: AM 1
+  other_name:
+  - E 1
   ref_discovery:
   - Lauberts1976A&A....52..309L
 proper_motion:

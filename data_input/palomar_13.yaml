@@ -23,6 +23,8 @@ name_discovery:
   confirmed_star_cluster: 1
   discovery_year: 1955
   name: Palomar 13
+  other_name:
+  - UGCA 435
   ref_discovery:
   - Wilson1955PASP...67...27W
 proper_motion:

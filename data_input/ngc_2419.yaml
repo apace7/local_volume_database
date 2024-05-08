@@ -1,3 +1,8 @@
+key: ngc_2419
+table: gc_harris
+location:
+  dec: 38.881944
+  ra: 114.535286
 age:
   age: 12.65
   age_em: 0.71
@@ -11,10 +16,6 @@ distance:
   distance_modulus_em: 0.059
   distance_modulus_ep: 0.059
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_2419
-location:
-  dec: 38.881944
-  ra: 114.535286
 m_v:
   apparent_magnitude_v: 10.35
   apparent_magnitude_v_em: 0.03
@@ -29,6 +30,8 @@ name_discovery:
   discovery_year: 1788
   host: sagittarius_1
   name: NGC 2419
+  ref_discovery:
+  - Herschel1802RSPT...92..477H
 notes:
 - discovered by W. Herschel in 1788
 proper_motion:
@@ -50,7 +53,6 @@ structure_sersic:
   rad_sersic_em: 0.01
   rad_sersic_ep: 0.01
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -21.1

@@ -26,7 +26,10 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
+  discovery_year: 1789
   name: NGC 7492
+  ref_discovery:
+  - Herschel1789RSPT...79..212H
 proper_motion:
   pmdec: -2.32
   pmdec_em: 0.0276

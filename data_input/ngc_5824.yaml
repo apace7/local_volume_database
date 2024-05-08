@@ -28,6 +28,9 @@ name_discovery:
   confirmed_star_cluster: 1
   host: sagittarius_1
   name: NGC 5897
+  ref_discovery:
+  - Dunlop1828RSPT..118..113D
+  discovery_year: 1828
 proper_motion:
   pmdec: -2.2338
   pmdec_em: 0.0257

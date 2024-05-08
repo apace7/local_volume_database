@@ -1,3 +1,8 @@
+key: ngc_5694
+table: gc_harris
+location:
+  dec: -26.538776
+  ra: 219.901245
 age:
   age: 13.44
   age_em: 0.9
@@ -11,10 +16,6 @@ distance:
   distance_modulus_em: 0.046
   distance_modulus_ep: 0.046
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_5694
-location:
-  dec: -26.538776
-  ra: 219.901245
 m_v:
   apparent_magnitude_v: 9.6
   apparent_magnitude_v_em: 0.12
@@ -28,6 +29,8 @@ name_discovery:
   confirmed_star_cluster: 1
   discovery_year: 1784
   name: NGC 5694
+  ref_discovery:
+  - Herschel1786RSPT...76..457H
 notes:
 - discovered in 1784 by Herschel
 proper_motion:
@@ -49,7 +52,6 @@ structure_sersic:
   rad_sersic_em: 0.01
   rad_sersic_ep: 0.01
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -139.55

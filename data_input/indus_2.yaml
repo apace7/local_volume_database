@@ -12,6 +12,8 @@ name_discovery:
   - DES J2038-4609
   ref_discovery:
   - DrlicaWagner2015ApJ...813..109D
+  ref_false_positive:
+  - Cantu2021ApJ...916...81C
 notes:
   - false positive based on deep Magellan/Megacam photometry Cantu2021ApJ...916...81C
 structure:

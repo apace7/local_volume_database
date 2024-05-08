@@ -1,13 +1,14 @@
+key: vvv_cl001
+table: gc_disk
+location:
+  dec: -24.01472222
+  ra: 268.6770833
 distance:
   distance: 8.23
   distance_em: 0.46
   distance_ep: 0.46
   distance_modulus: 14.58
   ref_distance: OlivaresCarvajal2022MNRAS.513.3993O
-key: vvv_cl001
-location:
-  dec: -24.01472222
-  ra: 268.6770833
 m_v:
   apparent_magnitude_v: 8.03
   apparent_magnitude_v_em: 0.5
@@ -39,7 +40,6 @@ proper_motion:
 structure:
   ref_structure: Minniti2011A&A...527A..81M
   rhalf: 1.0
-table: gc_disk
 velocity:
   ref_vlos: OlivaresCarvajal2022MNRAS.513.3993O
   vlos_systemic: -324.9

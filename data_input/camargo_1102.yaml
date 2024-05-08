@@ -1,0 +1,34 @@
+key: camargo_1102
+table: gc_disk
+location:
+  ra: 260.437  # [deg]
+  dec: -26.544 # [deg]
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2018
+  host: MW
+  name: Camargo 1102
+  ref_discovery:
+  - Camargo2018ApJ...860L..27C
+distance:
+  distance_modulus: 14.60 
+  distance_modulus_em: 0.34
+  distance_modulus_ep: 0.30
+  ref_distance: Camargo2018ApJ...860L..27C
+m_v:
+  apparent_magnitude_v: 8.26
+  apparent_magnitude_v_em: 0.6
+  apparent_magnitude_v_ep: 0.6
+  ref_m_v: Camargo2018ApJ...860L..27C
+metallicity_photometric:
+  metallicity_photometric: -1.7
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: Camargo2018ApJ...860L..27C
+age:
+  age: 13.3 ## [Gyr]
+  age_em: 1
+  age_ep: 1
+  ref_age: Camargo2018ApJ...860L..27C

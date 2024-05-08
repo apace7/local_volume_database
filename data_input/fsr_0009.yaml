@@ -1,0 +1,46 @@
+key: fsr_0009
+table: gc_disk
+location:
+  ra: 277.128  # [deg]
+  dec: -31.907 # [deg]
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  discovery_year: 2006
+  host: MW
+  name: FSR 0009
+  other_name:
+  - MWSC 2921
+  ref_discovery:
+  - Froebrich2007MNRAS.374..399F
+notes:
+  - open cluster Buckner2013MNRAS.436.1465B
+  - classify as globular cluster Garro2022A&A...658A.120G
+distance:
+  distance_modulus: 14.20
+  distance_modulus_em: 0.04
+  distance_modulus_ep: 0.04
+  ref_distance: Garro2022A&A...658A.120G
+m_v:
+  apparent_magnitude_v: 10.8
+  # apparent_magnitude_v_em: 0
+  # apparent_magnitude_v_ep: 0
+  ref_m_v: Garro2022A&A...658A.120G
+proper_motion:
+  pmra: -1.39 # [mas/yr]
+  pmra_em: 1.10
+  pmra_ep: 1.10
+  pmdec: -5.22 # [mas/yr]
+  pmdec_em: 0.99
+  pmdec_ep: 0.99
+  ref_proper_motion: Garro2022A&A...658A.120G
+metallicity_photometric:
+  metallicity_photometric: 1.2
+  metallicity_photometric_em: 0.3
+  metallicity_photometric_ep: 0.3
+  ref_metallicity_photometric: Garro2022A&A...658A.120G
+age:
+  age: 11 ## [Gyr]
+  age_em: 2
+  age_ep: 2
+  ref_age: Garro2022A&A...658A.120G
