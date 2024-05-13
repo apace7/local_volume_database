@@ -176,10 +176,11 @@ def create_latex_table_structure(output, output_citations, input_table, **kwargs
     letter = []
     spatial_units = kwargs.get("spatial_units", "arcmin")
     spatial_units_conversion = 60.
+    spatial_convert_factor = kwargs.get("spatial_convert_factor", 1.) ## to be used to convert csv values from arcmin to arsec
     round_rhalf = 1
     round_distance = 1
     if spatial_units == 'arcsec':
-        spatial_units_conversion = 3600.
+        spatial_units_conversion = kwargs.get("spatial_units_conversion", 3600.) 
         round_rhalf = 0
         round_distance = 0
     with open(output, 'w+') as f:
@@ -251,7 +252,7 @@ def create_latex_table_structure(output, output_citations, input_table, **kwargs
             ## output each row of our table, plus the citations at the end of the line
             name = latex_name(input_table['name'][i])
             f.write(name + '&'+"{:0.4f}".format(input_table['ra'][i])+'&'+"{:0.4f}".format(input_table['dec'][i])+'&'+
-                  make_latex_value(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], n=2)+'&'+
+                  make_latex_value(spatial_convert_factor*input_table['rhalf'][i], spatial_convert_factor*input_table['rhalf_em'][i], spatial_convert_factor*input_table['rhalf_ep'][i], n=2)+'&'+
                  make_latex_value(input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], ul=input_table['ellipticity_ul'][i], n=2)+ '& '+
                   make_latex_value(input_table['position_angle'][i], input_table['position_angle_em'][i], input_table['position_angle_ep'][i], n=1)+ '& '+
                   str_rhalf + '& '+
@@ -481,10 +482,10 @@ create_latex_table_structure('table/table_data/dwarf_lf_distant_structure_data.t
 create_latex_table_kinematics('table/table_data/dwarf_lf_distant_kinematics_data.tex', 'table/table_data/dwarf_lf_distant_kinematics_citations.tex', dsph_lf_distant)
 create_latex_table_mass('table/table_data/dwarf_lf_distant_mass_data.tex', 'table/table_data/dwarf_lf_distant_mass_citations.tex', dsph_lf_distant)
 
-gc_ufsc.sort(['year', 'name'])
+gc_ufsc.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/gc_ufsc_name_discovery_data.tex', gc_ufsc, classification_column='confirmed_star_cluster', classification_output='Star Cluster')
-gc_ufsc.sort('name')
-create_latex_table_structure('table/table_data/gc_ufsc_structure_data.tex', 'table/table_data/gc_ufsc_structure_citations.tex', gc_ufsc)
+gc_ufsc.sort('key')
+create_latex_table_structure('table/table_data/gc_ufsc_structure_data.tex', 'table/table_data/gc_ufsc_structure_citations.tex', gc_ufsc, )
 create_latex_table_kinematics('table/table_data/gc_ufsc_kinematics_data.tex', 'table/table_data/gc_ufsc_kinematics_citations.tex', gc_ufsc)
 # create_latex_table_mass('table/table_data/gc_ufsc_mass_data.tex', 'table/table_data/gc_ufsc_mass_citations.tex', gc_ufsc)
 
@@ -494,16 +495,16 @@ gc_disk.sort('key')
 create_latex_table_structure('table/table_data/gc_disk_structure_data.tex', 'table/table_data/gc_disk_structure_citations.tex', gc_disk)
 create_latex_table_kinematics('table/table_data/gc_disk_kinematics_data.tex', 'table/table_data/gc_disk_kinematics_citations.tex', gc_disk)
 
-gc_harris.sort(['year', 'name'])
+gc_harris.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/gc_harris_name_discovery_data.tex', gc_harris, classification_column='confirmed_star_cluster', classification_output='Star Cluster')
-gc_harris.sort('name')
+gc_harris.sort('key')
 create_latex_table_structure('table/table_data/gc_harris_structure_data.tex', 'table/table_data/gc_harris_structure_citations.tex', gc_harris)
 create_latex_table_kinematics('table/table_data/gc_harris_kinematics_data.tex', 'table/table_data/gc_harris_kinematics_citations.tex', gc_harris)
 
 gc_dwarf.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/gc_dwarf_name_discovery_data.tex', gc_dwarf, classification_column='confirmed_star_cluster', classification_output='Star Cluster')
 gc_dwarf.sort('key')
-create_latex_table_structure('table/table_data/gc_dwarf_structure_data.tex', 'table/table_data/gc_dwarf_structure_citations.tex', gc_dwarf)
+create_latex_table_structure('table/table_data/gc_dwarf_structure_data.tex', 'table/table_data/gc_dwarf_structure_citations.tex', gc_dwarf, spatial_convert_factor=60, spatial_units='arcsec', spatial_units_conversion=60.)
 create_latex_table_kinematics('table/table_data/gc_dwarf_kinematics_data.tex', 'table/table_data/gc_dwarf_kinematics_citations.tex', gc_dwarf)
 
 
@@ -545,6 +546,7 @@ with open(output, 'w+') as f:
         
         other_name = []
         ref = []
+        ref_fp = []
         host = ''
         with open(path+ yaml_name +'.yaml', 'r') as stream:
             try:
@@ -567,6 +569,11 @@ with open(output, 'w+') as f:
                         x = str(stream_yaml['name_discovery']['ref_discovery'][other_name_list])
                         x=x.replace('&', '\string&')
                         ref.append(x)
+                if 'ref_false_positive' in stream_yaml['name_discovery'].keys():
+                    for other_name_list in range(len(stream_yaml['name_discovery']['ref_false_positive'])):
+                        x = str(stream_yaml['name_discovery']['ref_false_positive'][other_name_list])
+                        x=x.replace('&', '\string&')
+                        ref_fp.append(x)
                 if 'host' in stream_yaml['name_discovery'].keys():
                     host_key = stream_yaml['name_discovery']['host']
                     if host_key in ['MW', 'LF']:
@@ -592,7 +599,7 @@ with open(output, 'w+') as f:
                     out_str += "\\citet{" +ref[place] +'}' + ' & '
                 else:
                     out_str +=  ' & '
-                place +=1
+                
             #     print(k,  x1, x2)
         #         print( out_str+ ' \\\\')
                 fp =0
@@ -608,13 +615,15 @@ with open(output, 'w+') as f:
 #                     out_str +=  classification_output
 #                 elif input_table[classification_column][i]==0:
 #                     out_str +=  '  '        
+                if len(ref_fp)>0:
+                    out_str += "\\citet{" + ref_fp[place] +'}'
 
-                # if :
+                place +=1
                 out_str += end_line+'\n'
                 # else:
                 #     out_str += '\n'
                 f.write(out_str )
-                while len(other_name)>place or len(ref) > place:
+                while len(other_name)>place or len(ref) > place or len(ref_fp)>place:
                     out_str2 = ' & '
                     if len(other_name)>place:
                         name = latex_name(other_name[place])
@@ -622,6 +631,9 @@ with open(output, 'w+') as f:
                     out_str2 += ' &&&& '
                     if len(ref)>place:
                         out_str2 += "\\citet{" + ref[place]+'}'
+                    out_str2 += ' && '
+                    if len(ref_fp)>place:
+                        out_str2 += "\\citet{" + ref_fp[place] +'}'
                     out_str2 += end_line
                     place+=1
                     f.write( out_str2+'\n')

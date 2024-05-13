@@ -1,3 +1,8 @@
+key: eso_280_sc06
+table: gc_harris
+location:
+  ra: 272.275
+  dec: -46.423333
 distance:
   distance: 20.945
   distance_em: 0.636
@@ -6,10 +11,6 @@ distance:
   distance_modulus_em: 0.067
   distance_modulus_ep: 0.067
   ref_distance: Simpson2018MNRAS.477.4565S
-key: eso_280_sc06
-location:
-  dec: -46.423333
-  ra: 272.275
 m_v:
   apparent_magnitude_v: 11.74
   apparent_magnitude_v_em: 0.2
@@ -23,7 +24,7 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
-  name: ESO280 SC06
+  name: ESO 280-SC06
 proper_motion:
   pmdec: -2.7775
   pmdec_em: 0.0332
@@ -35,7 +36,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.15
-table: gc_harris
 velocity:
   ref_vlos: Simpson2018MNRAS.477.4565S
   vlos_systemic: 92.5
