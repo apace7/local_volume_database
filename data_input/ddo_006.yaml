@@ -1,0 +1,68 @@
+key: ddo_006
+table:  dwarf_local_field_distant
+location:
+  ra: 12.45500
+  dec: -21.01500
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1959
+  host: ngc_0253
+  name: DDO 6
+  other_name:
+  - ESO540-031
+  - HIPASS J0049-20
+  - MCG -04-03-019
+  - PGC002902
+  - UGCA015
+  ref_discovery:
+  - vandenBergh1959PDDO....2..147V
+# notes:
+# - list
+# structure:
+#   rhalf: 0
+#   rhalf_em: 0
+#   rhalf_ep: 0
+#   ellipticity: 0
+#   ellipticity_em: 0
+#   ellipticity_ep: 0
+#   ellipticity_ul: 0
+#   position_angle: 0
+#   position_angle_em: 0
+#   position_angle_ep: 0
+#   ref_structure: ref
+distance:
+  distance_modulus: 27.68
+  distance_modulus_em: 0.10
+  distance_modulus_ep: 0.09
+  ref_distance: Jacobs2009AJ....138..332J
+m_v:
+  apparent_magnitude_v: 14.92
+  # apparent_magnitude_v_em: 0
+  # apparent_magnitude_v_ep: 0
+  # ref_m_v: ref
+# structure_sersic:
+#   n_sersic: 0
+#   n_sersic_em: 0
+#   n_sersic_ep: 0
+#   rad_sersic: 0
+#   rad_sersic_em: 0
+#   rad_sersic_ep: 0
+#   ellipticity: 0
+#   ellipticity_em: 0
+#   ellipticity_ep: 0
+#   ellipticity_ul: 0
+#   position_angle: 0
+#   position_angle_em: 0
+#   position_angle_ep: 0
+#   ref_structure_sersic: ref
+velocity:
+  vlos_systemic: 295.4
+  vlos_systemic_em: 5
+  vlos_systemic_ep: 5
+  ref_vlos: Westmeier2017MNRAS.472.4832W
+flux_HI:
+  flux_HI: 3.58
+  flux_HI_em: 0.67
+  flux_HI_ep: 0.83
+  ref_flux_HI: Westmeier2017MNRAS.472.4832W

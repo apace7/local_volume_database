@@ -1,0 +1,41 @@
+key: kkh_22-gc1
+table: gc_dwarf_hosted
+location:
+  ra: 56.210375
+  dec: 72.06566667
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2020
+  host: kkh_22
+  name: KKH 22-GC1
+  # other_name:
+  # - list
+  ref_discovery:
+  - Karachentsev2020A&A...638A.111K
+notes:
+- distance assumed to match host
+# structure:
+#   rhalf: 0
+#   rhalf_em: 0
+#   rhalf_ep: 0
+#   ellipticity: 0
+#   ellipticity_em: 0
+#   ellipticity_ep: 0
+#   ellipticity_ul: 0
+#   position_angle: 0
+#   position_angle_em: 0
+#   position_angle_ep: 0
+#   ref_structure: ref
+distance:
+  distance_fixed_host: True
+m_v:
+  apparent_magnitude_v: 20.36
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Karachentsev2020A&A...638A.111K
+velocity:
+  vlos_systemic: 36
+  vlos_systemic_em: 10
+  vlos_systemic_ep: 10
+  ref_vlos: Karachentsev2020A&A...638A.111K

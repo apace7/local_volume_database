@@ -1,0 +1,70 @@
+key: eso_540-032
+table: dwarf_local_field_distant
+location:
+  ra: 12.60134 
+  dec: -19.90672
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: ngc_0253
+  name: ESO 540-032
+  other_name:
+  - ESO 540-G032
+  - FG24
+  - KK98-010 #[KK98]010
+  - PGC002933
+#   ref_discovery:
+#   - list
+# notes:
+# - list
+# structure:
+#   rhalf: 0
+#   rhalf_em: 0
+#   rhalf_ep: 0
+#   ellipticity: 0
+#   ellipticity_em: 0
+#   ellipticity_ep: 0
+#   ellipticity_ul: 0
+#   position_angle: 0
+#   position_angle_em: 0
+#   position_angle_ep: 0
+#   ref_structure: ref
+distance:
+  distance_modulus: 28.80
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: Jacobs2009AJ....138..332J
+m_v:
+  apparent_magnitude_v: 16.04
+  # apparent_magnitude_v_em: 0
+  # apparent_magnitude_v_ep: 0
+  # ref_m_v: ref
+# structure_sersic:
+#   n_sersic: 0
+#   n_sersic_em: 0
+#   n_sersic_ep: 0
+#   rad_sersic: 0
+#   rad_sersic_em: 0
+#   rad_sersic_ep: 0
+#   ellipticity: 0
+#   ellipticity_em: 0
+#   ellipticity_ep: 0
+#   ellipticity_ul: 0
+#   position_angle: 0
+#   position_angle_em: 0
+#   position_angle_ep: 0
+#   ref_structure_sersic: ref
+velocity:
+  vlos_systemic: 227.7
+  vlos_systemic_em: 0.9
+  vlos_systemic_ep: 0.9
+  ref_vlos: Bouchard2005AJ....130.2058B
+flux_HI:
+  flux_HI: 0.346
+  flux_HI_em: 0.019
+  flux_HI_ep: 0.019
+  sigma_HI: 7.4
+  sigma_HI_em: 1.2
+  sigma_HI_ep: 1.2
+  ref_flux_HI: Bouchard2005AJ....130.2058B

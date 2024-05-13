@@ -25,10 +25,7 @@ structure:
   ellipticity_ep: 0.01
   ref_structure: Beasley2019MNRAS.487.1986B
 distance:
-  distance_modulus: 25.705
-  distance_modulus_em: 0.079
-  distance_modulus_ep: 0.079
-  ref_distance: Dalcanton2009ApJS..183...67D
+  distance_fixed_host: True
 m_v:
   apparent_magnitude_v: 18.04
   ref_m_v: Beasley2019MNRAS.487.1986B

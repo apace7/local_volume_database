@@ -14,15 +14,12 @@ name_discovery:
   ref_discovery:
   - Cusano2016ApJ...829...26C
 notes:
-- distance modulus assumed to be andromeda_25 distance modulus
+- the distance is assumed to match host
 structure:
   rhalf: 0.1
   ref_structure: Cusano2016ApJ...829...26C
 distance:
-  distance_modulus: 24.38
-  distance_modulus_em: 0.06
-  distance_modulus_ep: 0.07
-  ref_distance: Savino2022ApJ...938..101S
+  distance_fixed_host: True
 m_v:
   apparent_magnitude_v: 20
   ref_m_v: Cusano2016ApJ...829...26C

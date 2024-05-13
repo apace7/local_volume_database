@@ -80,6 +80,7 @@ def add_coord(table_input):
 def create_latex_table_name_discovery(output, input_table, **kwargs):
     classification_column = kwargs.get("classification_column", 'confirmed_dwarf')
     classification_output = kwargs.get("classification_output", 'Dwarf Galaxy')
+    missing_host = []
     with open(output, 'w+') as f:
         for i in range(len(input_table)):
             end_line = '\\\\'
@@ -92,6 +93,7 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
             other_name = []
             ref = []
             host = ''
+            
             with open(path+ k +'.yaml', 'r') as stream:
                 try:
                     stream_yaml = yaml.load(stream, Loader=yaml.Loader)
@@ -118,9 +120,11 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
                             else:
                                 host = host_key
                                 host=host.replace('_', ' ')
+                                missing_host.append(stream_yaml['key'])
                                 print('no host key', host_key)
                 except yaml.YAMLError as exc:
                     print(exc)
+            # 
             c = coord.SkyCoord(ra=input_table['ra'][i]*u.degree, dec=input_table['dec'][i]*u.degree)
             x = c.to_string('hmsdms')
             x1 = c.ra.to_string(unit=u.hourangle, sep=":", precision=1, alwayssign=False, pad=True)
@@ -165,6 +169,7 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
                 out_str2 += end_line
                 place+=1
                 f.write( out_str2+'\n')
+    print(Counter(missing_host))
 
 def create_latex_table_structure(output, output_citations, input_table, **kwargs):
     citations = []
@@ -367,12 +372,12 @@ def create_latex_table_mass(output, output_citations, input_table):
         #.replace('+','')    
             mass_to_light_str = ''
             m_dyn_str = ''
-            if ma.is_masked(input_table['vlos_sigma'][i])==False:
+            if ma.is_masked(input_table['vlos_sigma'][i])==False and ma.is_masked(input_table['rhalf_sph_physical'][i])==False:
                 mdyn = 930 * input_table['rhalf_sph_physical'][i] * input_table['vlos_sigma'][i]**2
                 m_dyn_str = '$'+"{:0.1e}".format(mdyn)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(mdyn).split('e')[1]))+'}'+'$'
                 mass_to_light = mdyn/(mstar/2.)
                 mass_to_light_str = '$'+"{:0.1f}".format(mass_to_light)+'$'
-            elif ma.is_masked(input_table['vlos_sigma_ul'][i])==False:
+            elif ma.is_masked(input_table['vlos_sigma_ul'][i])==False and ma.is_masked(input_table['rhalf_sph_physical'][i])==False:
                 mdyn_ul = 930 * input_table['rhalf_sph_physical'][i] * input_table['vlos_sigma_ul'][i]**2
                 m_dyn_str = '$<'+"{:0.1e}".format(mdyn_ul)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(mdyn_ul).split('e')[1]))+'}'+'$'
                 mass_to_light = mdyn/(mstar/2.)

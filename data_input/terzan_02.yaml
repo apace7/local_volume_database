@@ -1,0 +1,52 @@
+distance:
+  distance: 7.753
+  distance_em: 0.318
+  distance_ep: 0.332
+  distance_modulus: 14.447
+  distance_modulus_em: 0.091
+  distance_modulus_ep: 0.091
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: terzan_02
+location:
+  dec: -30.802333
+  ra: 261.887917
+m_v:
+  apparent_magnitude_v: 7.34
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.54
+  metallicity_spectroscopic_em: 0.10
+  metallicity_spectroscopic_ep: 0.10
+  ref_metallicity_spectroscopic: Geisler2023A&A...669A.115G
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1967
+  name: Terzan 2
+  other_name:
+  - HP 3
+  - ESO 454-29
+  - MWSC 2600
+  - Haute-Provence 3
+  - BH 228
+  ref_discovery:
+  - Terzan1967CRASB.265..734T
+proper_motion:
+  pmdec: -6.2626
+  pmdec_em: 0.0382
+  pmdec_ep: 0.0382
+  pmra: -2.1699
+  pmra_em: 0.041
+  pmra_ep: 0.041
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 1.06
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 134.56
+  vlos_systemic_em: 0.96
+  vlos_systemic_ep: 0.96

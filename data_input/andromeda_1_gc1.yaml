@@ -21,10 +21,7 @@ structure:
   rhalf_ep: 0.002
   ref_structure: Caldwell2017PASA...34...39C
 distance:
-  distance_modulus: 24.45
-  distance_modulus_em: 0.05
-  distance_modulus_ep: 0.05
-  ref_distance: Savino2022ApJ...938..101S
+  distance_fixed_host: True
 m_v:
   apparent_magnitude_v: 20.1
   apparent_magnitude_v_em: 0.1

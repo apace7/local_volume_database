@@ -1,0 +1,50 @@
+key: ikn
+table: misc
+location:
+  ra: 152.0208333
+  dec: 68.42113889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 0
+  host: m_81
+  name: IKN
+#   other_name:
+#   - list
+#   ref_discovery:
+#   - list
+notes:
+- distance error is from https://www.sao.ru/lv/lvgdb/object.php?name=IKN&id=186
+structure:
+  rhalf: 1.32
+  rhalf_em: 0.01
+  rhalf_ep: 0.01
+  ellipticity: 0.1
+  position_angle: 174.6
+  ref_structure: Okamoto2019ApJ...884..128O
+distance:
+  distance_modulus: 27.87
+  distance_modulus_em: 0.18
+  distance_modulus_ep: 0.18
+  ref_distance: Karachentsev2006AJ....131.1361K
+m_v:
+  apparent_magnitude_v: 13.58
+  apparent_magnitude_v_em: 0.49
+  apparent_magnitude_v_ep: 0.49
+  ref_m_v: Okamoto2019ApJ...884..128O
+metallicity_photometric:
+  metallicity_photometric: -1.17
+  metallicity_photometric_em: 0.23
+  metallicity_photometric_ep: 0.23
+  metallicity_photometric_sigma: 0.39
+  ref_metallicity_photometric: Okamoto2019ApJ...884..128O
+structure_king:
+  rcore: 0.4
+  rcore_em: 0.1
+  rcore_ep: 0.1
+  rking: 8.5
+  rking_em: 0.4
+  rking_ep: 0.4
+  ellipticity: 0.1
+  position_angle: 174.6
+  ref_structure_king: Okamoto2019ApJ...884..128O

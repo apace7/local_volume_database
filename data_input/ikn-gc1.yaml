@@ -1,0 +1,40 @@
+key: ikn-gc1
+table: gc_dwarf_hosted
+location:
+  ra: 152.02975
+  dec: 68.39351389
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2008
+  host: ikn
+  name: IKN-GC1
+  other_name:
+  - IKN-1
+  ref_discovery:
+  - Georgiev2009MNRAS.392..879G
+notes:
+- distance matches IKN distance Karachentsev2006AJ....131.1361K
+structure:
+  rhalf: 0.006068768966
+  rhalf_em: 0.0002658524169
+  rhalf_ep: 0.0002658524169
+  ellipticity: 0.13
+  ref_structure: Georgiev2009MNRAS.392..879G
+distance:
+  distance_fixed_host: True
+m_v:
+  apparent_magnitude_v: 21.22
+  apparent_magnitude_v_em: 0.06
+  apparent_magnitude_v_ep: 0.06
+  ref_m_v: Georgiev2009MNRAS.392..879G
+metallicity_photometric:
+  metallicity_photometric: -1.833
+  metallicity_photometric_em: 0.423
+  metallicity_photometric_ep: 0.235
+  ref_metallicity_photometric: Tudorica2015A&A...581A..84T
+age:
+  age: 14.77
+  age_em: 1.30
+  age_ep: 1.14
+  ref_age: Tudorica2015A&A...581A..84T

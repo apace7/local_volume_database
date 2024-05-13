@@ -1,23 +1,8 @@
-distance:
-  distance: 7.431
-  distance_em: 0.26
-  distance_ep: 0.27
-  distance_modulus: 14.355
-  ref_distance: Baumgardt2021MNRAS.505.5957B
 key: fsr_1716
+table: gc_disk
 location:
-  dec: -53.7489
   ra: 242.625
-m_v:
-  apparent_magnitude_v: 9.57
-  apparent_magnitude_v_em: 0.11
-  apparent_magnitude_v_ep: 0.11
-  ref_m_v: Baumgardt2020PASA...37...46B
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.38
-  metallicity_spectroscopic_em: 0.2
-  metallicity_spectroscopic_ep: 0.2
-  ref_metallicity_spectroscopic: Koch2017A&A...605A.128K
+  dec: -53.7489
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -28,6 +13,22 @@ name_discovery:
   - VVV-GC05
   ref_discovery:
   - Froebrich2007MNRAS.374..399F
+distance:
+  distance: 7.431
+  distance_em: 0.26
+  distance_ep: 0.27
+  distance_modulus: 14.355
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+m_v:
+  apparent_magnitude_v: 9.57
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.38
+  metallicity_spectroscopic_em: 0.2
+  metallicity_spectroscopic_ep: 0.2
+  ref_metallicity_spectroscopic: Koch2017A&A...605A.128K
 proper_motion:
   pmdec: -8.8318
   pmdec_em: 0.0312
@@ -39,7 +40,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.71
-table: gc_disk
 velocity:
   ref_vlos: Koch2017A&A...605A.128K
   vlos_sigma: 2.5

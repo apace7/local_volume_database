@@ -86,6 +86,29 @@ def add_to_table(yaml_input, table_output, place, ):
     for y in ['structure', 'distance','m_v', 'velocity', 'proper_motion', 'metallicity_spectroscopic', 'structure_king', 'structure_sersic', 'age', 'metallicity_photometric', 'flux_HI', 'name_discovery']:
         if y in yaml_input.keys():
             x = list(yaml_input[y].keys())
+            if y == 'distance' and 'distance_fixed_host' in x and stream_yaml['name_discovery']['host'] + '.yaml' in dir_list:
+                try:
+                # if True:
+                    # print("host missing for", stream_yaml['key'], path + stream_yaml['name_discovery']['host'] + '.yaml')
+                    with open(path + stream_yaml['name_discovery']['host'] + '.yaml', 'r') as yaml_to_load:
+                        stream_yaml_host = yaml.load(yaml_to_load, Loader=yaml.Loader)
+                        # print("stream_yaml_host", stream_yaml_host)
+                        x = list(stream_yaml_host['distance'].keys())
+                        # print(x)
+                        for list_key in range(len(x)):
+                            name = x[list_key]
+                            # print(name)
+                            if name not in table_output.dtype.names:
+                                missing_key.append(name)
+                                continue
+                            else:
+                                table_output[name][place] = stream_yaml_host['distance'][x[list_key]]
+                except:
+                    print("host missing for", stream_yaml['key'])
+                        # print(stream_yaml['name_discovery']['host'] + '.yaml' in dir_list)
+                continue
+                
+            x = list(yaml_input[y].keys())
             for list_key in range(len(x)):
                 name = x[list_key]
                 if name not in table_output.dtype.names:
@@ -215,11 +238,19 @@ comb_dwarf_m31 = value_add(comb_dwarf_m31, table_type='dwarf')
 comb_dwarf_lf = value_add(comb_dwarf_lf, table_type='dwarf')
 comb_dwarf_lf_distant = value_add(comb_dwarf_lf_distant, table_type='dwarf', spatial_units='arcsec')
 
+comb_dwarf_mw.sort('key')
+comb_dwarf_m31.sort('key')
+comb_dwarf_lf.sort('key')
+comb_dwarf_lf_distant.sort('key')
 comb_dwarf_mw.write('data/dwarf_mw.csv', format='csv', overwrite=True)
 comb_dwarf_m31.write('data/dwarf_m31.csv', format='csv',overwrite=True)
 comb_dwarf_lf.write('data/dwarf_local_field.csv', format='csv',overwrite=True)
 comb_dwarf_lf_distant.write('data/dwarf_local_field_distant.csv', format='csv',overwrite=True)
 
+comb_gc_disk.sort('key')
+comb_gc_harris.sort('key')
+comb_gc_ufsc.sort('key')
+comb_gc_dwarf.sort('key')
 comb_gc_disk.write('data/gc_disk.csv', format='csv',overwrite=True)
 comb_gc_harris.write('data/gc_harris.csv', format='csv',overwrite=True)
 comb_gc_ufsc.write('data/gc_ufsc.csv', format='csv',overwrite=True)

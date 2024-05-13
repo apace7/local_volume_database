@@ -23,8 +23,7 @@ structure:
   ellipticity: 0.13
   ref_structure: Georgiev2009MNRAS.392..879G
 distance:
-  distance_modulus: 27.91
-  ref_distance: Karachentsev2013AJ....145..101K
+  distance_fixed_host: True
 m_v:
   apparent_magnitude_v: 17.92
   apparent_magnitude_v_em: 0.06

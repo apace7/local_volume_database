@@ -1,0 +1,52 @@
+key: ic_0010
+table: dwarf_m31
+location:
+  dec: 59.29166667
+  ra: 5.102083333
+distance:
+  distance_modulus: 24.43
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: McQuinn2017ApJ...834...78M
+flux_HI:
+  flux_HI: 336.6
+  flux_HI_em: 40.4
+  flux_HI_ep: 40.4
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 9.5
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: McConnachie2012AJ....144....4M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1888
+  host: m_31
+  name: IC 10
+  other_name:
+  - UGC 192
+  - 2MASX J00201733+5918136
+  - MCG +10-01-001
+  - PGC001305
+  ref_discovery:
+  - Swift1888AN....120...33S
+structure:
+  ellipticity: 0.19
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: McConnachie2012AJ....144....4M
+  rhalf: 2.65
+velocity:
+  ref_vlos: McConnachie2012AJ....144....4M
+  vlos_systemic: -348.0
+  vlos_systemic_em: 1.0
+  vlos_systemic_ep: 1.0
+proper_motion:
+  pmra: -0.002
+  pmra_em: 0.008
+  pmra_ep: 0.008
+  pmdec: 0.020
+  pmdec_em: 0.008
+  pmdec_ep: 0.008
+  ref_proper_motion: Brunthaler2007A&A...462..101B

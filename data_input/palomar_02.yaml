@@ -1,0 +1,53 @@
+key: palomar_02
+table: gc_harris
+location:
+  dec: 31.3815
+  ra: 71.52462
+distance:
+  distance: 26.174
+  distance_em: 1.253
+  distance_ep: 1.317
+  distance_modulus: 17.089
+  distance_modulus_em: 0.107
+  distance_modulus_ep: 0.107
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+m_v:
+  apparent_magnitude_v: 8.81
+  apparent_magnitude_v_em: 0.06
+  apparent_magnitude_v_ep: 0.06
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.42
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1955
+  name: Palomar 2
+  ref_discovery:
+  - Abell1955PASP...67..258A
+  - Wilson1955PASP...67...27W
+proper_motion:
+  pmdec: -1.5218
+  pmdec_em: 0.0312
+  pmdec_ep: 0.0312
+  pmra: 1.0448
+  pmra_em: 0.0341
+  pmra_ep: 0.0341
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 0.63
+structure_sersic:
+  n_sersic: 1.69
+  n_sersic_em: 0.04
+  n_sersic_ep: 0.04
+  rad_sersic: 0.99
+  rad_sersic_em: 0.02
+  rad_sersic_ep: 0.02
+  ref_structure_sersic: Munoz2018ApJ...860...66M
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -135.97
+  vlos_systemic_em: 1.55
+  vlos_systemic_ep: 1.55

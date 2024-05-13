@@ -1,7 +1,9 @@
+key: fornax_1
+table: dwarf_mw
+location:
+  dec: -34.4997
+  ra: 39.9583
 distance:
-  distance: 143.0
-  distance_em: 3.0
-  distance_ep: 3.0
   distance_modulus: 20.77
   distance_modulus_em: 0.048
   distance_modulus_ep: 0.048
@@ -9,10 +11,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.75
   ref_flux_HI: Putman2021ApJ...913...53P
-key: fornax_1
-location:
-  dec: -34.4997
-  ra: 39.9583
 m_v:
   apparent_magnitude_v: 7.377
   apparent_magnitude_v_em: 0.2
@@ -66,7 +64,6 @@ structure_king:
   rking: 69.1
   rking_em: 0.4
   rking_ep: 0.4
-table: dwarf_mw
 velocity:
   ref_vlos: Walker2009AJ....137.3100W
   vlos_sigma: 12.1
