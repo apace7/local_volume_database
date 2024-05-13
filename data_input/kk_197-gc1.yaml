@@ -1,0 +1,36 @@
+key: kk_197-gc1
+table: gc_dwarf_hosted
+location:
+  ra: 200.4991667
+  dec: -42.53513889
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2008
+  host: kk_197
+  name: KK 197-GC1
+  other_name:
+  - KK 197-01
+  ref_discovery:
+  - Georgiev2009MNRAS.392..879G
+notes:
+- Distance assumed to be the same as host galaxy KK_197 
+structure:
+  rhalf: 0.001736148495
+  rhalf_em: 0.0001468384299
+  rhalf_ep: 0.0001468384299
+  ellipticity: 0.01
+  ref_structure: Georgiev2009MNRAS.392..879G
+distance:
+  distance_fixed_host: True
+m_v:
+  apparent_magnitude_v: 22.25
+  apparent_magnitude_v_em: 0.07
+  apparent_magnitude_v_ep: 0.07
+  ref_m_v: Georgiev2009MNRAS.392..879G
+velocity:
+  vlos_systemic: 636.4
+  vlos_systemic_em: 16.0
+  vlos_systemic_ep: 16.0
+  ref_vlos: Fahrion2020A&A...634A..53F
+

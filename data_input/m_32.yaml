@@ -22,8 +22,8 @@ m_v:
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
-  host: M_31
-  name: M32
+  host: m_31
+  name: M 32
   other_name:
   - UGC 452
   - NGC 221

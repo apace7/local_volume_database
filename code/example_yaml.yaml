@@ -37,6 +37,7 @@ distance:
   distance_modulus: 0 
   distance_modulus_em: 0
   distance_modulus_ep: 0
+  distance_fixed_host: True ## when this column is include the distance is taken from the 'name_discovery':'host'
   ## some files have distance, distance_em, and distance_ep.  These are old and the distance in the tables is computed from the distance modulus
   ref_distance: ref
 m_v:

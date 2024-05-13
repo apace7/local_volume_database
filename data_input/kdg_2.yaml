@@ -1,0 +1,72 @@
+key: kdg_2
+table: dwarf_local_field_distant
+location:
+  ra: 12.33734 
+  dec: -18.07542
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1968
+  host: ngc_0253
+  name: KDG 2
+  other_name:
+  - ESO 540-G030
+  - ESO 540-030
+  - PGC002881 
+  - KK98-009  #[KK98]009 
+  ref_discovery:
+  - Karachentseva1968CoBAO..39...61K
+  - Karachentseva1998A&AS..127..409K
+# notes:
+# - list
+# structure:
+#   rhalf: 0
+#   rhalf_em: 0
+#   rhalf_ep: 0
+#   ellipticity: 0
+#   ellipticity_em: 0
+#   ellipticity_ep: 0
+#   ellipticity_ul: 0
+#   position_angle: 0
+#   position_angle_em: 0
+#   position_angle_ep: 0
+#   ref_structure: ref
+distance:
+  distance_modulus: 27.76
+  distance_modulus_em: 0.04
+  distance_modulus_ep: 0.04
+  ref_distance: Jacobs2009AJ....138..332J
+m_v:
+  apparent_magnitude_v: 15.96
+  # apparent_magnitude_v_em: 0
+  # apparent_magnitude_v_ep: 0
+  # ref_m_v: ref
+# structure_sersic:
+#   n_sersic: 0
+#   n_sersic_em: 0
+#   n_sersic_ep: 0
+#   rad_sersic: 0
+#   rad_sersic_em: 0
+#   rad_sersic_ep: 0
+#   ellipticity: 0
+#   ellipticity_em: 0
+#   ellipticity_ep: 0
+#   ellipticity_ul: 0
+#   position_angle: 0
+#   position_angle_em: 0
+#   position_angle_ep: 0
+#   ref_structure_sersic: ref
+velocity:
+  vlos_systemic: 223.5
+  vlos_systemic_em: 2.7
+  vlos_systemic_ep: 2.7
+  ref_vlos: Bouchard2005AJ....130.2058B
+flux_HI:
+  flux_HI: 0.327
+  flux_HI_em: 0.025
+  flux_HI_ep: 0.025
+  sigma_HI: 11.0
+  sigma_HI_em: 1.2
+  sigma_HI_ep: 1.2
+  ref_flux_HI: Bouchard2005AJ....130.2058B
+

@@ -1,0 +1,46 @@
+age:
+  age: 7.3
+  age_em: 1.15
+  age_ep: 1.15
+  ref_age: Forbes2010MNRAS.404.1203F
+distance:
+  distance: 11.176
+  distance_em: 0.319
+  distance_ep: 0.328
+  distance_modulus: 15.241
+  distance_modulus_em: 0.063
+  distance_modulus_ep: 0.063
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+key: palomar_01
+location:
+  dec: 79.581055
+  ra: 53.3335
+m_v:
+  apparent_magnitude_v: 13.49
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.65
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: Palomar 1
+proper_motion:
+  pmdec: 0.0075
+  pmdec_em: 0.0373
+  pmdec_ep: 0.0373
+  pmra: -0.2515
+  pmra_em: 0.0342
+  pmra_ep: 0.0342
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 0.62
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: -75.72
+  vlos_systemic_em: 0.29
+  vlos_systemic_ep: 0.29

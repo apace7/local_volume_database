@@ -1,0 +1,61 @@
+key: palomar_03
+location:
+  ra: 151.381622
+  dec: 0.071667
+age:
+  age: 10.5
+  age_em: 0.7
+  age_ep: 0.7
+  ref_age: Kruijssen2019MNRAS.486.3180K
+distance:
+  distance: 94.842
+  distance_em: 3.178
+  distance_ep: 3.288
+  distance_modulus: 19.885
+  distance_modulus_em: 0.074
+  distance_modulus_ep: 0.074
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+m_v:
+  apparent_magnitude_v: 14.45
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.63
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1955
+  name: Palomar 3
+  other_name: 
+  - Sextans C
+  - UGC 05439
+  ref_discovery:
+  - Abell1955PASP...67..258A
+  - Wilson1955PASP...67...27W
+proper_motion:
+  pmdec: -0.1484
+  pmdec_em: 0.0709
+  pmdec_ep: 0.0709
+  pmra: 0.0861
+  pmra_em: 0.0602
+  pmra_ep: 0.0602
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+structure:
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 0.73
+structure_sersic:
+  n_sersic: 0.87
+  n_sersic_em: 0.05
+  n_sersic_ep: 0.05
+  rad_sersic: 0.72
+  rad_sersic_em: 0.02
+  rad_sersic_ep: 0.02
+  ref_structure_sersic: Munoz2018ApJ...860...66M
+table: gc_harris
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 94.04
+  vlos_systemic_em: 0.8
+  vlos_systemic_ep: 0.8

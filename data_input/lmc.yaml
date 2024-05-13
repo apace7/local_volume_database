@@ -1,0 +1,64 @@
+key: lmc
+table: dwarf_mw
+location:
+  dec: -69.7561
+  ra: 80.894
+distance:
+  distance_modulus: 18.477
+  distance_modulus_em: 0.024
+  distance_modulus_ep: 0.024
+  ref_distance: Pietrzynski2019Natur.567..200P
+m_v:
+  apparent_magnitude_v: 0.4
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: deVaucouleurs1991rc3..book.....D
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 0
+  host: MW
+  name: LMC
+  other_name:
+  - Nubecula Major
+  - Large Magellanic Cloud
+  - Large Milky Cloud
+  abbreviation: LMC
+structure:
+  rhalf: 192.9 
+  rhalf_em: 0.2
+  rhalf_ep: 0.2
+  ellipticity: 0.164
+  ellipticity_em: 0.001
+  ellipticity_ep: 0.001
+  position_angle: 227.24
+  position_angle_em: 0.178
+  position_angle_ep: 0.188
+  ref_structure: Choi2018ApJ...869..125C
+proper_motion:
+  pmdec: 0.229
+  pmdec_em: 0.047
+  pmdec_ep: 0.047
+  pmra: 1.91
+  pmra_em: 0.02
+  pmra_ep: 0.02
+  ref_proper_motion: Kallivayalil2013ApJ...764..161K
+velocity:
+  ref_vlos: vanderMarel2002AJ....124.2639V 
+  vlos_systemic: 262.2
+  vlos_systemic_em: 3.4
+  vlos_systemic_ep: 3.4
+  vlos_sigma: 20.2
+  vlos_sigma_em: 0.5
+  vlos_sigma_ep: 0.5
+flux_HI:
+  flux_HI:  750658
+  flux_HI_em: 6527
+  flux_HI_ep: 6527
+  flux_HI_rotation_velocity: 63.0
+  flux_HI_rotation_velocity_em: 3
+  flux_HI_rotation_velocity_ep: 3
+  flux_HI_dispersion: 15.8
+  flux_HI_dispersion_em: 0.2
+  flux_HI_dispersion_ep: 0.2
+  ref_flux_HI: Bruns2005A&A...432...45B

@@ -26,10 +26,7 @@ structure:
   position_angle_ep: 6
   ref_structure: Simon2021ApJ...908...18S
 distance:
-  distance_modulus: 22.84
-  distance_modulus_em: 0.05
-  distance_modulus_ep: 0.05
-  ref_distance: MartinezVazquez2021MNRAS.508.1064M
+  distance_fixed_host: True
 m_v:
   apparent_magnitude_v: 19.95
   apparent_magnitude_v_em: 0.3

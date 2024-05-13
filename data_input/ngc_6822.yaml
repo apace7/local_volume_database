@@ -1,3 +1,8 @@
+key: ngc_6822
+table: dwarf_local_field
+location:
+  dec: -14.78916667
+  ra: 296.2358333
 distance:
   distance: 570.0
   distance_em: 12.0
@@ -11,10 +16,6 @@ flux_HI:
   flux_HI_em: 201.5
   flux_HI_ep: 201.5
   ref_flux_HI: Putman2021ApJ...913...53P
-key: ngc_6822
-location:
-  dec: -14.78916667
-  ra: 296.2358333
 m_v:
   apparent_magnitude_v: 8.1
   apparent_magnitude_v_em: 0.2
@@ -67,7 +68,6 @@ structure_sersic:
   rad_sersic_em: 0.07
   rad_sersic_ep: 0.07
   ref_structure_sersic: Higgs2021MNRAS.503..176H
-table: dwarf_local_field
 velocity:
   ref_vlos: Kirby2014MNRAS.439.1015K
   vlos_sigma: 23.2

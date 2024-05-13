@@ -28,8 +28,7 @@ structure:
   position_angle_ep: 0.8
   ref_structure: MartinezDelgado2024arXiv240503769M
 distance:
-  distance_modulus: 27.70
-  ref_distance: RadburnSmith2011ApJS..195...18R
+  distance_fixed_host: True
 m_v:
   apparent_magnitude_v: 18.96
   apparent_magnitude_v_em: 0.05

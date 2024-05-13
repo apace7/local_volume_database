@@ -22,10 +22,7 @@ structure:
   rhalf_ep: 0.0037
   ref_structure: Hwang2011ApJ...738...58H
 distance:
-  distance_modulus: 23.78
-  distance_modulus_em: 0.05
-  distance_modulus_ep: 0.05
-  ref_distance: Higgs2021MNRAS.503..176H
+  distance_fixed_host: True
 m_v:
   apparent_magnitude_v: 18.44
   apparent_magnitude_v_em: 0.04

@@ -1,18 +1,16 @@
+key: crater_2
+table: dwarf_mw
+location:
+  dec: -18.413
+  ra: 177.31
 distance:
-  distance: 117.5
-  distance_em: 1.1
-  distance_ep: 1.1
-  distance_modulus: 20.35
-  distance_modulus_em: 0.02
-  distance_modulus_ep: 0.02
+  distance_modulus: 20.333
+  distance_modulus_em: 0.070
+  distance_modulus_ep: 0.070
   ref_distance: Torrealba2016MNRAS.459.2370T
 flux_HI:
   flux_HI_ul: 0.91
   ref_flux_HI: Putman2021ApJ...913...53P
-key: crater_2
-location:
-  dec: -18.413
-  ra: 177.31
 m_v:
   apparent_magnitude_v: 12.15
   apparent_magnitude_v_em: 0.1
@@ -36,12 +34,12 @@ name_discovery:
   - Torrealba2016MNRAS.459.2370T
   abbreviation: CraII
 proper_motion:
-  pmdec: -0.112
-  pmdec_em: 0.013
-  pmdec_ep: 0.013
   pmra: -0.072
   pmra_em: 0.02
   pmra_ep: 0.02
+  pmdec: -0.112
+  pmdec_em: 0.013
+  pmdec_ep: 0.013
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
   ellipticity_ul: 0.1
@@ -49,7 +47,6 @@ structure:
   rhalf: 31.2
   rhalf_em: 2.5
   rhalf_ep: 2.5
-table: dwarf_mw
 velocity:
   ref_vlos: Ji2021ApJ...921...32J
   vlos_sigma: 2.34

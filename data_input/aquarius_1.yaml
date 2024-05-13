@@ -1,12 +1,9 @@
 key: aquarius_1
 table: dwarf_local_field
 location:
-  dec: -12.84805556
   ra: 311.7158333
+  dec: -12.84805556
 distance:
-  distance: 988.0
-  distance_em: 43.0
-  distance_ep: 43.0
   distance_modulus: 24.97
   distance_modulus_em: 0.09
   distance_modulus_ep: 0.09

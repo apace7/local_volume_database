@@ -1,0 +1,36 @@
+distance:
+  distance: 2819.0
+  distance_em: 91.0
+  distance_ep: 91.0
+  distance_modulus: 27.25
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: EDD
+flux_HI:
+  flux_HI: 150.5
+  ref_flux_HI: EDD
+key: ngc_4214
+location:
+  dec: 36.3274
+  ra: 183.9132
+m_v:
+  apparent_magnitude_v: 9.6
+  ref_m_v: EDD
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  # host: ngc_4214
+  name: NGC 4214
+  other_name:
+  - NGC4228
+  - PGC039225
+  - UGC07278
+  - CGCG 187-032
+  - MCG +06-27-042
+structure:
+  ellipticity: 0.22
+  ref_structure: LVGDB
+table: dwarf_local_field
+velocity:
+  ref_vlos: EDD
+  vlos_systemic: 293.0
