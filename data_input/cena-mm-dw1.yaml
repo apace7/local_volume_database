@@ -1,5 +1,5 @@
 key: cena-mm-dw1
-table: misc
+table: misc  # dwarf_local_field_distant
 location:
   ra: 202.5594167
   dec: -41.89327778
