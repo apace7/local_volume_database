@@ -1,5 +1,5 @@
 key: ikn
-table: misc
+table: dwarf_local_field_distant
 location:
   ra: 152.0208333
   dec: 68.42113889
@@ -19,6 +19,7 @@ structure:
   rhalf: 1.32
   rhalf_em: 0.01
   rhalf_ep: 0.01
+  spatial_units: arcmin
   ellipticity: 0.1
   position_angle: 174.6
   ref_structure: Okamoto2019ApJ...884..128O
@@ -45,6 +46,7 @@ structure_king:
   rking: 8.5
   rking_em: 0.4
   rking_ep: 0.4
+  spatial_units: arcmin
   ellipticity: 0.1
   position_angle: 174.6
   ref_structure_king: Okamoto2019ApJ...884..128O

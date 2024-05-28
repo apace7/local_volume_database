@@ -1,4 +1,4 @@
-key: cena-mm-dw3-nsc
+key: cena-mm-dw03-nsc
 table: gc_dwarf_hosted
 location:
   ra: 202.586867 
@@ -7,7 +7,7 @@ name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
   discovery_year: 2018
-  host: cena-mm-dw3
+  host: cena-mm-dw03
   name: CenA-MM-Dw3-NSC
   other_name:
   - H21-360500 ## unclear where second name comes from

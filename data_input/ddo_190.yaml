@@ -4,13 +4,10 @@ location:
   dec: 44.52583333
   ra: 216.1808333
 distance:
-  distance: 2793.0
-  distance_em: 39.0
-  distance_ep: 39.0
   distance_modulus: 27.23
   distance_modulus_em: 0.01
   distance_modulus_ep: 0.02
-  ref_distance: Newman2024arXiv240303086N
+  ref_distance: Newman2024ApJ...966..175N
 m_v:
   apparent_magnitude_v: 12.8
   apparent_magnitude_v_em: 0.1
@@ -42,6 +39,7 @@ structure:
   rhalf: 0.64
   rhalf_em: 0.06
   rhalf_ep: 0.06
+  spatial_units: arcmin
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 150.0

@@ -23,6 +23,8 @@ name_discovery:
   - PGC2815820
   - '[KK2000] 53'
   - Cen7
+  ref_discovery:
+  - Karachentseva2000A&AS..146..359K
 structure:
   ellipticity: 0.13
   ref_structure: LVGDB

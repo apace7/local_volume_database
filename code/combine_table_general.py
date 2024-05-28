@@ -86,6 +86,7 @@ def add_to_table(yaml_input, table_output, place, ):
     for y in ['structure', 'distance','m_v', 'velocity', 'proper_motion', 'metallicity_spectroscopic', 'structure_king', 'structure_sersic', 'age', 'metallicity_photometric', 'flux_HI', 'name_discovery']:
         if y in yaml_input.keys():
             x = list(yaml_input[y].keys())
+            ## special case of distance fixed to the value in another file (ie host)
             if y == 'distance' and 'distance_fixed_host' in x and stream_yaml['name_discovery']['host'] + '.yaml' in dir_list:
                 try:
                 # if True:
@@ -106,16 +107,35 @@ def add_to_table(yaml_input, table_output, place, ):
                 except:
                     print("host missing for", stream_yaml['key'])
                         # print(stream_yaml['name_discovery']['host'] + '.yaml' in dir_list)
-                continue
-                
-            x = list(yaml_input[y].keys())
-            for list_key in range(len(x)):
-                name = x[list_key]
-                if name not in table_output.dtype.names:
-                    missing_key.append(name)
-                    continue
-                else:
-                    table_output[name][place] = yaml_input[y][x[list_key]]
+                # continue
+            ## dealing with units 
+            elif y in ['structure', 'structure_king', 'structure_sersic'] and 'spatial_units' in x:
+                unit_conversion = 1.
+                if yaml_input[y]['spatial_units'].replace(' ', '') =='arcsec':
+                    unit_conversion = 1./60. ## convert from arcsec to arcmin
+                    # print(yaml_input['key'], unit_conversion)
+                for list_key in range(len(x)):
+                    name = x[list_key]
+                    
+                    if name not in table_output.dtype.names:
+                        missing_key.append(name)
+                        continue
+                    else:
+                        if name in ['rcore', 'rcore_em', 'rcore_ep', 'rking', 'rking_em', 'rking_ep',  'rad_sersic', 'rad_sersic_em', 'rad_sersic_ep','rhalf', 'rhalf_em', 'rhalf_ep']:
+                            table_output[name][place] = yaml_input[y][x[list_key]] * unit_conversion
+                            # print(name, yaml_input['key'])
+                        else:
+                            table_output[name][place] = yaml_input[y][x[list_key]]
+            ## everything else
+            else:
+                x = list(yaml_input[y].keys())
+                for list_key in range(len(x)):
+                    name = x[list_key]
+                    if name not in table_output.dtype.names:
+                        missing_key.append(name)
+                        continue
+                    else:
+                        table_output[name][place] = yaml_input[y][x[list_key]]
     return missing_key
 
 def value_add(input_table, table_type='dwarf', **kwargs):
@@ -220,10 +240,12 @@ for i in range(len(dir_list)):
 
 print("missing yaml entry", Counter(np.concatenate(missing_key).flat))
 print()
-
+missing_table = np.array(missing_table)
+missing_table_key = np.array(missing_table_key)
 print("missing table", Counter(missing_table))
-
-print("objects missing (key)", Counter(missing_table_key))
+for missing in Counter(missing_table).keys():
+    temp = missing_table_key[missing_table==missing]
+    print("objects missing (key)", missing, Counter(temp))
 
 ## save output
 comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='gc')
@@ -236,7 +258,7 @@ comb_gc_dwarf = value_add(comb_gc_dwarf, table_type='gc')
 comb_dwarf_mw = value_add(comb_dwarf_mw, table_type='dwarf')
 comb_dwarf_m31 = value_add(comb_dwarf_m31, table_type='dwarf')
 comb_dwarf_lf = value_add(comb_dwarf_lf, table_type='dwarf')
-comb_dwarf_lf_distant = value_add(comb_dwarf_lf_distant, table_type='dwarf', spatial_units='arcsec')
+comb_dwarf_lf_distant = value_add(comb_dwarf_lf_distant, table_type='dwarf') # , spatial_units='arcsec'
 
 comb_dwarf_mw.sort('key')
 comb_dwarf_m31.sort('key')

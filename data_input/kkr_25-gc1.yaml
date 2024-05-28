@@ -1,0 +1,23 @@
+key: kkr_25-gc1
+table: candidate
+location:
+  ra: 243.4554167  # [deg]
+  dec: 54.3683 # [deg]
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 1
+  discovery_year: 2001
+  host: kkr_25
+  name: KKR 25-GC1
+  ref_discovery:
+  - Karachentsev2001A&A...379..407K
+  ref_false_positive:
+  - Makarov2012MNRAS.425..709M
+notes:
+  - background galaxy z ~ 0.335
+distance:
+  distance_fixed_host: True 
+m_v:
+  apparent_magnitude_v: 20.59
+  ref_m_v: Karachentsev2001A&A...379..407K

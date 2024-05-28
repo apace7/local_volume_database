@@ -1,0 +1,47 @@
+key: cena-mm-dw07
+table: dwarf_local_field_distant
+location:
+  ra: 201.6189583
+  dec: -43.55640833
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: ngc_5128
+  name: CenA-MM-Dw7
+  other_name:
+  - CenA-Dw-132628-433318
+  ref_discovery:
+  - Crnojevic2016ApJ...823...19C
+notes:
+- HI gas upper limit is 5 sigma
+structure:
+  rhalf: 0.5
+  rhalf_em: 0.05
+  rhalf_ep: 0.05
+  spatial_units: arcmin
+  ellipticity: 0.41
+  ellipticity_em: 0.08
+  ellipticity_ep: 0.08
+  position_angle: -46.1
+  position_angle_em: 6.5
+  position_angle_ep: 6.5
+  ref_structure: Crnojevic2019ApJ...872...80C
+distance:
+  distance_modulus: 28.07
+  distance_modulus_em: 0.15
+  distance_modulus_ep: 0.15
+  ref_distance: Crnojevic2019ApJ...872...80C
+m_v:
+  apparent_magnitude_v: 18.17
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: Crnojevic2019ApJ...872...80C
+metallicity_photometric:
+  metallicity_photometric: -1.47
+  metallicity_photometric_em: 0.05
+  metallicity_photometric_ep: 0.05
+  ref_metallicity_photometric: Crnojevic2019ApJ...872...80C
+flux_HI:
+  flux_HI_ul: 1.71
+  ref_flux_HI: Crnojevic2019ApJ...872...80C

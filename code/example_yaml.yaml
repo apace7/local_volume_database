@@ -1,5 +1,9 @@
 key: example_yaml
 table: misc
+# candidate 
+# gc_harris , gc_dwarf_hosted , gc_disk , gc_ufsc
+# dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant
+# misc == currently catch-all for objects that don't go elsewhere 
 location:
   ra: 0 # [deg]
   dec: 0 # [deg]
@@ -25,6 +29,7 @@ structure:
   rhalf: 0 # [arcmin]
   rhalf_em: 0
   rhalf_ep: 0
+  spatial_units: arcmin, arcsec
   ellipticity: 0
   ellipticity_em: 0
   ellipticity_ep: 0
@@ -78,6 +83,7 @@ structure_king:
   rking: 0 # [arcmin]
   rking_em: 0
   rking_ep: 0
+  spatial_units: arcmin, arcsec
   ellipticity: 0
   ellipticity_em: 0
   ellipticity_ep: 0
@@ -94,6 +100,7 @@ structure_sersic:
   rad_sersic: 0 # [arcmin]
   rad_sersic_em: 0
   rad_sersic_ep: 0
+  spatial_units: arcmin, arcsec
   ellipticity: 0
   ellipticity_em: 0
   ellipticity_ep: 0
@@ -110,6 +117,7 @@ structure_eff:
   rad_eff: 0 # [arcmin]
   rad_eff_em: 0
   rad_eff_ep: 0
+  spatial_units: arcmin, arcsec
   ellipticity: 0
   ellipticity_em: 0
   ellipticity_ep: 0

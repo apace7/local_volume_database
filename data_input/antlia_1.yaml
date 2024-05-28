@@ -2,7 +2,7 @@ distance:
   distance_modulus: 25.60
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
-  ref_distance: Newman2024arXiv240303086N 
+  ref_distance: Newman2024ApJ...966..175N 
 flux_HI:
   flux_HI: 1.7
   flux_HI_em: 0.16

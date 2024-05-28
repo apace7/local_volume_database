@@ -13,11 +13,11 @@ name_discovery:
   - MutluPakdil2022ApJ...926...77M
 notes:
 - HI gas upper limit 3 sigma
-- spatial units = arcsec
 structure:
   rhalf: 19
   rhalf_em: 5.2
   rhalf_ep: 5.2
+  spatial_units: arcsec
   ellipticity: 0.66
   ellipticity_em: 0.11
   ellipticity_ep: 0.11

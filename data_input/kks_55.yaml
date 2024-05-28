@@ -1,5 +1,5 @@
 key: kks_55
-table: misc
+table: dwarf_local_field_distant
 location:
   ra: 200.5516667
   dec: -42.73083333
@@ -12,12 +12,11 @@ name_discovery:
   other_name:
   - '[KK2000]55'
   - PGC2815822
-  # ref_discovery:
-  # - list
-notes:
-- spatial units arcmin
+  ref_discovery:
+  - Karachentseva2000A&AS..146..359K
 structure:
   rhalf: 0.6066666667
+  spatial_units: arcmin
   ref_structure: Muller2017A&A...597A...7M
 distance:
   distance_modulus: 27.93

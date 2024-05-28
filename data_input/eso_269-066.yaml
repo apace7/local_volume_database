@@ -1,5 +1,5 @@
 key: eso_269-066
-table: misc
+table: dwarf_local_field_distant
 location:
   ra: 198.2883333
   dec: -44.89
@@ -19,6 +19,7 @@ name_discovery:
 # - list
 structure:
   rhalf: 0.6766666667
+  spatial_units: arcmin
   ref_structure: Muller2017A&A...597A...7M
 distance:
   distance_modulus: 27.91

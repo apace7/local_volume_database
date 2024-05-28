@@ -1,0 +1,59 @@
+key: f8d1
+table: dwarf_local_field_distant
+location:
+  ra: 146.1914583
+  dec: 67.44102778
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1997
+  host: m_81
+  name: F8D1
+  ref_discovery:
+  - Caldwell1998AJ....115..535C
+notes:
+- sersic fit from g-band fits Zemaitis2023MNRAS.518.2497Z
+structure:
+  rhalf: 1.98 #arcmin
+  rhalf_em: 0.01
+  rhalf_ep: 0.01
+  spatial_units: arcmin
+  ellipticity: 0.12
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 90.4
+  position_angle_em: 5.1
+  position_angle_ep: 5.1
+  ref_structure: Zemaitis2023MNRAS.518.2497Z
+distance:
+  distance_modulus: 27.82
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: Zemaitis2023MNRAS.518.2497Z
+m_v:
+  apparent_magnitude_v: 13.83
+  apparent_magnitude_v_em: 0.04
+  apparent_magnitude_v_ep: 0.04
+  ref_m_v: Zemaitis2023MNRAS.518.2497Z
+metallicity_photometric:
+  metallicity_photometric: -1.14
+  metallicity_photometric_em: 0.09
+  metallicity_photometric_ep: 0.09
+  metallicity_photometric_sigma: 0.37
+  ref_metallicity_photometric: Zemaitis2023MNRAS.518.2497Z
+structure_sersic:
+  n_sersic: 0.53
+  n_sersic_em: 0.01
+  n_sersic_ep: 0.01
+  rad_sersic: 1.98 #arcmin
+  rad_sersic_em: 0.0013
+  rad_sersic_ep: 0.0013
+  spatial_units: arcmin
+  ellipticity: 0.12
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 90.4
+  position_angle_em: 5.1
+  position_angle_ep: 5.1
+  ref_structure_sersic: Zemaitis2023MNRAS.518.2497Z
+

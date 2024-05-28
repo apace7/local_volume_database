@@ -12,7 +12,7 @@ m_v:
   apparent_magnitude_v: 13.82
   apparent_magnitude_v_em: 0.04
   apparent_magnitude_v_ep: 0.06
-  ref_m_v: Richstein2024arXiv240208731R
+  ref_m_v: Richstein2024ApJ...967...72R
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.23
   metallicity_spectroscopic_em: 0.07
@@ -46,7 +46,7 @@ structure:
   position_angle: 96
   position_angle_em: 32
   position_angle_ep: 50
-  ref_structure: Richstein2024arXiv240208731R
+  ref_structure: Richstein2024ApJ...967...72R
 velocity:
   ref_vlos: Longeard2021MNRAS.503.2754L
   vlos_sigma: 1.7
