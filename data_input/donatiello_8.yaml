@@ -8,7 +8,7 @@ name_discovery:
   confirmed_real: 0
   false_positive: 0
   discovery_year: 2024
-  host: NGC_0253
+  host: ngc_0253
   name: Donatiello VIII
   ref_discovery:
   - MartinezDelgado2024arXiv240503769M
@@ -20,6 +20,7 @@ structure:
   rhalf: 24 # [arcsec]
   rhalf_em: 2
   rhalf_ep: 2
+  spatial_units: arcsec
   ellipticity: 0.689
   ellipticity_em: 0.009
   ellipticity_ep: 0.009
@@ -41,6 +42,7 @@ structure_sersic:
   rad_sersic: 24 # [arcsec]
   rad_sersic_em: 2
   rad_sersic_ep: 2
+  spatial_units: arcsec
   ellipticity: 0.689
   ellipticity_em: 0.009
   ellipticity_ep: 0.009

@@ -16,11 +16,11 @@ name_discovery:
   - Romanowsky2016MNRAS.457L.103R
 notes:
 - HI gas upper limit 5 sigma
-- spatial units = arcsec
 structure:
   rhalf: 194.4
   rhalf_em: 30.6
   rhalf_ep: 30.6
+  spatial_units: arcsec
   ellipticity: 0.66
   ellipticity_em: 0.06
   ellipticity_ep: 0.06

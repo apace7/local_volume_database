@@ -1,5 +1,5 @@
-key: cena-mm-dw1
-table: misc  # dwarf_local_field_distant
+key: cena-mm-dw01
+table: dwarf_local_field_distant
 location:
   ra: 202.5594167
   dec: -41.89327778
@@ -19,6 +19,7 @@ structure:
   rhalf: 1.6
   rhalf_em: 0.03
   rhalf_ep: 0.03
+  spatial_units: arcmin
   ellipticity: 0.22
   ellipticity_em: 0.02
   ellipticity_ep: 0.02

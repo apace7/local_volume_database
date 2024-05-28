@@ -8,7 +8,7 @@ name_discovery:
   confirmed_real: 0
   false_positive: 0
   discovery_year: 2024
-  host: NGC_0253
+  host: ngc_0253
   name: Donatiello VII
   ref_discovery:
   - MartinezDelgado2024arXiv240503769M
@@ -20,6 +20,7 @@ structure:
   rhalf: 7.6 # [arcsec]
   rhalf_em: 0.3
   rhalf_ep: 0.3
+  spatial_units: arcsec
   ellipticity: 0.47
   ellipticity_em: 0.02
   ellipticity_ep: 0.02
@@ -41,6 +42,7 @@ structure_sersic:
   rad_sersic: 7.6 # [arcsec]
   rad_sersic_em: 0.3
   rad_sersic_ep: 0.3
+  spatial_units: arcsec
   ellipticity: 0.47
   ellipticity_em: 0.02
   ellipticity_ep: 0.02

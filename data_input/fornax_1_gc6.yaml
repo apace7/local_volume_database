@@ -57,3 +57,6 @@ velocity:
   vlos_sigma_em: 1.8
   vlos_sigma_ep: 2
   ref_vlos: Pace2021ApJ...923...77P
+age:
+  age: 2
+  ref_age: Pace2021ApJ...923...77P

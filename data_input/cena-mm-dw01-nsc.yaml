@@ -1,14 +1,16 @@
-key: cena-mm-dw1-gc2
+key: cena-mm-dw01-nsc
 table: gc_dwarf_hosted
 location:
-  ra: 202.5767
-  dec: -41.890874
+  ra: 202.558373
+  dec: -41.892037
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
   discovery_year: 2018
-  host: cena-mm-dw1
-  name: CenA-MM-Dw1-GC2
+  host: cena-mm-dw01
+  name: CenA-MM-Dw1-NSC
+  # other_name:
+  # - list
   ref_discovery:
   - Crnojevic2019ApJ...872...80C
 notes:
@@ -33,12 +35,12 @@ distance:
 #   apparent_magnitude_v_ep: 0
 #   ref_m_v: ref
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.13
-  metallicity_spectroscopic_em: 0.35
-  metallicity_spectroscopic_ep: 0.35
+  metallicity_spectroscopic: -1.71
+  metallicity_spectroscopic_em: 0.32
+  metallicity_spectroscopic_ep: 0.32
   ref_metallicity_spectroscopic: Dumont2022ApJ...929..147D
 velocity:
-  vlos_systemic: 259.6
+  vlos_systemic: 273.2
   vlos_systemic_em: 5.9
   vlos_systemic_ep: 5.9
   ref_vlos: Dumont2022ApJ...929..147D

@@ -33,7 +33,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -2.14
   metallicity_spectroscopic_em: 0.04
   metallicity_spectroscopic_ep: 0.04
-  ref_metallicity_spectroscopic: Gvozdenko2024arXiv240310597G
+  ref_metallicity_spectroscopic: Gvozdenko2024A&A...685A.154G
 velocity:
   vlos_systemic: 340.4
   vlos_systemic_em: 0.6
@@ -41,7 +41,7 @@ velocity:
   vlos_sigma: 5.41
   vlos_sigma_em: 0.77
   vlos_sigma_ep: 0.77
-  ref_vlos: Gvozdenko2024arXiv240310597G
+  ref_vlos: Gvozdenko2024A&A...685A.154G
 age:
   age: 8.6
   age_em: 2.7

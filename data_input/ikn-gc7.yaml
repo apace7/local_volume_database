@@ -1,0 +1,16 @@
+key: ikn-gc7
+table: candidate
+location:
+  ra:  152.037083   # [deg]
+  dec: 68.47689 # [deg]
+name_discovery:
+  discovery_year: 2015
+  false_positive: 1
+  host: ikn
+  name: IKN-GC7
+  ref_discovery:
+  - Tudorica2015A&A...581A..84T
+  ref_false_positive:
+  - Forbes2024arXiv240511749F
+notes:
+  - Background galaxy at z ~ 0.2 from Keck/KCWI spectroscopy Forbes2024arXiv240511749F

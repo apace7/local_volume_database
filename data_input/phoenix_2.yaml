@@ -15,7 +15,7 @@ m_v:
   apparent_magnitude_v: 17.0
   apparent_magnitude_v_em: 0.09
   apparent_magnitude_v_ep: 0.13
-  ref_m_v: Richstein2024arXiv240208731R
+  ref_m_v: Richstein2024ApJ...967...72R
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.51
   metallicity_spectroscopic_em: 0.17
@@ -54,7 +54,7 @@ structure:
   position_angle: -33
   position_angle_em: 5
   position_angle_ep: 5
-  ref_structure: Richstein2024arXiv240208731R
+  ref_structure: Richstein2024ApJ...967...72R
 structure_sersic:
   n_sersic: 1.14
   n_sersic_em: 0.27

@@ -1,0 +1,48 @@
+key: kks_54
+table: dwarf_local_field_distant
+location:
+  ra: 200.3825
+  dec: -31.88605556
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2000
+  host: ngc_5128
+  name: KKs 54
+  other_name:
+  - Centaurus A-dE2
+  - '[KK2000] 54'
+  - PGC2815821
+  ref_discovery:
+  - Jerjen2000AJ....119..593J
+  - Karachentseva2000A&AS..146..359K
+# notes:
+# - list
+structure:
+  rhalf: 0.545
+  spatial_units: arcmin
+  ellipticity: 0.21
+  position_angle: 96.8
+  ref_structure: Jerjen2000AJ....119..593J
+distance:
+  distance_modulus: 27.87
+  distance_modulus_em: 0.12
+  distance_modulus_ep: 0.01
+  ref_distance: Muller2019A&A...629A..18M
+m_v:
+  apparent_magnitude_v: -10.41
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Jerjen2000AJ....119..593J
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.81
+  metallicity_spectroscopic_em: 0.26
+  metallicity_spectroscopic_ep: 0.07
+  ref_metallicity_spectroscopic: Muller2021A&A...645A..92M
+velocity:
+  vlos_systemic: 621.3
+  vlos_systemic_em: 10.6
+  vlos_systemic_ep: 10.6
+  ref_vlos: Muller2021A&A...645A..92M
+
+

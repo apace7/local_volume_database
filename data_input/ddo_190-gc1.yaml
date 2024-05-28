@@ -1,0 +1,44 @@
+key: ddo_190-gc1
+table: gc_dwarf_hosted
+location:
+  ra: 216.1875  # [deg]
+  dec: 44.526694 # [deg]
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2005
+  host: ddo_190
+  name: DDO 190-GC1
+  other_name:
+  - U9240-3-4557
+  ref_discovery:
+  - Sharina2005A&A...442...85S
+  - Forbes2024arXiv240511749F
+notes:
+  - confirmed in Forbes2024arXiv240511749F 
+structure:
+  rhalf: 0.0044 # [arcmin]
+  ellipticity: 0.2
+  ref_structure: Sharina2005A&A...442...85S
+distance:
+  distance_fixed_host: True 
+m_v:
+  apparent_magnitude_v: 20.01
+  apparent_magnitude_v_em: 0.07
+  apparent_magnitude_v_ep: 0.07
+  ref_m_v: Sharina2005A&A...442...85S
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.17
+  metallicity_spectroscopic_em: 0.05
+  metallicity_spectroscopic_ep: 0.12
+  ref_metallicity_spectroscopic: Forbes2024arXiv240511749F
+velocity:
+  vlos_systemic: 160 # [km/s]
+  vlos_systemic_em: 7
+  vlos_systemic_ep: 7
+  ref_vlos: Forbes2024arXiv240511749F 
+age:
+  age: 2.6 ## [Gyr]
+  age_em: 1.3
+  age_ep: 1.8
+  ref_age: Forbes2024arXiv240511749F

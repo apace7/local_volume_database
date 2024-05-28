@@ -57,7 +57,28 @@ def add_year(table):
                 #     print(stream_yaml['key'], "discovery_year")
             except yaml.YAMLError as exc:
                 print(exc)
-    return table['year']
+    # return table['year']
+
+def add_column(table, yaml_key, yaml_name, **kwargs):
+    table_yaml_name = kwargs.get('table_yaml_name', yaml_name)
+    col_type = kwargs.get('col_type', 'float')
+    table[table_yaml_name] = np.ma.masked_all(len(table), dtype=col_type)
+    #np.zeros(len(table), dtype=col_type)
+    path = '/Users/apace/Documents/local_volume_database/data_input/'
+    for i in range(len(table)):
+        k = table['key'][i]
+        with open(path+ k +'.yaml', 'r') as stream:
+            try:
+                stream_yaml = yaml.load(stream, Loader=yaml.Loader)
+
+                if yaml_key in stream_yaml.keys() and  table_yaml_name in stream_yaml[yaml_key].keys():
+                    table[table_yaml_name][i] = stream_yaml[yaml_key][table_yaml_name]
+                # else:
+                #     print(stream_yaml['key'], "discovery_year")
+            except yaml.YAMLError as exc:
+                print(exc)
+    # return table[table_yaml_name]
+
 def latex_name(name):
     if len(name)<6:
         return name
@@ -266,9 +287,10 @@ def create_latex_table_structure(output, output_citations, input_table, **kwargs
             j = j.replace('&', '\string&')
             f.write( "("+i+") \citet{"+j+"}\n",)
 
-def create_latex_table_kinematics(output, output_citations, input_table):
+def create_latex_table_kinematics(output, output_citations, input_table, **kwargs):
     citations = []
     letter = []
+    add_age = kwargs.get("add_age", False)
     with open(output, 'w+') as f:
         for i in range(len(input_table)):
     #         print(input_table['key'][i])
@@ -282,7 +304,8 @@ def create_latex_table_kinematics(output, output_citations, input_table):
                 cite_temp.append(input_table['ref_proper_motion'][i])
             if ma.is_masked(input_table['ref_metallicity_spectroscopic'][i])==False:
                 cite_temp.append(input_table['ref_metallicity_spectroscopic'][i])
-
+            if add_age == True and ma.is_masked(input_table['ref_age'][i])==False:
+                cite_temp.append(input_table['ref_age'][i])
             ## unique entries
     #         if not cite_temp:
     # #             print(input_table['key'][i])
@@ -313,10 +336,13 @@ def create_latex_table_kinematics(output, output_citations, input_table):
             if i == len(input_table)-1:
                 end_line=''
             name = latex_name(input_table['name'][i])
+            age_str = ''
+            if add_age:
+                age_str = make_latex_value(input_table['age'][i], input_table['age_em'][i], input_table['age_ep'][i], n=1)+'&'
             f.write(name + '&'+"{:0.4f}".format(input_table['ll'][i])+'&'+"{:0.4f}".format(input_table['bb'][i])+'&'+ make_latex_value(input_table['vlos_systemic'][i], input_table['vlos_systemic_em'][i], input_table['vlos_systemic_ep'][i], n=1)+ '& '+
                make_latex_value(input_table['vlos_sigma'][i], input_table['vlos_sigma_em'][i], input_table['vlos_sigma_ep'][i], ul=input_table['vlos_sigma_ul'][i], n=2)+ '& '+
                     make_latex_value(input_table['metallicity_spectroscopic'][i], input_table['metallicity_spectroscopic_em'][i], input_table['metallicity_spectroscopic_ep'][i], n=2)+'&'+
-                 make_latex_value(input_table['metallicity_spectroscopic_sigma'][i], input_table['metallicity_spectroscopic_sigma_em'][i], input_table['metallicity_spectroscopic_sigma_ep'][i], ul=input_table['metallicity_spectroscopic_sigma_ul'][i],  n=2)+ '& '+
+                 make_latex_value(input_table['metallicity_spectroscopic_sigma'][i], input_table['metallicity_spectroscopic_sigma_em'][i], input_table['metallicity_spectroscopic_sigma_ep'][i], ul=input_table['metallicity_spectroscopic_sigma_ul'][i],  n=2)+ '& '+ age_str + 
                   make_latex_value(input_table['pmra'][i], input_table['pmra_em'][i], input_table['pmra_ep'][i], n=3)+'&'+
                  make_latex_value(input_table['pmdec'][i], input_table['pmdec_em'][i], input_table['pmdec_ep'][i],  n=3)+ '& '+
                   letter_to_list_string+
@@ -430,26 +456,43 @@ gc_disk = table.Table.read('data/gc_disk.csv')
 gc_harris = table.Table.read('data/gc_harris.csv')
 gc_dwarf = table.Table.read('data/gc_dwarf_hosted.csv')
 
-dsph_mw['year'] = add_year(dsph_mw)
-dsph_m31['year'] = add_year(dsph_m31)
-dsph_lf['year'] = add_year(dsph_lf)
-dsph_lf_distant['year'] = add_year(dsph_lf_distant)
+# dsph_mw['year'] = add_year(dsph_mw)
+# dsph_m31['year'] = add_year(dsph_m31)
+# dsph_lf['year'] = add_year(dsph_lf)
+# dsph_lf_distant['year'] = add_year(dsph_lf_distant)
 
-gc_ufsc['year'] = add_year(gc_ufsc)
-gc_disk['year'] = add_year(gc_disk)
-gc_harris['year'] = add_year(gc_harris)
-gc_dwarf['year'] = add_year(gc_dwarf)
+for tab in [dsph_mw, dsph_m31,  dsph_lf, dsph_lf_distant]:
+    # tab['year'] = add_year(tab)
+    add_year(tab)
+    add_coord(tab)
 
-add_coord(dsph_m31)
-add_coord(dsph_mw)
-add_coord(dsph_lf)
-add_coord(dsph_lf_distant)
+# gc_ufsc['year'] = add_year(gc_ufsc)
+# gc_disk['year'] = add_year(gc_disk)
+# gc_harris['year'] = add_year(gc_harris)
+# gc_dwarf['year'] = add_year(gc_dwarf)
+for tab in [gc_ufsc, gc_disk,  gc_harris, gc_dwarf]:
+    # tab['year'] = add_year(tab)
+    add_year(tab)
+    # tab['age'] = add_column(tab, 'age', 'age')
+    # tab['age_em'] = add_column(tab, 'age', 'age_em')
+    # tab['age_ep'] = add_column(tab, 'age', 'age_ep')
+    # tab['ref_age'] = add_column(tab, 'age', 'ref_age', col_type='U100')
+    add_column(tab, 'age', 'age')
+    add_column(tab, 'age', 'age_em')
+    add_column(tab, 'age', 'age_ep')
+    add_column(tab, 'age', 'ref_age', col_type='U100')
+    add_coord(tab)
 
-add_coord(gc_ufsc)
-add_coord(gc_harris)
-add_coord(gc_disk)
+# add_coord(dsph_m31)
+# add_coord(dsph_mw)
+# add_coord(dsph_lf)
+# add_coord(dsph_lf_distant)
 
-add_coord(gc_dwarf)
+# add_coord(gc_ufsc)
+# add_coord(gc_harris)
+# add_coord(gc_disk)
+
+# add_coord(gc_dwarf)
 
 dsph_mw.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/dwarf_mw_name_discovery_data.tex', dsph_mw)
@@ -477,8 +520,8 @@ create_latex_table_mass('table/table_data/dwarf_lf_mass_data.tex', 'table/table_
 
 dsph_lf_distant.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/dwarf_lf_distant_name_discovery_data.tex', dsph_lf_distant)
-dsph_lf_distant.sort('key')
-create_latex_table_structure('table/table_data/dwarf_lf_distant_structure_data.tex', 'table/table_data/dwarf_lf_distant_structure_citations.tex', dsph_lf_distant, spatial_units='arcsec')
+dsph_lf_distant.sort(['host', 'key'])
+create_latex_table_structure('table/table_data/dwarf_lf_distant_structure_data.tex', 'table/table_data/dwarf_lf_distant_structure_citations.tex', dsph_lf_distant, spatial_convert_factor=60, spatial_units='arcsec', spatial_units_conversion=60.)
 create_latex_table_kinematics('table/table_data/dwarf_lf_distant_kinematics_data.tex', 'table/table_data/dwarf_lf_distant_kinematics_citations.tex', dsph_lf_distant)
 create_latex_table_mass('table/table_data/dwarf_lf_distant_mass_data.tex', 'table/table_data/dwarf_lf_distant_mass_citations.tex', dsph_lf_distant)
 
@@ -486,26 +529,26 @@ gc_ufsc.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/gc_ufsc_name_discovery_data.tex', gc_ufsc, classification_column='confirmed_star_cluster', classification_output='Star Cluster')
 gc_ufsc.sort('key')
 create_latex_table_structure('table/table_data/gc_ufsc_structure_data.tex', 'table/table_data/gc_ufsc_structure_citations.tex', gc_ufsc, )
-create_latex_table_kinematics('table/table_data/gc_ufsc_kinematics_data.tex', 'table/table_data/gc_ufsc_kinematics_citations.tex', gc_ufsc)
+create_latex_table_kinematics('table/table_data/gc_ufsc_kinematics_data.tex', 'table/table_data/gc_ufsc_kinematics_citations.tex', gc_ufsc, add_age=True)
 # create_latex_table_mass('table/table_data/gc_ufsc_mass_data.tex', 'table/table_data/gc_ufsc_mass_citations.tex', gc_ufsc)
 
 gc_disk.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/gc_disk_name_discovery_data.tex', gc_disk, classification_column='confirmed_star_cluster', classification_output='Star Cluster')
 gc_disk.sort('key')
 create_latex_table_structure('table/table_data/gc_disk_structure_data.tex', 'table/table_data/gc_disk_structure_citations.tex', gc_disk)
-create_latex_table_kinematics('table/table_data/gc_disk_kinematics_data.tex', 'table/table_data/gc_disk_kinematics_citations.tex', gc_disk)
+create_latex_table_kinematics('table/table_data/gc_disk_kinematics_data.tex', 'table/table_data/gc_disk_kinematics_citations.tex', gc_disk, add_age=True)
 
 gc_harris.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/gc_harris_name_discovery_data.tex', gc_harris, classification_column='confirmed_star_cluster', classification_output='Star Cluster')
 gc_harris.sort('key')
 create_latex_table_structure('table/table_data/gc_harris_structure_data.tex', 'table/table_data/gc_harris_structure_citations.tex', gc_harris)
-create_latex_table_kinematics('table/table_data/gc_harris_kinematics_data.tex', 'table/table_data/gc_harris_kinematics_citations.tex', gc_harris)
+create_latex_table_kinematics('table/table_data/gc_harris_kinematics_data.tex', 'table/table_data/gc_harris_kinematics_citations.tex', gc_harris, add_age=True)
 
 gc_dwarf.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/gc_dwarf_name_discovery_data.tex', gc_dwarf, classification_column='confirmed_star_cluster', classification_output='Star Cluster')
-gc_dwarf.sort('key')
+gc_dwarf.sort(['host','key'])
 create_latex_table_structure('table/table_data/gc_dwarf_structure_data.tex', 'table/table_data/gc_dwarf_structure_citations.tex', gc_dwarf, spatial_convert_factor=60, spatial_units='arcsec', spatial_units_conversion=60.)
-create_latex_table_kinematics('table/table_data/gc_dwarf_kinematics_data.tex', 'table/table_data/gc_dwarf_kinematics_citations.tex', gc_dwarf)
+create_latex_table_kinematics('table/table_data/gc_dwarf_kinematics_data.tex', 'table/table_data/gc_dwarf_kinematics_citations.tex', gc_dwarf, add_age=True)
 
 
 dir_list = os.listdir(path)

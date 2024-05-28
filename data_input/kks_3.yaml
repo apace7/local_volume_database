@@ -1,8 +1,8 @@
 key: kks_3
 table: dwarf_local_field
 location:
-  dec: -73.51416667
   ra: 36.185
+  dec: -73.51416667
 distance:
   distance_modulus: 26.63
   distance_modulus_em: 0.07

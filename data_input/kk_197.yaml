@@ -1,5 +1,5 @@
 key: kk_197
-table: misc
+table: dwarf_local_field_distant
 location:
   ra: 200.5075
   dec: -42.53555556
@@ -17,6 +17,7 @@ name_discovery:
 # - list
 structure:
   rhalf: 0.74
+  spatial_units: arcmin
   ref_structure: Muller2017A&A...597A...7M
 distance:
   distance_modulus: 27.92
