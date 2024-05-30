@@ -1,0 +1,34 @@
+key: cena_dw1314-4142
+table: dwarf_local_field_distant
+location:
+  ra: 198.68674999999996
+  dec: -41.70785277777778
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2018
+  host: ngc_5128
+  name: dw1314-4142
+  ref_discovery:
+  - Taylor2018ApJ...867L..15T
+structure:
+  rhalf: 3.89
+  rhalf_em: 0.25
+  rhalf_ep: 0.25
+  spatial_units: arcsec
+  ref_structure: Taylor2018ApJ...867L..15T
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 20.14
+  ref_m_v: Taylor2018ApJ...867L..15T
+structure_sersic:
+  n_sersic: 1.01
+  n_sersic_em: 0.4
+  n_sersic_ep: 0.4
+  rad_sersic: 3.89
+  rad_sersic_em: 0.25
+  rad_sersic_ep: 0.25
+  spatial_units: arcsec
+  ref_structure_sersic: Taylor2018ApJ...867L..15T

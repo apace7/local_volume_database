@@ -1,0 +1,60 @@
+key: cena_dw1323-40a
+table: dwarf_local_field_distant
+location:
+  ra: 201.2421
+  dec: -40.7622
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2016
+  host: NGC_5128
+  name: dw1323-40a
+  other_name:
+  - dw1323-40
+  ref_discovery:
+  - Muller2017A&A...597A...7M
+notes:
+- type = dSph Muller2017A&A...597A...7M
+- note that sersic fits have a different form; source uses n instead of 1/n and this has been modified Muller2017A&A...597A...7M
+structure:
+  rhalf: 15.2
+  spatial_units: arcsec
+  ellipticity: 0.1
+  position_angle: 18.8
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 27.86
+  distance_modulus_em: 0.19
+  distance_modulus_ep: 0
+  ref_distance: Muller2019A&A...629A..18M
+m_v:
+  apparent_magnitude_v: 17.5
+  apparent_magnitude_v_em: 0.19
+  apparent_magnitude_v_ep: 0
+  ref_m_v: Muller2019A&A...629A..18M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.95
+  metallicity_spectroscopic_em: 0.14
+  metallicity_spectroscopic_ep: 0.30
+  ref_metallicity_spectroscopic: Muller2021A&A...645A..92M
+structure_sersic:
+  n_sersic: 0.61
+  n_sersic_em: 0.08
+  n_sersic_ep: 0.10
+  rad_sersic: 16.99
+  rad_sersic_em: 1.31
+  rad_sersic_ep: 1.31
+  spatial_units: arcsec
+  ellipticity: 0.1
+  position_angle: 18.8
+  ref_structure_sersic: Muller2017A&A...597A...7M
+velocity:
+  vlos_systemic: 450.0
+  vlos_systemic_em: 14.2
+  vlos_systemic_ep: 14.2
+  ref_vlos: Muller2021A&A...645A..92M
+age:
+  age: 12.2
+  age_em: 3.7
+  age_ep: 1.8
+  ref_age: Muller2021A&A...645A..92M

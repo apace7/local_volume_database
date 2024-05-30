@@ -1,0 +1,40 @@
+key: cena_dw1337-44
+table: candidate
+location:
+  ra: 204.39166666666665
+  dec: -44.218611111111116
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 1
+  discovery_year: 2016
+  host: ngc_5128
+  name: dw1337-44
+  ref_discovery:
+  - Muller2017A&A...597A...7M
+  ref_false_positive:
+  - Muller2019A&A...629A..18M
+notes:
+- type = dIrr? Muller2017A&A...597A...7M
+- patch of spurious galactic cirrus Muller2019A&A...629A..18M 
+structure:
+  rhalf: 10.3
+  spatial_units: arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 18.15
+  ref_m_v: Muller2017A&A...597A...7M
+structure_sersic:
+  n_sersic: 0.96
+  n_sersic_em: 0.2
+  n_sersic_ep: 0.36
+  rad_sersic: 7.78
+  rad_sersic_em: 2.98
+  rad_sersic_ep: 2.98
+  spatial_units: arcsec
+  ref_structure_sersic: Muller2017A&A...597A...7M
+  central_surface_brightness: 25.05
+  central_surface_brightness_em: 0.4
+  central_surface_brightness_ep: 0.4

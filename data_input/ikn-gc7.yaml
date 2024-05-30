@@ -5,7 +5,7 @@ location:
   dec: 68.47689 # [deg]
 name_discovery:
   discovery_year: 2015
-  false_positive: 1
+  false_positive: 2
   host: ikn
   name: IKN-GC7
   ref_discovery:

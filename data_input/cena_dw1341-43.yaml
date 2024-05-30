@@ -1,0 +1,57 @@
+key: cena_dw1341-43
+table: dwarf_local_field_distant
+location:
+  ra: 205.4221
+  dec: -44.4485
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2016
+  host: ngc_5128
+  name: dw1341-43
+  ref_discovery:
+  - Muller2017A&A...597A...7M
+notes:
+- type = dSph Muller2017A&A...597A...7M
+- note that sersic fits have a different form; source uses n instead of 1/n and this has been modified Muller2017A&A...597A...7M
+- age is bounded at 80% between 8.3-11.7 Gyr Muller2021A&A...645A..92M
+structure:
+  rhalf: 20.2
+  spatial_units: arcsec
+  ellipticity: 0.08
+  position_angle: 0.3
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 27.74
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0
+  ref_distance: Muller2019A&A...629A..18M
+m_v:
+  apparent_magnitude_v: 17.66
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0
+  ref_m_v: Muller2017A&A...597A...7M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.79
+  metallicity_spectroscopic_em: 0.33
+  metallicity_spectroscopic_ep: 0.03
+  ref_metallicity_spectroscopic: Muller2021A&A...645A..92M
+structure_sersic:
+  n_sersic: 0.46
+  n_sersic_em: 0.08
+  n_sersic_ep: 0.15
+  rad_sersic: 21.37
+  rad_sersic_em: 1.10
+  rad_sersic_ep: 1.10
+  spatial_units: arcsec
+  ellipticity: 0.08
+  position_angle: 0.3
+  ref_structure_sersic: Muller2017A&A...597A...7M
+velocity:
+  vlos_systemic: 636.4
+  vlos_systemic_em: 14.1
+  vlos_systemic_ep: 14.1
+  ref_vlos: Muller2021A&A...645A..92M
+age:
+  age: 10
+  ref_age: Muller2021A&A...645A..92M

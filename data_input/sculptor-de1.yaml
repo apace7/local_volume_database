@@ -17,18 +17,9 @@ name_discovery:
   - Cote1997AJ....114.1313C
 # notes:
 # - list
-# structure:
-#   rhalf: 0
-#   rhalf_em: 0
-#   rhalf_ep: 0
-#   ellipticity: 0
-#   ellipticity_em: 0
-#   ellipticity_ep: 0
-#   ellipticity_ul: 0
-#   position_angle: 0
-#   position_angle_em: 0
-#   position_angle_ep: 0
-#   ref_structure: ref
+structure:
+  rhalf: 20.5
+  ref_structure: Jerjen2000AJ....119..593J
 distance:
   distance_modulus: 28.17
   distance_modulus_em: 0.12

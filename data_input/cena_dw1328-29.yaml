@@ -1,0 +1,35 @@
+key: cena_dw1328-29
+table: dwarf_local_field_distant
+location:
+  ra: 202.04999999999998
+  dec: -29.479166666666664
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2015
+  host: ngc_5128
+  name: dw1328-29
+  ref_discovery:
+  - Muller2015A&A...583A..79M
+structure:
+  rhalf: 12.88
+  spatial_units: arcsec
+  ref_structure: Muller2015A&A...583A..79M
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 17.97
+  ref_m_v: Muller2015A&A...583A..79M
+structure_sersic:
+  n_sersic: 0.74
+  n_sersic_em: 0.08
+  n_sersic_ep: 0.1
+  rad_sersic: 6.07
+  rad_sersic_em: 1.73
+  rad_sersic_ep: 1.73
+  spatial_units: arcsec
+  ref_structure_sersic: Muller2015A&A...583A..79M
+  central_surface_brightness: 24.76
+  central_surface_brightness_em: 0.22
+  central_surface_brightness_ep: 0.22

@@ -1,0 +1,37 @@
+key: cena_dw1415-32
+table: dwarf_local_field_distant
+location:
+  ra: 213.9208333333333
+  dec: -32.572500000000005
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2016
+  host: ngc_5128
+  name: dw1415-32
+  ref_discovery:
+  - Muller2017A&A...597A...7M
+notes:
+- type = dIrr? Muller2017A&A...597A...7M
+structure:
+  rhalf: 9.2
+  spatial_units: arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 17.8
+  ref_m_v: Muller2017A&A...597A...7M
+structure_sersic:
+  n_sersic: 1.18
+  n_sersic_em: 0.14
+  n_sersic_ep: 0.17
+  rad_sersic: 4.91
+  rad_sersic_em: 1.01
+  rad_sersic_ep: 1.01
+  spatial_units: arcsec
+  ref_structure_sersic: Muller2017A&A...597A...7M
+  central_surface_brightness: 23.89
+  central_surface_brightness_em: 0.18
+  central_surface_brightness_ep: 0.18

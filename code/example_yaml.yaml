@@ -108,6 +108,9 @@ structure_sersic:
   position_angle: 0
   position_angle_em: 0
   position_angle_ep: 0
+  central_surface_brightness: 0
+  central_surface_brightness_em: 0
+  central_surface_brightness_ep: 0
   ref_structure_sersic: ref
 structure_eff:
 ## not included in standard table

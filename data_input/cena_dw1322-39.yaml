@@ -1,0 +1,63 @@
+key: cena_dw1322-39
+table: dwarf_local_field_distant
+location:
+  ra: 200.6558
+  dec: -39.9084
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2016
+  host: ngc_5128
+  name: dw1322-39
+  # other_name:
+  # - list
+  ref_discovery:
+  - Muller2017A&A...597A...7M
+notes:
+- type = dIrr Muller2017A&A...597A...7M
+- note that sersic fits have a different form; source uses n instead of 1/n and this has been modified Muller2017A&A...597A...7M
+structure:
+  rhalf: 20.7
+  spatial_units: arcsec
+  ellipticity: 0.50
+  position_angle: 120.8
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 27.35
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.01
+  ref_distance: Muller2019A&A...629A..18M
+m_v:
+  apparent_magnitude_v: 17.32
+  apparent_magnitude_v_em: 0.06
+  apparent_magnitude_v_ep: 0.01
+  ref_m_v: Muller2019A&A...629A..18M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.79
+  metallicity_spectroscopic_em: 0.13
+  metallicity_spectroscopic_ep: 0.22
+  ref_metallicity_spectroscopic: Muller2021A&A...645A..92M
+structure_sersic:
+  n_sersic: 0.87
+  n_sersic_em: 0.12
+  n_sersic_ep: 0.17
+  rad_sersic: 18.70
+  rad_sersic_em: 3.42
+  rad_sersic_ep: 3.42
+  spatial_units: arcsec
+  ellipticity: 0.50
+  position_angle: 120.8
+  central_surface_brightness: 25.03
+  central_surface_brightness_em: 0.21
+  central_surface_brightness_ep: 0.21
+  ref_structure_sersic: Muller2017A&A...597A...7M
+velocity:
+  vlos_systemic: 656.3
+  vlos_systemic_em: 9.7
+  vlos_systemic_ep: 9.7
+  ref_vlos: Muller2021A&A...645A..92M
+age:
+  age: 11.5
+  age_em: 0.7
+  age_ep: 2.5
+  ref_age: Muller2021A&A...645A..92M

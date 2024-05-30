@@ -17,16 +17,8 @@ name_discovery:
 notes:
 - type = dSph
 structure:
-  rhalf: 0.2
-  # rhalf_em: 0
-  # rhalf_ep: 0
-  # ellipticity: 0
-  # ellipticity_em: 0
-  # ellipticity_ep: 0
-  # ellipticity_ul: 0
-  # position_angle: 0
-  # position_angle_em: 0
-  # position_angle_ep: 0
+  rhalf: 12
+  spatial_units: arcsec
   ref_structure: Muller2017A&A...597A...7M
 distance:
   distance_modulus: 27.92
@@ -43,44 +35,19 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.27
   metallicity_spectroscopic_ep: 0.07
   ref_metallicity_spectroscopic: Muller2021A&A...645A..92M
-# structure_sersic:
-#   n_sersic: 0
-#   n_sersic_em: 0
-#   n_sersic_ep: 0
-#   rad_sersic: 0
-#   rad_sersic_em: 0
-#   rad_sersic_ep: 0
-#   ellipticity: 0
-#   ellipticity_em: 0
-#   ellipticity_ep: 0
-#   ellipticity_ul: 0
-#   position_angle: 0
-#   position_angle_em: 0
-#   position_angle_ep: 0
-#   ref_structure_sersic: ref
+structure_sersic:
+  n_sersic: 0.68
+  n_sersic_em: 0.06
+  n_sersic_ep: 0.06
+  rad_sersic: 12.23
+  rad_sersic_em: 0.91
+  rad_sersic_ep: 0.91
+  ref_structure_sersic:  Muller2017A&A...597A...7M
 velocity:
   vlos_systemic: 511.3
   vlos_systemic_em: 16.8
   vlos_systemic_ep: 16.8
   ref_vlos: Muller2021A&A...645A..92M
-# flux_HI:
-#   flux_HI: 0
-#   flux_HI_em: 0
-#   flux_HI_ep: 0
-#   flux_HI_ul: 0
-#   flux_HI_rotation_velocity: 0
-#   flux_HI_rotation_velocity_em: 0
-#   flux_HI_rotation_velocity_ep: 0
-#   flux_HI_dispersion: 0
-#   flux_HI_dispersion_em: 0
-#   flux_HI_dispersion_ep: 0
-#   sigma_HI: 0
-#   sigma_HI_em: 0
-#   sigma_HI_ep: 0
-#   vrot_HI: 0
-#   vrot_HI_em: 0
-#   vrot_HI_ep: 0
-#   ref_flux_HI: ref
 age:
   age: 12.35
   ref_age: Muller2021A&A...645A..92M

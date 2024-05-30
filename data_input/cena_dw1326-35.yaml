@@ -1,0 +1,35 @@
+key: cena_dw1326-35
+table: dwarf_local_field_distant
+location:
+  ra: 201.6833333333333
+  dec: -35.083333333333336
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2015
+  host: ngc_5128
+  name: dw1326-35
+  ref_discovery:
+  - Muller2015A&A...583A..79M
+structure:
+  rhalf: 10.29
+  spatial_units: arcsec
+  ref_structure: Muller2015A&A...583A..79M
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 17.68
+  ref_m_v: Muller2015A&A...583A..79M
+structure_sersic:
+  n_sersic: 0.98
+  n_sersic_em: 0.07
+  n_sersic_ep: 0.09
+  rad_sersic: 7.56
+  rad_sersic_em: 0.99
+  rad_sersic_ep: 0.99
+  spatial_units: arcsec
+  ref_structure_sersic: Muller2015A&A...583A..79M
+  central_surface_brightness: 24.31
+  central_surface_brightness_em: 0.12
+  central_surface_brightness_ep: 0.12

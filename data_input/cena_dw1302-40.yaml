@@ -1,0 +1,37 @@
+key: cena_dw1302-40
+table: dwarf_local_field_distant
+location:
+  ra: 195.70416666666662
+  dec: -40.143055555555556
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2016
+  host: ngc_5128
+  name: dw1302-40
+  ref_discovery:
+  - Muller2017A&A...597A...7M
+notes:
+- type = dSph Muller2017A&A...597A...7M
+structure:
+  rhalf: 20.6
+  spatial_units: arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 17.44
+  ref_m_v: Muller2017A&A...597A...7M
+structure_sersic:
+  n_sersic: 0.58
+  n_sersic_em: 0.1
+  n_sersic_ep: 0.16
+  rad_sersic: 21.87
+  rad_sersic_em: 2.0
+  rad_sersic_ep: 2.0
+  spatial_units: arcsec
+  ref_structure_sersic: Muller2017A&A...597A...7M
+  central_surface_brightness: 25.79
+  central_surface_brightness_em: 0.13
+  central_surface_brightness_ep: 0.13

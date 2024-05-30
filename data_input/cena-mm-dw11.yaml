@@ -11,10 +11,13 @@ name_discovery:
   name: CenA-MM-Dw11
   other_name:
   - CenA-MM17-Dw11
+  - dw1317-4255
   ref_discovery:
   - Crnojevic2019ApJ...872...80C
+  - Taylor2018ApJ...867L..15T
 notes:
 - HI gas upper limit is 5 sigma
+- type = dSph?
 structure:
   rhalf: 0.33
   rhalf_em: 0.04
