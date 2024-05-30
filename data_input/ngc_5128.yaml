@@ -1,0 +1,46 @@
+key: ngc_5128
+table: misc
+location:
+  ra: 201.3704167  # [deg]
+  dec: -43.0167
+ # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 0
+  host: misc
+  name: NGC 5128
+  other_name:
+  - Arp153
+  - Centaurus A
+  - ESO270-009
+  - PGC046957
+  # ref_discovery:
+  # - list
+# notes:
+#   - list
+# structure:
+#   rhalf: 0 # [arcmin]
+#   rhalf_em: 0
+#   rhalf_ep: 0
+#   spatial_units: arcmin, arcsec
+#   ellipticity: 0
+#   ellipticity_em: 0
+#   ellipticity_ep: 0
+#   ellipticity_ul: 0
+#   position_angle: 0
+#   position_angle_em: 0
+#   position_angle_ep: 0
+#   ref_structure: ref
+distance:
+  distance_modulus: 27.83
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 6.78
+  ref_m_v: Karachentsev2013AJ....145..101K 
+velocity:
+  vlos_systemic: 556 # [km/s]
+  ref_vlos: Karachentsev2013AJ....145..101K 
+

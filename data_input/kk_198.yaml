@@ -1,0 +1,22 @@
+key: kk_198
+table: candidate
+location:
+  ra: 198.983 
+  dec: -45.751
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  false_positive: 2
+  discovery_year: 1998
+  host: ngc_5128
+  name: KK 198
+  other_name:
+  - Cen8
+  - PGC166164
+  ref_discovery:
+  - Karachentseva1998A&AS..127..409K
+  ref_false_positive:
+  - Muller2021A&A...645A..92M
+notes:
+- background galaxy at z ~ 0.0128 or d ~ 50 Mpc Muller2021A&A...645A..92M
+

@@ -6,7 +6,7 @@ location:
 name_discovery:
   confirmed_star_cluster: 0
   confirmed_real: 0
-  false_positive: 1
+  false_positive: 2
   discovery_year: 2001
   host: kkr_25
   name: KKR 25-GC1

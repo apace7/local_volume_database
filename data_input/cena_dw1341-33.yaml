@@ -1,0 +1,35 @@
+key: cena_dw1341-33
+table: dwarf_local_field_distant
+location:
+  ra: 205.30416666666665
+  dec: -33.825
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2015
+  host: ngc_5128
+  name: dw1341-33
+  ref_discovery:
+  - Muller2015A&A...583A..79M
+structure:
+  rhalf: 35.43
+  spatial_units: arcsec
+  ref_structure: Muller2015A&A...583A..79M
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 16.94
+  ref_m_v: Muller2015A&A...583A..79M
+structure_sersic:
+  n_sersic: 0.37
+  n_sersic_em: 0.06
+  n_sersic_ep: 0.11
+  rad_sersic: 4.88
+  rad_sersic_em: 5.64
+  rad_sersic_ep: 5.64
+  spatial_units: arcsec
+  ref_structure_sersic: Muller2015A&A...583A..79M
+  central_surface_brightness: 25.05
+  central_surface_brightness_em: 0.49
+  central_surface_brightness_ep: 0.49

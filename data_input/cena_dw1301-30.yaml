@@ -1,0 +1,37 @@
+key: cena_dw1301-30
+table: dwarf_local_field_distant
+location:
+  ra: 195.36666666666665
+  dec: -30.111944444444447
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2016
+  host: ngc_5128
+  name: dw1301-30
+  ref_discovery:
+  - Muller2017A&A...597A...7M
+notes:
+- type = dSph Muller2017A&A...597A...7M
+structure:
+  rhalf: 14.8
+  spatial_units: arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 18.09
+  ref_m_v: Muller2017A&A...597A...7M
+structure_sersic:
+  n_sersic: 0.66
+  n_sersic_em: 0.11
+  n_sersic_ep: 0.17
+  rad_sersic: 18.17
+  rad_sersic_em: 2.62
+  rad_sersic_ep: 2.62
+  spatial_units: arcsec
+  ref_structure_sersic: Muller2017A&A...597A...7M
+  central_surface_brightness: 25.84
+  central_surface_brightness_em: 0.19
+  central_surface_brightness_ep: 0.19

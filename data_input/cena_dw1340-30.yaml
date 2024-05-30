@@ -1,0 +1,44 @@
+key: cena_dw1340-30
+table: dwarf_local_field_distant
+location:
+  ra: 205.07916666666662
+  dec: -30.359722222222224
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: ngc_5128
+  name: dw1340-30
+  ref_discovery:
+  - Muller2015A&A...583A..79M
+structure:
+  rhalf: 16.86
+  spatial_units: arcsec
+  ref_structure: Muller2015A&A...583A..79M
+distance:
+  distance_modulus: 28.52
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: Muller2018A&A...615A..96M
+m_v:
+  apparent_magnitude_v: 17.73
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: Muller2018A&A...615A..96M
+structure_sersic:
+  n_sersic: 1.23
+  n_sersic_em: 0.13
+  n_sersic_ep: 0.18
+  rad_sersic: 18.96
+  rad_sersic_em: 1.81
+  rad_sersic_ep: 1.81
+  spatial_units: arcsec
+  ref_structure_sersic: Muller2015A&A...583A..79M
+  central_surface_brightness: 25.5
+  central_surface_brightness_em: 0.1
+  central_surface_brightness_ep: 0.1
+metallicity_photometric:
+  metallicity_photometric: -2.27
+  metallicity_photometric_em: 0.4
+  metallicity_photometric_ep: 0.4
+  ref_metallicity_photometric: Muller2018A&A...615A..96M

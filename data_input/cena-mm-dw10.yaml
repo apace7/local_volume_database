@@ -15,6 +15,7 @@ name_discovery:
   - Crnojevic2019ApJ...872...80C
 notes:
 - HI gas upper limit is 5 sigma
+- type = dSph?
 structure:
   rhalf: 0.25
   rhalf_em: 0.06

@@ -1,0 +1,39 @@
+key: cena_dw1329-45
+table: dwarf_local_field_distant
+location:
+  ra: 202.29166666666663
+  dec: -45.17527777777777
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2016
+  host: ngc_5128
+  name: dw1329-45
+  ref_discovery:
+  - Muller2017A&A...597A...7M
+notes:
+- type = dSph Muller2017A&A...597A...7M
+structure:
+  rhalf: 9.9
+  spatial_units: arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 27.31
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.07
+  ref_distance: Muller2019A&A...629A..18M
+m_v:
+  apparent_magnitude_v: 18.34
+  ref_m_v: Muller2017A&A...597A...7M
+structure_sersic:
+  n_sersic: 0.55
+  n_sersic_em: 0.07
+  n_sersic_ep: 0.09
+  rad_sersic: 12.7
+  rad_sersic_em: 0.81
+  rad_sersic_ep: 0.81
+  spatial_units: arcsec
+  ref_structure_sersic: Muller2017A&A...597A...7M
+  central_surface_brightness: 25.48
+  central_surface_brightness_em: 0.09
+  central_surface_brightness_ep: 0.09

@@ -645,12 +645,16 @@ with open(output, 'w+') as f:
                 
             #     print(k,  x1, x2)
         #         print( out_str+ ' \\\\')
-                fp =0
+                fp = -1
                 if 'false_positive' in stream_yaml['name_discovery'].keys():
                     fp = stream_yaml['name_discovery']['false_positive']
 #                     print(stream_yaml['name_discovery']['false_positive'])
-                if fp==1:
+                if fp==0:
+                    out_str +=  ' Cand. & '
+                elif fp==1:
                     out_str +=  ' FP & '
+                elif fp==2:
+                    out_str +=  ' BG & '
                 else:
                     out_str +=  '  & '
 
