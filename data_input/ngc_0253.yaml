@@ -6,7 +6,7 @@ location:
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
-  # discovery_year: 0
+  discovery_year: 1783
   # host: ngc_0253
   name: NGC 253
   other_name:

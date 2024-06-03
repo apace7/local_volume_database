@@ -1,3 +1,17 @@
+key: ngc_4190
+table: dwarf_local_field
+location:
+  ra: 183.4358333
+  dec: 36.63333333
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_4214
+  name: NGC 4190
+  other_name:
+  - PGC039023
+  - UGC07232
+  - CGCG 187-024
 distance:
   distance: 2767.0
   distance_em: 76.0
@@ -9,27 +23,13 @@ distance:
 flux_HI:
   flux_HI: 16.0
   ref_flux_HI: Tully2009AJ....138..323T
-key: ngc_4190
-location:
-  dec: 36.63333333
-  ra: 183.4358333
 m_v:
   apparent_magnitude_v: 13.36
   ref_m_v: Tully2009AJ....138..323T
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  host: NGC_4214
-  name: NGC 4190
-  other_name:
-  - PGC039023
-  - UGC07232
-  - CGCG 187-024
 structure:
   ellipticity: 0.12
   ref_structure: Karachentsev2004AJ....127.2031K
   rhalf: 1.7
-table: dwarf_local_field
 velocity:
   ref_vlos: Tully2009AJ....138..323T
   vlos_systemic: 235.0

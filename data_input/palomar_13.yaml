@@ -1,3 +1,8 @@
+key: palomar_13
+table: gc_harris
+location:
+  dec: 12.771539
+  ra: 346.68519
 distance:
   distance: 23.475
   distance_em: 0.397
@@ -6,18 +11,16 @@ distance:
   distance_modulus_em: 0.037
   distance_modulus_ep: 0.037
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: palomar_13
-location:
-  dec: 12.771539
-  ra: 346.68519
 m_v:
   apparent_magnitude_v: 13.71
   apparent_magnitude_v_em: 0.05
   apparent_magnitude_v_ep: 0.05
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.88
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+  metallicity_spectroscopic: -1.6
+  metallicity_spectroscopic_em: 0.1
+  metallicity_spectroscopic_ep: 0.1
+  ref_metallicity_spectroscopic: Bradford2011ApJ...743..167B
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -27,6 +30,8 @@ name_discovery:
   - UGCA 435
   ref_discovery:
   - Wilson1955PASP...67...27W
+notes:
+- the mean velocity reference is Baumgardt2018MNRAS.478.1520B and the velocity dispersion reference is Bradford2011ApJ...743..167B
 proper_motion:
   pmdec: 0.1038
   pmdec_em: 0.0473
@@ -46,11 +51,11 @@ structure_sersic:
   rad_sersic_em: 0.09
   rad_sersic_ep: 0.09
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_harris
 velocity:
-  ref_vlos: Baumgardt2018MNRAS.478.1520B
-  vlos_sigma: 0.9
-  vlos_sigma_em: 0.3
+  ref_vlos: Bradford2011ApJ...743..167B
+  vlos_sigma: 0.6
+  vlos_sigma_em: 0.5
+  vlos_sigma_ep: 0.7
   vlos_systemic: 25.3
   vlos_systemic_em: 0.22
   vlos_systemic_ep: 0.22

@@ -1,0 +1,30 @@
+key: kk_221-gc-2-1090
+table: gc_dwarf_hosted
+location:
+  ra: 207.20583  # [deg]
+  dec: -47.00389 # [deg]
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2005
+  host: kk_221
+  name: KK 221-2-1090
+  ref_discovery:
+  - Sharina2005A&A...442...85S
+structure:
+  rhalf: 0.451
+  spatial_units: arcsec
+  ellipticity: 0
+  ref_structure: Sharina2005A&A...442...85S
+distance:
+  distance_fixed_host: True 
+m_v:
+  apparent_magnitude_v: 20.23
+  apparent_magnitude_v_em: 0.07
+  apparent_magnitude_v_ep: 0.07
+  ref_m_v: Sharina2005A&A...442...85S
+velocity:
+  vlos_systemic: 478 # [km/s]
+  vlos_systemic_em: 29
+  vlos_systemic_ep: 29
+  ref_vlos: Puzia2008ApJ...674..909P  

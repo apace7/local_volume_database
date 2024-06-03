@@ -1,3 +1,16 @@
+key: andromeda_05
+table: dwarf_m31
+location:
+  ra: 17.57292
+  dec: 47.62833
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1998
+  host: m_31
+  name: Andromeda V
+  ref_discovery:
+  - Armandroff1998AJ....116.2287A
 distance:
   distance: 758.6
   distance_em: 21.0
@@ -9,10 +22,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.57
   ref_flux_HI: Putman2021ApJ...913...53P
-key: andromeda_05
-location:
-  dec: 47.62833
-  ra: 17.57292
 m_v:
   apparent_magnitude_v: 15.1
   apparent_magnitude_v_em: 0.2
@@ -24,14 +33,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.01
   metallicity_spectroscopic_sigma: 0.41
   ref_metallicity_spectroscopic: Kirby2020AJ....159...46K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1998
-  host: m_31
-  name: Andromeda V
-  ref_discovery:
-  - Armandroff1998AJ....116.2287A
 structure:
   ellipticity: 0.26
   ellipticity_em: 0.07
@@ -54,7 +55,6 @@ structure_king:
   rking: 5.3
   rking_em: 1.0
   rking_ep: 1.0
-table: dwarf_m31
 velocity:
   ref_vlos: Tollerud2012ApJ...752...45T
   vlos_sigma: 10.5

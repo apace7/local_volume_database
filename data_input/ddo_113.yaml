@@ -1,19 +1,17 @@
+key: ddo_113
+table: dwarf_local_field
+location:
+  dec: 36.21888889
+  ra: 183.74125
 distance:
-  distance: 2951.0
-  distance_em: 82.0
-  distance_ep: 82.0
   distance_modulus: 27.35
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
   ref_distance: McConnachie2012AJ....144....4M
-key: ddo_113
-location:
-  dec: 36.21888889
-  ra: 183.74125
 m_v:
-  apparent_magnitude_v: 16.4
-  apparent_magnitude_v_em: 0.3
-  apparent_magnitude_v_ep: 0.3
+  apparent_magnitude_v: 15.15
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
   ref_m_v: McConnachie2012AJ....144....4M
 metallicity_photometric:
   metallicity_photometric: -1.99
@@ -24,7 +22,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1959
-  host: LF
+  host: ngc_4214
   name: DDO 113
   other_name:
   - UGCA 276
@@ -32,14 +30,17 @@ name_discovery:
   ref_discovery:
   - vandenBergh1959PDDO....2..147V
 structure:
-  ellipticity: 0.0
-  ellipticity_em: 0.0
-  ellipticity_ep: 0.09
-  ref_structure: McConnachie2012AJ....144....4M
-  rhalf: 0.7
-  rhalf_em: 0.07
-  rhalf_ep: 0.07
-table: dwarf_local_field
+  rhalf: 43.6
+  rhalf_em: 1.5
+  rhalf_ep: 1.5
+  spatial_units: arcsec
+  ellipticity: 0.37
+  ellipticity_em: 0.05
+  ellipticity_ep: 0.05
+  position_angle: 40
+  position_angle_em: 2
+  position_angle_ep: 2
+  ref_structure: Garling2020MNRAS.492.1713G
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 284.0

@@ -1,3 +1,16 @@
+key: ngc_6864
+table: gc_harris
+location:
+  ra: 301.519784
+  dec: -21.921164
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6864
+  other_name:
+  - M 75
+notes:
+- half-mass radius
 age:
   age: 9.98
   age_em: 0.51
@@ -11,10 +24,6 @@ distance:
   distance_modulus_em: 0.048
   distance_modulus_ep: 0.048
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_6864
-location:
-  dec: -21.921164
-  ra: 301.519784
 m_v:
   apparent_magnitude_v: 8.02
   apparent_magnitude_v_em: 0.04
@@ -23,12 +32,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.29
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: NGC 6864
-  other_name:
-  - M 75
 proper_motion:
   pmdec: -2.8099
   pmdec_em: 0.0258
@@ -38,13 +41,28 @@ proper_motion:
   pmra_ep: 0.0262
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
-  ref_structure: Baumgardt2018MNRAS.478.1520B
-  rhalf: 0.34
-table: gc_harris
+  ref_structure: Leanza2024arXiv240513558L
+  rhalf: 32.3
+  rhalf_em: 1.0
+  rhalf_ep: 1.2
+  spatial_units: arcsec
+structure_king:
+  rcore: 4.9
+  rcore_em: 0.3
+  rcore_ep: 0.4
+  rking: 309.5 
+  rking_em: 10.7
+  rking_ep: 11.9
+  spatial_units: arcsec
+  ref_structure_king: Leanza2024arXiv240513558L
 velocity:
-  ref_vlos: Baumgardt2018MNRAS.478.1520B
-  vlos_sigma: 10.3
-  vlos_sigma_em: 1.5
-  vlos_systemic: -189.08
-  vlos_systemic_em: 1.12
-  vlos_systemic_ep: 1.12
+  ref_vlos: Leanza2024arXiv240513558L
+  # vlos_sigma: 10.3
+  # vlos_sigma_em: 1.5
+  # vlos_sigma_ep: 1.5
+  vlos_systemic: -189.5
+  vlos_systemic_em: 0.3
+  vlos_systemic_ep: 0.3
+  vlos_sigma_central: 8.8
+  vlos_sigma_central_em: 0.3
+  vlos_sigma_central_ep: 0.3

@@ -1,3 +1,20 @@
+key: eso_410-g005
+table: dwarf_local_field
+location:
+  ra: 3.8816667
+  dec: -32.18
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1982
+  host: ngc_0253
+  name: ESO 410-G005
+  other_name:
+  - UKS 0013-324
+  ref_discovery:
+  - Lauberts1982euse.book.....L
+notes:
+- NGC 55 sub-group, forming "bridge" to Sculptor? MC12
 distance:
   distance: 1923.0
   distance_em: 35.0
@@ -11,10 +28,6 @@ flux_HI:
   flux_HI_em: 0.03
   flux_HI_ep: 0.03
   ref_flux_HI: Putman2021ApJ...913...53P
-key: eso_410-g005
-location:
-  dec: -32.18
-  ra: 3.8816667
 m_v:
   apparent_magnitude_v: 14.9
   apparent_magnitude_v_em: 0.3
@@ -25,18 +38,6 @@ metallicity_photometric:
   metallicity_photometric_em: 0.2
   metallicity_photometric_ep: 0.2
   ref_metallicity_photometric: McConnachie2006MNRAS.365.1263M
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1982
-  host: NGC_0253
-  name: ESO 410-G005
-  other_name:
-  - UKS 0013-324
-  ref_discovery:
-  - Lauberts1982euse.book.....L
-notes:
-- NGC 55 sub-group, forming "bridge" to Sculptor? MC12
 structure:
   ellipticity: 0.37
   position_angle: 57.0
@@ -44,7 +45,6 @@ structure:
   rhalf: 0.5
   rhalf_em: 0.05
   rhalf_ep: 0.05
-table: dwarf_local_field
 velocity:
   ref_vlos: Bouchard2005AJ....130.2058B
   vlos_systemic: 158.9

@@ -1,0 +1,44 @@
+key: madcash-2
+table: dwarf_local_field_distant
+location:
+  ra: 182.5280833
+  dec: 35.44293889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2020
+  host: NGC_4214
+  name: MADCASH-2
+  other_name:
+  - MADCASH J121007+352635-dw
+  ref_discovery:
+  - Carlin2021ApJ...909..211C
+notes:
+- HI gas upper limit 3 sigma
+structure:
+  rhalf: 0.15
+  rhalf_em: 0.008333333333
+  rhalf_ep: 0.008333333333
+  ellipticity: 0.19
+  ellipticity_em: 0.05
+  ellipticity_ep: 0.05
+  position_angle: 76.0
+  position_angle_em: 11.0
+  position_angle_ep: 11
+  ref_structure: Carlin2021ApJ...909..211C
+distance:
+  distance_modulus: 27.39
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.09
+  ref_distance: Carlin2021ApJ...909..211C
+m_v:
+  apparent_magnitude_v: 18.24
+  apparent_magnitude_v_em: 0.12
+  apparent_magnitude_v_ep: 0.12
+  ref_m_v: Carlin2021ApJ...909..211C
+metallicity_photometric:
+  metallicity_photometric: -2
+  ref_metallicity_photometric: Carlin2021ApJ...909..211C
+flux_HI:
+  flux_HI_ul: 0.023
+  ref_flux_HI: Carlin2021ApJ...909..211C

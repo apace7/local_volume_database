@@ -1,7 +1,19 @@
+key: ddo_147
+table: dwarf_local_field
+location:
+  ra: 191.7492
+  dec: 36.4764
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: LF # ngc_4214
+  name: DDO 147
+  other_name:
+  - UGC07949
+  - PGC043129
+  - KDG200
+  - MCG +06-28-030
 distance:
-  distance: 2938.0
-  distance_em: 108.0
-  distance_ep: 108.0
   distance_modulus: 27.34
   distance_modulus_em: 0.08
   distance_modulus_ep: 0.08
@@ -9,28 +21,13 @@ distance:
 flux_HI:
   flux_HI: 14.2
   ref_flux_HI: EDD
-key: ddo_147
-location:
-  dec: 36.4764
-  ra: 191.7492
 m_v:
   apparent_magnitude_v: 14.57
   ref_m_v: EDD
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  host: NGC_4214
-  name: DDO 147
-  other_name:
-  - UGC07949
-  - PGC043129
-  - KDG200
-  - MCG +06-28-030
 structure:
   ellipticity: 0.21
   ref_structure: LVGDB
   rhalf: 1.45
-table: dwarf_local_field
 velocity:
   ref_vlos: EDD
   vlos_systemic: 331.0

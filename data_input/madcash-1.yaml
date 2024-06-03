@@ -1,0 +1,45 @@
+key: madcash-1
+table: dwarf_local_field_distant
+location:
+  ra: 160.6641667
+  dec: 65.41666944
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2016
+  host: NGC_2403
+  name: MADCASH-1
+  other_name:
+  - MADCASH J074238+652501-dw
+  ref_discovery:
+  - Carlin2016ApJ...828L...5C
+  - Carlin2021ApJ...909..211C
+notes:
+- HI gas upper limit 3 sigma
+structure:
+  rhalf: 0.18
+  rhalf_em: 0.01666666667
+  rhalf_ep: 0.01666666667
+  ellipticity: 0.25
+  ellipticity_em: 0.11
+  ellipticity_ep: 0.11
+  position_angle: 0.0
+  position_angle_em: 19.0
+  position_angle_ep: 19.0
+  ref_structure: Carlin2021ApJ...909..211C
+distance:
+  distance_modulus: 27.66
+  distance_modulus_em: 0.15
+  distance_modulus_ep: 0.15
+  ref_distance: Carlin2021ApJ...909..211C
+m_v:
+  apparent_magnitude_v: 19.85
+  apparent_magnitude_v_em: 0.18
+  apparent_magnitude_v_ep: 0.18
+  ref_m_v: Carlin2021ApJ...909..211C
+metallicity_photometric:
+  metallicity_photometric: -2
+  ref_metallicity_photometric: Carlin2021ApJ...909..211C
+flux_HI:
+  flux_HI_ul: 0.026
+  ref_flux_HI: Carlin2021ApJ...909..211C

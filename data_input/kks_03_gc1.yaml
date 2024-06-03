@@ -1,4 +1,4 @@
-key: kks_3_gc1
+key: kks_03_gc1
 table: gc_dwarf_hosted
 location:
   ra: 36.185
@@ -7,7 +7,7 @@ name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
   discovery_year: 2015
-  host: kks_3
+  host: kks_03
   name: KKs 3-GC1
   ref_discovery:
   - Karachentsev2015MNRAS.447L..85K

@@ -1,0 +1,43 @@
+key: kk_211-gc-3-149
+table: gc_dwarf_hosted
+location:
+  ra: 205.523  # [deg]
+  dec: -45.205 # [deg]
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2005
+  host: kk_211
+  name: KK 211-3-149
+  ref_discovery:
+  - Sharina2005A&A...442...85S
+  type: NSC
+# notes:
+#   - list
+structure:
+  rhalf: 0.351
+  spatial_units: arcsec
+  ellipticity: 0.2
+  ref_structure: Sharina2005A&A...442...85S
+distance:
+  distance_fixed_host: True 
+m_v:
+  apparent_magnitude_v: 19.95
+  apparent_magnitude_v_em: 0.07
+  apparent_magnitude_v_ep: 0.07
+  ref_m_v: Sharina2005A&A...442...85S
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.4
+  metallicity_spectroscopic_em: 0.3
+  metallicity_spectroscopic_ep: 0.3
+  ref_metallicity_spectroscopic: Puzia2008ApJ...674..909P
+velocity:
+  vlos_systemic: 580 # [km/s]
+  vlos_systemic_em: 23
+  vlos_systemic_ep: 23
+  ref_vlos: Puzia2008ApJ...674..909P 
+age:
+  age: 6 ## [Gyr]
+  age_em: 2
+  age_ep: 2
+  ref_age: Puzia2008ApJ...674..909P

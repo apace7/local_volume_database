@@ -11,6 +11,8 @@ name_discovery:
   name: Andromeda III
   ref_discovery:
   - vandenBergh1972ApJ...171L..31V
+  other_name:
+  - KK 5
 distance:
   distance: 721.1
   distance_em: 16.0
