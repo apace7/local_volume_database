@@ -1,0 +1,50 @@
+key: donatiello_1
+table: dwarf_local_field_distant
+location:
+  ra: 17.91820833
+  dec: 34.60088889
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2016
+  host: LF
+  name: Donatiello I
+  ref_discovery:
+  - MartinezDelgado2018A&A...620A.126M
+notes:
+- satellite of NGC 404, ~65 kpc in projection.
+- position angle in plot but values not listed in paper. 
+- Gran Telescopio Canarias imaging
+structure:
+  rhalf: 0.48
+  rhalf_em: 0.15
+  rhalf_ep: 0.15
+  ellipticity: 0.69
+  ellipticity_em: 0.05
+  ellipticity_ep: 0.05
+  ref_structure: MartinezDelgado2018A&A...620A.126M
+distance:
+  distance_modulus: 27.6
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.2
+  ref_distance: MartinezDelgado2018A&A...620A.126M
+m_v:
+  apparent_magnitude_v: 19.3
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: MartinezDelgado2018A&A...620A.126M
+structure_sersic:
+  n_sersic: 0.73
+  n_sersic_em: 0.02
+  n_sersic_ep: 0.02
+  rad_sersic: 0.345
+  rad_sersic_em: 0.005
+  rad_sersic_ep: 0.005
+  ellipticity: 0.68
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  ref_structure_sersic: MartinezDelgado2018A&A...620A.126M
+flux_HI:
+  flux_HI_ul: 0.15
+  ref_flux_HI: MartinezDelgado2018A&A...620A.126M
+

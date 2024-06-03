@@ -1,0 +1,25 @@
+key: kk_221-gc-27n
+table: gc_dwarf_hosted
+location:
+  ra: 207.1625   # [deg]
+  dec: -46.99694 # [deg]
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 1
+  host: kk_221
+  name: KK 221-27n
+structure:
+  rhalf: 0.259 
+  spatial_units: arcsec
+  ellipticity: 0.1
+  ref_structure: Sharina2005A&A...442...85S
+distance:
+  distance_fixed_host: True 
+m_v:
+  apparent_magnitude_v: 22.25
+  ref_m_v: Sharina2005A&A...442...85S
+velocity:
+  vlos_systemic: 466 # [km/s]
+  vlos_systemic_em: 35
+  vlos_systemic_ep: 35
+  ref_vlos: Puzia2008ApJ...674..909P  
