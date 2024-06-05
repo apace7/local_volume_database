@@ -1,0 +1,40 @@
+key: ngc_0147_gc_hodge_3
+table: gc_dwarf_hosted
+location:
+  ra: 8.313333333333333 
+  dec: 48.45641666666667
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 1944
+  host: ngc_0147
+  name: NGC 147-Hodge III
+  ref_discovery:
+  - Baade1944ApJ...100..147B
+  - Hodge1976AJ.....81...25H
+  type: GC
+notes:
+- in older papers (1977-2013) might be swapped with Hodge II; see discusion in the appendix of Veljanoski2013MNRAS.435.3654V
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 16.05
+  apparent_magnitude_v_em: 0.02
+  apparent_magnitude_v_ep: 0.02
+  ref_m_v: Veljanoski2013MNRAS.435.3654V
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.363
+  metallicity_spectroscopic_em: 0.024
+  metallicity_spectroscopic_ep: 0.024
+  ref_metallicity_spectroscopic: Larsen2022A&A...660A..88L
+metallicity_photometric:
+  metallicity_photometric: -2.1
+  metallicity_photometric_em: 0.3
+  metallicity_photometric_ep: 0.3
+  ref_metallicity_photometric: Veljanoski2013MNRAS.435.3654V
+velocity:
+  vlos_systemic: -197
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  vlos_sigma: 6.6
+  ref_vlos: Larsen2018A&A...613A..56L

@@ -1,25 +1,8 @@
-distance:
-  distance: 648.6
-  distance_em: 18.0
-  distance_ep: 18.0
-  distance_modulus: 24.06
-  distance_modulus_em: 0.06
-  distance_modulus_ep: 0.06
-  ref_distance: Savino2022ApJ...938..101S
-flux_HI:
-  flux_HI: 1.23
-  flux_HI_em: 0.11
-  flux_HI_ep: 0.11
-  ref_flux_HI: Putman2021ApJ...913...53P
 key: ngc_0185
+table: dwarf_m31
 location:
-  dec: 48.33611111
   ra: 9.741666667
-m_v:
-  apparent_magnitude_v: 9.2
-  apparent_magnitude_v_em: 0.1
-  apparent_magnitude_v_ep: 0.1
-  ref_m_v: McConnachie2012AJ....144....4M
+  dec: 48.33611111
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -30,8 +13,25 @@ name_discovery:
   - UGC 396
   ref_discovery:
   - Herschel1789RSPT...79..212H
+  - Baade1944ApJ...100..147B
 notes:
-- Binary w/ NGC 147? MC12
+- Binary w/ NGC 147? McConnachie2012AJ....144....4M
+- part of local group Baade1944ApJ...100..147B
+distance:
+  distance_modulus: 24.06
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI: 1.23
+  flux_HI_em: 0.11
+  flux_HI_ep: 0.11
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 9.2
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: McConnachie2012AJ....144....4M
 proper_motion:
   pmdec: 0.0058
   pmdec_em: 0.0147
@@ -49,7 +49,6 @@ structure:
   position_angle_ep: 3.0
   ref_structure: McConnachie2012AJ....144....4M
   rhalf: 2.55
-table: dwarf_m31
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_sigma: 24.0

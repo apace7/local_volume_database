@@ -7,7 +7,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2020
-  host: NGC_4214
+  host: ngc_4214
   name: MADCASH-2
   other_name:
   - MADCASH J121007+352635-dw

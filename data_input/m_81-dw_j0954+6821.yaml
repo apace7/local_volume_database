@@ -1,0 +1,34 @@
+key: m_81-dw_j0954+6821
+table: dwarf_local_field_distant
+location:
+  ra: 148.5292
+  dec: 68.3641
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2023
+  host: m_81
+  name: M81-dw J0954+6821
+  ref_discovery:
+  - Bell2022ApJ...937L...3B
+notes:
+- assumed to be at M81 group distance, 3.6 Mpc
+structure:
+  rhalf: 0.07448451337
+  rhalf_em: 0.007639437268
+  rhalf_ep: 00.007639437268
+  ellipticity: 0.55
+  ellipticity_em: 0.1
+  ellipticity_ep: 0.1
+  position_angle: 25.0
+  position_angle_em: 8.0
+  position_angle_ep: 8.0
+  ref_structure: Bell2022ApJ...937L...3B
+distance:
+  distance_fixed_host: True 
+m_v:
+  apparent_magnitude_v: 20.68
+  apparent_magnitude_v_em: 0.25
+  apparent_magnitude_v_ep: 0.25
+  ref_m_v: Bell2022ApJ...937L...3B
+

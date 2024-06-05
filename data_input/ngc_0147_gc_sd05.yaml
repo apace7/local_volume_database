@@ -1,0 +1,41 @@
+key: ngc_0147_gc_sd05
+table: gc_dwarf_hosted
+location:
+  ra: 8.095416666666667 
+  dec: 48.430277777777775
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2009
+  host: ngc_0147
+  name: NGC 147-GC-SD5
+  ref_discovery:
+  - Sharina2009A&A...497...65S
+  type: GC
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 17.6
+  apparent_magnitude_v_em: 0.01
+  apparent_magnitude_v_ep: 0.01
+  ref_m_v: Veljanoski2013MNRAS.435.3654V
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.7
+  metallicity_spectroscopic_em: 0.2
+  metallicity_spectroscopic_ep: 0.2
+  ref_metallicity_spectroscopic: Sharina2009A&A...497...65S
+metallicity_photometric:
+  metallicity_photometric: -2.2
+  metallicity_photometric_em: 0.3
+  metallicity_photometric_ep: 0.3
+  ref_metallicity_photometric: Veljanoski2013MNRAS.435.3654V
+velocity:
+  vlos_systemic: 187
+  vlos_systemic_em: 15
+  vlos_systemic_ep: 15
+  ref_vlos: Sharina2009A&A...497...65S
+age:
+  age: 10
+  age_em: 2
+  age_ep: 2
+  ref_age: Sharina2009A&A...497...65S

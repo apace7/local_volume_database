@@ -8,7 +8,7 @@ name_discovery:
   confirmed_real: 1
   discovery_year: 2023
   host: eso_006-001
-  name: ESO 006-001 GC
+  name: ESO 006-001-GC
   # other_name:
   # - list
   ref_discovery:

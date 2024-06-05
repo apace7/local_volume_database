@@ -8,7 +8,7 @@ name_discovery:
   confirmed_real: 1
   discovery_year: 2005
   host: kk_221
-  name: KK 221-2-966
+  name: KK 221-GC-2-966
   ref_discovery:
   - Sharina2005A&A...442...85S
   type: GC
@@ -28,14 +28,14 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -1.6
   metallicity_spectroscopic_em: 0.1
   metallicity_spectroscopic_ep: 0.1
-  ref_metallicity_spectroscopic: Puzia2008ApJ...674..909P  
+  ref_metallicity_spectroscopic: Puzia2008ApJ...674..909P
 velocity:
   vlos_systemic: 509 # [km/s]
   vlos_systemic_em: 25
   vlos_systemic_ep: 25
-  ref_vlos: Puzia2008ApJ...674..909P  
+  ref_vlos: Puzia2008ApJ...674..909P
 age:
   age: 10 ## [Gyr]
   age_em: 2
   age_ep: 2
-  ref_age: rePuzia2008ApJ...674..909P  f
+  ref_age: Puzia2008ApJ...674..909P

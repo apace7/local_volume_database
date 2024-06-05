@@ -9,7 +9,7 @@ name_discovery:
   false_positive: 0
   discovery_year: 2006
   host: ursa_major_2
-  name: Ursa Major II GC
+  name: Ursa Major II-GC
   ref_discovery:
   - Zucker2006ApJ...650L..41Z
   - Eadie2022ApJ...926..162E

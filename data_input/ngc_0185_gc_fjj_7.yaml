@@ -1,0 +1,41 @@
+key: ngc_0185_gc_fjj_7
+table: gc_dwarf_hosted
+location:
+  ra: 9.826666666666664
+  dec: 48.38433333333333
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2013
+  host: ngc_0185
+  name: NGC 185-FJJ VII
+  ref_discovery:
+  - Ford1977ApJ...213...18F
+  type: dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 18.1
+  apparent_magnitude_v_em: 0.02
+  apparent_magnitude_v_ep: 0.02
+  ref_m_v: Veljanoski2013MNRAS.435.3654V
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.8
+  metallicity_spectroscopic_em: 0.2
+  metallicity_spectroscopic_ep: 0.2
+  ref_metallicity_spectroscopic: Sharina2006MNRAS.372.1259S
+metallicity_photometric:
+  metallicity_photometric: -1.7
+  metallicity_photometric_em: 0.4
+  metallicity_photometric_ep: 0.4
+  ref_metallicity_photometric: Veljanoski2013MNRAS.435.3654V
+velocity:
+  vlos_systemic: -217
+  vlos_systemic_em: 30
+  vlos_systemic_ep: 30
+  ref_vlos: Sharina2006MNRAS.372.1259S
+age:
+  age: 5
+  age_em: 2
+  age_ep: 2
+  ref_age: Sharina2006MNRAS.372.1259S
