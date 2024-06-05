@@ -1,0 +1,23 @@
+key: m_81
+table: misc
+location:
+  ra: 148.8883 
+  dec: 69.065278
+distance:
+  distance_modulus: 27.78
+m_v:
+  apparent_magnitude_v: 6.94
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 0
+  host: m_81
+  name: M 81
+  other_name:
+  - NGC 3031
+  - UGC 5318
+  - PGC 28630
+  - MCG+12-10-010
+  - Bode's Galaxy
+velocity:
+  vlos_systemic: -34

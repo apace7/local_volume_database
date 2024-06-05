@@ -1,7 +1,18 @@
+key: ngc_0205
+table: dwarf_m31
+location:
+  ra: 10.09375
+  dec: 41.68638889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1798
+  host: m_31
+  name: NGC 205
+  other_name:
+  - M110
+  - UGC 426 
 distance:
-  distance: 835.6
-  distance_em: 23.0
-  distance_ep: 23.0
   distance_modulus: 24.61
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
@@ -11,24 +22,11 @@ flux_HI:
   flux_HI_em: 0.19
   flux_HI_ep: 0.19
   ref_flux_HI: Putman2021ApJ...913...53P
-key: ngc_0205
-location:
-  dec: 41.68638889
-  ra: 10.09375
 m_v:
   apparent_magnitude_v: 8.1
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
   ref_m_v: McConnachie2012AJ....144....4M
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1798
-  host: m_31
-  name: NGC 205
-  other_name:
-  - M110
-  - UGC 426
 structure:
   ellipticity: 0.43
   ellipticity_em: 0.1
@@ -40,7 +38,6 @@ structure:
   rhalf: 2.46
   rhalf_em: 0.1
   rhalf_ep: 0.1
-table: dwarf_m31
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_sigma: 35.0

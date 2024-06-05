@@ -1,0 +1,26 @@
+key: ngc_0147_gc_PA-N147-3
+table: gc_dwarf_hosted
+location:
+  ra: 8.541666666666666 
+  dec: 49.04416666666666
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2013
+  host: ngc_0147
+  name: NGC 147-PA-N147-3
+  ref_discovery:
+  - Veljanoski2013MNRAS.435.3654V
+  type: GC
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 17.38
+  apparent_magnitude_v_em: 0.01
+  apparent_magnitude_v_ep: 0.01
+  ref_m_v: Veljanoski2013MNRAS.435.3654V
+velocity:
+  vlos_systemic: -133
+  vlos_systemic_em: 24
+  vlos_systemic_ep: 24
+  ref_vlos: Veljanoski2013MNRAS.435.3654V

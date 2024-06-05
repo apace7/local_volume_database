@@ -1,24 +1,8 @@
-distance:
-  distance: 428.0
-  distance_em: 109.0
-  distance_ep: 28.0
-  distance_modulus: 23.16
-  distance_modulus_em: 0.55
-  distance_modulus_ep: 0.14
-  ref_distance: McQuinn2023arXiv230708738M
 key: leo_k
+table: dwarf_local_field
 location:
-  dec: 16.51057655
   ra: 141.0253568
-m_v:
-  apparent_magnitude_v: 18.46
-  apparent_magnitude_v_em: 0.4
-  apparent_magnitude_v_ep: 0.7
-  ref_m_v: McQuinn2023arXiv230708738M
-metallicity_photometric:
-  metallicity_photometric: -1.9
-  metallicity_photometric_em: 0.1
-  ref_metallicity_photometric: McQuinn2023arXiv230708738M
+  dec: 16.51057655
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -26,16 +10,33 @@ name_discovery:
   host: LF
   name: Leo K
   ref_discovery:
-  - McQuinn2023arXiv230708738M
+  - McQuinn2024ApJ...967..161M
+distance:
+  distance_modulus: 23.19
+  distance_modulus_em: 0.64
+  distance_modulus_ep: 0.08
+  ref_distance: McQuinn2024ApJ...967..161M
+m_v:
+  apparent_magnitude_v: 18.46
+  apparent_magnitude_v_em: 0.4
+  apparent_magnitude_v_ep: 0.7
+  ref_m_v: McQuinn2024ApJ...967..161M
+metallicity_photometric:
+  metallicity_photometric: -1.9
+  metallicity_photometric_em: 0.1
+  metallicity_photometric_ep: 0.1
+  ref_metallicity_photometric: McQuinn2024ApJ...967..161M
 structure:
-  ellipticity: 0.26
-  ellipticity_em: 0.09
-  ellipticity_ep: 0.08
-  position_angle: 101.0
-  position_angle_em: 3.0
-  position_angle_ep: 3.0
-  ref_structure: McQuinn2023arXiv230708738M
-  rhalf: 0.4
-  rhalf_em: 0.05
-  rhalf_ep: 0.05
-table: dwarf_local_field
+  rhalf: 38.2
+  rhalf_em: 3.5
+  rhalf_ep: 3.8
+  spatial_units: arcsec
+  ellipticity: 0.41
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: -69
+  position_angle_em: 12
+  position_angle_ep: 16
+  ref_structure: McQuinn2024ApJ...967..161M
+ 
+

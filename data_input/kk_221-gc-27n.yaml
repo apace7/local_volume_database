@@ -7,7 +7,7 @@ name_discovery:
   confirmed_star_cluster: 0
   confirmed_real: 1
   host: kk_221
-  name: KK 221-27n
+  name: KK 221-GC-27n
 structure:
   rhalf: 0.259 
   spatial_units: arcsec

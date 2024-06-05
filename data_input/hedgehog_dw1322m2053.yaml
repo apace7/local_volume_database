@@ -1,0 +1,61 @@
+key: hedgehog_dw1322m2053
+table: dwarf_local_field
+location:
+  ra: 200.69533  # [deg]
+  dec: -20.898872 # [deg]
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2024
+  host: LF
+  name: Hedgehog
+  other_name:
+  - dw1322m2053
+  ref_discovery:
+  - Li2024arXiv240600101L
+  type: dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster
+notes:
+  - foreground to NGC 5068 at D ~ 5 Mpc
+structure:
+  rhalf: 15.1 
+  rhalf_em: 0.8
+  rhalf_ep: 0.8
+  spatial_units: arcsec
+  ellipticity: 0.22
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.03
+  # position_angle: 0
+  # position_angle_em: 0
+  # position_angle_ep: 0
+  ref_structure: Li2024arXiv240600101L
+distance:
+  distance_modulus: 26.9
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
+  ref_distance: Li2024arXiv240600101L
+m_v:
+  apparent_magnitude_v: 17.07
+  apparent_magnitude_v_em: 0.16
+  apparent_magnitude_v_ep: 0.16
+  ref_m_v: Li2024arXiv240600101L
+structure_sersic:
+  n_sersic: 0.56
+  n_sersic_em: 0.03
+  n_sersic_ep: 0.03
+  rad_sersic: 15.1 
+  rad_sersic_em: 0.8
+  rad_sersic_ep: 0.8
+  spatial_units: arcsec
+  ellipticity: 0.22
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.03
+  # position_angle: 0
+  # position_angle_em: 0
+  # position_angle_ep: 0
+  central_surface_brightness: 24.80
+  central_surface_brightness_em: 0.15
+  central_surface_brightness_ep: 0.15
+  ref_structure_sersic: Li2024arXiv240600101L
+flux_HI:
+  flux_HI_ul: 0.73
+  ref_flux_HI: Li2024arXiv240600101L 

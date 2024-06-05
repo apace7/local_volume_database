@@ -1,0 +1,32 @@
+key: ngc_0147_gc_hodge_1
+table: gc_dwarf_hosted
+location:
+  ra: 8.300833333333333
+  dec: 48.50897222222222
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 1976
+  host: ngc_0147
+  name: NGC 147-Hodge I
+  ref_discovery:
+  - Hodge1976AJ.....81...25H
+  type: GC
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 16.86
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Veljanoski2013MNRAS.435.3654V
+metallicity_photometric:
+  metallicity_photometric: -1.3
+  metallicity_photometric_em: 0.4
+  metallicity_photometric_ep: 0.4
+  ref_metallicity_photometric: Veljanoski2013MNRAS.435.3654V
+velocity:
+  vlos_systemic: -107
+  vlos_systemic_em: 30
+  vlos_systemic_ep: 30
+  ref_vlos: Sharina2009A&A...497...65S
+

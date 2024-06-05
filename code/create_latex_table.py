@@ -174,10 +174,11 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
             elif input_table[classification_column][i]==0:
                 out_str +=  '  '        
 
-            # if :
-            out_str += end_line+'\n'
-            # else:
-            #     out_str += '\n'
+            if i == len(input_table)-1 and np.logical_or.reduce((len(other_name)>place , len(ref) > place )):
+                out_str += '\\\\'+'\n'
+            else:
+                out_str += end_line+'\n'
+                
             f.write(out_str )
             while len(other_name)>place or len(ref) > place:
                 out_str2 = ' & '
@@ -518,7 +519,7 @@ create_latex_table_structure('table/table_data/dwarf_lf_structure_data.tex', 'ta
 create_latex_table_kinematics('table/table_data/dwarf_lf_kinematics_data.tex', 'table/table_data/dwarf_lf_kinematics_citations.tex', dsph_lf)
 create_latex_table_mass('table/table_data/dwarf_lf_mass_data.tex', 'table/table_data/dwarf_lf_mass_citations.tex', dsph_lf)
 
-dsph_lf_distant.sort(['year', 'key'])
+dsph_lf_distant.sort(['host', 'year','key'])
 create_latex_table_name_discovery('table/table_data/dwarf_lf_distant_name_discovery_data.tex', dsph_lf_distant)
 dsph_lf_distant.sort(['host', 'key'])
 create_latex_table_structure('table/table_data/dwarf_lf_distant_structure_data.tex', 'table/table_data/dwarf_lf_distant_structure_citations.tex', dsph_lf_distant, spatial_convert_factor=60, spatial_units='arcsec', spatial_units_conversion=60.)
@@ -544,7 +545,7 @@ gc_harris.sort('key')
 create_latex_table_structure('table/table_data/gc_harris_structure_data.tex', 'table/table_data/gc_harris_structure_citations.tex', gc_harris)
 create_latex_table_kinematics('table/table_data/gc_harris_kinematics_data.tex', 'table/table_data/gc_harris_kinematics_citations.tex', gc_harris, add_age=True)
 
-gc_dwarf.sort(['year', 'key'])
+gc_dwarf.sort(['host', 'year', 'key'])
 create_latex_table_name_discovery('table/table_data/gc_dwarf_name_discovery_data.tex', gc_dwarf, classification_column='confirmed_star_cluster', classification_output='Star Cluster')
 gc_dwarf.sort(['host','key'])
 create_latex_table_structure('table/table_data/gc_dwarf_structure_data.tex', 'table/table_data/gc_dwarf_structure_citations.tex', gc_dwarf, spatial_convert_factor=60, spatial_units='arcsec', spatial_units_conversion=60.)
@@ -666,7 +667,11 @@ with open(output, 'w+') as f:
                     out_str += "\\citet{" + ref_fp[place] +'}'
 
                 place +=1
-                out_str += end_line+'\n'
+                if candidate == len(table_list_sort)-1 and np.logical_or.reduce((len(other_name)>place , len(ref) > place , len(ref_fp)>place)):
+                    out_str += '\\\\'+'\n'
+                else:
+                    out_str += end_line+'\n'
+
                 # else:
                 #     out_str += '\n'
                 f.write(out_str )

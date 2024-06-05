@@ -1,0 +1,54 @@
+key: m_81_dw0910+7326
+table: dwarf_local_field_distant
+location:
+  ra: 137.5560417
+  dec: 73.43865278
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2022
+  host: m_81
+  name: dw0910+7326
+  other_name:
+  - Blobby
+  ref_discovery:
+  - Casey2023MNRAS.520.4715C
+notes:
+- For M_V assumed M_V = M_B - 0.31 (and then converted to apparent mag.)
+structure:
+  rhalf: 0.8466666667
+  rhalf_em: 0.02333333333
+  rhalf_ep: 0.02333333333
+  spatial_units: arcmin
+  ellipticity: 0.1
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 85.1
+  position_angle_em: 15
+  position_angle_ep: 15
+  ref_structure: Casey2023MNRAS.520.4715C
+distance:
+  distance_modulus: 27.53
+  distance_modulus_em: 0.28
+  distance_modulus_ep: 0.28
+  ref_distance: Casey2023MNRAS.520.4715C
+m_v:
+  apparent_magnitude_v: 15.65
+  apparent_magnitude_v_em: 0.26
+  apparent_magnitude_v_ep: 0.26
+  ref_m_v: Casey2023MNRAS.520.4715C
+structure_sersic:
+  n_sersic: 0.65
+  n_sersic_em: 0.02
+  n_sersic_ep: 0.02
+  rad_sersic: 0.8466666667
+  rad_sersic_em: 0.02333333333
+  rad_sersic_ep: 0.02333333333
+  spatial_units: arcmin
+  ellipticity: 0.1
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 85.1
+  position_angle_em: 15
+  position_angle_ep: 15
+  ref_structure_sersic: Casey2023MNRAS.520.4715C

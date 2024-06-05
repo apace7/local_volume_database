@@ -1,12 +1,9 @@
 key: ngc_0147
 table: dwarf_m31
 location:
-  dec: 48.50777778
   ra: 8.298333333
+  dec: 48.50777778
 distance:
-  distance: 734.5
-  distance_em: 20.0
-  distance_ep: 21.0
   distance_modulus: 24.33
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
@@ -33,8 +30,10 @@ name_discovery:
   - Caldwell 17
   ref_discovery:
   - Herschel1833RSPT..123..359H
+  - Baade1944ApJ...100..147B
 notes:
-- Binary w/ NGC 185? Tidal stream MC12
+- Binary w/ NGC 185? Tidal stream McConnachie2012AJ....144....4M
+- part of local group Baade1944ApJ...100..147B
 proper_motion:
   pmdec: 0.0378
   pmdec_em: 0.0146
