@@ -1,3 +1,15 @@
+key: palomar_01
+table: gc_harris
+location:
+  ra: 53.3335
+  dec: 79.581055
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1955
+  name: Palomar 1
+  ref_discovery:
+  - Abell1955PASP...67..258A
 age:
   age: 7.3
   age_em: 1.15
@@ -11,22 +23,19 @@ distance:
   distance_modulus_em: 0.063
   distance_modulus_ep: 0.063
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: palomar_01
-location:
-  dec: 79.581055
-  ra: 53.3335
 m_v:
-  apparent_magnitude_v: 13.49
-  apparent_magnitude_v_em: 0.03
-  apparent_magnitude_v_ep: 0.03
-  ref_m_v: Baumgardt2020PASA...37...46B
+  apparent_magnitude_v: 12.71
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.5
+  ref_m_v: Rosenberg1998AJ....115..648R
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.65
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: Palomar 1
+metallicity_photometric:
+  metallicity_photometric: -0.6
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: Rosenberg1998AJ....115..648R
 proper_motion:
   pmdec: 0.0075
   pmdec_em: 0.0373
@@ -38,7 +47,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 0.62
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -75.72
