@@ -17,7 +17,7 @@ name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
   discovery_year: 2019
-  host: MW
+  host: mw
   name: Bootes IV
   other_name:
   - HSC J1534+4343
@@ -43,4 +43,3 @@ structure:
   rhalf: 7.6
   rhalf_em: 0.8
   rhalf_ep: 0.8
-

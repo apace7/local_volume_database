@@ -31,7 +31,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2008
-  host: MW
+  host: mw
   name: Leo V
   ref_discovery:
   - Belokurov2008ApJ...686L..83B
@@ -75,9 +75,6 @@ structure_sersic:
   ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
   ref_vlos: Jenkins2021ApJ...920...92J
-  # vlos_sigma: 0.1
-  # vlos_sigma_em: 0.1
-  # vlos_sigma_ep: 1.5
   vlos_systemic: 173.1
   vlos_systemic_em: 0.8
   vlos_systemic_ep: 1.0

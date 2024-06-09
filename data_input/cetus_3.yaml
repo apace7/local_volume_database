@@ -20,10 +20,10 @@ name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
   discovery_year: 2018
-  host: MW
+  host: mw
   name: Cetus III
   other_name:
-  - "HSC J0209-0416"
+  - HSC J0209-0416
   ref_discovery:
   - Homma2018PASJ...70S..18H
   abbreviation: CetIII
@@ -38,4 +38,3 @@ structure:
   rhalf: 1.23
   rhalf_em: 0.19
   rhalf_ep: 0.42
-

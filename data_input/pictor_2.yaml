@@ -27,7 +27,7 @@ name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
   discovery_year: 2016
-  host: MW
+  host: mw
   name: Pictor II
   ref_discovery:
   - DrlicaWagner2016ApJ...833L...5D

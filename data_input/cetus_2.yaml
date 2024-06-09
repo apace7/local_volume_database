@@ -7,15 +7,13 @@ name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
   discovery_year: 2015
-  host: MW
+  host: mw
   name: Cetus II
   other_name:
   - DES J0117-1725
   ref_discovery:
   - DrlicaWagner2015ApJ...813..109D
-  abbreviation: CetII 
-# notes:
-#   - 
+  abbreviation: CetII
 distance:
   distance: 30.0
   distance_em: 3.0
@@ -46,4 +44,3 @@ structure:
   rhalf: 1.9
   rhalf_em: 0.5
   rhalf_ep: 1.0
-

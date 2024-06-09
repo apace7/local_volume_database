@@ -7,7 +7,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2006
-  host: MW
+  host: mw
   name: Ursa Major II
   ref_discovery:
   - Zucker2006ApJ...650L..41Z

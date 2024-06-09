@@ -30,7 +30,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2018
-  host: LMC
+  host: lmc
   name: Carina II
   ref_discovery:
   - Torrealba2018MNRAS.475.5085T

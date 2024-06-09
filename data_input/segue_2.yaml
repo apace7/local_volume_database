@@ -28,7 +28,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2009
-  host: MW
+  host: mw
   name: Segue 2
   ref_discovery:
   - Belokurov2009MNRAS.397.1748B

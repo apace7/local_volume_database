@@ -30,7 +30,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2018
-  host: LMC
+  host: lmc
   name: Hydrus I
   ref_discovery:
   - Koposov2018MNRAS.479.5343K

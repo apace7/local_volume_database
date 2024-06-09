@@ -20,7 +20,7 @@ name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
   discovery_year: 2016
-  host: MW
+  host: mw
   name: Virgo I
   other_name:
   - HSC J1200-0040
@@ -38,4 +38,3 @@ structure:
   rhalf: 1.76
   rhalf_em: 0.4
   rhalf_ep: 0.49
-

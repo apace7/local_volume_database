@@ -56,7 +56,7 @@ structure:
   position_angle: 8.0
   position_angle_em: 4.0
   position_angle_ep: 4.0
-  ref_structure: Battaglia2012MNRAS.424.1113B~
+  ref_structure: Battaglia2012MNRAS.424.1113B
 structure_king:
   rcore: 1.79
   rcore_em: 0.04

@@ -17,7 +17,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 0
-  host: MW
+  host: mw
   name: LMC
   other_name:
   - Nubecula Major
@@ -25,7 +25,7 @@ name_discovery:
   - Large Milky Cloud
   abbreviation: LMC
 structure:
-  rhalf: 192.9 
+  rhalf: 192.9
   rhalf_em: 0.2
   rhalf_ep: 0.2
   ellipticity: 0.164
@@ -44,7 +44,7 @@ proper_motion:
   pmra_ep: 0.02
   ref_proper_motion: Kallivayalil2013ApJ...764..161K
 velocity:
-  ref_vlos: vanderMarel2002AJ....124.2639V 
+  ref_vlos: vanderMarel2002AJ....124.2639V
   vlos_systemic: 262.2
   vlos_systemic_em: 3.4
   vlos_systemic_ep: 3.4
@@ -52,7 +52,7 @@ velocity:
   vlos_sigma_em: 0.5
   vlos_sigma_ep: 0.5
 flux_HI:
-  flux_HI:  750658
+  flux_HI: 750658
   flux_HI_em: 6527
   flux_HI_ep: 6527
   flux_HI_rotation_velocity: 63.0

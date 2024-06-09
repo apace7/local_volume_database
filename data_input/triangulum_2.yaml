@@ -28,7 +28,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2015
-  host: MW
+  host: mw
   name: Triangulum II
   other_name:
   - Laevens 2
@@ -43,17 +43,6 @@ proper_motion:
   pmra_em: 0.06
   pmra_ep: 0.06
   ref_proper_motion: Pace2022ApJ...940..136P
-# structure:
-#   rhalf: 3.25
-#   rhalf_em: 0.59
-#   rhalf_ep: 0.51
-#   ellipticity: 0.15
-#   ellipticity_em: 0.12
-#   ellipticity_ep: 0.10
-#   position_angle: 79
-#   position_angle_em: 38
-#   position_angle_ep: 28
-#   ref_structure: Richstein2024ApJ...967...72R
 structure:
   rhalf: 2.5
   rhalf_em: 0.3
