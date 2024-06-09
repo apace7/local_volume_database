@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 5024
   other_name:
   - M 53
+  host: mw
 proper_motion:
   pmdec: -1.3306
   pmdec_em: 0.024

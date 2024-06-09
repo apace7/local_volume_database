@@ -7,7 +7,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   discovery_year: 2015
-  host: MW
+  host: mw
   name: Kim 2
   other_name:
   - Indus I
@@ -17,7 +17,7 @@ name_discovery:
   - Bechtol2015ApJ...807...50B
   - Koposov2015ApJ...805..130K
 notes:
-  - observed mass segregation suggests this is star cluster Kim2015ApJ...803...63K
+- observed mass segregation suggests this is star cluster Kim2015ApJ...803...63K
 age:
   age: 11.5
   age_em: 3.5
@@ -68,4 +68,3 @@ structure_sersic:
   rad_sersic_em: 0.45
   rad_sersic_ep: 0.45
   ref_structure_sersic: Munoz2018ApJ...860...66M
-

@@ -7,12 +7,13 @@ name_discovery:
   confirmed_star_cluster: 1
   discovery_year: 1955
   name: Palomar 3
-  other_name: 
+  other_name:
   - Sextans C
   - UGC 05439
   ref_discovery:
   - Abell1955PASP...67..258A
   - Wilson1955PASP...67...27W
+  host: mw
 notes:
 - discovered by A. G. Wilson Abell1955PASP...67..258A
 age:

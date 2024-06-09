@@ -1,15 +1,23 @@
+key: bliss_1
+table: gc_ufsc
+location:
+  ra: 177.51
+  dec: -41.772
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 0
+  discovery_year: 2019
+  host: mw
+  name: BLISS 1
+  other_name:
+  - BLISS J0321+0438
+  ref_discovery:
+  - Mau2019ApJ...875..154M  
 distance:
-  distance: 23.7
-  distance_em: 1.0
-  distance_ep: 1.9
   distance_modulus: 16.87
   distance_modulus_em: 0.13
   distance_modulus_ep: 0.2
   ref_distance: Mau2019ApJ...875..154M
-key: bliss_1
-location:
-  dec: -41.772
-  ra: 177.51
 m_v:
   apparent_magnitude_v: 16.87
   apparent_magnitude_v_em: 0.7
@@ -18,23 +26,13 @@ m_v:
 metallicity_photometric:
   metallicity_photometric: -1.4
   ref_metallicity_photometric: Mau2019ApJ...875..154M
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 0
-  discovery_year: 2019
-  host: MW
-  name: BLISS 1
-  other_name:
-  - BLISS J0321+0438
-  ref_discovery:
-  - Mau2019ApJ...875..154M
 proper_motion:
-  pmdec: 0.138
-  pmdec_em: 0.038
-  pmdec_ep: 0.038
   pmra: -2.34
   pmra_em: 0.042
   pmra_ep: 0.042
+  pmdec: 0.138
+  pmdec_em: 0.038
+  pmdec_ep: 0.038
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ellipticity: 0.06
@@ -45,4 +43,4 @@ structure:
   rhalf: 0.6
   rhalf_em: 0.14
   rhalf_ep: 0.19
-table: gc_ufsc
+  

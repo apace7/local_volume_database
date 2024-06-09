@@ -19,7 +19,7 @@ name_discovery:
   confirmed_real: 0
   confirmed_star_cluster: 0
   discovery_year: 2023
-  host: MW
+  host: mw
   name: DELVE 6
   ref_discovery:
   - Cerny2023ApJ...953L..21C

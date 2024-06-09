@@ -12,6 +12,7 @@ name_discovery:
   - ESO 520-21
   ref_discovery:
   - Abell1955PASP...67..258A
+  host: mw
 age:
   age: 12.5
   age_em: 0.9

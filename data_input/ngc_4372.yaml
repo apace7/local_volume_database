@@ -27,6 +27,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 4372
+  host: mw
 proper_motion:
   pmdec: 3.2975
   pmdec_em: 0.0238

@@ -7,7 +7,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
   discovery_year: 2007
-  host: MW
+  host: mw
   name: Koposov 1
   ref_discovery:
   - Koposov2007ApJ...669..337K
@@ -55,4 +55,3 @@ structure_sersic:
   rad_sersic_em: 0.18
   rad_sersic_ep: 0.18
   ref_structure_sersic: Munoz2018ApJ...860...66M
-

@@ -24,6 +24,7 @@ name_discovery:
   name: NGC 6380
   other_name:
   - Ton 1
+  host: mw
 proper_motion:
   pmdec: -3.2326
   pmdec_em: 0.0302

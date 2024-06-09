@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 6273
   other_name:
   - M 19
+  host: mw
 proper_motion:
   pmdec: 1.6604
   pmdec_em: 0.0251

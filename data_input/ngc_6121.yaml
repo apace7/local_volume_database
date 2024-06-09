@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 6121
   other_name:
   - M 4
+  host: mw
 proper_motion:
   pmdec: -19.022
   pmdec_em: 0.0227

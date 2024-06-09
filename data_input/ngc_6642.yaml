@@ -26,6 +26,7 @@ name_discovery:
   name: NGC 6642
   other_name:
   - MWSC 2941
+  host: mw
 proper_motion:
   pmdec: -3.8922
   pmdec_em: 0.03

@@ -1,6 +1,5 @@
 key: koposov_2
 table: gc_ufsc
-
 location:
   ra: 119.5715
   dec: 26.2574
@@ -8,7 +7,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
   discovery_year: 2007
-  host: MW
+  host: mw
   name: Koposov 2
   ref_discovery:
   - Koposov2007ApJ...669..337K

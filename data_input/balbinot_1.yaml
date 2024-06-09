@@ -7,7 +7,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
   discovery_year: 2013
-  host: MW
+  host: mw
   name: Balbinot 1
   ref_discovery:
   - Balbinot2013ApJ...767..101B
@@ -55,4 +55,3 @@ structure_sersic:
   rad_sersic_em: 0.11
   rad_sersic_ep: 0.11
   ref_structure_sersic: Munoz2018ApJ...860...66M
-

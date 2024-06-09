@@ -1,35 +1,33 @@
 key: kronberger_49
 table: gc_disk
 location:
-  ra: 272.600  # [deg]
-  dec: -23.340 # [deg]
+  ra: 272.6
+  dec: -23.34
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
   discovery_year: 2005
-  host: MW
+  host: mw
   name: Kronberger 49
   other_name:
   - DSH J1810.3-2320
   ref_discovery:
   - Kronberger2006A&A...447..921K
 notes:
-  - classify as globular cluster Garro2022A&A...658A.120G
+- classify as globular cluster Garro2022A&A...658A.120G
 distance:
-  distance_modulus: 14.61 
+  distance_modulus: 14.61
   distance_modulus_em: 0.04
   distance_modulus_ep: 0.04
   ref_distance: Garro2022A&A...658A.120G
 m_v:
   apparent_magnitude_v: 7.91
-  # apparent_magnitude_v_em: 0
-  # apparent_magnitude_v_ep: 0
   ref_m_v: Garro2022A&A...658A.120G
 proper_motion:
-  pmra: -2.84 # [mas/yr]
+  pmra: -2.84
   pmra_em: 0.69
   pmra_ep: 0.69
-  pmdec: -5.52 # [mas/yr]
+  pmdec: -5.52
   pmdec_em: 0.71
   pmdec_ep: 0.71
   ref_proper_motion: Garro2022A&A...658A.120G
@@ -39,7 +37,7 @@ metallicity_photometric:
   metallicity_photometric_ep: 0.2
   ref_metallicity_photometric: Garro2022A&A...658A.120G
 age:
-  age: 11 ## [Gyr]
+  age: 11
   age_em: 2
   age_ep: 2
   ref_age: Garro2022A&A...658A.120G

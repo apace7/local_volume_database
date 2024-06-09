@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 6254
   other_name:
   - M 10
+  host: mw
 proper_motion:
   pmdec: -6.5968
   pmdec_em: 0.0236

@@ -31,6 +31,7 @@ name_discovery:
   ref_discovery:
   - Herschel1786RSPT...76..457H
   discovery_year: 1786
+  host: mw
 proper_motion:
   pmdec: -0.6329
   pmdec_em: 0.027

@@ -10,6 +10,7 @@ name_discovery:
   name: Palomar 5
   ref_discovery:
   - Abell1955PASP...67..258A
+  host: mw
 notes:
 - independently discovered by Baade and Wilson Abell1955PASP...67..258A
 age:

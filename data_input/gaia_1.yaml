@@ -28,7 +28,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   discovery_year: 2017
-  host: MW
+  host: mw
   name: Gaia 1
   ref_discovery:
   - Koposov2017MNRAS.470.2702K

@@ -7,7 +7,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2023
-  host: LF
+  host: local_field
   name: Leo K
   ref_discovery:
   - McQuinn2024ApJ...967..161M
@@ -38,5 +38,3 @@ structure:
   position_angle_em: 12
   position_angle_ep: 16
   ref_structure: McQuinn2024ApJ...967..161M
- 
-

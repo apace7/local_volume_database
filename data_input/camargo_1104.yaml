@@ -1,19 +1,19 @@
 key: camargo_1104
 table: gc_disk
 location:
-  ra: 271.309  # [deg]
-  dec: -24.979 # [deg]
+  ra: 271.309
+  dec: -24.979
 name_discovery:
   confirmed_star_cluster: 0
   confirmed_real: 0
   false_positive: 0
   discovery_year: 2018
-  host: MW
+  host: mw
   name: Camargo 1104
   ref_discovery:
   - Camargo2018ApJ...860L..27C
 distance:
-  distance_modulus: 13.66 
+  distance_modulus: 13.66
   distance_modulus_em: 0.44
   distance_modulus_ep: 0.37
   ref_distance: Camargo2018ApJ...860L..27C
@@ -28,7 +28,7 @@ metallicity_photometric:
   metallicity_photometric_ep: 0.3
   ref_metallicity_photometric: Camargo2018ApJ...860L..27C
 age:
-  age: 13.5 ## [Gyr]
+  age: 13.5
   age_em: 0.5
   age_ep: 0.5
   ref_age: Camargo2018ApJ...860L..27C

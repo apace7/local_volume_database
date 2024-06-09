@@ -22,6 +22,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 6139
+  host: mw
 proper_motion:
   pmdec: -2.7112
   pmdec_em: 0.0262

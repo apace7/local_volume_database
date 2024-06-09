@@ -29,7 +29,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
   discovery_year: 2021
-  host: MW
+  host: mw
   name: YMCA-1
   ref_discovery:
   - Gatto2021RNAAS...5..159G

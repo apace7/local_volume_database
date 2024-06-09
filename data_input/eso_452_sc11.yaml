@@ -25,6 +25,7 @@ name_discovery:
   name: ESO 452-SC11
   ref_discovery:
   - Lauberts1981A&AS...43..307L
+  host: mw
 proper_motion:
   pmdec: -6.472
   pmdec_em: 0.0303

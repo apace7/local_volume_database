@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 4590
   other_name:
   - M 68
+  host: mw
 proper_motion:
   pmdec: 1.7786
   pmdec_em: 0.0239

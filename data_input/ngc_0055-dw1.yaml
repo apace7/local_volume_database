@@ -27,8 +27,8 @@ metallicity_photometric:
   metallicity_photometric: -1.8
   ref_metallicity_photometric: McNanna2024ApJ...961..126M
 structure:
-  rhalf: 05.2
-  rhalf_em: .8
+  rhalf: 5.2
+  rhalf_em: 0.8
   rhalf_ep: 1.2
   ellipticity: 0.56
   ellipticity_em: 0.12

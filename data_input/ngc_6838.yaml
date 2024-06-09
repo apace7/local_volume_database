@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 6838
   other_name:
   - M 71
+  host: mw
 proper_motion:
   pmdec: -2.6559
   pmdec_em: 0.0244

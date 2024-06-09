@@ -12,6 +12,7 @@ name_discovery:
   - AvdB
   ref_discovery:
   - Arp1960PASP...72...48A
+  host: mw
 age:
   age: 10.5
   age_em: 0.56

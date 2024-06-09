@@ -9,9 +9,10 @@ name_discovery:
   discovery_year: 1961
   name: Rup 106
   other_name:
-  - Ruprecht 106 
+  - Ruprecht 106
   ref_discovery:
   - Alter1961BAICz..12.....A
+  host: mw
 age:
   age: 10.85
   age_em: 0.74

@@ -30,6 +30,7 @@ name_discovery:
   other_name:
   - omega Cen
   - Caldwell 80
+  host: mw
 proper_motion:
   pmdec: -6.7463
   pmdec_em: 0.0216

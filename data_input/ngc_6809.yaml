@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 6809
   other_name:
   - M 55
+  host: mw
 proper_motion:
   pmdec: -9.311
   pmdec_em: 0.0237

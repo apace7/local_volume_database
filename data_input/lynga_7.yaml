@@ -29,6 +29,7 @@ name_discovery:
   name: Lynga 7
   other_name:
   - BH 184
+  host: mw
 proper_motion:
   pmdec: -7.0495
   pmdec_em: 0.0271

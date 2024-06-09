@@ -11,7 +11,8 @@ name_discovery:
   other_name:
   - UGC 10642
   ref_discovery:
-  - Zwicky1959_hand 
+  - Zwicky1959_hand
+  host: mw
 age:
   age: 13.0
   age_em: 1.5

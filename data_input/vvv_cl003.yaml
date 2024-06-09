@@ -1,23 +1,23 @@
 key: vvv_cl003
 table: gc_disk
 location:
-  ra: 264.728  # [deg]
-  dec: -29.907 # [deg]
+  ra: 264.728
+  dec: -29.907
 name_discovery:
   confirmed_star_cluster: 0
   confirmed_real: 0
   discovery_year: 2011
-  host: MW
+  host: mw
   name: VVV-CL003
   ref_discovery:
   - MoniBidin2011A&A...535A..33M
 structure:
-  rhalf: 0.6 # [arcmin]
+  rhalf: 0.6
   rhalf_em: 0.1
   rhalf_ep: 0.1
   ref_structure: MoniBidin2011A&A...535A..33M
 distance:
-  distance_modulus: 15.60 
+  distance_modulus: 15.6
   distance_modulus_em: 0.14
   distance_modulus_ep: 0.13
   ref_distance: Minniti2021A&A...648A..86M
@@ -25,10 +25,10 @@ m_v:
   apparent_magnitude_v: 8.78
   ref_m_v: Minniti2021A&A...648A..86M
 proper_motion:
-  pmra: -1.93 # [mas/yr]
+  pmra: -1.93
   pmra_em: 0.05
   pmra_ep: 0.05
-  pmdec: 8.33 # [mas/yr]
+  pmdec: 8.33
   pmdec_em: 0.05
   pmdec_ep: 0.05
   ref_proper_motion: Minniti2021A&A...648A..86M
@@ -38,10 +38,8 @@ metallicity_photometric:
   metallicity_photometric_ep: 0.2
   ref_metallicity_photometric: MoniBidin2011A&A...535A..33M
 structure_king:
-  rcore: 0.5 # [arcmin]
-  # rcore_em: 0
-  # rcore_ep: 0
-  rking: 1.8 # [arcmin]
+  rcore: 0.5
+  rking: 1.8
   rking_em: 0.1
   rking_ep: 0.1
   ref_structure_king: MoniBidin2011A&A...535A..33M

@@ -22,6 +22,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 6749
+  host: mw
 proper_motion:
   pmdec: -6.0057
   pmdec_em: 0.0274

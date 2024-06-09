@@ -17,7 +17,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1974
-  host: LF
+  host: local_field
   name: UGCA 86
   other_name:
   - VIIZw009

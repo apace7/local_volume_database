@@ -3,10 +3,16 @@ table: dwarf_mw
 location:
   dec: -50.168
   ra: 344.166
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: mw
+  name: Grus I
+  ref_discovery:
+  - Koposov2015ApJ...805..130K
+  abbreviation: GruI
 distance:
-  distance: 127.0
-  distance_em: 6.0
-  distance_ep: 6.0
   distance_modulus: 20.51
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
@@ -25,22 +31,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.11
   metallicity_spectroscopic_sigma_ul: 0.44
   ref_metallicity_spectroscopic: Chiti2022ApJ...939...41C
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2015
-  host: mw
-  name: Grus I
-  ref_discovery:
-  - Koposov2015ApJ...805..130K
-  abbreviation: GruI
 proper_motion:
-  pmdec: -0.248
-  pmdec_em: 0.072
-  pmdec_ep: 0.071
   pmra: 0.069
   pmra_em: 0.05
   pmra_ep: 0.051
+  pmdec: -0.248
+  pmdec_em: 0.072
+  pmdec_ep: 0.071
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
   ellipticity: 0.44

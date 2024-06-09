@@ -27,6 +27,7 @@ name_discovery:
   other_name:
   - Djorg 3
   - MWSC 2804
+  host: mw
 proper_motion:
   pmdec: -2.7911
   pmdec_em: 0.0318

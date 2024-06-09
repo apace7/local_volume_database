@@ -9,6 +9,7 @@ name_discovery:
   name: NGC 6864
   other_name:
   - M 75
+  host: mw
 notes:
 - half-mass radius
 age:
@@ -50,16 +51,13 @@ structure_king:
   rcore: 4.9
   rcore_em: 0.3
   rcore_ep: 0.4
-  rking: 309.5 
+  rking: 309.5
   rking_em: 10.7
   rking_ep: 11.9
   spatial_units: arcsec
   ref_structure_king: Leanza2024arXiv240513558L
 velocity:
   ref_vlos: Leanza2024arXiv240513558L
-  # vlos_sigma: 10.3
-  # vlos_sigma_em: 1.5
-  # vlos_sigma_ep: 1.5
   vlos_systemic: -189.5
   vlos_systemic_em: 0.3
   vlos_systemic_ep: 0.3

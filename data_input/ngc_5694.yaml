@@ -31,6 +31,7 @@ name_discovery:
   name: NGC 5694
   ref_discovery:
   - Herschel1786RSPT...76..457H
+  host: mw
 notes:
 - discovered in 1784 by Herschel
 proper_motion:

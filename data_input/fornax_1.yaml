@@ -3,6 +3,19 @@ table: dwarf_mw
 location:
   dec: -34.4997
   ra: 39.9583
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1938
+  host: mw
+  name: Fornax
+  other_name:
+  - ESO 356-G04
+  - PGC 10074
+  - PGC 10093
+  ref_discovery:
+  - Shapley1938Natur.142..715S
+  abbreviation: For
 distance:
   distance_modulus: 20.77
   distance_modulus_em: 0.048
@@ -24,19 +37,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.01
   metallicity_spectroscopic_sigma_ep: 0.01
   ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1938
-  host: mw
-  name: Fornax
-  other_name:
-  - ESO 356-G04
-  - PGC 10074
-  - PGC 10093
-  ref_discovery:
-  - Shapley1938Natur.142..715S
-  abbreviation: For
 proper_motion:
   pmdec: -0.359
   pmdec_em: 0.002

@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 7078
   other_name:
   - M 15
+  host: mw
 proper_motion:
   pmdec: -3.8025
   pmdec_em: 0.0236

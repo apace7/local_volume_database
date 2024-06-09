@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 7089
   other_name:
   - M 2
+  host: mw
 proper_motion:
   pmdec: -2.1588
   pmdec_em: 0.0244

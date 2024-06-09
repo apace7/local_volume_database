@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 1904
   other_name:
   - M 79
+  host: mw
 proper_motion:
   pmdec: -1.5938
   pmdec_em: 0.0251
