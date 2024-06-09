@@ -1,3 +1,17 @@
+key: palomar_10
+table: gc_harris
+location:
+  ra: 289.508728
+  dec: 18.571667
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1955
+  name: Palomar 10
+  ref_discovery:
+  - Abell1955PASP...67..258A 
+notes:
+- discovered by A. G. Wilson Abell1955PASP...67..258A
 distance:
   distance: 8.944
   distance_em: 1.072
@@ -6,10 +20,6 @@ distance:
   distance_modulus_em: 0.277
   distance_modulus_ep: 0.293
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: palomar_10
-location:
-  dec: 18.571667
-  ra: 289.508728
 m_v:
   apparent_magnitude_v: 7.25
   apparent_magnitude_v_em: 0.03
@@ -18,10 +28,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.1
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: Palomar 10
 proper_motion:
   pmdec: -7.1728
   pmdec_em: 0.0286
@@ -33,7 +39,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.55
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -31.7

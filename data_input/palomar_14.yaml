@@ -1,3 +1,17 @@
+key: palomar_14
+table: gc_harris
+location:
+  ra: 242.7525
+  dec: 14.957778
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1960
+  name: Palomar 14
+  other_name:
+  - AvdB
+  ref_discovery:
+  - Arp1960PASP...72...48A
 age:
   age: 10.5
   age_em: 0.56
@@ -11,10 +25,6 @@ distance:
   distance_modulus_em: 0.048
   distance_modulus_ep: 0.048
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: palomar_14
-location:
-  dec: 14.957778
-  ra: 242.7525
 m_v:
   apparent_magnitude_v: 14.04
   apparent_magnitude_v_em: 0.03
@@ -23,15 +33,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.62
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 1960
-  name: Palomar 14
-  other_name:
-  - AvdB
-  ref_discovery:
-  - Arp1960PASP...72...48A
 proper_motion:
   pmdec: -0.4132
   pmdec_em: 0.0378
@@ -51,7 +52,6 @@ structure_sersic:
   rad_sersic_em: 0.06
   rad_sersic_ep: 0.06
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_sigma: 0.4

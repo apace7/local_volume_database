@@ -24,7 +24,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
   discovery_year: 2012
-  host: MW
+  host: mw
   name: Munoz 1
   ref_discovery:
   - Munoz2012ApJ...753L..15M

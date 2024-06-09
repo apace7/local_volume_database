@@ -1,0 +1,34 @@
+key: ngc_0205_hubble_4
+table: gc_dwarf_hosted
+location:
+  ra: 10.10206759447569  # [deg]
+  dec: 41.67292997416157 # [deg]
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 1932
+  host: ngc_0205
+  name: NGC 205-Hubble IV
+  other_name:
+  - Hubble IV
+  ref_discovery:
+  - Hubble1932ApJ....76...44H
+  type: GC
+notes:
+  - ra dec coordinates are converted from B1950 to J2000 and there are likely astrometry errors Battistini1987A&AS...67..447B
+distance:
+  distance_fixed_host: True 
+m_v:
+  apparent_magnitude_v: 18.52
+  ref_m_v: Battistini1987A&AS...67..447B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.6
+  metallicity_spectroscopic_em: 0.15
+  metallicity_spectroscopic_ep: 0.15
+  ref_metallicity_spectroscopic: DaCosta1988ApJ...334..159D
+velocity:
+  vlos_systemic: -302
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  vlos_sigma: 6.8
+  ref_vlos: Larsen2022A&A...660A..88L 
