@@ -1,8 +1,20 @@
 key: palomar_04
 table: gc_harris
 location:
-  dec: 28.973373
   ra: 172.318329
+  dec: 28.973373
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1955
+  name: Palomar 4
+  other_name:
+  - UGCA 237
+  ref_discovery:
+  - Abell1955PASP...67..258A
+  - Wilson1955PASP...67...27W
+notes:
+- independently discovered by Hubble and Wilson Abell1955PASP...67..258A
 age:
   age: 10.2
   age_em: 0.84
@@ -24,16 +36,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.41
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 1955
-  name: Palomar 4
-  other_name:
-  - UGCA 237
-  ref_discovery:
-  - Abell1955PASP...67..258A
-  - Wilson1955PASP...67...27W
 proper_motion:
   pmdec: -0.4761
   pmdec_em: 0.0409

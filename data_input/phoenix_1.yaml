@@ -1,7 +1,21 @@
+key: phoenix_1
+table: dwarf_local_field
+location:
+  ra: 27.775
+  dec: -44.445
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1976
+  host: LF
+  name: Phoenix
+  ref_discovery:
+  - Schuster1976A&A....49..129S
+  - Canterna1977ApJ...212L..57C
+  type: dIrr/dSph
+notes:
+- there are 4 GC candidates from Canterna1977ApJ...212L..57C and MartinezDelgado1999AJ....118..862M but ra/dec coordinates are not in the literature
 distance:
-  distance: 409.0
-  distance_em: 23.0
-  distance_ep: 23.0
   distance_modulus: 23.06
   distance_modulus_em: 0.12
   distance_modulus_ep: 0.21
@@ -11,10 +25,6 @@ flux_HI:
   flux_HI_em: 0.1
   flux_HI_ep: 0.1
   ref_flux_HI: Young2007ApJ...659..331Y
-key: phoenix_1
-location:
-  dec: -44.445
-  ra: 27.775
 m_v:
   apparent_magnitude_v: 13.19
   apparent_magnitude_v_em: 0.4
@@ -28,34 +38,25 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.04
   metallicity_spectroscopic_sigma_ep: 0.04
   ref_metallicity_spectroscopic: Kacharov2017MNRAS.466.2006K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1976
-  host: LF
-  name: Phoenix
-  ref_discovery:
-  - Schuster1976A&A....49..129S
-  - Canterna1977ApJ...212L..57C
 proper_motion:
-  pmdec: -0.06
-  pmdec_em: 0.04
-  pmdec_ep: 0.04
   pmra: 0.07
   pmra_em: 0.03
   pmra_ep: 0.03
+  pmdec: -0.06
+  pmdec_em: 0.04
+  pmdec_ep: 0.04
   ref_proper_motion: Battaglia2022A&A...657A..54B
 structure:
+  rhalf: 2.43
+  rhalf_em: 0.02
+  rhalf_ep: 0.02
   ellipticity: 0.3
   ellipticity_em: 0.03
   ellipticity_ep: 0.03
   position_angle: 8.0
   position_angle_em: 4.0
   position_angle_ep: 4.0
-  ref_structure: Battaglia2012MNRAS.424.1113B
-  rhalf: 2.43
-  rhalf_em: 0.02
-  rhalf_ep: 0.02
+  ref_structure: Battaglia2012MNRAS.424.1113B~
 structure_king:
   rcore: 1.79
   rcore_em: 0.04
@@ -72,7 +73,6 @@ structure_sersic:
   rad_sersic_em: 0.06
   rad_sersic_ep: 0.06
   ref_structure_sersic: Battaglia2012MNRAS.424.1113B
-table: dwarf_local_field
 velocity:
   ref_vlos: Kacharov2017MNRAS.466.2006K
   vlos_sigma: 9.3

@@ -3,6 +3,19 @@ table: gc_harris
 location:
   dec: 12.771539
   ra: 346.68519
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1955
+  name: Palomar 13
+  other_name:
+  - UGCA 435
+  ref_discovery:
+  - Wilson1955PASP...67...27W
+  - Abell1955PASP...67..258A
+notes:
+- the mean velocity reference is Baumgardt2018MNRAS.478.1520B and the velocity dispersion reference is Bradford2011ApJ...743..167B
+- discovered by A. G. Wilson Abell1955PASP...67..258A
 distance:
   distance: 23.475
   distance_em: 0.397
@@ -21,17 +34,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.1
   metallicity_spectroscopic_ep: 0.1
   ref_metallicity_spectroscopic: Bradford2011ApJ...743..167B
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 1955
-  name: Palomar 13
-  other_name:
-  - UGCA 435
-  ref_discovery:
-  - Wilson1955PASP...67...27W
-notes:
-- the mean velocity reference is Baumgardt2018MNRAS.478.1520B and the velocity dispersion reference is Bradford2011ApJ...743..167B
 proper_motion:
   pmdec: 0.1038
   pmdec_em: 0.0473

@@ -1,3 +1,18 @@
+key: palomar_12
+table: gc_harris
+location:
+  ra: 326.661804
+  dec: -21.252611
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1955
+  host: sagittarius_1
+  name: Palomar 12
+  ref_discovery:
+  - Abell1955PASP...67..258A
+notes:
+- discovered by Harrington and Zwicky Abell1955PASP...67..258A
 age:
   age: 9.11
   age_em: 0.57
@@ -11,10 +26,6 @@ distance:
   distance_modulus_em: 0.035
   distance_modulus_ep: 0.035
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: palomar_12
-location:
-  dec: -21.252611
-  ra: 326.661804
 m_v:
   apparent_magnitude_v: 11.93
   apparent_magnitude_v_em: 0.04
@@ -23,11 +34,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.85
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  host: sagittarius_1
-  name: Palomar 12
 proper_motion:
   pmdec: -3.3335
   pmdec_em: 0.028
@@ -39,7 +45,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.31
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 27.91

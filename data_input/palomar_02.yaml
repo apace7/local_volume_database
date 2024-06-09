@@ -3,6 +3,16 @@ table: gc_harris
 location:
   dec: 31.3815
   ra: 71.52462
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1955
+  name: Palomar 2
+  ref_discovery:
+  - Abell1955PASP...67..258A
+  - Wilson1955PASP...67...27W
+notes:
+- discovered by A. G. Wilson Abell1955PASP...67..258A
 distance:
   distance: 26.174
   distance_em: 1.253
@@ -19,14 +29,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.42
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 1955
-  name: Palomar 2
-  ref_discovery:
-  - Abell1955PASP...67..258A
-  - Wilson1955PASP...67...27W
 proper_motion:
   pmdec: -1.5218
   pmdec_em: 0.0312

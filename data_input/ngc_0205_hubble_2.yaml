@@ -1,0 +1,37 @@
+key: ngc_0205_hubble_2
+table: gc_dwarf_hosted
+location:
+  ra: 10.13283333333333  # [deg]
+  dec: 41.65472222222222 # [deg]
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 1932
+  host: ngc_0205
+  name: NGC 205-Hubble II
+  other_name:
+  - Hubble II
+  ref_discovery:
+  - Hubble1932ApJ....76...44H
+  type: GC
+distance:
+  distance_fixed_host: True 
+m_v:
+  apparent_magnitude_v: 16.73
+  ref_m_v: Battistini1987A&AS...67..447B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.348
+  metallicity_spectroscopic_em: 0.011
+  metallicity_spectroscopic_ep: 0.011
+  ref_metallicity_spectroscopic: Larsen2022A&A...660A..88L 
+velocity:
+  vlos_systemic: -241
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  vlos_sigma: 7.8
+  ref_vlos: Larsen2022A&A...660A..88L 
+age:
+  age: 10 ## [Gyr]
+  age_em: 2
+  age_ep: 2
+  ref_age: Sharina2006MNRAS.372.1259S

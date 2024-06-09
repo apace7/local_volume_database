@@ -1,0 +1,47 @@
+key: ngc_0205_nsc
+table: gc_dwarf_hosted
+location:
+  ra: 10.092083333333331 
+  dec: 41.68530555555555
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  # discovery_year: 1932
+  host: ngc_0205
+  name: NGC 205-NSC
+  # other_name:
+  # - 
+  # ref_discovery:
+  # - Hubble1932ApJ....76...44H
+  type: NSC
+notes:
+  - possible M31 GC vandenBergh1969ApJS...19..145V
+  - ra dec coordinates are set to center of NGC 205 from Hannah2021AJ....162..281H
+structure:
+  rhalf:  0.95 
+  rhalf_em: 0.02
+  rhalf_ep: 0.02
+  spatial_units: arcsec
+  ref_structure: Butler2005AJ....129.2217B
+distance:
+  distance_fixed_host: True 
+m_v:
+  apparent_magnitude_v:  14.49
+  apparent_magnitude_v_em: 0.04
+  apparent_magnitude_v_ep: 0.04
+  ref_m_v: Butler2005AJ....129.2217B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.05
+  metallicity_spectroscopic_em: 0.10
+  metallicity_spectroscopic_ep: 0.10
+  ref_metallicity_spectroscopic: DaCosta1988ApJ...334..159D
+velocity:
+  vlos_systemic: 345
+  vlos_systemic_em: 9
+  vlos_systemic_ep: 9
+  ref_vlos: DaCosta1988ApJ...334..159D
+# age:
+#   age: 0 ## [Gyr]
+#   age_em: 0
+#   age_ep: 0
+#   ref_age: ref

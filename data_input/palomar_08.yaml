@@ -1,3 +1,15 @@
+key: palomar_08
+table: gc_harris
+location:
+  ra: 280.37729
+  dec: -19.828858
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1955
+  name: Palomar 8
+  ref_discovery:
+  - Abell1955PASP...67..258A 
 distance:
   distance: 11.316
   distance_em: 0.611
@@ -6,10 +18,6 @@ distance:
   distance_modulus_em: 0.121
   distance_modulus_ep: 0.122
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: palomar_08
-location:
-  dec: -19.828858
-  ra: 280.37729
 m_v:
   apparent_magnitude_v: 9.12
   apparent_magnitude_v_em: 0.1
@@ -18,10 +26,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.37
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: Palomar 8
 proper_motion:
   pmdec: -5.6935
   pmdec_em: 0.0267
@@ -33,7 +37,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.05
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -31.54
