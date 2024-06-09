@@ -7,7 +7,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
   discovery_year: 2015
-  host: MW
+  host: mw
   name: DES 1
   ref_discovery:
   - Luque2016MNRAS.458..603L
@@ -53,4 +53,3 @@ structure_king:
   rking: 2.114
   rking_em: 0.707
   rking_ep: 0.729
-

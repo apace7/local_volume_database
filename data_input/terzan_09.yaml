@@ -30,6 +30,7 @@ name_discovery:
   - MWSC 2778
   ref_discovery:
   - Terzan1971A&A....12..477T
+  host: mw
 proper_motion:
   pmdec: -7.7633
   pmdec_em: 0.0485

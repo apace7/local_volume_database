@@ -32,6 +32,7 @@ name_discovery:
   - E 1
   ref_discovery:
   - Lauberts1976A&A....52..309L
+  host: mw
 proper_motion:
   pmdec: -0.1772
   pmdec_em: 0.0859

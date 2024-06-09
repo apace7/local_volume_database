@@ -7,14 +7,15 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1976
-  host: LF
+  host: local_field
   name: Phoenix
   ref_discovery:
   - Schuster1976A&A....49..129S
   - Canterna1977ApJ...212L..57C
   type: dIrr/dSph
 notes:
-- there are 4 GC candidates from Canterna1977ApJ...212L..57C and MartinezDelgado1999AJ....118..862M but ra/dec coordinates are not in the literature
+- there are 4 GC candidates from Canterna1977ApJ...212L..57C and MartinezDelgado1999AJ....118..862M
+  but ra/dec coordinates are not in the literature
 distance:
   distance_modulus: 23.06
   distance_modulus_em: 0.12

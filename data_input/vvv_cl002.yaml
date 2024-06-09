@@ -7,7 +7,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   discovery_year: 2011
-  host: MW
+  host: mw
   name: VVV-CL002
   ref_discovery:
   - MoniBidin2011A&A...535A..33M
@@ -20,8 +20,6 @@ distance:
   ref_distance: Minniti2021A&A...648A..86M
 m_v:
   apparent_magnitude_v: 10.06
-  # apparent_magnitude_v_em: 0.3
-  # apparent_magnitude_v_ep: 0.3
   ref_m_v: Minniti2021A&A...648A..86M
 metallicity_photometric:
   metallicity_photometric: -0.4

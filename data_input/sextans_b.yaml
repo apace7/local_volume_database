@@ -13,13 +13,12 @@ flux_HI:
   flux_HI_em: 2.09
   flux_HI_ep: 2.09
   ref_flux_HI: Putman2021ApJ...913...53P
-  vlos_systemic_HI: 304.0 #[km/s]
+  vlos_systemic_HI: 304.0
   vlos_systemic_HI_em: 1.0
   vlos_systemic_HI_ep: 1.0
-  sigma_HI: 19.2 
-  vrot_HI: 19.1 
-  ref_flux_HI: Putman2021ApJ...913...53P
-  ref_HI_kinematics: Hoffman1996ApJS..105..269H 
+  sigma_HI: 19.2
+  vrot_HI: 19.1
+  ref_HI_kinematics: Hoffman1996ApJS..105..269H
 m_v:
   apparent_magnitude_v: 11.3
   apparent_magnitude_v_em: 0.2
@@ -29,7 +28,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1958
-  host: LF
+  host: local_field
   name: Sextans B
   other_name:
   - UGC 5373

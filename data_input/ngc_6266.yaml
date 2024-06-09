@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 6266
   other_name:
   - M 62
+  host: mw
 proper_motion:
   pmdec: -2.9467
   pmdec_em: 0.0263

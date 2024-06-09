@@ -24,6 +24,7 @@ name_discovery:
   name: IC 1276
   other_name:
   - Palomar 7
+  host: mw
 proper_motion:
   pmdec: -4.5676
   pmdec_em: 0.0257

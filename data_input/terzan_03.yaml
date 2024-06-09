@@ -25,6 +25,7 @@ name_discovery:
   name: Terzan 3
   ref_discovery:
   - Terzan1968CRASB.267.1245T
+  host: mw
 proper_motion:
   pmdec: -1.7597
   pmdec_em: 0.0261

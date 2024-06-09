@@ -31,6 +31,7 @@ name_discovery:
   - Tonantzintla 2
   ref_discovery:
   - Pismis1959BOTT....2r..37P
+  host: mw
 proper_motion:
   pmdec: -0.7551
   pmdec_em: 0.0294

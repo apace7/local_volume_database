@@ -9,7 +9,8 @@ name_discovery:
   discovery_year: 1955
   name: Palomar 8
   ref_discovery:
-  - Abell1955PASP...67..258A 
+  - Abell1955PASP...67..258A
+  host: mw
 distance:
   distance: 11.316
   distance_em: 0.611

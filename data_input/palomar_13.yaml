@@ -13,8 +13,10 @@ name_discovery:
   ref_discovery:
   - Wilson1955PASP...67...27W
   - Abell1955PASP...67..258A
+  host: mw
 notes:
-- the mean velocity reference is Baumgardt2018MNRAS.478.1520B and the velocity dispersion reference is Bradford2011ApJ...743..167B
+- the mean velocity reference is Baumgardt2018MNRAS.478.1520B and the velocity dispersion
+  reference is Bradford2011ApJ...743..167B
 - discovered by A. G. Wilson Abell1955PASP...67..258A
 distance:
   distance: 23.475

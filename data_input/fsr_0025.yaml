@@ -7,7 +7,7 @@ name_discovery:
   confirmed_real: 0
   confirmed_star_cluster: 0
   discovery_year: 2006
-  host: MW
+  host: mw
   name: FSR 25
   ref_discovery:
   - Froebrich2007MNRAS.374..399F
@@ -51,4 +51,3 @@ structure_king:
   rking: 3.27
   rking_em: 0.85
   rking_ep: 0.85
-

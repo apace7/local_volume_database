@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 6779
   other_name:
   - M 56
+  host: mw
 proper_motion:
   pmdec: 1.6176
   pmdec_em: 0.0252

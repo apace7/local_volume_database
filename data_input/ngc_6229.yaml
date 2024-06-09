@@ -26,6 +26,7 @@ name_discovery:
   name: NGC 6229
   ref_discovery:
   - Herschel1789RSPT...79..212H
+  host: mw
 notes:
 - discovered by Herschel in 1787
 proper_motion:

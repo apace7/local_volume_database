@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 6656
   other_name:
   - M 22
+  host: mw
 proper_motion:
   pmdec: -5.6175
   pmdec_em: 0.0232

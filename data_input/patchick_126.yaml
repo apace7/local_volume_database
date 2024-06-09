@@ -23,10 +23,10 @@ metallicity_photometric:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
-  host: MW
+  host: mw
   name: Patchick 126
 notes:
-  - classify as globular cluster Garro2022A&A...659A.155G
+- classify as globular cluster Garro2022A&A...659A.155G
 proper_motion:
   pmdec: -6.68
   pmdec_em: 0.62

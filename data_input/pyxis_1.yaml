@@ -34,6 +34,7 @@ name_discovery:
   - Weinberger1995PASP..107...58W
   - DaCosta1995PASP..107..937D
   - Irwin1995ApJ...453L..21I
+  host: mw
 proper_motion:
   pmdec: 0.1378
   pmdec_em: 0.0347

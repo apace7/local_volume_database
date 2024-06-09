@@ -25,6 +25,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: ESO 280-SC06
+  host: mw
 proper_motion:
   pmdec: -2.7775
   pmdec_em: 0.0332

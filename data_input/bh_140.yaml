@@ -16,7 +16,7 @@ m_v:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
-  host: MW
+  host: mw
   name: BH 140
   ref_discovery:
   - CantatGaudin2018A&A...618A..93C

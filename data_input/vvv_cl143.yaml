@@ -1,34 +1,32 @@
 key: vvv_cl143
 table: gc_disk
 location:
-  ra:  266.150 # [deg]
-  dec: -33.738  # [deg]
+  ra: 266.15
+  dec: -33.738
 name_discovery:
   confirmed_star_cluster: 0
   confirmed_real: 0
   discovery_year: 2014
-  host: MW
+  host: mw
   name: VVV-CL143
   ref_discovery:
   - Borissova2014A&A...569A..24B
 notes:
-  - classify old open cluster or young globular cluster Borissova2014A&A...569A..24B
-  - classify as globular cluster Garro2022A&A...658A.120G
+- classify old open cluster or young globular cluster Borissova2014A&A...569A..24B
+- classify as globular cluster Garro2022A&A...658A.120G
 distance:
-  distance_modulus: 14.74 
+  distance_modulus: 14.74
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.05
   ref_distance: Garro2022A&A...658A.120G
 m_v:
   apparent_magnitude_v: 8.84
-  # apparent_magnitude_v_em: 0
-  # apparent_magnitude_v_ep: 0
   ref_m_v: Garro2022A&A...658A.120G
 proper_motion:
-  pmra: -3.18 # [mas/yr]
+  pmra: -3.18
   pmra_em: 0.91
   pmra_ep: 0.91
-  pmdec: -6.17 # [mas/yr]
+  pmdec: -6.17
   pmdec_em: 0.85
   pmdec_ep: 0.85
   ref_proper_motion: Garro2022A&A...658A.120G
@@ -38,12 +36,12 @@ metallicity_photometric:
   metallicity_photometric_ep: 0.2
   ref_metallicity_photometric: Garro2022A&A...658A.120G
 velocity:
-  vlos_systemic: 86 # [km/s]
+  vlos_systemic: 86
   vlos_systemic_em: 26
   vlos_systemic_ep: 26
-  ref_vlos: Borissova2014A&A...569A..24B 
+  ref_vlos: Borissova2014A&A...569A..24B
 age:
-  age: 10 ## [Gyr]
+  age: 10
   age_em: 3
   age_ep: 3
   ref_age: Garro2022A&A...658A.120G

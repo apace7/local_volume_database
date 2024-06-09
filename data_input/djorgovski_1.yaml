@@ -27,6 +27,7 @@ name_discovery:
   - Djorg 1
   ref_discovery:
   - Djorgovski1987ApJ...317L..13D
+  host: mw
 proper_motion:
   pmdec: -8.4678
   pmdec_em: 0.0411

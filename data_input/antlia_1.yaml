@@ -1,8 +1,8 @@
 distance:
-  distance_modulus: 25.60
+  distance_modulus: 25.6
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
-  ref_distance: Newman2024ApJ...966..175N 
+  ref_distance: Newman2024ApJ...966..175N
 flux_HI:
   flux_HI: 1.7
   flux_HI_em: 0.16
@@ -26,7 +26,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1997
-  host: LF
+  host: local_field
   name: Antlia
   ref_discovery:
   - Whiting1997AJ....114..996W

@@ -7,7 +7,7 @@ name_discovery:
   confirmed_real: 0
   confirmed_star_cluster: 0
   discovery_year: 2022
-  host: MW
+  host: mw
   name: Garro 2
   ref_discovery:
   - Garro2022A&A...662A..95G
@@ -62,4 +62,3 @@ structure_king:
   rking: 7.13
   rking_em: 3.83
   rking_ep: 3.83
-

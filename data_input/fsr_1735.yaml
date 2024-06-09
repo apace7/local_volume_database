@@ -24,6 +24,7 @@ name_discovery:
   - 2MASS GC-03
   ref_discovery:
   - Froebrich2007MNRAS.374..399F
+  host: mw
 proper_motion:
   pmdec: -1.5341
   pmdec_em: 0.0476

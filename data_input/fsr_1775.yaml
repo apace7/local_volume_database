@@ -1,48 +1,44 @@
 key: fsr_1775
 table: gc_disk
 location:
-  ra:  269.022 # [deg]
-  dec: -36.566 # [deg]
+  ra: 269.022
+  dec: -36.566
 name_discovery:
-  # confirmed_dwarf: 0
   confirmed_star_cluster: 0
   confirmed_real: 0
-  # false_positive: 0
   discovery_year: 2006
-  host: MW
+  host: mw
   name: FSR 1775
   other_name:
   - MWSC 2750
   ref_discovery:
   - Froebrich2007MNRAS.374..399F
 notes:
-  - possible open cluster Buckner2013MNRAS.436.1465B
-  - classify as globular cluster Garro2022A&A...658A.120G
+- possible open cluster Buckner2013MNRAS.436.1465B
+- classify as globular cluster Garro2022A&A...658A.120G
 distance:
-  distance_modulus: 14.75 
+  distance_modulus: 14.75
   distance_modulus_em: 0.02
   distance_modulus_ep: 0.02
   ref_distance: Garro2022A&A...658A.120G
 m_v:
   apparent_magnitude_v: 9.15
-  # apparent_magnitude_v_em: 0
-  # apparent_magnitude_v_ep: 0
   ref_m_v: Garro2022A&A...658A.120G
 proper_motion:
-  pmra: -3.00 # [mas/yr]
-  pmra_em: 0.80
-  pmra_ep: 0.80
-  pmdec: -5.53 # [mas/yr]
+  pmra: -3.0
+  pmra_em: 0.8
+  pmra_ep: 0.8
+  pmdec: -5.53
   pmdec_em: 0.73
   pmdec_ep: 0.73
   ref_proper_motion: Garro2022A&A...658A.120G
 metallicity_photometric:
-  metallicity_photometric: -1.10
+  metallicity_photometric: -1.1
   metallicity_photometric_em: 0.2
   metallicity_photometric_ep: 0.2
   ref_metallicity_photometric: Garro2022A&A...658A.120G
 age:
-  age: 10 ## [Gyr]
+  age: 10
   age_em: 2
   age_ep: 2
   ref_age: Garro2022A&A...658A.120G

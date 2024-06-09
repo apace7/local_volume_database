@@ -1,5 +1,5 @@
 age:
-  age: 13.80
+  age: 13.8
   age_em: 0.75
   age_ep: 0.75
   ref_age: Ying2023AJ....166...18Y
@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 6341
   other_name:
   - M92
+  host: mw
 proper_motion:
   pmdec: -0.6251
   pmdec_em: 0.0239

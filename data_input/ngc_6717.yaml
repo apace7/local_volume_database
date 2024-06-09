@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 6717
   other_name:
   - Palomar 9
+  host: mw
 proper_motion:
   pmdec: -5.0082
   pmdec_em: 0.0271

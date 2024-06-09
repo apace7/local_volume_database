@@ -10,6 +10,7 @@ name_discovery:
   name: Palomar 1
   ref_discovery:
   - Abell1955PASP...67..258A
+  host: mw
 age:
   age: 7.3
   age_em: 1.15

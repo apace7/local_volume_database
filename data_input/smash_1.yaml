@@ -15,7 +15,7 @@ name_discovery:
   confirmed_real: 0
   confirmed_star_cluster: 0
   discovery_year: 2016
-  host: MW
+  host: mw
   name: SMASH 1
   ref_discovery:
   - Martin2016ApJ...830L..10M

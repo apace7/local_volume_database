@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 7099
   other_name:
   - M 30
+  host: mw
 proper_motion:
   pmdec: -7.2987
   pmdec_em: 0.0244

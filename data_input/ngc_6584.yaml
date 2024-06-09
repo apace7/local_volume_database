@@ -27,6 +27,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 6584
+  host: mw
 proper_motion:
   pmdec: -7.2021
   pmdec_em: 0.0254

@@ -18,7 +18,7 @@ m_v:
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.07
-  metallicity_spectroscopic_em: 0.10
+  metallicity_spectroscopic_em: 0.1
   metallicity_spectroscopic_ep: 0.11
   metallicity_spectroscopic_sigma_ul: 0.38
   ref_metallicity_spectroscopic: Kunder2024AJ....167...21K
@@ -30,6 +30,7 @@ name_discovery:
   - AL 3
   - ESO 456-78
   - MWSC 2847
+  host: mw
 proper_motion:
   pmdec: -3.5897
   pmdec_em: 0.0375
@@ -46,6 +47,6 @@ velocity:
   vlos_systemic: -61
   vlos_systemic_em: 2.6
   vlos_systemic_ep: 2.6
-  vlos_sigma: 6.1 # [km/s]
+  vlos_sigma: 6.1
   vlos_sigma_em: 1.9
   vlos_sigma_ep: 1.9

@@ -1,5 +1,4 @@
 distance:
-  # distance: 7.94
   distance_modulus: 14.5
   ref_distance: Gran2022MNRAS.509.4962G
 key: gran_1
@@ -20,7 +19,7 @@ metallicity_spectroscopic:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
-  host: MW
+  host: mw
   name: ESO 456-29
   other_name:
   - MWSC2761

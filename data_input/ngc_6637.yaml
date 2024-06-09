@@ -29,6 +29,7 @@ name_discovery:
   name: NGC 6637
   other_name:
   - M 69
+  host: mw
 proper_motion:
   pmdec: -5.8322
   pmdec_em: 0.0275

@@ -24,6 +24,7 @@ name_discovery:
   name: 2MASS GC-02
   ref_discovery:
   - Hurt2000AJ....120.1876H
+  host: mw
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.39

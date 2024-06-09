@@ -24,6 +24,7 @@ name_discovery:
   name: NGC 6626
   other_name:
   - M 28
+  host: mw
 proper_motion:
   pmdec: -8.9222
   pmdec_em: 0.028

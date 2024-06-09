@@ -16,8 +16,6 @@ m_v:
   apparent_magnitude_v_ep: 0.11
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.2
-  metallicity_spectroscopic: 0.1
   metallicity_spectroscopic: 0.1
   ref_metallicity_spectroscopic: Geisler2021A&A...652A.157G
 name_discovery:
@@ -27,6 +25,7 @@ name_discovery:
   other_name:
   - BH 229
   - ESO 455-11
+  host: mw
 proper_motion:
   pmdec: -10.093
   pmdec_em: 0.0374

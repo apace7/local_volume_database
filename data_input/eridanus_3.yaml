@@ -29,7 +29,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
   discovery_year: 2015
-  host: MW
+  host: mw
   name: Eridanus III
   other_name:
   - DES J0222.7-5217
@@ -39,7 +39,8 @@ name_discovery:
   abbreviation: EriIII
 notes:
 - observed mass segregation which would classifty Eri 3 as a star cluster Baumgardt2022MNRAS.510.3531B
-- there is a metallicity dispersion in CaH\&K photometry which would classify Eri 3 as a dwarf galaxy Fu2023arXiv230606260F
+- there is a metallicity dispersion in CaH\&K photometry which would classify Eri
+  3 as a dwarf galaxy Fu2023arXiv230606260F
 - size + luminosity is consistent with both star cluster and dwarf
 - classifiction unclear
 proper_motion:

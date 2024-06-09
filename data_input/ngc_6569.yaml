@@ -27,6 +27,7 @@ name_discovery:
   name: NGC 6569
   other_name:
   - ESO 456-77
+  host: mw
 proper_motion:
   pmdec: -7.3543
   pmdec_em: 0.0279
@@ -41,12 +42,12 @@ structure:
   rhalf_em: 0.174
   rhalf_ep: 0.138
 structure_king:
-  rcore: 0.332 # [arcmin]
+  rcore: 0.332
   rcore_em: 0.02
   rcore_ep: 0.02
-  rking: 4.83 # [arcmin]
+  rking: 4.83
   rking_em: 1.82
-  rking_ep: 2.80
+  rking_ep: 2.8
   ref_structure_king: Pallanca2023ApJ...950..138P
 velocity:
   ref_vlos: Pallanca2023ApJ...950..138P

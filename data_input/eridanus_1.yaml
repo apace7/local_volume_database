@@ -30,6 +30,7 @@ name_discovery:
   name: Eridanus
   ref_discovery:
   - Cesarsky1977A&A....61L..31C
+  host: mw
 proper_motion:
   pmdec: -0.3011
   pmdec_em: 0.0408

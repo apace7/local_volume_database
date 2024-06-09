@@ -29,7 +29,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1847
-  host: LF
+  host: local_field
   name: NGC 3109
   other_name:
   - DDO 236

@@ -22,7 +22,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1899
-  host: LF
+  host: local_field
   name: IC 5152
   ref_discovery:
   - Pickering1899ApJ.....9..173P

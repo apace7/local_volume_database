@@ -13,6 +13,7 @@ name_discovery:
   ref_discovery:
   - Abell1955PASP...67..258A
   - Wilson1955PASP...67...27W
+  host: mw
 notes:
 - independently discovered by Hubble and Wilson Abell1955PASP...67..258A
 age:

@@ -27,7 +27,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   discovery_year: 2006
-  host: MW
+  host: mw
   name: FSR 1758
   ref_discovery:
   - Froebrich2007MNRAS.374..399F

@@ -23,6 +23,7 @@ name_discovery:
   ref_discovery:
   - Kobulnicky2005AJ....129..239K
   - Mercer2005ApJ...635..560M
+  host: mw
 structure:
   ref_structure: Kobulnicky2005AJ....129..239K
   rhalf: 0.6

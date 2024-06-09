@@ -9,7 +9,8 @@ name_discovery:
   discovery_year: 1982
   name: AM 4
   ref_discovery:
-  - Madore1982PASP...94...40M 
+  - Madore1982PASP...94...40M
+  host: mw
 age:
   age: 9.0
   age_em: 0.5
