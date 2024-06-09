@@ -30,7 +30,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1990
-  host: MW
+  host: mw
   name: Sextans
   ref_discovery:
   - Irwin1990MNRAS.244P..16I

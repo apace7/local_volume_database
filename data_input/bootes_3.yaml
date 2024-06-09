@@ -31,15 +31,18 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2008
-  host: MW
+  host: mw
   name: Bootes III
   ref_discovery:
   - Grillmair2009ApJ...693.1118G
   abbreviation: BooIII
 notes:
 - Very diffuse. Tidal remnant? MC12
-- confirmed_dwarf == 1 due to resolved velocity dispersion and high mass-to-light ratio.
-- The spectroscopic sample (Carlin2009ApJ...702L...9C) is updated in Carlin2018ApJ...865....7C using Gaia astrometry. The velocity dispersion, mean velocity, and metallicity dispersion have updated values (Carlin2018ApJ...865....7C) 
+- confirmed_dwarf == 1 due to resolved velocity dispersion and high mass-to-light
+  ratio.
+- The spectroscopic sample (Carlin2009ApJ...702L...9C) is updated in Carlin2018ApJ...865....7C
+  using Gaia astrometry. The velocity dispersion, mean velocity, and metallicity dispersion
+  have updated values (Carlin2018ApJ...865....7C)
 proper_motion:
   pmdec: -0.89
   pmdec_em: 0.015

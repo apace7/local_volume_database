@@ -31,7 +31,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2015
-  host: MW
+  host: mw
   name: Columba I
   other_name:
   - DES J0531-2801
@@ -39,7 +39,7 @@ name_discovery:
   - DrlicaWagner2015ApJ...813..109D
   abbreviation: ColI
 notes:
-  - confirmed_dwarf = 1 due to size ~ 100pc and measured mean velocity
+- confirmed_dwarf = 1 due to size ~ 100pc and measured mean velocity
 proper_motion:
   pmdec: -0.4
   pmdec_em: 0.079

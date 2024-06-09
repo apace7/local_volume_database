@@ -1,8 +1,8 @@
 key: horologium_2
 table: dwarf_mw
 location:
-  ra: 49.1310
-  dec: -50.0090
+  ra: 49.131
+  dec: -50.009
 distance:
   distance_modulus: 19.46
   distance_modulus_em: 0.2
@@ -20,7 +20,7 @@ name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1
   discovery_year: 2015
-  host: MW
+  host: mw
   name: Horologium II
   ref_discovery:
   - Kim2015ApJ...808L..39K

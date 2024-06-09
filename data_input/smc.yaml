@@ -3,18 +3,6 @@ table: dwarf_mw
 location:
   ra: 13.158
   dec: -72.8003
-# structure:
-#   rhalf: 0 # [arcmin]
-#   rhalf_em: 0
-#   rhalf_ep: 0
-#   ellipticity: 0
-#   ellipticity_em: 0
-#   ellipticity_ep: 0
-#   ellipticity_ul: 0
-#   position_angle: 0
-#   position_angle_em: 0
-#   position_angle_ep: 0
-#   ref_structure: ref
 distance:
   distance_modulus: 18.99
   distance_modulus_em: 0.1
@@ -29,7 +17,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 0
-  host: LMC
+  host: lmc
   name: SMC
   other_name:
   - Nubecula Minor
@@ -46,7 +34,7 @@ proper_motion:
   pmdec_ep: 0.01
   ref_proper_motion: Zivick2018ApJ...864...55Z
 velocity:
-  ref_vlos: Harris2006AJ....131.2514H 
+  ref_vlos: Harris2006AJ....131.2514H
   vlos_systemic: 145.6
   vlos_systemic_em: 0.6
   vlos_systemic_ep: 0.6
@@ -62,5 +50,5 @@ flux_HI:
   flux_HI_rotation_velocity_ep: 5
   flux_HI_dispersion: 22
   flux_HI_dispersion_em: 2
-  flux_HI_dispersion_ep: 2 
+  flux_HI_dispersion_ep: 2
   ref_flux_HI: Bruns2005A&A...432...45B

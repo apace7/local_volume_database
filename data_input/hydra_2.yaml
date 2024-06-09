@@ -28,7 +28,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2015
-  host: MW
+  host: mw
   name: Hydra II
   ref_discovery:
   - Martin2015ApJ...804L...5M
@@ -41,17 +41,6 @@ proper_motion:
   pmra_em: 0.14
   pmra_ep: 0.14
   ref_proper_motion: Pace2022ApJ...940..136P
-# structure:
-#   rhalf: 2.13
-#   rhalf_em: 0.35
-#   rhalf_ep: 0.42
-#   ellipticity: 0.3
-#   ellipticity_em: 0.09
-#   ellipticity_ep: 0.09
-#   position_angle: -9
-#   position_angle_em: -9
-#   position_angle_ep: 8
-#   ref_structure: Richstein2024ApJ...967...72R
 structure:
   rhalf: 1.52
   rhalf_em: 0.28

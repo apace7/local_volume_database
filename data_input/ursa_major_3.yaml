@@ -1,14 +1,14 @@
 key: ursa_major_3
 table: dwarf_mw
 location:
-  ra: 174.70749999999995 # [deg]
-  dec: 31.0783333333333330 # [deg]
+  ra: 174.70749999999995
+  dec: 31.078333333333333
 name_discovery:
   confirmed_dwarf: 0
   confirmed_star_cluster: 0
   confirmed_real: 1
   discovery_year: 2023
-  host: MW
+  host: mw
   name: Ursa Major III
   other_name:
   - UNIONS 1
@@ -16,10 +16,11 @@ name_discovery:
   - Smith2024ApJ...961...92S
   abbreviation: UMaIII
 notes:
-  - velocity dispersions drops to 1.9_{-1.1}^{+1.4} km/s if one star is removed and the velocity disperison is unresolved if two stars are removed Smith2024ApJ...961...92S
-  - systematic proper motion errors are 0.033 mas/yr Smith2024ApJ...961...92S
+- velocity dispersions drops to 1.9_{-1.1}^{+1.4} km/s if one star is removed and
+  the velocity disperison is unresolved if two stars are removed Smith2024ApJ...961...92S
+- systematic proper motion errors are 0.033 mas/yr Smith2024ApJ...961...92S
 structure:
-  rhalf: 0.9 # [arcmin]
+  rhalf: 0.9
   rhalf_em: 0.3
   rhalf_ep: 0.4
   ellipticity: 0.5
@@ -30,7 +31,7 @@ structure:
   position_angle_ep: 18
   ref_structure: Smith2024ApJ...961...92S
 distance:
-  distance_modulus: 15 
+  distance_modulus: 15
   distance_modulus_em: 0.2
   distance_modulus_ep: 0.2
   ref_distance: Smith2024ApJ...961...92S
@@ -40,10 +41,10 @@ m_v:
   apparent_magnitude_v_ep: 0.4
   ref_m_v: Smith2024ApJ...961...92S
 proper_motion:
-  pmra: -0.75 # [mas/yr]
+  pmra: -0.75
   pmra_em: 0.09
   pmra_ep: 0.09
-  pmdec: 1.15 # [mas/yr]
+  pmdec: 1.15
   pmdec_em: 0.14
   pmdec_ep: 0.14
   ref_proper_motion: Smith2024ApJ...961...92S
@@ -51,13 +52,13 @@ metallicity_photometric:
   metallicity_photometric: -2.2
   ref_metallicity_photometric: Smith2024ApJ...961...92S
 velocity:
-  vlos_systemic: 88.6 # [km/s]
+  vlos_systemic: 88.6
   vlos_systemic_em: 1.3
   vlos_systemic_ep: 1.3
-  vlos_sigma: 3.7 # [km/s]
+  vlos_sigma: 3.7
   vlos_sigma_em: 1.0
   vlos_sigma_ep: 1.4
-  ref_vlos: Smith2024ApJ...961...92S 
+  ref_vlos: Smith2024ApJ...961...92S
 age:
-  age: 12 ## [Gyr]
+  age: 12
   ref_age: Smith2024ApJ...961...92S

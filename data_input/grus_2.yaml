@@ -26,7 +26,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2015
-  host: MW
+  host: mw
   name: Grus II
   other_name:
   - DES J2204-4626
@@ -47,7 +47,6 @@ structure:
   rhalf: 5.9
   rhalf_em: 0.5
   rhalf_ep: 0.5
-
 velocity:
   ref_vlos: Simon2020ApJ...892..137S
   vlos_sigma_ul: 2.0

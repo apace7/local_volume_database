@@ -5,8 +5,8 @@ location:
   ra: 177.31
 distance:
   distance_modulus: 20.333
-  distance_modulus_em: 0.070
-  distance_modulus_ep: 0.070
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
   ref_distance: Torrealba2016MNRAS.459.2370T
 flux_HI:
   flux_HI_ul: 0.91
@@ -28,7 +28,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2016
-  host: MW
+  host: mw
   name: Crater II
   ref_discovery:
   - Torrealba2016MNRAS.459.2370T

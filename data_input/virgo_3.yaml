@@ -1,14 +1,14 @@
 key: virgo_3
 table: dwarf_mw
 location:
-  ra: 186.348 # [deg]
-  dec: 4.441 # [deg]
+  ra: 186.348
+  dec: 4.441
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
   false_positive: 0
   discovery_year: 2023
-  host: MW
+  host: mw
   name: Virgo III
   ref_discovery:
   - Homma2023arXiv231105439H
@@ -25,12 +25,12 @@ structure:
   position_angle_ep: 21
   ref_structure: Homma2023arXiv231105439H
 distance:
-  distance_modulus: 20.9 
+  distance_modulus: 20.9
   distance_modulus_em: 0.2
   distance_modulus_ep: 0.2
   ref_distance: Homma2023arXiv231105439H
 m_v:
   apparent_magnitude_v: 18.21
-  apparent_magnitude_v_em: .56
-  apparent_magnitude_v_ep: .45
+  apparent_magnitude_v_em: 0.56
+  apparent_magnitude_v_ep: 0.45
   ref_m_v: Homma2023arXiv231105439H
