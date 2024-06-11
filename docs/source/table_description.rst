@@ -3,8 +3,8 @@ Decription of tables
 
 table descriptions (tab/sheet). These are available as csv and fits files. 
 
-* dwarf_mw : Milky Way dwarf galaxies
-* dwarf_m31: M31 dwarf galaxies
+* **dwarf_mw** : Milky Way dwarf galaxies
+* **dwarf_m31**: M31 dwarf galaxies
 * dwarf_local_field: dwarf galaxies outside of MW/M31 to ~ 3 Mpc, mostly follows McConnachie 2012
 * gc_ufsc: post Harris catalog star clusters in the MW halo (abs(b) > ~5-10)
 * gc_disk: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these objects might be open clusters
