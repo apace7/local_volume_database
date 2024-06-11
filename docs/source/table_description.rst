@@ -1,3 +1,6 @@
+..
+  this files is no longer used, see usage file
+
 Decription of tables 
 ===================================
 
