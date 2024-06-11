@@ -1,3 +1,6 @@
+..
+  this files is no longer used, see usage file
+
 Decription of yaml files 
 ===================================
 
@@ -142,11 +145,13 @@ The collections are split such that a single reference can describe the contents
 
   * **flux_HI** -- HI flux in [km/s]
 
-  **vlos_systemic_HI** -- Hi systemic velocity [km/s]
+  * **vlos_systemic_HI** -- Hi systemic velocity [km/s]
 
-  **sigma_HI** -- velocity dispersion of HI gas [km/s]
+  * **sigma_HI** -- velocity dispersion of HI gas [km/s]
 
-  **vrot_HI** -- rotation velocity of HI gas [km/s]
+  * **vrot_HI** -- rotation velocity of HI gas [km/s]
+
+  * **ref_** -- rotation velocity of HI gas [km/s]
 
 * **age**
 

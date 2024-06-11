@@ -35,15 +35,16 @@ Decription of tables
 
 The following are the available tables (in csv and fits file formats). 
 
-* dwarf_mw : Milky Way dwarf galaxies (the most distant dwarf galaxy is Eridanus II at ~ 350 kpc)
-* dwarf_m31: M31 dwarf galaxies
-* dwarf_local_field: dwarf galaxies outside of MW/M31 within the Local group to a distance of ~ 3 Mpc. This is an extension of galaxies from McConnachie 2012
-* dwarf_all : combination of dwarf_mw, dwarf_m31, dwarf_local_field
-* dwarf_local_field_distant: dwarf galaxies with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete. 
-* gc_ufsc: faint star-cluster like systems (generally rhalf < 20 pc and M_V > -3 and at high Galactic latitudes abs(b) > ~5-10). A number of these systems are likely tidally stripped star clusters, tidally stripped dwarf galaxies, or the faintest dwarf galaxies. Many have are ambiguous classifications and are difficult to classify. Ultra-faint compact stellar systems. 
-* gc_disk: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these objects might be open clusters, and some objects have not been confirmed
-* gc_harris: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_ufsc table)
-* gc_dwarf_hosted: Globular clusters hosted by dwarf galaxies. This does not include the Sagittarius GCs which are in gc_harris. Incomplete table.
+* **dwarf_mw** : Milky Way dwarf galaxies (the most distant dwarf galaxy is Eridanus II at ~ 350 kpc)
+* **dwarf_m31**: M31 dwarf galaxies
+* **dwarf_local_field**: dwarf galaxies outside of MW/M31 within the Local group to a distance of ~ 3 Mpc. This is an extension of galaxies from McConnachie 2012
+* **dwarf_all** : combination of dwarf_mw, dwarf_m31, dwarf_local_field
+* **dwarf_local_field_distant**: dwarf galaxies with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete. 
+
+* **gc_ufsc**: Ultra-faint compact stellar systems. faint star-cluster like systems (generally rhalf < 20 pc and M_V > -3 and at high Galactic latitudes abs(b) > ~5-10). A number of these systems are likely tidally stripped star clusters, tidally stripped dwarf galaxies, or the faintest dwarf galaxies. Many have are ambiguous classifications and are difficult to classify. 
+* **gc_disk**: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these objects might be open clusters, and some objects have not been confirmed
+* **gc_harris**: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_ufsc table)
+* **gc_dwarf_hosted**: Globular clusters hosted by dwarf galaxies. This does not include the Sagittarius GCs which are in gc_harris. Incomplete table.
 
 There are two extra tables (data/pm_overview.csv and data/j_factor.csv). Both are collections of measurements (the other tables have one measurement per object). 
 
@@ -109,7 +110,7 @@ The yaml keys are **Bolded** below and the bullet points follow the yaml collect
 The collections are split such that a single reference can describe the contents.
 
 * **key** —- unique internal identifier. This should be the same as the name of the file (without .yaml) (required yaml key)
-* **table** -- table to place system into (required yaml key)
+* **table** -- table to place system into (required yaml key) list of possible tables [gc_harris, gc_dwarf_hosted, gc_disk, gc_ufsc, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc]
 * **location** -- center of the system (yaml collection)
 
   * **ra** -- right ascension ICRS [degree]  (required yaml key)
@@ -128,17 +129,25 @@ The collections are split such that a single reference can describe the contents
 
   * **host** -- host of system.
 
-  * **confirmed_dwarf** -- 0/1 1 = confirmed dwarf galaxy.  
+  * **confirmed_dwarf** -- 0/1 -- 1 = confirmed dwarf galaxy.  
 
-  * **confirmed_star_cluster** -- 0 or 1. 1 = confirmed star cluster.  
+  * **confirmed_star_cluster** -- 0 or 1 -- 1 = confirmed star cluster.  
 
-  * **confirmed_real** -- 1 = Object is confirmed to be physical system.  Generally from spectroscopic radial velocity measurements. 
+  * **confirmed_real** -- 1 = Object is confirmed to be physical system.  This includes deeper imaging (i.e. HST), spectroscopic confirmation, and/or proper motion confirmation.
 
-  * **false_positive** -- 1 = Object is confirmed to be a false positive.  
+  * **false_positive** -- 1 = Object is confirmed to be a false positive.  2 = Object is confirmed to be background galaxy at much larger distances
+
+  * **ref_false_positive** -- list of references that shows an object is a false positive. This could include new dwarf galaxy searches that do not recover the object. This includes dwarf galaxies candidates that are later shown to be background galaxies. 
+
+  * **abbreviation** -- Common abbreviation for object (currently only for MW dwarf galaxies). 
+  
+  * **type** -- dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster
 
 * **structure** -- yaml collection
   
-  * **rhalf** -- elliptical half-light radius (or plummer radius) [arcmin]. This corresponds to the major axis. Note that for the distant objects (currently dwarf_local_field_distant) the units are arcsec. 
+  * **rhalf** -- elliptical half-light radius (or plummer radius) [arcmin]. This corresponds to the major axis. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+
+  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
 
   * **ellipticity** -- Ellipticity of the system, defined as 1 - b/a = 1- minor axis/major axis. 
 
@@ -150,11 +159,15 @@ The collections are split such that a single reference can describe the contents
 
   * **distance_modulus** --  distance modulus of the system. [mag] This quantity is used to compute the distance in kpc for each system.
 
+  * **distance_fixed_host** -- True/False. This option fixes the distance of the object to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy and new (unconfirmed) satellites of more distant hosts (>3 Mpc)
+
   * **ref_distance**
 
 * **m_v** -- yaml collection
 
   * **apparent_magnitude_v** -- Apparent V-band magnitude of the system. This quantity is corrected for extinction. This quantity is combined with **distance_modulus** to compute the absolute V-band magnitude in the combined tables. 
+
+  * **mean_ebv** -- Mean E(B-V) for reference.  This is not currently used in calculations. 
 
   * **ref_m_v** -- reference
 
@@ -163,6 +176,8 @@ The collections are split such that a single reference can describe the contents
   * **vlos_systemic** -- systemic heliocentric velocity of the system. Stellar velocities are preferred but some distant objects are from HI observations. [km/s]
   
   * **vlos_sigma** -- stellar velocity dispersion. [km/s]
+
+  * **vlos_sigma_central** -- central stellar velocity dispersion. [km/s]
   
   * **ref_vlos** -- reference
 
@@ -192,19 +207,55 @@ The collections are split such that a single reference can describe the contents
 
 * **structure_king**
 
-  * **rcore** -- King core radius [arcmin]
+  * **rcore** -- King core radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
 
-  * **rking** -- King limiting radius, sometimes referred to as the tidal radius [arcmin]
+  * **rking** -- King limiting radius, sometimes referred to as the tidal radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+
+  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
   
   * **ellipticity** and **position_angle** -- these are specfic to the King profile fit 
 
   * **ref_structure_king** -- reference
 
 * **structure_sersic**
+
+  * **n_sersic** -- Sersic powerlaw value.
+
+  * **rad_sersic** -- Sersic radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+
+  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
+
+  * **ellipticity** -- from Sersic fit.
+
+  * **position_angle** -- from Sersic fit.
+
+  * **central_surface_brightness** -- central surface brightness of Sersic fit [mag/arcsec^2]
+
+  * **ref_structure_sersic**
+
 * **structure_eff**
+
+  * **gamma_eff** -- Powerlaw value from EFF profile (Elson, Fall & Freeman 1987).
+
+  * **rad_eff** -- EFF scale radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+
+  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
+
+  * **ellipticity** -- from EFF fit.
+
+  * **position_angle** -- from EFF fit.
+
+  * **ref_structure_sersic**
+
 * **flux_HI**
 
-  * **flux_HI**
+  * **flux_HI** -- [Jy km/s]
+
+  * **vlos_systemic_HI** -- Hi systemic velocity [km/s]
+
+  * **sigma_HI** -- velocity dispersion of HI gas [km/s]
+
+  * **vrot_HI** -- rotation velocity of HI gas [km/s]
 
   * **ref_flux_HI**
 
