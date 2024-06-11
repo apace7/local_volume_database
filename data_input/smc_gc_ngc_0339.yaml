@@ -1,0 +1,57 @@
+key: smc_gc_ngc_0339
+table: gc_dwarf_hosted
+location:
+  ra: 14.443999999999997
+  dec: -74.47033333333333
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: smc
+  name: NGC 339
+  # other_name:
+  # - list
+  # ref_discovery:
+  # - list
+  # type: GC
+# notes:
+# - list
+structure:
+  rhalf: 7.01
+  spatial_units: arcsec
+  ref_structure: Glatt2009AJ....138.1403G
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.96
+m_v:
+  apparent_magnitude_v: 11.93
+  apparent_magnitude_v_em: 0.05
+  apparent_magnitude_v_ep: 0.05
+  mean_ebv: 0.07
+  ref_m_v: Song2021MNRAS.504.4160S
+proper_motion:
+  pmra: 0.7
+  pmra_em: 0.03
+  pmra_ep: 0.03
+  pmdec: -1.25
+  pmdec_em: 0.04
+  pmdec_ep: 0.04
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_photometric:
+  metallicity_photometric: -1.3
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.01
+  metallicity_spectroscopic_sigma: 0.17
+  ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
+velocity:
+  vlos_systemic: 112.9
+  vlos_systemic_em: 0.3
+  vlos_systemic_ep: 0.4
+  vlos_sigma_central: 1.8
+  vlos_sigma_central_em: 0.3
+  vlos_sigma_central_ep: 0.2
+  ref_vlos: Song2021MNRAS.504.4160S
+age:
+  age: 5.9
+  ref_age: Milone2023A&A...672A.161M

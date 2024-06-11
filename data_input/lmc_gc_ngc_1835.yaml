@@ -1,0 +1,34 @@
+key: lmc_gc_ngc_1835
+table: gc_dwarf_hosted
+location:
+  ra: 76.27791666666666 
+  dec: -69.40416666666667
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1835
+  other_name:
+  - SL 215
+  type: GC
+structure:
+  rhalf: 0.17
+  spatial_units: arcmin
+  ref_structure: Mackey2003MNRAS.338...85M
+distance:
+  distance_fixed_host: True 
+m_v:
+  apparent_magnitude_v: 9.922
+  mean_ebv: 0.08
+  ref_m_v: Bica1996ApJS..102...57B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.79
+  ref_metallicity_spectroscopic: Olszewski1991AJ....101..515O 
+velocity:
+  vlos_systemic: 188 # [km/s]
+  vlos_systemic_em: 5
+  vlos_systemic_ep: 5
+  ref_vlos: Olszewski1991AJ....101..515O 
+age:
+  age: 16.6
+  ref_age: Olsen1998MNRAS.300..665O

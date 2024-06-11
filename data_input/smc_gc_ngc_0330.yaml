@@ -1,0 +1,57 @@
+key: smc_gc_ngc_0330
+table: gc_dwarf_hosted
+location:
+  ra: 14.07595833333333
+  dec: -72.45897222222223
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: smc
+  name: NGC 330
+  # other_name:
+  # - list
+  # ref_discovery:
+  # - list
+  # type: GC
+# notes:
+# - list
+structure:
+  rhalf: 0.941
+  spatial_units: arcsec
+  ref_structure: McLaughlin2005ApJS..161..304M
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 19.04
+m_v:
+  apparent_magnitude_v: 9.24
+  apparent_magnitude_v_em: 0.01
+  apparent_magnitude_v_ep: 0.01
+  mean_ebv: 0.04
+  ref_m_v: Song2021MNRAS.504.4160S
+proper_motion:
+  pmra: 0.75
+  pmra_em: 0.03
+  pmra_ep: 0.03
+  pmdec: -1.31
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_photometric:
+  metallicity_photometric: -0.4
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.65
+  metallicity_spectroscopic_sigma: 0.10
+  ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
+velocity:
+  vlos_systemic: 153.0
+  vlos_systemic_em: 0.7
+  vlos_systemic_ep: 0.7
+  vlos_sigma_central: 2.4
+  vlos_sigma_central_em: 0.7
+  vlos_sigma_central_ep: 0.3
+  ref_vlos: Song2021MNRAS.504.4160S
+age:
+  age: 0.09
+  ref_age: Milone2023A&A...672A.161M

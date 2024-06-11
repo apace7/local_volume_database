@@ -1,0 +1,36 @@
+key: lmc_gc_sl_663
+table: gc_dwarf_hosted
+location:
+  ra: 85.61749999999999
+  dec: -65.36394444444444
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: SL 663
+structure:
+  rhalf: 1.12
+  spatial_units: arcsec
+  ref_structure: McLaughlin2005ApJS..161..304M
+distance:
+  ref_distance: Correnti2014ApJ...793..121C
+  distance_modulus: 18.32
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.51
+  metallicity_spectroscopic_sigma: 0.11
+  ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
+velocity:
+  vlos_systemic: 301.1
+  vlos_systemic_em: 1.2
+  vlos_systemic_ep: 1.4
+  vlos_sigma_central: 3.2
+  vlos_sigma_central_em: 2.2
+  vlos_sigma_central_ep: 6.4
+  ref_vlos: Song2021MNRAS.504.4160S
+age:
+  age: 3.15
+  age_em: 0.40
+  age_ep: 0.40
+  ref_age: Correnti2014ApJ...793..121C

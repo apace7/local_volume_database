@@ -1,0 +1,53 @@
+key: lmc_gc_ngc_1466
+table: gc_dwarf_hosted
+location:
+  ra: 56.1365
+  dec: -71.67097222222223
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1466
+  type: GC
+  other_name:
+  - SL1
+  - LW1
+structure:
+  rhalf: 1.85
+  spatial_units: arcsec
+  ref_structure: McLaughlin2005ApJS..161..304M
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.58
+m_v:
+  apparent_magnitude_v: 11.43
+  apparent_magnitude_v_em: 0.05
+  apparent_magnitude_v_ep: 0.05
+  mean_ebv: 0.05
+  ref_m_v: vandenBergh1981A&AS...46...79V
+proper_motion:
+  pmra: 1.72
+  pmra_em: 0.06
+  pmra_ep: 0.06
+  pmdec: -0.74
+  pmdec_em: 0.07
+  pmdec_ep: 0.07
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.4
+  metallicity_spectroscopic_sigma: 0.16
+  ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
+metallicity_photometric:
+  metallicity_photometric: -1.5
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+velocity:
+  vlos_systemic: 202.5
+  vlos_systemic_em: 0.5
+  vlos_systemic_ep: 0.5
+  vlos_sigma_central: 3.6
+  vlos_sigma_central_em: 0.4
+  vlos_sigma_central_ep: 0.6
+  ref_vlos: Song2021MNRAS.504.4160S
+age:
+  age: 13.2
+  ref_age: Milone2023A&A...672A.161M

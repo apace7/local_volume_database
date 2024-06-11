@@ -1,0 +1,36 @@
+key: lmc_gc_ngc_2019
+table: gc_dwarf_hosted
+location:
+  ra: 82.98333333333332  # [deg]
+  dec: -70.16000000000001 # [deg]
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 2019
+  other_name:
+  - SL 554
+  type: GC
+structure:
+  rhalf: 0.15
+  spatial_units: arcmin
+  ref_structure: Mackey2003MNRAS.338...85M
+distance:
+  distance_fixed_host: True 
+m_v:
+  apparent_magnitude_v: 10.674
+  mean_ebv: 0.06
+  ref_m_v: Bica1996ApJS..102...57B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.31
+  metallicity_spectroscopic_em: 0.05
+  metallicity_spectroscopic_ep: 0.05
+  ref_metallicity_spectroscopic: Goudfrooij2006MNRAS.369..697G
+velocity:
+  vlos_systemic: 280.6 # [km/s]
+  vlos_systemic_em: 2.3
+  vlos_systemic_ep: 2.3
+  ref_vlos: Goudfrooij2006MNRAS.369..697G
+age:
+  age: 17.8 ## [Gyr]
+  ref_age: Olsen1998MNRAS.300..665O

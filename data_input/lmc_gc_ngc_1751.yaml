@@ -1,0 +1,51 @@
+key: lmc_gc_ngc_1751
+table: gc_dwarf_hosted
+location:
+  ra: 73.54995833333332
+  dec: -69.80752777777778
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1751
+  other_name:
+  - SL 89
+structure:
+  rhalf: 4.50
+  spatial_units: arcsec
+  ref_structure: Goudfrooij2014ApJ...797...35G
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.52
+m_v:
+  apparent_magnitude_v: 11.29
+  apparent_magnitude_v_em: 0.13
+  apparent_magnitude_v_ep: 0.13
+  mean_ebv: 0.15
+  ref_m_v: Goudfrooij2006MNRAS.369..697G
+proper_motion:
+  pmra: 1.93
+  pmra_em: 0.07
+  pmra_ep: 0.07
+  pmdec: -0.09
+  pmdec_em: 0.1
+  pmdec_ep: 0.1
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_photometric:
+  metallicity_photometric: -0.5
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.46
+  metallicity_spectroscopic_sigma: 0.14
+  ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
+velocity:
+  vlos_systemic: 240.4
+  vlos_systemic_em: 0.6
+  vlos_systemic_ep: 0.7
+  vlos_sigma_central: 2.5
+  vlos_sigma_central_em: 0.7
+  vlos_sigma_central_ep: 0.6
+  ref_vlos: Song2021MNRAS.504.4160S
+age:
+  age: 1.75
+  ref_age: Milone2023A&A...672A.161M

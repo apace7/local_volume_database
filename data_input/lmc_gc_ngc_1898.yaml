@@ -1,0 +1,44 @@
+key: lmc_gc_ngc_1898
+table: gc_dwarf_hosted
+location:
+  ra: 79.17320833333332
+  dec: -69.65669444444445
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1898
+  other_name:
+  - SL 350
+  type: GC
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.6
+m_v:
+  apparent_magnitude_v: 11.674
+  mean_ebv: 0.06
+  ref_m_v: Bica1996ApJS..102...57B
+proper_motion:
+  pmra: 1.98
+  pmra_em: 0.05
+  pmra_ep: 0.05
+  pmdec: 0.35
+  pmdec_em: 0.05
+  pmdec_ep: 0.05
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.32
+  metallicity_spectroscopic_em: 0.10
+  metallicity_spectroscopic_ep: 0.10
+  ref_metallicity_spectroscopic: Johnson2006ApJ...640..801J
+metallicity_photometric:
+  metallicity_photometric: -1.5
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+velocity:
+  vlos_systemic: 210
+  vlos_systemic_em: 5
+  vlos_systemic_ep: 5
+  ref_vlos: Schommer1992AJ....103..447S
+age:
+  age: 11.7
+  ref_age: Milone2023A&A...672A.161M

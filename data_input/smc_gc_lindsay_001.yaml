@@ -1,0 +1,57 @@
+key: smc_gc_lindsay_001
+table: gc_dwarf_hosted
+location:
+  ra: 0.9768333333333332
+  dec: -73.47186111111111
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: smc
+  name: Lindsay 1
+  # other_name:
+  # - list
+  # ref_discovery:
+  # - list
+  type: GC
+# notes:
+# - list
+structure:
+  rhalf: 18.28
+  spatial_units: arcsec
+  ref_structure: Glatt2009AJ....138.1403G
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.86
+m_v:
+  apparent_magnitude_v: 13.17
+  apparent_magnitude_v_em: 0.06
+  apparent_magnitude_v_ep: 0.06
+  mean_ebv: 0.048
+  ref_m_v: Song2021MNRAS.504.4160S
+proper_motion:
+  pmra: 0.54
+  pmra_em: 0.03
+  pmra_ep: 0.03
+  pmdec: -1.49
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_photometric:
+  metallicity_photometric: -1.2
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.98
+  metallicity_spectroscopic_sigma: 0.13
+  ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
+velocity:
+  vlos_systemic: 140.5
+  vlos_systemic_em: 0.2
+  vlos_systemic_ep: 0.2
+  vlos_sigma_central: 1.8
+  vlos_sigma_central_em: 0.3
+  vlos_sigma_central_ep: 0.2
+  ref_vlos: Song2021MNRAS.504.4160S
+age:
+  age: 7.2
+  ref_age: Milone2023A&A...672A.161M

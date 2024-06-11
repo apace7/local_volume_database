@@ -1,0 +1,58 @@
+key: lmc_gc_ngc_2257
+table: gc_dwarf_hosted
+location:
+  ra: 97.55174999999998
+  dec: -64.32683333333333
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: lmc
+  name: NGC 2257
+  other_name:
+  - SL 895
+  - LW 481
+  # ref_discovery:
+  # - list
+  type: GC
+# notes:
+# - list
+structure:
+  rhalf: 6.54
+  spatial_units: arcsec
+  ref_structure: McLaughlin2005ApJS..161..304M
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.37
+m_v:
+  apparent_magnitude_v: 12.50
+  apparent_magnitude_v_em: 0.04
+  apparent_magnitude_v_ep: 0.04
+  mean_ebv: 0.04
+  ref_m_v: Bica1996ApJS..102...57B
+proper_motion:
+  pmra: 1.39
+  pmra_em: 0.05
+  pmra_ep: 0.05
+  pmdec: 1.0
+  pmdec_em: 0.04
+  pmdec_ep: 0.04
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_photometric:
+  metallicity_photometric: -1.4
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.64
+  metallicity_spectroscopic_sigma: 0.11
+  ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
+velocity:
+  vlos_systemic: 301.8
+  vlos_systemic_em: 0.4
+  vlos_systemic_ep: 0.3
+  vlos_sigma_central: 2.7
+  vlos_sigma_central_em: 0.4
+  vlos_sigma_central_ep: 0.2
+  ref_vlos: Song2021MNRAS.504.4160S
+age:
+  age: 11.8
+  ref_age: Milone2023A&A...672A.161M

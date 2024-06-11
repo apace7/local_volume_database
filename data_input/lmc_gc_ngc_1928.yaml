@@ -1,0 +1,45 @@
+key: lmc_gc_ngc_1928
+table: gc_dwarf_hosted
+location:
+  ra: 80.23954166666665
+  dec: -69.47822222222223
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1928
+  other_name:
+  - SL 405
+  - HS 243
+  type: GC
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.43
+m_v:
+  apparent_magnitude_v: 12.284
+  mean_ebv: 0.06
+  ref_m_v: Bica1996ApJS..102...57B
+proper_motion:
+  pmra: 1.84
+  pmra_em: 0.1
+  pmra_ep: 0.1
+  pmdec: 0.13
+  pmdec_em: 0.12
+  pmdec_ep: 0.12
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.30
+  metallicity_spectroscopic_em: 0.15
+  metallicity_spectroscopic_ep: 0.15
+  ref_metallicity_spectroscopic: Piatti2018MNRAS.481...49P
+metallicity_photometric:
+  metallicity_photometric: -1.5
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+velocity:
+  vlos_systemic: 249.6
+  vlos_systemic_em: 12.8
+  vlos_systemic_ep: 12.8
+  ref_vlos: Piatti2018MNRAS.481...49P
+age:
+  age: 13.0
+  ref_age: Milone2023A&A...672A.161M

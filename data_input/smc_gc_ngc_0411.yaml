@@ -1,0 +1,57 @@
+key: smc_gc_ngc_0411
+table: gc_dwarf_hosted
+location:
+  ra: 16.983124999999998
+  dec: -71.76780555555555
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: smc
+  name: NGC 411
+  # other_name:
+  # - list
+  # ref_discovery:
+  # - list
+  # type: GC
+# notes:
+# - list
+structure:
+  rhalf: 2.87
+  spatial_units: arcsec
+  ref_structure: Goudfrooij2014ApJ...797...35G
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.97
+m_v:
+  apparent_magnitude_v: 11.65
+  apparent_magnitude_v_em: 0.07
+  apparent_magnitude_v_ep: 0.07
+  mean_ebv: 0.06
+  ref_m_v: Song2021MNRAS.504.4160S
+proper_motion:
+  pmra: 0.87
+  pmra_em: 0.08
+  pmra_ep: 0.08
+  pmdec: -1.12
+  pmdec_em: 0.06
+  pmdec_ep: 0.06
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_photometric:
+  metallicity_photometric: -0.7
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.66
+  metallicity_spectroscopic_sigma: 0.15
+  ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
+velocity:
+  vlos_systemic: 163.8
+  vlos_systemic_em: 0.3
+  vlos_systemic_ep: 4.5
+  vlos_sigma_central: 1.7
+  vlos_sigma_central_em: 0.6
+  vlos_sigma_central_ep: 16.8
+  ref_vlos: Song2021MNRAS.504.4160S
+age:
+  age: 1.95
+  ref_age: Milone2023A&A...672A.161M
