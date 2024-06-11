@@ -36,7 +36,9 @@ The collections are split such that a single reference can describe the contents
 
 * **structure** -- yaml collection
   
-  * **rhalf** -- [arcmin] 
+  * **rhalf** -- [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+
+  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input rhalf
 
   * **ellipticity**
 
@@ -48,11 +50,15 @@ The collections are split such that a single reference can describe the contents
 
   * **distance_modulus**
 
+  * **distance_fixed_host** -- True/False. This option fixes the distance of the object to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy and new (unconfirmed) satellites of more distant hosts (>3 Mpc)
+
   * **ref_distance**
 
 * **m_v** -- yaml collection
 
   * **apparent_magnitude_v** -- corrected for extinction
+
+  * **mean_ebv** -- Mean E(B-V) for reference.  This is not currently used in calculations. 
 
   * **ref_m_v**
 
@@ -62,6 +68,8 @@ The collections are split such that a single reference can describe the contents
   
   * **vlos_sigma** -- stellar velocity dispersion. [km/s]
   
+  * **vlos_sigma_central** -- central stellar velocity dispersion. [km/s]
+
   * **ref_vlos**
 
 * **proper_motion**
@@ -89,7 +97,59 @@ The collections are split such that a single reference can describe the contents
   * **ref_metallicity_photometric**
 
 * **structure_king**
+
+  * **rcore** -- King core radius. [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+
+  * **rking** -- King limiting radius, commonly called the tidal radius. [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+
+  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameters.
+
+  * **ellipticity** -- from King fit.
+
+  * **position_angle** -- from King fit.
+
+  * **ref_structure_king**
+
 * **structure_sersic**
+
+  * **n_sersic** -- Sersic powerlaw value.
+
+  * **rad_sersic** -- Sersic radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+
+  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
+
+  * **ellipticity** -- from Sersic fit.
+
+  * **position_angle** -- from Sersic fit.
+
+  * **ref_structure_sersic**
+
 * **structure_eff**
+
+  * **gamma_eff** -- Powerlaw value from EFF profile (Elson, Fall & Freeman 1987).
+
+  * **rad_eff** -- EFF scale radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+
+  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
+
+  * **ellipticity** -- from Sersic fit.
+
+  * **position_angle** -- from Sersic fit.
+
+  * **ref_structure_sersic**
+
 * **flux_HI**
+
+  * **flux_HI** -- HI flux in [km/s]
+
+  **vlos_systemic_HI** -- Hi systemic velocity [km/s]
+
+  **sigma_HI** -- velocity dispersion of HI gas [km/s]
+
+  **vrot_HI** -- rotation velocity of HI gas [km/s]
+
 * **age**
+
+  * **age** -- [Gyr]
+
+  * **ref_age**
