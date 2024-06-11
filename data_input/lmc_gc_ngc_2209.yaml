@@ -1,0 +1,59 @@
+key: lmc_gc_ngc_2209
+table: gc_dwarf_hosted
+location:
+  ra: 92.15025 
+  dec: -73.83552777777777
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: lmc
+  name: NGC 2209
+  other_name:
+  - SL 849
+  - LW 408
+  # ref_discovery:
+  # - list
+  type: GC
+# notes:
+# - list
+structure:
+  rhalf: 5.52
+  spatial_units: arcsec
+  ref_structure: McLaughlin2005ApJS..161..304M
+distance:
+  ref_distance: Correnti2014ApJ...793..121C
+  distance_modulus: 18.37
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+m_v:
+  apparent_magnitude_v: 11.92
+  apparent_magnitude_v_em: 0.02
+  apparent_magnitude_v_ep: 0.02
+  mean_ebv: 0.074
+  ref_m_v: Bica1996ApJS..102...57B
+proper_motion:
+  pmra: 1.888
+  pmra_em: 0.154
+  pmra_ep: 0.154
+  pmdec: 0.957
+  pmdec_em: 0.171
+  pmdec_ep: 0.171
+  ref_proper_motion: Bennet2022ApJ...935..149B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.52
+  metallicity_spectroscopic_sigma: 0.15
+  ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
+velocity:
+  vlos_systemic: 251.2
+  vlos_systemic_em: 0.4
+  vlos_systemic_ep: 0.1
+  vlos_sigma_central: 0.8
+  vlos_sigma_central_em: 0.2
+  vlos_sigma_central_ep: 1.2
+  ref_vlos: Song2021MNRAS.504.4160S
+age:
+  age: 1.15
+  age_em: 0.05
+  age_ep: 0.05
+  ref_age: Correnti2014ApJ...793..121C

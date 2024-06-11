@@ -1,0 +1,26 @@
+key: lmc_gc_sl_075
+table: gc_dwarf_hosted
+location:
+  ra: 93.36358333333332
+  dec: -70.69583333333334
+name_discovery:
+  confirmed_star_cluster: 1
+  host: lmc
+  name: SL 075
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.49
+proper_motion:
+  pmra: 1.68
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  pmdec: 1.07
+  pmdec_em: 0.04
+  pmdec_ep: 0.04
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_photometric:
+  metallicity_photometric: -0.4
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+age:
+  age: 1.95
+  ref_age: Milone2023A&A...672A.161M

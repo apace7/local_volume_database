@@ -1,0 +1,50 @@
+key: lmc_gc_hodge_006
+table: gc_dwarf_hosted
+location:
+  ra: 85.57208
+  dec: -71.59097
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: lmc
+  name: Hodge 6
+  other_name:
+  - SL 668
+  - LW 274
+  ref_discovery:
+  - Hodge1960ApJ...131..351H
+  type: GC
+# notes:
+# - list
+structure:
+  rhalf: 0.782
+  spatial_units: arcmin
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.4
+m_v:
+  apparent_magnitude_v: 11.811
+  mean_ebv: 0.15
+  ref_m_v: Baumgardt2020PASA...37...46B
+proper_motion:
+  pmra:  1.95
+  pmra_em: 0.06
+  pmra_ep: 0.06
+  pmdec: 0.76
+  pmdec_em: 0.06
+  pmdec_ep: 0.06
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_photometric:
+  metallicity_photometric: -0.5
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+velocity:
+  vlos_systemic: 241.61
+  vlos_systemic_em: 2.27
+  vlos_systemic_ep: 2.27
+  vlos_sigma_central: 1.61
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+age:
+  age: 2.3
+  ref_age: Milone2023A&A...672A.161M

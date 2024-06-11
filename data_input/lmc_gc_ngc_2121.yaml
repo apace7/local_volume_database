@@ -1,0 +1,56 @@
+key: lmc_gc_ngc_2121
+table: gc_dwarf_hosted
+location:
+  ra: 87.05508
+  dec: -71.4797
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 0
+  host: lmc
+  name: NGC 2121
+  other_name:
+  - SL 725
+  - LW 303
+  # ref_discovery:
+  # - list
+  type: GC
+# notes:
+# - list
+structure:
+  rhalf: 1.225
+  spatial_units: arcmin
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.48
+m_v:
+  apparent_magnitude_v: 12.06
+  mean_ebv: 0.09
+  ref_m_v: Baumgardt2020PASA...37...46B
+proper_motion:
+  pmra: 1.76
+  pmra_em: 0.05
+  pmra_ep: 0.05
+  pmdec: 0.96
+  pmdec_em: 0.04
+  pmdec_ep: 0.04
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_photometric:
+  metallicity_photometric: -0.5
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.54
+  metallicity_spectroscopic_sigma: 0.11
+  ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
+velocity:
+  vlos_systemic: 237.0
+  vlos_systemic_em: 0.2
+  vlos_systemic_ep: 0.3
+  vlos_sigma_central: 1.8
+  vlos_sigma_central_em: 0.4
+  vlos_sigma_central_ep: 0.1
+  ref_vlos: Song2021MNRAS.504.4160S
+age:
+  age: 2.9
+  ref_age: Milone2023A&A...672A.161M

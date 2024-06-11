@@ -1,0 +1,55 @@
+key: lmc_gc_ngc_1806
+table: gc_dwarf_hosted
+location:
+  ra: 75.54583
+  dec: -67.98805
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: lmc
+  name: NGC 1806
+  other_name:
+  - SL 184
+  # ref_discovery:
+  # - list
+  type: GC
+# notes:
+# - list
+structure:
+  rhalf: 1.14
+  spatial_units: arcmin
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+distance:
+  ref_distance:  Milone2023A&A...672A.161M
+  distance_modulus: 18.52
+m_v:
+  apparent_magnitude_v: 10.938
+  mean_ebv: 0.04
+  ref_m_v: Baumgardt2020PASA...37...46B
+proper_motion:
+  pmra: 1.85
+  pmra_em: 0.05
+  pmra_ep: 0.05
+  pmdec: -0.06
+  pmdec_em: 0.07
+  pmdec_ep: 0.07
+  ref_proper_motion:  Milone2023A&A...672A.161M
+metallicity_photometric:
+  metallicity_photometric: -0.6
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.53
+  metallicity_spectroscopic_sigma: 0.10
+  ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
+velocity:
+  vlos_systemic: 229.6
+  vlos_systemic_em: 0.4
+  vlos_systemic_ep: 0.4
+  vlos_sigma_central: 2.4
+  vlos_sigma_central_em: 0.6
+  vlos_sigma_central_ep: 0.4
+  ref_vlos: Song2021MNRAS.504.4160S
+age:
+  age: 1.6
+  ref_age:  Milone2023A&A...672A.161M

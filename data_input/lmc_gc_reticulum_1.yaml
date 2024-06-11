@@ -1,4 +1,4 @@
-key: reticulum_1
+key: lmc_gc_reticulum_1
 table: gc_dwarf_hosted
 location:
   ra: 69.04579167 # [deg]
@@ -12,10 +12,13 @@ name_discovery:
   other_name:
   - GLC 0435-59
   - ESO 118-31
+  - KMHK 10
+  - Sersic 40/3
   ref_discovery:
   - Sersic1974Ap&SS..28..365S
 structure:
   rhalf: 1.60 # [arcmin]
+  spatial_units: arcmin
   ref_structure: Baumgardt2018MNRAS.478.1520B
 distance:
   distance_modulus: 18.40
@@ -23,9 +26,8 @@ distance:
   # distance_modulus_ep: 0
   ref_distance: Milone2023A&A...672A.161M
 m_v:
-  apparent_magnitude_v: 12.25 # this might need reddening correction
-  # apparent_magnitude_v_em: 0
-  # apparent_magnitude_v_ep: 0
+  apparent_magnitude_v: 12.095
+  mean_ebv: 0.05
   ref_m_v: Baumgardt2020PASA...37...46B
 proper_motion:
   pmra: 1.95

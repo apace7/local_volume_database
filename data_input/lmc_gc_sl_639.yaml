@@ -1,0 +1,49 @@
+key: lmc_gc_sl_639
+table: gc_dwarf_hosted
+location:
+  ra: 84.91514
+  dec: -69.19778
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: lmc
+  name: SL 639
+  other_name:
+  - M-OB3
+  # ref_discovery:
+  # - list
+  type: GC
+# notes:
+# - list
+structure:
+  rhalf: 0.214
+  spatial_units: arcmin
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+distance:
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+  distance_modulus: 18.5
+m_v:
+  apparent_magnitude_v: 10.445
+  mean_ebv: 0.35
+  ref_m_v: Baumgardt2020PASA...37...46B
+proper_motion:
+  pmra: 1.82
+  pmra_em: 0.02
+  pmra_ep: 0.02
+  pmdec: 0.66
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+metallicity_photometric:
+  metallicity_photometric: -0.4
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+velocity:
+  vlos_systemic: 251.72
+  vlos_systemic_em: 1.36
+  vlos_systemic_ep: 1.36
+  vlos_sigma_central: 0.62
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+age:
+  age: 0.02
+  ref_age: Baumgardt2018MNRAS.478.1520B

@@ -1,20 +1,25 @@
+key: ngc_5904
+table: gc_harris
+location:
+  ra: 229.638412
+  dec: 2.081028
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 5904
+  other_name:
+  - M 5
+  host: mw  
 age:
   age: 11.46
   age_em: 0.44
   age_ep: 0.44
   ref_age: Kruijssen2019MNRAS.486.3180K
 distance:
-  distance: 7.479
-  distance_em: 0.06
-  distance_ep: 0.06
   distance_modulus: 14.369
   distance_modulus_em: 0.017
   distance_modulus_ep: 0.017
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_5904
-location:
-  dec: 2.081028
-  ra: 229.638412
 m_v:
   apparent_magnitude_v: 5.86
   apparent_magnitude_v_em: 0.03
@@ -23,25 +28,17 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.29
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: NGC 5904
-  other_name:
-  - M 5
-  host: mw
 proper_motion:
-  pmdec: -9.8696
-  pmdec_em: 0.0231
-  pmdec_ep: 0.0231
   pmra: 4.0856
   pmra_em: 0.023
   pmra_ep: 0.023
+  pmdec: -9.8696
+  pmdec_em: 0.0231
+  pmdec_ep: 0.0231
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.62
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 53.5

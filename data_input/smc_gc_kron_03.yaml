@@ -1,0 +1,57 @@
+key: smc_gc_kron_03
+table: gc_dwarf_hosted
+location:
+  ra: 6.194291666666666
+  dec: -72.7936111111111
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: smc
+  name: Kron 3
+  # other_name:
+  # - list
+  # ref_discovery:
+  # - list
+  type: GC
+# notes:
+# - list
+structure:
+  rhalf: 6.38
+  spatial_units: arcsec
+  ref_structure: Glatt2009AJ....138.1403G
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.93
+m_v:
+  apparent_magnitude_v: 11.33
+  apparent_magnitude_v_em: 0.9
+  apparent_magnitude_v_ep: 0.9
+  mean_ebv: 0.02
+  ref_m_v: Song2021MNRAS.504.4160S
+proper_motion:
+  pmra: 0.53
+  pmra_em: 0.02
+  pmra_ep: 0.02
+  pmdec: -1.35
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_photometric:
+  metallicity_photometric: -0.9
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.96
+  metallicity_spectroscopic_sigma: 0.15
+  ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
+velocity:
+  vlos_systemic: 132.7
+  vlos_systemic_em: 0.4
+  vlos_systemic_ep: 0.3
+  vlos_sigma_central: 2.1
+  vlos_sigma_central_em: 0.3
+  vlos_sigma_central_ep: 0.2
+  ref_vlos: Song2021MNRAS.504.4160S
+age:
+  age: 5.6
+  ref_age: Milone2023A&A...672A.161M

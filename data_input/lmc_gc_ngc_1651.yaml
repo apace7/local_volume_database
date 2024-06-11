@@ -1,0 +1,48 @@
+key: lmc_gc_ngc_1651
+table: gc_dwarf_hosted
+location:
+  ra: 69.38429
+  dec: -70.58633
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: lmc
+  name: NGC 1651
+  other_name:
+  - SL 7
+  - LW 12
+  # ref_discovery:
+  # - list
+  type: GC
+structure:
+  rhalf: 0.814
+  spatial_units: arcmin
+  ref_structure: Baumgardt2018MNRAS.478.1520B
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.48
+m_v:
+  apparent_magnitude_v: 12.068
+  mean_ebv: 0.13
+  ref_m_v: Baumgardt2020PASA...37...46B
+proper_motion:
+  pmra: 2.02
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  pmdec: -0.30
+  pmdec_em: 0.05
+  pmdec_ep: 0.05
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_photometric:
+  metallicity_photometric: -0.6
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+velocity:
+  vlos_systemic: 233.67
+  vlos_systemic_em: 1.35
+  vlos_systemic_ep: 1.35
+  vlos_sigma_central: 1.21
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+age:
+  age: 2.05
+  ref_age: Milone2023A&A...672A.161M

@@ -1,0 +1,49 @@
+key: smc_gc_ngc_0416
+table: gc_dwarf_hosted
+location:
+  ra: 16.996541666666666
+  dec: -72.35547222222222
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: NGC 416
+structure:
+  rhalf: 2.65
+  spatial_units: arcsec
+  ref_structure: Glatt2009AJ....138.1403G
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.96
+m_v:
+  apparent_magnitude_v: 11.17
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  mean_ebv: 0.11
+  ref_m_v: Song2021MNRAS.504.4160S
+proper_motion:
+  pmra: 0.88
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  pmdec: -1.24
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_photometric:
+  metallicity_photometric: -1.2
+  ref_metallicity_photometric: Milone2023A&A...672A.161M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.80
+  metallicity_spectroscopic_sigma: 0.17
+  ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
+velocity:
+  vlos_systemic: 155.0
+  vlos_systemic_em: 0.5
+  vlos_systemic_ep: 1.0
+  vlos_sigma_central: 3.4
+  vlos_sigma_central_em: 0.7
+  vlos_sigma_central_ep: 0.6
+  ref_vlos: Song2021MNRAS.504.4160S
+age:
+  age: 6.0
+  ref_age: Milone2023A&A...672A.161M

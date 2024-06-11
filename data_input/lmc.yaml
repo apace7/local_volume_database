@@ -1,8 +1,8 @@
 key: lmc
 table: dwarf_mw
 location:
-  dec: -69.7561
   ra: 80.894
+  dec: -69.7561
 distance:
   distance_modulus: 18.477
   distance_modulus_em: 0.024
