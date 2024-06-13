@@ -12,11 +12,8 @@ name_discovery:
   other_name:
   - Andromeda XXX
 notes:
-- No discovery reference/paper but the discovery is cited as M. J. Irwin (2012, in preparation) 
+- No discovery reference/paper but the discovery is cited as M. J. Irwin (2012, in preparation)
 distance:
-  distance: 559.8
-  distance_em: 15.0
-  distance_ep: 16.0
   distance_modulus: 23.74
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06

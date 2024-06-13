@@ -12,7 +12,7 @@ name_discovery:
   other_name:
   - Patchick 125
   ref_discovery:
-  - Gran2022MNRAS.509.4962G  
+  - Gran2022MNRAS.509.4962G
 distance:
   distance_modulus: 15.4
   ref_distance: Gran2022MNRAS.509.4962G

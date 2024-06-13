@@ -1,7 +1,17 @@
+key: antlia_b
+table: dwarf_local_field
+location:
+  ra: 147.23375
+  dec: -25.99
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: ngc_3109
+  name: Antlia B
+  ref_discovery:
+  - Sand2015ApJ...812L..13S  
 distance:
-  distance: 1350.0
-  distance_em: 60.0
-  distance_ep: 60.0
   distance_modulus: 25.65
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1
@@ -11,23 +21,11 @@ flux_HI:
   flux_HI_em: 0.05
   flux_HI_ep: 0.05
   ref_flux_HI: Sand2015ApJ...812L..13S
-key: antlia_b
-location:
-  dec: -25.99
-  ra: 147.23375
 m_v:
   apparent_magnitude_v: 15.86
   apparent_magnitude_v_em: 0.6
   apparent_magnitude_v_ep: 0.6
   ref_m_v: Sand2015ApJ...812L..13S
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2015
-  host: ngc_3109
-  name: Antlia B
-  ref_discovery:
-  - Sand2015ApJ...812L..13S
 structure:
   ellipticity: 0.3
   ellipticity_em: 0.05
@@ -39,7 +37,6 @@ structure:
   rhalf: 0.72
   rhalf_em: 0.07
   rhalf_ep: 0.07
-table: dwarf_local_field
 velocity:
   ref_vlos: Zoutendijk2021arXiv211209374Z
   vlos_sigma: 8.0

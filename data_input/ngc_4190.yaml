@@ -13,9 +13,6 @@ name_discovery:
   - UGC07232
   - CGCG 187-024
 distance:
-  distance: 2767.0
-  distance_em: 76.0
-  distance_ep: 76.0
   distance_modulus: 27.21
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06

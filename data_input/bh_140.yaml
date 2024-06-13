@@ -1,13 +1,12 @@
-distance:
-  distance: 4.808
-  distance_em: 0.233
-  distance_ep: 0.258
-  distance_modulus: 13.41
-  ref_distance: Baumgardt2021MNRAS.505.5957B
 key: bh_140
 location:
   dec: -67.177
   ra: 193.473
+distance:
+  distance_modulus: 13.41
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.11
+  ref_distance: Baumgardt2021MNRAS.505.5957B
 m_v:
   apparent_magnitude_v: 7.29
   apparent_magnitude_v_em: 0.12

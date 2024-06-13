@@ -1,12 +1,19 @@
 key: m_32
 table: dwarf_m31
 location:
-  dec: 40.86511111
   ra: 10.674125
+  dec: 40.86511111
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_31
+  name: M 32
+  other_name:
+  - UGC 452
+  - NGC 221
+  - PGC002555
+  type: cE
 distance:
-  distance: 772.7
-  distance_em: 21.0
-  distance_ep: 22.0
   distance_modulus: 24.44
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
@@ -19,15 +26,6 @@ m_v:
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
   ref_m_v: McConnachie2012AJ....144....4M
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  host: m_31
-  name: M 32
-  other_name:
-  - UGC 452
-  - NGC 221
-  - PGC002555
 structure:
   ellipticity: 0.25
   ellipticity_em: 0.02

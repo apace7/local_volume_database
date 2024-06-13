@@ -1,7 +1,17 @@
+key: ngc_0300
+table: dwarf_local_field
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1828
+  host: ngc_0055
+  name: NGC 300
+  ref_discovery:
+  - Dunlop1828RSPT..118..113D
+  type: Sc
+notes:
+- NGC 55 sub-group, forming "bridge" to Sculptor? MC12
 distance:
-  distance: 2080.0
-  distance_em: 57.0
-  distance_ep: 57.0
   distance_modulus: 26.59
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
@@ -11,7 +21,6 @@ flux_HI:
   flux_HI_em: 181.0
   flux_HI_ep: 181.0
   ref_flux_HI: Westmeier2011MNRAS.410.2217W
-key: ngc_0300
 location:
   dec: -37.68444444
   ra: 13.7229167
@@ -20,16 +29,6 @@ m_v:
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
   ref_m_v: McConnachie2012AJ....144....4M
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1828
-  host: local_field
-  name: NGC 300
-  ref_discovery:
-  - Dunlop1828RSPT..118..113D
-notes:
-- NGC 55 sub-group, forming "bridge" to Sculptor? MC12
 structure:
   ellipticity: 0.83
   ellipticity_em: 0.01
@@ -39,7 +38,6 @@ structure:
   position_angle_ep: 2.0
   ref_structure: McConnachie2012AJ....144....4M
   rhalf: 5.0
-table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 146.0

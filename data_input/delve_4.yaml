@@ -2,9 +2,6 @@ age:
   age: 13.5
   ref_age: Cerny2023ApJ...953....1C
 distance:
-  distance: 45.0
-  distance_em: 4.0
-  distance_ep: 4.0
   distance_modulus: 18.28
   distance_modulus_em: 0.19
   distance_modulus_ep: 0.19

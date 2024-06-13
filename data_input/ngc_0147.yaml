@@ -3,19 +3,6 @@ table: dwarf_m31
 location:
   ra: 8.298333333
   dec: 48.50777778
-distance:
-  distance_modulus: 24.33
-  distance_modulus_em: 0.06
-  distance_modulus_ep: 0.06
-  ref_distance: Savino2022ApJ...938..101S
-flux_HI:
-  flux_HI_ul: 0.62
-  ref_flux_HI: Putman2021ApJ...913...53P
-m_v:
-  apparent_magnitude_v: 9.5
-  apparent_magnitude_v_em: 0.1
-  apparent_magnitude_v_ep: 0.1
-  ref_m_v: McConnachie2012AJ....144....4M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -31,16 +18,30 @@ name_discovery:
   ref_discovery:
   - Herschel1833RSPT..123..359H
   - Baade1944ApJ...100..147B
+  type: dE/dSph
 notes:
 - Binary w/ NGC 185? Tidal stream McConnachie2012AJ....144....4M
 - part of local group Baade1944ApJ...100..147B
+distance:
+  distance_modulus: 24.33
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.62
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 9.5
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: McConnachie2012AJ....144....4M
 proper_motion:
-  pmdec: 0.0378
-  pmdec_em: 0.0146
-  pmdec_ep: 0.0146
   pmra: 0.0232
   pmra_em: 0.0143
   pmra_ep: 0.0143
+  pmdec: 0.0378
+  pmdec_em: 0.0146
+  pmdec_ep: 0.0146
   ref_proper_motion: Sohn2020ApJ...901...43S
 structure:
   ellipticity: 0.41

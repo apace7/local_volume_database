@@ -1,23 +1,20 @@
 key: ic_1613
 table: dwarf_local_field
 location:
-  dec: 2.117777778
   ra: 16.1991667
+  dec: 2.117777778
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1906
-  host: local_field
   name: IC 1613
   other_name:
   - DDO 8
   - UGC 668
   ref_discovery:
   - Wolf1906MNRAS..67...91W
+  type: dIrr
 distance:
-  distance: 731.1
-  distance_em: 17.0
-  distance_ep: 17.0
   distance_modulus: 24.32
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.05

@@ -1,7 +1,4 @@
 distance:
-  distance: 1620.0
-  distance_em: 150.0
-  distance_ep: 150.0
   distance_modulus: 26.05
   distance_modulus_em: 0.2
   distance_modulus_ep: 0.2
@@ -24,7 +21,6 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2013
-  host: local_field
   name: Leo P
   ref_discovery:
   - Giovanelli2013AJ....146...15G

@@ -1,30 +1,12 @@
-distance:
-  distance: 934.0
-  distance_em: 21.0
-  distance_ep: 21.0
-  distance_modulus: 24.85
-  distance_modulus_em: 0.05
-  distance_modulus_ep: 0.05
-  ref_distance: Higgs2021MNRAS.503..176H
-flux_HI:
-  flux_HI: 297.4
-  flux_HI_em: 24.38
-  flux_HI_ep: 24.38
-  ref_flux_HI: Putman2021ApJ...913...53P
 key: wlm
+table: dwarf_local_field
 location:
-  dec: -15.46083333
   ra: 0.4925
-m_v:
-  apparent_magnitude_v: 10.6
-  apparent_magnitude_v_em: 0.1
-  apparent_magnitude_v_ep: 0.1
-  ref_m_v: McConnachie2012AJ....144....4M
+  dec: -15.46083333
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1910
-  host: local_field
   name: WLM
   other_name:
   - Wolf-Lundmark-Melotte
@@ -34,15 +16,31 @@ name_discovery:
   ref_discovery:
   - Wolf1909AN....183..187W
   - Melotte1926MNRAS..86..636M
+  type: dIrr
 notes:
 - Defines R_LG MC12
+distance:
+  distance_modulus: 24.85
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Higgs2021MNRAS.503..176H
+flux_HI:
+  flux_HI: 297.4
+  flux_HI_em: 24.38
+  flux_HI_ep: 24.38
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 10.6
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: McConnachie2012AJ....144....4M
 proper_motion:
-  pmdec: -0.07
-  pmdec_em: 0.02
-  pmdec_ep: 0.02
   pmra: 0.09
   pmra_em: 0.03
   pmra_ep: 0.03
+  pmdec: -0.07
+  pmdec_em: 0.02
+  pmdec_ep: 0.02
   ref_proper_motion: Battaglia2022A&A...657A..54B
 structure:
   ellipticity: 0.54
@@ -63,7 +61,6 @@ structure_sersic:
   rad_sersic_em: 0.13
   rad_sersic_ep: 0.13
   ref_structure_sersic: Higgs2021MNRAS.503..176H
-table: dwarf_local_field
 velocity:
   ref_vlos: Leaman2013ApJ...767..131L
   vlos_sigma: 17.5

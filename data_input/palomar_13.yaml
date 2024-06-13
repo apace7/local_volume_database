@@ -19,9 +19,6 @@ notes:
   reference is Bradford2011ApJ...743..167B
 - discovered by A. G. Wilson Abell1955PASP...67..258A
 distance:
-  distance: 23.475
-  distance_em: 0.397
-  distance_ep: 0.403
   distance_modulus: 16.853
   distance_modulus_em: 0.037
   distance_modulus_ep: 0.037

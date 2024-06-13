@@ -7,7 +7,6 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2023
-  host: local_field
   name: Leo M
   ref_discovery:
   - McQuinn2024ApJ...967..161M

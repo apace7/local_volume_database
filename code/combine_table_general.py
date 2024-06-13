@@ -205,6 +205,8 @@ place_gc_harris = 0
 place_gc_disk = 0
 place_gc_ufsc =0 
 place_gc_dwarf =0 
+example_keys= ['discovery_year', 'other_name', 'ref_discovery', 'type', 'spatial_units', 'central_surface_brightness', 'central_surface_brightness_em', 'central_surface_brightness_ep', 'false_positive', 'metallicity_photometric_sigma', 'mean_ebv', 'king_concentration', 'king_concentration_em', 'king_concentration_ep', 'abbreviation', 'vlos_sigma_central', 'vlos_sigma_central_em', 'vlos_sigma_central_ep', 'confirmed_star_cluster', 'vlos_systemic_HI', 'vlos_systemic_HI_em', 'vlos_systemic_HI_ep', 'sigma_HI', 'sigma_HI_em', 'sigma_HI_ep', 'vrot_HI', 'vrot_HI_em', 'vrot_HI_ep', 'ref_HI_kinematics',  'metallicity_photometric_sigma_em', 'metallicity_photometric_sigma_ep', 'apparent_magnitude_v_ul', 'age_ll']
+
 ## this add each galaxy/star cluster to the tables. 
 for i in range(len(dir_list)):
     with open(path+ dir_list[i], 'r') as stream:
@@ -236,9 +238,15 @@ for i in range(len(dir_list)):
         else:
             missing_table.append(stream_yaml['table'])
             missing_table_key.append(stream_yaml['key'])
-        missing_key.append(miss)
+        if len(miss)>0:
+            for iter in range(len(miss)):
+                    if miss[iter] not in example_keys:
+                        missing_key.append(miss[iter])
+                        # print('extra key',stream_yaml['key'], miss)
 
-print("missing yaml entry", Counter(np.concatenate(missing_key).flat))
+# print("missing yaml entry", Counter(np.concatenate(missing_key).flat))
+# print(missing_key)
+print(Counter(missing_key).keys())
 print()
 missing_table = np.array(missing_table)
 missing_table_key = np.array(missing_table_key)

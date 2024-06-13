@@ -4,9 +4,6 @@ location:
   ra: 45.347666666666655
   dec: 40.984833333333334
 distance:
-  distance: 704.7
-  distance_em: 19.0
-  distance_ep: 20.0
   distance_modulus: 24.24
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
@@ -42,7 +39,7 @@ structure:
   position_angle_em: 20
   position_angle_ep: 23
   ref_structure: Rhode2023AJ....166..180R
-  rhalf: 1.40
+  rhalf: 1.4
   rhalf_em: 0.06
   rhalf_ep: 0.07
 structure_sersic:

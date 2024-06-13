@@ -1,12 +1,23 @@
 key: ngc_6822
 table: dwarf_local_field
 location:
-  dec: -14.78916667
   ra: 296.2358333
+  dec: -14.78916667
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1884
+  name: NGC 6822
+  other_name:
+  - IC 4895
+  - DDO 209
+  - Barnard's Galaxy
+  ref_discovery:
+  - Barnard1884AN....110..125B
+  type: dIrr
+notes:
+- Polar ring morphology MC12
 distance:
-  distance: 570.0
-  distance_em: 12.0
-  distance_ep: 12.0
   distance_modulus: 23.78
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.05
@@ -27,27 +38,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.01
   metallicity_spectroscopic_sigma: 0.49
   ref_metallicity_spectroscopic: Kirby2013ApJ...779..102K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1884
-  host: local_field
-  name: NGC 6822
-  other_name:
-  - IC 4895
-  - DDO 209
-  - Barnard's Galaxy
-  ref_discovery:
-  - Barnard1884AN....110..125B
-notes:
-- Polar ring morphology MC12
 proper_motion:
-  pmdec: -0.07
-  pmdec_em: 0.01
-  pmdec_ep: 0.01
   pmra: -0.06
   pmra_em: 0.01
   pmra_ep: 0.01
+  pmdec: -0.07
+  pmdec_em: 0.01
+  pmdec_ep: 0.01
   ref_proper_motion: Battaglia2022A&A...657A..54B
 structure:
   ellipticity: 0.28

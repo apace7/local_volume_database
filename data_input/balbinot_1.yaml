@@ -17,9 +17,6 @@ age:
   age_ep: 1.4
   ref_age: Balbinot2013ApJ...767..101B
 distance:
-  distance: 31.9
-  distance_em: 1.6
-  distance_ep: 1.0
   distance_modulus: 17.52
   distance_modulus_em: 0.11
   distance_modulus_ep: 0.07

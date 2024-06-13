@@ -1,15 +1,28 @@
+key: kkr_3
+table: dwarf_local_field
+location:
+  ra: 211.79375
+  dec: 35.06027778
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1998
+  name: KKR 3
+  other_name:
+  - KK 230
+  - '[KK98]230'
+  - PGC166185
+  ref_discovery:
+  - Karachentseva1998A&AS..127..409K
+  - Karachentseva1999A&AS..135..221K
+  type: dIrr
+notes:
+- Member of the Canes Venatici I cloud MC12
 distance:
-  distance: 2188.0
-  distance_em: 121.0
-  distance_ep: 121.0
   distance_modulus: 26.7
   distance_modulus_em: 0.12
   distance_modulus_ep: 0.12
   ref_distance: McConnachie2012AJ....144....4M
-key: kkr_3
-location:
-  dec: 35.06027778
-  ra: 211.79375
 m_v:
   apparent_magnitude_v: 17.2
   apparent_magnitude_v_em: 0.3
@@ -20,21 +33,6 @@ metallicity_photometric:
   metallicity_photometric_em: 0.25
   metallicity_photometric_ep: 0.25
   ref_metallicity_photometric: McConnachie2006MNRAS.365.1263M
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1998
-  host: local_field
-  name: KKR 3
-  other_name:
-  - KK 230
-  - '[KK98]230'
-  - PGC166185
-  ref_discovery:
-  - Karachentseva1998A&AS..127..409K
-  - Karachentseva1999A&AS..135..221K
-notes:
-- Member of the Canes Venatici I cloud MC12
 structure:
   ellipticity: 0.05
   ellipticity_em: 0.01
@@ -46,7 +44,6 @@ structure:
   rhalf: 0.36
   rhalf_em: 0.04
   rhalf_ep: 0.04
-table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 63.3

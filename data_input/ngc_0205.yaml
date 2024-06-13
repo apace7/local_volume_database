@@ -11,7 +11,8 @@ name_discovery:
   name: NGC 205
   other_name:
   - M110
-  - UGC 426 
+  - UGC 426
+  type: dE/dSph
 distance:
   distance_modulus: 24.61
   distance_modulus_em: 0.06

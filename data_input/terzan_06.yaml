@@ -1,51 +1,54 @@
-distance:
-  distance: 7.271
-  distance_em: 0.343
-  distance_ep: 0.36
-  distance_modulus: 14.308
-  distance_modulus_em: 0.105
-  distance_modulus_ep: 0.105
-  ref_distance: Baumgardt2021MNRAS.505.5957B
 key: terzan_06
+table: gc_harris
 location:
-  dec: -31.275389
-  ra: 267.69325
-m_v:
-  apparent_magnitude_v: 7.22
-  apparent_magnitude_v_em: 0.07
-  apparent_magnitude_v_ep: 0.07
-  ref_m_v: Baumgardt2020PASA...37...46B
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -0.56
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+  ra: 267.6954167
+  dec: -31.2750389
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   discovery_year: 1968
   name: Terzan 6
   other_name:
-  - HP 5
   - ESO 455-49
-  - Haute-Provence 5
+  - Haute-Provence 5 (HP 5)
   - BH 249
   - MWSC 2719
   ref_discovery:
   - Terzan1968CRASB.267.1245T
   host: mw
+distance:
+  distance_modulus: 14.308
+  distance_modulus_em: 0.105
+  distance_modulus_ep: 0.105
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+m_v:
+  apparent_magnitude_v: 7.22
+  apparent_magnitude_v_em: 0.07
+  apparent_magnitude_v_ep: 0.07
+  mean_ebv: 2.35
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.65
+  metallicity_spectroscopic_em: 0.01
+  metallicity_spectroscopic_ep: 0.01
+  metallicity_spectroscopic_sigma: 0.03
+  ref_metallicity_spectroscopic: Fanelli2024arXiv240607180F
 proper_motion:
-  pmdec: -7.4313
-  pmdec_em: 0.0392
-  pmdec_ep: 0.0392
   pmra: -4.979
   pmra_em: 0.0482
   pmra_ep: 0.0482
+  pmdec: -7.4313
+  pmdec_em: 0.0392
+  pmdec_ep: 0.0392
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 0.5
-table: gc_harris
 velocity:
-  ref_vlos: Baumgardt2018MNRAS.478.1520B
-  vlos_systemic: 136.45
-  vlos_systemic_em: 1.5
-  vlos_systemic_ep: 1.5
+  ref_vlos: Fanelli2024arXiv240607180F
+  vlos_systemic: 143.3
+  vlos_systemic_em: 1.0
+  vlos_systemic_ep: 1.0
+  vlos_sigma: 5.1
+  vlos_sigma_em: 0.7
+  vlos_sigma_ep: 0.7

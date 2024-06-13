@@ -1,7 +1,4 @@
 distance:
-  distance: 2443.0
-  distance_em: 191.0
-  distance_ep: 191.0
   distance_modulus: 26.94
   distance_modulus_em: 0.17
   distance_modulus_ep: 0.17
@@ -24,12 +21,12 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1902
-  host: local_field
   name: IC 4662
   other_name:
   - ESO 102-G014
   ref_discovery:
   - Lunt1902MNRAS..62..468L
+  type: dIrr
 structure:
   ellipticity: 0.27
   ellipticity_em: 0.01

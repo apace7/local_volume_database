@@ -4,9 +4,6 @@ age:
   age_ep: 1.0
   ref_age: Dias2022A&A...657A..67D
 distance:
-  distance: 7.24
-  distance_em: 0.5
-  distance_ep: 0.5
   distance_modulus: 14.3
   ref_distance: Dias2022A&A...657A..67D
 key: fsr_1776

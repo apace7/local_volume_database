@@ -4,9 +4,6 @@ age:
   age_ep: 0.42
   ref_age: Kruijssen2019MNRAS.486.3180K
 distance:
-  distance: 10.175
-  distance_em: 0.081
-  distance_ep: 0.082
   distance_modulus: 15.038
   distance_modulus_em: 0.017
   distance_modulus_ep: 0.017

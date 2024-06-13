@@ -11,8 +11,8 @@ name_discovery:
   name: NGC 1841
   other_name:
   - ESO 4SC-15
-  # ref_discovery:
-  # - list
+  ref_discovery:
+  - Shapley1940BHarO.914....6S
   type: GC
 # notes:
 # - list

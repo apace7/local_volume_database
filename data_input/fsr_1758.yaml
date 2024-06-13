@@ -4,9 +4,6 @@ age:
   age_ep: 1.25
   ref_age: RomeroColmenares2021A&A...652A.158R
 distance:
-  distance: 11.085
-  distance_em: 0.71
-  distance_ep: 0.764
   distance_modulus: 15.224
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: fsr_1758

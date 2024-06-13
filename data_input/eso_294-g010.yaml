@@ -7,16 +7,14 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1982
-  host: ngc_0253
+  host: ngc_0055
   name: ESO 294-G010
   ref_discovery:
   - Lauberts1982euse.book.....L
+  type: dIrr/dSph
 notes:
 - NGC 55 sub-group, forming "bridge" to Sculptor? MC12
 distance:
-  distance: 2032.0
-  distance_em: 37.0
-  distance_ep: 37.0
   distance_modulus: 26.54
   distance_modulus_em: 0.04
   distance_modulus_ep: 0.04

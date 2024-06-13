@@ -1,7 +1,4 @@
 distance:
-  distance: 2270.0
-  distance_em: 188.0
-  distance_ep: 188.0
   distance_modulus: 26.78
   distance_modulus_em: 0.18
   distance_modulus_ep: 0.18
@@ -17,13 +14,13 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1908
-  host: local_field
   name: IC 3104
   other_name:
   - ESO 020-G004
   - UKS 1215-794
   ref_discovery:
   - Pickering1908AnHar..60..147P
+  type: dIrr
 structure:
   ellipticity: 0.52
   ellipticity_em: 0.02

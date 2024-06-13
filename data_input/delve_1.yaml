@@ -4,9 +4,6 @@ age:
   age_ep: 1.0
   ref_age: Mau2020ApJ...890..136M
 distance:
-  distance: 19.0
-  distance_em: 0.6
-  distance_ep: 0.5
   distance_modulus: 16.39
   distance_modulus_em: 0.12
   distance_modulus_ep: 0.12

@@ -4,9 +4,6 @@ age:
   age_ep: 2.0
   ref_age: Ortolani2009AJ....138..889O
 distance:
-  distance: 16.4
-  distance_em: 2.0
-  distance_ep: 2.0
   distance_modulus: 16.07
   ref_distance: Ortolani2009AJ....138..889O
 key: pfleiderer_2

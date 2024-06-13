@@ -2,9 +2,6 @@ age:
   age: 12.0
   ref_age: Minniti2021A&A...650L..11M
 distance:
-  distance: 4.0
-  distance_em: 0.2
-  distance_ep: 0.2
   distance_modulus: 13.01
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1

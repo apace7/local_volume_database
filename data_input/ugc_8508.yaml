@@ -1,7 +1,4 @@
 distance:
-  distance: 2582.0
-  distance_em: 59.0
-  distance_ep: 59.0
   distance_modulus: 27.06
   distance_modulus_em: 0.03
   distance_modulus_ep: 0.03
@@ -24,10 +21,10 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1962
-  host: local_field
   name: UGC 8508
   ref_discovery:
   - VorontsovVelYaminov1962TrSht..32..207V
+  type: dIrr
 structure:
   ellipticity: 0.45
   ellipticity_em: 0.05

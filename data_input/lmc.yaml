@@ -3,16 +3,6 @@ table: dwarf_mw
 location:
   ra: 80.894
   dec: -69.7561
-distance:
-  distance_modulus: 18.477
-  distance_modulus_em: 0.024
-  distance_modulus_ep: 0.024
-  ref_distance: Pietrzynski2019Natur.567..200P
-m_v:
-  apparent_magnitude_v: 0.4
-  apparent_magnitude_v_em: 0.1
-  apparent_magnitude_v_ep: 0.1
-  ref_m_v: deVaucouleurs1991rc3..book.....D
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -24,6 +14,17 @@ name_discovery:
   - Large Magellanic Cloud
   - Large Milky Cloud
   abbreviation: LMC
+  type: Irr
+distance:
+  distance_modulus: 18.477
+  distance_modulus_em: 0.024
+  distance_modulus_ep: 0.024
+  ref_distance: Pietrzynski2019Natur.567..200P
+m_v:
+  apparent_magnitude_v: 0.4
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: deVaucouleurs1991rc3..book.....D
 structure:
   rhalf: 192.9
   rhalf_em: 0.2

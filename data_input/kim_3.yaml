@@ -4,9 +4,6 @@ age:
   age_ep: 3.0
   ref_age: Kim2016ApJ...820..119K
 distance:
-  distance: 15.14
-  distance_em: 0.28
-  distance_ep: 1.0
   distance_modulus: 15.9
   distance_modulus_em: 0.04
   distance_modulus_ep: 0.11

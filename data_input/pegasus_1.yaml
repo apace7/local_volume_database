@@ -1,12 +1,20 @@
 key: pegasus_1
 table: dwarf_local_field
 location:
-  dec: 14.74305556
   ra: 352.15125
+  dec: 14.74305556
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1958
+  name: Pegasus dIrr
+  other_name:
+  - UGC 12613
+  - DDO 216
+  ref_discovery:
+  - Holmberg1958_hand
+  type: dIrr/dSph
 distance:
-  distance: 887.2
-  distance_em: 20.0
-  distance_ep: 21.0
   distance_modulus: 24.74
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.05
@@ -27,24 +35,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.01
   metallicity_spectroscopic_sigma: 0.56
   ref_metallicity_spectroscopic: Kirby2013ApJ...779..102K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1958
-  host: local_field
-  name: Pegasus dIrr
-  other_name:
-  - UGC 12613
-  - DDO 216
-  ref_discovery:
-  - Holmberg1958_hand
 proper_motion:
-  pmdec: 0.07
-  pmdec_em: 0.11
-  pmdec_ep: 0.12
   pmra: 0.15
   pmra_em: 0.14
   pmra_ep: 0.13
+  pmdec: 0.07
+  pmdec_em: 0.11
+  pmdec_ep: 0.12
   ref_proper_motion: Battaglia2022A&A...657A..54B
 structure:
   ellipticity: 0.56

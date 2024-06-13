@@ -1,7 +1,4 @@
 distance:
-  distance: 2178.0
-  distance_em: 120.0
-  distance_ep: 120.0
   distance_modulus: 26.69
   distance_modulus_em: 0.12
   distance_modulus_ep: 0.12
@@ -22,7 +19,6 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1956
-  host: local_field
   name: GR 8
   other_name:
   - UGC 8091

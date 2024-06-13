@@ -24,9 +24,6 @@ age:
   age_ep: 2.0
   ref_age: Kim2015ApJ...803...63K
 distance:
-  distance: 104.7
-  distance_em: 4.1
-  distance_ep: 4.1
   distance_modulus: 20.1
   distance_modulus_em: 0.1
   distance_modulus_ep: 0.1

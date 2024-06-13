@@ -19,10 +19,10 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1828
-  host: local_field
   name: NGC 55
   ref_discovery:
   - Dunlop1828RSPT..118..113D
+  type: Irr
 notes:
 - NGC 55 sub-group, forming "bridge" to Sculptor? MC12
 structure:

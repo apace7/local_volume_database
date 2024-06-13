@@ -1,7 +1,4 @@
 distance:
-  distance: 2523.0
-  distance_em: 105.0
-  distance_ep: 105.0
   distance_modulus: 27.01
   distance_modulus_em: 0.09
   distance_modulus_ep: 0.09
@@ -24,10 +21,10 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2001
-  host: local_field
   name: KKH 98
   ref_discovery:
   - Karachentsev2001A&A...366..428K
+  type: dIrr
 structure:
   ellipticity: 0.41
   ellipticity_em: 0.01

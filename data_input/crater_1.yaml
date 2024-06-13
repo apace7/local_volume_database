@@ -9,9 +9,6 @@ age:
   age_ep: 0.4
   ref_age: Weisz2016ApJ...822...32W
 distance:
-  distance: 146.0
-  distance_em: 3.0
-  distance_ep: 3.0
   distance_modulus: 20.82
   distance_modulus_em: 0.045
   distance_modulus_ep: 0.044

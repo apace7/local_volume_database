@@ -2,9 +2,6 @@ age:
   age: 3.5
   ref_age: Simpson2017MNRAS.471.4087S
 distance:
-  distance: 4.46
-  distance_em: 0.21
-  distance_ep: 0.21
   distance_modulus: 13.25
   ref_distance: Simpson2017MNRAS.471.4087S
 key: gaia_1

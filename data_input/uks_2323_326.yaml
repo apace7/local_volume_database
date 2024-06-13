@@ -1,7 +1,4 @@
 distance:
-  distance: 2208.0
-  distance_em: 92.0
-  distance_ep: 92.0
   distance_modulus: 26.72
   distance_modulus_em: 0.09
   distance_modulus_ep: 0.09
@@ -24,7 +21,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1978
-  host: local_field
+  host: ngc_0055
   name: UKS 2323-326
   other_name:
   - UGCA 438
@@ -33,6 +30,7 @@ name_discovery:
   - PGC071431
   ref_discovery:
   - Longmore1978MNRAS.183P..97L
+  type: dIrr
 notes:
 - NGC 55 sub-group, forming "bridge" to Sculptor? MC12
 structure:

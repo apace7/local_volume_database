@@ -63,7 +63,7 @@ columns:
 * confirmed_dwarf: (or confirmed_star_cluster) system has been confirmed to be dwarf galaxy (or star cluster) based on spectroscopy, and/or deeper photometry.
 * ra: right ascension ICRS [degree]
 * dec: declination ICRS [degree]
-* rhalf: major half-light radius (or plummer radius) in [arcmin]
+* rhalf: major half-light radius (or plummer radius) in [arcmin]. Note that input yaml files can have arcsec or arcmin input units. 
 * ellipticity: 1 - minor/major axis (or 1 - axis ratio)
 * position_angle: N->E [degree] 
 * distance_modulus [mag]
@@ -105,12 +105,12 @@ Decription of yaml files
 ------------------------
 
 There is an `example yaml file <https://github.com/apace7/local_volume_database/blob/main/code/example_yaml.yaml>`_ in the /code/ folder. 
-It includes all collections and keys in the database with a short descrition and units.  Not all keys are entered into the csv tables.
-The yaml keys are **Bolded** below and the bullet points follow the yaml collection structure.  Errors columns are not included. 
+It includes all collections and keys in the database with a short descrition and units.  Not all keys are included in the combined csv tables.
+The yaml keys are **Bolded** below and the bullet points follow the yaml collection structure.  Errors columns are not included in the list below and some columns include upper limits in the combined table. 
 The collections are split such that a single reference can describe the contents.
 
-* **key** —- unique internal identifier. This should be the same as the name of the file (without .yaml) (required yaml key)
-* **table** -- table to place system into (required yaml key) list of possible tables [gc_harris, gc_dwarf_hosted, gc_disk, gc_ufsc, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc]
+* **key** —- unique internal identifier. This should be the same as the name of the file (without .yaml) (required yaml key). All keys are lowercase in LVDB. Globular clusters and some dwarf galaxies are grouped by their host (for example, all LMC globular cluster keys have the prefix lmc_gc_ and many Centuarus A dwarf galaxy keys have the prefix cena_ ). 
+* **table** -- table to place system into (required yaml key) list of possible tables [gc_harris, gc_dwarf_hosted, gc_disk, gc_ufsc, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc]. Objects in the candidate and misc tables are not combined into files. The candidate objects are included in the lvdb pdf summary. The misc objects are primarily bright host galaxies (MW, M31, Cen A) and only included for distance measurements (**distance_fixed_host**) and to link objects together. 
 * **location** -- center of the system (yaml collection)
 
   * **ra** -- right ascension ICRS [degree]  (required yaml key)
@@ -175,9 +175,9 @@ The collections are split such that a single reference can describe the contents
 
   * **vlos_systemic** -- systemic heliocentric velocity of the system. Stellar velocities are preferred but some distant objects are from HI observations. [km/s]
   
-  * **vlos_sigma** -- stellar velocity dispersion. [km/s]
+  * **vlos_sigma** -- stellar velocity dispersion. [km/s]. Sometimes called the global velocity dispersion.
 
-  * **vlos_sigma_central** -- central stellar velocity dispersion. [km/s]
+  * **vlos_sigma_central** -- central stellar velocity dispersion. [km/s]. Primarily for globular clusters.
   
   * **ref_vlos** -- reference
 
@@ -268,7 +268,7 @@ The collections are split such that a single reference can describe the contents
 Citations to database and citations to the LVDB input
 -----------------------------
 
-The LVDB is set up to enable citations to the analysis and papers that serves as input to the LVDB. All reference columns (**ref_**) follow the same format of author last name (removed of special characters) + `NASA ADS bibcode <https://ui.adsabs.harvard.edu/>`_. There is a BibTeX file (`table/lvdb.bib <https://github.com/apace7/local_volume_database/blob/main/table/lvdb.bib>`_) with BibTeX entries from ADS with the key matching the LVDB reference column. There is an `ADS public library <https://ui.adsabs.harvard.edu/public-libraries/fVKkEJbdRyCmscCOwzsz6w>`_ that contains many of the input papers to the LVDB (with the goal to eventually contain all papers in the LVDB).  Papers replaced in the future will likely not be removed. 
+The LVDB is set up to enable citations to the analysis and papers that serves as input to the LVDB. All reference columns (**ref_**) follow the same format of author last name (removed of special characters) + `NASA ADS bibcode <https://ui.adsabs.harvard.edu/>`_. There is a BibTeX file (`table/lvdb.bib <https://github.com/apace7/local_volume_database/blob/main/table/lvdb.bib>`_) with BibTeX entries from ADS with the key matching the LVDB reference column. There is an `ADS public library <https://ui.adsabs.harvard.edu/public-libraries/fVKkEJbdRyCmscCOwzsz6w>`_ that contains many of the input papers to the LVDB (with the goal to eventually contain all papers in the LVDB).  Papers replaced in the future will not be removed. 
 The example notebook `example_notebooks/example_latex_citations.ipynb/ <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_latex_citations.ipynb>`_ contains an example of creating a latex table with citations using the LVDB. 
 
 As ADS bibcode are a fixed length of 19 characters, the ADS bibcode can be retrieved from the LVDB reference columns.  Other public tools such as  `adstex <https://github.com/yymao/adstex>`_ can be used to create bibtex files. 

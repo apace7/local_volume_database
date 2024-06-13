@@ -4,9 +4,6 @@ age:
   age_ep: 1.0
   ref_age: Carraro2007A&A...466..181C
 distance:
-  distance: 30.591
-  distance_em: 1.147
-  distance_ep: 1.192
   distance_modulus: 17.428
   distance_modulus_em: 0.083
   distance_modulus_ep: 0.083

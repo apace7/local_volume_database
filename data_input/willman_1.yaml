@@ -1,28 +1,8 @@
-distance:
-  distance: 38.0
-  distance_em: 7.0
-  distance_ep: 7.0
-  distance_modulus: 17.9
-  distance_modulus_em: 0.4
-  distance_modulus_ep: 0.4
-  ref_distance: Willman2006astro.ph..3486W
-flux_HI:
-  flux_HI_ul: 10.9
-  ref_flux_HI: Putman2021ApJ...913...53P
 key: willman_1
+table: dwarf_mw
 location:
-  dec: 51.0501
   ra: 162.3436
-m_v:
-  apparent_magnitude_v: 15.37
-  apparent_magnitude_v_em: 0.74
-  apparent_magnitude_v_ep: 0.74
-  ref_m_v: Munoz2018ApJ...860...66M
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.19
-  metallicity_spectroscopic_em: 0.08
-  metallicity_spectroscopic_ep: 0.08
-  ref_metallicity_spectroscopic: Willman2011AJ....142..128W
+  dec: 51.0501
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -36,6 +16,24 @@ name_discovery:
   abbreviation: Wil1
 notes:
 - potential tidal disruption + unclear kinematics Willman2011AJ....142..128W
+distance:
+  distance_modulus: 17.9
+  distance_modulus_em: 0.4
+  distance_modulus_ep: 0.4
+  ref_distance: Willman2006astro.ph..3486W
+flux_HI:
+  flux_HI_ul: 10.9
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 15.37
+  apparent_magnitude_v_em: 0.74
+  apparent_magnitude_v_ep: 0.74
+  ref_m_v: Munoz2018ApJ...860...66M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.19
+  metallicity_spectroscopic_em: 0.08
+  metallicity_spectroscopic_ep: 0.08
+  ref_metallicity_spectroscopic: Willman2011AJ....142..128W
 proper_motion:
   pmdec: -1.11
   pmdec_em: 0.091
@@ -63,7 +61,6 @@ structure_sersic:
   rad_sersic_em: 0.22
   rad_sersic_ep: 0.22
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Willman2011AJ....142..128W
   vlos_sigma: 4.0

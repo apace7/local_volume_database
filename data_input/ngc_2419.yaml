@@ -1,17 +1,25 @@
 key: ngc_2419
 table: gc_harris
 location:
-  dec: 38.881944
   ra: 114.535286
+  dec: 38.881944
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1788
+  host: sagittarius_1
+  name: NGC 2419
+  ref_discovery:
+  - Herschel1802RSPT...92..477H
+  type: GC
+notes:
+- discovered by W. Herschel in 1788
 age:
   age: 12.65
   age_em: 0.71
   age_ep: 0.71
   ref_age: Kruijssen2019MNRAS.486.3180K
 distance:
-  distance: 88.471
-  distance_em: 2.371
-  distance_ep: 2.437
   distance_modulus: 19.734
   distance_modulus_em: 0.059
   distance_modulus_ep: 0.059
@@ -24,23 +32,13 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.15
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 1788
-  host: sagittarius_1
-  name: NGC 2419
-  ref_discovery:
-  - Herschel1802RSPT...92..477H
-notes:
-- discovered by W. Herschel in 1788
 proper_motion:
-  pmdec: -0.5226
-  pmdec_em: 0.0264
-  pmdec_ep: 0.0264
   pmra: 0.0073
   pmra_em: 0.0278
   pmra_ep: 0.0278
+  pmdec: -0.5226
+  pmdec_em: 0.0264
+  pmdec_ep: 0.0264
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
@@ -58,3 +56,9 @@ velocity:
   vlos_systemic: -21.1
   vlos_systemic_em: 0.31
   vlos_systemic_ep: 0.31
+  vlos_sigma: 4.61
+  vlos_sigma_em: 0.53
+  vlos_sigma_ep: 0.53
+  vlos_sigma_central: 6.7
+  vlos_sigma_central_em: 0.72
+  vlos_sigma_central_ep: 0.87
