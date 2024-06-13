@@ -4,9 +4,6 @@ location:
   ra: 8.989333333333333
   dec: 51.56005555555555
 distance:
-  distance: 801.7
-  distance_em: 22.0
-  distance_ep: 23.0
   distance_modulus: 24.52
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
@@ -60,7 +57,7 @@ structure_sersic:
   rad_sersic: 4.63
   rad_sersic_em: 0.06
   rad_sersic_ep: 0.06
-  ellipticity: 0.30
+  ellipticity: 0.3
   ellipticity_em: 0.01
   ellipticity_ep: 0.01
   position_angle: 91

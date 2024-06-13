@@ -1,7 +1,8 @@
 key: eso_93_sc08
+table: gc_disk
 location:
-  dec: -65.22
   ra: 169.925
+  dec: -65.22
 name_discovery:
   confirmed_real: 0
   confirmed_star_cluster: 0
@@ -9,7 +10,7 @@ name_discovery:
   host: mw
   name: ESO 93-SC08
   other_name:
-  - ESO 93-SC08
+  - ESO 93-8
   ref_discovery:
   - Holmberg1977A&AS...27..295H
 proper_motion:
@@ -20,4 +21,9 @@ proper_motion:
   pmra_em: 0.0329
   pmra_ep: 0.0329
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
-table: gc_disk
+distance:
+  distance_modulus: 15.7
+velocity:
+  vlos_systemic: 86
+  vlos_systemic_em: 10
+  vlos_systemic_ep: 10

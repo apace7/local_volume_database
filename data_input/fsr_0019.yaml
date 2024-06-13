@@ -17,9 +17,6 @@ age:
   age: 11.0
   ref_age: Obasi2021A&A...654A..39O
 distance:
-  distance: 7.2
-  distance_em: 0.7
-  distance_ep: 0.7
   distance_modulus: 14.29
   distance_modulus_em: 0.08
   distance_modulus_ep: 0.08

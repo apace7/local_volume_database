@@ -3,16 +3,6 @@ table: dwarf_mw
 location:
   ra: 13.158
   dec: -72.8003
-distance:
-  distance_modulus: 18.99
-  distance_modulus_em: 0.1
-  distance_modulus_ep: 0.1
-  ref_distance: Cioni2000A&A...359..601C
-m_v:
-  apparent_magnitude_v: 2.2
-  apparent_magnitude_v_em: 0.2
-  apparent_magnitude_v_ep: 0.2
-  ref_m_v: deVaucouleurs1991rc3..book.....D
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -25,6 +15,17 @@ name_discovery:
   - Small Magellanic Cloud
   - Small Milky Cloud
   abbreviation: SMC
+  type: dIrr
+distance:
+  distance_modulus: 18.99
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
+  ref_distance: Cioni2000A&A...359..601C
+m_v:
+  apparent_magnitude_v: 2.2
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: deVaucouleurs1991rc3..book.....D
 proper_motion:
   pmra: -0.83
   pmra_em: 0.02

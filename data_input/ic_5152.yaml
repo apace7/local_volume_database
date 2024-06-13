@@ -1,7 +1,17 @@
+key: ic_5152
+table: dwarf_local_field
+location:
+  ra: 330.6729167
+  dec: -51.29638889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1899
+  name: IC 5152
+  ref_discovery:
+  - Pickering1899ApJ.....9..173P
+  type: dIrr
 distance:
-  distance: 1950.0
-  distance_em: 45.0
-  distance_ep: 45.0
   distance_modulus: 26.45
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.05
@@ -11,21 +21,9 @@ flux_HI:
   flux_HI_em: 4.46
   flux_HI_ep: 4.46
   ref_flux_HI: Putman2021ApJ...913...53P
-key: ic_5152
-location:
-  dec: -51.29638889
-  ra: 330.6729167
 m_v:
   apparent_magnitude_v: 10.59
   ref_m_v: McConnachie2012AJ....144....4M
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1899
-  host: local_field
-  name: IC 5152
-  ref_discovery:
-  - Pickering1899ApJ.....9..173P
 structure:
   ellipticity: 0.38
   ellipticity_em: 0.02
@@ -35,7 +33,6 @@ structure:
   position_angle_ep: 2.0
   ref_structure: McConnachie2012AJ....144....4M
   rhalf: 0.97
-table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 122.0

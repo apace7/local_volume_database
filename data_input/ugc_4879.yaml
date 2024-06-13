@@ -1,11 +1,22 @@
 key: ugc_4879
+table: dwarf_local_field
 location:
-  dec: 52.84
   ra: 139.0091667
+  dec: 52.84
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1959
+  name: UGC 4879
+  other_name:
+  - VV 124
+  ref_discovery:
+  - Kopylov2008MNRAS.387L..45K
+  - VorontsovVelyaminov1959VV....C......0V
+  type: dIrr/dSph
+notes:
+- Defines R_LG MC12
 distance:
-  distance: 1213.0
-  distance_em: 33.0
-  distance_ep: 33.0
   distance_modulus: 25.43
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
@@ -26,26 +37,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.02
   metallicity_spectroscopic_sigma: 0.52
   ref_metallicity_spectroscopic: Kirby2013ApJ...779..102K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1959
-  host: local_field
-  name: UGC 4879
-  other_name:
-  - VV 124
-  ref_discovery:
-  - Kopylov2008MNRAS.387L..45K
-  - VorontsovVelyaminov1959VV....C......0V
-notes:
-- Defines R_LG MC12
 proper_motion:
-  pmdec: -0.04
-  pmdec_em: 0.09
-  pmdec_ep: 0.09
   pmra: 0.0
   pmra_em: 0.11
   pmra_ep: 0.11
+  pmdec: -0.04
+  pmdec_em: 0.09
+  pmdec_ep: 0.09
   ref_proper_motion: Battaglia2022A&A...657A..54B
 structure:
   ellipticity: 0.43
@@ -66,7 +64,6 @@ structure_sersic:
   rad_sersic_em: 0.1
   rad_sersic_ep: 0.1
   ref_structure_sersic: Higgs2021MNRAS.503..176H
-table: dwarf_local_field
 velocity:
   ref_vlos: Kirby2014MNRAS.439.1015K
   vlos_sigma: 9.6

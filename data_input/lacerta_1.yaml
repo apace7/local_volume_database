@@ -4,9 +4,6 @@ location:
   ra: 344.5509166666666
   dec: 41.30619444444444
 distance:
-  distance: 744.7
-  distance_em: 17.0
-  distance_ep: 17.0
   distance_modulus: 24.36
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.05
@@ -35,7 +32,7 @@ name_discovery:
   ref_discovery:
   - Martin2013ApJ...772...15M
 structure:
-  ellipticity: 0.40
+  ellipticity: 0.4
   ellipticity_em: 0.01
   ellipticity_ep: 0.01
   position_angle: -63

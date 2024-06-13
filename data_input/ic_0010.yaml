@@ -46,7 +46,7 @@ proper_motion:
   pmra: -0.002
   pmra_em: 0.008
   pmra_ep: 0.008
-  pmdec: 0.020
+  pmdec: 0.02
   pmdec_em: 0.008
   pmdec_ep: 0.008
   ref_proper_motion: Brunthaler2007A&A...462..101B

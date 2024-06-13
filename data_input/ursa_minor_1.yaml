@@ -1,7 +1,4 @@
 distance:
-  distance: 66.0
-  distance_em: 3.0
-  distance_ep: 3.0
   distance_modulus: 19.1
   ref_distance: Nemec1988AJ.....96..528N
 flux_HI:

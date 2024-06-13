@@ -4,9 +4,6 @@ age:
   age_ep: 1.0
   ref_age: Garro2020A&A...642L..19G
 distance:
-  distance: 15.5
-  distance_em: 1.0
-  distance_ep: 1.0
   distance_modulus: 15.93
   distance_modulus_em: 0.03
   distance_modulus_ep: 0.03

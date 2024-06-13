@@ -14,9 +14,6 @@ name_discovery:
   ref_discovery:
   - Froebrich2007MNRAS.374..399F
 distance:
-  distance: 7.431
-  distance_em: 0.26
-  distance_ep: 0.27
   distance_modulus: 14.355
   ref_distance: Baumgardt2021MNRAS.505.5957B
 m_v:

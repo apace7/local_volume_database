@@ -1,30 +1,29 @@
-distance:
-  distance: 2965.0
-  distance_em: 232.0
-  distance_ep: 232.0
-  distance_modulus: 27.36
-  distance_modulus_em: 0.17
-  distance_modulus_ep: 0.17
-  ref_distance: McConnachie2012AJ....144....4M
 key: ugca_86
+table: dwarf_local_field
 location:
-  dec: 67.13861111
   ra: 59.95125
-m_v:
-  apparent_magnitude_v: 14.2
-  ref_m_v: McConnachie2012AJ....144....4M
+  dec: 67.13861111
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1974
-  host: local_field
   name: UGCA 86
   other_name:
   - VIIZw009
   ref_discovery:
   - Nilson1974UppOR...5....0N
+  type: dIrr
+  host: ic_0342
 notes:
 - Companion of IC 342
+distance:
+  distance_modulus: 27.36
+  distance_modulus_em: 0.17
+  distance_modulus_ep: 0.17
+  ref_distance: McConnachie2012AJ....144....4M
+m_v:
+  apparent_magnitude_v: 14.2
+  ref_m_v: McConnachie2012AJ....144....4M
 structure:
   ellipticity: 0.32
   ellipticity_em: 0.03
@@ -34,7 +33,6 @@ structure:
   position_angle_ep: 1.0
   ref_structure: McConnachie2012AJ....144....4M
   rhalf: 0.94
-table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 67.0

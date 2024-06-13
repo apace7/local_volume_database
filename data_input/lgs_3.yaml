@@ -15,10 +15,8 @@ name_discovery:
   ref_discovery:
   - Karachentseva1976SoSAO..18...42K
   - Kowal1978IAUC.3305....2K
+  type: dIrr/dSph
 distance:
-  distance: 605.3
-  distance_em: 14.0
-  distance_ep: 14.0
   distance_modulus: 23.91
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.05

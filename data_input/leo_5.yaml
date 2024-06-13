@@ -4,9 +4,6 @@ location:
   dec: 2.2194
   ra: 172.7857
 distance:
-  distance: 169.0
-  distance_em: 4.4
-  distance_ep: 4.4
   distance_modulus: 21.14
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06

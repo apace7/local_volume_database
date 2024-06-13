@@ -12,7 +12,6 @@ name_discovery:
   ref_discovery:
   - Koposov2007ApJ...669..337K
 distance:
-  distance: 34.7
   distance_modulus: 17.7
   ref_distance: Munoz2018ApJ...860...66M
 m_v:

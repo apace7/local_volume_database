@@ -4,9 +4,6 @@ age:
   age_ep: 1.7
   ref_age: Gatto2022ApJ...929L..21G
 distance:
-  distance: 55.5
-  distance_em: 4.2
-  distance_ep: 4.0
   distance_modulus: 18.72
   distance_modulus_em: 0.17
   distance_modulus_ep: 0.15

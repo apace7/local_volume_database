@@ -22,12 +22,12 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1959
-  host: local_field
   name: DDO 190
   other_name:
   - UGC 9240
   ref_discovery:
   - vandenBergh1959PDDO....2..147V
+  type: dIrr
 structure:
   ellipticity: 0.1
   ellipticity_em: 0.02

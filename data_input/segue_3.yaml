@@ -9,9 +9,6 @@ age:
   age_ep: 1.5
   ref_age: Fadely2011AJ....142...88F
 distance:
-  distance: 16.9
-  distance_em: 0.7
-  distance_ep: 0.7
   distance_modulus: 16.14
   distance_modulus_em: 0.09
   distance_modulus_ep: 0.09

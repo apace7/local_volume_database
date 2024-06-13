@@ -4,9 +4,6 @@ location:
   dec: -24.01472222
   ra: 268.6770833
 distance:
-  distance: 8.23
-  distance_em: 0.46
-  distance_ep: 0.46
   distance_modulus: 14.58
   ref_distance: OlivaresCarvajal2022MNRAS.513.3993O
 m_v:

@@ -12,9 +12,6 @@ name_discovery:
   ref_discovery:
   - Armandroff1998AJ....116.2287A
 distance:
-  distance: 758.6
-  distance_em: 21.0
-  distance_ep: 21.0
   distance_modulus: 24.4
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06

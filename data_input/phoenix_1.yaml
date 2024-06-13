@@ -7,7 +7,6 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1976
-  host: local_field
   name: Phoenix
   ref_discovery:
   - Schuster1976A&A....49..129S

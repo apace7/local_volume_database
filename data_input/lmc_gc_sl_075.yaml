@@ -7,6 +7,8 @@ name_discovery:
   confirmed_star_cluster: 1
   host: lmc
   name: SL 075
+  # other_name:
+  # - ESO 057-75
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.49

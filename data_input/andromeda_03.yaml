@@ -14,9 +14,6 @@ name_discovery:
   other_name:
   - KK 5
 distance:
-  distance: 721.1
-  distance_em: 16.0
-  distance_ep: 17.0
   distance_modulus: 24.29
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.05

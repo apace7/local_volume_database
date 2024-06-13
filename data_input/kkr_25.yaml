@@ -1,7 +1,19 @@
+key: kkr_25
+table: dwarf_local_field
+location:
+  ra: 243.45
+  dec: 54.37111111
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1998
+  name: KKR 25
+  ref_discovery:
+  - Karachentseva1998A&AS..127..409K
+  - Karachentseva1999A&AS..135..221K
+  - Karachentsev2001A&A...379..407K
+  type: dIrr/dSph
 distance:
-  distance: 1905.0
-  distance_em: 61.0
-  distance_ep: 61.0
   distance_modulus: 26.42
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
@@ -9,10 +21,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.7
   ref_flux_HI: Putman2021ApJ...913...53P
-key: kkr_25
-location:
-  dec: 54.37111111
-  ra: 243.45
 m_v:
   apparent_magnitude_v: 15.9
   apparent_magnitude_v_em: 0.2
@@ -23,16 +31,6 @@ metallicity_photometric:
   metallicity_photometric_em: 0.3
   metallicity_photometric_ep: 0.3
   ref_metallicity_photometric: Karachentsev2001A&A...379..407K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1998
-  host: local_field
-  name: KKR 25
-  ref_discovery:
-  - Karachentseva1998A&AS..127..409K
-  - Karachentseva1999A&AS..135..221K
-  - Karachentsev2001A&A...379..407K
 structure:
   ellipticity: 0.41
   ellipticity_em: 0.02
@@ -41,7 +39,6 @@ structure:
   rhalf: 0.4
   rhalf_em: 0.06
   rhalf_ep: 0.06
-table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: -139.5

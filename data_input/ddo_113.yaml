@@ -29,6 +29,7 @@ name_discovery:
   - KDG 90
   ref_discovery:
   - vandenBergh1959PDDO....2..147V
+  type: dIrr
 structure:
   rhalf: 43.6
   rhalf_em: 1.5

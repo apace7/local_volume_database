@@ -1,7 +1,4 @@
 distance:
-  distance: 755.0
-  distance_em: 24.0
-  distance_ep: 24.0
   distance_modulus: 24.39
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
@@ -30,7 +27,6 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1999
-  host: local_field
   name: Cetus
   ref_discovery:
   - Whiting1999AJ....118.2767W

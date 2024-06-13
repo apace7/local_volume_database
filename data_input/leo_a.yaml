@@ -1,12 +1,25 @@
 key: leo_a
 table: dwarf_local_field
 location:
-  dec: 30.74638889
   ra: 149.8604167
+  dec: 30.74638889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1942
+  name: Leo A
+  other_name:
+  - Leo III
+  - UGC 5364
+  - DDO 69
+  - PGC 28868
+  ref_discovery:
+  - Zwicky1942PhRv...61..489Z
+  type: dIrr
+notes:
+- Defines R_LG MC12
+- ABP measured metallicity mean/sigma with Normal/Gaussian from data in Kirby2017ApJ...834....9K
 distance:
-  distance: 717.0
-  distance_em: 17.0
-  distance_ep: 17.0
   distance_modulus: 24.28
   distance_modulus_em: 0.05
   distance_modulus_ep: 0.05
@@ -29,29 +42,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.03
   metallicity_spectroscopic_sigma_ep: 0.03
   ref_metallicity_spectroscopic: Kirby2017ApJ...834....9K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1942
-  host: local_field
-  name: Leo A
-  other_name:
-  - Leo III
-  - UGC 5364
-  - DDO 69
-  - PGC 28868
-  ref_discovery:
-  - Zwicky1942PhRv...61..489Z
-notes:
-- Defines R_LG MC12
-- ABP measured metallicity mean/sigma with Normal/Gaussian from data in Kirby2017ApJ...834....9K
 proper_motion:
-  pmdec: -0.06
-  pmdec_em: 0.08
-  pmdec_ep: 0.09
   pmra: -0.06
   pmra_em: 0.09
   pmra_ep: 0.09
+  pmdec: -0.06
+  pmdec_em: 0.08
+  pmdec_ep: 0.09
   ref_proper_motion: Battaglia2022A&A...657A..54B
 structure:
   ellipticity: 0.42

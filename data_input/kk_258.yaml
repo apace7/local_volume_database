@@ -4,9 +4,6 @@ location:
   ra: 340.1829167
   dec: -30.79972222
 distance:
-  distance: 2230.0
-  distance_em: 50.0
-  distance_ep: 50.0
   distance_modulus: 26.85
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
@@ -17,7 +14,6 @@ m_v:
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
-  host: local_field
   name: KK 258
   other_name:
   - ESO468-020

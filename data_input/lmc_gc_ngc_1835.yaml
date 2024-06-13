@@ -1,8 +1,8 @@
 key: lmc_gc_ngc_1835
 table: gc_dwarf_hosted
 location:
-  ra: 76.27791666666666 
-  dec: -69.40416666666667
+  ra: 76.27795833333332
+  dec: -69.40410555555556
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
@@ -12,11 +12,14 @@ name_discovery:
   - SL 215
   type: GC
 structure:
-  rhalf: 0.17
-  spatial_units: arcmin
-  ref_structure: Mackey2003MNRAS.338...85M
+  rhalf: 13
+  rhalf_em: 1
+  rhalf_ep: 3
+  spatial_units: arcsec
+  ref_structure: Giusti2024arXiv240504922G
 distance:
-  distance_fixed_host: True 
+  distance_modulus: 18.58
+  ref_distance: Giusti2024A&A...686A...6G
 m_v:
   apparent_magnitude_v: 9.922
   mean_ebv: 0.08
@@ -24,11 +27,25 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.79
   ref_metallicity_spectroscopic: Olszewski1991AJ....101..515O 
+metallicity_photometric:
+  metallicity_photometric: -1.7
+  ref_metallicity_photometric: Giusti2024A&A...686A...6G
 velocity:
   vlos_systemic: 188 # [km/s]
   vlos_systemic_em: 5
   vlos_systemic_ep: 5
   ref_vlos: Olszewski1991AJ....101..515O 
+structure_king:
+  rcore: 3.5
+  rcore_em: 0.5
+  rcore_ep: 0.7
+  rking: 109
+  rking_em: 18
+  rking_ep: 36
+  spatial_units: arcsec
+  ref_structure_king: Giusti2024arXiv240504922G
 age:
-  age: 16.6
-  ref_age: Olsen1998MNRAS.300..665O
+  age: 12.5
+  age_em: 1
+  age_ep: 1
+  ref_age: Giusti2024A&A...686A...6G

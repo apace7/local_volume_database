@@ -18,9 +18,6 @@ age:
   age_em: 0.9
   ref_age: Souza2021A&A...656A..78S
 distance:
-  distance: 7.047
-  distance_em: 0.433
-  distance_ep: 0.463
   distance_modulus: 14.24
   distance_modulus_em: 0.138
   distance_modulus_ep: 0.138

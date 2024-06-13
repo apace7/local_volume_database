@@ -12,7 +12,7 @@ name_discovery:
   other_name:
   - BLISS J0321+0438
   ref_discovery:
-  - Mau2019ApJ...875..154M  
+  - Mau2019ApJ...875..154M
 distance:
   distance_modulus: 16.87
   distance_modulus_em: 0.13
@@ -43,4 +43,3 @@ structure:
   rhalf: 0.6
   rhalf_em: 0.14
   rhalf_ep: 0.19
-  

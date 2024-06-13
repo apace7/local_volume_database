@@ -7,7 +7,6 @@ name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
   discovery_year: 2024
-  host: local_field
   name: Hedgehog
   other_name:
   - dw1322m2053

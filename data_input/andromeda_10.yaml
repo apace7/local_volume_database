@@ -1,7 +1,4 @@
 distance:
-  distance: 631.0
-  distance_em: 17.0
-  distance_ep: 18.0
   distance_modulus: 24.0
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06

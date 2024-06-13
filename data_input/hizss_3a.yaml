@@ -1,7 +1,4 @@
 distance:
-  distance: 1675.0
-  distance_em: 108.0
-  distance_ep: 108.0
   distance_modulus: 26.12
   distance_modulus_em: 0.14
   distance_modulus_ep: 0.14
@@ -19,11 +16,11 @@ name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
   discovery_year: 2000
-  host: local_field
   name: HIZSS 3A
   ref_discovery:
   - Henning2000AJ....119.2686H
   - Begum2005MNRAS.359L..53B
+  type: (d)Irr?
 notes:
 - Zone of obscuration. Binary with HIZSS 3B? MC12
 table: dwarf_local_field

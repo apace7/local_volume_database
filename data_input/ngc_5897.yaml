@@ -4,9 +4,6 @@ age:
   age_ep: 1.2
   ref_age: Forbes2010MNRAS.404.1203F
 distance:
-  distance: 12.549
-  distance_em: 0.233
-  distance_ep: 0.238
   distance_modulus: 15.493
   distance_modulus_em: 0.041
   distance_modulus_ep: 0.041

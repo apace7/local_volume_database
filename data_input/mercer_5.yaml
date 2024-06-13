@@ -1,7 +1,4 @@
 distance:
-  distance: 5.466
-  distance_em: 0.476
-  distance_ep: 0.523
   distance_modulus: 13.688
   ref_distance: Baumgardt2021MNRAS.505.5957B
 key: mercer_5

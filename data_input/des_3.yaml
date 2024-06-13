@@ -4,9 +4,6 @@ age:
   age_ep: 1.1
   ref_age: Luque2018MNRAS.478.2006L
 distance:
-  distance: 76.2
-  distance_em: 3.9
-  distance_ep: 2.8
   distance_modulus: 19.41
   distance_modulus_em: 0.11
   distance_modulus_ep: 0.08

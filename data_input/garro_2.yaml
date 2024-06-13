@@ -20,9 +20,6 @@ age:
   age_ep: 2.0
   ref_age: Garro2022A&A...662A..95G
 distance:
-  distance: 5.6
-  distance_em: 0.8
-  distance_ep: 0.8
   distance_modulus: 13.74
   distance_modulus_em: 0.31
   distance_modulus_ep: 0.31

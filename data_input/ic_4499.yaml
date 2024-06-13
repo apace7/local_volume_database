@@ -8,9 +8,6 @@ age:
   age_ep: 0.75
   ref_age: Dotter2011ApJ...738...74D
 distance:
-  distance: 18.891
-  distance_em: 0.25
-  distance_ep: 0.253
   distance_modulus: 16.381
   distance_modulus_em: 0.029
   distance_modulus_ep: 0.029

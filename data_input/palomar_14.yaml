@@ -13,15 +13,13 @@ name_discovery:
   ref_discovery:
   - Arp1960PASP...72...48A
   host: mw
+  type: GC
 age:
   age: 10.5
   age_em: 0.56
   age_ep: 0.56
   ref_age: Kruijssen2019MNRAS.486.3180K
 distance:
-  distance: 73.579
-  distance_em: 1.609
-  distance_ep: 1.645
   distance_modulus: 19.334
   distance_modulus_em: 0.048
   distance_modulus_ep: 0.048
@@ -32,15 +30,18 @@ m_v:
   apparent_magnitude_v_ep: 0.03
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.62
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+  metallicity_spectroscopic: -1.44
+  metallicity_spectroscopic_em: 0.03
+  metallicity_spectroscopic_ep: 0.03
+  metallicity_spectroscopic_sigma: 0.16
+  ref_metallicity_spectroscopic: Caliskan2012A&A...537A..83C
 proper_motion:
-  pmdec: -0.4132
-  pmdec_em: 0.0378
-  pmdec_ep: 0.0378
   pmra: -0.4626
   pmra_em: 0.0384
   pmra_ep: 0.0384
+  pmdec: -0.4132
+  pmdec_em: 0.0378
+  pmdec_ep: 0.0378
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
@@ -54,9 +55,10 @@ structure_sersic:
   rad_sersic_ep: 0.06
   ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref_vlos: Baumgardt2018MNRAS.478.1520B
-  vlos_sigma: 0.4
-  vlos_sigma_em: 0.1
-  vlos_systemic: 72.3
-  vlos_systemic_em: 0.14
-  vlos_systemic_ep: 0.14
+  ref_vlos: Jordi2009AJ....137.4586J
+  vlos_sigma: 0.38
+  vlos_sigma_em: 0.12
+  vlos_sigma_ep: 0.12
+  vlos_systemic: 72.28
+  vlos_systemic_em: 0.12
+  vlos_systemic_ep: 0.12

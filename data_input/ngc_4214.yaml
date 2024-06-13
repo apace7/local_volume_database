@@ -6,7 +6,6 @@ location:
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
-  host: local_field
   name: NGC 4214
   other_name:
   - NGC4228

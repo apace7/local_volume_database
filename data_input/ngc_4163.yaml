@@ -1,7 +1,4 @@
 distance:
-  distance: 2858.0
-  distance_em: 39.0
-  distance_ep: 39.0
   distance_modulus: 27.28
   distance_modulus_em: 0.03
   distance_modulus_ep: 0.03
@@ -24,13 +21,13 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 1789
-  host: local_field
   name: NGC 4163
   other_name:
   - UGC 7199
   - NGC 4167
   ref_discovery:
   - Herschel1789RSPT...79..212H
+  type: dIrr
 structure:
   ellipticity: 0.3
   ellipticity_em: 0.05

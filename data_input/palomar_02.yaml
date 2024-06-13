@@ -15,9 +15,6 @@ name_discovery:
 notes:
 - discovered by A. G. Wilson Abell1955PASP...67..258A
 distance:
-  distance: 26.174
-  distance_em: 1.253
-  distance_ep: 1.317
   distance_modulus: 17.089
   distance_modulus_em: 0.107
   distance_modulus_ep: 0.107
