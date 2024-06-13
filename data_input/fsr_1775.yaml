@@ -13,6 +13,7 @@ name_discovery:
   - MWSC 2750
   ref_discovery:
   - Froebrich2007MNRAS.374..399F
+  type: GC
 notes:
 - possible open cluster Buckner2013MNRAS.436.1465B
 - classify as globular cluster Garro2022A&A...658A.120G
