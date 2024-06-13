@@ -13,6 +13,7 @@ name_discovery:
   - MWSC 2921
   ref_discovery:
   - Froebrich2007MNRAS.374..399F
+  type: GC
 notes:
 - open cluster Buckner2013MNRAS.436.1465B
 - classify as globular cluster Garro2022A&A...658A.120G
@@ -33,7 +34,7 @@ proper_motion:
   pmdec_ep: 0.99
   ref_proper_motion: Garro2022A&A...658A.120G
 metallicity_photometric:
-  metallicity_photometric: 1.2
+  metallicity_photometric: -1.2
   metallicity_photometric_em: 0.3
   metallicity_photometric_ep: 0.3
   ref_metallicity_photometric: Garro2022A&A...658A.120G

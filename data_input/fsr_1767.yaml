@@ -11,6 +11,7 @@ name_discovery:
   name: FSR 1767
   ref_discovery:
   - Froebrich2007MNRAS.374..399F
+  type: GC
 notes:
 - classify as globular cluster Bonatto2007MNRAS.381L..45B
 - classify as globular cluster Bonatto2009MNRAS.397.1032B
