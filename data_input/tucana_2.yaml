@@ -1,23 +1,8 @@
-distance:
-  distance_modulus: 18.75
-  distance_modulus_em: 0.2
-  distance_modulus_ep: 0.2
-  ref_distance: Vivas2020ApJS..247...35V
-flux_HI:
-  flux_HI_ul: 0.27
-  ref_flux_HI: Putman2021ApJ...913...53P
 key: tucana_2
+table: dwarf_mw
 location:
-  dec: -58.5689
   ra: 342.9796
-m_v:
-  apparent_magnitude_v: 15.0
-  apparent_magnitude_v_em: 0.1
-  apparent_magnitude_v_ep: 0.1
-  ref_m_v: Koposov2015ApJ...805..130K
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.77
-  ref_metallicity_spectroscopic: Chiti2021NatAs...5..392C
+  dec: -58.5689
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -30,7 +15,23 @@ name_discovery:
   - Bechtol2015ApJ...807...50B
   - Koposov2015ApJ...805..130K
   abbreviation: TucII
-  type: dSph
+  type: dSph  
+distance:
+  distance_modulus: 18.75
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.2
+  ref_distance: Vivas2020ApJS..247...35V
+flux_HI:
+  flux_HI_ul: 0.27
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 15.0
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Koposov2015ApJ...805..130K
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.77
+  ref_metallicity_spectroscopic: Chiti2021NatAs...5..392C
 proper_motion:
   pmdec: -1.28
   pmdec_em: 0.029
@@ -50,7 +51,6 @@ structure:
   rhalf: 12.89
   rhalf_em: 1.98
   rhalf_ep: 1.71
-table: dwarf_mw
 velocity:
   ref_vlos: Chiti2023AJ....165...55C
   vlos_sigma: 3.8

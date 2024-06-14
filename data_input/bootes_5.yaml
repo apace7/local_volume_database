@@ -1,12 +1,26 @@
+key: bootes_5
+table: dwarf_mw
+location:
+  ra: 213.909
+  dec: 32.914
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 1
+  discovery_year: 2022
+  host: mw
+  name: Bootes V
+  other_name:
+  - DELVE J1415+3254
+  ref_discovery:
+  - Smith2023AJ....166...76S
+  - Cerny2023ApJ...953....1C
+  abbreviation: BooV
+  type: dSph/SC
 distance:
   distance_modulus: 20.04
   distance_modulus_em: 0.15
   distance_modulus_ep: 0.15
   ref_distance: Cerny2023ApJ...953....1C
-key: bootes_5
-location:
-  dec: 32.914
-  ra: 213.909
 m_v:
   apparent_magnitude_v: 16.84
   apparent_magnitude_v_em: 0.3
@@ -20,19 +34,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.1
   metallicity_spectroscopic_ep: 0.1
   ref_metallicity_spectroscopic: Smith2023AJ....166...76S
-name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 1
-  discovery_year: 2022
-  host: mw
-  name: Bootes V
-  other_name:
-  - DELVE J1415+3254
-  ref_discovery:
-  - Smith2023AJ....166...76S
-  - Cerny2023ApJ...953....1C
-  abbreviation: BooV
-  type: dSph
 proper_motion:
   pmdec: -0.28
   pmdec_em: 0.07
@@ -52,7 +53,6 @@ structure:
   rhalf: 0.76
   rhalf_em: 0.07
   rhalf_ep: 0.08
-table: dwarf_mw
 velocity:
   ref_vlos: Smith2023AJ....166...76S
   vlos_systemic: 5.1

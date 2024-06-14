@@ -1,3 +1,20 @@
+key: hydrus_1
+table: dwarf_mw
+location:
+  ra: 37.389
+  dec: -79.3089
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2018
+  host: lmc
+  name: Hydrus I
+  ref_discovery:
+  - Koposov2018MNRAS.479.5343K
+  abbreviation: HyiI
+  type: dSph
+notes:
+- possible rotation Koposov2018MNRAS.479.5343K
 distance:
   distance_modulus: 17.2
   distance_modulus_em: 0.04
@@ -6,10 +23,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.68
   ref_flux_HI: Putman2021ApJ...913...53P
-key: hydrus_1
-location:
-  dec: -79.3089
-  ra: 37.389
 m_v:
   apparent_magnitude_v: 12.49
   apparent_magnitude_v_em: 0.08
@@ -23,17 +36,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.08
   metallicity_spectroscopic_sigma_ep: 0.08
   ref_metallicity_spectroscopic: Koposov2018MNRAS.479.5343K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2018
-  host: lmc
-  name: Hydrus I
-  ref_discovery:
-  - Koposov2018MNRAS.479.5343K
-  abbreviation: HyiI
-notes:
-- possible rotation Koposov2018MNRAS.479.5343K
 proper_motion:
   pmdec: -1.496
   pmdec_em: 0.015
@@ -53,7 +55,6 @@ structure:
   rhalf: 7.42
   rhalf_em: 0.54
   rhalf_ep: 0.62
-table: dwarf_mw
 velocity:
   ref_vlos: Koposov2018MNRAS.479.5343K
   vlos_sigma: 2.7

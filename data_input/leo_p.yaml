@@ -1,3 +1,16 @@
+key: leo_p
+table: dwarf_local_field
+location:
+  ra: 155.4379167
+  dec: 18.08805556
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2013
+  name: Leo P
+  ref_discovery:
+  - Giovanelli2013AJ....146...15G
+  type: dSph
 distance:
   distance_modulus: 26.05
   distance_modulus_em: 0.2
@@ -8,28 +21,19 @@ flux_HI:
   flux_HI_em: 0.27
   flux_HI_ep: 0.27
   ref_flux_HI: Putman2021ApJ...913...53P
-key: leo_p
-location:
-  dec: 18.08805556
-  ra: 155.4379167
+
 m_v:
   apparent_magnitude_v: 16.78
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
   ref_m_v: McQuinn2015ApJ...812..158M
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2013
-  name: Leo P
-  ref_discovery:
-  - Giovanelli2013AJ....146...15G
+
 structure:
   ellipticity: 0.52
   position_angle: 335.0
   ref_structure: McQuinn2015ApJ...812..158M
   rhalf: 1.2
-table: dwarf_local_field
+
 velocity:
   ref_vlos: BernsteinCooper2014AJ....148...35B
   vlos_systemic: 260.8

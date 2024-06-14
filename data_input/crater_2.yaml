@@ -1,8 +1,18 @@
 key: crater_2
 table: dwarf_mw
 location:
-  dec: -18.413
   ra: 177.31
+  dec: -18.413
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2016
+  host: mw
+  name: Crater II
+  ref_discovery:
+  - Torrealba2016MNRAS.459.2370T
+  abbreviation: CraII
+  type: dSph  
 distance:
   distance_modulus: 20.333
   distance_modulus_em: 0.07
@@ -24,16 +34,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.05
   metallicity_spectroscopic_sigma_ep: 0.05
   ref_metallicity_spectroscopic: Ji2021ApJ...921...32J
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2016
-  host: mw
-  name: Crater II
-  ref_discovery:
-  - Torrealba2016MNRAS.459.2370T
-  abbreviation: CraII
-  type: dSph
 proper_motion:
   pmra: -0.072
   pmra_em: 0.02

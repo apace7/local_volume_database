@@ -1,8 +1,21 @@
 key: crater_1
 table: gc_ufsc
 location:
-  dec: -10.8772
   ra: 174.0668
+  dec: -10.8772
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2014
+  host: mw
+  name: Laevens 1
+  other_name:
+  - Crater I
+  - PSO J174.0675-10.8774
+  ref_discovery:
+  - Belokurov2014MNRAS.441.2124B
+  - Laevens2014ApJ...786L...3L
+  type: GC  
 age:
   age: 7.5
   age_em: 0.4
@@ -28,18 +41,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.05
   metallicity_spectroscopic_sigma_ul: 0.53
   ref_metallicity_spectroscopic: Kirby2015ApJ...810...56K
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 2014
-  host: mw
-  name: Laevens 1
-  other_name:
-  - Crater I
-  - PSO J174.0675-10.8774
-  ref_discovery:
-  - Belokurov2014MNRAS.441.2124B
-  - Laevens2014ApJ...786L...3L
 proper_motion:
   pmdec: 0.12
   pmdec_em: 0.1

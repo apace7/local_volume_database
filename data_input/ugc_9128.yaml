@@ -1,8 +1,21 @@
 key: ugc_9128
 table: dwarf_local_field
 location:
-  dec: 23.05527778
   ra: 213.9854167
+  dec: 23.05527778
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1959
+  name: UGC 9128
+  other_name:
+  - DDO 187
+  - CGCG 133-019
+  - MCG +04-34-009
+  - PGC050961
+  ref_discovery:
+  - vandenBergh1959PDDO....2..147V
+  type: dIrr
 distance:
   distance_modulus: 26.75
   distance_modulus_em: 0.02
@@ -18,18 +31,6 @@ metallicity_photometric:
   metallicity_photometric_em: 0.24
   metallicity_photometric_ep: 0.24
   ref_metallicity_photometric: McConnachie2006MNRAS.365.1263M
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1959
-  name: UGC 9128
-  other_name:
-  - DDO 187
-  - CGCG 133-019
-  - MCG +04-34-009
-  - PGC050961
-  ref_discovery:
-  - vandenBergh1959PDDO....2..147V
 structure:
   ellipticity: 0.4
   ellipticity_em: 0.05

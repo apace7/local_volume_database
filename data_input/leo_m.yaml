@@ -10,6 +10,7 @@ name_discovery:
   name: Leo M
   ref_discovery:
   - McQuinn2024ApJ...967..161M
+  type: dSph
 distance:
   distance_modulus: 23.31
   distance_modulus_em: 0.09

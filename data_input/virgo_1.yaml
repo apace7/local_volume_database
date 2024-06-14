@@ -3,6 +3,18 @@ table: dwarf_mw
 location:
   ra: 180.038
   dec: -0.681
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 1
+  discovery_year: 2016
+  host: mw
+  name: Virgo I
+  other_name:
+  - HSC J1200-0040
+  ref_discovery:
+  - Homma2016ApJ...832...21H
+  abbreviation: VirI
+  type: dSph
 distance:
   distance_modulus: 19.8
   distance_modulus_em: 0.2
@@ -16,18 +28,6 @@ m_v:
   apparent_magnitude_v_em: 0.65
   apparent_magnitude_v_ep: 0.72
   ref_m_v: Homma2023arXiv231105439H
-name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 1
-  discovery_year: 2016
-  host: mw
-  name: Virgo I
-  other_name:
-  - HSC J1200-0040
-  ref_discovery:
-  - Homma2016ApJ...832...21H
-  abbreviation: VirI
-  type: dSph
 structure:
   ellipticity: 0.59
   ellipticity_em: 0.14

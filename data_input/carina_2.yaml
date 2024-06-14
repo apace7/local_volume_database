@@ -1,3 +1,18 @@
+key: carina_2
+table: dwarf_mw
+location:
+  ra: 114.1066
+  dec: -57.9991
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2018
+  host: lmc
+  name: Carina II
+  ref_discovery:
+  - Torrealba2018MNRAS.475.5085T
+  abbreviation: CarII
+  type: dSph  
 distance:
   distance_modulus: 17.864
   distance_modulus_em: 0.023
@@ -6,10 +21,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.72
   ref_flux_HI: Putman2021ApJ...913...53P
-key: carina_2
-location:
-  dec: -57.9991
-  ra: 114.1066
 m_v:
   apparent_magnitude_v: 13.29
   apparent_magnitude_v_em: 0.1
@@ -23,15 +34,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.07
   metallicity_spectroscopic_sigma_ep: 0.1
   ref_metallicity_spectroscopic: Li2018ApJ...857..145L
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2018
-  host: lmc
-  name: Carina II
-  ref_discovery:
-  - Torrealba2018MNRAS.475.5085T
-  abbreviation: CarII
 proper_motion:
   pmdec: 0.133
   pmdec_em: 0.019
@@ -51,7 +53,6 @@ structure:
   rhalf: 8.69
   rhalf_em: 0.75
   rhalf_ep: 0.75
-table: dwarf_mw
 velocity:
   ref_vlos: Li2018ApJ...857..145L
   vlos_sigma: 3.4

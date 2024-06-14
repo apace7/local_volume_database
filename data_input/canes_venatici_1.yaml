@@ -1,3 +1,18 @@
+key: canes_venatici_1
+table: dwarf_mw
+location:
+  ra: 202.0091
+  dec: 33.5521
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2006
+  host: mw
+  name: Canes Venatici I
+  ref_discovery:
+  - Zucker2006ApJ...643L.103Z
+  abbreviation: CVnI
+  type: dSph
 distance:
   distance_modulus: 21.62
   distance_modulus_em: 0.06
@@ -6,10 +21,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.104
   ref_flux_HI: Spekkens2014ApJ...795L...5S
-key: canes_venatici_1
-location:
-  dec: 33.5521
-  ra: 202.0091
 m_v:
   apparent_magnitude_v: 12.89
   apparent_magnitude_v_em: 0.06
@@ -23,16 +34,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.02
   metallicity_spectroscopic_sigma_ep: 0.03
   ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2006
-  host: mw
-  name: Canes Venatici I
-  ref_discovery:
-  - Zucker2006ApJ...643L.103Z
-  abbreviation: CVnI
-  type: dSph
 proper_motion:
   pmdec: -0.116
   pmdec_em: 0.02
@@ -68,7 +69,6 @@ structure_sersic:
   rad_sersic_em: 0.23
   rad_sersic_ep: 0.23
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Simon2007ApJ...670..313S
   vlos_sigma: 7.6

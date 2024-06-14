@@ -3,6 +3,16 @@ table: dwarf_mw
 location:
   ra: 185.4286
   dec: -31.9728
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: mw
+  name: Hydra II
+  ref_discovery:
+  - Martin2015ApJ...804L...5M
+  abbreviation: HydII
+  type: dSph
 distance:
   distance_modulus: 20.9
   distance_modulus_em: 0.11
@@ -24,16 +34,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.26
   metallicity_spectroscopic_sigma_ep: 0.48
   ref_metallicity_spectroscopic: Kirby2015ApJ...810...56K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2015
-  host: mw
-  name: Hydra II
-  ref_discovery:
-  - Martin2015ApJ...804L...5M
-  abbreviation: HydII
-  type: dSph
 proper_motion:
   pmdec: 0.0
   pmdec_em: 0.104

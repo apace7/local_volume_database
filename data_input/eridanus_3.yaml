@@ -1,27 +1,8 @@
-age:
-  age: 12.5
-  age_em: 0.7
-  age_ep: 0.5
-  ref_age: Conn2018ApJ...852...68C
-distance:
-  distance_modulus: 19.8
-  distance_modulus_em: 0.04
-  distance_modulus_ep: 0.04
-  ref_distance: Conn2018ApJ...852...68C
 key: eridanus_3
+table: gc_ufsc
 location:
-  dec: -52.2838
   ra: 35.6952
-m_v:
-  apparent_magnitude_v: 17.73
-  apparent_magnitude_v_em: 0.5
-  apparent_magnitude_v_ep: 0.5
-  ref_m_v: Conn2018ApJ...852...68C
-metallicity_photometric:
-  metallicity_photometric: -2.4
-  metallicity_photometric_em: 0.12
-  metallicity_photometric_ep: 0.19
-  ref_metallicity_photometric: Conn2018ApJ...852...68C
+  dec: -52.2838
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
@@ -34,12 +15,33 @@ name_discovery:
   - Bechtol2015ApJ...807...50B
   - Koposov2015ApJ...805..130K
   abbreviation: EriIII
+  type: SC/dSph
 notes:
 - observed mass segregation which would classifty Eri 3 as a star cluster Baumgardt2022MNRAS.510.3531B
 - there is a metallicity dispersion in CaH\&K photometry which would classify Eri
   3 as a dwarf galaxy Fu2023arXiv230606260F
 - size + luminosity is consistent with both star cluster and dwarf
 - classifiction unclear
+age:
+  age: 12.5
+  age_em: 0.7
+  age_ep: 0.5
+  ref_age: Conn2018ApJ...852...68C
+distance:
+  distance_modulus: 19.8
+  distance_modulus_em: 0.04
+  distance_modulus_ep: 0.04
+  ref_distance: Conn2018ApJ...852...68C
+m_v:
+  apparent_magnitude_v: 17.73
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.5
+  ref_m_v: Conn2018ApJ...852...68C
+metallicity_photometric:
+  metallicity_photometric: -2.4
+  metallicity_photometric_em: 0.12
+  metallicity_photometric_ep: 0.19
+  ref_metallicity_photometric: Conn2018ApJ...852...68C
 proper_motion:
   pmdec: -0.64
   pmdec_em: 0.14
@@ -75,4 +77,3 @@ structure_sersic:
   rad_sersic_em: 0.23
   rad_sersic_ep: 0.23
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_ufsc

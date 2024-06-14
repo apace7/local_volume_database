@@ -1,26 +1,8 @@
-distance:
-  distance_modulus: 20.118
-  distance_modulus_em: 0.111
-  distance_modulus_ep: 0.111
-  ref_distance: Karczmarek2015AJ....150...90K
-flux_HI:
-  flux_HI_ul: 0.42
-  ref_flux_HI: Putman2021ApJ...913...53P
 key: carina_1
+table: dwarf_mw
 location:
-  dec: -50.9593
   ra: 100.4065
-m_v:
-  apparent_magnitude_v: 10.688
-  apparent_magnitude_v_em: 0.05
-  apparent_magnitude_v_ep: 0.05
-  ref_m_v: Munoz2018ApJ...860...66M
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.8
-  metallicity_spectroscopic_em: 0.02
-  metallicity_spectroscopic_ep: 0.02
-  metallicity_spectroscopic_sigma: 0.24
-  ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
+  dec: -50.9593
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -33,6 +15,25 @@ name_discovery:
   - Cannon1977MNRAS.180P..81C
   abbreviation: Car
   type: dSph
+distance:
+  distance_modulus: 20.118
+  distance_modulus_em: 0.111
+  distance_modulus_ep: 0.111
+  ref_distance: Karczmarek2015AJ....150...90K
+flux_HI:
+  flux_HI_ul: 0.42
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 10.688
+  apparent_magnitude_v_em: 0.05
+  apparent_magnitude_v_ep: 0.05
+  ref_m_v: Munoz2018ApJ...860...66M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.8
+  metallicity_spectroscopic_em: 0.02
+  metallicity_spectroscopic_ep: 0.02
+  metallicity_spectroscopic_sigma: 0.24
+  ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
 proper_motion:
   pmdec: 0.127
   pmdec_em: 0.006
@@ -68,7 +69,6 @@ structure_sersic:
   rad_sersic_em: 0.12
   rad_sersic_ep: 0.12
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Walker2009AJ....137.3100W
   vlos_sigma: 6.6

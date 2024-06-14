@@ -14,7 +14,7 @@ name_discovery:
   ref_discovery:
   - Baade1944ApJ...100..147B
   - Hodge1974PASP...86..289H
-  type: dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster
+  type: GC
 distance:
   distance_fixed_host: true
 m_v:

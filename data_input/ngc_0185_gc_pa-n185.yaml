@@ -11,7 +11,7 @@ name_discovery:
   name: NGC 185-PA-N185
   ref_discovery:
   - Veljanoski2013MNRAS.435.3654V
-  type: dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster
+  type: GC
 distance:
   distance_fixed_host: true
 m_v:

@@ -1,3 +1,18 @@
+key: pictor_2
+table: dwarf_mw
+location:
+  ra: 101.18
+  dec: -59.897
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 1
+  discovery_year: 2016
+  host: mw
+  name: Pictor II
+  ref_discovery:
+  - DrlicaWagner2016ApJ...833L...5D
+  abbreviation: PicII
+  # type: dSph/SC
 distance:
   distance_modulus: 18.3
   distance_modulus_em: 0.15
@@ -6,10 +21,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.58
   ref_flux_HI: Putman2021ApJ...913...53P
-key: pictor_2
-location:
-  dec: -59.897
-  ra: 101.18
 m_v:
   apparent_magnitude_v: 15.1
   apparent_magnitude_v_em: 0.5
@@ -20,16 +31,6 @@ metallicity_photometric:
   metallicity_photometric_em: 0.3
   metallicity_photometric_ep: 0.3
   ref_metallicity_photometric: DrlicaWagner2016ApJ...833L...5D
-name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 1
-  discovery_year: 2016
-  host: mw
-  name: Pictor II
-  ref_discovery:
-  - DrlicaWagner2016ApJ...833L...5D
-  abbreviation: PicII
-  type: dSph
 proper_motion:
   pmdec: 1.14
   pmdec_em: 0.05
@@ -49,4 +50,3 @@ structure:
   rhalf: 3.8
   rhalf_em: 1.0
   rhalf_ep: 1.5
-table: dwarf_mw

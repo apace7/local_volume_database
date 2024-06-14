@@ -1,3 +1,20 @@
+key: sagittarius_1
+table: dwarf_mw
+location:
+  ra: 283.8313
+  dec: -30.5454
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1994
+  host: mw
+  name: Sagittarius
+  ref_discovery:
+  - Ibata1994Natur.370..194I
+  abbreviation: Sgr
+  type: dSph
+notes:
+- tidally disrupting  
 distance:
   distance_modulus: 17.1
   distance_modulus_em: 0.15
@@ -6,10 +23,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.73
   ref_flux_HI: Putman2021ApJ...913...53P
-key: sagittarius_1
-location:
-  dec: -30.5454
-  ra: 283.8313
 m_v:
   apparent_magnitude_v: 3.6
   apparent_magnitude_v_em: 0.3
@@ -23,18 +36,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.02
   metallicity_spectroscopic_sigma_ep: 0.02
   ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1994
-  host: mw
-  name: Sagittarius
-  ref_discovery:
-  - Ibata1994Natur.370..194I
-  abbreviation: Sgr
-  type: dSph
-notes:
-- tidally disrupting
 proper_motion:
   pmdec: -1.359
   pmdec_em: 0.001
@@ -54,7 +55,6 @@ structure:
   rhalf: 342.0
   rhalf_em: 12.0
   rhalf_ep: 12.0
-table: dwarf_mw
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_sigma: 11.4

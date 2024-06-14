@@ -1,3 +1,18 @@
+key: coma_berenices_1
+table: dwarf_mw
+location:
+  ra: 186.7454
+  dec: 23.9069
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2006
+  host: mw
+  name: Coma Berenices
+  ref_discovery:
+  - Belokurov2007ApJ...654..897B
+  abbreviation: CBe
+  type: dSph  
 distance:
   distance_modulus: 18.13
   distance_modulus_em: 0.08
@@ -6,10 +21,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.14
   ref_flux_HI: Spekkens2014ApJ...795L...5S
-key: coma_berenices_1
-location:
-  dec: 23.9069
-  ra: 186.7454
 m_v:
   apparent_magnitude_v: 13.84
   apparent_magnitude_v_em: 0.25
@@ -23,16 +34,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.08
   metallicity_spectroscopic_sigma_ep: 0.09
   ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2006
-  host: mw
-  name: Coma Berenices
-  ref_discovery:
-  - Belokurov2007ApJ...654..897B
-  abbreviation: CBe
-  type: dSph
 proper_motion:
   pmdec: -1.721
   pmdec_em: 0.024
@@ -68,7 +69,6 @@ structure_sersic:
   rad_sersic_em: 0.3
   rad_sersic_ep: 0.3
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Simon2007ApJ...670..313S
   vlos_sigma: 4.6
