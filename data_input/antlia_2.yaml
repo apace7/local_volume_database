@@ -32,6 +32,7 @@ name_discovery:
   ref_discovery:
   - Torrealba2019MNRAS.488.2743T
   abbreviation: AntII
+  type: dSph
 proper_motion:
   pmdec: 0.1
   pmdec_em: 0.009

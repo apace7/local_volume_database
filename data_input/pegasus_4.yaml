@@ -29,6 +29,7 @@ name_discovery:
   ref_discovery:
   - Cerny2023ApJ...942..111C
   abbreviation: PegIV
+  type: dSph
 proper_motion:
   pmdec: -0.21
   pmdec_em: 0.08

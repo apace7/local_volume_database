@@ -12,6 +12,7 @@ name_discovery:
   ref_discovery:
   - Belokurov2010ApJ...712L.103B
   abbreviation: PscII
+  type: dSph
 distance:
   distance_modulus: 21.31
   distance_modulus_em: 0.17

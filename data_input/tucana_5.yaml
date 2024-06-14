@@ -35,6 +35,7 @@ name_discovery:
   ref_discovery:
   - DrlicaWagner2015ApJ...813..109D
   abbreviation: TucV
+  type: dSph
 proper_motion:
   pmdec: -1.18
   pmdec_em: 0.06

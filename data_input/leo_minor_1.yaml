@@ -23,6 +23,7 @@ name_discovery:
   ref_discovery:
   - Cerny2023ApJ...953....1C
   abbreviation: LMiI
+  type: dSph
 proper_motion:
   pmdec: -1.29
   pmdec_em: 0.4

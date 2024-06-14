@@ -28,6 +28,7 @@ name_discovery:
   name: Andromeda IX
   ref_discovery:
   - Zucker2004ApJ...612L.121Z
+  type: dSph
 structure:
   ellipticity: 0.0
   ellipticity_em: 0.0

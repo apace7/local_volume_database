@@ -23,6 +23,7 @@ name_discovery:
   name: Andromeda XX
   ref_discovery:
   - McConnachie2008ApJ...688.1009M
+  type: dSph
 structure:
   ellipticity: 0.11
   ellipticity_em: 0.11

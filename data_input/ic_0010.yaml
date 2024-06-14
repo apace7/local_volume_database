@@ -31,6 +31,7 @@ name_discovery:
   - PGC001305
   ref_discovery:
   - Swift1888AN....120...33S
+  type: dIrr
 structure:
   ellipticity: 0.19
   ellipticity_em: 0.02

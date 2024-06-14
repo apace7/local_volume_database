@@ -26,6 +26,7 @@ name_discovery:
   ref_discovery:
   - Karachentsev1999A&A...341..355K
   - Armandroff1999AJ....118.1220A
+  type: dSph
 structure:
   ellipticity: 0.41
   ellipticity_em: 0.03

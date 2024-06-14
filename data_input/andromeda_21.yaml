@@ -28,6 +28,7 @@ name_discovery:
   name: Andromeda XXI
   ref_discovery:
   - Martin2009ApJ...705..758M
+  type: dSph
 structure:
   ellipticity: 0.36
   ellipticity_em: 0.13

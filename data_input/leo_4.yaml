@@ -33,6 +33,7 @@ name_discovery:
   ref_discovery:
   - Belokurov2007ApJ...654..897B
   abbreviation: LeoIV
+  type: dSph
 notes:
 - Binary w/ Leo V? MC12
 proper_motion:

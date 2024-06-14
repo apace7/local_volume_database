@@ -32,6 +32,7 @@ name_discovery:
   ref_discovery:
   - DrlicaWagner2015ApJ...813..109D
   abbreviation: TucIII
+  type: dSph
 notes:
 - tidal tails DrlicaWagner2015ApJ...813..109D + Shipp2018ApJ...862..114S + Li2018ApJ...866...22L
 - classification remains unclear with unresolved velocity dispersion + metallicity

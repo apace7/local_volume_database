@@ -23,6 +23,7 @@ name_discovery:
   name: Andromeda XVII
   ref_discovery:
   - Irwin2008ApJ...676L..17I
+  type: dSph
 structure:
   ellipticity: 0.5
   ellipticity_em: 0.1

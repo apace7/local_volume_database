@@ -13,6 +13,7 @@ name_discovery:
   - vandenBergh1972ApJ...171L..31V
   other_name:
   - KK 5
+  type: dSph
 distance:
   distance_modulus: 24.29
   distance_modulus_em: 0.05

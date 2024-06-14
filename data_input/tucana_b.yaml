@@ -1,3 +1,16 @@
+key: tucana_b
+table: dwarf_local_field
+location:
+  ra: 341.7520833
+  dec: -58.4075
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2022
+  name: Tucana B
+  ref_discovery:
+  - Sand2022ApJ...935L..17S
+  type: dSph
 distance:
   distance_modulus: 25.75
   distance_modulus_em: 0.45
@@ -6,26 +19,15 @@ distance:
 flux_HI:
   flux_HI_ul: 0.86
   ref_flux_HI: Sand2022ApJ...935L..17S
-key: tucana_b
-location:
-  dec: -58.4075
-  ra: 341.7520833
 m_v:
   apparent_magnitude_v: 18.85
   apparent_magnitude_v_em: 0.6
   apparent_magnitude_v_ep: 0.5
   ref_m_v: Sand2022ApJ...935L..17S
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2022
-  name: Tucana B
-  ref_discovery:
-  - Sand2022ApJ...935L..17S
 structure:
   ellipticity_ul: 0.35
   ref_structure: Sand2022ApJ...935L..17S
   rhalf: 0.2
   rhalf_em: 0.0833
   rhalf_ep: 0.0833
-table: dwarf_local_field
+

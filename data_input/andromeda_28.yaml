@@ -31,6 +31,7 @@ name_discovery:
   name: Andromeda XXVIII
   ref_discovery:
   - Slater2011ApJ...742L..14S
+  type: dSph
 notes:
 - In Pegasus MC12
 structure:

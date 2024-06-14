@@ -23,6 +23,7 @@ name_discovery:
   name: Andromeda XXIII
   ref_discovery:
   - Richardson2011ApJ...732...76R
+  type: dSph
 structure:
   ellipticity: 0.41
   ellipticity_em: 0.06

@@ -13,6 +13,7 @@ name_discovery:
   ref_discovery:
   - Homma2023arXiv231105439H
   abbreviation: VirIII
+  type: dSph
 structure:
   rhalf: 1.0
   rhalf_em: 0.2

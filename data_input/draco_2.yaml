@@ -29,6 +29,7 @@ name_discovery:
   ref_discovery:
   - Laevens2015ApJ...813...44L
   abbreviation: DraII
+  type: dSph
 notes:
 - observed mass segregation in Baumgardt2022MNRAS.510.3531B; there is potential metallicity
   dispersion in CaH\&K photometry but main sequence stars are included in this calculation

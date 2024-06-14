@@ -36,6 +36,7 @@ name_discovery:
   ref_discovery:
   - Harrington1950PASP...62..118H
   abbreviation: LeoI
+  type: dSph
 proper_motion:
   pmdec: -0.12
   pmdec_em: 0.01

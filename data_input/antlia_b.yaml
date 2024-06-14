@@ -10,7 +10,7 @@ name_discovery:
   host: ngc_3109
   name: Antlia B
   ref_discovery:
-  - Sand2015ApJ...812L..13S  
+  - Sand2015ApJ...812L..13S
 distance:
   distance_modulus: 25.65
   distance_modulus_em: 0.1

@@ -32,6 +32,7 @@ name_discovery:
   ref_discovery:
   - Ibata1994Natur.370..194I
   abbreviation: Sgr
+  type: dSph
 notes:
 - tidally disrupting
 proper_motion:

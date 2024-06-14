@@ -14,6 +14,7 @@ name_discovery:
   ref_discovery:
   - DrlicaWagner2015ApJ...813..109D
   abbreviation: CetII
+  type: dSph
 distance:
   distance_modulus: 17.38
   distance_modulus_em: 0.19

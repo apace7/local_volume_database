@@ -32,6 +32,7 @@ name_discovery:
   ref_discovery:
   - Torrealba2016MNRAS.463..712T
   abbreviation: AquII
+  type: dSph
 proper_motion:
   pmdec: -0.466
   pmdec_em: 0.095

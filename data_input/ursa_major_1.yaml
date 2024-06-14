@@ -32,6 +32,7 @@ name_discovery:
   ref_discovery:
   - Willman2005ApJ...626L..85W
   abbreviation: UMaI
+  type: dSph
 proper_motion:
   pmdec: -0.613
   pmdec_em: 0.042

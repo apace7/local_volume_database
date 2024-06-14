@@ -31,6 +31,7 @@ name_discovery:
   - Andromeda XXXIII
   ref_discovery:
   - Martin2013ApJ...779L..10M
+  type: dSph
 structure:
   ellipticity: 0.09
   ellipticity_em: 0.06

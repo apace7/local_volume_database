@@ -36,6 +36,7 @@ name_discovery:
   ref_discovery:
   - Wilson1955PASP...67...27W
   abbreviation: Dra
+  type: dSph
 proper_motion:
   pmdec: -0.188
   pmdec_em: 0.006

@@ -1,24 +1,8 @@
-distance:
-  distance_modulus: 24.74
-  distance_modulus_em: 0.12
-  distance_modulus_ep: 0.12
-  ref_distance: McConnachie2012AJ....144....4M
-flux_HI:
-  flux_HI_ul: 0.46
-  ref_flux_HI: Putman2021ApJ...913...53P
 key: tucana_1
+table: dwarf_local_field
 location:
-  dec: -64.41944444
   ra: 340.4566667
-m_v:
-  apparent_magnitude_v: 15.2
-  apparent_magnitude_v_em: 0.2
-  apparent_magnitude_v_ep: 0.2
-  ref_m_v: McConnachie2012AJ....144....4M
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.58
-  metallicity_spectroscopic_sigma: 0.39
-  ref_metallicity_spectroscopic: Taibi2020A&A...635A.152T
+  dec: -64.41944444
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -28,8 +12,26 @@ name_discovery:
   - Lavery1992AJ....103...81L
   - Lavery1990IAUC.5139....2L
   - Corwin1985sgcc.book.....C
+  type: dSph
 notes:
 - Isolated dSph; defines R_LG MC12
+distance:
+  distance_modulus: 24.74
+  distance_modulus_em: 0.12
+  distance_modulus_ep: 0.12
+  ref_distance: McConnachie2012AJ....144....4M
+flux_HI:
+  flux_HI_ul: 0.46
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 15.2
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: McConnachie2012AJ....144....4M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.58
+  metallicity_spectroscopic_sigma: 0.39
+  ref_metallicity_spectroscopic: Taibi2020A&A...635A.152T
 structure:
   ellipticity: 0.48
   ellipticity_em: 0.03
@@ -41,7 +43,6 @@ structure:
   rhalf: 1.1
   rhalf_em: 0.2
   rhalf_ep: 0.2
-table: dwarf_local_field
 velocity:
   ref_vlos: Taibi2020A&A...635A.152T
   vlos_sigma: 6.2

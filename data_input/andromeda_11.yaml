@@ -23,6 +23,7 @@ name_discovery:
   name: Andromeda XI
   ref_discovery:
   - Martin2006MNRAS.371.1983M
+  type: dSph
 structure:
   ellipticity: 0.19
   ellipticity_em: 0.19

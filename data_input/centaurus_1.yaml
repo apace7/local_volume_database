@@ -30,6 +30,7 @@ name_discovery:
   ref_discovery:
   - Mau2020ApJ...890..136M
   abbreviation: CenI
+  type: dSph
 proper_motion:
   pmdec: -0.19
   pmdec_em: 0.04

@@ -32,6 +32,7 @@ name_discovery:
   ref_discovery:
   - Irwin1990MNRAS.244P..16I
   abbreviation: Sxt
+  type: dSph
 proper_motion:
   pmdec: 0.037
   pmdec_em: 0.009

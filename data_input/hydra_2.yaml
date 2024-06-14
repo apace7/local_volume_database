@@ -33,6 +33,7 @@ name_discovery:
   ref_discovery:
   - Martin2015ApJ...804L...5M
   abbreviation: HydII
+  type: dSph
 proper_motion:
   pmdec: 0.0
   pmdec_em: 0.104

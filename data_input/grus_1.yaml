@@ -12,6 +12,7 @@ name_discovery:
   ref_discovery:
   - Koposov2015ApJ...805..130K
   abbreviation: GruI
+  type: dSph
 distance:
   distance_modulus: 20.51
   distance_modulus_em: 0.1

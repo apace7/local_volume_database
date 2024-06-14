@@ -11,8 +11,10 @@ name_discovery:
   name: Cassiopeia II
   other_name:
   - Andromeda XXX
+  type: dSph
 notes:
-- No discovery reference/paper but the discovery is cited as M. J. Irwin (2012, in preparation)
+- No discovery reference/paper but the discovery is cited as M. J. Irwin (2012, in
+  preparation)
 distance:
   distance_modulus: 23.74
   distance_modulus_em: 0.06

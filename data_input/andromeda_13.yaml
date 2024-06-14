@@ -25,6 +25,7 @@ name_discovery:
   - Pisces III
   ref_discovery:
   - Martin2006MNRAS.371.1983M
+  type: dSph
 notes:
 - In Pisces MC12
 structure:
