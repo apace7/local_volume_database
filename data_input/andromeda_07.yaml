@@ -15,6 +15,7 @@ name_discovery:
   - PGC2807155
   ref_discovery:
   - Karachentsev1999A&A...341..355K
+  type: dSph
 distance:
   distance_modulus: 24.58
   distance_modulus_em: 0.06

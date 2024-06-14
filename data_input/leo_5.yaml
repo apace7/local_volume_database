@@ -33,6 +33,7 @@ name_discovery:
   ref_discovery:
   - Belokurov2008ApJ...686L..83B
   abbreviation: LeoV
+  type: dSph
 notes:
 - Cluster? Binary w/ Leo IV? MC12
 proper_motion:

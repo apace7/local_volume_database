@@ -25,6 +25,7 @@ name_discovery:
   - Triangulum I
   ref_discovery:
   - Martin2009ApJ...705..758M
+  type: dSph
 notes:
 - M33 Satellite? In Pisces MC12
 structure:

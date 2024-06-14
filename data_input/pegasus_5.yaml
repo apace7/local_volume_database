@@ -22,6 +22,7 @@ name_discovery:
   - Andromeda XXXIV
   ref_discovery:
   - Collins2022MNRAS.515L..72C
+  type: dSph
 structure:
   ellipticity: 0.01
   ellipticity_em: 0.01

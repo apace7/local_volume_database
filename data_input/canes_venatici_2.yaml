@@ -35,6 +35,7 @@ name_discovery:
   - Belokurov2007ApJ...654..897B
   - Sakamoto2006ApJ...653L..29S
   abbreviation: CVnII
+  type: dSph
 proper_motion:
   pmdec: -0.254
   pmdec_em: 0.08

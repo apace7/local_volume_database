@@ -23,6 +23,7 @@ name_discovery:
   name: Andromeda XII
   ref_discovery:
   - Martin2006MNRAS.371.1983M
+  type: dSph
 notes:
 - unbound to M31? MC12
 structure:

@@ -27,6 +27,7 @@ name_discovery:
   ref_discovery:
   - Homma2016ApJ...832...21H
   abbreviation: VirI
+  type: dSph
 structure:
   ellipticity: 0.59
   ellipticity_em: 0.14

@@ -28,6 +28,7 @@ name_discovery:
   name: Andromeda XIX
   ref_discovery:
   - McConnachie2008ApJ...688.1009M
+  type: dSph
 structure:
   ellipticity: 0.58
   ellipticity_em: 0.1

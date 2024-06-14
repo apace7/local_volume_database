@@ -14,6 +14,7 @@ name_discovery:
   ref_discovery:
   - Willman2005AJ....129.2692W
   abbreviation: Wil1
+  type: dSph
 notes:
 - potential tidal disruption + unclear kinematics Willman2011AJ....142..128W
 distance:

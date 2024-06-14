@@ -24,6 +24,7 @@ name_discovery:
   ref_discovery:
   - Homma2019PASJ...71...94H
   abbreviation: BooIV
+  type: dSph
 proper_motion:
   pmdec: 0.489
   pmdec_em: 0.255

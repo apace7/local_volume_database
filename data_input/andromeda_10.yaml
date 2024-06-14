@@ -29,6 +29,7 @@ name_discovery:
   name: Andromeda X
   ref_discovery:
   - Zucker2007ApJ...659L..21Z
+  type: dSph
 structure:
   ellipticity: 0.1
   ellipticity_em: 0.1

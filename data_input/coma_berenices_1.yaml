@@ -32,6 +32,7 @@ name_discovery:
   ref_discovery:
   - Belokurov2007ApJ...654..897B
   abbreviation: CBe
+  type: dSph
 proper_motion:
   pmdec: -1.721
   pmdec_em: 0.024

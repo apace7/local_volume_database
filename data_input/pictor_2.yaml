@@ -29,6 +29,7 @@ name_discovery:
   ref_discovery:
   - DrlicaWagner2016ApJ...833L...5D
   abbreviation: PicII
+  type: dSph
 proper_motion:
   pmdec: 1.14
   pmdec_em: 0.05

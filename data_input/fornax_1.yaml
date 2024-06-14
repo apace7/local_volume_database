@@ -16,6 +16,7 @@ name_discovery:
   ref_discovery:
   - Shapley1938Natur.142..715S
   abbreviation: For
+  type: dSph
 distance:
   distance_modulus: 20.77
   distance_modulus_em: 0.048

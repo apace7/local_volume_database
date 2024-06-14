@@ -27,6 +27,7 @@ name_discovery:
   ref_discovery:
   - Homma2018PASJ...70S..18H
   abbreviation: CetIII
+  type: dSph
 structure:
   ellipticity: 0.76
   ellipticity_em: 0.08

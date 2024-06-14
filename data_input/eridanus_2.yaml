@@ -36,6 +36,7 @@ name_discovery:
   - Bechtol2015ApJ...807...50B
   - Koposov2015ApJ...805..130K
   abbreviation: EriII
+  type: dSph
 proper_motion:
   pmdec: 0.013
   pmdec_em: 0.127

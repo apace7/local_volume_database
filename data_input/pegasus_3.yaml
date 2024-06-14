@@ -29,6 +29,7 @@ name_discovery:
   ref_discovery:
   - Kim2015ApJ...804L..44K
   abbreviation: PegIII
+  type: dSph
 proper_motion:
   pmdec: -0.58
   pmdec_em: 0.208

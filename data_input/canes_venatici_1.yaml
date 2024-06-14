@@ -32,6 +32,7 @@ name_discovery:
   ref_discovery:
   - Zucker2006ApJ...643L.103Z
   abbreviation: CVnI
+  type: dSph
 proper_motion:
   pmdec: -0.116
   pmdec_em: 0.02

@@ -33,6 +33,7 @@ name_discovery:
   ref_discovery:
   - Torrealba2016MNRAS.459.2370T
   abbreviation: CraII
+  type: dSph
 proper_motion:
   pmra: -0.072
   pmra_em: 0.02

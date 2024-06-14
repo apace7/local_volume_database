@@ -25,6 +25,7 @@ name_discovery:
   name: Gran 4
   ref_discovery:
   - Gran2022MNRAS.509.4962G
+  type: GC
 proper_motion:
   pmdec: -3.51
   pmdec_em: 0.01

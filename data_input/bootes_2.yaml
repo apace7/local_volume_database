@@ -31,6 +31,7 @@ name_discovery:
   ref_discovery:
   - Walsh2007ApJ...662L..83W
   abbreviation: BooII
+  type: dSph
 proper_motion:
   pmdec: -0.414
   pmdec_em: 0.061

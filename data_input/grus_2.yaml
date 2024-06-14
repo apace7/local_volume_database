@@ -33,6 +33,7 @@ name_discovery:
   ref_discovery:
   - DrlicaWagner2015ApJ...813..109D
   abbreviation: GruII
+  type: dSph
 proper_motion:
   pmdec: -1.484
   pmdec_em: 0.04

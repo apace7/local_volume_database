@@ -33,6 +33,7 @@ name_discovery:
   ref_discovery:
   - Belokurov2007ApJ...654..897B
   abbreviation: Her
+  type: dSph
 notes:
 - Tidally disrupting? Remnant? Cluster? MC12
 proper_motion:

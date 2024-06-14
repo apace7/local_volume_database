@@ -28,6 +28,7 @@ name_discovery:
   name: Andromeda XVIII
   ref_discovery:
   - McConnachie2008ApJ...688.1009M
+  type: dSph
 notes:
 - Isolated dSph MC12
 structure:

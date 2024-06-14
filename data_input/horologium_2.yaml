@@ -25,6 +25,7 @@ name_discovery:
   ref_discovery:
   - Kim2015ApJ...808L..39K
   abbreviation: HorII
+  type: dSph
 proper_motion:
   pmdec: -0.771
   pmdec_em: 0.23

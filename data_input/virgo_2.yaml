@@ -26,6 +26,7 @@ name_discovery:
   ref_discovery:
   - Cerny2023ApJ...953....1C
   abbreviation: VirII
+  type: dSph
 structure:
   ellipticity_ul: 0.3
   ref_structure: Cerny2023ApJ...953....1C

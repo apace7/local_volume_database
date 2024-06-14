@@ -11,6 +11,7 @@ name_discovery:
   name: Andromeda V
   ref_discovery:
   - Armandroff1998AJ....116.2287A
+  type: dSph
 distance:
   distance_modulus: 24.4
   distance_modulus_em: 0.06

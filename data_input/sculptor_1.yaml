@@ -34,6 +34,7 @@ name_discovery:
   ref_discovery:
   - Shapley1938BHarO.908....1S
   abbreviation: Scl
+  type: dSph
 notes:
 - The prototypical dSph MC12
 proper_motion:

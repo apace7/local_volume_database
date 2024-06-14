@@ -1,5 +1,15 @@
 key: pavo_1
 table: dwarf_local_field
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2023
+  name: Pavo
+  ref_discovery:
+  - Jones2023ApJ...957L...5J
+  type: dIrr
+notes:
+- star forming, low SFR_UV
 location:
   ra: 298.7499167
   dec: -61.0723611
@@ -13,15 +23,6 @@ m_v:
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
   ref_m_v: Jones2023ApJ...957L...5J
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2023
-  name: Pavo
-  ref_discovery:
-  - Jones2023ApJ...957L...5J
-notes:
-- star forming, low SFR_UV
 structure:
   rhalf: 1.25
   rhalf_em: 0.1

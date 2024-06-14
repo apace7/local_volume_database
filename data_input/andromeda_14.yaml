@@ -28,6 +28,7 @@ name_discovery:
   name: Andromeda XIV
   ref_discovery:
   - Majewski2007ApJ...670L...9M
+  type: dSph
 notes:
 - Unbound to M31? In Pisces
 structure:

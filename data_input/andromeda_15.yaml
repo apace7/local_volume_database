@@ -28,6 +28,7 @@ name_discovery:
   name: Andromeda XV
   ref_discovery:
   - Ibata2007ApJ...671.1591I
+  type: dSph
 structure:
   ellipticity: 0.24
   ellipticity_em: 0.1

@@ -32,6 +32,7 @@ name_discovery:
   ref_discovery:
   - Cannon1977MNRAS.180P..81C
   abbreviation: Car
+  type: dSph
 proper_motion:
   pmdec: 0.127
   pmdec_em: 0.006

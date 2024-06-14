@@ -13,6 +13,7 @@ name_discovery:
   - Zucker2006ApJ...650L..41Z
   - Grillmair2006ApJ...645L..37G
   abbreviation: UMaII
+  type: dSph
 distance:
   distance_modulus: 17.7
   distance_modulus_em: 0.13

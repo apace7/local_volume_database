@@ -35,6 +35,7 @@ name_discovery:
   ref_discovery:
   - Laevens2015ApJ...802L..18L
   abbreviation: TriII
+  type: dSph
 proper_motion:
   pmdec: 0.112
   pmdec_em: 0.067
