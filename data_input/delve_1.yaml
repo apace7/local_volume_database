@@ -1,25 +1,8 @@
-age:
-  age: 12.5
-  age_em: 0.7
-  age_ep: 1.0
-  ref_age: Mau2020ApJ...890..136M
-distance:
-  distance_modulus: 16.39
-  distance_modulus_em: 0.12
-  distance_modulus_ep: 0.12
-  ref_distance: Mau2020ApJ...890..136M
 key: delve_1
+table: gc_ufsc
 location:
-  dec: -0.972
   ra: 247.725
-m_v:
-  apparent_magnitude_v: 16.19
-  apparent_magnitude_v_em: 0.6
-  apparent_magnitude_v_ep: 0.8
-  ref_m_v: Mau2020ApJ...890..136M
-metallicity_photometric:
-  metallicity_photometric: -1.5
-  ref_metallicity_photometric: Mau2020ApJ...890..136M
+  dec: -0.972
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
@@ -30,6 +13,24 @@ name_discovery:
   - Mau2020ApJ...890..136M
   - DrlicaWagner2020ApJ...893...47D
   abbreviation: DEL1
+age:
+  age: 12.5
+  age_em: 0.7
+  age_ep: 1.0
+  ref_age: Mau2020ApJ...890..136M
+distance:
+  distance_modulus: 16.39
+  distance_modulus_em: 0.12
+  distance_modulus_ep: 0.12
+  ref_distance: Mau2020ApJ...890..136M
+m_v:
+  apparent_magnitude_v: 16.19
+  apparent_magnitude_v_em: 0.6
+  apparent_magnitude_v_ep: 0.8
+  ref_m_v: Mau2020ApJ...890..136M
+metallicity_photometric:
+  metallicity_photometric: -1.5
+  ref_metallicity_photometric: Mau2020ApJ...890..136M
 proper_motion:
   pmdec: -1.54
   pmdec_em: 0.05
@@ -49,4 +50,4 @@ structure:
   rhalf: 0.97
   rhalf_em: 0.19
   rhalf_ep: 0.27
-table: gc_ufsc
+

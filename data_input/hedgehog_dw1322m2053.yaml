@@ -12,7 +12,7 @@ name_discovery:
   - dw1322m2053
   ref_discovery:
   - Li2024arXiv240600101L
-  type: dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster
+  type: dSph
 notes:
 - foreground to NGC 5068 at D ~ 5 Mpc
 structure:

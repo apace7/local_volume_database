@@ -14,6 +14,7 @@ name_discovery:
   ref_discovery:
   - Laevens2015ApJ...813...44L
   abbreviation: SgrII
+  type: GC
 distance:
   distance_modulus: 19.2
   distance_modulus_em: 0.2

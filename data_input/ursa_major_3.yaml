@@ -15,7 +15,7 @@ name_discovery:
   ref_discovery:
   - Smith2024ApJ...961...92S
   abbreviation: UMaIII
-  type: dSph
+  type: dSph/SC
 notes:
 - velocity dispersions drops to 1.9_{-1.1}^{+1.4} km/s if one star is removed and
   the velocity disperison is unresolved if two stars are removed Smith2024ApJ...961...92S

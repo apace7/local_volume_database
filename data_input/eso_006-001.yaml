@@ -1,8 +1,16 @@
 key: eso_006-001
 table: dwarf_local_field
 location:
-  dec: -85.14555556
   ra: 124.8470833
+  dec: -85.14555556
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1982
+  name: ESO 006-001
+  ref_discovery:
+  - Lauberts1982euse.book.....L
+  type: dIrr
 distance:
   distance_modulus: 27.16
   distance_modulus_em: 0.09
@@ -19,13 +27,7 @@ metallicity_photometric:
   metallicity_photometric_em: 0.2
   metallicity_photometric_ep: 0.2
   ref_metallicity_photometric: Makarova2023ApJ...943..139M
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1982
-  name: ESO 006-001
-  ref_discovery:
-  - Lauberts1982euse.book.....L
+
 structure:
   ellipticity: 0.11
   ref_structure: Makarova2023ApJ...943..139M

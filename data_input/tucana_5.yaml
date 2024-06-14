@@ -1,8 +1,20 @@
 key: tucana_5
 table: dwarf_mw
 location:
-  dec: -63.266
   ra: 354.347
+  dec: -63.266
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: mw
+  name: Tucana V
+  other_name:
+  - DES J2337-6316
+  ref_discovery:
+  - DrlicaWagner2015ApJ...813..109D
+  abbreviation: TucV
+  type: dSph  
 distance:
   distance_modulus: 18.7
   distance_modulus_em: 0.21
@@ -24,18 +36,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.15
   metallicity_spectroscopic_sigma_ep: 0.32
   ref_metallicity_spectroscopic: Hansen2024ApJ...968...21H
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2015
-  host: mw
-  name: Tucana V
-  other_name:
-  - DES J2337-6316
-  ref_discovery:
-  - DrlicaWagner2015ApJ...813..109D
-  abbreviation: TucV
-  type: dSph
 proper_motion:
   pmdec: -1.18
   pmdec_em: 0.06

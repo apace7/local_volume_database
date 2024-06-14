@@ -13,8 +13,9 @@ name_discovery:
   # - list
   ref_discovery:
   - Makarova2023ApJ...943..139M
+  type: GC
 notes:
-- assuming the distance is the same to  eso_006-001 Makarova2023ApJ...943..139M
+- assuming the distance is the same to eso_006-001 Makarova2023ApJ...943..139M
 structure:
   rhalf: 0.002546479089
   ref_structure: Makarova2023ApJ...943..139M

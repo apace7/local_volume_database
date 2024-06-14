@@ -1,3 +1,18 @@
+key: cetus_1
+table: dwarf_local_field
+location:
+  ra: 6.5458333
+  dec: -11.04444444
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1999
+  name: Cetus
+  ref_discovery:
+  - Whiting1999AJ....118.2767W
+  type: dSph
+notes:
+- isolated dSph MC12 
 distance:
   distance_modulus: 24.39
   distance_modulus_em: 0.07
@@ -6,10 +21,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.71
   ref_flux_HI: Putman2021ApJ...913...53P
-key: cetus_1
-location:
-  dec: -11.04444444
-  ra: 6.5458333
 m_v:
   apparent_magnitude_v: 13.2
   apparent_magnitude_v_em: 0.2
@@ -23,15 +34,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.04
   metallicity_spectroscopic_sigma_ep: 0.04
   ref_metallicity_spectroscopic: Taibi2018A&A...618A.122T
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1999
-  name: Cetus
-  ref_discovery:
-  - Whiting1999AJ....118.2767W
-notes:
-- isolated dSph MC12
 structure:
   ellipticity: 0.33
   ellipticity_em: 0.06
@@ -54,7 +56,6 @@ structure_king:
   rking: 32.0
   rking_em: 6.5
   rking_ep: 6.5
-table: dwarf_local_field
 velocity:
   ref_vlos: Kirby2014MNRAS.439.1015K
   vlos_sigma: 8.3

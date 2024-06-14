@@ -12,9 +12,9 @@ name_discovery:
   other_name:
   - Sc22
   - PGC3097727
-  - Sculptor-dE1
   ref_discovery:
   - Cote1997AJ....114.1313C
+  type: dE
 # notes:
 # - list
 structure:

@@ -1,20 +1,8 @@
-distance:
-  distance_modulus: 17.22
-  distance_modulus_em: 0.1
-  distance_modulus_ep: 0.1
-  ref_distance: Torrealba2018MNRAS.475.5085T
-flux_HI:
-  flux_HI_ul: 0.547
-  ref_flux_HI: Putman2021ApJ...913...53P
 key: carina_3
+table: dwarf_mw
 location:
-  dec: -57.8997
   ra: 114.6298
-m_v:
-  apparent_magnitude_v: 14.82
-  apparent_magnitude_v_em: 0.2
-  apparent_magnitude_v_ep: 0.2
-  ref_m_v: Torrealba2018MNRAS.475.5085T
+  dec: -57.8997
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -24,6 +12,20 @@ name_discovery:
   ref_discovery:
   - Torrealba2018MNRAS.475.5085T
   abbreviation: CarIII
+  type: dSph
+distance:
+  distance_modulus: 17.22
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
+  ref_distance: Torrealba2018MNRAS.475.5085T
+flux_HI:
+  flux_HI_ul: 0.547
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 14.82
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: Torrealba2018MNRAS.475.5085T
 proper_motion:
   pmdec: 1.395
   pmdec_em: 0.045
@@ -43,7 +45,6 @@ structure:
   rhalf: 3.75
   rhalf_em: 1.0
   rhalf_ep: 1.0
-table: dwarf_mw
 velocity:
   ref_vlos: Li2018ApJ...857..145L
   vlos_sigma: 5.6

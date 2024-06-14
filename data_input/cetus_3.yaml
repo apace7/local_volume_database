@@ -1,21 +1,8 @@
 key: cetus_3
 table: dwarf_mw
-distance:
-  distance_modulus: 22.0
-  distance_modulus_em: 0.2
-  distance_modulus_ep: 0.2
-  ref_distance: Homma2023arXiv231105439H
-flux_HI:
-  flux_HI_ul: 0.57
-  ref_flux_HI: Putman2021ApJ...913...53P
 location:
-  dec: -4.27
   ra: 31.331
-m_v:
-  apparent_magnitude_v: 18.55
-  apparent_magnitude_v_em: 0.43
-  apparent_magnitude_v_ep: 0.49
-  ref_m_v: Homma2023arXiv231105439H
+  dec: -4.27
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
@@ -27,7 +14,20 @@ name_discovery:
   ref_discovery:
   - Homma2018PASJ...70S..18H
   abbreviation: CetIII
-  type: dSph
+  # type: dSph/SC
+distance:
+  distance_modulus: 22.0
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.2
+  ref_distance: Homma2023arXiv231105439H
+flux_HI:
+  flux_HI_ul: 0.57
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 18.55
+  apparent_magnitude_v_em: 0.43
+  apparent_magnitude_v_ep: 0.49
+  ref_m_v: Homma2023arXiv231105439H
 structure:
   ellipticity: 0.76
   ellipticity_em: 0.08

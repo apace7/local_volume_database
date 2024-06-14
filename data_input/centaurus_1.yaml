@@ -3,6 +3,16 @@ table: dwarf_mw
 location:
   dec: -40.902
   ra: 189.585
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2020
+  host: mw
+  name: Centaurus I
+  ref_discovery:
+  - Mau2020ApJ...890..136M
+  abbreviation: CenI
+  type: dSph
 distance:
   distance_modulus: 20.354
   distance_modulus_em: 0.07
@@ -21,16 +31,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.05
   metallicity_spectroscopic_sigma_ep: 0.07
   ref_metallicity_spectroscopic: Heiger2024ApJ...961..234H
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2020
-  host: mw
-  name: Centaurus I
-  ref_discovery:
-  - Mau2020ApJ...890..136M
-  abbreviation: CenI
-  type: dSph
 proper_motion:
   pmdec: -0.19
   pmdec_em: 0.04

@@ -1,3 +1,18 @@
+key: sextans_1
+table: dwarf_mw
+location:
+  ra: 153.2628
+  dec: -1.6133
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1990
+  host: mw
+  name: Sextans
+  ref_discovery:
+  - Irwin1990MNRAS.244P..16I
+  abbreviation: Sxt
+  type: dSph
 distance:
   distance_modulus: 19.67
   distance_modulus_em: 0.1
@@ -6,10 +21,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.23
   ref_flux_HI: Putman2021ApJ...913...53P
-key: sextans_1
-location:
-  dec: -1.6133
-  ra: 153.2628
 m_v:
   apparent_magnitude_v: 10.95
   apparent_magnitude_v_em: 0.06
@@ -23,16 +34,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.03
   metallicity_spectroscopic_sigma_ep: 0.03
   ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1990
-  host: mw
-  name: Sextans
-  ref_discovery:
-  - Irwin1990MNRAS.244P..16I
-  abbreviation: Sxt
-  type: dSph
 proper_motion:
   pmdec: 0.037
   pmdec_em: 0.009
@@ -68,7 +69,6 @@ structure_sersic:
   rad_sersic_em: 0.17
   rad_sersic_ep: 0.17
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Walker2009AJ....137.3100W
   vlos_sigma: 7.9

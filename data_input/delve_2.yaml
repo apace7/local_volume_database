@@ -1,24 +1,8 @@
-age:
-  ref_age: Cerny2021ApJ...910...18C
-distance:
-  distance_modulus: 19.26
-  distance_modulus_em: 0.1
-  distance_modulus_ep: 0.1
-  ref_distance: Cerny2021ApJ...910...18C
 key: delve_2
+table: gc_ufsc
 location:
-  dec: -68.253
   ra: 28.772
-m_v:
-  apparent_magnitude_v: 17.16
-  apparent_magnitude_v_em: 0.5
-  apparent_magnitude_v_ep: 0.4
-  ref_m_v: Cerny2021ApJ...910...18C
-metallicity_photometric:
-  metallicity_photometric: -2.0
-  metallicity_photometric_em: 0.5
-  metallicity_photometric_ep: 0.2
-  ref_metallicity_photometric: Cerny2021ApJ...910...18C
+  dec: -68.253
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
@@ -30,9 +14,27 @@ name_discovery:
   ref_discovery:
   - Cerny2021ApJ...910...18C
   abbreviation: DEL2
+  type: SC/dSph
 notes:
 - size+luminosity is in dwarf + star cluster overlap region; set to star cluster based
   off original classification Cerny2021ApJ...910...18C
+age:
+  ref_age: Cerny2021ApJ...910...18C
+distance:
+  distance_modulus: 19.26
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
+  ref_distance: Cerny2021ApJ...910...18C
+m_v:
+  apparent_magnitude_v: 17.16
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.4
+  ref_m_v: Cerny2021ApJ...910...18C
+metallicity_photometric:
+  metallicity_photometric: -2.0
+  metallicity_photometric_em: 0.5
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: Cerny2021ApJ...910...18C
 proper_motion:
   pmdec: -0.97
   pmdec_em: 0.08
@@ -52,4 +54,3 @@ structure:
   rhalf: 1.04
   rhalf_em: 0.15
   rhalf_ep: 0.19
-table: gc_ufsc

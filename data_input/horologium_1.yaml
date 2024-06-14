@@ -3,6 +3,19 @@ table: dwarf_mw
 location:
   ra: 43.8755
   dec: -54.1174
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: lmc
+  name: Horologium I
+  other_name:
+  - DES J0255.4-5406
+  ref_discovery:
+  - Bechtol2015ApJ...807...50B
+  - Koposov2015ApJ...805..130K
+  abbreviation: HorI
+  type: dSph
 distance:
   distance_modulus: 19.5
   distance_modulus_em: 0.1
@@ -24,18 +37,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.03
   metallicity_spectroscopic_sigma_ep: 0.2
   ref_metallicity_spectroscopic: Koposov2015ApJ...811...62K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2015
-  host: lmc
-  name: Horologium I
-  other_name:
-  - DES J0255.4-5406
-  ref_discovery:
-  - Bechtol2015ApJ...807...50B
-  - Koposov2015ApJ...805..130K
-  abbreviation: HorI
 proper_motion:
   pmdec: -0.607
   pmdec_em: 0.035

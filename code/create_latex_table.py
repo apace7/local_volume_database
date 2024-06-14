@@ -469,7 +469,7 @@ for tab in [dsph_mw, dsph_m31,  dsph_lf, dsph_lf_distant]:
     # tab['year'] = add_year(tab)
     add_year(tab)
     add_coord(tab)
-    add_column(tab, 'name_discovery', 'type', col_type='U10')
+    add_column(tab, 'name_discovery', 'type', col_type='U100')
 
 # gc_ufsc['year'] = add_year(gc_ufsc)
 # gc_disk['year'] = add_year(gc_disk)

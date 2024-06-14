@@ -1,8 +1,21 @@
 key: eridanus_2
 table: dwarf_mw
 location:
-  dec: -43.5329
   ra: 56.0925
+  dec: -43.5329
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: mw
+  name: Eridanus II
+  other_name:
+  - DES J0344.3-4331
+  ref_discovery:
+  - Bechtol2015ApJ...807...50B
+  - Koposov2015ApJ...805..130K
+  abbreviation: EriII
+  type: dSph
 distance:
   distance_modulus: 22.84
   distance_modulus_em: 0.05
@@ -24,19 +37,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.9
   metallicity_spectroscopic_sigma_ep: 0.12
   ref_metallicity_spectroscopic: Li2017ApJ...838....8L
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2015
-  host: mw
-  name: Eridanus II
-  other_name:
-  - DES J0344.3-4331
-  ref_discovery:
-  - Bechtol2015ApJ...807...50B
-  - Koposov2015ApJ...805..130K
-  abbreviation: EriII
-  type: dSph
+
 proper_motion:
   pmdec: 0.013
   pmdec_em: 0.127

@@ -1,8 +1,20 @@
 key: leo_5
 table: dwarf_mw
 location:
-  dec: 2.2194
   ra: 172.7857
+  dec: 2.2194
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2008
+  host: mw
+  name: Leo V
+  ref_discovery:
+  - Belokurov2008ApJ...686L..83B
+  abbreviation: LeoV
+  type: dSph
+notes:
+- Cluster? Binary w/ Leo IV? MC12
 distance:
   distance_modulus: 21.14
   distance_modulus_em: 0.06
@@ -24,18 +36,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.09
   metallicity_spectroscopic_sigma_ep: 0.14
   ref_metallicity_spectroscopic: Jenkins2021ApJ...920...92J
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2008
-  host: mw
-  name: Leo V
-  ref_discovery:
-  - Belokurov2008ApJ...686L..83B
-  abbreviation: LeoV
-  type: dSph
-notes:
-- Cluster? Binary w/ Leo IV? MC12
 proper_motion:
   pmra: 0.1186
   pmra_em: 0.1943

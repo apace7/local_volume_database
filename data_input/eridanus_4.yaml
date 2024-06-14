@@ -1,8 +1,18 @@
 key: eridanus_4
 table: dwarf_mw
 location:
-  dec: -9.515
   ra: 76.438
+  dec: -9.515
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2021
+  host: mw
+  name: Eridanus IV
+  ref_discovery:
+  - Cerny2021ApJ...920L..44C
+  abbreviation: EriIV
+  type: dSph
 distance:
   distance_modulus: 19.42
   distance_modulus_em: 0.08
@@ -21,16 +31,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.09
   metallicity_spectroscopic_sigma_ep: 0.09
   ref_metallicity_spectroscopic: Heiger2024ApJ...961..234H
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2021
-  host: mw
-  name: Eridanus IV
-  ref_discovery:
-  - Cerny2021ApJ...920L..44C
-  abbreviation: EriIV
-  type: dSph
 proper_motion:
   pmdec: -0.1
   pmdec_em: 0.05

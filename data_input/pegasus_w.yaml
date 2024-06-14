@@ -1,12 +1,21 @@
+key: pegasus_w
+table: dwarf_local_field
+location:
+  ra: 358.3124817
+  dec: 22.10197022
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2023
+  name: Pegasus W
+  ref_discovery:
+  - McQuinn2023ApJ...944...14M
+  type: dIrr/dSph
 distance:
   distance_modulus: 24.81
   distance_modulus_em: 0.22
   distance_modulus_ep: 0.14
   ref_distance: McQuinn2023ApJ...944...14M
-key: pegasus_w
-location:
-  dec: 22.10197022
-  ra: 358.3124817
 m_v:
   apparent_magnitude_v: 17.61
   apparent_magnitude_v_em: 0.16
@@ -17,13 +26,6 @@ metallicity_photometric:
   metallicity_photometric_em: 0.1
   metallicity_photometric_ep: 0.1
   ref_metallicity_photometric: McQuinn2023ApJ...944...14M
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2023
-  name: Pegasus W
-  ref_discovery:
-  - McQuinn2023ApJ...944...14M
 structure:
   ellipticity: 0.17
   ellipticity_em: 0.08
@@ -35,4 +37,4 @@ structure:
   rhalf: 0.3833
   rhalf_em: 0.0333
   rhalf_ep: 0.0333
-table: dwarf_local_field
+

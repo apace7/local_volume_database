@@ -3,6 +3,19 @@ table: dwarf_mw
 location:
   ra: 354.9919
   dec: -54.4019
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: lmc
+  name: Phoenix II
+  other_name:
+  - DES J2339.9-5424
+  ref_discovery:
+  - Bechtol2015ApJ...807...50B
+  - Koposov2015ApJ...805..130K
+  abbreviation: PhxII
+  type: dSph
 distance:
   distance_modulus: 19.6
   distance_modulus_em: 0.2
@@ -24,18 +37,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.16
   metallicity_spectroscopic_sigma_ep: 0.29
   ref_metallicity_spectroscopic: Fritz2019A&A...623A.129F
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2015
-  host: lmc
-  name: Phoenix II
-  other_name:
-  - DES J2339.9-5424
-  ref_discovery:
-  - Bechtol2015ApJ...807...50B
-  - Koposov2015ApJ...805..130K
-  abbreviation: PhxII
 proper_motion:
   pmdec: -1.199
   pmdec_em: 0.057

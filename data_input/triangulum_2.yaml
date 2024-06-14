@@ -3,6 +3,18 @@ table: dwarf_mw
 location:
   ra: 33.3155
   dec: 36.1691
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: mw
+  name: Triangulum II
+  other_name:
+  - Laevens 2
+  ref_discovery:
+  - Laevens2015ApJ...802L..18L
+  abbreviation: TriII
+  type: dSph/SC
 distance:
   distance_modulus: 17.27
   distance_modulus_em: 0.11
@@ -24,18 +36,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.12
   metallicity_spectroscopic_sigma_ep: 0.38
   ref_metallicity_spectroscopic: Kirby2017ApJ...838...83K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2015
-  host: mw
-  name: Triangulum II
-  other_name:
-  - Laevens 2
-  ref_discovery:
-  - Laevens2015ApJ...802L..18L
-  abbreviation: TriII
-  type: dSph
 proper_motion:
   pmdec: 0.112
   pmdec_em: 0.067
