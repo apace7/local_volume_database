@@ -1,0 +1,65 @@
+key: teutsch_67
+table: gc_disk
+location:
+  ra: 143.44166666666666  # [deg]
+  dec: -57.099722222222226 # [deg]
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  discovery_year: 2005
+  host: mw
+  name: Teutsch 67
+  other_name:
+  - CWNU 3634
+  ref_discovery:
+  - Kronberger2006A&A...447..921K
+  type: OC/GC
+notes:
+  - OC Kronberger2006A&A...447..921K
+  - OC candidate He2023ApJS..267...34H 
+  - GC candidate S2024arXiv240609216S
+  - velocity from 1 Gaia RVS star He2023ApJS..267...34H 
+  - APB if velocity is correct this is a disk-like orbit and open cluster like
+structure:
+  rhalf: 0.82
+  rhalf_em: 0.02
+  rhalf_ep: 0.02
+  spatial_units: arcmin
+  ref_structure: S2024arXiv240609216S
+distance:
+  distance_modulus: 15.60 
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: S2024arXiv240609216S
+proper_motion:
+  pmra: -2.380 # [mas/yr]
+  pmra_em: 0.026
+  pmra_ep: 0.026
+  pmdec: 1.922 # [mas/yr]
+  pmdec_em: 0.029
+  pmdec_ep: 0.029
+metallicity_photometric:
+  ref_proper_motion: S2024arXiv240609216S
+  metallicity_photometric: -0.75
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: S2024arXiv240609216S
+structure_king:
+  rcore: 0.59
+  rcore_em: 0.02
+  rcore_ep: 0.02
+  rking: 3.96 # [arcmin]
+  rking_em: 0.13
+  rking_ep: 0.13
+  spatial_units: arcmin
+  ref_structure_king: S2024arXiv240609216S
+age:
+  age: 10.5 ## [Gyr]
+  ref_age: S2024arXiv240609216S
+velocity:
+  vlos_systemic: 96.95
+  vlos_systemic_em: 2.75
+  vlos_systemic_ep: 2.75
+  ref_vlos: He2023ApJS..267...34H 
+
+  

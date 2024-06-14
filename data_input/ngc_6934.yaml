@@ -41,6 +41,7 @@ velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_sigma: 5.1
   vlos_sigma_em: 1.1
+  vlos_sigma_ep: 1.1
   vlos_systemic: -406.22
   vlos_systemic_em: 0.73
   vlos_systemic_ep: 0.73

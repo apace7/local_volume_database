@@ -1,3 +1,20 @@
+key: garro_1
+table: gc_disk
+location:
+  ra: 212.25
+  dec: -65.62
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2020
+  host: mw
+  name: Garro 1
+  other_name:
+  - Garro 01
+  - VVVX-GC-140900-653712
+  ref_discovery:
+  - Garro2020A&A...642L..19G
+  type: OC/GC
 age:
   age: 11.0
   age_em: 1.0
@@ -8,10 +25,6 @@ distance:
   distance_modulus_em: 0.03
   distance_modulus_ep: 0.03
   ref_distance: Garro2020A&A...642L..19G
-key: garro_1
-location:
-  dec: -65.62
-  ra: 212.25
 m_v:
   apparent_magnitude_v: 10.67
   apparent_magnitude_v_em: 1.0
@@ -28,17 +41,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.03
   metallicity_spectroscopic_sigma_ul: 0.1
   ref_metallicity_spectroscopic: Pace2023MNRAS.526.1075P
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 2020
-  host: mw
-  name: Garro 1
-  other_name:
-  - Garro 01
-  - VVVX-GC-140900-653712
-  ref_discovery:
-  - Garro2020A&A...642L..19G
 proper_motion:
   pmdec: -1.09
   pmdec_em: 0.02
@@ -57,7 +59,6 @@ structure_king:
   rcore_em: 0.5
   rcore_ep: 0.7
   ref_structure_king: Pace2023MNRAS.526.1075P
-table: gc_disk
 velocity:
   ref_vlos: Pace2023MNRAS.526.1075P
   vlos_sigma: 0.4

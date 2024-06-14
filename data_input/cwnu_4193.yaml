@@ -1,0 +1,53 @@
+key: cwnu_4193
+table: gc_disk
+location:
+  ra: 121.17375  # [deg]
+  dec: -38.92111111111111 # [deg]
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  discovery_year: 2023
+  host: mw
+  name: CWNU 4193
+  ref_discovery:
+  - He2023ApJS..267...34H
+  type: OC/GC
+notes:
+  - OC He2023ApJS..267...34H
+  - GC candidate S2024arXiv240609216S
+structure:
+  rhalf: 0.76 # [arcmin]
+  rhalf_em: 0.01
+  rhalf_ep: 0.02
+  spatial_units: arcmin
+  ref_structure: S2024arXiv240609216S
+distance:
+  distance_modulus: 15.54 
+  distance_modulus_em: 0.09
+  distance_modulus_ep: 0.08
+  ref_distance: S2024arXiv240609216S
+proper_motion:
+  pmra: -0.792 # [mas/yr]
+  pmra_em: 0.025
+  pmra_ep: 0.025
+  pmdec: 1.628 # [mas/yr]
+  pmdec_em: 0.213
+  pmdec_ep: 0.213
+  ref_proper_motion: S2024arXiv240609216S
+metallicity_photometric:
+  metallicity_photometric: -0.85
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: S2024arXiv240609216S
+structure_king:
+  rcore: 00.69 # [arcmin]
+  rcore_em: 0.01
+  rcore_ep: 0.01
+  rking: 3.05 # [arcmin]
+  rking_em: 0.10
+  rking_ep: 0.10
+  spatial_units: arcmin
+  ref_structure_king: S2024arXiv240609216S
+age:
+  age: 11
+  ref_age: S2024arXiv240609216S

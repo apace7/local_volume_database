@@ -1,0 +1,63 @@
+key: fsr_1415
+table: open_cluster
+location:
+  ra: 130.0995833333333  # [deg]
+  dec: -44.72416666666667 # [deg]
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  discovery_year: 2006
+  host: mw
+  name: FSR 1415
+  other_name:
+  - He Zhihong 7
+  ref_discovery:
+  - Froebrich2007MNRAS.374..399F
+  - He2023ApJS..267...34H
+  type: OC
+notes:
+  - GC candidate He2023ApJS..267...34H
+  - OC candidate S2024arXiv240609216S
+  - velocity from 1 Gaia RVS star He2023ApJS..267...34H 
+  - APB if velocity is correct this is a disk-like orbit and open cluster like
+structure:
+  rhalf: 1.35
+  rhalf_em: 0.27
+  rhalf_ep: 0.24
+  spatial_units: arcmin
+  ref_structure: S2024arXiv240609216S
+distance:
+  distance_modulus: 15.15 
+  distance_modulus_em: 0.10
+  distance_modulus_ep: 0.10
+  ref_distance: S2024arXiv240609216S
+proper_motion:
+  pmra: -1.971 # [mas/yr]
+  pmra_em: 0.20
+  pmra_ep: 0.20
+  pmdec: 2.305 # [mas/yr]
+  pmdec_em: 0.020
+  pmdec_ep: 0.020
+  ref_proper_motion: S2024arXiv240609216S
+metallicity_photometric:
+  metallicity_photometric: -0.1
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: S2024arXiv240609216S
+structure_king:
+  rcore: 0.58 # [arcmin]
+  rcore_em: 0.02
+  rcore_ep: 0.02
+  rking: 11.06 # [arcmin]
+  rking_em: 4.2
+  rking_ep: 4.2
+  spatial_units: arcmin
+  ref_structure_king: S2024arXiv240609216S
+age:
+  age: 3 ## [Gyr]
+  ref_age: S2024arXiv240609216S
+velocity:
+  vlos_systemic: 54.82
+  vlos_systemic_em: 4.93
+  vlos_systemic_ep: 4.93
+  ref_vlos: He2023ApJS..267...34H 
