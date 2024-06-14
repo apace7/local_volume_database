@@ -4,6 +4,7 @@ table: misc
 # gc_harris , gc_dwarf_hosted , gc_disk , gc_ufsc
 # dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant
 # misc == currently catch-all for objects that don't go elsewhere 
+# open_cluster
 location:
   ra: 0 # [deg]
   dec: 0 # [deg]

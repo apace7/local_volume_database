@@ -3,6 +3,7 @@ import astropy.coordinates as coord
 import astropy.table as table
 import os.path
 import numpy.ma as ma
+import numpy as np
 
 def get_notes(key):
     path="/Users/apace/Documents/local_volume_database/data_input/"

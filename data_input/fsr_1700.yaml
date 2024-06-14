@@ -1,0 +1,61 @@
+key: fsr_1700
+table: gc_disk
+location:
+  ra: 234.71874999999994  # [deg]
+  dec: -59.2675 # [deg]
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  discovery_year: 2006
+  host: mw
+  name: FSR 1700
+  ref_discovery:
+  - Froebrich2007MNRAS.374..399F
+  type: OC/GC
+notes:
+  - candidate GC He2023ApJS..267...34H
+  - velocity from 2 Gaia RVS stars He2023ApJS..267...34H 
+  - APB if velocity is correct this is a disk-like orbit and open cluster like
+structure:
+## the ellipticity, position_angle here are the version in the standard table
+  rhalf: 2.39
+  rhalf_em: 0.08
+  rhalf_ep: 0.08
+  spatial_units: arcmin
+  ref_structure: S2024arXiv240609216S
+distance:
+  distance_modulus: 15.06 
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.10
+  ref_distance: S2024arXiv240609216S
+proper_motion:
+  pmra: -4.850 # [mas/yr]
+  pmra_em: 0.014
+  pmra_ep: 0.014
+  pmdec: -4.030 # [mas/yr]
+  pmdec_em: 0.013
+  pmdec_ep: 0.013
+  ref_proper_motion: S2024arXiv240609216S
+metallicity_photometric:
+  metallicity_photometric: -0.8
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: S2024arXiv240609216S
+structure_king:
+  rcore: 2.37
+  rcore_em: 0.14
+  rcore_ep: 0.14
+  rking: 8.96
+  rking_em: 0.35
+  rking_ep: 0.35
+  spatial_units: arcmin
+  ref_structure_king: S2024arXiv240609216S
+age:
+  age: 11
+  ref_age: S2024arXiv240609216S
+velocity:
+  vlos_systemic: 10.39
+  vlos_systemic_em: 5.45
+  vlos_systemic_ep: 5.45
+  ref_vlos: He2023ApJS..267...34H 
+  

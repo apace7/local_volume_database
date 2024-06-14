@@ -46,3 +46,4 @@ velocity:
   vlos_systemic: -3.78
   vlos_systemic_em: 0.3
   vlos_systemic_ep: 0.3
+  vlos_sigma_ep: 0.6

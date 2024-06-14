@@ -99,8 +99,8 @@ def add_coord(table_input):
     table_input['bb'] = c_table_input.galactic.b.value
 
 def create_latex_table_name_discovery(output, input_table, **kwargs):
-    classification_column = kwargs.get("classification_column", 'confirmed_dwarf')
-    classification_output = kwargs.get("classification_output", 'Dwarf Galaxy')
+    # classification_column = kwargs.get("classification_column", 'confirmed_dwarf')
+    # classification_output = kwargs.get("classification_output", 'Dwarf Galaxy')
     missing_host = []
     with open(output, 'w+') as f:
         for i in range(len(input_table)):
@@ -169,10 +169,13 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
             else:
                 out_str +=  ' Cand. & '
 
-            if input_table[classification_column][i]==1:
-                out_str +=  classification_output
-            elif input_table[classification_column][i]==0:
-                out_str +=  '  '        
+            if ma.is_masked(input_table['type'][i])==False:
+                out_str += str(input_table['type'][i])
+
+            # if input_table[classification_column][i]==1:
+            #     out_str +=  classification_output
+            # elif input_table[classification_column][i]==0:
+            #     out_str +=  '  '        
 
             if i == len(input_table)-1 and np.logical_or.reduce((len(other_name)>place , len(ref) > place )):
                 out_str += '\\\\'+'\n'
@@ -466,6 +469,7 @@ for tab in [dsph_mw, dsph_m31,  dsph_lf, dsph_lf_distant]:
     # tab['year'] = add_year(tab)
     add_year(tab)
     add_coord(tab)
+    add_column(tab, 'name_discovery', 'type', col_type='U10')
 
 # gc_ufsc['year'] = add_year(gc_ufsc)
 # gc_disk['year'] = add_year(gc_disk)
@@ -482,6 +486,7 @@ for tab in [gc_ufsc, gc_disk,  gc_harris, gc_dwarf]:
     add_column(tab, 'age', 'age_em')
     add_column(tab, 'age', 'age_ep')
     add_column(tab, 'age', 'ref_age', col_type='U100')
+    add_column(tab, 'name_discovery', 'type', col_type='U100')
     add_coord(tab)
 
 # add_coord(dsph_m31)
