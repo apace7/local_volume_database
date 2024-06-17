@@ -1,0 +1,34 @@
+key: eso_381-018
+table: dwarf_local_field_distant
+location:
+  ra: 191.17499999999995  # [deg]
+  dec: -35.96638888888889 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: ngc_5128
+  name: ESO 381-018
+  other_name:
+  - HIPASS J1244-35
+  - PGC042936
+  type: dIrr
+structure:
+  rhalf: 13.6 
+  spatial_units: arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 28.68
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Tully2009AJ....138..323T  
+m_v:
+  apparent_magnitude_v: 14.69
+  ref_m_v: Muller2017A&A...597A...7M
+velocity:
+  vlos_systemic: 624.5 # [km/s]
+  ref_vlos: Doyle2005MNRAS.361...34D 
+flux_HI:
+  flux_HI:  3.3 # [Jy km/s ]
+  vlos_systemic_HI: 624.5 #[km/s]
+  ref_flux_HI: Doyle2005MNRAS.361...34D 

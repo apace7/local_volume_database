@@ -1,0 +1,42 @@
+key: kk_182
+table: dwarf_local_field_distant
+location:
+  ra: 196.25833333333333  # [deg]
+  dec: -40.08277777777778 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1998
+  host: ngc_5128
+  name: KK 182
+  other_name:
+  - Cen6
+  - PGC166152
+  ref_discovery:
+  - Karachentseva1998A&AS..127..409K
+  type: dIrr
+structure:
+  rhalf: 15.0 
+  spatial_units: arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 28.87
+  distance_modulus_em: 0.13
+  distance_modulus_ep: 0.13
+  ref_distance: Tully2009AJ....138..323T  
+m_v:
+  apparent_magnitude_v: 15.48
+  ref_m_v: Muller2017A&A...597A...7M
+velocity:
+  vlos_systemic: 617
+  vlos_systemic_em: 4
+  vlos_systemic_ep: 4
+  ref_vlos: Koribalski2004AJ....128...16K 
+flux_HI:
+  flux_HI:  5.1 # [Jy km/s ]
+  flux_HI_em: 1.9
+  flux_HI_ep: 1.9
+  vlos_systemic_HI: 617 #[km/s]
+  vlos_systemic_HI_em: 4
+  vlos_systemic_HI_ep: 4
+  ref_flux_HI: Koribalski2004AJ....128...16K ## mostly for flux_HI

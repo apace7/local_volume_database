@@ -13,6 +13,7 @@ name_discovery:
   - SGC1319.1-4216
   ref_discovery:
   - Karachentseva1998A&AS..127..409K
+  type: dE,N
 # notes:
 # - list
 structure:

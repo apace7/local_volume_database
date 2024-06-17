@@ -1,0 +1,38 @@
+key: kk_200
+table: dwarf_local_field_distant
+location:
+  ra: 201.14999999999998  # [deg]
+  dec: -30.971666666666664 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1998
+  host: ngc_5128
+  name: KK 200
+  other_name:
+  - AM1321-304
+  - PGC046885
+  ref_discovery:
+  - Karachentseva1998A&AS..127..409K
+  type: dE/dIrr
+structure:
+  rhalf: 21.1 
+  spatial_units: arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 28.39
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Tully2009AJ....138..323T  
+m_v:
+  apparent_magnitude_v: 14.83
+  ref_m_v: Muller2017A&A...597A...7M
+velocity:
+  vlos_systemic: 493.69 # [km/s]
+  ref_vlos: Begum2008MNRAS.386.1667B 
+flux_HI:
+  flux_HI:  1.6  # [Jy km/s ]
+  flux_HI_em: 0.2
+  flux_HI_ep: 0.2
+  vlos_systemic_HI: 493.69 #[km/s]
+  ref_flux_HI: Begum2008MNRAS.386.1667B ## mostly for flux_HI
