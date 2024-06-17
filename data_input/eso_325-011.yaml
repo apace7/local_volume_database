@@ -1,0 +1,40 @@
+key: eso_325-011
+table: dwarf_local_field_distant
+location:
+  ra: 206.24999999999997
+  dec: -41.86027777777778
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5128
+  name: ESO 325-011
+  other_name:
+  - PGC048738
+  - HIPASS J1345-41
+  - ESO 325-G?011
+  type: S/Irr
+structure:
+  rhalf: 46.1
+  spatial_units:  arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 27.66
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 13.15
+  ref_m_v: Muller2017A&A...597A...7M
+velocity:
+  vlos_systemic: 544
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Kirby2012MNRAS.420.2924K
+flux_HI:
+  flux_HI:  27.1 
+  flux_HI_em: 0.9
+  flux_HI_ep: 0.9
+  vlos_systemic_HI: 544 #[km/s]
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: Kirby2012MNRAS.420.2924K

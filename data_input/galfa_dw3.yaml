@@ -1,0 +1,49 @@
+key: galfa_dw3
+table: dwarf_local_field_distant
+location:
+  ra: 44.73541666666666
+  dec: 13.629277777777778
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  name: GALFA Dw3
+  other_name:
+  - GALFA 044.7+13.6+528
+  ref_discovery:
+  - Sand2015ApJ...806...95S
+  - Bennet2022ApJ...924...98B
+structure:
+  rhalf: 12.62
+  rhalf_em: 1.2
+  rhalf_ep: 1.2
+  spatial_unit: arcsec
+  ellipticity: 0.54
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.03
+  position_angle: 56.4
+  position_angle_em: 1.7
+  position_angle_ep: 1.7
+  ref_structure: Bennet2022ApJ...924...98B
+distance:
+  distance_modulus: 29.41
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Bennet2022ApJ...924...98B
+m_v:
+  apparent_magnitude_v: 16.6
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: Bennet2022ApJ...924...98B
+velocity:
+  vlos_systemic: 503
+  vlos_systemic_em: 35
+  vlos_systemic_ep: 35
+  ref_vlos: Sand2015ApJ...806...95S
+flux_HI:
+  flux_HI: 0.51
+  vlos_systemic_HI: 528.59
+  vlos_systemic_HI_em: 18.9
+  vlos_systemic_HI_ep: 18.9
+  ref_flux_HI: Saul2012ApJ...758...44S
+
