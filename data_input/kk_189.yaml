@@ -1,0 +1,44 @@
+key: kk_189
+table: dwarf_local_field_distant
+location:
+  ra: 198.18749999999997
+  dec: -41.831944444444446
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1998
+  host: ngc_5128
+  name: KK 189
+  other_name:
+  - Centaurus A-dE1
+  - PGC166158
+  ref_discovery:
+  - Karachentseva1998A&AS..127..409K
+  type: dE
+structure:
+  rhalf: 14.4
+  spatial_units: arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 28.13
+  distance_modulus_em: 0.09
+  distance_modulus_ep: 0.09
+  ref_distance: Tully2009AJ....138..323T    
+m_v:
+  apparent_magnitude_v: 16.37
+  ref_m_v: Muller2017A&A...597A...7M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.43
+  metallicity_spectroscopic_em: 0.07
+  metallicity_spectroscopic_ep: 0.07
+  ref_metallicity_spectroscopic: Muller2021A&A...645A..92M
+velocity:
+  vlos_systemic: 752.6
+  vlos_systemic_em: 4.0
+  vlos_systemic_ep: 4.0
+  ref_vlos: Muller2021A&A...645A..92M
+age:
+  age: 7.6
+  age_em: 1.2
+  age_ep: 1.2
+  ref_age: Muller2021A&A...645A..92M

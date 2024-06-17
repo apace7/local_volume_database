@@ -1,0 +1,32 @@
+key: kk_196
+table: dwarf_local_field_distant
+location:
+  ra: 200.44625
+  dec: -45.06333333
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1998
+  host: ngc_5128
+  name: KK 196
+  other_name:
+  - PGC046663
+  ref_discovery:
+  - Karachentseva1998A&AS..127..409K
+  type: dIrr?
+structure:
+  rhalf: 16.0
+  spatial_unit: arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 27.99
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Tully2009AJ....138..323T  
+m_v:
+  apparent_magnitude_v: 15.18
+  ref_m_v: Muller2017A&A...597A...7M
+velocity:
+  vlos_systemic: 741
+  ref_vlos: Karachentsev2013AJ....145..101K
+

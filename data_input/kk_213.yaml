@@ -1,0 +1,27 @@
+key: kk_213
+table: dwarf_local_field_distant
+location:
+  ra: 205.89916666666667
+  dec: -43.76916666666666
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1998
+  host: ngc_5128
+  name: KK 213
+  other_name:
+  - PGC166172
+  ref_discovery:
+  - Karachentseva1998A&AS..127..409K
+structure:
+  rhalf: 20.5
+  spatial_units: arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 27.88
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.11
+  ref_distance: Tully2009AJ....138..323T  
+m_v:
+  apparent_magnitude_v: 16.20
+  ref_m_v: Muller2017A&A...597A...7M
