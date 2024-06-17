@@ -1,0 +1,66 @@
+key: pisces_b
+table: dwarf_local_field_distant
+location:
+  ra: 19.79875
+  dec: 11.12172778
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2014
+  host: LF
+  name: Pisces B
+  ref_discovery:
+  - Tollerud2015ApJ...798L..21T
+  - Sand2015ApJ...806...95S
+  other_name:
+  - GALFA-Dw2
+notes:
+- structure rhalf from sersic fit
+structure:
+  rhalf: 0.1728333333
+  rhalf_em: 0.0005
+  rhalf_ep: 0.0005
+  ellipticity: 0.52
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 139.0
+  position_angle_em: 0.1
+  position_angle_ep: 0.1
+  ref_structure: Tollerud2016ApJ...827...89T
+distance:
+  distance_modulus: 29.75
+  distance_modulus_em: 0.20
+  distance_modulus_ep: 0.19
+  ref_distance: Tollerud2016ApJ...827...89T
+m_v:
+  apparent_magnitude_v: 16.85
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: Tollerud2016ApJ...827...89T
+structure_sersic:
+  n_sersic: 0.64
+  n_sersic_em: 0.01
+  n_sersic_ep: 0.01
+  rad_sersic: 0.1728333333
+  rad_sersic_em: 0.0005
+  rad_sersic_ep: 0.0005
+  ellipticity: 0.52
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 139.0
+  position_angle_em: 0.1
+  position_angle_ep: 0.1
+  ref_structure_sersic: Tollerud2016ApJ...827...89T
+velocity:
+  vlos_systemic: 607.0
+  vlos_systemic_em: 35
+  vlos_systemic_ep: 35
+  ref_vlos: Tollerud2015ApJ...798L..21T
+flux_HI:
+  flux_HI: 1.6
+  flux_HI_em: 0.2
+  flux_HI_ep: 0.2
+  vlos_systemic_HI: 615
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: Tollerud2015ApJ...798L..21T

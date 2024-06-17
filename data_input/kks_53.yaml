@@ -3,17 +3,6 @@ table: dwarf_local_field
 location:
   ra: 197.8091
   dec: -38.9061
-distance:
-  distance_modulus: 27.28
-  distance_modulus_em: 0.07
-  distance_modulus_ep: 0.07
-  ref_distance: EDD
-flux_HI:
-  flux_HI_ul: 0.68
-  ref_flux_HI: LVGDB
-m_v:
-  apparent_magnitude_v: 16.6
-  ref_m_v: EDD
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -25,6 +14,17 @@ name_discovery:
   - Cen7
   ref_discovery:
   - Karachentseva2000A&AS..146..359K
+distance:
+  distance_modulus: 27.28
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: EDD
+flux_HI:
+  flux_HI_ul: 0.68
+  ref_flux_HI: LVGDB
+m_v:
+  apparent_magnitude_v: 16.6
+  ref_m_v: EDD
 structure:
   ellipticity: 0.13
   ref_structure: LVGDB

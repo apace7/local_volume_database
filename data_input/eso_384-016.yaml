@@ -1,0 +1,36 @@
+key: eso_384-016
+table: dwarf_local_field_distant
+location:
+  ra: 206.26666666666665  # [deg]
+  dec: -35.08916666666667 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: ngc_5128
+  name: ESO 384-016
+  other_name:
+  - PGC049615
+  # ref_discovery:
+  # - list
+  type: dE/dIrr
+# notes:
+#   - list
+structure:
+  rhalf: 16.7
+  spatial_units:  arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 28.26 
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: Tully2009AJ....138..323T  
+m_v:
+  apparent_magnitude_v: 14.20
+  ref_m_v: Muller2017A&A...597A...7M
+velocity:
+  vlos_systemic: 561 # [km/s]
+  ref_vlos: Karachentsev2013AJ....145..101K 
+flux_HI:
+  flux_HI:  1.04 # [Jy km/s ] 
+  ref_flux_HI: Karachentsev2013AJ....145..101K 

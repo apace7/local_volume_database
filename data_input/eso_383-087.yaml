@@ -1,0 +1,43 @@
+key: eso_383-087
+table: dwarf_local_field_distant
+location:
+  ra: 207.3208333333333 # [deg]
+  dec: -36.06333333333333  # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: ngc_5128
+  name: ESO 383-087
+  other_name:
+  - HIPASS J1349-36
+  - PGC049050
+  # ref_discovery:
+  # - list
+  type: S/Irr
+structure:
+  rhalf: 83.4
+  spatial_units:  arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 27.52
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 10.45
+  ref_m_v: Muller2017A&A...597A...7M
+velocity:
+  vlos_systemic: 326 # [km/s]
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Koribalski2004AJ....128...16K 
+flux_HI:
+  flux_HI:  27.7 # [Jy km/s ]
+  flux_HI_em: 4.2
+  flux_HI_ep: 4.2
+  flux_HI_ul: 0
+  vlos_systemic_HI: 326 #[km/s]
+  vlos_systemic_HI_em: 2
+  vlos_systemic_HI_ep: 2
+  ref_flux_HI: Koribalski2004AJ....128...16K 

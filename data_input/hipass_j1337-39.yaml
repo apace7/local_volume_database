@@ -1,0 +1,42 @@
+key: hipass_j1337-39
+table: dwarf_local_field_distant
+location:
+  ra: 204.35416666666666  # [deg]
+  dec: -37.89666666666667 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2004
+  host: ngc_5128
+  name: HIPASS J1337-39
+  other_name:
+  - PGC592761
+  ref_discovery:
+  - Koribalski2004AJ....128...16K 
+  type: dIrr
+structure:
+  rhalf: 10.6
+  spatial_units:  arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 28.53
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.11
+  ref_distance: Tully2009AJ....138..323T  
+m_v:
+  apparent_magnitude_v: 16.07
+  ref_m_v: Muller2017A&A...597A...7M
+velocity:
+  vlos_systemic: 492 # [km/s]
+  vlos_systemic_em: 4
+  vlos_systemic_ep: 4
+  ref_vlos: Koribalski2004AJ....128...16K  
+flux_HI:
+  flux_HI:  6.6 
+  flux_HI_em: 1.8
+  flux_HI_ep: 1.8 
+  vlos_systemic_HI: 492 #[km/s]
+  vlos_systemic_HI_em: 4
+  vlos_systemic_HI_ep: 4
+  ref_flux_HI: Koribalski2004AJ....128...16K  ## mostly for flux_HI
+

@@ -1,0 +1,35 @@
+key: hipass_j1348-37
+table: dwarf_local_field_distant
+location:
+  ra: 207.1958333333333  # [deg]
+  dec: -37.974722222222226 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2005
+  host: ngc_5128
+  name: HIPASS J1348-37
+  other_name:
+  - PGC4614882
+  ref_discovery:
+  - Doyle2005MNRAS.361...34D
+  type: dIrr
+structure:
+  rhalf: 19.2
+  spatial_units:  arcsec
+  ref_structure: Muller2017A&A...597A...7M
+distance:
+  distance_modulus: 28.76
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Tully2009AJ....138..323T  
+m_v:
+  apparent_magnitude_v: 16.61
+  ref_m_v: Muller2017A&A...597A...7M
+velocity:
+  vlos_systemic: 582.4 # [km/s]
+  ref_vlos: Doyle2005MNRAS.361...34D 
+flux_HI:
+  flux_HI:  2.5 # [Jy km/s ]
+  vlos_systemic_HI: 582.4
+  ref_flux_HI: Doyle2005MNRAS.361...34D ## mostly for flux_HI
