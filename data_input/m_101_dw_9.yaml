@@ -1,0 +1,32 @@
+key: m_101_dw_9
+table: dwarf_local_field_distant
+location:
+  ra: 208.9366667
+  dec: 55.146
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2017
+  host: m_101
+  name: M101 Dw9
+  ref_discovery:
+  - Bennet2017ApJ...850..109B
+  - Bennet2019ApJ...885..153B
+structure:
+  rhalf: 0.18
+  rhalf_em: 0.04
+  rhalf_ep: 0.04
+  ellipticity_ul: 0.37
+  ref_structure: Bennet2019ApJ...885..153B
+distance:
+  distance_modulus: 29.328
+  distance_modulus_em: 0.112
+  distance_modulus_ep: 0.112
+  ref_distance: Bennet2019ApJ...885..153B
+m_v:
+  apparent_magnitude_v: 21.0
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: Bennet2019ApJ...885..153B
+
+

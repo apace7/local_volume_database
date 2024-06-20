@@ -1,0 +1,39 @@
+key: m_101_dw_a
+table: dwarf_local_field_distant
+location:
+  ra: 211.7079167
+  dec: 52.74161111
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2017
+  host: m_101
+  name: M101 DwA
+  ref_discovery:
+  - Bennet2017ApJ...850..109B
+  - Bennet2019ApJ...885..153B
+notes:
+- HI gas upper limit 5 sigma
+structure:
+  rhalf: 0.21
+  rhalf_em: 0.02
+  rhalf_ep: 0.02
+  ellipticity: 0.33
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.06
+  spatial_units: arcmin
+  ref_structure: Bennet2019ApJ...885..153B
+distance:
+  distance_modulus: 29.172
+  distance_modulus_em: 0.084
+  distance_modulus_ep: 0.084
+  ref_distance: Bennet2019ApJ...885..153B
+m_v:
+  apparent_magnitude_v: 19.6
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: Bennet2019ApJ...885..153B
+flux_HI:
+  flux_HI_ul: 0.051
+  ref_flux_HI: Bennet2019ApJ...885..153B
+

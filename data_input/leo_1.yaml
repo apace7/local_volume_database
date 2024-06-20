@@ -1,28 +1,9 @@
-distance:
-  distance_modulus: 22.06
-  distance_modulus_em: 0.08
-  distance_modulus_ep: 0.08
-  ref_distance: Stetson2014PASP..126..616S
-flux_HI:
-  flux_HI_ul: 0.23
-  ref_flux_HI: Spekkens2014ApJ...795L...5S
+
 key: leo_1
+table: dwarf_mw
 location:
-  dec: 12.3059
   ra: 152.1146
-m_v:
-  apparent_magnitude_v: 10.24
-  apparent_magnitude_v_em: 0.28
-  apparent_magnitude_v_ep: 0.28
-  ref_m_v: Munoz2018ApJ...860...66M
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.48
-  metallicity_spectroscopic_em: 0.01
-  metallicity_spectroscopic_ep: 0.02
-  metallicity_spectroscopic_sigma: 0.26
-  metallicity_spectroscopic_sigma_em: 0.01
-  metallicity_spectroscopic_sigma_ep: 0.01
-  ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
+  dec: 12.3059
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -37,6 +18,27 @@ name_discovery:
   - Harrington1950PASP...62..118H
   abbreviation: LeoI
   type: dSph
+distance:
+  distance_modulus: 22.06
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Stetson2014PASP..126..616S
+flux_HI:
+  flux_HI_ul: 0.23
+  ref_flux_HI: Spekkens2014ApJ...795L...5S
+m_v:
+  apparent_magnitude_v: 10.24
+  apparent_magnitude_v_em: 0.28
+  apparent_magnitude_v_ep: 0.28
+  ref_m_v: Munoz2018ApJ...860...66M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.48
+  metallicity_spectroscopic_em: 0.01
+  metallicity_spectroscopic_ep: 0.02
+  metallicity_spectroscopic_sigma: 0.26
+  metallicity_spectroscopic_sigma_em: 0.01
+  metallicity_spectroscopic_sigma_ep: 0.01
+  ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
 proper_motion:
   pmdec: -0.12
   pmdec_em: 0.01
@@ -72,7 +74,6 @@ structure_sersic:
   rad_sersic_em: 0.03
   rad_sersic_ep: 0.03
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Mateo2008ApJ...675..201M
   vlos_sigma: 9.2

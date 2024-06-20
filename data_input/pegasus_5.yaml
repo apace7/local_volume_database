@@ -1,17 +1,8 @@
-distance:
-  distance_modulus: 24.2
-  distance_modulus_em: 0.1
-  distance_modulus_ep: 0.095
-  ref_distance: Collins2022MNRAS.515L..72C
 key: pegasus_5
+table: dwarf_m31
 location:
-  dec: 33.35888889
   ra: 349.6158333
-m_v:
-  apparent_magnitude_v: 17.9
-  apparent_magnitude_v_em: 0.2
-  apparent_magnitude_v_ep: 0.2
-  ref_m_v: Collins2022MNRAS.515L..72C
+  dec: 33.35888889
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -23,6 +14,16 @@ name_discovery:
   ref_discovery:
   - Collins2022MNRAS.515L..72C
   type: dSph
+distance:
+  distance_modulus: 24.2
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.095
+  ref_distance: Collins2022MNRAS.515L..72C
+m_v:
+  apparent_magnitude_v: 17.9
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: Collins2022MNRAS.515L..72C
 structure:
   ellipticity: 0.01
   ellipticity_em: 0.01
@@ -34,4 +35,3 @@ structure:
   rhalf: 0.4
   rhalf_em: 0.1
   rhalf_ep: 0.2
-table: dwarf_m31

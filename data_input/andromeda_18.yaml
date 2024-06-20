@@ -1,8 +1,19 @@
 key: andromeda_18
 table: dwarf_m31
 location:
-  dec: 45.08772222
   ra: 0.56025
+  dec: 45.08772222
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2008
+  host: m_31
+  name: Andromeda XVIII
+  ref_discovery:
+  - McConnachie2008ApJ...688.1009M
+  type: dSph
+notes:
+- Isolated dSph MC12  
 distance:
   distance_modulus: 25.36
   distance_modulus_em: 0.08
@@ -20,17 +31,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -1.49
   metallicity_spectroscopic_sigma: 0.36
   ref_metallicity_spectroscopic: Kvasova2024arXiv240411804K
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2008
-  host: m_31
-  name: Andromeda XVIII
-  ref_discovery:
-  - McConnachie2008ApJ...688.1009M
-  type: dSph
-notes:
-- Isolated dSph MC12
 structure:
   ellipticity: 0.44
   ellipticity_em: 0.12

@@ -1,0 +1,82 @@
+key: kdg_064
+table: dwarf_local_field_distant
+location:
+  ra: 151.7583333
+  dec: 67.82872222
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: m_81
+  name: KDG 64
+  other_name:
+  - KK 85
+  - MAILYAN 050
+  - PGC029388
+  - UGC05442
+  ref_discovery:
+  - Karachentseva1998A&AS..127..409K
+  type: dSph
+structure:
+  rhalf: 1.11
+  rhalf_em: 0.03
+  rhalf_ep: 0.03
+  spatial_units: arcmin
+  ellipticity: 0.35
+  position_angle: 22.3
+  ref_structure: Okamoto2019ApJ...884..128O
+distance:
+  distance_modulus: 27.87
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 14.53
+  apparent_magnitude_v_em: 0.55
+  apparent_magnitude_v_ep: 0.55
+  ref_m_v: Okamoto2019ApJ...884..128O
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.33
+  metallicity_spectroscopic_em: 0.26
+  metallicity_spectroscopic_ep: 0.26
+  ref_metallicity_spectroscopic: Afanasiev2023MNRAS.520.6312A
+metallicity_photometric:
+  metallicity_photometric: -1.32
+  metallicity_photometric_em: 0.3
+  metallicity_photometric_ep: 0.3
+  ref_metallicity_photometric: Okamoto2019ApJ...884..128O
+structure_king:
+  rcore: 1.0
+  rcore_em: 0.2
+  rcore_ep: 0.2
+  rking: 4.1
+  rking_em: 0.3
+  rking_ep: 0.3
+  spatial_units: arcmin
+  ellipticity: 0.35
+  position_angle: 22.3
+  ref_structure_king: Okamoto2019ApJ...884..128O
+structure_sersic:
+  n_sersic: 0.70
+  n_sersic_em: 0.07
+  n_sersic_ep: 0.07
+  rad_sersic: 1.11
+  rad_sersic_em: 0.03
+  rad_sersic_ep: 0.03
+  spatial_units: arcmin
+  ellipticity: 0.35
+  position_angle: 22.3
+  ref_structure_sersic: Okamoto2019ApJ...884..128O
+velocity:
+  vlos_systemic: -18.4
+  vlos_systemic_em: 3.4
+  vlos_systemic_ep: 3.4
+  vlos_sigma: 16.8
+  vlos_sigma_em: 0.1
+  vlos_sigma_ep: 0.1
+  ref_vlos: Afanasiev2023MNRAS.520.6312A
+age:
+  age: 10.9
+  age_em: 1.0
+  age_ep: 1.0
+  ref_age: Afanasiev2023MNRAS.520.6312A

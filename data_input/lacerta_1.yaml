@@ -3,6 +3,17 @@ table: dwarf_m31
 location:
   ra: 344.5509166666666
   dec: 41.30619444444444
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2013
+  host: m_31
+  name: Lacerta I
+  other_name:
+  - Andromeda XXXI
+  ref_discovery:
+  - Martin2013ApJ...772...15M
+  type: dSph
 distance:
   distance_modulus: 24.36
   distance_modulus_em: 0.05
@@ -21,17 +32,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.1
   metallicity_spectroscopic_ep: 0.1
   ref_metallicity_spectroscopic: Martin2014ApJ...793L..14M
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2013
-  host: m_31
-  name: Lacerta I
-  other_name:
-  - Andromeda XXXI
-  ref_discovery:
-  - Martin2013ApJ...772...15M
-  type: dSph
+
 structure:
   ellipticity: 0.4
   ellipticity_em: 0.01
