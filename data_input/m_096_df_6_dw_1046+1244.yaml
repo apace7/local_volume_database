@@ -1,0 +1,28 @@
+key: m_096_df_6_dw1046+1244
+table: local_field_distant
+location:
+  ra: 161.6915
+  dec: 12.74986111
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2023
+  host: m_096_df_6
+  name: dw1046+1244
+  ref_discovery:
+  - Muller2023A&A...673A.160M
+notes:
+- Assuming M_V ~ M_F606W (HST)
+structure:
+  rhalf: 0.07
+  rhalf_em: 0.01
+  rhalf_ep: 0.01
+  spatial_units: arcmin
+  ref_structure: Muller2023A&A...673A.160M
+distance:
+  distance_fixed_host: True 
+m_v:
+  apparent_magnitude_v: 21.94
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: Muller2023A&A...673A.160M

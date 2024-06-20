@@ -1,0 +1,55 @@
+key: lv_j1228+4358
+table: dwarf_local_field_distant
+location:
+  ra: 187.1866667
+  dec: 43.96833333
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  host: ngc_4449
+  name: LV J1228+4358
+  # other_name:
+  # - list
+  # ref_discovery:
+  # - list
+notes:
+- tidally disrupting
+structure:
+  rhalf: 1.116666667
+  rhalf_em: 0.1666666667
+  rhalf_ep: 0.1666666667
+  ellipticity: 0.72
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.06
+  ref_structure: Garling2021MNRAS.507.4764G
+distance:
+  distance_modulus: 28.05
+  ref_distance: Karachentsev2013AJ....145..101K
+m_v:
+  apparent_magnitude_v: 15.02
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: Garling2021MNRAS.507.4764G
+structure_sersic:
+  n_sersic: 0.62
+  n_sersic_em: 0.1
+  n_sersic_ep: 0.1
+  rad_sersic: 1.1167
+  rad_sersic_em: 0.1667
+  rad_sersic_ep: 0.1667
+  ellipticity: 0.72
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.06
+  ref_structure_sersic: Garling2021MNRAS.507.4764G
+velocity:
+  vlos_systemic: 225.8
+  vlos_systemic_em: 16
+  vlos_systemic_ep: 16
+  ref_vlos: Toloba2016ApJ...824...35T
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.37
+  metallicity_spectroscopic_em: 0.41
+  metallicity_spectroscopic_ep: 0.41
+  ref_metallicity_spectroscopic: Toloba2016ApJ...824...35T
+

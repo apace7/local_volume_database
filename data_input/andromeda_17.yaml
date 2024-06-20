@@ -1,20 +1,8 @@
-distance:
-  distance_modulus: 24.4
-  distance_modulus_em: 0.07
-  distance_modulus_ep: 0.07
-  ref_distance: Savino2022ApJ...938..101S
-flux_HI:
-  flux_HI_ul: 0.34
-  ref_flux_HI: Putman2021ApJ...913...53P
 key: andromeda_17
+table: dwarf_m31
 location:
-  dec: 44.32306
   ra: 9.27625
-m_v:
-  apparent_magnitude_v: 16.6
-  apparent_magnitude_v_em: 0.3
-  apparent_magnitude_v_ep: 0.3
-  ref_m_v: Martin2016ApJ...833..167M
+  dec: 44.32306
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -24,6 +12,19 @@ name_discovery:
   ref_discovery:
   - Irwin2008ApJ...676L..17I
   type: dSph
+distance:
+  distance_modulus: 24.4
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.34
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 16.6
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: Martin2016ApJ...833..167M
 structure:
   ellipticity: 0.5
   ellipticity_em: 0.1
@@ -35,7 +36,6 @@ structure:
   rhalf: 1.4
   rhalf_em: 0.3
   rhalf_ep: 0.3
-table: dwarf_m31
 velocity:
   ref_vlos: Collins2013ApJ...768..172C
   vlos_sigma: 2.9

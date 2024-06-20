@@ -1,3 +1,17 @@
+key: andromeda_19
+table: dwarf_m31
+location:
+  ra: 4.89375
+  dec: 35.04472
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2008
+  host: m_31
+  name: Andromeda XIX
+  ref_discovery:
+  - McConnachie2008ApJ...688.1009M
+  type: dSph
 distance:
   distance_modulus: 24.55
   distance_modulus_em: 0.08
@@ -6,10 +20,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.82
   ref_flux_HI: Putman2021ApJ...913...53P
-key: andromeda_19
-location:
-  dec: 35.04472
-  ra: 4.89375
 m_v:
   apparent_magnitude_v: 14.5
   apparent_magnitude_v_em: 0.3
@@ -20,15 +30,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.02
   metallicity_spectroscopic_ep: 0.02
   ref_metallicity_spectroscopic: Collins2020MNRAS.491.3496C
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2008
-  host: m_31
-  name: Andromeda XIX
-  ref_discovery:
-  - McConnachie2008ApJ...688.1009M
-  type: dSph
 structure:
   ellipticity: 0.58
   ellipticity_em: 0.1
@@ -40,7 +41,6 @@ structure:
   rhalf: 14.2
   rhalf_em: 1.9
   rhalf_ep: 3.4
-table: dwarf_m31
 velocity:
   ref_vlos: Collins2020MNRAS.491.3496C
   vlos_sigma: 7.8
