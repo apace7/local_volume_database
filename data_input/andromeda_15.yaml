@@ -1,3 +1,17 @@
+key: andromeda_15
+table: dwarf_m31
+location:
+  ra: 18.57625
+  dec: 38.11972
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2007
+  host: m_31
+  name: Andromeda XV
+  ref_discovery:
+  - Ibata2007ApJ...671.1591I
+  type: dSph  
 distance:
   distance_modulus: 24.37
   distance_modulus_em: 0.05
@@ -6,10 +20,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.45
   ref_flux_HI: Putman2021ApJ...913...53P
-key: andromeda_15
-location:
-  dec: 38.11972
-  ra: 18.57625
 m_v:
   apparent_magnitude_v: 16.0
   apparent_magnitude_v_em: 0.3
@@ -20,15 +30,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.42
   metallicity_spectroscopic_ep: 0.42
   ref_metallicity_spectroscopic: Wojno2020ApJ...895...78W
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2007
-  host: m_31
-  name: Andromeda XV
-  ref_discovery:
-  - Ibata2007ApJ...671.1591I
-  type: dSph
 structure:
   ellipticity: 0.24
   ellipticity_em: 0.1
@@ -40,7 +41,6 @@ structure:
   rhalf: 1.3
   rhalf_em: 0.1
   rhalf_ep: 0.1
-table: dwarf_m31
 velocity:
   ref_vlos: Tollerud2012ApJ...752...45T
   vlos_sigma: 4.0
