@@ -407,12 +407,18 @@ def create_latex_table_mass(output, output_citations, input_table):
                 mdyn = 930 * input_table['rhalf_sph_physical'][i] * input_table['vlos_sigma'][i]**2
                 m_dyn_str = '$'+"{:0.1e}".format(mdyn)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(mdyn).split('e')[1]))+'}'+'$'
                 mass_to_light = mdyn/(mstar/2.)
-                mass_to_light_str = '$'+"{:0.1f}".format(mass_to_light)+'$'
+                if mass_to_light <100 and mass_to_light>.01:
+                    mass_to_light_str = '$'+"{:0.1f}".format(mass_to_light)+'$'
+                else:
+                    mass_to_light_str = '$'+"{:0.1e}".format(mass_to_light)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(mass_to_light).split('e')[1]))+'}'+'$'
             elif ma.is_masked(input_table['vlos_sigma_ul'][i])==False and ma.is_masked(input_table['rhalf_sph_physical'][i])==False:
                 mdyn_ul = 930 * input_table['rhalf_sph_physical'][i] * input_table['vlos_sigma_ul'][i]**2
                 m_dyn_str = '$<'+"{:0.1e}".format(mdyn_ul)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(mdyn_ul).split('e')[1]))+'}'+'$'
                 mass_to_light = mdyn/(mstar/2.)
-                mass_to_light_str = '$<'+"{:0.1f}".format(mass_to_light)+'$'
+                if mass_to_light <100 and mass_to_light>.01:    
+                    mass_to_light_str = '$<'+"{:0.1f}".format(mass_to_light)+'$'
+                else:
+                    mass_to_light_str = '$<'+"{:0.1e}".format(mass_to_light)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(mass_to_light).split('e')[1]))+'}'+'$'
         #         print(input_table['key'][i], m_dyn_str)
             else:
                 m_dyn_str = ''
@@ -423,14 +429,22 @@ def create_latex_table_mass(output, output_citations, input_table):
                 mdyn = 10.**input_table['mass_HI'][i]
                 m_HI_str = '$'+"{:0.1e}".format(mdyn)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(mdyn).split('e')[1]))+'}'+'$'
                 m_HI_m_star = mdyn/mstar
-                m_HI_m_star_str = '$'+"{:0.1f}".format(m_HI_m_star)+'$'
+                # m_HI_m_star_str = '$'+"{:0.1f}".format(m_HI_m_star)+'$'
+                if m_HI_m_star <100 and m_HI_m_star>.01:    
+                    m_HI_m_star_str = '$'+"{:0.1f}".format(m_HI_m_star)+'$'
+                else:
+                    m_HI_m_star_str = '$'+"{:0.1e}".format(m_HI_m_star)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(m_HI_m_star).split('e')[1]))+'}'+'$'
             elif ma.is_masked(input_table['mass_HI_ul'][i])==False:
                 temp = 10.**input_table['mass_HI_ul'][i]
                 m_HI_str = '$<'+"{:0.1e}".format(temp)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(temp).split('e')[1]))+'}'+'$'
                 m_HI_m_star = temp/mstar
                 ul_str = abs(int("{:0.1e}".format(m_HI_m_star).split('e')[1]))
                 fmt = "{:0."+str(ul_str)+"f}"
-                m_HI_m_star_str = '$<'+ fmt.format(m_HI_m_star)+'$'
+                # m_HI_m_star_str = '$<'+ fmt.format(m_HI_m_star)+'$'
+                if m_HI_m_star <100 and m_HI_m_star>.01:    
+                    m_HI_m_star_str = '$<'+fmt.format(m_HI_m_star)+'$'
+                else:
+                    m_HI_m_star_str = '$<'+"{:0.1e}".format(m_HI_m_star)[:3] + '\\times 10^{'+str(int("{:0.1e}".format(m_HI_m_star).split('e')[1]))+'}'+'$'
             else:
                 m_HI_str = ''
                 m_HI_m_star_str=''
@@ -774,8 +788,12 @@ with open(output, 'w+') as f:
                 if candidate == len(table_list_sort)-1:
                     end_line=''
                 ## output each row of our table, plus the citations at the end of the line
+                c_table_input = coord.SkyCoord(ra=float(stream_yaml['location']['ra'])*u.deg, dec=float(stream_yaml['location']['dec'])*u.deg,  frame='icrs',)
+                # l = c_table_input.galactic.l.value
+                # input_table['bb'] = c_table_input.galactic.b.value
+                
                 name = latex_name(stream_yaml['name_discovery']['name'])
-                f.write(name + '&'+"{:0.4f}".format(stream_yaml['location']['ra'])+'&'+"{:0.4f}".format(stream_yaml['location']['dec'])+'&'+
+                f.write(name + '&'+"{:0.4f}".format(stream_yaml['location']['ra'])+'&'+"{:0.4f}".format(stream_yaml['location']['dec'])+'&'+"{:0.4f}".format(c_table_input.galactic.l.value)+'&'+"{:0.4f}".format(c_table_input.galactic.b.value)+'&' +
                       rh_str+'&'+
                       str_rhalf + '& '+
                       dm_str +' & '+

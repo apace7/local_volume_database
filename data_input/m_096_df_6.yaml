@@ -1,5 +1,5 @@
 key: m_096_df_6
-table: local_field_distant
+table: dwarf_local_field_distant
 location:
   ra: 161.72125 # [deg]
   dec: 12.742639 # [deg]
