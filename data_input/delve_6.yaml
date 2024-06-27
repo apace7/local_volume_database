@@ -11,6 +11,7 @@ m_v:
   apparent_magnitude_v: 18.01
   apparent_magnitude_v_em: 0.6
   apparent_magnitude_v_ep: 0.4
+  mean_ebv: 0.036
   ref_m_v: Cerny2023ApJ...953L..21C
 name_discovery:
   confirmed_real: 0

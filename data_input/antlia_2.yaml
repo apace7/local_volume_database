@@ -1,3 +1,20 @@
+key: antlia_2
+table: dwarf_mw
+location:
+  ra: 143.8079
+  dec: -36.6991
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2019
+  host: mw
+  name: Antlia II
+  ref_discovery:
+  - Torrealba2019MNRAS.488.2743T
+  abbreviation: AntII
+  type: dSph
+notes:
+- tidal stripping Ji2021ApJ...921...32J
 distance:
   distance_modulus: 20.47
   distance_modulus_em: 0.09
@@ -6,10 +23,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.027
   ref_flux_HI: Putman2021ApJ...913...53P
-key: antlia_2
-location:
-  dec: -36.6991
-  ra: 143.8079
 m_v:
   apparent_magnitude_v: 10.74
   apparent_magnitude_v_em: 0.08
@@ -23,16 +36,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.03
   metallicity_spectroscopic_sigma_ep: 0.03
   ref_metallicity_spectroscopic: Ji2021ApJ...921...32J
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2019
-  host: mw
-  name: Antlia II
-  ref_discovery:
-  - Torrealba2019MNRAS.488.2743T
-  abbreviation: AntII
-  type: dSph
 proper_motion:
   pmdec: 0.1
   pmdec_em: 0.009
@@ -52,7 +55,6 @@ structure:
   rhalf: 104.6
   rhalf_em: 8.6
   rhalf_ep: 8.6
-table: dwarf_mw
 velocity:
   ref_vlos: Ji2021ApJ...921...32J
   vlos_sigma: 5.98

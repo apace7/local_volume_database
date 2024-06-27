@@ -27,6 +27,7 @@ m_v:
   apparent_magnitude_v: 18.55
   apparent_magnitude_v_em: 0.43
   apparent_magnitude_v_ep: 0.49
+  mean_ebv: 0.021
   ref_m_v: Homma2023arXiv231105439H
 structure:
   ellipticity: 0.76

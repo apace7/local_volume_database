@@ -1,25 +1,8 @@
-distance:
-  distance_modulus: 19.77
-  distance_modulus_em: 0.03
-  distance_modulus_ep: 0.03
-  ref_distance: Cerny2023ApJ...942..111C
 key: pegasus_4
+table: dwarf_mw
 location:
-  dec: 26.62
   ra: 328.539
-m_v:
-  apparent_magnitude_v: 15.52
-  apparent_magnitude_v_em: 0.2
-  apparent_magnitude_v_ep: 0.2
-  ref_m_v: Cerny2023ApJ...942..111C
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.67
-  metallicity_spectroscopic_em: 0.29
-  metallicity_spectroscopic_ep: 0.25
-  metallicity_spectroscopic_sigma: 0.46
-  metallicity_spectroscopic_sigma_em: 0.17
-  metallicity_spectroscopic_sigma_ep: 0.29
-  ref_metallicity_spectroscopic: Cerny2023ApJ...942..111C
+  dec: 26.62
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -29,7 +12,26 @@ name_discovery:
   ref_discovery:
   - Cerny2023ApJ...942..111C
   abbreviation: PegIV
-  type: dSph
+  type: dSph  
+distance:
+  distance_modulus: 19.77
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: Cerny2023ApJ...942..111C
+m_v:
+  apparent_magnitude_v: 15.52
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  mean_ebv: 0.06
+  ref_m_v: Cerny2023ApJ...942..111C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.67
+  metallicity_spectroscopic_em: 0.29
+  metallicity_spectroscopic_ep: 0.25
+  metallicity_spectroscopic_sigma: 0.46
+  metallicity_spectroscopic_sigma_em: 0.17
+  metallicity_spectroscopic_sigma_ep: 0.29
+  ref_metallicity_spectroscopic: Cerny2023ApJ...942..111C
 proper_motion:
   pmdec: -0.21
   pmdec_em: 0.08
@@ -47,7 +49,6 @@ structure:
   rhalf: 1.6
   rhalf_em: 0.25
   rhalf_ep: 0.29
-table: dwarf_mw
 velocity:
   ref_vlos: Cerny2023ApJ...942..111C
   vlos_sigma: 3.3

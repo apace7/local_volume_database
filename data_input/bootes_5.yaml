@@ -25,6 +25,7 @@ m_v:
   apparent_magnitude_v: 16.84
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
+  mean_ebv: 0.013
   ref_m_v: Cerny2023ApJ...953....1C
 metallicity_photometric:
   metallicity_photometric: -2.2

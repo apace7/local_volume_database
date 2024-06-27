@@ -1,8 +1,8 @@
 key: centaurus_1
 table: dwarf_mw
 location:
-  dec: -40.902
   ra: 189.585
+  dec: -40.902
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -22,6 +22,7 @@ m_v:
   apparent_magnitude_v: 14.78
   apparent_magnitude_v_em: 0.11
   apparent_magnitude_v_ep: 0.11
+  mean_ebv: 0.124
   ref_m_v: Mau2020ApJ...890..136M
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.57

@@ -1,23 +1,8 @@
-age:
-  age: 10.0
-  ref_age: Cerny2023ApJ...953....1C
-distance:
-  distance_modulus: 17.97
-  distance_modulus_em: 0.17
-  distance_modulus_ep: 0.17
-  ref_distance: Cerny2023ApJ...953....1C
 key: delve_5
+table: gc_ufsc
 location:
-  dec: 17.468
   ra: 222.104
-m_v:
-  apparent_magnitude_v: 18.37
-  apparent_magnitude_v_em: 0.9
-  apparent_magnitude_v_ep: 0.4
-  ref_m_v: Cerny2023ApJ...953....1C
-metallicity_photometric:
-  metallicity_photometric: -2.2
-  ref_metallicity_photometric: Cerny2023ApJ...953....1C
+  dec: 17.468
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
@@ -27,7 +12,24 @@ name_discovery:
   other_name:
   - DELVE J1448+1728
   ref_discovery:
-  - Cerny2023ApJ...953....1C
+  - Cerny2023ApJ...953....1C  
+age:
+  age: 10.0
+  ref_age: Cerny2023ApJ...953....1C
+distance:
+  distance_modulus: 17.97
+  distance_modulus_em: 0.17
+  distance_modulus_ep: 0.17
+  ref_distance: Cerny2023ApJ...953....1C
+m_v:
+  apparent_magnitude_v: 18.37
+  apparent_magnitude_v_em: 0.9
+  apparent_magnitude_v_ep: 0.4
+  mean_ebv: 0.030
+  ref_m_v: Cerny2023ApJ...953....1C
+metallicity_photometric:
+  metallicity_photometric: -2.2
+  ref_metallicity_photometric: Cerny2023ApJ...953....1C
 proper_motion:
   pmdec: -0.93
   pmdec_em: 0.12
@@ -47,4 +49,3 @@ structure:
   rhalf: 0.68
   rhalf_em: 0.17
   rhalf_ep: 0.24
-table: gc_ufsc
