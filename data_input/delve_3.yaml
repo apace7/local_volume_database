@@ -1,17 +1,8 @@
-distance:
-  distance_modulus: 18.73
-  distance_modulus_em: 0.23
-  distance_modulus_ep: 0.09
-  ref_distance: Cerny2023ApJ...953....1C
 key: delve_3
+table: gc_ufsc
 location:
-  dec: -60.784
   ra: 290.396
-m_v:
-  apparent_magnitude_v: 17.43
-  apparent_magnitude_v_em: 0.6
-  apparent_magnitude_v_ep: 0.4
-  ref_m_v: Cerny2023ApJ...953....1C
+  dec: -60.784
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
@@ -22,6 +13,17 @@ name_discovery:
   - DELVE J1921-6047
   ref_discovery:
   - Cerny2023ApJ...953....1C
+distance:
+  distance_modulus: 18.73
+  distance_modulus_em: 0.23
+  distance_modulus_ep: 0.09
+  ref_distance: Cerny2023ApJ...953....1C
+m_v:
+  apparent_magnitude_v: 17.43
+  apparent_magnitude_v_em: 0.6
+  apparent_magnitude_v_ep: 0.4
+  mean_ebv: 0.054
+  ref_m_v: Cerny2023ApJ...953....1C
 proper_motion:
   pmdec: -0.8
   pmdec_em: 0.32
@@ -39,4 +41,3 @@ structure:
   rhalf: 0.4
   rhalf_em: 0.08
   rhalf_ep: 0.12
-table: gc_ufsc

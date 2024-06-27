@@ -143,6 +143,9 @@ velocity:
   vlos_sigma_central: 0
   vlos_sigma_central_em: 0
   vlos_sigma_central_ep: 0
+  vlos_rotation: 0
+  vlos_rotation_em: 0
+  vlos_rotation_ep: 0
   ref_vlos: ref 
 flux_HI:
   flux_HI:  0 # [Jy km/s ]

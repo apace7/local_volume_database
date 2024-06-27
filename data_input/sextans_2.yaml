@@ -39,4 +39,5 @@ m_v:
   apparent_magnitude_v: 16.59
   apparent_magnitude_v_em: 0.36
   apparent_magnitude_v_ep: 0.37
+  mean_ebv: 0.057
   ref_m_v: Homma2023arXiv231105439H
