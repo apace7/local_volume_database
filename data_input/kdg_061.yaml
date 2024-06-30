@@ -1,0 +1,67 @@
+key: kdg_061
+table: dwarf_local_field_distant
+location:
+  ra: 149.2633333
+  dec: 68.59288889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_081
+  name: KDG 61
+  other_name:
+  - KK 81
+  - MAILYAN 047
+  - PGC028731
+  type: dIrr/dSph
+structure:
+  rhalf: 1.36
+  rhalf_em: 0.01
+  rhalf_ep: 0.01
+  spatial_units: arcmin
+  ellipticity: 0.28
+  position_angle: 53.1
+  ref_structure: Okamoto2019ApJ...884..128O
+distance:
+  distance_modulus: 27.82
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 14.4
+  apparent_magnitude_v_em: 0.52
+  apparent_magnitude_v_ep: 0.52
+  ref_m_v: Okamoto2019ApJ...884..128O
+metallicity_photometric:
+  metallicity_photometric: -1.29
+  metallicity_photometric_em: 0.21
+  metallicity_photometric_ep: 0.21
+  metallicity_photometric_sigma: 0.38
+  ref_metallicity_photometric: Okamoto2019ApJ...884..128O
+structure_king:
+  rcore: 1.1
+  rcore_em: 0.2
+  rcore_ep: 0.2
+  rking: 4.1
+  rking_em: 0.3
+  rking_ep: 0.3
+  spatial_units: arcmin
+  ellipticity: 0.28
+  position_angle: 53.1
+  ref_structure_king: Okamoto2019ApJ...884..128O
+structure_sersic:
+  n_sersic: 0.40
+  n_sersic_em: 0.01
+  n_sersic_ep: 0.01
+  rad_sersic: 1.36
+  rad_sersic_em: 0.01
+  rad_sersic_ep: 0.01
+  spatial_units: arcmin
+  ellipticity: 0.28
+  position_angle: 53.1
+  ref_structure_king: Okamoto2019ApJ...884..128O
+velocity:
+  vlos_systemic: 221
+  vlos_systemic_em: 3
+  vlos_systemic_ep: 3
+  ref_vlos: Makarova2010MNRAS.406.1152M
+
