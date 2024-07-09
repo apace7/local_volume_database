@@ -52,6 +52,9 @@ m_v:
   apparent_magnitude_v: 0
   apparent_magnitude_v_em: 0
   apparent_magnitude_v_ep: 0
+  apparent_magnitude_i: 0
+  apparent_magnitude_i_em: 0
+  apparent_magnitude_i_ep: 0
   mean_ebv: 0
   ref_m_v: ref
 proper_motion:
