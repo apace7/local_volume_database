@@ -1,3 +1,19 @@
+key: andromeda_28
+table: dwarf_m31
+location:
+  dec: 31.21494444
+  ra: 338.1716667
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2011
+  host: m_031
+  name: Andromeda XXVIII
+  ref_discovery:
+  - Slater2011ApJ...742L..14S
+  type: dSph
+notes:
+- In Pegasus MC12
 distance:
   distance_modulus: 24.36
   distance_modulus_em: 0.05
@@ -6,10 +22,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.17
   ref_flux_HI: Putman2021ApJ...913...53P
-key: andromeda_28
-location:
-  dec: 31.21494444
-  ra: 338.1716667
 m_v:
   apparent_magnitude_v: 15.85
   apparent_magnitude_v_em: 0.4
@@ -23,17 +35,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.15
   metallicity_spectroscopic_sigma_ep: 0.15
   ref_metallicity_spectroscopic: Slater2015ApJ...806..230S
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2011
-  host: m_31
-  name: Andromeda XXVIII
-  ref_discovery:
-  - Slater2011ApJ...742L..14S
-  type: dSph
-notes:
-- In Pegasus MC12
 structure:
   ellipticity: 0.42
   ellipticity_em: 0.06
@@ -53,7 +54,6 @@ structure_sersic:
   rad_sersic_em: 0.06
   rad_sersic_ep: 0.06
   ref_structure_sersic: Higgs2021MNRAS.503..176H
-table: dwarf_m31
 velocity:
   ref_vlos: Tollerud2013ApJ...768...50T
   vlos_sigma: 4.9
@@ -62,3 +62,11 @@ velocity:
   vlos_systemic: -331.1
   vlos_systemic_em: 1.8
   vlos_systemic_ep: 1.8
+metallicity_photometric:
+  metallicity_photometric: -1.95
+  metallicity_photometric_em: 0.04
+  metallicity_photometric_ep: 0.04
+  metallicity_photometric_sigma: 0.34
+  metallicity_photometric_sigma_em: 0.05
+  metallicity_photometric_sigma_ep: 0.05
+  ref_metallicity_photometric: Fu2024arXiv240704698F

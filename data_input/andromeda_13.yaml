@@ -7,7 +7,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2006
-  host: m_31
+  host: m_031
   name: Andromeda XIII
   other_name:
   - Pisces III
@@ -15,7 +15,7 @@ name_discovery:
   - Martin2006MNRAS.371.1983M
   type: dSph
 notes:
-- In Pisces MC12  
+- In Pisces MC12
 distance:
   distance_modulus: 24.57
   distance_modulus_em: 0.07

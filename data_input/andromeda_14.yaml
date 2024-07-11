@@ -7,13 +7,13 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2007
-  host: m_31
+  host: m_031
   name: Andromeda XIV
   ref_discovery:
   - Majewski2007ApJ...670L...9M
   type: dSph
 notes:
-- Unbound to M31? In Pisces  
+- Unbound to M31? In Pisces
 distance:
   distance_modulus: 24.44
   distance_modulus_em: 0.06

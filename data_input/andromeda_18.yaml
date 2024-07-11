@@ -7,13 +7,13 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2008
-  host: m_31
+  host: m_031
   name: Andromeda XVIII
   ref_discovery:
   - McConnachie2008ApJ...688.1009M
   type: dSph
 notes:
-- Isolated dSph MC12  
+- Isolated dSph MC12
 distance:
   distance_modulus: 25.36
   distance_modulus_em: 0.08
