@@ -1,25 +1,13 @@
-distance:
-  distance_modulus: 23.57
-  distance_modulus_em: 0.08
-  distance_modulus_ep: 0.08
-  ref_distance: MartinezVazquez2017ApJ...850..137M
-flux_HI:
-  flux_HI_ul: 0.37
-  ref_flux_HI: Putman2021ApJ...913...53P
 key: andromeda_16
+table: dwarf_m31
 location:
   dec: 32.376111
   ra: 14.87625
-m_v:
-  apparent_magnitude_v: 16.1
-  apparent_magnitude_v_em: 0.3
-  apparent_magnitude_v_ep: 0.3
-  ref_m_v: Martin2016ApJ...833..167M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2007
-  host: m_31
+  host: m_031
   name: Andromeda XVI
   other_name:
   - Pisces V
@@ -28,6 +16,19 @@ name_discovery:
   type: dSph
 notes:
 - In Pisces MC12
+distance:
+  distance_modulus: 23.57
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: MartinezVazquez2017ApJ...850..137M
+flux_HI:
+  flux_HI_ul: 0.37
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 16.1
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: Martin2016ApJ...833..167M
 structure:
   ellipticity: 0.29
   ellipticity_em: 0.08
@@ -39,7 +40,6 @@ structure:
   rhalf: 1.0
   rhalf_em: 0.1
   rhalf_ep: 0.1
-table: dwarf_m31
 velocity:
   ref_vlos: Tollerud2012ApJ...752...45T
   vlos_sigma: 3.8
@@ -48,3 +48,11 @@ velocity:
   vlos_systemic: -367.3
   vlos_systemic_em: 2.8
   vlos_systemic_ep: 2.8
+metallicity_photometric:
+  metallicity_photometric: -2.17
+  metallicity_photometric_em: 0.05
+  metallicity_photometric_ep: 0.05
+  metallicity_photometric_sigma: 0.33
+  metallicity_photometric_sigma_em: 0.07
+  metallicity_photometric_sigma_ep: 0.07
+  ref_metallicity_photometric: Fu2024arXiv240704698F

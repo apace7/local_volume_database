@@ -1,0 +1,42 @@
+key: triangulum_4
+table: dwarf_m31
+location:
+  ra: 22.162208333333332
+  dec: 30.984333333333336
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2024
+  host: m_033
+  name: Triangulum IV
+  ref_discovery:
+  - Ogami2024arXiv240707481O
+  type: dSph
+structure:
+  rhalf: 6.5
+  rhalf_em: 1.3
+  rhalf_ep: 1.5
+  spatial_units: arcmin
+  ellipticity: 0.21
+  ellipticity_em: 0.14
+  ellipticity_ep: 0.19
+  position_angle: 90
+  position_angle_em: 47
+  position_angle_ep: 56
+  ref_structure: Ogami2024arXiv240707481O
+distance:
+  distance_modulus: 24.85
+  distance_modulus_em: 0.10
+  distance_modulus_ep: 0.11
+  ref_distance: Ogami2024arXiv240707481O
+m_v:
+  apparent_magnitude_v: 18.46
+  apparent_magnitude_v_em: 0.52
+  apparent_magnitude_v_ep: 0.54
+  mean_ebv: 0.04
+  ref_m_v: Ogami2024arXiv240707481O
+metallicity_photometric:
+  metallicity_photometric: -1.90
+  metallicity_photometric_em: 0.08
+  metallicity_photometric_ep: 0.08
+  ref_metallicity_photometric: Ogami2024arXiv240707481O
