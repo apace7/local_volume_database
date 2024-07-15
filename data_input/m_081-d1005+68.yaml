@@ -1,0 +1,60 @@
+key: m_081-d1005+68
+table: dwarf_local_field_distant
+location:
+  ra: 151.3845833
+  dec: 68.23813889
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2017
+  host: m_081
+  name: d1005+68
+  ref_discovery:
+  - Smercina2017ApJ...843L...6S
+structure:
+  rhalf: 0.3
+  rhalf_em: 0.05
+  rhalf_ep: 0.05
+  spatial_units: arcmin
+  ellipticity: 0.27
+  position_angle: 38.4
+  ref_structure: Okamoto2019ApJ...884..128O
+distance:
+  distance_modulus: 28.00
+  distance_modulus_em: 0.25
+  distance_modulus_ep: 0.20
+  ref_distance: Smercina2017ApJ...843L...6S
+m_v:
+  apparent_magnitude_v: 19.86
+  apparent_magnitude_v_em: 0.55
+  apparent_magnitude_v_ep: 0.55
+  apparent_magnitude_i: 18.61
+  ref_m_v: Okamoto2019ApJ...884..128O
+metallicity_photometric:
+  metallicity_photometric: -1.79
+  metallicity_photometric_em: 0.37
+  metallicity_photometric_ep: 0.37
+  metallicity_photometric_sigma: 0.28
+  ref_metallicity_photometric: Okamoto2019ApJ...884..128O
+structure_king:
+  rcore: 0.3
+  rcore_em: 0.2
+  rcore_ep: 0.2
+  rking: 1.3
+  rking_em: 0.9
+  rking_ep: 0.9
+  spatial_units: arcmin
+  ellipticity: 0.27
+  position_angle: 38.4
+  ref_structure_king: Okamoto2019ApJ...884..128O
+structure_sersic:
+  n_sersic: 0.5
+  n_sersic_em: 0.2
+  n_sersic_ep: 0.2
+  rad_sersic: 0.30
+  rad_sersic_em: 0.05
+  rad_sersic_ep: 0.05
+  spatial_units: arcmin
+  ellipticity: 0.27
+  position_angle: 38.4
+  ref_structure_sersic: Okamoto2019ApJ...884..128O
