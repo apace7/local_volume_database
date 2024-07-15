@@ -1,0 +1,33 @@
+key: agc_249525
+table: dwarf_local_field
+location:
+  ra: 214.47458333333333  # [deg]
+  dec: 17.546111111111113 # [deg]
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 0
+  name: AGC249525
+  ref_discovery:
+  - Janesh2017ApJ...837L..16J
+  - Rhode2023AJ....166..113R
+notes:
+  - best detection in Rhode2023AJ....166..113R  and Janesh2017ApJ...837L..16J
+  - assuming bright M_V for luminosity Rhode2023AJ....166..113R
+distance:
+  distance_modulus: 26.60
+  ref_distance: Rhode2023AJ....166..113R
+m_v:
+  apparent_magnitude_v: 19.73
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.07
+  ref_m_v: Rhode2023AJ....166..113R
+velocity:
+  vlos_systemic: 48 # [km/s]
+  ref_vlos: Rhode2023AJ....166..113R 
+flux_HI:
+  flux_HI:  6.73    # [Jy km/s ]
+  flux_HI_em: 0.67
+  flux_HI_ep: 0.67
+  ref_flux_HI: Rhode2023AJ....166..113R 

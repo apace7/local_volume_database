@@ -1,0 +1,61 @@
+key: m_081-d1015+69
+table: dwarf_local_field_distant
+location:
+  ra: 153.7783333
+  dec: 69.03655556
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2008
+  host: m_081
+  name: d1015+69
+  ref_discovery:
+  - Chiboucas2009AJ....137.3009C
+  type: dSph
+structure:
+  rhalf: 0.22
+  rhalf_em: 0.04
+  rhalf_ep: 0.04
+  spatial_units: arcmin
+  ellipticity: 0.24
+  position_angle: 103.5
+  ref_structure: Okamoto2019ApJ...884..128O
+distance:
+  distance_modulus: 27.94
+  distance_modulus_em: 0.12
+  distance_modulus_ep: 0.14
+  ref_distance: Chiboucas2013AJ....146..126C
+m_v:
+  apparent_magnitude_v: 18.74
+  apparent_magnitude_v_em: 0.41
+  apparent_magnitude_v_ep: 0.41
+  apparent_magnitude_i: 17.48
+  ref_m_v: Okamoto2019ApJ...884..128O
+metallicity_photometric:
+  metallicity_photometric: -1.61
+  metallicity_photometric_em: 0.28
+  metallicity_photometric_ep: 0.28
+  metallicity_photometric_sigma: 0.31
+  ref_metallicity_photometric: Okamoto2019ApJ...884..128O
+structure_king:
+  rcore: 0.09
+  rcore_em: 0.03
+  rcore_ep: 0.03
+  rking: 2.5
+  rking_em: 2.0
+  rking_ep: 2.0
+  spatial_units: arcmin
+  ellipticity: 0.24
+  position_angle: 103.5
+  ref_structure_king: Okamoto2019ApJ...884..128O
+structure_sersic:
+  n_sersic: 2.5
+  n_sersic_em: 1.5
+  n_sersic_ep: 1.5
+  rad_sersic: 0.22
+  rad_sersic_em: 0.04
+  rad_sersic_ep: 0.04
+  spatial_units: arcmin
+  ellipticity: 0.24
+  position_angle: 103.5
+  ref_structure_sersic: Okamoto2019ApJ...884..128O

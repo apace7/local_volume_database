@@ -1,0 +1,33 @@
+key: agc_268071
+table: dwarf_local_field
+location:
+  ra: 243.23166666666663  # [deg]
+  dec: 14.345916666666668 # [deg]
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 0
+  name: AGC268071
+  ref_discovery:
+  - Rhode2023AJ....166..113R
+notes:
+  - ra dec center is optical center Rhode2023AJ....166..113R 
+  - assuming bright M_V for luminosity Rhode2023AJ....166..113R 
+  - best detection in Rhode2023AJ....166..113R 
+distance:
+  distance_modulus: 23.78
+  ref_distance: Rhode2023AJ....166..113R
+m_v:
+  apparent_magnitude_v: 16.79
+  apparent_magnitude_v_em: 0.10
+  apparent_magnitude_v_ep: 0.32
+  ref_m_v: Rhode2023AJ....166..113R
+velocity:
+  vlos_systemic: 109 # [km/s]
+  ref_vlos: Rhode2023AJ....166..113R 
+flux_HI:
+  flux_HI:  2.67  # [Jy km/s ]
+  flux_HI_em: 0.08
+  flux_HI_ep: 0.08
+  ref_flux_HI: Rhode2023AJ....166..113R 
