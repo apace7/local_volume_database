@@ -12,7 +12,7 @@ name_discovery:
   ref_discovery:
   - Chiboucas2009AJ....137.3009C
 notes:
-- assume V-I = 1 for M_I -> M_V from hiboucas2013AJ....146..126C
+- assume V-I = 1 for M_I -> M_V from Chiboucas2013AJ....146..126C
 structure:
   rhalf: 21.4
   rhalf_em: 0.4
