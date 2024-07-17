@@ -1,0 +1,52 @@
+key: m_081-d0944+71
+table: dwarf_local_field_distant
+location:
+  ra: 146.1432083
+  dec: 71.48211111
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2008
+  host: m_081
+  name: d0944+71
+  ref_discovery:
+  - Chiboucas2009AJ....137.3009C
+notes:
+- assume V-I = 1 for M_I -> M_V from hiboucas2013AJ....146..126C
+structure:
+  rhalf: 21.4
+  rhalf_em: 0.4
+  rhalf_ep: 0.4
+  spatial_units: arcsec
+  ellipticity: 0.11
+  position_angle: 3.6
+  ref_structure: Chiboucas2013AJ....146..126C
+distance:
+  distance_modulus: 27.63
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Chiboucas2013AJ....146..126C
+m_v:
+  apparent_magnitude_v: 15.43
+  apparent_magnitude_v_em: 0.4
+  apparent_magnitude_v_ep: 0.4
+  ref_m_v: Chiboucas2013AJ....146..126C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.3
+  metallicity_spectroscopic_em: 0.6
+  metallicity_spectroscopic_ep: 0.3
+  ref_metallicity_spectroscopic: Toloba2016ApJ...830L..21T
+structure_sersic:
+  n_sersic: 0.67
+  rad_sersic: 21.4
+  rad_sersic_em: 0.4
+  rad_sersic_ep: 0.4
+  spatial_units: arcsec
+  ellipticity: 0.11
+  position_angle: 3.6
+  ref_structure: Chiboucas2013AJ....146..126C
+velocity:
+  vlos_systemic: -38.3
+  vlos_systemic_em: 9.8
+  vlos_systemic_ep: 9.8
+  ref_vlos: Toloba2016ApJ...830L..21T
