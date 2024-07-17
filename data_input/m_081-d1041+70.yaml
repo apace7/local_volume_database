@@ -1,40 +1,43 @@
-key: m_081-d0926+70
+key: m_081-d1041+70
 table: dwarf_local_field_distant
 location:
-  ra: 141.61625
-  dec: 70.50666667
+  ra: 160.32
+  dec: 70.15083333
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2008
   host: m_081
-  name: d0926+70
+  name: d1041+70
   ref_discovery:
   - Chiboucas2009AJ....137.3009C
-  type: dIrr/dSph
+  type: dSph
 notes:
 - assume V-I = 1 for M_I -> M_V from Chiboucas2013AJ....146..126C
 structure:
-  rhalf: 14.3
+  rhalf: 10.9
   spatial_units: arcsec
   ellipticity: 0.18
-  position_angle: -23.9
+  position_angle: 26.0
   ref_structure: Chiboucas2009AJ....137.3009C
 distance:
-  distance_modulus: 27.66
-  distance_modulus_em: 0.15
-  distance_modulus_ep: 0.12
+  distance_modulus: 27.84
+  distance_modulus_em: 0.14
+  distance_modulus_ep: 0.16
   ref_distance: Chiboucas2013AJ....146..126C
 m_v:
-  apparent_magnitude_v: 17.26
+  apparent_magnitude_v: 18.15
   apparent_magnitude_v_em: 0.4
   apparent_magnitude_v_ep: 0.4
-  mean_ebv: 0.19
+  apparent_magnitude_i: 17.15
+  apparent_magnitude_i_em: 0.4
+  apparent_magnitude_i_ep: 0.4
+  mean_ebv: 0.06
   ref_m_v: Chiboucas2013AJ....146..126C
 structure_sersic:
-  n_sersic: 0.42
-  rad_sersic: 14.3
+  n_sersic: 0.30
+  rad_sersic: 10.9
   spatial_units: arcsec
   ellipticity: 0.18
-  position_angle: -23.9
+  position_angle: 26.0
   ref_structure: Chiboucas2009AJ....137.3009C
