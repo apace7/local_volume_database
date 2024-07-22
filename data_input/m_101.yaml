@@ -1,0 +1,21 @@
+key: m_101
+table: misc
+location:
+  ra: 210.8033333
+  dec: 54.35055556
+name_discovery:
+  name: M101
+  other_name:
+  - NGC5457
+  - PGC050063
+  - UGC08981
+distance:
+  distance_modulus: 29.21
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 7.23
+velocity:
+  vlos_systemic: 240
+  ref_vlos: Karachentsev2013AJ....145..101K
