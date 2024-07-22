@@ -1,0 +1,21 @@
+key: m_094
+table: misc
+location:
+  ra: 192.723	
+  dec: 41.1194
+name_discovery:
+  name: M94
+  other_name:
+  - NGC4736
+  - PGC043495
+  - UGC07996
+distance:
+  distance_modulus: 28.22 
+  distance_modulus_em: 0.04
+  distance_modulus_ep: 0.04
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 6.54
+velocity:
+  vlos_systemic: 308
+  ref_vlos: Karachentsev2013AJ....145..101K 

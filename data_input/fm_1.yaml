@@ -1,0 +1,37 @@
+key: fm_1
+table: dwarf_local_field_distant
+location:
+  ra: 146.2916667
+  dec: 68.765
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2000
+  host: m_081
+  name: FM1
+  other_name:
+  - '[FM2000]1'
+  - PGC3097828
+  - F06D1
+  ref_discovery:
+  - Froebrich2000A&AS..145..229F
+  type: dSph
+notes:
+- assume dm = 27.79 for Vmag calculation Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 32.8
+  rhalf_em: 2.3
+  rhalf_ep: 2.3
+  spatial_units: arcsec
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 27.89
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 15.51
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+
