@@ -1,0 +1,20 @@
+key: m_096
+table: misc
+location:
+  ra: 161.69083333333333
+  dec: 11.819722222222222
+name_discovery:
+  name: M96
+  other_name:
+  - NGC3368
+  - PGC032192
+  - UGC05882
+distance:
+  distance_modulus: 30.09
+  ref_distance: Karachentsev2013AJ....145..101K
+m_v:
+  apparent_magnitude_v: 9.38
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 893
+  ref_vlos: Karachentsev2013AJ....145..101K

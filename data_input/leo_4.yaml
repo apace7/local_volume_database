@@ -43,7 +43,7 @@ proper_motion:
   pmdec: -0.0686
   pmdec_em: 0.0523
   pmdec_ep: 0.0523
-  ref_proper_motion: Julio2024arXiv240416110J
+  ref_proper_motion: Julio2024A&A...687A.212J
 structure:
   ellipticity: 0.17
   ellipticity_em: 0.09

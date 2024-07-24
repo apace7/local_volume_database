@@ -1,25 +1,30 @@
-distance:
-  distance_modulus: 14.368
-  distance_modulus_em: 0.084
-  distance_modulus_ep: 0.084
-  ref_distance: Baumgardt2021MNRAS.505.5957B
+
 key: ngc_6558
+table: gc_harris
 location:
-  dec: -31.764508
   ra: 272.573974
-m_v:
-  apparent_magnitude_v: 8.31
-  apparent_magnitude_v_em: 0.06
-  apparent_magnitude_v_ep: 0.06
-  ref_m_v: Baumgardt2020PASA...37...46B
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.32
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+  dec: -31.764508
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 6558
   host: mw
+distance:
+  distance_modulus: 14.368
+  distance_modulus_em: 0.084
+  distance_modulus_ep: 0.084
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+m_v:
+  apparent_magnitude_v: 8.31
+  apparent_magnitude_v_em: 0.06
+  apparent_magnitude_v_ep: 0.06
+  mean_ebv: 0.34
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.15
+  metallicity_spectroscopic_em: 0.08
+  metallicity_spectroscopic_ep: 0.08
+  ref_metallicity_spectroscopic: GonzalezDiaz2023MNRAS.526.6274G
 proper_motion:
   pmdec: -4.1438
   pmdec_em: 0.0337
@@ -31,9 +36,13 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 0.68
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -195.12
   vlos_systemic_em: 0.73
   vlos_systemic_ep: 0.73
+age:
+  age: 13.0
+  age_em: 0.9
+  age_ep: 0.9
+  ref_age: Souza2024arXiv240715918S

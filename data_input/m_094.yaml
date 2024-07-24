@@ -1,7 +1,7 @@
 key: m_094
 table: misc
 location:
-  ra: 192.723	
+  ra: 192.723
   dec: 41.1194
 name_discovery:
   name: M94
@@ -18,4 +18,4 @@ m_v:
   apparent_magnitude_v: 6.54
 velocity:
   vlos_systemic: 308
-  ref_vlos: Karachentsev2013AJ....145..101K 
+  ref_vlos: Karachentsev2013AJ....145..101K

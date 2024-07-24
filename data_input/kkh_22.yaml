@@ -7,7 +7,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2001
-  host: ic_342
+  host: ic_0342
   name: KKH 22
   other_name:
   - PGC2807114
@@ -15,7 +15,7 @@ name_discovery:
   ref_discovery:
   - Karachentsev2001A&A...366..428K
 notes:
-- lists linear Holmberg’s diameter A_26 = 1.32 kpc Karachentsev2001A&A...366..428K
+- lists linear Holmbergs diameter A_26 = 1.32 kpc Karachentsev2001A&A...366..428K
 structure:
   ellipticity: 0.48
   ref_structure: Karachentsev2020A&A...638A.111K
