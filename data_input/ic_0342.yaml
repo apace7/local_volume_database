@@ -1,0 +1,21 @@
+key: ic_0342
+table: misc
+location:
+  ra: 56.70374999999999
+  dec: 68.09583333333333
+name_discovery:
+  name: IC 342
+  other_name:
+  - PGC013826
+  - UGC02847
+distance:
+  distance_modulus: 26.80
+  distance_modulus_em: 0.10
+  distance_modulus_ep: 0.10
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 5.80
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 29
+  ref_vlos: Karachentsev2013AJ....145..101K
