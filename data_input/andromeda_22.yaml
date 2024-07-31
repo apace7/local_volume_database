@@ -1,25 +1,13 @@
-distance:
-  distance_modulus: 24.39
-  distance_modulus_em: 0.07
-  distance_modulus_ep: 0.07
-  ref_distance: Savino2022ApJ...938..101S
-flux_HI:
-  flux_HI_ul: 0.2
-  ref_flux_HI: Putman2021ApJ...913...53P
 key: andromeda_22
+table: dwarf_m31
 location:
   dec: 28.09028
   ra: 21.91833
-m_v:
-  apparent_magnitude_v: 18.0
-  apparent_magnitude_v_em: 0.4
-  apparent_magnitude_v_ep: 0.4
-  ref_m_v: Martin2016ApJ...833..167M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2009
-  host: m_031
+  host: m_033
   name: Andromeda XXII
   other_name:
   - Triangulum I
@@ -28,6 +16,20 @@ name_discovery:
   type: dSph
 notes:
 - M33 Satellite? In Pisces MC12
+- radial velocity suggests M33 association Chapman2013MNRAS.430...37C
+distance:
+  distance_modulus: 24.39
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Savino2022ApJ...938..101S
+flux_HI:
+  flux_HI_ul: 0.2
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 18.0
+  apparent_magnitude_v_em: 0.4
+  apparent_magnitude_v_ep: 0.4
+  ref_m_v: Martin2016ApJ...833..167M
 structure:
   ellipticity: 0.61
   ellipticity_em: 0.14
@@ -39,7 +41,6 @@ structure:
   rhalf: 0.9
   rhalf_em: 0.2
   rhalf_ep: 0.3
-table: dwarf_m31
 velocity:
   ref_vlos: Collins2013ApJ...768..172C
   vlos_sigma: 2.8

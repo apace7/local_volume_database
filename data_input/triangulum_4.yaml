@@ -12,6 +12,8 @@ name_discovery:
   ref_discovery:
   - Ogami2024arXiv240707481O
   type: dSph
+notes:
+- potential M33 satellite based on projected distance (~75 kpc) from M33 Ogami2024arXiv240707481O
 structure:
   rhalf: 6.5
   rhalf_em: 1.3
