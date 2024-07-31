@@ -14,6 +14,9 @@ name_discovery:
   ref_discovery:
   - MartinezDelgado2022MNRAS.509...16M
   type: dSph
+notes:
+- potential M33 satellite based on projected distance MartinezDelgado2022MNRAS.509...16M
+- improved projected distance (~93 kpc) suggests Pisces VII is M33 satellite Collins2024MNRAS.528.2614C
 distance:
   distance_modulus: 24.8
   distance_modulus_em: 0.2
