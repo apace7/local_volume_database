@@ -1,0 +1,36 @@
+key: bologna_a
+table: gc_dwarf_hosted
+location:
+  ra: 5.377083333333332
+  dec: -71.93527777777778
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 1
+  discovery_year: 2005
+  host: smc 
+  name: Bologna A
+  ref_discovery:
+  - Bellazzini2005A&A...435..871B
+  - Bellazzini2019RNAAS...3...47B
+notes:
+  - behind Tuc 47
+structure:
+  rhalf: 40 
+  spatial_units: arcsec
+  ref_structure: Bellazzini2019RNAAS...3...47B
+distance:
+  distance_fixed_host: True 
+proper_motion:
+  pmra: 0.15 
+  pmra_em: 0.34
+  pmra_ep: 0.34
+  pmdec: -1.37
+  pmdec_em: 0.28
+  pmdec_ep: 0.28
+  ref_proper_motion: Bellazzini2019RNAAS...3...47B
+metallicity_photometric:
+  metallicity_photometric: -0.9
+  ref_metallicity_photometric: Bellazzini2019RNAAS...3...47B
+age:
+  age: 4.5 
+  ref_age: Bellazzini2019RNAAS...3...47B
