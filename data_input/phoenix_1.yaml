@@ -39,13 +39,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_ep: 0.04
   ref_metallicity_spectroscopic: Kacharov2017MNRAS.466.2006K
 proper_motion:
-  pmra: 0.07
-  pmra_em: 0.03
-  pmra_ep: 0.03
-  pmdec: -0.06
-  pmdec_em: 0.04
-  pmdec_ep: 0.04
-  ref_proper_motion: Battaglia2022A&A...657A..54B
+  pmra: 0.142
+  pmra_em: 0.028
+  pmra_ep: 0.028
+  pmdec: -0.04
+  pmdec_em: 0.032
+  pmdec_ep: 0.032
+  ref_proper_motion: Bennet2024ApJ...971...98B
 structure:
   rhalf: 2.43
   rhalf_em: 0.02
