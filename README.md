@@ -19,8 +19,7 @@ The tables can be directly loaded into Jupyter notebooks without having to downl
 
 ### ACKNOWLEDGEMENT:
 
-If you use this in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the database paper (once it is written). 
-An example in latex is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }}.
+If you use this in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the database paper (once it is written). It is highly encouraged to cite the input references of the database if they are used in your work. An example in latex is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }}.
 
 ### INSTALLATION:
 Todo.

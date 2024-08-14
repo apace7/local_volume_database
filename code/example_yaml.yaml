@@ -178,13 +178,13 @@ age:
   age_ep: 0
   ref_age: ref
 star_formation_history:
-  tau_50:
-  tau_50_em:
-  tau_50_ep:
-  tau_80:
-  tau_80_em:
-  tau_80_ep:
-  tau_90:
-  tau_90_em:
-  tau_90_ep:
+  tau_50: 0
+  tau_50_em: 0
+  tau_50_ep: 0
+  tau_80: 0
+  tau_80_em: 0
+  tau_80_ep: 0
+  tau_90: 0
+  tau_90_em: 0
+  tau_90_ep: 0
   ref_star_formation_history: ref

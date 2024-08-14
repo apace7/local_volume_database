@@ -39,13 +39,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_ep: 0.02
   ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
 proper_motion:
-  pmdec: -0.15
-  pmdec_em: 0.026
-  pmdec_ep: 0.026
-  pmra: -0.109
-  pmra_em: 0.028
-  pmra_ep: 0.028
-  ref_proper_motion: Pace2022ApJ...940..136P
+  pmdec: -0.143
+  pmdec_em: 0.009
+  pmdec_ep: 0.009
+  pmra: -0.130
+  pmra_em: 0.009
+  pmra_ep: 0.009
+  ref_proper_motion: Bennet2024ApJ...971...98B
 structure:
   ellipticity: 0.07
   ellipticity_em: 0.01

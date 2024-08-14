@@ -16,7 +16,7 @@ structure:
   rhalf_em: 1
   rhalf_ep: 3
   spatial_units: arcsec
-  ref_structure: Giusti2024arXiv240504922G
+  ref_structure: Giusti2024A&A...687A.310G
 distance:
   distance_modulus: 18.58
   ref_distance: Giusti2024A&A...686A...6G
@@ -43,7 +43,7 @@ structure_king:
   rking_em: 18
   rking_ep: 36
   spatial_units: arcsec
-  ref_structure_king: Giusti2024arXiv240504922G
+  ref_structure_king: Giusti2024A&A...687A.310G
 age:
   age: 12.5
   age_em: 1
