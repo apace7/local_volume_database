@@ -1,10 +1,13 @@
 table descriptions (tab/sheet)
+
+description at [readthedocs](https://local-volume-database.readthedocs.io/en/latest/usage.html#decription-of-tables)
+
 dwarf_mw : Milky Way dwarf galaxies
 dwarf_m31: M31 dwarf galaxies
 dwarf_local_field: dwarf galaxies outside of MW/M31 to ~ 3 Mpc, mostly follows McConnachie 2012
 
 gc_ufsc: post Harris catalog star clusters in the MW halo (abs(b) > ~5-10)
-gc_disk: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these objects might be open clusters
+gc_disk: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these systems might be open clusters
 gc_harris: globular clusters in Harris catalog
 
 name_discovery: key, discovery year, discovery reference, name, and alternative names
@@ -12,7 +15,7 @@ pm_overview: key, reference, proper motion measurement, method (this includes mo
 j_factor.csv: key, reference, angle, j-factor measurement [units are log10 GeV^2 cm^-5], notes (this includes some literature j-factor measurements, mostly from A. B. Pace)
 
 columns:
-key: unique identifier for each object
+key: unique identifier for each system
 host: host of system [MW, LMC, M31, etc]
 confirmed_real: system has been confirmed with either deeper photometry, follow-up spectroscopy, proper motion, or other methods
 confirmed_dwarf: (or confirmed_star_cluster) system has been confirmed to be dwarf galaxy (or star cluster) based on spectroscopy, and/or deeper photometry.

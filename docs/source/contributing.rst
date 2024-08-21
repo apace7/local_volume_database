@@ -60,7 +60,7 @@ These are the current tables:
 * gc_dwarf_hosted
 * candidate
 * local_field_distant
-* misc (note that this key is used to collect objects that are not included in other tables)
+* misc (note that this key is used to collect systems that are not included in other tables)
 
 .. How the database is constructed
 .. ---------------------------------------------
@@ -80,6 +80,6 @@ Here is a short list of items that generally focus on expanding the scope of the
 * kinematic information for globular clusters (average velocity dispersion and central velocity disperion)
 * open clusters
 * LMC/SMC/M31 clusters
-* Complete dwarf galaxy entries for objects beyond 3 Mpc
-* Complete dwarf galaxy globular cluster objects and properties
+* Complete dwarf galaxy entries for systems beyond 3 Mpc
+* Complete dwarf galaxy globular cluster systems and properties
 

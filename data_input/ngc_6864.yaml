@@ -39,7 +39,7 @@ proper_motion:
   pmra_ep: 0.0262
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
-  ref_structure: Leanza2024arXiv240513558L
+  ref_structure: Leanza2024A&A...688A.133L
   rhalf: 32.3
   rhalf_em: 1.0
   rhalf_ep: 1.2
@@ -52,9 +52,9 @@ structure_king:
   rking_em: 10.7
   rking_ep: 11.9
   spatial_units: arcsec
-  ref_structure_king: Leanza2024arXiv240513558L
+  ref_structure_king: Leanza2024A&A...688A.133L
 velocity:
-  ref_vlos: Leanza2024arXiv240513558L
+  ref_vlos: Leanza2024A&A...688A.133L
   vlos_systemic: -189.5
   vlos_systemic_em: 0.3
   vlos_systemic_ep: 0.3
