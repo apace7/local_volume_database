@@ -148,14 +148,53 @@ def value_add(input_table, table_type='dwarf', **kwargs):
     input_table['M_V_em'] = input_table['apparent_magnitude_v_em']
     input_table['M_V_ep'] = input_table['apparent_magnitude_v_ep']
 
+    ## stellar mass
     def lum(m_x, m_x_sun=4.83):
         return pow(10., -.4*(m_x - m_x_sun) )
     input_table['mass_stellar'] = np.log10(lum(input_table['M_V']) * 2.)
 
+    ## heliocentric distance
     d, dem, dep = dist_mod( input_table['distance_modulus'], input_table['distance_modulus_em'], input_table['distance_modulus_ep'])
     input_table['distance'] = d
     input_table['distance_em'] = dem
     input_table['distance_ep'] = dep
+    
+    ## Galactic longitude and latitude
+    c_table_input = coord.SkyCoord(ra=input_table['ra']*u.deg, dec=input_table['dec']*u.deg,distance=input_table['distance']*u.kpc,  frame='icrs',)
+    input_table['ll'] = c_table_input.galactic.l.value
+    input_table['bb'] = c_table_input.galactic.b.value
+    
+    comb = c_table_input.transform_to(coord.Galactocentric) 
+    ## 3D distance to Galactic center
+    input_table['distance_gc'] = np.sqrt(comb.x.value**2 + comb.y.value**2 + comb.z.value**2)
+
+    coord_m31 = coord.SkyCoord(ra=10.6839167*u.deg, dec=41.26567*u.deg, distance=776.2*u.kpc,  frame='icrs',)
+    try:
+        with open(path + 'm_031' + '.yaml', 'r') as yaml_to_load:
+            host_m31 = yaml.load(yaml_to_load, Loader=yaml.Loader)
+            coord_m31 = coord.SkyCoord(ra=host_m31['location']['ra']*u.deg, dec=host_m31['location']['dec']*u.deg, distance=dist_mod( host_m31['distance']['distance_modulus'])[0]*u.kpc,  frame='icrs',)
+    except:
+        print("no M31 host info", path + 'm_031' + '.yaml')
+    ## 3D distance to M31
+    input_table['distance_m31'] = c_table_input.separation_3d(coord_m31)
+
+    ## 3D distance to host galaxy
+    input_table['distance_host'] = np.zeros(len(input_table), dtype=float)
+    for i in range(len(input_table)):
+        if np.ma.is_masked(input_table['host'][i]):
+            input_table['distance_host'][i] = np.ma.masked
+        elif input_table['host'][i] == 'mw':
+            input_table['distance_host'][i] = input_table['distance_gc'][i]
+        else:
+            try:
+                with open(path + input_table['host'][i] + '.yaml', 'r') as yaml_to_load:
+                    host_yaml = yaml.load(yaml_to_load, Loader=yaml.Loader)
+                    d = dist_mod( host_yaml['distance']['distance_modulus'])[0]
+                    coord_host = coord.SkyCoord(ra=host_yaml['location']['ra']*u.deg, dec=host_yaml['location']['dec']*u.deg, distance=d*u.kpc,  frame='icrs',)
+                    coord_dwarf = coord.SkyCoord(ra=input_table['ra'][i]*u.deg, dec=input_table['dec'][i]*u.deg, distance=input_table['distance'][i]*u.kpc,  frame='icrs',)
+                    input_table['distance_host'][i] = coord_dwarf.separation_3d(coord_host).value
+            except:
+                print("no  host info", input_table['key'][i], path + input_table['host'][i] + '.yaml')    
 
     input_table['rhalf_physical'] = input_table['distance']*1000.*input_table['rhalf']/spatial_units_conversion/180.*np.pi
     input_table['rhalf_sph_physical'] = np.ma.masked_all(len(input_table), dtype=float)
@@ -165,8 +204,10 @@ def value_add(input_table, table_type='dwarf', **kwargs):
         else:
             input_table['rhalf_sph_physical'][i] = input_table['rhalf_physical'][i]
 
+    ## average surface brightness within half-light radius
     input_table['surface_brightness_rhalf'] = input_table['M_V'] + 19.78 + input_table['distance_modulus'] +  2.5 * np.log10(np.degrees(np.arctan(input_table['rhalf_sph_physical']/1000./input_table['distance']))**2)
 
+    #HI mass
     if table_type=='dwarf':
         input_table['mass_HI'] = np.log10(235600 * input_table['flux_HI']*(input_table['distance']/1000.)**2 )
         input_table['mass_HI_ul'] = np.log10(235600 * input_table['flux_HI_ul']*(input_table['distance']/1000.)**2 )
@@ -187,10 +228,8 @@ def value_add(input_table, table_type='dwarf', **kwargs):
             input_table['metallicity_ep'][i] = input_table['metallicity_photometric_ep'][i]
             input_table['metallicity_type'][i] = 'photometric'
     
-    c_table_input = coord.SkyCoord(ra=input_table['ra']*u.deg, dec=input_table['dec']*u.deg,  frame='icrs',)
-    input_table['ll'] = c_table_input.galactic.l.value
-    input_table['bb'] = c_table_input.galactic.b.value
-    
+
+
     return input_table
 
 

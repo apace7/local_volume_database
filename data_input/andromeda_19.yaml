@@ -49,3 +49,11 @@ velocity:
   vlos_systemic: -109.0
   vlos_systemic_em: 1.6
   vlos_systemic_ep: 1.6
+star_formation_history:
+  tau_50: 13.5
+  tau_50_em: 0.1
+  tau_50_ep: 0.1
+  tau_90: 9.7
+  tau_90_em: 0.2
+  tau_90_ep: 0.2
+  ref_star_formation_history: Collins2022MNRAS.517.4382C

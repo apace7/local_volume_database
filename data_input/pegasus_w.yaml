@@ -37,4 +37,11 @@ structure:
   rhalf: 0.3833
   rhalf_em: 0.0333
   rhalf_ep: 0.0333
-
+star_formation_history:
+  tau_80: 8.0
+  tau_80_em: 1.6
+  tau_80_ep: 4.7
+  tau_90: 7.4
+  tau_90_em: 2.6
+  tau_90_ep: 2.2
+  ref_star_formation_history: McQuinn2023ApJ...944...14M

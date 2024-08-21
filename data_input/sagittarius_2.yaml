@@ -56,3 +56,11 @@ velocity:
   vlos_systemic: -177.2
   vlos_systemic_em: 0.6
   vlos_systemic_ep: 0.5
+star_formation_history:
+  tau_50: 13.40
+  tau_50_em: 0.07
+  tau_50_ep: 0.07
+  tau_90: 12.68
+  tau_90_em: 0.28
+  tau_90_ep: 0.28
+  ref_star_formation_history: Sacchi2021ApJ...920L..19S
