@@ -38,3 +38,8 @@ structure:
   position_angle_em: 7
   position_angle_ep: 9
   ref_structure: McQuinn2024ApJ...967..161M
+star_formation_history:
+  tau_80: 10.6
+  tau_80_em: 2.2
+  tau_80_ep: 1.1
+  ref_star_formation_history: McQuinn2024ApJ...967..161M

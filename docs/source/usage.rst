@@ -63,31 +63,40 @@ columns:
 * confirmed_dwarf: (or confirmed_star_cluster) system has been confirmed to be dwarf galaxy (or star cluster) based on spectroscopy, and/or deeper photometry.
 * ra: right ascension ICRS [degree]
 * dec: declination ICRS [degree]
-* rhalf: major half-light radius (or plummer radius) in [arcmin]. Note that input yaml files can have arcsec or arcmin input units. 
+* rhalf: major axis half-light radius (or plummer radius) in [arcmin]. Note that input yaml files can have arcsec or arcmin input units. 
 * ellipticity: 1 - minor/major axis (or 1 - axis ratio)
 * position_angle: N->E [degree] 
 * distance_modulus [mag]
-* distance: computed from distance_modulus [kpc] 
-* rhalf_physical: half-light radius in physical units --  rhalf * distance  [parsec] (computed from other columns)
-* rhalf_sph_physical: spherically averaged half-light radius; rhalf * distance * sqrt(1-ellipticity) in [parsec] (computed from other columns)
-* apparent_magnitude_v: apparent magnitude in V-band. Corrected for extinction. 
-* M_V: absolute V-band magnitude, computed from distance_modulus and apparent_magnitude_V
-* mass_stellar: log10 stellar mass assuming M/L=2 and computed from M_V [Msun]
-* surface_brightness_rhalf: average surface brightness within spherically averaged half-light radius [mag arcsec^-2]
+* apparent_magnitude_v: apparent magnitude in V-band. Corrected for extinction. Value added.
 * vlos_systemic: heliocentric velocity of system [km/s]
 * vlos_sigma: velocity dispersion in line-of-sight [km/s]
-* metallicity: metallicity, spectroscopic preferred [dex]
-* metallicity_type: lists whether `metallicity` column is photometric or spectroscopic
 * metallicity_spectroscopic: spectroscopic metallicity [dex]
 * metallicity_spectroscopic_sigma: spectroscopic metallicity dispersion [dex]
-* pmra: proper motion in right ascension, includes cos(dec) term following Gaia [mas/yr]
-* pmdec: proper motion in declination direction [mas/yr]
+* pmra: systemic proper motion in right ascension, includes cos(dec) term following Gaia [mas/yr]
+* pmdec: systemic proper motion in declination direction [mas/yr]
 * rcore, rking: profile fits with king profile in arcmin
 * rad_sersic, n_sersic: sersic profile parameters. rad_sersic in arcmin
 * age: age of system [Gyr] 
 * metallicity_photometric: metallicity from isochrone fitting (or non-spectroscopic metallicity such as metallicity sensitive narrowband imaging)
 * flux_HI: flux in HI [Jy km s^−1]
-* mass_HI: log10 HI mass computed from flux_HI and distance [Msun]
+* ref_ + x : reference columns such as ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion.  All reference columns have the same format: author last name + ADS bibcode. 
+
+Value added Columns
+
+* M_V: absolute V-band magnitude, computed from distance_modulus and apparent_magnitude_V
+* mass_stellar: log10 stellar mass assuming M/L=2 and computed from M_V [Msun]
+* distance: heliocentric distance, computed from distance_modulus [kpc]
+* ll: Galactic longitude
+* bb: Halactic latitude
+* distance_gc: 3D distance to Galactic center [kpc]
+* distance_m31: 3D distance to M31 center [kpc]
+* distance_host: 3D distance to host galaxy [kpc]
+* rhalf_physical: half-light radius in physical units --  rhalf * distance  [parsec]
+* rhalf_sph_physical: spherically averaged half-light radius (geometric mean); rhalf * distance * sqrt(1-ellipticity) in [parsec]
+* surface_brightness_rhalf: average surface brightness within spherically averaged half-light radius [mag arcsec^-2]
+* mass_HI: log10 HI mass computed from flux_HI and distance [Msun] 
+* metallicity: union of spectroscopic and photometric metallicity, spectroscopic preferred over photometric metallicity [dex]
+* metallicity_type: lists whether `metallicity` column is photometric or spectroscopic. 
 * ref_ + x : reference columns such as ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion.  All reference columns have the same format: author last name + ADS bibcode. 
 
 Many columns also have associated error columns. These follow the format of name + _em, + _ep + _ul (e.g., rhalf_em).
@@ -264,6 +273,16 @@ The collections are split such that a single reference can describe the contents
   * **age** -- mean age of the systemic in [Gyr]. Mainly for star clusters. 
 
   * **ref_age** -- reference
+
+* **star_formation_history**
+  
+  * **tau_50** -- time for 50 per cent of stellar mass to form [Gyr ago]
+
+  * **tau_80** -- time where 80 per cent of stellar mass has formed, quenching time [Gyr ago]
+
+  * **tau_90** -- time where 90 per cent of stellar mass has formed, quenching time [Gyr ago]
+
+  * **ref_star_formation_history**
 
 Citations to database and citations to the LVDB input
 -----------------------------
