@@ -66,7 +66,7 @@ Figure from the sample (this does include custom matplotlib stylefile and latex 
 Some Recommendations 
 ---------------------------------------------
 
-For detailed analysis, I would recommendation fixing the version of the tables instead of the current version.  
+For detailed analysis, I would recommendation fixing the version of the tables to a specific commit instead of the current github version.  
 Each table can be loaded from a specific commit. For example, this loads an older version of the data/dwarf_mw.csv table.
 
 .. code-block:: python

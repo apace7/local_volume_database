@@ -42,11 +42,11 @@ The following are the available tables (in csv and fits file formats).
 * **dwarf_local_field_distant**: dwarf galaxies with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete. 
 
 * **gc_ufsc**: Ultra-faint compact stellar systems. faint star-cluster like systems (generally rhalf < 20 pc and M_V > -3 and at high Galactic latitudes abs(b) > ~5-10). A number of these systems are likely tidally stripped star clusters, tidally stripped dwarf galaxies, or the faintest dwarf galaxies. Many have are ambiguous classifications and are difficult to classify. 
-* **gc_disk**: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these objects might be open clusters, and some objects have not been confirmed
+* **gc_disk**: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these systems might be open clusters, and some systems have not been confirmed
 * **gc_harris**: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_ufsc table)
 * **gc_dwarf_hosted**: Globular clusters hosted by dwarf galaxies. This does not include the Sagittarius GCs which are in gc_harris. Incomplete table.
 
-There are two extra tables (data/pm_overview.csv and data/j_factor.csv). Both are collections of measurements (the other tables have one measurement per object). 
+There are two extra tables (data/pm_overview.csv and data/j_factor.csv). Both are collections of measurements (the other tables have one measurement per system). 
 
 pm_overview.csv: key, reference, proper motion measurement, method (this includes most proper motion measurements of dwarf galaxies)
 
@@ -110,7 +110,7 @@ The yaml keys are **Bolded** below and the bullet points follow the yaml collect
 The collections are split such that a single reference can describe the contents.
 
 * **key** —- unique internal identifier. This should be the same as the name of the file (without .yaml) (required yaml key). All keys are lowercase in LVDB. Globular clusters and some dwarf galaxies are grouped by their host (for example, all LMC globular cluster keys have the prefix lmc_gc_ and many Centuarus A dwarf galaxy keys have the prefix cena_ ). 
-* **table** -- table to place system into (required yaml key) list of possible tables [gc_harris, gc_dwarf_hosted, gc_disk, gc_ufsc, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc]. Objects in the candidate and misc tables are not combined into files. The candidate objects are included in the lvdb pdf summary. The misc objects are primarily bright host galaxies (MW, M31, Cen A) and only included for distance measurements (**distance_fixed_host**) and to link objects together. 
+* **table** -- table to place system into (required yaml key) list of possible tables [gc_harris, gc_dwarf_hosted, gc_disk, gc_ufsc, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc]. Systems in the candidate and misc tables are not combined into files. The candidate systems are included in the lvdb pdf summary. The misc systems are primarily bright host galaxies (MW, M31, Cen A) and only included for distance measurements (**distance_fixed_host**) and to link systems together. 
 * **location** -- center of the system (yaml collection)
 
   * **ra** -- right ascension ICRS [degree]  (required yaml key)
@@ -133,13 +133,13 @@ The collections are split such that a single reference can describe the contents
 
   * **confirmed_star_cluster** -- 0 or 1 -- 1 = confirmed star cluster.  
 
-  * **confirmed_real** -- 1 = Object is confirmed to be physical system.  This includes deeper imaging (i.e. HST), spectroscopic confirmation, and/or proper motion confirmation.
+  * **confirmed_real** -- 1 = system is confirmed to be physical system.  This includes deeper imaging (i.e. HST), spectroscopic confirmation, and/or proper motion confirmation.
 
-  * **false_positive** -- 1 = Object is confirmed to be a false positive.  2 = Object is confirmed to be background galaxy at much larger distances
+  * **false_positive** -- 1 = system is confirmed to be a false positive.  2 = system is confirmed to be background galaxy at much larger distances
 
-  * **ref_false_positive** -- list of references that shows an object is a false positive. This could include new dwarf galaxy searches that do not recover the object. This includes dwarf galaxies candidates that are later shown to be background galaxies. 
+  * **ref_false_positive** -- list of references that shows an system is a false positive. This could include new dwarf galaxy searches that do not recover the system. This includes dwarf galaxies candidates that are later shown to be background galaxies. 
 
-  * **abbreviation** -- Common abbreviation for object (currently only for MW dwarf galaxies). 
+  * **abbreviation** -- Common abbreviation for system (currently only for MW dwarf galaxies). 
   
   * **type** -- dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster
 
@@ -159,7 +159,7 @@ The collections are split such that a single reference can describe the contents
 
   * **distance_modulus** --  distance modulus of the system. [mag] This quantity is used to compute the distance in kpc for each system.
 
-  * **distance_fixed_host** -- True/False. This option fixes the distance of the object to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy and new (unconfirmed) satellites of more distant hosts (>3 Mpc)
+  * **distance_fixed_host** -- True/False. This option fixes the distance of the system to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy and new (unconfirmed) satellites of more distant hosts (>3 Mpc)
 
   * **ref_distance**
 
@@ -173,7 +173,7 @@ The collections are split such that a single reference can describe the contents
 
 * **velocity** -- stellar velocity/kinematics
 
-  * **vlos_systemic** -- systemic heliocentric velocity of the system. Stellar velocities are preferred but some distant objects are from HI observations. [km/s]
+  * **vlos_systemic** -- systemic heliocentric velocity of the system. Stellar velocities are preferred but some distant systems only have HI velocities. [km/s]
   
   * **vlos_sigma** -- stellar velocity dispersion. [km/s]. Sometimes called the global velocity dispersion.
 
@@ -273,7 +273,7 @@ The example notebook `example_notebooks/example_latex_citations.ipynb/ <https://
 
 As ADS bibcode are a fixed length of 19 characters, the ADS bibcode can be retrieved from the LVDB reference columns.  Other public tools such as  `adstex <https://github.com/yymao/adstex>`_ can be used to create bibtex files. 
 
-Users of the LVDB are encouraged to cite the LVDB input of the objects studied in their analysis to give proper acknowledgment to the community.  
+Users of the LVDB are encouraged to cite the LVDB input of the systems studied in their analysis to give proper acknowledgment to the community.  
 
 If you use this in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the database paper (once it is written). 
 An example in latex is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }}.

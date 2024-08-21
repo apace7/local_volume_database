@@ -53,7 +53,7 @@ The collections are split such that a single reference can describe the contents
 
   * **distance_modulus**
 
-  * **distance_fixed_host** -- True/False. This option fixes the distance of the object to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy and new (unconfirmed) satellites of more distant hosts (>3 Mpc)
+  * **distance_fixed_host** -- True/False. This option fixes the distance of the system to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy and new (unconfirmed) satellites of more distant hosts (>3 Mpc)
 
   * **ref_distance**
 
@@ -67,7 +67,7 @@ The collections are split such that a single reference can describe the contents
 
 * **velocity** -- stellar velocity/kinematics
 
-  * **vlos_systemic** -- systemic heliocentric velocity of the system. Stellar velocities are preferred but some distant objects are from HI observations. [km/s]
+  * **vlos_systemic** -- systemic heliocentric velocity of the system. Stellar velocities are preferred but some distant systems only have HI velocities. [km/s]
   
   * **vlos_sigma** -- stellar velocity dispersion. [km/s]
   
