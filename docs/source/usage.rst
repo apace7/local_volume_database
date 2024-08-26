@@ -84,19 +84,24 @@ columns:
 Value added Columns
 
 * M_V: absolute V-band magnitude, computed from distance_modulus and apparent_magnitude_V
-* mass_stellar: log10 stellar mass assuming M/L=2 and computed from M_V [Msun]
+* mass_stellar: log10 stellar mass assuming M/L=2 and computed from M_V [log10 Msun]
 * distance: heliocentric distance, computed from distance_modulus [kpc]
 * ll: Galactic longitude
-* bb: Halactic latitude
+* bb: Galactic latitude
+* sg_xx: Supergalactic coordinates, x [kpc]
+* sg_yy: Supergalactic coordinates, y [kpc]
+* sg_zz: Supergalactic coordinates, z [kpc] 
 * distance_gc: 3D distance to Galactic center [kpc]
 * distance_m31: 3D distance to M31 center [kpc]
 * distance_host: 3D distance to host galaxy [kpc]
 * rhalf_physical: half-light radius in physical units --  rhalf * distance  [parsec]
 * rhalf_sph_physical: spherically averaged half-light radius (geometric mean); rhalf * distance * sqrt(1-ellipticity) in [parsec]
 * surface_brightness_rhalf: average surface brightness within spherically averaged half-light radius [mag arcsec^-2]
-* mass_HI: log10 HI mass computed from flux_HI and distance [Msun] 
+* mass_HI: log10 HI mass computed from flux_HI and distance [log10 Msun] 
 * metallicity: union of spectroscopic and photometric metallicity, spectroscopic preferred over photometric metallicity [dex]
 * metallicity_type: lists whether `metallicity` column is photometric or spectroscopic. 
+* velocity_gsr: Velocity in Galactic standard of rest frame [km/s]
+* mass_dynamical_wolf: Dynamical mass within 3D half-light radius using the dynamical mass estimator in `Wolf et al. 2010 <https://ui.adsabs.harvard.edu/abs/2010MNRAS.406.1220W/abstract>`_ [log10 Msun]. This column has errors and upper limit columns (em, ep, ul) using the errors from the half-light radius (rhalf), ellipticity, distance, and velocity dispersion (monte carlo errors). 
 * ref_ + x : reference columns such as ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion.  All reference columns have the same format: author last name + ADS bibcode. 
 
 Many columns also have associated error columns. These follow the format of name + _em, + _ep + _ul (e.g., rhalf_em).
@@ -260,7 +265,7 @@ The collections are split such that a single reference can describe the contents
 
   * **flux_HI** -- [Jy km/s]
 
-  * **vlos_systemic_HI** -- Hi systemic velocity [km/s]
+  * **vlos_systemic_HI** -- HI systemic velocity [km/s]
 
   * **sigma_HI** -- velocity dispersion of HI gas [km/s]
 

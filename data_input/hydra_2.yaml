@@ -11,7 +11,7 @@ name_discovery:
   name: Hydra II
   ref_discovery:
   - Martin2015ApJ...804L...5M
-  abbreviation: HydII
+  abbreviation: HyaII
   type: dSph
 distance:
   distance_modulus: 20.9

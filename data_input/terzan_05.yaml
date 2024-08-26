@@ -22,6 +22,8 @@ name_discovery:
   name: Terzan 5
   other_name:
   - Terzan 11
+  - IAU 1745-247
+  - ESO 520-SC27
   ref_discovery:
   - Terzan1968CRASB.267.1245T
   host: mw

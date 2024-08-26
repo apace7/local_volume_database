@@ -11,7 +11,7 @@ name_discovery:
   name: Crater II
   ref_discovery:
   - Torrealba2016MNRAS.459.2370T
-  abbreviation: CraII
+  abbreviation: CrtII
   type: dSph  
 distance:
   distance_modulus: 20.333

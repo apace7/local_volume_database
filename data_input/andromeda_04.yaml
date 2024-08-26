@@ -1,0 +1,44 @@
+key: andromeda_04
+table: dwarf_local_field_distant
+location:
+  ra: 10.634583333333332 
+  dec: 40.57166666666667
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1972
+  name: Andromeda IV
+  other_name:
+  - PGC002544
+  ref_discovery:
+  - vandenBergh1972ApJ...171L..31V
+  - Karachentsev2016AN....337..306K
+  # type: dIrr
+structure:
+  rhalf: 13 
+  spatial_units: arcsec
+  ref_structure: Karachentsev2016AN....337..306K
+distance:
+  distance_modulus: 29.28 
+  distance_modulus_em: 0.09
+  distance_modulus_ep: 0.09
+  ref_distance: Karachentsev2016AN....337..306K
+m_v:
+  apparent_magnitude_v: 15.91
+  apparent_magnitude_v_em: 0.10
+  apparent_magnitude_v_ep: 0.10
+  mean_ebv: 0.055
+  ref_m_v: Karachentsev2016AN....337..306K
+velocity:
+  vlos_systemic: 234
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Begum2008MNRAS.386.1667B 
+flux_HI:
+  flux_HI:  19.5 
+  flux_HI_em: 2.0
+  flux_HI_ep: 2.0
+  vlos_systemic_HI: 234
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: Begum2008MNRAS.386.1667B

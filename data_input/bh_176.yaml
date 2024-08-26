@@ -1,21 +1,25 @@
+key: bh_176
+table: gc_harris
+location:
+  ra: 234.7810417
+  dec: -50.05272222
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1975
+  name: BH 176
+  host: mw
+  ref_discovery:
+  - vandenBergh1975AJ.....80...11V
 distance:
   distance_modulus: 15.913
   ref_distance: Harris1996AJ....112.1487H
-key: bh_176
-location:
-  dec: -50.05272222
-  ra: 234.7810417
 m_v:
   apparent_magnitude_v: 11.613
   ref_m_v: Harris1996AJ....112.1487H
 metallicity_spectroscopic:
   metallicity_spectroscopic: 0.0
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: BH 176
-  host: mw
 proper_motion:
   pmdec: -3.0568
   pmdec_em: 0.0287
@@ -27,7 +31,6 @@ proper_motion:
 structure:
   ref_structure: Harris1996AJ....112.1487H
   rhalf: 0.9
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 90.3

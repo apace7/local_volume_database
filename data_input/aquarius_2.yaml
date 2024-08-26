@@ -11,7 +11,7 @@ name_discovery:
   name: Aquarius II
   ref_discovery:
   - Torrealba2016MNRAS.463..712T
-  abbreviation: AquII
+  abbreviation: AqrII
   type: dSph  
 distance:
   distance_modulus: 20.16

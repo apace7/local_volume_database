@@ -11,7 +11,7 @@ name_discovery:
   name: Coma Berenices
   ref_discovery:
   - Belokurov2007ApJ...654..897B
-  abbreviation: CBe
+  abbreviation: Com
   type: dSph  
 distance:
   distance_modulus: 18.13

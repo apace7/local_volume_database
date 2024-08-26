@@ -15,6 +15,8 @@ import yaml
 
 import os
 
+import corner
+
 path = "data_input/"
 dir_list = os.listdir(path)
 dir_list = [i for i in dir_list if i!='readme.md']
@@ -103,6 +105,7 @@ def add_to_table(yaml_input, table_output, place, ):
                                 missing_key.append(name)
                                 continue
                             else:
+                            # if name == 'distance_modulus':
                                 table_output[name][place] = stream_yaml_host['distance'][x[list_key]]
                 except:
                     print("host missing for", stream_yaml['key'])
@@ -164,6 +167,17 @@ def value_add(input_table, table_type='dwarf', **kwargs):
     input_table['ll'] = c_table_input.galactic.l.value
     input_table['bb'] = c_table_input.galactic.b.value
     
+    ## super Galactic coordinates
+    # c_test = coord.SkyCoord(ra=input_table['ra']*u.deg, dec=input_table['dec']*u.deg, distance=input_table['distance']*u.kpc,  frame='icrs',)
+    comb_sg = c_table_input.transform_to(coord.Supergalactic) 
+    input_table['sg_xx'] = comb_sg.cartesian.x.value
+    input_table['sg_yy'] = comb_sg.cartesian.y.value
+    input_table['sg_zz'] = comb_sg.cartesian.z.value
+    # input_table['sg_xx'] = comb_sg.distance.value*np.cos(np.deg2rad(comb_sg.sgl.value)) * np.cos(np.deg2rad(comb_sg.sgb.value))
+    # input_table['sg_yy'] = comb_sg.distance.value*np.sin(np.deg2rad(comb_sg.sgl.value)) * np.cos(np.deg2rad(comb_sg.sgb.value))
+    # input_table['sg_zz'] = comb_sg.distance.value*np.sin(np.deg2rad(comb_sg.sgl.value))
+
+    c_table_input = coord.SkyCoord(ra=input_table['ra']*u.deg, dec=input_table['dec']*u.deg,distance=input_table['distance']*u.kpc,  frame='icrs',)
     comb = c_table_input.transform_to(coord.Galactocentric) 
     ## 3D distance to Galactic center
     input_table['distance_gc'] = np.sqrt(comb.x.value**2 + comb.y.value**2 + comb.z.value**2)
@@ -228,7 +242,93 @@ def value_add(input_table, table_type='dwarf', **kwargs):
             input_table['metallicity_ep'][i] = input_table['metallicity_photometric_ep'][i]
             input_table['metallicity_type'][i] = 'photometric'
     
+    # radial velocity in Galactic standard of rest https://docs.astropy.org/en/stable/generated/examples/coordinates/rv-to-gsr.html
+    c_table_input = coord.SkyCoord(ra=input_table['ra']*u.deg, dec=input_table['dec']*u.deg,distance=input_table['distance']*u.kpc,radial_velocity=input_table['vlos_systemic']*u.km/u.s,  frame='icrs',)
+    coord.galactocentric_frame_defaults.set("latest")
+    v_sun = coord.Galactocentric().galcen_v_sun.to_cartesian()
 
+    gal = c_table_input.transform_to(coord.Galactic)
+    cart_data = gal.data.to_cartesian()
+    unit_vector = cart_data / cart_data.norm()
+
+    v_proj = v_sun.dot(unit_vector)
+    vgsr = c_table_input.radial_velocity + v_proj
+    input_table['velocity_gsr'] = np.ma.masked_all(len(input_table), dtype=float)
+    for i in range(len(input_table)):
+        if ma.is_masked(input_table['vlos_systemic'][i])==False:
+            input_table['velocity_gsr'][i] = vgsr[i].value
+    n=10000
+    def compute_mass_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, ellipticity_ep, distance, distance_em, distance_ep, sigma, sigma_em,sigma_ep):
+        
+        if ma.is_masked(rhalf_em)==False and ma.is_masked(rhalf)==False:
+            x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., n)
+        elif ma.is_masked(rhalf)==False:
+            x=np.empty(n)
+            x.fill(rhalf)
+        else:
+            x = np.zeros(n)
+        
+        if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
+            y = np.random.normal(ellipticity, (ellipticity_em+ellipticity_ep)/2., n)
+        elif ma.is_masked(ellipticity)==False:
+            y=np.empty(len(x))
+            y.fill(ellipticity)
+        else:
+            y = np.zeros(len(x))
+        
+        if ma.is_masked(distance_em)==False and ma.is_masked(distance)==False:
+            z = np.random.normal(distance, (distance_em+distance_ep)/2., n)
+        elif ma.is_masked(distance)==False:
+            z=np.empty(len(x))
+            z.fill(distance)
+        else:
+            z = np.full(10000, distance)
+        
+        if ma.is_masked(sigma_em)==False and ma.is_masked(sigma_ep)==False:
+            sig = np.random.normal(sigma, (sigma_em+sigma_ep)/2., n)
+        elif ma.is_masked(sigma)==False:
+            sig=np.empty(len(x))
+            sig.fill(sigma)
+        else:
+            sig = np.zeros(len(x))
+        
+        x2 = x[np.logical_and(y>=0, y<1)]
+        y2 = y[np.logical_and(y>=0, y<1)]
+        z2 = z[np.logical_and(y>=0, y<1)]
+        sig2 = sig[np.logical_and(y>=0, y<1)]
+        
+        comb_mass = 930. * x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2 * sig2**2
+        comb_mass2 = comb_mass[~np.isnan(comb_mass)]
+        
+        if ma.is_masked(sigma)==True:
+            return [np.ma.masked,np.ma.masked,np.ma.masked]
+        elif (ma.is_masked(sigma_em)==True or ma.is_masked(sigma_ep)==True) and ma.is_masked(sigma)==False:
+            rh = distance*rhalf/180./60.*1000.*np.pi
+            comb_mass = 930. * rh * sigma**2
+            
+            if ma.is_masked(ellipticity)==False:
+                rh = rh*np.sqrt(1.-ellipticity)
+                return [comb_mass*np.sqrt(1.-ellipticity),0,0]
+            else:
+                return[comb_mass,np.ma.masked,np.ma.masked]
+        else:
+            mean_mass = corner.quantile(comb_mass2, [.5, .1587, .8413, 0.0227501, 0.97725])
+            return [mean_mass[0], mean_mass[0]-mean_mass[1], mean_mass[2]-mean_mass[0]]
+        
+    input_table['mass_dynamical_wolf'] = np.ma.masked_all(len(input_table), dtype=float)
+    input_table['mass_dynamical_wolf_em'] = np.ma.masked_all(len(input_table), dtype=float)
+    input_table['mass_dynamical_wolf_ep'] = np.ma.masked_all(len(input_table), dtype=float)
+    input_table['mass_dynamical_wolf_ul'] = np.ma.masked_all(len(input_table), dtype=float)
+
+    for i in range(len(input_table)):
+        y= compute_mass_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i],input_table['vlos_sigma'][i], input_table['vlos_sigma_em'][i], input_table['vlos_sigma_ep'][i])
+
+        input_table['mass_dynamical_wolf'][i] = y[0]
+        input_table['mass_dynamical_wolf_em'][i] = y[1]
+        input_table['mass_dynamical_wolf_ep'][i] = y[2]
+        
+        z= compute_mass_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i],input_table['vlos_sigma_ul'][i], np.ma.masked, np.ma.masked)
+        input_table['mass_dynamical_wolf_ul'][i] = z[0]
 
     return input_table
 

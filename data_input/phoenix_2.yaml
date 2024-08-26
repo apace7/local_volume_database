@@ -14,7 +14,7 @@ name_discovery:
   ref_discovery:
   - Bechtol2015ApJ...807...50B
   - Koposov2015ApJ...805..130K
-  abbreviation: PhxII
+  abbreviation: PheII
   type: dSph
 distance:
   distance_modulus: 19.6

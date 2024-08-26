@@ -207,7 +207,8 @@ def create_latex_table_structure(output, output_citations, input_table, **kwargs
     if spatial_units == 'arcsec':
         spatial_units_conversion = kwargs.get("spatial_units_conversion", 3600.) 
         round_rhalf = 0
-        round_distance = 0
+        # round_distance = 0
+    distance_units = kwargs.get("distance_units", "kpc")
     with open(output, 'w+') as f:
         for i in range(len(input_table)):
             letter_to_list = []
@@ -275,6 +276,9 @@ def create_latex_table_structure(output, output_citations, input_table, **kwargs
             if i == len(input_table)-1:
                 end_line=''
             ## output each row of our table, plus the citations at the end of the line
+            distance_factor = 1.
+            if distance_units == 'mpc':
+                distance_factor = 1./1000.
             name = latex_name(input_table['name'][i])
             f.write(name + '&'+"{:0.4f}".format(input_table['ra'][i])+'&'+"{:0.4f}".format(input_table['dec'][i])+'&'+
                   make_latex_value(spatial_convert_factor*input_table['rhalf'][i], spatial_convert_factor*input_table['rhalf_em'][i], spatial_convert_factor*input_table['rhalf_ep'][i], n=2)+'&'+
@@ -282,7 +286,7 @@ def create_latex_table_structure(output, output_citations, input_table, **kwargs
                   make_latex_value(input_table['position_angle'][i], input_table['position_angle_em'][i], input_table['position_angle_ep'][i], n=1)+ '& '+
                   str_rhalf + '& '+
                   make_latex_value(input_table['distance_modulus'][i], input_table['distance_modulus_em'][i], input_table['distance_modulus_ep'][i], n=2)+' & '+
-                 make_latex_value(input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i], n=round_distance)+ ' & '+ make_latex_value(input_table['apparent_magnitude_v'][i], np.ma.masked, np.ma.masked, n=1)+ ' & '+
+                 make_latex_value(input_table['distance'][i]*distance_factor, input_table['distance_em'][i]*distance_factor, input_table['distance_ep'][i]*distance_factor, n=round_distance)+ ' & '+ make_latex_value(input_table['apparent_magnitude_v'][i], np.ma.masked, np.ma.masked, n=1)+ ' & '+
                    make_latex_value(input_table['M_V'][i], input_table['M_V_em'][i], input_table['M_V_ep'][i], n=1)+ ' & '+ letter_to_list_string+
                   end_line+'\n')
     with open(output_citations, 'w+') as f:
@@ -541,7 +545,7 @@ create_latex_table_mass('table/table_data/dwarf_lf_mass_data.tex', 'table/table_
 dsph_lf_distant.sort(['host', 'year','key'])
 create_latex_table_name_discovery('table/table_data/dwarf_lf_distant_name_discovery_data.tex', dsph_lf_distant)
 dsph_lf_distant.sort(['host', 'key'])
-create_latex_table_structure('table/table_data/dwarf_lf_distant_structure_data.tex', 'table/table_data/dwarf_lf_distant_structure_citations.tex', dsph_lf_distant, spatial_convert_factor=60, spatial_units='arcsec', spatial_units_conversion=60.)
+create_latex_table_structure('table/table_data/dwarf_lf_distant_structure_data.tex', 'table/table_data/dwarf_lf_distant_structure_citations.tex', dsph_lf_distant, spatial_convert_factor=60, spatial_units='arcsec', spatial_units_conversion=60., distance_units='mpc')
 create_latex_table_kinematics('table/table_data/dwarf_lf_distant_kinematics_data.tex', 'table/table_data/dwarf_lf_distant_kinematics_citations.tex', dsph_lf_distant)
 create_latex_table_mass('table/table_data/dwarf_lf_distant_mass_data.tex', 'table/table_data/dwarf_lf_distant_mass_citations.tex', dsph_lf_distant)
 
