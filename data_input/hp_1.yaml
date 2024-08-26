@@ -1,12 +1,26 @@
+key: hp_1
+table: gc_harris
+location:
+  ra: 262.771667
+  dec: -29.981667
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1954
+  name: HP 1
+  other_name:
+  - BH 229
+  - ESO 455-11
+  - ESO 455-SC11
+  - GCL B1727-2956
+  host: mw
+  ref_discovery:
+  - Dufay1954POHP....3R....D
 distance:
   distance_modulus: 14.224
   distance_modulus_em: 0.044
   distance_modulus_ep: 0.044
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: hp_1
-location:
-  dec: -29.981667
-  ra: 262.771667
 m_v:
   apparent_magnitude_v: 7.62
   apparent_magnitude_v_em: 0.11
@@ -15,14 +29,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: 0.1
   ref_metallicity_spectroscopic: Geisler2021A&A...652A.157G
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: HP 1
-  other_name:
-  - BH 229
-  - ESO 455-11
-  host: mw
 proper_motion:
   pmdec: -10.093
   pmdec_em: 0.0374
@@ -34,9 +40,13 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.52
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 39.76
   vlos_systemic_em: 1.22
   vlos_systemic_ep: 1.22
+age:
+  age: 12.8
+  age_em: 0.8
+  age_ep: 0.9
+  ref_age: Kerber2019MNRAS.484.5530K 

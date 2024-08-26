@@ -1,8 +1,21 @@
 key: bh_261
 table: gc_harris
 location:
-  dec: -28.635
   ra: 273.5275
+  dec: -28.635
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1967
+  name: BH 261
+  other_name:
+  - AL 3
+  - ESO 456-78
+  - MWSC 2847
+  host: mw
+  ref_discovery:
+  - Andrews1967IrAJ....8..126A
+  - Ortolani2006ApJ...646L.115O
 distance:
   distance_modulus: 13.932
   distance_modulus_em: 0.092
@@ -19,15 +32,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.11
   metallicity_spectroscopic_sigma_ul: 0.38
   ref_metallicity_spectroscopic: Kunder2024AJ....167...21K
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: BH 261
-  other_name:
-  - AL 3
-  - ESO 456-78
-  - MWSC 2847
-  host: mw
 proper_motion:
   pmdec: -3.5897
   pmdec_em: 0.0375

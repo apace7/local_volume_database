@@ -11,7 +11,7 @@ name_discovery:
   name: Sextans
   ref_discovery:
   - Irwin1990MNRAS.244P..16I
-  abbreviation: Sxt
+  abbreviation: Sex
   type: dSph
 distance:
   distance_modulus: 19.67

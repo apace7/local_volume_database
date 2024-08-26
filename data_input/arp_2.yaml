@@ -1,3 +1,16 @@
+key: arp_2
+table: gc_harris
+location:
+  ra: 292.183807
+  dec: -30.355639
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1965
+  host: sagittarius_1
+  name: Arp 2
+  ref_discovery:
+  - Arp1965gast.book..401A  
 age:
   age: 11.96
   age_em: 0.51
@@ -8,10 +21,6 @@ distance:
   distance_modulus_em: 0.026
   distance_modulus_ep: 0.026
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: arp_2
-location:
-  dec: -30.355639
-  ra: 292.183807
 m_v:
   apparent_magnitude_v: 11.34
   apparent_magnitude_v_em: 0.04
@@ -20,11 +29,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.75
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  host: sagittarius_1
-  name: ARP 2
 proper_motion:
   pmdec: -1.4753
   pmdec_em: 0.0294
@@ -36,7 +40,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.7
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 122.64
