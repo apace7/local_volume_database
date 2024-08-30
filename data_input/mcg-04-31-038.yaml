@@ -26,10 +26,10 @@ m_v:
   apparent_magnitude_v: 14.34
   ref_m_v: Muller2017A&A...597A...7M
 velocity:
-  vlos_systemic: 416.0 # [km/s]
-  vlos_systemic_em: 1.0
-  vlos_systemic_ep: 1.0
-  ref_vlos: Karachentsev2013AJ....145..101K 
+  vlos_systemic: 683.9
+  vlos_systemic_em: 18.0
+  vlos_systemic_ep: 18.0
+  ref_vlos: Doyle2005MNRAS.361...34D
 flux_HI:
   flux_HI:  6.61
   ref_flux_HI: Karachentsev2013AJ....145..101K 

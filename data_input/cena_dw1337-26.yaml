@@ -1,5 +1,5 @@
 key: cena_dw1337-26
-table: dwarf_local_field_distant
+table: candidate
 location:
   ra: 204.30416666666665
   dec: -26.802777777777777
@@ -12,6 +12,10 @@ name_discovery:
   name: dw1337-26
   ref_discovery:
   - Muller2015A&A...583A..79M
+  ref_false_positive:
+  - Muller2024A&A...684L...6M
+notes:
+- The dwarf galaxy candidate dw1337-26 looks to be part of a ring of scattered light and istherefore an artifact Muller2024A&A...684L...6M
 structure:
   rhalf: 34.61
   spatial_units: arcsec

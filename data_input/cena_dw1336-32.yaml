@@ -1,5 +1,5 @@
 key: cena_dw1336-32
-table: dwarf_local_field_distant
+table: candidate
 location:
   ra: 204.1375
   dec: -32.30138888888889
@@ -12,6 +12,10 @@ name_discovery:
   name: dw1336-32
   ref_discovery:
   - Muller2015A&A...583A..79M
+  ref_false_positive:
+  - Muller2024A&A...684L...6M
+noteS:
+- The dwarf candidate dw1336-32 is part of a cirrus patch Muller2024A&A...684L...6M
 structure:
   rhalf: 34.62
   spatial_units: arcsec

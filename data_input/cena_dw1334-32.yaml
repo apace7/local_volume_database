@@ -1,5 +1,5 @@
 key: cena_dw1334-32
-table: dwarf_local_field_distant
+table: candidate
 location:
   ra: 203.5208333333333
   dec: -32.10777777777778
@@ -12,6 +12,8 @@ name_discovery:
   name: dw1334-32
   ref_discovery:
   - Muller2015A&A...583A..79M
+  ref_false_positive:
+  - Muller2024A&A...684L...6M
 notes:
 - Cirrus?
 structure:
