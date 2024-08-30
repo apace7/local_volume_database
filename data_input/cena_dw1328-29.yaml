@@ -1,17 +1,21 @@
 key: cena_dw1328-29
-table: dwarf_local_field_distant
+table: candidate
 location:
   ra: 202.04999999999998
   dec: -29.479166666666664
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
-  false_positive: 0
+  false_positive: 2
   discovery_year: 2015
   host: ngc_5128
   name: dw1328-29
   ref_discovery:
   - Muller2015A&A...583A..79M
+  ref_false_positive:
+  - For2019MNRAS.489.5723F
+notes:
+- background galaxy For2019MNRAS.489.5723F
 structure:
   rhalf: 12.88
   spatial_units: arcsec

@@ -182,7 +182,8 @@ def value_add(input_table, table_type='dwarf', **kwargs):
     ## 3D distance to Galactic center
     input_table['distance_gc'] = np.sqrt(comb.x.value**2 + comb.y.value**2 + comb.z.value**2)
 
-    coord_m31 = coord.SkyCoord(ra=10.6839167*u.deg, dec=41.26567*u.deg, distance=776.2*u.kpc,  frame='icrs',)
+    ra0_m31, dec0_m31, distance_m31 = 10.6839167, 41.26567, 776.2
+    coord_m31 = coord.SkyCoord(ra=ra0_m31*u.deg, dec=dec0_m31*u.deg, distance=distance_m31*u.kpc,  frame='icrs',)
     try:
         with open(path + 'm_031' + '.yaml', 'r') as yaml_to_load:
             host_m31 = yaml.load(yaml_to_load, Loader=yaml.Loader)
@@ -191,6 +192,11 @@ def value_add(input_table, table_type='dwarf', **kwargs):
         print("no M31 host info", path + 'm_031' + '.yaml')
     ## 3D distance to M31
     input_table['distance_m31'] = c_table_input.separation_3d(coord_m31)
+    
+    ## 3D distance to LG center, assumes mass_mw = mass_m31
+    costheta = np.sin(np.deg2rad(input_table['dec'])) * np.sin(np.deg2rad(dec0_m31)) + np.cos(np.deg2rad(input_table['dec'])) * np.cos(np.deg2rad(dec0_m31)) * np.cos(np.deg2rad(input_table['ra'] - ra0_m31))
+    distance_delta = distance_m31/2.
+    input_table['distance_lg'] = np.sqrt(input_table['distance']**2 + distance_delta**2 - 2. * distance_delta* input_table['distance'] * costheta)
 
     ## 3D distance to host galaxy
     input_table['distance_host'] = np.zeros(len(input_table), dtype=float)
@@ -253,13 +259,16 @@ def value_add(input_table, table_type='dwarf', **kwargs):
 
     v_proj = v_sun.dot(unit_vector)
     vgsr = c_table_input.radial_velocity + v_proj
+    vel_lg, angle_lg_l, angle_lg_b = 316, 93, -4
     input_table['velocity_gsr'] = np.ma.masked_all(len(input_table), dtype=float)
+    input_table['velocity_lg'] = np.ma.masked_all(len(input_table), dtype=float)
     for i in range(len(input_table)):
         if ma.is_masked(input_table['vlos_systemic'][i])==False:
             input_table['velocity_gsr'][i] = vgsr[i].value
-    n=10000
-    def compute_mass_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, ellipticity_ep, distance, distance_em, distance_ep, sigma, sigma_em,sigma_ep):
-        
+            input_table['velocity_lg'][i] = input_table['vlos_systemic'][i] + vel_lg * (np.sin(np.deg2rad(input_table['bb'][i])) * np.sin(np.deg2rad(angle_lg_b)) + np.cos(np.deg2rad(input_table['bb'][i])) * np.cos(np.deg2rad(angle_lg_b)) * np.cos(np.deg2rad(input_table['ll'][i] - angle_lg_l)))
+
+    def compute_mass_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, ellipticity_ep, distance, distance_em, distance_ep, sigma, sigma_em,sigma_ep, n=10000):
+        ## at some point asymmetric errors need to be addresses
         if ma.is_masked(rhalf_em)==False and ma.is_masked(rhalf)==False:
             x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., n)
         elif ma.is_masked(rhalf)==False:

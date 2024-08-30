@@ -1,0 +1,32 @@
+key: ic_4247
+table: dwarf_local_field_distant
+location:
+  ra: 201.685  # [deg]
+  dec: -30.3625 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_083
+  name: IC 4247
+  other_name:
+  - PGC047073
+  - ESO444-034
+structure:
+  rhalf: 15.32 
+  spatial_units: arcsec
+  ref_structure: Muller2015A&A...583A..79M
+distance:
+  distance_modulus: 28.57
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 13.61
+  ref_m_v: Muller2015A&A...583A..79M
+velocity:
+  vlos_systemic: 420 # [km/s]
+  ref_vlos: Banks1999ApJ...524..612B 
+flux_HI:
+  flux_HI:  6.3 # [Jy km/s ]
+  vlos_systemic_HI: 420 #[km/s]
+  ref_flux_HI: Banks1999ApJ...524..612B ## mostly for flux_HI
