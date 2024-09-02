@@ -1,0 +1,27 @@
+key: ngc_5585
+table: dwarf_local_field_distant
+location:
+  ra: 214.95124999999996  # [deg]
+  dec: 56.73027777777778 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  # host: misc
+  name: NGC 5585
+  other_name:
+  - PGC051210
+  - UGC09179
+distance:
+  distance_modulus: 29.23 
+  ref_distance: Anand2021AJ....162...80A
+m_v:
+  apparent_magnitude_v: 10.67
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 303 # [km/s]
+  vlos_systemic_em: 4.1
+  vlos_systemic_ep: 4.1
+  ref_vlos: Springob2005ApJS..160..149S 
+flux_HI:
+  flux_HI: 86.298 # [Jy km/s ]
+  ref_flux_HI: Karachentsev2013AJ....145..101K

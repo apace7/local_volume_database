@@ -1,27 +1,8 @@
-distance:
-  distance_modulus: 25.6
-  distance_modulus_em: 0.07
-  distance_modulus_ep: 0.07
-  ref_distance: Newman2024ApJ...966..175N
-flux_HI:
-  flux_HI: 1.7
-  flux_HI_em: 0.16
-  flux_HI_ep: 0.16
-  ref_flux_HI: Putman2021ApJ...913...53P
 key: antlia_1
+table: dwarf_local_field
 location:
-  dec: -27.33111111
   ra: 151.0170833
-m_v:
-  apparent_magnitude_v: 15.2
-  apparent_magnitude_v_em: 0.2
-  apparent_magnitude_v_ep: 0.2
-  ref_m_v: McConnachie2012AJ....144....4M
-metallicity_photometric:
-  metallicity_photometric: -1.6
-  metallicity_photometric_em: 0.1
-  metallicity_photometric_ep: 0.1
-  ref_metallicity_photometric: McConnachie2006MNRAS.365.1263M
+  dec: -27.33111111
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -32,6 +13,27 @@ name_discovery:
   type: dIrr
 notes:
 - Loose NGC 3109 subgroup. Interacting with NGC 3109? MC12
+- Detected in HI Fouque1990A&AS...86..473F
+distance:
+  distance_modulus: 25.6
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Newman2024ApJ...966..175N
+flux_HI:
+  flux_HI: 1.7
+  flux_HI_em: 0.16
+  flux_HI_ep: 0.16
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 15.2
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: McConnachie2012AJ....144....4M
+metallicity_photometric:
+  metallicity_photometric: -1.6
+  metallicity_photometric_em: 0.1
+  metallicity_photometric_ep: 0.1
+  ref_metallicity_photometric: McConnachie2006MNRAS.365.1263M
 structure:
   ellipticity: 0.4
   ellipticity_em: 0.04
@@ -43,7 +45,6 @@ structure:
   rhalf: 1.2
   rhalf_em: 0.12
   rhalf_ep: 0.12
-table: dwarf_local_field
 velocity:
   ref_vlos: Barnes2001AJ....122..825B
   vlos_systemic: 362.0

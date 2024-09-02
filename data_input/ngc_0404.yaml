@@ -1,0 +1,29 @@
+key: ngc_0404
+table: dwarf_local_field_distant
+location:
+  ra: 17.36208333333333 # [deg]
+  dec: 35.7175 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1784
+  name: NGC 404
+  other_name:
+  - PGC004126
+  - UGC00718
+distance:
+  distance_modulus: 27.37
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T 
+m_v:
+  apparent_magnitude_v: 10.63
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: -49 # [km/s]
+  vlos_systemic_em: 9
+  vlos_systemic_ep: 9
+  ref_vlos: Huchra1999ApJS..121..287H 
+flux_HI:
+  flux_HI:  38.726 # [Jy km/s ]
+  ref_flux_HI: Karachentsev2013AJ....145..101K

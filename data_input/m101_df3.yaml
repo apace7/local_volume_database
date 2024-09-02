@@ -1,0 +1,38 @@
+key: m101_df3
+table: dwarf_local_field_distant
+location:
+  ra: 210.77374999999998
+  dec: 53.61555555555556
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2014
+  host: m_101
+  name: M101-DF3
+  ref_discovery:
+  - Merritt2014ApJ...787L..37M
+structure:
+  rhalf: 20.0
+  rhalf_em: 2.6
+  rhalf_ep: 2.6
+  spatial_units: arcsec
+  ref_structure: Bennet2017ApJ...850..109B
+distance:
+  distance_modulus: 29.07
+  distance_modulus_em: 0.09
+  distance_modulus_ep: 0.08
+  ref_distance: Danieli2017ApJ...837..136D
+m_v:
+  apparent_magnitude_v: 20.348
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Bennet2017ApJ...850..109B
+structure_sersic:
+  n_sersic: 0.50
+  n_sersic_em: 0.12
+  n_sersic_ep: 0.12
+  rad_sersic: 20.0
+  rad_sersic_em: 2.6
+  rad_sersic_ep: 2.6
+  spatial_units: arcsec
+  ref_structure_sersic: Bennet2017ApJ...850..109B

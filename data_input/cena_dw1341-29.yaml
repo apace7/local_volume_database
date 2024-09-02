@@ -10,8 +10,6 @@ name_discovery:
   discovery_year: 2024
   host: m_083
   name: dw1341-29
-  other_name:
-  - list
   ref_discovery:
   - Muller2024A&A...684L...6M
 # structure:
