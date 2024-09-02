@@ -7,6 +7,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2001
+  host: ngc_3621
   name: HIPASS J1131-31
   other_name:
   - Peekaboo

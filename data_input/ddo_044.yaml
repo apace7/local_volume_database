@@ -21,6 +21,9 @@ name_discovery:
   confirmed_real: 1
   host: ngc_2403
   name: DDO 44
+  other_name:
+  - UGCA 133
+  - KK61
 structure:
   ellipticity: 0.6
   ref_structure: Carlin2019ApJ...886..109C

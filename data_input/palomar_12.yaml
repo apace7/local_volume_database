@@ -11,6 +11,8 @@ name_discovery:
   name: Palomar 12
   ref_discovery:
   - Abell1955PASP...67..258A
+  other_name:
+  - Capricornus
 notes:
 - discovered by Harrington and Zwicky Abell1955PASP...67..258A
 age:

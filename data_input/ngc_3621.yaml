@@ -1,0 +1,32 @@
+key: ngc_3621
+table: misc
+location:
+  ra: 169.56708333333333  # [deg]
+  dec: -32.81166666666666 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 3621
+  other_name:
+  - PGC034554
+  - ESO377-037
+  - UGCA232
+distance:
+  distance_modulus: 29.11
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 9.03
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 730.0 # [km/s]
+  vlos_systemic_em: 2.0
+  vlos_systemic_ep: 2.0
+  ref_vlos: Koribalski2004AJ....128...16K 
+flux_HI:
+  flux_HI:  405.5 # [Jy km/s ]
+  vlos_systemic_HI: 730.0 #[km/s]
+  vlos_systemic_HI_em: 2.0
+  vlos_systemic_HI_ep: 2.0
+  ref_flux_HI: Koribalski2004AJ....128...16K 

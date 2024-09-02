@@ -1,0 +1,41 @@
+key: hideep_j1337-3320
+table: dwarf_local_field_distant
+location:
+  ra: 204.2525  # [deg]
+  dec: -33.363055555555555 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2003
+  host: m_083
+  name: HIDEEP J1337-3320
+  other_name:
+  - HIDEEP J1337-33
+  - PGC677373
+  ref_discovery:
+  - Minchin2003MNRAS.346..787M
+structure:
+  rhalf: 5.77
+  spatial_units: arcsec
+  ref_structure: Muller2015A&A...583A..79M
+distance:
+  distance_modulus: 28.29
+  distance_modulus_em: 0.15
+  distance_modulus_ep: 0.15
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 16.94
+  ref_m_v: Muller2015A&A...583A..79M
+velocity:
+  vlos_systemic: 592.1 # [km/s]
+  vlos_systemic_em: 0.8
+  vlos_systemic_ep: 0.8
+  ref_vlos: Grossi2007MNRAS.374..107G
+flux_HI:
+  flux_HI: 1.12
+  vlos_systemic_HI: 592.1 #[km/s]
+  vlos_systemic_HI_em: 0.8
+  vlos_systemic_HI_ep: 0.8
+  sigma_HI: 8 
+  ref_flux_HI: Grossi2007MNRAS.374..107G 
+  ref_HI_kinematics: Grossi2007MNRAS.374..107G 

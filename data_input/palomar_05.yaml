@@ -6,13 +6,15 @@ location:
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
-  discovery_year: 1955
+  discovery_year: 1950
   name: Palomar 5
   ref_discovery:
   - Abell1955PASP...67..258A
   host: mw
+  other_name:
+  - Serpens
 notes:
-- independently discovered by Baade and Wilson Abell1955PASP...67..258A
+- independently discovered by Baade (1950) and Wilson (1995). Cataloged by Abell with Palomar numbers Abell1955PASP...67..258A
 age:
   age: 10.9
   age_em: 0.86

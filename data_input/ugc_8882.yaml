@@ -1,0 +1,25 @@
+key: ugc_8882
+table: dwarf_local_field_distant
+location:
+  ra: 209.3108333333333 # [deg]
+  dec: 54.100833333333334 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_101
+  name: UGC 8882
+  other_name:
+  - PGC049636
+distance:
+  distance_modulus: 29.65
+  distance_modulus_em: 0.27
+  distance_modulus_ep: 0.24
+  ref_distance: Carlsten2019ApJ...878L..16C
+m_v:
+  apparent_magnitude_v: 15.07
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 348.3 # [km/s]
+  vlos_systemic_em: 24.3
+  vlos_systemic_ep: 24.3
+  ref_vlos: AdelmanMcCarthy2007ApJS..172..634A 

@@ -1,0 +1,31 @@
+key: ngc_5477
+table: dwarf_local_field_distant
+location:
+  ra: 211.38791666666665  # [deg]
+  dec: 54.46083333333333 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_101
+  name: NGC 5477
+  other_name:
+  - DDO186
+  - PGC050262
+  - UGC09018
+distance:
+  distance_modulus: 29.15
+  distance_modulus_em: 0.13
+  distance_modulus_ep: 0.13
+  ref_distance: Tikhonov2015AstL...41..239T
+m_v:
+  apparent_magnitude_v: 13.83
+  ref_m_v: Karachentsev2013AJ....145..101K
+  ref_structure_eff: ref
+velocity:
+  vlos_systemic: 312
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Davies1980MNRAS.191..253D
+flux_HI:
+  flux_HI: 37 
+  ref_flux_HI: Karachentsev2013AJ....145..101K

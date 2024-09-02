@@ -1,0 +1,27 @@
+key: kk_208
+table: dwarf_local_field_distant
+location:
+  ra: 204.14791666666662  # [deg]
+  dec: -29.570833333333333 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1998
+  host: m_083
+  name: KK 208
+  other_name:
+  - PGC166170
+  ref_discovery:
+  - Karachentseva1998A&AS..127..409K
+  type: dSph
+distance:
+  distance_modulus: 28.50
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 15.05
+  ref_m_v: Karachentsev2013AJ....145..101K
+flux_HI:
+  flux_HI_ul: 0.832
+  ref_flux_HI: Karachentsev2013AJ....145..101K

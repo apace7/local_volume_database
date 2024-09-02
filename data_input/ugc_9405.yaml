@@ -1,0 +1,33 @@
+key: ugc_9405
+table: dwarf_local_field_distant
+location:
+  ra: 218.85249999999996  # [deg]
+  dec: 57.25666666666667 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  # host: misc
+  name: UGC 9405
+  other_name:
+  - PGC052142
+  - DDO194
+distance:
+  distance_modulus: 28.82 
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T 
+m_v:
+  apparent_magnitude_v: 14.15
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 218 # [km/s]
+  vlos_systemic_em: 22
+  vlos_systemic_ep: 22
+  ref_vlos: Richter1991A&AS...87..425R 
+flux_HI:
+  flux_HI:  8.472 # [Jy km/s ]
+  vlos_systemic_HI: 218 #[km/s]
+  vlos_systemic_HI_em: 22
+  vlos_systemic_HI_ep: 22
+  ref_flux_HI: Karachentsev2013AJ....145..101K
+  ref_HI_kinematics: Richter1991A&AS...87..425R
