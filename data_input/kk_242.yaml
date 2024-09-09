@@ -1,0 +1,40 @@
+key: kk_242
+table: dwarf_local_field_distant
+location:
+  ra: 268.201875  # [deg]
+  dec: 70.13733333333334 # [deg]
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1998
+  host: ngc_6503
+  name: KK_242
+  other_name:
+  - NGC 6503-d1
+  - PGC 4689184'
+  ref_discovery:
+  - Karachentseva1998A&AS..127..409K
+  - Koda2015ApJ...802L..24K
+  type: dSph/dIrr
+structure:
+  rhalf: 15.6
+  spatial_units: arcsec
+  ellipticity: 0.39
+  position_angle: -2.6
+  ref_structure: Koda2015ApJ...802L..24K
+distance:
+  distance_modulus: 29.05 
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.11
+  ref_distance: Karachentsev2022AJ....163...51K
+m_v:
+  apparent_magnitude_v: 18.11
+  ref_m_v: Koda2015ApJ...802L..24K
+velocity:
+  vlos_systemic: -66 
+  vlos_systemic_em: 10
+  vlos_systemic_ep: 10
+  ref_vlos: Pustilnik2022MNRAS.516.6180P 
+flux_HI:
+  flux_HI_ul: 0.1
+  ref_flux_HI: Karachentsev2022AJ....163...51K 
