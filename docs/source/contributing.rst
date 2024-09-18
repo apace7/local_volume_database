@@ -72,14 +72,15 @@ Potential Contributions/Expansion
 
 As stated earlier, community contributions are welcome and encouraged.  
 Here is a short list of items that generally focus on expanding the scope of the database.  
+A number of these items have entries that exist but are generally empty.
 
 * Include gas kinematic properties. For example, peak rotation velocity and gas velocity dispersion.
-* Statistics on RRL or other variable/rare stars in dwarf galaxies
-* Star formation history information.  For example, a quenching timescale could be included
-* Other star formation history tracers, FUV (GALEX, SWIFT etc), Halpha
-* kinematic information for globular clusters (average velocity dispersion and central velocity disperion)
-* open clusters
-* LMC/SMC/M31 clusters
-* Complete dwarf galaxy entries for systems beyond 3 Mpc
-* Complete dwarf galaxy globular cluster systems and properties
+* Statistics on RRL or other variable/rare stars in dwarf galaxies.
+* Star formation history information.  For example, a quenching timescale could be included.
+* Other star formation history tracers, FUV (GALEX, SWIFT etc), Halpha.
+* kinematic information for globular clusters (average velocity dispersion and central velocity dispersion).
+* open clusters.
+* LMC/SMC/M31 clusters.
+* Complete dwarf galaxy entries for systems beyond 3 Mpc. 
+* Complete dwarf galaxy globular cluster systems and properties. 
 

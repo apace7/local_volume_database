@@ -18,7 +18,7 @@ name_discovery:
 notes:
 - observed mass segregation in Baumgardt2022MNRAS.510.3531B; there is potential metallicity
   dispersion in CaH\&K photometry but main sequence stars are included in this calculation
-  Fu2023arXiv230606260F; no spectroscopic metallicity dispersion or velocity dispersion
+  Fu2023ApJ...958..167F; no spectroscopic metallicity dispersion or velocity dispersion
   Longeard2020MNRAS.491..356L; size is large for star cluster
 distance:
   distance_modulus: 16.67

@@ -14,6 +14,7 @@ name_discovery:
   type: dSph
 notes:
 - Isolated dSph MC12
+- ABP computed metallicity median and sigma from Kvasova2024ApJ...972..180K sample
 distance:
   distance_modulus: 25.36
   distance_modulus_em: 0.08
@@ -28,9 +29,13 @@ m_v:
   apparent_magnitude_v_ep: 0.4
   ref_m_v: Martin2016ApJ...833..167M
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.49
-  metallicity_spectroscopic_sigma: 0.36
-  ref_metallicity_spectroscopic: Kvasova2024arXiv240411804K
+  metallicity_spectroscopic: -1.53
+  metallicity_spectroscopic_em: 0.06
+  metallicity_spectroscopic_ep: 0.06
+  metallicity_spectroscopic_sigma: 0.43
+  metallicity_spectroscopic_sigma_em: 0.04
+  metallicity_spectroscopic_sigma_ep: 0.05
+  ref_metallicity_spectroscopic: Kvasova2024ApJ...972..180K
 structure:
   ellipticity: 0.44
   ellipticity_em: 0.12
@@ -51,7 +56,7 @@ structure_sersic:
   rad_sersic_ep: 0.05
   ref_structure_sersic: Higgs2021MNRAS.503..176H
 velocity:
-  ref_vlos: Kvasova2024arXiv240411804K
+  ref_vlos: Kvasova2024ApJ...972..180K
   vlos_sigma: 9.9
   vlos_sigma_em: 1.0
   vlos_sigma_ep: 1.1
