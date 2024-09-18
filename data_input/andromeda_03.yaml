@@ -63,3 +63,11 @@ velocity:
   vlos_systemic: -344.3
   vlos_systemic_em: 1.7
   vlos_systemic_ep: 1.7
+proper_motion:
+  pmra: -0.0105
+  pmra_em: 0.0125
+  pmra_ep: 0.0125
+  pmdec: 0.0475
+  pmdec_em: 0.0125
+  pmdec_ep: 0.0125
+  ref_proper_motion: CasettiDinescu2024arXiv240908252C
