@@ -330,13 +330,13 @@ def value_add(input_table, table_type='dwarf', **kwargs):
     input_table['mass_dynamical_wolf_ul'] = np.ma.masked_all(len(input_table), dtype=float)
 
     for i in range(len(input_table)):
-        y= compute_mass_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i],input_table['vlos_sigma'][i], input_table['vlos_sigma_em'][i], input_table['vlos_sigma_ep'][i])
+        y= compute_mass_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i],input_table['vlos_sigma'][i], input_table['vlos_sigma_em'][i], input_table['vlos_sigma_ep'][i])
 
         input_table['mass_dynamical_wolf'][i] = y[0]
         input_table['mass_dynamical_wolf_em'][i] = y[1]
         input_table['mass_dynamical_wolf_ep'][i] = y[2]
         
-        z= compute_mass_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i],input_table['vlos_sigma_ul'][i], np.ma.masked, np.ma.masked)
+        z= compute_mass_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i],input_table['vlos_sigma_ul'][i], np.ma.masked, np.ma.masked)
         input_table['mass_dynamical_wolf_ul'][i] = z[0]
 
     return input_table
