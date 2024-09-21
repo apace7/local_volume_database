@@ -16,7 +16,7 @@ Database content
 ----------------
 
 The database is structured as individual yaml files for each system and combined tables as csv and fits files (descriptions of both below). 
-The yaml files are located in `data_input/ <https://github.com/apace7/local_volume_database/tree/main/data_input>`_ and the combined csv/fits tables are located in `data/ <https://github.com/apace7/local_volume_database/tree/main/data>`_. 
+The yaml files are located in `data_input/ <https://github.com/apace7/local_volume_database/tree/main/data_input>`_ and the combined csv tables are located in `data/ <https://github.com/apace7/local_volume_database/tree/main/data>`_. Fits files are located in the release pages.
 
 
 
@@ -27,7 +27,7 @@ The tables can be directly loaded into jupyter notebooks without having to downl
    import astropy.table as table
    dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_mw.csv')
 
-There is also a `pdf document <https://github.com/apace7/local_volume_database/blob/main/table/lvdb_table.pdf>`_ summarizing the contents and properties of each combined table. 
+There is also a pdf document in release page summarizing the contents and properties of each combined table. 
 
 
 Decription of tables 
