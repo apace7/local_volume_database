@@ -16,6 +16,7 @@ import yaml
 import os
 
 import corner
+np.random.seed(1988)
 
 path = "data_input/"
 dir_list = os.listdir(path)
