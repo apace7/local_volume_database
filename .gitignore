@@ -16,6 +16,8 @@ table/lvdb_table.blg
 table/lvdb_table.dvi
 table/lvdb_table.out
 
+data/*.fits
+
 # Distribution / packaging
 .Python
 build/
