@@ -217,13 +217,47 @@ def value_add(input_table, table_type='dwarf', **kwargs):
             except:
                 print("no  host info", input_table['key'][i], path + input_table['host'][i] + '.yaml')    
 
-    input_table['rhalf_physical'] = input_table['distance']*1000.*input_table['rhalf']/spatial_units_conversion/180.*np.pi
-    input_table['rhalf_sph_physical'] = np.ma.masked_all(len(input_table), dtype=float)
-    for i in range(len(input_table)):
-        if ma.is_masked(input_table['ellipticity'][i])==False:
-            input_table['rhalf_sph_physical'][i] = input_table['rhalf_physical'][i]*np.sqrt(1.-input_table['ellipticity'][i])
+    def compute_rhalf_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, ellipticity_ep, distance, distance_em, distance_ep):
+        x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., 1000)
+        if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
+            y = np.random.normal(ellipticity, (ellipticity_em+ellipticity_ep)/2., 1000)
+        elif ma.is_masked(ellipticity)==False:
+            y=np.empty(len(x))
+            y.fill(ellipticity)
         else:
-            input_table['rhalf_sph_physical'][i] = input_table['rhalf_physical'][i]
+            y = np.zeros(len(x))
+        if ma.is_masked(distance_em)==False and ma.is_masked(distance)==False:
+            z = np.random.normal(distance, (distance_em+distance_ep)/2., 1000)
+        elif ma.is_masked(distance)==False:
+            z=np.empty(len(x))
+            z.fill(distance)
+        else:
+            z = np.full(1000, distance)
+        x2 = x[np.logical_and(y>=0, y<1)]
+        y2 = y[np.logical_and(y>=0, y<1)]
+        z2 = z[np.logical_and(y>=0, y<1)]
+        comb = x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2
+        comb2 = comb[~np.isnan(comb)]
+        if len(comb2)==0:
+            return 0,0,0
+        if (ma.is_masked(rhalf_em)==True or ma.is_masked(rhalf_ep)==True) and ma.is_masked(rhalf)==False:
+            rh = distance*rhalf/180./60.*1000.*np.pi
+            if ma.is_masked(ellipticity)==False:
+                rh = rh*np.sqrt(1.-ellipticity)
+                return rh, 0, 0
+            else:
+                return rh, 0, 0
+        else:
+            mean = corner.quantile(comb2, [.5, .1587, .8413, 0.0227501, 0.97725])
+            return [mean[0], mean[0]-mean[1], mean[2]-mean[0]]
+    
+    # input_table['rhalf_physical'] = input_table['distance']*1000.*input_table['rhalf']/spatial_units_conversion/180.*np.pi
+    # input_table['rhalf_sph_physical'] = np.ma.masked_all(len(input_table), dtype=float)
+    # for i in range(len(input_table)):
+    #     if ma.is_masked(input_table['ellipticity'][i])==False:
+    #         input_table['rhalf_sph_physical'][i] = input_table['rhalf_physical'][i]*np.sqrt(1.-input_table['ellipticity'][i])
+    #     else:
+    #         input_table['rhalf_sph_physical'][i] = input_table['rhalf_physical'][i]
 
     ## average surface brightness within half-light radius
     input_table['surface_brightness_rhalf'] = input_table['M_V'] + 19.78 + input_table['distance_modulus'] +  2.5 * np.log10(np.degrees(np.arctan(input_table['rhalf_sph_physical']/1000./input_table['distance']))**2)
@@ -330,6 +364,13 @@ def value_add(input_table, table_type='dwarf', **kwargs):
     input_table['mass_dynamical_wolf_ep'] = np.ma.masked_all(len(input_table), dtype=float)
     input_table['mass_dynamical_wolf_ul'] = np.ma.masked_all(len(input_table), dtype=float)
 
+    input_table['rhalf_physical'] = np.ma.masked_all(len(input_table), dtype=float)
+    input_table['rhalf_physical_em'] = np.ma.masked_all(len(input_table), dtype=float)
+    input_table['rhalf_physical_ep'] = np.ma.masked_all(len(input_table), dtype=float)
+    input_table['rhalf_sph_physical'] = np.ma.masked_all(len(input_table), dtype=float)
+    input_table['rhalf_sph_physical_em'] = np.ma.masked_all(len(input_table), dtype=float)
+    input_table['rhalf_sph_physical_ep'] = np.ma.masked_all(len(input_table), dtype=float)
+
     for i in range(len(input_table)):
         y= compute_mass_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i],input_table['vlos_sigma'][i], input_table['vlos_sigma_em'][i], input_table['vlos_sigma_ep'][i])
 
@@ -339,6 +380,17 @@ def value_add(input_table, table_type='dwarf', **kwargs):
         
         z= compute_mass_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i],input_table['vlos_sigma_ul'][i], np.ma.masked, np.ma.masked)
         input_table['mass_dynamical_wolf_ul'][i] = z[0]
+
+        rh_azi = compute_rhalf_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i])
+        rh_sph = compute_rhalf_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], np.ma.masked, np.ma.masked, np.ma.masked, input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i])
+
+        input_table['rhalf_physical'][i] = rh_sph[0]
+        input_table['rhalf_physical_em'][i] = rh_sph[1]
+        input_table['rhalf_physical_ep'][i] = rh_sph[2]
+
+        input_table['rhalf_physical_sph'][i] = rh_azi[0]
+        input_table['rhalf_physical_sph_em'][i] = rh_azi[1]
+        input_table['rhalf_physical_sph_ep'][i] = rh_azi[2]
 
     return input_table
 
