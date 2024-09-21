@@ -95,15 +95,15 @@ Value added Columns
 * distance_m31: 3D distance to M31 center [kpc]
 * distance_lg: 3D distance to Local Group center [kpc] 
 * distance_host: 3D distance to host galaxy [kpc]
-* rhalf_physical: half-light radius in physical units --  rhalf * distance  [parsec]
-* rhalf_sph_physical: spherically averaged half-light radius (geometric mean); rhalf * distance * sqrt(1-ellipticity) in [parsec]
-* surface_brightness_rhalf: average surface brightness within spherically averaged half-light radius [mag arcsec^-2]
 * mass_HI: log10 HI mass computed from flux_HI and distance [log10 Msun] 
 * metallicity: union of spectroscopic and photometric metallicity, spectroscopic preferred over photometric metallicity [dex]
 * metallicity_type: lists whether `metallicity` column is photometric or spectroscopic. 
 * velocity_gsr: Velocity in Galactic standard of rest frame [km/s]
 * velocity_lg: Velocity of system relative to the Local Group centroid [km/s]
 * mass_dynamical_wolf: Dynamical mass within 3D half-light radius using the dynamical mass estimator in `Wolf et al. 2010 <https://ui.adsabs.harvard.edu/abs/2010MNRAS.406.1220W/abstract>`_ [log10 Msun]. This column has errors and upper limit columns (em, ep, ul) using the errors from the half-light radius (rhalf), ellipticity, distance, and velocity dispersion (monte carlo errors). 
+* rhalf_physical: half-light radius in physical units --  rhalf * distance  [parsec]. Includes monte carlo errors (distance and rhalf errors).
+* rhalf_sph_physical: spherically averaged half-light radius (geometric mean); rhalf * distance * sqrt(1-ellipticity) in [parsec]. Includes monte carlo errors (distance, ellipticity, and rhalf errors).
+* surface_brightness_rhalf: average surface brightness within spherically averaged half-light radius [mag arcsec^-2]
 * ref_ + x : reference columns such as ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion.  All reference columns have the same format: author last name + ADS bibcode. 
 
 Many columns also have associated error columns. These follow the format of name + _em, + _ep + _ul (e.g., rhalf_em).

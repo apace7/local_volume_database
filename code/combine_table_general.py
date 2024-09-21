@@ -259,9 +259,6 @@ def value_add(input_table, table_type='dwarf', **kwargs):
     #     else:
     #         input_table['rhalf_sph_physical'][i] = input_table['rhalf_physical'][i]
 
-    ## average surface brightness within half-light radius
-    input_table['surface_brightness_rhalf'] = input_table['M_V'] + 19.78 + input_table['distance_modulus'] +  2.5 * np.log10(np.degrees(np.arctan(input_table['rhalf_sph_physical']/1000./input_table['distance']))**2)
-
     #HI mass
     if table_type=='dwarf':
         input_table['mass_HI'] = np.log10(235600 * input_table['flux_HI']*(input_table['distance']/1000.)**2 )
@@ -388,9 +385,12 @@ def value_add(input_table, table_type='dwarf', **kwargs):
         input_table['rhalf_physical_em'][i] = rh_sph[1]
         input_table['rhalf_physical_ep'][i] = rh_sph[2]
 
-        input_table['rhalf_physical_sph'][i] = rh_azi[0]
-        input_table['rhalf_physical_sph_em'][i] = rh_azi[1]
-        input_table['rhalf_physical_sph_ep'][i] = rh_azi[2]
+        input_table['rhalf_sph_physical'][i] = rh_azi[0]
+        input_table['rhalf_sph_physical_em'][i] = rh_azi[1]
+        input_table['rhalf_sph_physical_ep'][i] = rh_azi[2]
+
+    ## average surface brightness within half-light radius
+    input_table['surface_brightness_rhalf'] = input_table['M_V'] + 19.78 + input_table['distance_modulus'] +  2.5 * np.log10(np.degrees(np.arctan(input_table['rhalf_sph_physical']/1000./input_table['distance']))**2)
 
     return input_table
 
