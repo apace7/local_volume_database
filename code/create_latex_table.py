@@ -1,6 +1,6 @@
 import corner
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 # %matplotlib inline
 
 import astropy.table as table
@@ -24,6 +24,8 @@ for i in list(string.ascii_lowercase):
 import os.path
 
 path = 'data_input/'
+
+np.random.seed(1988)
 
 def make_latex_value(value, em, ep, **kwargs):
     ul = kwargs.get('ul', False)
