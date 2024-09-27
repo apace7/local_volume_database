@@ -1,0 +1,39 @@
+key: sculptor_b
+table: dwarf_local_field
+location:
+  ra: 16.712083333333332  # [deg]
+  dec: -35.0775 # [deg]
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2024
+  name: Sculptor B
+  ref_discovery:
+  - Sand2024arXiv240916345S
+  type: dSph
+structure:
+  rhalf: 20.4
+  rhalf_em: 7.1
+  rhalf_ep: 7.1
+  spatial_units: arcsec
+  ellipticity: 0.41
+  ellipticity_em: 0.22
+  ellipticity_ep: 0.22
+  position_angle: 133.1
+  position_angle_em: 29.2
+  position_angle_ep: 29.2
+  ref_structure: Sand2024arXiv240916345S
+distance:
+  distance_modulus: 26.98 
+  distance_modulus_em: 0.17
+  distance_modulus_ep: 0.23
+  ref_distance: Sand2024arXiv240916345S
+m_v:
+  apparent_magnitude_v: 18.88
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  mean_ebv: 0.015
+  ref_m_v: Sand2024arXiv240916345S
+flux_HI:
+  flux_HI_ul: 0.44
+  ref_flux_HI: Sand2024arXiv240916345S 

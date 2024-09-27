@@ -136,6 +136,34 @@ structure_eff:
   position_angle_em: 0
   position_angle_ep: 0
   ref_structure_eff: ref
+structure_plummer:
+## not included in standard table
+  rplmmer: 0 # [arcmin]
+  rplmmer_em: 0
+  rplmmer_ep: 0
+  spatial_units: arcmin, arcsec
+  ellipticity: 0
+  ellipticity_em: 0
+  ellipticity_ep: 0
+  ellipticity_ul: 0
+  position_angle: 0
+  position_angle_em: 0
+  position_angle_ep: 0
+  ref_structure_plummer: ref
+structure_exponential:
+## not included in standard table
+  rexponential: 0 # [arcmin]
+  rexponential_em: 0
+  rexponential_ep: 0
+  spatial_units: arcmin, arcsec
+  ellipticity: 0
+  ellipticity_em: 0
+  ellipticity_ep: 0
+  ellipticity_ul: 0
+  position_angle: 0
+  position_angle_em: 0
+  position_angle_ep: 0
+  ref_structure_exponential: ref
 velocity:
   vlos_systemic: 0 # [km/s]
   vlos_systemic_em: 0

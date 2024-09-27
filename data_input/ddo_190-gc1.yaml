@@ -13,9 +13,9 @@ name_discovery:
   - U9240-3-4557
   ref_discovery:
   - Sharina2005A&A...442...85S
-  - Forbes2024arXiv240511749F
+  - Forbes2024PASA...41...44F
 notes:
-  - confirmed in Forbes2024arXiv240511749F 
+  - confirmed in Forbes2024PASA...41...44F 
 structure:
   rhalf: 0.0044 # [arcmin]
   ellipticity: 0.2
@@ -31,14 +31,14 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -2.17
   metallicity_spectroscopic_em: 0.05
   metallicity_spectroscopic_ep: 0.12
-  ref_metallicity_spectroscopic: Forbes2024arXiv240511749F
+  ref_metallicity_spectroscopic: Forbes2024PASA...41...44F
 velocity:
   vlos_systemic: 160 # [km/s]
   vlos_systemic_em: 7
   vlos_systemic_ep: 7
-  ref_vlos: Forbes2024arXiv240511749F 
+  ref_vlos: Forbes2024PASA...41...44F 
 age:
   age: 2.6 ## [Gyr]
   age_em: 1.3
   age_ep: 1.8
-  ref_age: Forbes2024arXiv240511749F
+  ref_age: Forbes2024PASA...41...44F
