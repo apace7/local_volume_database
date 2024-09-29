@@ -1,0 +1,33 @@
+key: ddo_078
+table: dwarf_local_field_distant
+location:
+  ra: 156.61625
+  dec: 67.65666667
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 0
+  host: m_81
+  name: DDO 78
+  other_name:
+  - PGC030664
+  - KK 89
+  type: dSph
+notes:
+- velocity from GC Sharina2001A&A...380..435S
+distance:
+  distance_modulus: 27.71
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 15.1
+  ref_m_v: Karachentsev2000A&A...363..117K
+velocity:
+  vlos_systemic: 55
+  vlos_systemic_em: 10
+  vlos_systemic_ep: 10
+structure:
+  rhalf: 116.4
+  spatial_units: arcsec
+  ref_structure: Karachentsev2013AJ....145..101K 

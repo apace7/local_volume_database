@@ -1,0 +1,37 @@
+key: ddo_078-gc1
+table: gc_dwarf_hosted
+location:
+  ra: 156.61291666666665
+  dec: 67.65277777777779
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2000
+  host: ddo_078
+  name: DDO 78-GC1
+  other_name:
+  - DDO78-3-1082
+  ref_discovery:
+  - Karachentsev2000A&A...363..117K
+structure:
+  rhalf: 0.39
+  spatial_units:  arcsec
+  ellipticity: 0.1
+  ref_structure: Sharina2005A&A...442...85S
+distance:
+  distance_fixed_host: True 
+m_v:
+  apparent_magnitude_v: 19.04
+  apparent_magnitude_v_em: 0.07
+  apparent_magnitude_v_ep: 0.07
+  ref_m_v: Sharina2005A&A...442...85S
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.6
+  metallicity_spectroscopic_em: 0.1
+  metallicity_spectroscopic_ep: 0.1
+  ref_metallicity_spectroscopic: Sharina2003A&A...397..831S
+velocity:
+  vlos_systemic: 55 
+  vlos_systemic_em: 10
+  vlos_systemic_ep: 10
+  ref_vlos: Sharina2001A&A...380..435S 
