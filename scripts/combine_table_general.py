@@ -1,7 +1,7 @@
 ## this takes yaml files as input and creates tables and saves them as csv (or other file types) 
 
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 import astropy.table as table
 
@@ -16,7 +16,6 @@ import yaml
 import os
 
 import corner
-np.random.seed(1988)
 
 path = "data_input/"
 dir_list = os.listdir(path)
@@ -55,7 +54,7 @@ comb_gc_dwarf = table.Table(np.zeros((Counter(table_list)['gc_dwarf_hosted'], 3)
 for i,j in zip(col_name_gc, col_type_gc):
 ## the only difference between GC and dwarf is whether HI gas columns are included.  Have empty columns is fine.
 # for i,j in zip(col_name_dwarf, col_type_dwarf):
-    comb_gc_ufsc[i] = np.ma.masked_all(len(comb_gc_ufsc), dtype=j)
+    # comb_gc_ufsc[i] = np.ma.masked_all(len(comb_gc_ufsc), dtype=j)
     comb_gc_harris[i] = np.ma.masked_all(len(comb_gc_harris), dtype=j)
     comb_gc_disk[i] = np.ma.masked_all(len(comb_gc_disk), dtype=j)
     comb_gc_dwarf[i] = np.ma.masked_all(len(comb_gc_dwarf), dtype=j)
@@ -72,7 +71,7 @@ for i,j in zip(col_name_dwarf, col_type_dwarf):
     comb_dwarf_lf[i] = np.ma.masked_all(len(comb_dwarf_lf), dtype=j)
     comb_dwarf_lf_distant[i] = np.ma.masked_all(len(comb_dwarf_lf_distant), dtype=j)
 
-    # comb_gc_ufsc[i] = np.ma.masked_all(len(comb_gc_ufsc), dtype=j)
+    comb_gc_ufsc[i] = np.ma.masked_all(len(comb_gc_ufsc), dtype=j)
 
 ## distance modulus
 def dist_mod(mu, mu_em=0, mu_ep=0):
@@ -143,6 +142,7 @@ def add_to_table(yaml_input, table_output, place, ):
     return missing_key
 
 def value_add(input_table, table_type='dwarf', **kwargs):
+    np.random.seed(1988) ## so each monte carlo is the same if nothing is changed
     spatial_units = kwargs.get("spatial_units", "arcmin")
     spatial_units_conversion = 60.
     if spatial_units == 'arcsec':
@@ -217,37 +217,38 @@ def value_add(input_table, table_type='dwarf', **kwargs):
             except:
                 print("no  host info", input_table['key'][i], path + input_table['host'][i] + '.yaml')    
 
-    def compute_rhalf_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, ellipticity_ep, distance, distance_em, distance_ep):
-        x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., 1000)
-        if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
-            y = np.random.normal(ellipticity, (ellipticity_em+ellipticity_ep)/2., 1000)
-        elif ma.is_masked(ellipticity)==False:
-            y=np.empty(len(x))
-            y.fill(ellipticity)
-        else:
-            y = np.zeros(len(x))
-        if ma.is_masked(distance_em)==False and ma.is_masked(distance)==False:
-            z = np.random.normal(distance, (distance_em+distance_ep)/2., 1000)
-        elif ma.is_masked(distance)==False:
-            z=np.empty(len(x))
-            z.fill(distance)
-        else:
-            z = np.full(1000, distance)
-        x2 = x[np.logical_and(y>=0, y<1)]
-        y2 = y[np.logical_and(y>=0, y<1)]
-        z2 = z[np.logical_and(y>=0, y<1)]
-        comb = x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2
-        comb2 = comb[~np.isnan(comb)]
-        if len(comb2)==0:
-            return 0,0,0
+    def compute_rhalf_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, ellipticity_ep, distance, distance_em, distance_ep, n=10000):
         if (ma.is_masked(rhalf_em)==True or ma.is_masked(rhalf_ep)==True) and ma.is_masked(rhalf)==False:
-            rh = distance*rhalf/180./60.*1000.*np.pi
+            rh_noerror = distance*rhalf/180./60.*1000.*np.pi
             if ma.is_masked(ellipticity)==False:
-                rh = rh*np.sqrt(1.-ellipticity)
-                return rh, 0, 0
+                rh2 = rh_noerror*np.sqrt(1.-ellipticity)
+                return [rh2, 0, 0]
             else:
-                return rh, 0, 0
+                return [rh_noerror, 0, 0]
         else:
+            x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., n)
+            if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
+                y = np.random.normal(ellipticity, (ellipticity_em+ellipticity_ep)/2., n)
+            elif ma.is_masked(ellipticity)==False:
+                y=np.empty(len(x))
+                y.fill(ellipticity)
+            else:
+                y = np.zeros(len(x))
+            if ma.is_masked(distance_em)==False and ma.is_masked(distance)==False:
+                z = np.random.normal(distance, (distance_em+distance_ep)/2., n)
+            elif ma.is_masked(distance)==False:
+                z=np.empty(len(x))
+                z.fill(distance)
+            else:
+                z = np.full(1000, distance)
+            x2 = x[np.logical_and(y>=0, y<1)]
+            y2 = y[np.logical_and(y>=0, y<1)]
+            z2 = z[np.logical_and(y>=0, y<1)]
+            comb = x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2
+            comb2 = comb[~np.isnan(comb)]
+            if len(comb2)==0:
+                return 0,0,0
+        
             mean = corner.quantile(comb2, [.5, .1587, .8413, 0.0227501, 0.97725])
             return [mean[0], mean[0]-mean[1], mean[2]-mean[0]]
     
@@ -446,7 +447,7 @@ for i in range(len(dir_list)):
                         # print('extra key',stream_yaml['key'], miss)
 
 # print("missing yaml entry", Counter(np.concatenate(missing_key).flat))
-# print(missing_key)
+print("Tables Made")
 print(Counter(missing_key).keys())
 print()
 missing_table = np.array(missing_table)
@@ -457,8 +458,8 @@ for missing in Counter(missing_table).keys():
     print("objects missing (key)", missing, Counter(temp))
 
 ## save output
-comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='gc')
-# comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='dwarf')
+# comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='gc')
+comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='dwarf')
 
 comb_gc_harris = value_add(comb_gc_harris, table_type='gc')
 comb_gc_disk = value_add(comb_gc_disk, table_type='gc')
@@ -468,6 +469,8 @@ comb_dwarf_mw = value_add(comb_dwarf_mw, table_type='dwarf')
 comb_dwarf_m31 = value_add(comb_dwarf_m31, table_type='dwarf')
 comb_dwarf_lf = value_add(comb_dwarf_lf, table_type='dwarf')
 comb_dwarf_lf_distant = value_add(comb_dwarf_lf_distant, table_type='dwarf') # , spatial_units='arcsec'
+
+print("Value added columns added")
 
 comb_dwarf_mw.sort('key')
 comb_dwarf_m31.sort('key')

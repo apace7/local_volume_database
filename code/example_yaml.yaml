@@ -1,13 +1,13 @@
 key: example_yaml
 table: misc
-# candidate 
 # gc_harris , gc_dwarf_hosted , gc_disk , gc_ufsc
 # dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant
-# misc == currently catch-all for objects that don't go elsewhere 
-# open_cluster
+# misc == currently catch-all for systems that don't go elsewhere (for bright hosts)
+# candidate  == place holder, does not have catalog/table (but is included in pdf)
+# open_cluster == place holder, does not have table
 location:
-  ra: 0 # [deg]
-  dec: 0 # [deg]
+  ra: 0 
+  dec: 0 
 name_discovery:
   confirmed_dwarf: 0
   confirmed_star_cluster: 0
@@ -27,8 +27,7 @@ name_discovery:
 notes:
   - list
 structure:
-## the ellipticity, position_angle here are the version in the standard table
-  rhalf: 0 # [arcmin]
+  rhalf: 0 
   rhalf_em: 0
   rhalf_ep: 0
   spatial_units: arcmin, arcsec
@@ -45,8 +44,6 @@ distance:
   distance_modulus_em: 0
   distance_modulus_ep: 0
   distance_fixed_host: True 
-  ## when this column is include the distance is taken from the 'name_discovery':'host'
-  ## some files have distance, distance_em, and distance_ep.  These are old and the distance in the tables is computed from the distance modulus
   ref_distance: ref
 m_v:
   apparent_magnitude_v: 0
@@ -58,10 +55,10 @@ m_v:
   mean_ebv: 0
   ref_m_v: ref
 proper_motion:
-  pmra: 0 # [mas/yr]
+  pmra: 0 
   pmra_em: 0
   pmra_ep: 0
-  pmdec: 0 # [mas/yr]
+  pmdec: 0 
   pmdec_em: 0
   pmdec_ep: 0
   ref_proper_motion: ref
@@ -83,11 +80,10 @@ metallicity_photometric:
   metallicity_photometric_sigma_ep: 0
   ref_metallicity_photometric: ref
 structure_king:
-## the ellipticity, position_angle here are not propagated to the standard table
-  rcore: 0 # [arcmin]
+  rcore: 0 
   rcore_em: 0
   rcore_ep: 0
-  rking: 0 # [arcmin]
+  rking: 0 
   rking_em: 0
   rking_ep: 0
   spatial_units: arcmin, arcsec
@@ -100,11 +96,10 @@ structure_king:
   position_angle_ep: 0
   ref_structure_king: ref
 structure_sersic:
-## the ellipticity, position_angle here are not propagated to the standard table
   n_sersic: 0
   n_sersic_em: 0
   n_sersic_ep: 0
-  rad_sersic: 0 # [arcmin]
+  rad_sersic: 0 
   rad_sersic_em: 0
   rad_sersic_ep: 0
   spatial_units: arcmin, arcsec
@@ -120,11 +115,10 @@ structure_sersic:
   central_surface_brightness_ep: 0
   ref_structure_sersic: ref
 structure_eff:
-## not included in standard table
   gamma_eff: 0
   gamma_eff_em: 0
   gamma_eff_ep: 0
-  rad_eff: 0 # [arcmin]
+  rad_eff: 0 
   rad_eff_em: 0
   rad_eff_ep: 0
   spatial_units: arcmin, arcsec
@@ -137,8 +131,7 @@ structure_eff:
   position_angle_ep: 0
   ref_structure_eff: ref
 structure_plummer:
-## not included in standard table
-  rplmmer: 0 # [arcmin]
+  rplmmer: 0 
   rplmmer_em: 0
   rplmmer_ep: 0
   spatial_units: arcmin, arcsec
@@ -151,8 +144,7 @@ structure_plummer:
   position_angle_ep: 0
   ref_structure_plummer: ref
 structure_exponential:
-## not included in standard table
-  rexponential: 0 # [arcmin]
+  rexponential: 0 
   rexponential_em: 0
   rexponential_ep: 0
   spatial_units: arcmin, arcsec
@@ -165,10 +157,10 @@ structure_exponential:
   position_angle_ep: 0
   ref_structure_exponential: ref
 velocity:
-  vlos_systemic: 0 # [km/s]
+  vlos_systemic: 0 
   vlos_systemic_em: 0
   vlos_systemic_ep: 0
-  vlos_sigma: 0 # [km/s]
+  vlos_sigma: 0 
   vlos_sigma_em: 0
   vlos_sigma_ep: 0
   vlos_sigma_central: 0
@@ -179,29 +171,23 @@ velocity:
   vlos_rotation_ep: 0
   ref_vlos: ref 
 flux_HI:
-  flux_HI:  0 # [Jy km/s ]
+  flux_HI:  0
   flux_HI_em: 0
   flux_HI_ep: 0
   flux_HI_ul: 0
-  # flux_HI_rotation_velocity: 0 # not in standard table
-  # flux_HI_rotation_velocity_em: 0
-  # flux_HI_rotation_velocity_ep: 0
-  # flux_HI_dispersion: 0 # not in standard table
-  # flux_HI_dispersion_em: 0
-  # flux_HI_dispersion_ep: 0
-  vlos_systemic_HI: 0 #[km/s]
+  vlos_systemic_HI: 0 
   vlos_systemic_HI_em: 0
   vlos_systemic_HI_ep: 0
-  sigma_HI: 0 # [km/s] not in standard table
+  sigma_HI: 0 
   sigma_HI_em: 0
   sigma_HI_ep: 0
-  vrot_HI: 0 # [km/s], not in standard table
+  vrot_HI: 0 
   vrot_HI_em: 0
   vrot_HI_ep: 0
-  ref_flux_HI: ref ## mostly for flux_HI
-  ref_HI_kinematics: ref ## for vrot, sigma etc
+  ref_flux_HI: ref 
+  ref_HI_kinematics: ref 
 age:
-  age: 0 ## [Gyr]
+  age: 0 
   age_em: 0
   age_ep: 0
   ref_age: ref

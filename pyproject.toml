@@ -1,8 +1,20 @@
-[build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
-
 [project]
 name = "local_volume_database"
 authors = [{name = "Andrew Pace", email = "pvpace1@gmail.com"}]
-dynamic = ["version", "description"]
+readme = "README.md"
+version="0.0.2"
+requires-python = ">=3.8"
+dependencies = ["numpy","astropy","matplotlib", "pyyaml", "corner"
+]
+description = "local volume database package: Catalog of local volume dwarf galaxies and star clusters"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: CC0-1.0 License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["license"]
+
+[project.urls]
+Homepage = "https://github.com/apace7/local_volume_database"
+Issues = "https://github.com/apace7/local_volume_database/issues"
+

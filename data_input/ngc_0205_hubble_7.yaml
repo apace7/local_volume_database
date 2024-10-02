@@ -8,9 +8,9 @@ name_discovery:
   confirmed_real: 1
   discovery_year: 1932
   host: ngc_0205
-  name: NGC 205-Hubble I
+  name: NGC 205-Hubble VII
   other_name:
-  - Hubble I
+  - Hubble VII
   ref_discovery:
   - Hubble1932ApJ....76...44H
   type: GC
