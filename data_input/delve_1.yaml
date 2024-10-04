@@ -48,6 +48,8 @@ structure:
   position_angle_em: 30.0
   position_angle_ep: 26.0
   ref_structure: Mau2020ApJ...890..136M
+  spatial_model: plummer
+  spatial_units: arcmin
   rhalf: 0.97
   rhalf_em: 0.19
   rhalf_ep: 0.27

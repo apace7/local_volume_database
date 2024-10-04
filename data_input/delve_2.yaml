@@ -55,3 +55,5 @@ structure:
   rhalf: 1.04
   rhalf_em: 0.15
   rhalf_ep: 0.19
+  spatial_model: plummer
+  spatial_units: arcmin

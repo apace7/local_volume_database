@@ -222,9 +222,9 @@ def value_add(input_table, table_type='dwarf', **kwargs):
             rh_noerror = distance*rhalf/180./60.*1000.*np.pi
             if ma.is_masked(ellipticity)==False:
                 rh2 = rh_noerror*np.sqrt(1.-ellipticity)
-                return [rh2, 0, 0]
+                return [rh2, np.ma.masked, np.ma.masked]
             else:
-                return [rh_noerror, 0, 0]
+                return [rh_noerror, np.ma.masked, np.ma.masked]
         else:
             x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., n)
             if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
@@ -247,7 +247,7 @@ def value_add(input_table, table_type='dwarf', **kwargs):
             comb = x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2
             comb2 = comb[~np.isnan(comb)]
             if len(comb2)==0:
-                return 0,0,0
+                return np.ma.masked,np.ma.masked,np.ma.masked
         
             mean = corner.quantile(comb2, [.5, .1587, .8413, 0.0227501, 0.97725])
             return [mean[0], mean[0]-mean[1], mean[2]-mean[0]]

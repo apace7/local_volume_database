@@ -1,8 +1,8 @@
 key: lmc_gc_hodge_011
 table: gc_dwarf_hosted
 location:
-  ra: 93.59537499999999
-  dec: -69.84738888888889
+  ra: 93.595125
+  dec: -69.84722222222221
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
@@ -14,6 +14,19 @@ name_discovery:
   ref_discovery:
   - Hodge1960ApJ...131..351H
   type: GC
+structure:
+  rhalf: 29.71
+  rhalf_em:  0.66
+  rhalf_rp: 0.66
+  spatial_units: arcsec
+  spatial_model: plummer
+  ellipticity: 0.04
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.03
+  position_angle: 25
+  position_angle_em: 16
+  position_angle_ep: 16
+  ref_structure: Niederhofer2024A&A...689A.162N
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.57

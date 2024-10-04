@@ -1,8 +1,8 @@
 key: lmc_gc_ngc_2005
 table: gc_dwarf_hosted
 location:
-  ra: 82.54220833333332
-  dec: -69.75294444444444
+  ra: 82.54266666666666
+  dec: -69.75277777777778
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
@@ -11,6 +11,19 @@ name_discovery:
   other_name:
   - SL 518
   type: GC
+structure:
+  rhalf: 12.79
+  rhalf_em: 0.17
+  rhalf_rp: 0.17
+  spatial_units: arcsec
+  spatial_model: plummer
+  ellipticity: 0.02
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  position_angle: 61
+  position_angle_em: 19
+  position_angle_ep: 19
+  ref_structure: Niederhofer2024A&A...689A.162N
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.44
@@ -33,11 +46,6 @@ metallicity_spectroscopic:
   ref_metallicity_spectroscopic: Johnson2006ApJ...640..801J
 metallicity_photometric:
   metallicity_photometric: -1.6
-  metallicity_photometric_em: 0
-  metallicity_photometric_ep: 0
-  metallicity_photometric_sigma: 0
-  metallicity_photometric_sigma_em: 0
-  metallicity_photometric_sigma_ep: 0
   ref_metallicity_photometric: Milone2023A&A...672A.161M
 velocity:
   vlos_systemic: 270

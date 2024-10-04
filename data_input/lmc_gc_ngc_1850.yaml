@@ -1,8 +1,8 @@
 key: lmc_gc_ngc_1850
 table: gc_dwarf_hosted
 location:
-  ra: 77.1885
-  dec: -68.76242
+  ra: 77.188875
+  dec: -68.76125
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
@@ -17,9 +17,18 @@ name_discovery:
 # notes:
 # - list
 structure:
-  rhalf: 0.676
-  spatial_units: arcmin
-  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 22.98
+  rhalf_em:  0.74
+  rhalf_rp: 0.74
+  spatial_units: arcsec
+  spatial_model: plummer
+  ellipticity: 0.07
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.03
+  position_angle: 68
+  position_angle_em: 17
+  position_angle_ep: 17
+  ref_structure: Niederhofer2024A&A...689A.162N
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.38
@@ -28,13 +37,13 @@ m_v:
   mean_ebv: 0.13
   ref_m_v: Baumgardt2020PASA...37...46B
 proper_motion:
-  pmra: 2.02
-  pmra_em: 0.04
-  pmra_ep: 0.04
-  pmdec: 0.11
-  pmdec_em: 0.04
-  pmdec_ep: 0.04
-  ref_proper_motion: Milone2023A&A...672A.161M
+  pmra: 2.011
+  pmra_em: 0.028
+  pmra_ep: 0.028
+  pmdec: 0.119
+  pmdec_em: 0.030
+  pmdec_ep: 0.030
+  ref_proper_motion: Niederhofer2024A&A...689A.162N
 metallicity_photometric:
   metallicity_photometric: -0.4
   ref_metallicity_photometric: Milone2023A&A...672A.161M

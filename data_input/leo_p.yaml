@@ -21,21 +21,29 @@ flux_HI:
   flux_HI_em: 0.27
   flux_HI_ep: 0.27
   ref_flux_HI: Putman2021ApJ...913...53P
-
 m_v:
   apparent_magnitude_v: 16.78
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
   ref_m_v: McQuinn2015ApJ...812..158M
-
 structure:
   ellipticity: 0.52
   position_angle: 335.0
   ref_structure: McQuinn2015ApJ...812..158M
   rhalf: 1.2
-
 velocity:
   ref_vlos: BernsteinCooper2014AJ....148...35B
   vlos_systemic: 260.8
   vlos_systemic_em: 2.5
   vlos_systemic_ep: 2.5
+star_formation_history:
+  tau_50: 5.42
+  tau_50_em: 0.16
+  tau_50_ep: 0.27
+  tau_80: 2.75
+  tau_80_em: 0.05
+  tau_80_ep: 0.05
+  tau_90: 1.90
+  tau_90_em: 0.08
+  tau_90_ep: 0.15
+  ref_star_formation_history: McMQuinn2024arXiv240919050

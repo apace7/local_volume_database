@@ -63,12 +63,17 @@ Figure from the sample (this does include custom matplotlib stylefile and latex 
 
    Example figure
 
+Additional, ipython notebooks are located here:   `ipython notebooks to create figures in overview paper <https://github.com/apace7/local_volume_database/tree/main/paper_examples>`_ and (slightly out-of-date examples) `original ipython notebook examples <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_plots.ipynb>`_ 
+
 Some Recommendations 
 ---------------------------------------------
 
-For detailed analysis, I would recommendation fixing the version of the tables to a specific commit instead of the current github version.  
-Each table can be loaded from a specific commit. For example, this loads an older version of the data/dwarf_mw.csv table.
+For detailed analysis, I would recommendation fixing the version of the tables to a tagged release version.
+Alternatively, a specific commit can be useed instead of the latest github version.  
+For example, this loads an older version of the data/dwarf_all.csv table.
 
 .. code-block:: python
-
-    dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/3a473c7f839f228a5702fa0293cebfea5fe3bcb6/data/dwarf_mw.csv')
+    ## tagged release
+    dsph_mw = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v0.0.2/dwarf_all.csv')
+    ## specific commit
+    dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/3a473c7f839f228a5702fa0293cebfea5fe3bcb6/data/dwarf_all.csv')

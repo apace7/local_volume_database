@@ -51,6 +51,8 @@ structure:
   rhalf: 4.9
   rhalf_em: 0.8
   rhalf_ep: 1.1
+  spatial_model: plummer
+  spatial_units: arcmin
 velocity:
   ref_vlos: Heiger2024ApJ...961..234H
   vlos_sigma: 6.1

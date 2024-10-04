@@ -54,6 +54,8 @@ structure:
   rhalf: 0.76
   rhalf_em: 0.07
   rhalf_ep: 0.08
+  spatial_model: plummer
+  spatial_units: arcmin
 velocity:
   ref_vlos: Smith2023AJ....166...76S
   vlos_systemic: 5.1

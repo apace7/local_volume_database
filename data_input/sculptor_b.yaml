@@ -16,6 +16,7 @@ structure:
   rhalf_em: 7.1
   rhalf_ep: 7.1
   spatial_units: arcsec
+  spatial_model: exponential
   ellipticity: 0.41
   ellipticity_em: 0.22
   ellipticity_ep: 0.22

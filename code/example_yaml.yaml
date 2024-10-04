@@ -31,6 +31,7 @@ structure:
   rhalf_em: 0
   rhalf_ep: 0
   spatial_units: arcmin, arcsec
+  spatial_model: plummer, exponential, sersic, king, eff
   ellipticity: 0
   ellipticity_em: 0
   ellipticity_ep: 0

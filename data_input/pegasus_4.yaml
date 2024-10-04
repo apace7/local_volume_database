@@ -49,6 +49,8 @@ structure:
   rhalf: 1.6
   rhalf_em: 0.25
   rhalf_ep: 0.29
+  spatial_model: plummer
+  spatial_units: arcmin
 velocity:
   ref_vlos: Cerny2023ApJ...942..111C
   vlos_sigma: 3.3

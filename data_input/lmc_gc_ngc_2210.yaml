@@ -1,8 +1,8 @@
 key: lmc_gc_ngc_2210
 table: gc_dwarf_hosted
 location:
-  ra: 92.88179166666666
-  dec: -69.1218611111111
+  ra: 92.881875 
+  dec: -69.12177777777777
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
@@ -12,6 +12,19 @@ name_discovery:
   - SL 858
   - LW 423
   type: GC
+structure:
+  rhalf: 16.26
+  rhalf_em: 0.18
+  rhalf_rp: 0.18
+  spatial_units: arcsec
+  spatial_model: plummer
+  ellipticity: 0.09
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 9
+  position_angle_em: 4
+  position_angle_ep: 4
+  ref_structure: Niederhofer2024A&A...689A.162N
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.36

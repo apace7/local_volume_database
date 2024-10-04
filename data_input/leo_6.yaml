@@ -11,7 +11,7 @@ name_discovery:
   name: Leo VI
   ref_discovery:
   - Tan2024arXiv240800865T
-  abbreviation: 'LeoVI'
+  abbreviation: LeoVI
   type: dSph
 notes:
   - age lower limit at 68 confidence interval Tan2024arXiv240800865T
@@ -20,6 +20,7 @@ structure:
   rhalf_em: 1.33
   rhalf_ep: 1.14
   spatial_units: arcmin
+  spatial_model: plummer
   ellipticity: 0.54
   ellipticity_em: 0.29
   ellipticity_ep: 0.19

@@ -34,9 +34,11 @@ proper_motion:
   pmra_em: 0.4
   pmra_ep: 0.39
   ref_proper_motion: Cerny2023ApJ...953....1C
-structure:
-  ellipticity_ul: 0.4
-  ref_structure: Cerny2023ApJ...953....1C
+structure:  
   rhalf: 1.09
   rhalf_em: 0.35
   rhalf_ep: 0.37
+  spatial_model: plummer
+  spatial_units: arcmin
+  ellipticity_ul: 0.4
+  ref_structure: Cerny2023ApJ...953....1C

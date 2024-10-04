@@ -20,14 +20,17 @@ The yaml files are located in `data_input/ <https://github.com/apace7/local_volu
 
 
 
-The tables can be directly loaded into jupyter notebooks without having to download the repository:
+The tables can be directly loaded into jupyter notebooks without having to download the repository from either the release page (recommend) or from the github:
 
 .. code-block:: python
 
-   import astropy.table as table
-   dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_mw.csv')
+  import astropy.table as table
+  ## release page
+  dsph_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v0.0.2/dwarf_all.csv')
+  ## latest github
+  dsph_all = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_all.csv')
 
-There is also a pdf document in release page summarizing the contents and properties of each combined table. 
+There is also a pdf document in release page summarizing the contents and properties of each combined table (`pdf summary file <https://github.com/apace7/local_volume_database/releases/download/v0.0.2/lvdb_table.pdf>`_). 
 
 
 Decription of tables 
@@ -41,7 +44,7 @@ The following are the available tables (in csv and fits file formats).
 * **dwarf_all** : combination of dwarf_mw, dwarf_m31, dwarf_local_field
 * **dwarf_local_field_distant**: dwarf galaxies with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete. 
 
-* **gc_ufsc**: Ultra-faint compact stellar systems. faint star-cluster like systems (generally rhalf < 20 pc and M_V > -3 and at high Galactic latitudes abs(b) > ~5-10). A number of these systems are likely tidally stripped star clusters, tidally stripped dwarf galaxies, or the faintest dwarf galaxies. Many have are ambiguous classifications and are difficult to classify. 
+* **gc_ufsc**: Ambiguous or ultra-faint compact stellar systems. faint star-cluster like systems (generally rhalf < 20 pc and M_V > -3 and at high Galactic latitudes abs(b) > ~5-10). A number of these systems are likely tidally stripped star clusters, tidally stripped dwarf galaxies, or the faintest dwarf galaxies. Many have are ambiguous classifications and are difficult to classify. 
 * **gc_disk**: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these systems might be open clusters, and some systems have not been confirmed
 * **gc_harris**: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_ufsc table)
 * **gc_dwarf_hosted**: Globular clusters hosted by dwarf galaxies. This does not include the Sagittarius GCs which are in gc_harris. Incomplete table.
@@ -164,6 +167,8 @@ The collections are split such that a single reference can describe the contents
   * **rhalf** -- elliptical half-light radius (or plummer radius) [arcmin]. This corresponds to the major axis. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
 
   * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
+
+  * **spatial_model** -- options = [plummer, exponential, sersic, king, eff] model assumption for the primary model assumed to compute rhalf.  Included for reference.
 
   * **ellipticity** -- Ellipticity of the system, defined as 1 - b/a = 1- minor axis/major axis. 
 

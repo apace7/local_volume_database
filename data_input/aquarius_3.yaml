@@ -1,0 +1,75 @@
+key: aquarius_3
+table: dwarf_mw
+location:
+  ra: 357.218 
+  dec: -3.489 
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2024
+  host: mw
+  name: Aquarius III
+  other_name:
+  - DELVE J2348-0329
+  ref_discovery:
+  - Cerny2024arXiv241000981C
+  abbreviation: AqrIII
+  type: dSph
+structure:
+  rhalf: 2.1 
+  rhalf_em: 0.5
+  rhalf_ep: 0.7
+  spatial_units: arcmin
+  spatial_model: plummer
+  ellipticity: 0.47
+  ellipticity_em: 0.14
+  ellipticity_ep: 0.28
+  position_angle: 120
+  position_angle_em: 15
+  position_angle_ep: 12
+  ref_structure: Cerny2024arXiv241000981C
+distance:
+  distance_modulus: 19.66
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.11
+  ref_distance: Cerny2024arXiv241000981C
+m_v:
+  apparent_magnitude_v: 17.16
+  apparent_magnitude_v_em: 0.4
+  apparent_magnitude_v_ep: 0.5
+  mean_ebv: 0.04
+  ref_m_v: Cerny2024arXiv241000981C
+proper_motion:
+  pmra: 1.01 # [mas/yr]
+  pmra_em: 0.25
+  pmra_ep: 0.26
+  pmdec: -0.11 # [mas/yr]
+  pmdec_em: 0.19
+  pmdec_ep: 0.19
+  ref_proper_motion: Cerny2024arXiv241000981C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.61
+  metallicity_spectroscopic_em: 0.20
+  metallicity_spectroscopic_ep: 0.20
+  metallicity_spectroscopic_sigma: 0.46
+  metallicity_spectroscopic_sigma_em: 0.15
+  metallicity_spectroscopic_sigma_ep: 0.26
+  ref_metallicity_spectroscopic: Cerny2024arXiv241000981C
+structure_plummer:
+  rplummer: 2.1 
+  rplummer_em: 0.5
+  rplummer_ep: 0.7
+  spatial_units: arcmin
+  ellipticity: 0.47
+  ellipticity_em: 0.14
+  ellipticity_ep: 0.28
+  position_angle: 120
+  position_angle_em: 15
+  position_angle_ep: 12
+  ref_structure_plummer: Cerny2024arXiv241000981C
+velocity:
+  vlos_systemic: -13.1 # [km/s]
+  vlos_systemic_em: 1.0
+  vlos_systemic_ep: 1.0
+  vlos_sigma_ul: 3.5
+  ref_vlos: Cerny2024arXiv241000981C 
