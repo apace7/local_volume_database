@@ -51,13 +51,13 @@ comb_gc_disk = table.Table(np.zeros((Counter(table_list)['gc_disk'], 3)),names=(
 comb_gc_dwarf = table.Table(np.zeros((Counter(table_list)['gc_dwarf_hosted'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 
 ## add all the columns.  The columns are masked for missing entries 
-for i,j in zip(col_name_gc, col_type_gc):
+# for i,j in zip(col_name_gc, col_type_gc):
 ## the only difference between GC and dwarf is whether HI gas columns are included.  Have empty columns is fine.
 # for i,j in zip(col_name_dwarf, col_type_dwarf):
     # comb_gc_ufsc[i] = np.ma.masked_all(len(comb_gc_ufsc), dtype=j)
-    comb_gc_harris[i] = np.ma.masked_all(len(comb_gc_harris), dtype=j)
-    comb_gc_disk[i] = np.ma.masked_all(len(comb_gc_disk), dtype=j)
-    comb_gc_dwarf[i] = np.ma.masked_all(len(comb_gc_dwarf), dtype=j)
+    # comb_gc_harris[i] = np.ma.masked_all(len(comb_gc_harris), dtype=j)
+    # comb_gc_disk[i] = np.ma.masked_all(len(comb_gc_disk), dtype=j)
+    # comb_gc_dwarf[i] = np.ma.masked_all(len(comb_gc_dwarf), dtype=j)
 
 ## create dwarf tables
 comb_dwarf_mw = table.Table(np.zeros((Counter(table_list)['dwarf_mw'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
@@ -72,6 +72,9 @@ for i,j in zip(col_name_dwarf, col_type_dwarf):
     comb_dwarf_lf_distant[i] = np.ma.masked_all(len(comb_dwarf_lf_distant), dtype=j)
 
     comb_gc_ufsc[i] = np.ma.masked_all(len(comb_gc_ufsc), dtype=j)
+    comb_gc_harris[i] = np.ma.masked_all(len(comb_gc_harris), dtype=j)
+    comb_gc_disk[i] = np.ma.masked_all(len(comb_gc_disk), dtype=j)
+    comb_gc_dwarf[i] = np.ma.masked_all(len(comb_gc_dwarf), dtype=j)
 
 ## distance modulus
 def dist_mod(mu, mu_em=0, mu_ep=0):
@@ -431,7 +434,7 @@ for i in range(len(dir_list)):
         elif stream_yaml['table'] == 'gc_disk':
             miss = add_to_table(stream_yaml, comb_gc_disk, place_gc_disk)
             place_gc_disk+=1 
-        elif stream_yaml['table'] == 'gc_ufsc':
+        elif stream_yaml['table'] == 'gc_ufsc' or stream_yaml['table'] == 'gc_halo':
             miss = add_to_table(stream_yaml, comb_gc_ufsc, place_gc_ufsc)
             place_gc_ufsc+=1 
         elif stream_yaml['table'] == 'gc_dwarf_hosted':
@@ -461,9 +464,9 @@ for missing in Counter(missing_table).keys():
 # comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='gc')
 comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='dwarf')
 
-comb_gc_harris = value_add(comb_gc_harris, table_type='gc')
-comb_gc_disk = value_add(comb_gc_disk, table_type='gc')
-comb_gc_dwarf = value_add(comb_gc_dwarf, table_type='gc')
+comb_gc_harris = value_add(comb_gc_harris, table_type='dwarf')
+comb_gc_disk = value_add(comb_gc_disk, table_type='dwarf')
+comb_gc_dwarf = value_add(comb_gc_dwarf, table_type='dwarf')
 
 comb_dwarf_mw = value_add(comb_dwarf_mw, table_type='dwarf')
 comb_dwarf_m31 = value_add(comb_dwarf_m31, table_type='dwarf')
@@ -487,7 +490,7 @@ comb_gc_ufsc.sort('key')
 comb_gc_dwarf.sort('key')
 comb_gc_disk.write('data/gc_disk.csv', format='csv',overwrite=True)
 comb_gc_harris.write('data/gc_harris.csv', format='csv',overwrite=True)
-comb_gc_ufsc.write('data/gc_ufsc.csv', format='csv',overwrite=True)
+comb_gc_ufsc.write('data/gc_halo.csv', format='csv',overwrite=True)
 comb_gc_dwarf.write('data/gc_dwarf_hosted.csv', format='csv',overwrite=True)
 
 # comb_gc_ufsc.write('data/gc_ufsc.dat', format='ascii', overwrite=True)
@@ -499,7 +502,7 @@ comb_dwarf_lf.write('data/dwarf_local_field.fits', format='fits', overwrite=True
 
 comb_gc_disk.write('data/gc_disk.fits', format='fits', overwrite=True)
 comb_gc_harris.write('data/gc_harris.fits', format='fits', overwrite=True)
-comb_gc_ufsc.write('data/gc_ufsc.fits', format='fits', overwrite=True)
+comb_gc_ufsc.write('data/gc_halo.fits', format='fits', overwrite=True)
 comb_gc_dwarf.write('data/gc_dwarf_hosted.fits', format='fits', overwrite=True)
 
 comb_dwarf = table.vstack([comb_dwarf_mw, comb_dwarf_m31, comb_dwarf_lf])

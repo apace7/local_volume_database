@@ -25,35 +25,37 @@ The tables can be directly loaded into jupyter notebooks without having to downl
 .. code-block:: python
 
   import astropy.table as table
-  ## release page
+  ## release page, the version will need to be updated to the latest release
   dsph_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v0.0.2/dwarf_all.csv')
   ## latest github
   dsph_all = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_all.csv')
 
-There is also a pdf document in release page summarizing the contents and properties of each combined table (`pdf summary file <https://github.com/apace7/local_volume_database/releases/download/v0.0.2/lvdb_table.pdf>`_). 
+There is also a pdf document in release page summarizing the contents and properties of each combined table (`pdf summary file <https://github.com/apace7/local_volume_database/releases/download/v0.0.2/lvdb_table.pdf>`_ Note to verify that you are using the latest release here). 
 
 
 Decription of tables 
 --------------------
 
-The following are the available tables (in csv and fits file formats). 
+The following are the available tables (in csv and fits file formats). The fits file format is limited to github releases while the csv is include both in the release and the main catalog.
 
 * **dwarf_mw** : Milky Way dwarf galaxies (the most distant dwarf galaxy is Eridanus II at ~ 350 kpc)
 * **dwarf_m31**: M31 dwarf galaxies
 * **dwarf_local_field**: dwarf galaxies outside of MW/M31 within the Local group to a distance of ~ 3 Mpc. This is an extension of galaxies from McConnachie 2012
-* **dwarf_all** : combination of dwarf_mw, dwarf_m31, dwarf_local_field
+* **dwarf_all** : combination of dwarf_mw, dwarf_m31, dwarf_local_field. Complete for known systems to ~ 3 Mpc.
 * **dwarf_local_field_distant**: dwarf galaxies with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete. 
 
-* **gc_ufsc**: Ambiguous or ultra-faint compact stellar systems. faint star-cluster like systems (generally rhalf < 20 pc and M_V > -3 and at high Galactic latitudes abs(b) > ~5-10). A number of these systems are likely tidally stripped star clusters, tidally stripped dwarf galaxies, or the faintest dwarf galaxies. Many have are ambiguous classifications and are difficult to classify. 
+* **gc_halo**: New star cluster-like systems in the Galactic halo or ambiguous compact stellar systems. These are faint star-cluster like systems (generally rhalf < 20 pc and M_V > -3 and at high Galactic latitudes abs(b) > ~5-10). A number of these systems are likely tidally stripped star clusters, tidally stripped dwarf galaxies, or the faintest dwarf galaxies. Many have are ambiguous classifications (as in the classification for dwarf galaxy and star cluster is ambiguous) and are difficult to classify. This does include several new Globular Cluster (Laevens 1/Crater I and Sagittarius II).
 * **gc_disk**: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these systems might be open clusters, and some systems have not been confirmed
 * **gc_harris**: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_ufsc table)
 * **gc_dwarf_hosted**: Globular clusters hosted by dwarf galaxies. This does not include the Sagittarius GCs which are in gc_harris. Incomplete table.
 
+ (Note that older versions had  small differences between dwarf galaxy and star cluster catalogs)
+
 There are two extra tables (data/pm_overview.csv and data/j_factor.csv). Both are collections of measurements (the other tables have one measurement per system). 
 
-pm_overview.csv: key, reference, proper motion measurement, method (this includes most proper motion measurements of dwarf galaxies)
+pm_overview.csv: key, reference, proper motion measurement, method (this includes most proper motion measurements of dwarf galaxies and the goal is to be complete for literature measurements).
 
-j_factor.csv: key, reference, angle, j-factor measurement [units are log10 GeV^2 cm^-5], notes (this includes some literature j-factor measurements, mostly from A. B. Pace)
+j_factor.csv: key, reference, angle, j-factor measurement [units are log10 GeV^2 cm^-5], notes (this includes some literature j-factor measurements, mostly from A. B. Pace.  This is not complete.).
 
 .. Decription of table contents
 .. ----------------------------
@@ -129,7 +131,7 @@ The yaml keys are **Bolded** below and the bullet points follow the yaml collect
 The collections are split such that a single reference can describe the contents.
 
 * **key** —- unique internal identifier. This should be the same as the name of the file (without .yaml) (required yaml key). All keys are lowercase in LVDB. Globular clusters and some dwarf galaxies are grouped by their host (for example, all LMC globular cluster keys have the prefix lmc_gc_ and many Centuarus A dwarf galaxy keys have the prefix cena_ ). 
-* **table** -- table to place system into (required yaml key) list of possible tables [gc_harris, gc_dwarf_hosted, gc_disk, gc_ufsc, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc]. Systems in the candidate and misc tables are not combined into files. The candidate systems are included in the lvdb pdf summary. The misc systems are primarily bright host galaxies (MW, M31, Cen A) and only included for distance measurements (**distance_fixed_host**) and to link systems together. 
+* **table** -- table to place system into (required yaml key) list of possible tables [gc_harris, gc_dwarf_hosted, gc_disk, gc_halo=gc_ufsc, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc]. Systems in the candidate and misc tables are not combined into files. The candidate systems are included in the lvdb pdf summary. The misc systems are primarily bright host galaxies (MW, M31, Cen A) and only included for distance measurements (**distance_fixed_host**) and to link systems together. 
 * **location** -- center of the system (yaml collection)
 
   * **ra** -- right ascension ICRS [degree]  (required yaml key)
@@ -267,6 +269,30 @@ The collections are split such that a single reference can describe the contents
   * **position_angle** -- from EFF fit.
 
   * **ref_structure_sersic**
+
+* **structure_plummer**
+
+  * **rplummer** -- Plummer scale radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+
+  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
+
+  * **ellipticity** -- from Plummer fit.
+
+  * **position_angle** -- from Plummer fit.
+
+  * **ref_structure_plummer**
+
+* **structure_exponential**
+
+  * **rexponential** -- Exponential scale radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+
+  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
+
+  * **ellipticity** -- from EExponentialFF fit.
+
+  * **position_angle** -- from Exponential fit.
+
+  * **ref_structure_exponential**
 
 * **flux_HI**
 

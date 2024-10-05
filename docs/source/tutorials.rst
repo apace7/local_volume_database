@@ -23,7 +23,7 @@ load the data from github
     dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_mw.csv')
     dsph_m31 = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_m31.csv')
     dsph_lf = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_local_field.csv')
-    ufsc = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/gc_ufsc.csv')
+    gc_halo = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/gc_halo.csv')
     gc_disk = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/gc_disk.csv')
     gc_harris = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/gc_harris.csv')
 
@@ -40,7 +40,7 @@ make a figure
     plt.errorbar(dsph_mw['rhalf_sph_physical'], dsph_mw['M_V'], fmt='o', label=r'${\rm Dwarf~MW}$', )
     plt.plot(dsph_m31['rhalf_sph_physical'], dsph_m31['M_V'], 'o', label=r'${\rm Dwarf~M31}$')
     plt.plot(dsph_lf['rhalf_sph_physical'],dsph_lf['M_V'], 'o', label=r'${\rm Dwarf~LF}$')
-    plt.plot(ufsc['rhalf_sph_physical'], ufsc['M_V'], 'o',label=r'${\rm UFSC}$')
+    plt.plot(gc_halo['rhalf_sph_physical'], gc_halo['M_V'], 'o',label=r'${\rm UFSC}$')
     plt.plot(gc_disk['rhalf_sph_physical'], gc_disk['M_V'], 'o',label=r'${\rm GC~New}$')
     plt.plot(gc_harris['rhalf_sph_physical'], gc_harris['M_V'], 'o',label=r'${\rm GC~Harris}$')
     plt.gca().set_xscale('log')
@@ -55,6 +55,7 @@ make a figure
     plt.show()
 
 Figure from the sample (this does include custom matplotlib stylefile and latex for the captions).
+I note that the name for one type of system in the catalog (labeled UFSC = ultra-faint star clusters) has been changed several times. In the majority of the documentation these are referred to as, new star cluster-like systems in Galactic halo and/or ambiguous systems (as in the nature of dwarf galaxy and star cluster is ambiguous).
 
 .. figure:: /figures/example_rhalf_MV.png
    :width: 60%
@@ -70,10 +71,12 @@ Some Recommendations
 
 For detailed analysis, I would recommendation fixing the version of the tables to a tagged release version.
 Alternatively, a specific commit can be useed instead of the latest github version.  
-For example, this loads an older version of the data/dwarf_all.csv table.
+
+For example, this loads an older version of the data/dwarf_all.csv table for either a tagged release or a specific commit.
 
 .. code-block:: python
     ## tagged release
     dsph_mw = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v0.0.2/dwarf_all.csv')
     ## specific commit
     dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/3a473c7f839f228a5702fa0293cebfea5fe3bcb6/data/dwarf_all.csv')
+
