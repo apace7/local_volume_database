@@ -17,6 +17,8 @@ table/lvdb_table.dvi
 table/lvdb_table.out
 table/lvdb_table.pdf
 
+paper_examples/*.pdf
+
 data/*.fits
 
 # Distribution / packaging

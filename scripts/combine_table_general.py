@@ -45,9 +45,9 @@ col_type_gc = [ 'U100','U100','i1', 'i1','f8', 'f8', 'f8','f8', 'f8', 'f8','f8',
 print(len(col_name_gc), len(col_type_gc))
 
 ## create gc tables
-comb_gc_ufsc = table.Table(np.zeros((Counter(table_list)['gc_ufsc'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
+comb_gc_ufsc = table.Table(np.zeros((Counter(table_list)['gc_ufsc']+Counter(table_list)['gc_halo']+Counter(table_list)['gc_ambiguous'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 comb_gc_harris = table.Table(np.zeros((Counter(table_list)['gc_harris'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
-comb_gc_disk = table.Table(np.zeros((Counter(table_list)['gc_disk'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
+comb_gc_disk = table.Table(np.zeros((Counter(table_list)['gc_disk']+Counter(table_list)['gc_mw_new'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 comb_gc_dwarf = table.Table(np.zeros((Counter(table_list)['gc_dwarf_hosted'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 
 ## add all the columns.  The columns are masked for missing entries 
@@ -431,10 +431,10 @@ for i in range(len(dir_list)):
         elif stream_yaml['table'] == 'gc_harris':
             miss = add_to_table(stream_yaml, comb_gc_harris, place_gc_harris)
             place_gc_harris+=1
-        elif stream_yaml['table'] == 'gc_disk':
+        elif stream_yaml['table'] == 'gc_disk' or stream_yaml['table'] == 'gc_mw_new':
             miss = add_to_table(stream_yaml, comb_gc_disk, place_gc_disk)
             place_gc_disk+=1 
-        elif stream_yaml['table'] == 'gc_ufsc' or stream_yaml['table'] == 'gc_halo':
+        elif stream_yaml['table'] == 'gc_ufsc' or stream_yaml['table'] == 'gc_halo' or stream_yaml['table'] == 'gc_ambiguous':
             miss = add_to_table(stream_yaml, comb_gc_ufsc, place_gc_ufsc)
             place_gc_ufsc+=1 
         elif stream_yaml['table'] == 'gc_dwarf_hosted':
@@ -488,9 +488,9 @@ comb_gc_disk.sort('key')
 comb_gc_harris.sort('key')
 comb_gc_ufsc.sort('key')
 comb_gc_dwarf.sort('key')
-comb_gc_disk.write('data/gc_disk.csv', format='csv',overwrite=True)
+comb_gc_disk.write('data/gc_mw_new.csv', format='csv',overwrite=True)
 comb_gc_harris.write('data/gc_harris.csv', format='csv',overwrite=True)
-comb_gc_ufsc.write('data/gc_halo.csv', format='csv',overwrite=True)
+comb_gc_ufsc.write('data/gc_ambiguous.csv', format='csv',overwrite=True)
 comb_gc_dwarf.write('data/gc_dwarf_hosted.csv', format='csv',overwrite=True)
 
 # comb_gc_ufsc.write('data/gc_ufsc.dat', format='ascii', overwrite=True)
@@ -500,9 +500,9 @@ comb_dwarf_mw.write('data/dwarf_mw.fits', format='fits', overwrite=True)
 comb_dwarf_m31.write('data/dwarf_m31.fits', format='fits', overwrite=True)
 comb_dwarf_lf.write('data/dwarf_local_field.fits', format='fits', overwrite=True)
 
-comb_gc_disk.write('data/gc_disk.fits', format='fits', overwrite=True)
+comb_gc_disk.write('data/gc_mw_new.fits', format='fits', overwrite=True)
 comb_gc_harris.write('data/gc_harris.fits', format='fits', overwrite=True)
-comb_gc_ufsc.write('data/gc_halo.fits', format='fits', overwrite=True)
+comb_gc_ufsc.write('data/gc_ambiguous.fits', format='fits', overwrite=True)
 comb_gc_dwarf.write('data/gc_dwarf_hosted.fits', format='fits', overwrite=True)
 
 comb_dwarf = table.vstack([comb_dwarf_mw, comb_dwarf_m31, comb_dwarf_lf])
