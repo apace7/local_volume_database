@@ -10,6 +10,9 @@ name_discovery:
   name: Palomar 15
   other_name:
   - UGC 10642
+  - GCl 50
+  - MWSC 2509
+  - Zwicky 1
   ref_discovery:
   - Zwicky1959_hand
   host: mw

@@ -1,7 +1,20 @@
 key: bh_140
+table: gc_disk
 location:
-  dec: -67.177
   ra: 193.473
+  dec: -67.177
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1975
+  host: mw
+  name: BH 140
+  ref_discovery:
+  - vandenBergh1975AJ.....80...11V
+  - CantatGaudin2018A&A...618A..93C
+  other_name:
+  - MWSC 2071
+  - Cl VDBH 140
 distance:
   distance_modulus: 13.41
   distance_modulus_em: 0.11
@@ -12,13 +25,6 @@ m_v:
   apparent_magnitude_v_em: 0.12
   apparent_magnitude_v_ep: 0.12
   ref_m_v: Baumgardt2020PASA...37...46B
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  host: mw
-  name: BH 140
-  ref_discovery:
-  - CantatGaudin2018A&A...618A..93C
 proper_motion:
   pmdec: 1.2241
   pmdec_em: 0.0243
@@ -30,4 +36,3 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 4.45
-table: gc_disk

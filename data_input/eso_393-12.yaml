@@ -8,6 +8,8 @@ name_discovery:
   confirmed_real: 0
   host: mw
   name: ESO 393-12
+  other_name:
+  - MWSC 2654
 notes:
 - possible globular cluster Kharchenko2013A&A...558A..53K
 - classify as globular cluster Garro2022A&A...658A.120G

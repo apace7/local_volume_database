@@ -221,6 +221,7 @@ def value_add(input_table, table_type='dwarf', **kwargs):
                 print("no  host info", input_table['key'][i], path + input_table['host'][i] + '.yaml')    
 
     def compute_rhalf_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, ellipticity_ep, distance, distance_em, distance_ep, n=10000):
+        np.random.seed(1988) ## so each monte carlo is the same if nothing is changed
         if (ma.is_masked(rhalf_em)==True or ma.is_masked(rhalf_ep)==True) and ma.is_masked(rhalf)==False:
             rh_noerror = distance*rhalf/180./60.*1000.*np.pi
             if ma.is_masked(ellipticity)==False:
@@ -305,46 +306,7 @@ def value_add(input_table, table_type='dwarf', **kwargs):
 
     def compute_mass_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, ellipticity_ep, distance, distance_em, distance_ep, sigma, sigma_em,sigma_ep, n=10000):
         ## at some point asymmetric errors need to be addresses
-        if ma.is_masked(rhalf_em)==False and ma.is_masked(rhalf)==False:
-            x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., n)
-        elif ma.is_masked(rhalf)==False:
-            x=np.empty(n)
-            x.fill(rhalf)
-        else:
-            x = np.zeros(n)
-        
-        if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
-            y = np.random.normal(ellipticity, (ellipticity_em+ellipticity_ep)/2., n)
-        elif ma.is_masked(ellipticity)==False:
-            y=np.empty(len(x))
-            y.fill(ellipticity)
-        else:
-            y = np.zeros(len(x))
-        
-        if ma.is_masked(distance_em)==False and ma.is_masked(distance)==False:
-            z = np.random.normal(distance, (distance_em+distance_ep)/2., n)
-        elif ma.is_masked(distance)==False:
-            z=np.empty(len(x))
-            z.fill(distance)
-        else:
-            z = np.full(10000, distance)
-        
-        if ma.is_masked(sigma_em)==False and ma.is_masked(sigma_ep)==False:
-            sig = np.random.normal(sigma, (sigma_em+sigma_ep)/2., n)
-        elif ma.is_masked(sigma)==False:
-            sig=np.empty(len(x))
-            sig.fill(sigma)
-        else:
-            sig = np.zeros(len(x))
-        
-        x2 = x[np.logical_and(y>=0, y<1)]
-        y2 = y[np.logical_and(y>=0, y<1)]
-        z2 = z[np.logical_and(y>=0, y<1)]
-        sig2 = sig[np.logical_and(y>=0, y<1)]
-        
-        comb_mass = 930. * x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2 * sig2**2
-        comb_mass2 = comb_mass[~np.isnan(comb_mass)]
-        
+        np.random.seed(1988) ## so each monte carlo is the same if nothing is changed
         if ma.is_masked(sigma)==True:
             return [np.ma.masked,np.ma.masked,np.ma.masked]
         elif (ma.is_masked(sigma_em)==True or ma.is_masked(sigma_ep)==True) and ma.is_masked(sigma)==False:
@@ -357,6 +319,46 @@ def value_add(input_table, table_type='dwarf', **kwargs):
             else:
                 return[comb_mass,np.ma.masked,np.ma.masked]
         else:
+            if ma.is_masked(rhalf_em)==False and ma.is_masked(rhalf)==False:
+                x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., n)
+            elif ma.is_masked(rhalf)==False:
+                x=np.empty(n)
+                x.fill(rhalf)
+            else:
+                x = np.zeros(n)
+            
+            if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
+                y = np.random.normal(ellipticity, (ellipticity_em+ellipticity_ep)/2., n)
+            elif ma.is_masked(ellipticity)==False:
+                y=np.empty(len(x))
+                y.fill(ellipticity)
+            else:
+                y = np.zeros(len(x))
+            
+            if ma.is_masked(distance_em)==False and ma.is_masked(distance)==False:
+                z = np.random.normal(distance, (distance_em+distance_ep)/2., n)
+            elif ma.is_masked(distance)==False:
+                z=np.empty(len(x))
+                z.fill(distance)
+            else:
+                z = np.full(10000, distance)
+            
+            if ma.is_masked(sigma_em)==False and ma.is_masked(sigma_ep)==False:
+                sig = np.random.normal(sigma, (sigma_em+sigma_ep)/2., n)
+            elif ma.is_masked(sigma)==False:
+                sig=np.empty(len(x))
+                sig.fill(sigma)
+            else:
+                sig = np.zeros(len(x))
+            
+            x2 = x[np.logical_and(y>=0, y<1)]
+            y2 = y[np.logical_and(y>=0, y<1)]
+            z2 = z[np.logical_and(y>=0, y<1)]
+            sig2 = sig[np.logical_and(y>=0, y<1)]
+            
+            comb_mass = 930. * x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2 * sig2**2
+            comb_mass2 = comb_mass[~np.isnan(comb_mass)]
+        
             mean_mass = corner.quantile(comb_mass2, [.5, .1587, .8413, 0.0227501, 0.97725])
             return [mean_mass[0], mean_mass[0]-mean_mass[1], mean_mass[2]-mean_mass[0]]
         

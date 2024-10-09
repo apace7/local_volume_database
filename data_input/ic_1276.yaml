@@ -12,6 +12,7 @@ name_discovery:
   - Palomar 7
   - GCL-90
   - GCL B1625-3514
+  - MWSC 2835
   host: mw
   ref_discovery: 
   - Abell1955PASP...67..258A

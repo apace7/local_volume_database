@@ -10,6 +10,8 @@ name_discovery:
   name: Palomar 14
   other_name:
   - AvdB
+  - GCl 38
+  - Arp 1
   ref_discovery:
   - Arp1960PASP...72...48A
   host: mw

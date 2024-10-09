@@ -10,6 +10,9 @@ name_discovery:
   name: Palomar 11
   ref_discovery:
   - Abell1955PASP...67..258A
+  other_name:
+  - GCL-114
+  - MWSC 3171
   host: mw
 notes:
 - discovered by A. G. Wilson Abell1955PASP...67..258A

@@ -10,6 +10,8 @@ name_discovery:
   name: Palomar 6
   other_name:
   - ESO 520-21
+  - GCl 75
+  - MWSC 2669
   ref_discovery:
   - Abell1955PASP...67..258A
   host: mw

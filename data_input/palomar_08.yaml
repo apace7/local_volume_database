@@ -10,6 +10,10 @@ name_discovery:
   name: Palomar 8
   ref_discovery:
   - Abell1955PASP...67..258A
+  other_name:
+  - ESO 591-12
+  - MWSC 2974
+  - GCl 100
   host: mw
 distance:
   distance_modulus: 15.268
