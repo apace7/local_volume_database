@@ -1,0 +1,25 @@
+key: mkt_j125225.4-124304.1
+table: dwarf_local_field_distant
+location:
+  ra: 193.1058333333333
+  dec: -12.717777777777778
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2024
+  name: MKT J125225.4-124304.1
+  ref_discovery:
+  - deBlok2024A&A...688A.109D
+  type: Irr
+distance:
+  distance_modulus: 27.30 
+  ref_distance: Karachentsev2013AJ....145..101K
+m_v:
+  apparent_magnitude_v: 16.78
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 402 
+  ref_vlos: deBlok2024A&A...688A.109D
+flux_HI:
+  vlos_systemic_HI: 402 
+  ref_flux_HI: deBlok2024A&A...688A.109D

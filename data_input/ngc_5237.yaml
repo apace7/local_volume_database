@@ -1,0 +1,31 @@
+key: ngc_5237
+table: dwarf_local_field_distant
+location:
+  ra: 204.4120833333333
+  dec: -42.84750000000000
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 5237
+  other_name:
+  - PGC048139
+  - ESO270-022
+distance:
+  distance_modulus: 27.53
+  distance_modulus_em: 0.01
+  distance_modulus_ep: 0.01
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 12.4
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 361
+  vlos_systemic_em: 4
+  vlos_systemic_ep: 4
+  ref_vlos: Koribalski2004AJ....128...16K 
+flux_HI:
+  flux_HI:  11.695
+  vlos_systemic_HI: 361
+  vlos_systemic_HI_em: 4
+  vlos_systemic_HI_ep: 4
+  ref_flux_HI: Koribalski2004AJ....128...16K 

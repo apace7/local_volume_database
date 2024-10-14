@@ -6,8 +6,8 @@ table: misc
 # candidate  == place holder, does not have catalog/table (but is included in pdf)
 # open_cluster == place holder, does not have table
 location:
-  ra: 0 
-  dec: 0 
+  ra: 0
+  dec: 0
 name_discovery:
   confirmed_dwarf: 0
   confirmed_star_cluster: 0
@@ -27,7 +27,7 @@ name_discovery:
 notes:
   - list
 structure:
-  rhalf: 0 
+  rhalf: 0
   rhalf_em: 0
   rhalf_ep: 0
   spatial_units: arcmin, arcsec
@@ -41,10 +41,10 @@ structure:
   position_angle_ep: 0
   ref_structure: ref
 distance:
-  distance_modulus: 0 
+  distance_modulus: 0
   distance_modulus_em: 0
   distance_modulus_ep: 0
-  distance_fixed_host: True 
+  distance_fixed_host: True
   ref_distance: ref
 m_v:
   apparent_magnitude_v: 0
@@ -56,10 +56,10 @@ m_v:
   mean_ebv: 0
   ref_m_v: ref
 proper_motion:
-  pmra: 0 
+  pmra: 0
   pmra_em: 0
   pmra_ep: 0
-  pmdec: 0 
+  pmdec: 0
   pmdec_em: 0
   pmdec_ep: 0
   ref_proper_motion: ref
@@ -81,7 +81,7 @@ metallicity_photometric:
   metallicity_photometric_sigma_ep: 0
   ref_metallicity_photometric: ref
 structure_king:
-  rcore: 0 
+  rcore: 0
   rcore_em: 0
   rcore_ep: 0
   rking: 0 
@@ -119,7 +119,7 @@ structure_eff:
   gamma_eff: 0
   gamma_eff_em: 0
   gamma_eff_ep: 0
-  rad_eff: 0 
+  rad_eff: 0
   rad_eff_em: 0
   rad_eff_ep: 0
   spatial_units: arcmin, arcsec
@@ -132,7 +132,7 @@ structure_eff:
   position_angle_ep: 0
   ref_structure_eff: ref
 structure_plummer:
-  rplmmer: 0 
+  rplmmer: 0
   rplmmer_em: 0
   rplmmer_ep: 0
   spatial_units: arcmin, arcsec
@@ -145,7 +145,7 @@ structure_plummer:
   position_angle_ep: 0
   ref_structure_plummer: ref
 structure_exponential:
-  rexponential: 0 
+  rexponential: 0
   rexponential_em: 0
   rexponential_ep: 0
   spatial_units: arcmin, arcsec
@@ -158,37 +158,38 @@ structure_exponential:
   position_angle_ep: 0
   ref_structure_exponential: ref
 velocity:
-  vlos_systemic: 0 
+  vlos_systemic: 0
   vlos_systemic_em: 0
   vlos_systemic_ep: 0
-  vlos_sigma: 0 
+  vlos_sigma: 0
   vlos_sigma_em: 0
   vlos_sigma_ep: 0
+  vlos_sigma_ul: 0
   vlos_sigma_central: 0
   vlos_sigma_central_em: 0
   vlos_sigma_central_ep: 0
   vlos_rotation: 0
   vlos_rotation_em: 0
   vlos_rotation_ep: 0
-  ref_vlos: ref 
+  ref_vlos: ref
 flux_HI:
-  flux_HI:  0
+  flux_HI: 0
   flux_HI_em: 0
   flux_HI_ep: 0
   flux_HI_ul: 0
-  vlos_systemic_HI: 0 
+  vlos_systemic_HI: 0
   vlos_systemic_HI_em: 0
   vlos_systemic_HI_ep: 0
-  sigma_HI: 0 
+  sigma_HI: 0
   sigma_HI_em: 0
   sigma_HI_ep: 0
-  vrot_HI: 0 
+  vrot_HI: 0
   vrot_HI_em: 0
   vrot_HI_ep: 0
-  ref_flux_HI: ref 
-  ref_HI_kinematics: ref 
+  ref_flux_HI: ref
+  ref_HI_kinematics: ref
 age:
-  age: 0 
+  age: 0
   age_em: 0
   age_ep: 0
   ref_age: ref

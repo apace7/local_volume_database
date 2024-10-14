@@ -1,8 +1,8 @@
 key: cena_dw1342-43
 table: dwarf_local_field_distant
 location:
-  ra: 205.7029
-  dec: -43.8561
+  ra: 205.68249999999998
+  dec: -43.25586111111111
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

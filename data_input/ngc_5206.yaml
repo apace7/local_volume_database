@@ -1,0 +1,30 @@
+key: ngc_5206
+table: dwarf_local_field_distant
+location:
+  ra: 203.43291666666667
+  dec: -48.15111111111110
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  # discovery_year: 0
+  # host: 
+  name: NGC 5206
+  other_name:
+  - PGC047762
+  - ESO220-018
+distance:
+  distance_modulus: 27.51
+  distance_modulus_em: 0.01
+  distance_modulus_ep: 0.01
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 10.77
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 583
+  vlos_systemic_em: 6
+  vlos_systemic_ep: 6
+  ref_vlos: Peterson1993AJ....105.1411P
+flux_HI:
+  flux_HI_ul: 1.445
+  ref_flux_HI: Karachentsev2013AJ....145..101K

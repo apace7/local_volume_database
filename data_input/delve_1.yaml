@@ -13,16 +13,18 @@ name_discovery:
   - Mau2020ApJ...890..136M
   - DrlicaWagner2020ApJ...893...47D
   abbreviation: DEL1
+notes:
+- distance updated in Simon2024arXiv241008276S based on new metallicity
 age:
   age: 12.5
   age_em: 0.7
   age_ep: 1.0
   ref_age: Mau2020ApJ...890..136M
 distance:
-  distance_modulus: 16.39
+  distance_modulus: 16.68
   distance_modulus_em: 0.12
   distance_modulus_ep: 0.12
-  ref_distance: Mau2020ApJ...890..136M
+  ref_distance: Simon2024arXiv241008276S
 m_v:
   apparent_magnitude_v: 16.19
   apparent_magnitude_v_em: 0.6
@@ -53,4 +55,14 @@ structure:
   rhalf: 0.97
   rhalf_em: 0.19
   rhalf_ep: 0.27
-
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.6
+  metallicity_spectroscopic_em: 0.28
+  metallicity_spectroscopic_ep: 0.37
+  ref_metallicity_spectroscopic: Simon2024arXiv241008276S
+velocity:
+  vlos_systemic: -402.7
+  vlos_systemic_em: 0.6
+  vlos_systemic_ep: 0.6
+  vlos_sigma_ul: 3.2
+  ref_vlos: Simon2024arXiv241008276S

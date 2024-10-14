@@ -6,7 +6,6 @@ location:
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: ngc_0253
   name: ESO 540-032
   other_name:
@@ -14,22 +13,15 @@ name_discovery:
   - FG24
   - KK98-010 #[KK98]010
   - PGC002933
-#   ref_discovery:
-#   - list
-# notes:
-# - list
-# structure:
-#   rhalf: 0
-#   rhalf_em: 0
-#   rhalf_ep: 0
-#   ellipticity: 0
-#   ellipticity_em: 0
-#   ellipticity_ep: 0
-#   ellipticity_ul: 0
-#   position_angle: 0
-#   position_angle_em: 0
-#   position_angle_ep: 0
-#   ref_structure: ref
+structure:
+  rhalf: 28.8
+  rhalf_em: 1.4
+  rhalf_ep: 1.4
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.4
+  position_angle: -45
+  ref_structure: Kirby2008AJ....136.1866K
 distance:
   distance_modulus: 28.80
   distance_modulus_em: 0.03
@@ -37,24 +29,6 @@ distance:
   ref_distance: Jacobs2009AJ....138..332J
 m_v:
   apparent_magnitude_v: 16.04
-  # apparent_magnitude_v_em: 0
-  # apparent_magnitude_v_ep: 0
-  # ref_m_v: ref
-# structure_sersic:
-#   n_sersic: 0
-#   n_sersic_em: 0
-#   n_sersic_ep: 0
-#   rad_sersic: 0
-#   rad_sersic_em: 0
-#   rad_sersic_ep: 0
-#   ellipticity: 0
-#   ellipticity_em: 0
-#   ellipticity_ep: 0
-#   ellipticity_ul: 0
-#   position_angle: 0
-#   position_angle_em: 0
-#   position_angle_ep: 0
-#   ref_structure_sersic: ref
 velocity:
   vlos_systemic: 227.7
   vlos_systemic_em: 0.9

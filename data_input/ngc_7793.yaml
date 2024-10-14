@@ -1,0 +1,45 @@
+key: ngc_7793
+table: dwarf_local_field_distant
+location:
+  ra: 359.45583333333326
+  dec: -32.59
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1826
+  # host: misc
+  name: NGC 7793
+  other_name:
+  - PGC073049
+  - ESO349-012
+  # ref_discovery:
+  # - list
+  type: SA(s)d
+structure:
+  rhalf: 88.9
+  rhalf_em: 5.5
+  rhalf_ep: 5.5
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.4
+  position_angle: -80
+  ref_structure: Kirby2008AJ....136.1866K
+distance:
+  distance_modulus: 27.80 
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 9.15
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 227 
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Koribalski2004AJ....128...16K
+flux_HI:
+  flux_HI:  162.930
+  vlos_systemic_HI: 227
+  vlos_systemic_HI_em: 2
+  vlos_systemic_HI_ep: 2
+  ref_flux_HI: Koribalski2004AJ....128...16K

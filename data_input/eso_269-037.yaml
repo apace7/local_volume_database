@@ -1,0 +1,31 @@
+key: eso_269-037
+table: dwarf_local_field_distant
+location:
+  ra: 195.89
+  dec: -46.58416666666667
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5128
+  name: ESO 269-037
+  other_name:
+  - KK179
+  - PGC045104
+distance:
+  distance_modulus: 27.59
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 15.51
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 743.8
+  vlos_systemic_em: 2.1
+  vlos_systemic_ep: 2.1
+  ref_vlos: Karachentsev2013AJ....145..101K
+flux_HI:
+  flux_HI: 0.14
+  flux_HI_em: 0.02
+  flux_HI_ep: 0.02
+  ref_flux_HI: Karachentsev2013AJ....145..101K

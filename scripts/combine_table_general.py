@@ -396,7 +396,8 @@ def value_add(input_table, table_type='dwarf', **kwargs):
         input_table['rhalf_sph_physical_ep'][i] = rh_azi[2]
 
     ## average surface brightness within half-light radius
-    input_table['surface_brightness_rhalf'] = input_table['M_V'] + 19.78 + input_table['distance_modulus'] +  2.5 * np.log10(np.degrees(np.arctan(input_table['rhalf_sph_physical']/1000./input_table['distance']))**2)
+        if ma.is_masked(input_table['rhalf_sph_physical'][i])==False:
+            input_table['surface_brightness_rhalf'] = input_table['M_V'][i] + 19.78 + input_table['distance_modulus'][i] +  2.5 * np.log10(np.degrees(np.arctan(input_table['rhalf_sph_physical'][i]/1000./input_table['distance'][i]))**2)
 
     return input_table
 

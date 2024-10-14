@@ -1,12 +1,21 @@
+key: ugc_08508
+table: dwarf_local_field
+location:
+  ra: 202.685
+  dec: 54.91
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1962
+  name: UGC 8508
+  ref_discovery:
+  - VorontsovVelYaminov1962TrSht..32..207V
+  type: dIrr
 distance:
   distance_modulus: 27.06
   distance_modulus_em: 0.03
   distance_modulus_ep: 0.03
   ref_distance: McConnachie2012AJ....144....4M
-key: ugc_8508
-location:
-  dec: 54.91
-  ra: 202.685
 m_v:
   apparent_magnitude_v: 13.7
   apparent_magnitude_v_em: 0.1
@@ -17,14 +26,6 @@ metallicity_photometric:
   metallicity_photometric_em: 0.19
   metallicity_photometric_ep: 0.19
   ref_metallicity_photometric: McConnachie2006MNRAS.365.1263M
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1962
-  name: UGC 8508
-  ref_discovery:
-  - VorontsovVelYaminov1962TrSht..32..207V
-  type: dIrr
 structure:
   ellipticity: 0.45
   ellipticity_em: 0.05
@@ -36,7 +37,6 @@ structure:
   rhalf: 0.42
   rhalf_em: 0.04
   rhalf_ep: 0.04
-table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 56.0

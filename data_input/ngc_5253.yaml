@@ -1,0 +1,33 @@
+key: ngc_5253
+table: dwarf_local_field_distant
+location:
+  ra: 204.9825
+  dec: -31.64
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5128
+  name: NGC 5253
+  other_name:
+  - PGC048334
+  - UGCA369
+  - ESO445-004
+distance:
+  distance_modulus: 27.68
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 10.32
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 407
+  vlos_systemic_em: 3
+  vlos_systemic_ep: 3
+  ref_vlos: Koribalski2004AJ....128...16K 
+flux_HI:
+  flux_HI:  29.107
+  vlos_systemic_HI: 407
+  vlos_systemic_HI_em: 3
+  vlos_systemic_HI_ep: 3
+  ref_flux_HI: Koribalski2004AJ....128...16K 
