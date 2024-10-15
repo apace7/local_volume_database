@@ -1,0 +1,31 @@
+key: bk6n
+table: dwarf_local_field_distant
+location:
+  ra: 158.632916667
+  dec: 66.011666667
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1982
+  host: m_081
+  name: BK6N
+  other_name:
+  - KK91
+  - PGC031286
+  ref_discovery:
+  - Boerngen1982AN....303..189B
+  type: dSph
+structure:
+  rhalf: 16.6
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Chiboucas2009AJ....137.3009C
+distance:
+  distance_modulus: 27.60
+  distance_modulus_em: 0.14
+  distance_modulus_ep: 0.14
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 16.54
+  ref_m_v: Karachentsev2013AJ....145..101K
+  
