@@ -16,7 +16,7 @@ name_discovery:
   type: dIrr?
 structure:
   rhalf: 16.0
-  spatial_unit: arcsec
+  spatial_units: arcsec
   ref_structure: Muller2017A&A...597A...7M
 distance:
   distance_modulus: 27.99

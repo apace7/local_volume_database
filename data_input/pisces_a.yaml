@@ -19,7 +19,7 @@ structure:
   rhalf: 0.1516666667
   rhalf_em: 0.001666666667
   rhalf_ep: 0.001666666667
-  spatial_unit: arcmin
+  spatial_units: arcmin
   ellipticity: 0.34
   ellipticity_em: 0.01
   ellipticity_ep: 0.01

@@ -17,7 +17,7 @@ structure:
   rhalf: 0.3333333333
   ellipticity: 0.6
   position_angle: 58
-  spatial_unit: arcmin
+  spatial_units: arcmin
   ref_structure: Bedin2019MNRAS.484L..54B
 distance:
   distance_modulus: 29.7

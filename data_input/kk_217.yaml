@@ -1,0 +1,26 @@
+key: kk_217
+table: dwarf_local_field_distant
+location:
+  ra: 206.57166666666666
+  dec: -45.68472222222222
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5128
+  name: KK 217
+  other_name:
+  - PGC166175
+  - AM 1343-452
+structure:
+  rhalf: 13.7
+  spatial_units: arcsec
+  spatial_model:  sersic
+  ref_structure: Jerjen2000AJ....119..593J
+distance:
+  distance_modulus: 27.72
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.2
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 16.74
+  ref_m_v: Karachentsev2013AJ....145..101K
