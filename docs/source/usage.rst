@@ -1,6 +1,8 @@
 Usage & Decription of tables 
 ============================
 
+For LVDB users that only want to  use  the combined catalogs/tables, installing the LVDB package is not required and the tables can be downloaded from the release page.
+
 .. _installation:
 
 Installation (note that this doesn't work yet)
@@ -11,6 +13,9 @@ To use local_volume_database, first install it using pip:
 .. code-block:: console
 
    (.venv) $ pip install local_volume_database
+
+The `LVDBDIR` envirnment variable is used to point to the location of the input YAML files (/data_input/). 
+
 
 Database content
 ----------------
@@ -33,7 +38,7 @@ The tables can be directly loaded into jupyter notebooks without having to downl
 There is also a pdf document in release page summarizing the contents and properties of each combined table (`pdf summary file <https://github.com/apace7/local_volume_database/releases/download/v0.0.2/lvdb_table.pdf>`_ Note to verify that you are using the latest release here). 
 
 
-Decription of tables 
+Decription of Catalogs/Tables 
 --------------------
 
 The following are the available tables (in csv and fits file formats). The fits file format is limited to github releases while the csv is include both in the release and the main catalog.
@@ -47,7 +52,7 @@ The following are the available tables (in csv and fits file formats). The fits 
 * **gc_halo**: New star cluster-like systems in the Galactic halo or ambiguous compact stellar systems. These are faint star-cluster like systems (generally rhalf < 20 pc and M_V > -3 and at high Galactic latitudes abs(b) > ~5-10). A number of these systems are likely tidally stripped star clusters, tidally stripped dwarf galaxies, or the faintest dwarf galaxies. Many have are ambiguous classifications (as in the classification for dwarf galaxy and star cluster is ambiguous) and are difficult to classify. This does include several new Globular Cluster (Laevens 1/Crater I and Sagittarius II).
 * **gc_disk**: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these systems might be open clusters, and some systems have not been confirmed
 * **gc_harris**: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_ufsc table)
-* **gc_dwarf_hosted**: Globular clusters hosted by dwarf galaxies. This does not include the Sagittarius GCs which are in gc_harris. Incomplete table.
+* **gc_dwarf_hosted**: Globular clusters hosted by dwarf galaxies. This does not include the Sagittarius GCs which are in gc_harris. Incomplete catalog.
 
  (Note that older versions had  small differences between dwarf galaxy and star cluster catalogs)
 
@@ -60,7 +65,7 @@ j_factor.csv: key, reference, angle, j-factor measurement [units are log10 GeV^2
 .. Decription of table contents
 .. ----------------------------
 
-columns:
+Columns:
 
 * key: unique identifier for each system.  The yaml input files have the same name.
 * host: host of system [MW, LMC, M31, etc]
@@ -86,7 +91,7 @@ columns:
 * flux_HI: flux in HI [Jy km s^−1]
 * ref_ + x : reference columns such as ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion.  All reference columns have the same format: author last name + ADS bibcode. 
 
-Value added Columns
+Value-Added Columns:
 
 * M_V: absolute V-band magnitude, computed from distance_modulus and apparent_magnitude_V
 * mass_stellar: log10 stellar mass assuming M/L=2 and computed from M_V [log10 Msun]
@@ -113,20 +118,21 @@ Value added Columns
 
 Many columns also have associated error columns. These follow the format of name + _em, + _ep + _ul (e.g., rhalf_em).
 
-error columns: 
+Error Columns: 
 
-* _em = error minus = minus 1 sigma (or 16% confidence interval) 
-* _ep = error plus = plus 1 sigma (84% confidence interval)
-* _ul = upper limit at 95% confidence interval (some are at 5sigma, 90% or 84%, but the goal is to make it consistent)
+* _em = error minus = minus 1 sigma (or 16% confidence/credible interval) 
+* _ep = error plus = plus 1 sigma (84% confidence/credible interval)
+* _ll = lower limt at  5% confidence/credible interval 
+* _ul = upper limit at 95% confidence/credible interval (some are at 5sigma, 90% or 84%, but the goal is to make it consistent)
 
-The reference format is author last name + ADS bibcode. The author's last name has special characters removed but the capitalization is unchanged. 
+The format for the reference columns is author last name + ADS bibcode. The author's last name has special characters removed but the capitalization is unchanged. 
 There is an associated bibtex file (latex/lvdb.bib) that includes all references in the database. 
 
 Decription of yaml files 
 ------------------------
 
 There is an `example yaml file <https://github.com/apace7/local_volume_database/blob/main/code/example_yaml.yaml>`_ in the /code/ folder. 
-It includes all collections and keys in the database with a short descrition and units.  Not all keys are included in the combined csv tables.
+It includes all collections and keys in the database.  Not all keys are included in the combined csv tables.
 The yaml keys are **Bolded** below and the bullet points follow the yaml collection structure.  Errors columns are not included in the list below and some columns include upper limits in the combined table. 
 The collections are split such that a single reference can describe the contents.
 
