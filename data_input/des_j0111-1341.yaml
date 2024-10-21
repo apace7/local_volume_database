@@ -6,7 +6,7 @@ location:
 name_discovery:
   false_positive: 1
   discovery_year: 2016
-  host: MW
+  host: mw
   name: DES J0111-1341
   other_name:
   - DES 2

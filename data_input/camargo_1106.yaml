@@ -9,7 +9,7 @@ name_discovery:
   confirmed_real: 0
   false_positive: 1
   discovery_year: 2018
-  host: MW
+  host: mw
   name: Camargo 1106
   ref_discovery:
   - Camargo2018ApJ...860L..27C

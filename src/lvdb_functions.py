@@ -5,8 +5,11 @@ import os.path
 import numpy.ma as ma
 import numpy as np
 
+lvdb_path = os.environ.get('LVDBDIR')
+print(lvdb_path)
+
 def get_notes(key, **kwargs):
-    path = kwargs.get('path', '/Users/apace/Documents/local_volume_database/data_input/')
+    path = kwargs.get('path', lvdb_path + '/data_input/')
     with open(path+ key + '.yaml', 'r') as stream:
         try:
             stream_yaml = yaml.load(stream, Loader=yaml.Loader)
@@ -44,7 +47,7 @@ def add_column(table, yaml_key, yaml_name, **kwargs):
     col_type = kwargs.get('col_type', 'float')
     table[table_yaml_name] = np.ma.masked_all(len(table), dtype=col_type)
     #np.zeros(len(table), dtype=col_type)
-    path = kwargs.get('path', '/Users/apace/Documents/local_volume_database/data_input/')
+    path = kwargs.get('path', lvdb_path + '/data_input/')
     for i in range(len(table)):
         k = table['key'][i]
         with open(path+ k +'.yaml', 'r') as stream:
@@ -79,7 +82,7 @@ def make_latex_value(value, em, ep, **kwargs):
 
 def add_year(table, **kwargs):
     table['year'] = np.zeros(len(table), dtype=int)
-    path = kwargs.get('path', '/Users/apace/Documents/local_volume_database/data_input/')
+    path = kwargs.get('path', lvdb_path +'data_input/')
     for i in range(len(table)):
         k = table['key'][i]
         with open(path+ k +'.yaml', 'r') as stream:

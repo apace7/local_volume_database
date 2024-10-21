@@ -6,7 +6,7 @@ location:
 name_discovery:
   false_positive: 1
   discovery_year: 2016
-  host: MW
+  host: mw
   name: DES J0225+0304
   ref_discovery:
   - Luque2017MNRAS.468...97L

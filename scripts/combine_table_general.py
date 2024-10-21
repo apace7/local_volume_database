@@ -65,6 +65,9 @@ comb_dwarf_m31 = table.Table(np.zeros((Counter(table_list)['dwarf_m31'], 3)),nam
 comb_dwarf_lf = table.Table(np.zeros((Counter(table_list)['dwarf_local_field'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 comb_dwarf_lf_distant = table.Table(np.zeros((Counter(table_list)['dwarf_local_field_distant'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 
+comb_candidate = table.Table(np.zeros((Counter(table_list)['candidate'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
+comb_host = table.Table(np.zeros((Counter(table_list)['misc'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
+
 for i,j in zip(col_name_dwarf, col_type_dwarf):
     comb_dwarf_mw[i] = np.ma.masked_all(len(comb_dwarf_mw), dtype=j)
     comb_dwarf_m31[i] = np.ma.masked_all(len(comb_dwarf_m31), dtype=j)
@@ -75,6 +78,9 @@ for i,j in zip(col_name_dwarf, col_type_dwarf):
     comb_gc_harris[i] = np.ma.masked_all(len(comb_gc_harris), dtype=j)
     comb_gc_disk[i] = np.ma.masked_all(len(comb_gc_disk), dtype=j)
     comb_gc_dwarf[i] = np.ma.masked_all(len(comb_gc_dwarf), dtype=j)
+
+    comb_candidate[i] = np.ma.masked_all(len(comb_candidate), dtype=j)
+    comb_host[i] = np.ma.masked_all(len(comb_host), dtype=j)
 
 ## distance modulus
 def dist_mod(mu, mu_em=0, mu_ep=0):
@@ -234,24 +240,24 @@ def value_add(input_table, table_type='dwarf', **kwargs):
             if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
                 y = np.random.normal(ellipticity, (ellipticity_em+ellipticity_ep)/2., n)
             elif ma.is_masked(ellipticity)==False:
-                y=np.empty(len(x))
+                y=np.empty(n)
                 y.fill(ellipticity)
             else:
-                y = np.zeros(len(x))
+                y = np.zeros(n)
             if ma.is_masked(distance_em)==False and ma.is_masked(distance)==False:
                 z = np.random.normal(distance, (distance_em+distance_ep)/2., n)
             elif ma.is_masked(distance)==False:
-                z=np.empty(len(x))
+                z=np.empty(n)
                 z.fill(distance)
             else:
-                z = np.full(1000, distance)
+                z = np.zeros(n)
             x2 = x[np.logical_and(y>=0, y<1)]
             y2 = y[np.logical_and(y>=0, y<1)]
             z2 = z[np.logical_and(y>=0, y<1)]
             comb = x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2
             comb2 = comb[~np.isnan(comb)]
             if len(comb2)==0:
-                return np.ma.masked,np.ma.masked,np.ma.masked
+                return [np.ma.masked,np.ma.masked,np.ma.masked]
         
             mean = corner.quantile(comb2, [.5, .1587, .8413, 0.0227501, 0.97725])
             return [mean[0], mean[0]-mean[1], mean[2]-mean[0]]
@@ -413,6 +419,8 @@ place_gc_harris = 0
 place_gc_disk = 0
 place_gc_ufsc =0 
 place_gc_dwarf =0 
+place_candidate =0
+place_misc = 0
 example_keys= ['discovery_year', 'other_name', 'ref_discovery', 'type', 'spatial_units', 'central_surface_brightness', 'central_surface_brightness_em', 'central_surface_brightness_ep', 'false_positive', 'metallicity_photometric_sigma', 'mean_ebv', 'king_concentration', 'king_concentration_em', 'king_concentration_ep', 'abbreviation', 'vlos_sigma_central', 'vlos_sigma_central_em', 'vlos_sigma_central_ep', 'confirmed_star_cluster', 'vlos_systemic_HI', 'vlos_systemic_HI_em', 'vlos_systemic_HI_ep', 'sigma_HI', 'sigma_HI_em', 'sigma_HI_ep', 'vrot_HI', 'vrot_HI_em', 'vrot_HI_ep', 'ref_HI_kinematics',  'metallicity_photometric_sigma_em', 'metallicity_photometric_sigma_ep', 'apparent_magnitude_v_ul', 'age_ll']
 
 ## this add each galaxy/star cluster to the tables. 
@@ -442,7 +450,13 @@ for i in range(len(dir_list)):
             place_gc_ufsc+=1 
         elif stream_yaml['table'] == 'gc_dwarf_hosted':
             miss = add_to_table(stream_yaml, comb_gc_dwarf, place_gc_dwarf)
-            place_gc_dwarf+=1 
+            place_gc_dwarf+=1
+        elif stream_yaml['table'] == 'candidate':
+            miss = add_to_table(stream_yaml, comb_candidate, place_candidate)
+            place_candidate+=1
+        elif stream_yaml['table'] == 'misc':
+            miss = add_to_table(stream_yaml, comb_host, place_misc)
+            place_misc+=1 
         else:
             missing_table.append(stream_yaml['table'])
             missing_table_key.append(stream_yaml['key'])
@@ -476,6 +490,9 @@ comb_dwarf_m31 = value_add(comb_dwarf_m31, table_type='dwarf')
 comb_dwarf_lf = value_add(comb_dwarf_lf, table_type='dwarf')
 comb_dwarf_lf_distant = value_add(comb_dwarf_lf_distant, table_type='dwarf') # , spatial_units='arcsec'
 
+comb_candidate = value_add(comb_candidate, table_type='dwarf')
+comb_host = value_add(comb_host, table_type='dwarf')
+
 print("Value added columns added")
 
 comb_dwarf_mw.sort('key')
@@ -495,6 +512,14 @@ comb_gc_disk.write('data/gc_mw_new.csv', format='csv',overwrite=True)
 comb_gc_harris.write('data/gc_harris.csv', format='csv',overwrite=True)
 comb_gc_ufsc.write('data/gc_ambiguous.csv', format='csv',overwrite=True)
 comb_gc_dwarf.write('data/gc_dwarf_hosted.csv', format='csv',overwrite=True)
+
+comb_candidate.sort('key')
+comb_host.sort('key')
+comb_candidate.write('data/candidate.csv', format='csv',overwrite=True)
+comb_host.write('data/misc_host.csv', format='csv',overwrite=True)
+
+comb_candidate.write('data/candidate.fits', format='fits', overwrite=True)
+comb_host.write('data/misc_host.fits', format='fits', overwrite=True)
 
 # comb_gc_ufsc.write('data/gc_ufsc.dat', format='ascii', overwrite=True)
 # comb_gc_ufsc.write('data/gc_ufsc.mrt', format='ascii.mrt', overwrite=True)

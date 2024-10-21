@@ -6,7 +6,7 @@ location:
 name_discovery:
   discovery_year: 2007
   false_positive: 1
-  host: MW
+  host: mw
   name: Candidate Y
   other_name:
   - Object Y

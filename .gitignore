@@ -20,6 +20,8 @@ table/lvdb_table.pdf
 paper_examples/*.pdf
 
 data/*.fits
+data/candidate.csv
+data/misc_host.csv
 
 # Distribution / packaging
 .Python

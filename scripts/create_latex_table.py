@@ -46,7 +46,7 @@ def make_latex_value(value, em, ep, **kwargs):
     return str_out
 def add_year(table):
     table['year'] = np.zeros(len(table), dtype=int)
-    path = '/Users/apace/Documents/local_volume_database/data_input/'
+    # path = '/Users/apace/Documents/local_volume_database/data_input/'
     for i in range(len(table)):
         k = table['key'][i]
         with open(path+ k +'.yaml', 'r') as stream:
@@ -66,7 +66,7 @@ def add_column(table, yaml_key, yaml_name, **kwargs):
     col_type = kwargs.get('col_type', 'float')
     table[table_yaml_name] = np.ma.masked_all(len(table), dtype=col_type)
     #np.zeros(len(table), dtype=col_type)
-    path = '/Users/apace/Documents/local_volume_database/data_input/'
+    # path = '/Users/apace/Documents/local_volume_database/data_input/'
     for i in range(len(table)):
         k = table['key'][i]
         with open(path+ k +'.yaml', 'r') as stream:
