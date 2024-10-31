@@ -13,9 +13,9 @@ dependencies = ["numpy","astropy","matplotlib","pyyaml", "corner"
 description = "local volume database package: Catalog of local volume dwarf galaxies and star clusters"
 classifiers = [
     "Programming Language :: Python :: 3",
+    "License :: CC0-1.0 license",
     "Operating System :: OS Independent",
 ]
-dynamic = ["license"]
 
 [project.urls]
 Homepage = "https://github.com/apace7/local_volume_database"

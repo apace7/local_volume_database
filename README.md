@@ -22,6 +22,18 @@ The tables can be directly loaded into Jupyter notebooks without having to downl
 If you use this in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the database paper (once it is written). It is highly encouraged to cite the input references of the database if they are used in your work. An example in latex is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }}.
 
 ### INSTALLATION:
-Todo.
 
-The data is available as csv files (and other files)
+Users that only want to use the catalog tables do not need to install the package. The package is focused on helper functions and yaml file access. 
+
+The data is available as csv files (and other files) in the release pages.
+
+The package is installable locally via pip:
+
+```
+git clone https://github.com/apace7/local_volume_database.git
+cd local_volume_database
+python -m build
+pip install .
+```
+
+The `LVDBDIR` envirnment variable is used to point to the location of the input YAML files (/data_input/). 

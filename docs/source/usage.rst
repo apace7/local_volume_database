@@ -5,17 +5,20 @@ For LVDB users that only want to  use  the combined catalogs/tables, installing 
 
 .. _installation:
 
-Installation (note that this doesn't work yet)
+Installation 
 ------------
 
-To use local_volume_database, first install it using pip:
+The LVDB package is installable locally:
 
 .. code-block:: console
 
-   (.venv) $ pip install local_volume_database
+  git clone https://github.com/apace7/local_volume_database.git
+  cd local_volume_database
+  python -m build
+  pip install .
 
 The `LVDBDIR` envirnment variable is used to point to the location of the input YAML files (/data_input/). 
-
+Pip package coming. 
 
 Database content
 ----------------
