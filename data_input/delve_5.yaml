@@ -12,7 +12,7 @@ name_discovery:
   other_name:
   - DELVE J1448+1728
   ref_discovery:
-  - Cerny2023ApJ...953....1C  
+  - Cerny2023ApJ...953....1C
 age:
   age: 10.0
   ref_age: Cerny2023ApJ...953....1C
@@ -25,11 +25,8 @@ m_v:
   apparent_magnitude_v: 18.37
   apparent_magnitude_v_em: 0.9
   apparent_magnitude_v_ep: 0.4
-  mean_ebv: 0.030
+  mean_ebv: 0.03
   ref_m_v: Cerny2023ApJ...953....1C
-metallicity_photometric:
-  metallicity_photometric: -2.2
-  ref_metallicity_photometric: Cerny2023ApJ...953....1C
 proper_motion:
   pmdec: -0.93
   pmdec_em: 0.12
@@ -51,3 +48,6 @@ structure:
   rhalf_ep: 0.24
   spatial_model: plummer
   spatial_units: arcmin
+metallicity_isochrone:
+  metallicity_isochrone: -2.2
+  ref_metallicity_isochrone: Cerny2023ApJ...953....1C

@@ -1,8 +1,8 @@
 key: fsr_1415
 table: open_cluster
 location:
-  ra: 130.0995833333333  # [deg]
-  dec: -44.72416666666667 # [deg]
+  ra: 130.0995833333333
+  dec: -44.72416666666667
 name_discovery:
   confirmed_star_cluster: 0
   confirmed_real: 0
@@ -16,10 +16,10 @@ name_discovery:
   - He2023ApJS..267...34H
   type: OC
 notes:
-  - GC candidate He2023ApJS..267...34H
-  - OC candidate Saroon2024A&A...689A.115S
-  - velocity from 1 Gaia RVS star He2023ApJS..267...34H 
-  - APB if velocity is correct this is a disk-like orbit and open cluster like
+- GC candidate He2023ApJS..267...34H
+- OC candidate Saroon2024A&A...689A.115S
+- velocity from 1 Gaia RVS star He2023ApJS..267...34H
+- APB if velocity is correct this is a disk-like orbit and open cluster like
 structure:
   rhalf: 1.35
   rhalf_em: 0.27
@@ -27,37 +27,37 @@ structure:
   spatial_units: arcmin
   ref_structure: Saroon2024A&A...689A.115S
 distance:
-  distance_modulus: 15.15 
-  distance_modulus_em: 0.10
-  distance_modulus_ep: 0.10
+  distance_modulus: 15.15
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
   ref_distance: Saroon2024A&A...689A.115S
 proper_motion:
-  pmra: -1.971 # [mas/yr]
-  pmra_em: 0.20
-  pmra_ep: 0.20
-  pmdec: 2.305 # [mas/yr]
-  pmdec_em: 0.020
-  pmdec_ep: 0.020
+  pmra: -1.971
+  pmra_em: 0.2
+  pmra_ep: 0.2
+  pmdec: 2.305
+  pmdec_em: 0.02
+  pmdec_ep: 0.02
   ref_proper_motion: Saroon2024A&A...689A.115S
-metallicity_photometric:
-  metallicity_photometric: -0.1
-  metallicity_photometric_em: 0.2
-  metallicity_photometric_ep: 0.2
-  ref_metallicity_photometric: Saroon2024A&A...689A.115S
 structure_king:
-  rcore: 0.58 # [arcmin]
+  rcore: 0.58
   rcore_em: 0.02
   rcore_ep: 0.02
-  rking: 11.06 # [arcmin]
+  rking: 11.06
   rking_em: 4.2
   rking_ep: 4.2
   spatial_units: arcmin
   ref_structure_king: Saroon2024A&A...689A.115S
 age:
-  age: 3 ## [Gyr]
+  age: 3
   ref_age: Saroon2024A&A...689A.115S
 velocity:
   vlos_systemic: 54.82
   vlos_systemic_em: 4.93
   vlos_systemic_ep: 4.93
-  ref_vlos: He2023ApJS..267...34H 
+  ref_vlos: He2023ApJS..267...34H
+metallicity_isochrone:
+  metallicity_isochrone: -0.1
+  metallicity_isochrone_em: 0.2
+  metallicity_isochrone_ep: 0.2
+  ref_metallicity_isochrone: Saroon2024A&A...689A.115S

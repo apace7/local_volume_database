@@ -1,7 +1,7 @@
 key: lmc_gc_ngc_2210
 table: gc_dwarf_hosted
 location:
-  ra: 92.881875 
+  ra: 92.881875
   dec: -69.12177777777777
 name_discovery:
   confirmed_star_cluster: 1
@@ -46,9 +46,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.02
   metallicity_spectroscopic_sigma: 0.04
   ref_metallicity_spectroscopic: Mucciarelli2010ApJ...717..277M
-metallicity_photometric:
-  metallicity_photometric: -1.4
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 velocity:
   vlos_systemic: 342.6
   vlos_systemic_em: 7.8
@@ -57,3 +54,6 @@ velocity:
 age:
   age: 12.0
   ref_age: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -1.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

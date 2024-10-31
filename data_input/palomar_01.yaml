@@ -29,11 +29,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.65
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-metallicity_photometric:
-  metallicity_photometric: -0.6
-  metallicity_photometric_em: 0.2
-  metallicity_photometric_ep: 0.2
-  ref_metallicity_photometric: Rosenberg1998AJ....115..648R
 proper_motion:
   pmdec: 0.0075
   pmdec_em: 0.0373
@@ -50,3 +45,8 @@ velocity:
   vlos_systemic: -75.72
   vlos_systemic_em: 0.29
   vlos_systemic_ep: 0.29
+metallicity_isochrone:
+  metallicity_isochrone: -0.6
+  metallicity_isochrone_em: 0.2
+  metallicity_isochrone_ep: 0.2
+  ref_metallicity_isochrone: Rosenberg1998AJ....115..648R

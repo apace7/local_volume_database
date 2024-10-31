@@ -55,4 +55,4 @@ metallicity_photometric:
   metallicity_photometric_sigma: 0.33
   metallicity_photometric_sigma_em: 0.07
   metallicity_photometric_sigma_ep: 0.07
-  ref_metallicity_photometric: Fu2024arXiv240704698F
+  ref_metallicity_photometric: Fu2024ApJ...975....2F

@@ -1,8 +1,8 @@
 key: ngc_0253-snfc-dw1
 table: dwarf_local_field_distant
 location:
-  ra: 12.165333333333333  # [deg]
-  dec: -26.56352777777778 # [deg]
+  ra: 12.165333333333333
+  dec: -26.56352777777778
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
@@ -13,9 +13,9 @@ name_discovery:
   ref_discovery:
   - Okamoto2024ApJ...967L..24O
 notes:
-  - SNFC = Subaru Near Field Cosmology
+- SNFC = Subaru Near Field Cosmology
 structure:
-  rhalf: 192 # [arcsec]
+  rhalf: 192
   rhalf_em: 9.6
   rhalf_ep: 9.6
   spatial_units: arcsec
@@ -23,7 +23,7 @@ structure:
   position_angle: 104.8
   ref_structure: Okamoto2024ApJ...967L..24O
 distance:
-  distance_modulus: 27.79 
+  distance_modulus: 27.79
   distance_modulus_em: 0.12
   distance_modulus_ep: 0.12
   ref_distance: Okamoto2024ApJ...967L..24O
@@ -32,16 +32,11 @@ m_v:
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
   ref_m_v: Okamoto2024ApJ...967L..24O
-metallicity_photometric:
-  metallicity_photometric: -1.51
-  metallicity_photometric_em: 0.10
-  metallicity_photometric_ep: 0.10
-  ref_metallicity_photometric: Okamoto2024ApJ...967L..24O
 structure_sersic:
   n_sersic: 0.45
   n_sersic_em: 0.04
   n_sersic_ep: 0.04
-  rad_sersic: 192 # [arcsec]
+  rad_sersic: 192
   rad_sersic_em: 9.6
   rad_sersic_ep: 9.6
   spatial_units: arcsec
@@ -49,5 +44,10 @@ structure_sersic:
   position_angle: 104.8
   ref_structure_sersic: Okamoto2024ApJ...967L..24O
 age:
-  age: 10 ## [Gyr]
+  age: 10
   ref_age: Okamoto2024ApJ...967L..24O
+metallicity_isochrone:
+  metallicity_isochrone: -1.51
+  metallicity_isochrone_em: 0.1
+  metallicity_isochrone_ep: 0.1
+  ref_metallicity_isochrone: Okamoto2024ApJ...967L..24O

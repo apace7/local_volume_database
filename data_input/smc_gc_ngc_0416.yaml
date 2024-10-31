@@ -29,11 +29,8 @@ proper_motion:
   pmdec_em: 0.03
   pmdec_ep: 0.03
   ref_proper_motion: Milone2023A&A...672A.161M
-metallicity_photometric:
-  metallicity_photometric: -1.2
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -0.80
+  metallicity_spectroscopic: -0.8
   metallicity_spectroscopic_sigma: 0.17
   ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
 velocity:
@@ -47,3 +44,6 @@ velocity:
 age:
   age: 6.0
   ref_age: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -1.2
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

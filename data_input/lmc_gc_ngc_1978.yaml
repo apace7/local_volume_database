@@ -6,16 +6,11 @@ location:
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: lmc
   name: NGC 1978
   other_name:
   - SL 501
-  # ref_discovery:
-  # - list
   type: GC
-# notes:
-# - list
 structure:
   rhalf: 0.757
   spatial_units: arcmin
@@ -31,16 +26,13 @@ proper_motion:
   pmra: 1.76
   pmra_em: 0.03
   pmra_ep: 0.03
-  pmdec: 0.40
+  pmdec: 0.4
   pmdec_em: 0.04
   pmdec_ep: 0.04
   ref_proper_motion: Milone2023A&A...672A.161M
-metallicity_photometric:
-  metallicity_photometric: -0.5
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.49
-  metallicity_spectroscopic_sigma: 0.10
+  metallicity_spectroscopic_sigma: 0.1
   ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
 velocity:
   vlos_systemic: 293.1
@@ -53,3 +45,6 @@ velocity:
 age:
   age: 2.5
   ref_age: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.5
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

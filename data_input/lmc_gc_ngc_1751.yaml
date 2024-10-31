@@ -11,7 +11,7 @@ name_discovery:
   other_name:
   - SL 89
 structure:
-  rhalf: 4.50
+  rhalf: 4.5
   spatial_units: arcsec
   ref_structure: Goudfrooij2014ApJ...797...35G
 distance:
@@ -31,9 +31,6 @@ proper_motion:
   pmdec_em: 0.1
   pmdec_ep: 0.1
   ref_proper_motion: Milone2023A&A...672A.161M
-metallicity_photometric:
-  metallicity_photometric: -0.5
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.46
   metallicity_spectroscopic_sigma: 0.14
@@ -49,3 +46,6 @@ velocity:
 age:
   age: 1.75
   ref_age: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.5
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

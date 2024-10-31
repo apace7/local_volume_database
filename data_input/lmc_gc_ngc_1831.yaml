@@ -6,7 +6,6 @@ location:
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: lmc
   name: NGC 1831
   other_name:
@@ -33,9 +32,6 @@ proper_motion:
   pmdec_em: 0.1
   pmdec_ep: 0.1
   ref_proper_motion: Milone2023A&A...672A.161M
-metallicity_photometric:
-  metallicity_photometric: -0.3
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.41
   metallicity_spectroscopic_sigma: 0.15
@@ -51,3 +47,6 @@ velocity:
 age:
   age: 0.9
   ref_age: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.3
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

@@ -10,9 +10,6 @@ m_v:
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
   ref_m_v: Baumgardt2020PASA...37...46B
-metallicity_photometric:
-  metallicity_photometric: -1.56
-  ref_metallicity_photometric: Gran2022MNRAS.509.4962G
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.02
   metallicity_spectroscopic_em: 0.11
@@ -41,3 +38,6 @@ velocity:
   vlos_systemic: -59.19
   vlos_systemic_em: 4.93
   vlos_systemic_ep: 4.93
+metallicity_isochrone:
+  metallicity_isochrone: -1.56
+  ref_metallicity_isochrone: Gran2022MNRAS.509.4962G

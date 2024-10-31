@@ -6,16 +6,11 @@ location:
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: lmc
   name: NGC 1856
   other_name:
   - SL 271
-  # ref_discovery:
-  # - list
   type: GC
-# notes:
-# - list
 structure:
   rhalf: 0.408
   spatial_units: arcmin
@@ -31,13 +26,10 @@ proper_motion:
   pmra: 1.88
   pmra_em: 0.05
   pmra_ep: 0.05
-  pmdec: 0.20
+  pmdec: 0.2
   pmdec_em: 0.05
   pmdec_ep: 0.05
   ref_proper_motion: Milone2023A&A...672A.161M
-metallicity_photometric:
-  metallicity_photometric: -0.4
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 velocity:
   vlos_systemic: 265.27
   vlos_systemic_em: 2.02
@@ -47,3 +39,6 @@ velocity:
 age:
   age: 0.25
   ref_age: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

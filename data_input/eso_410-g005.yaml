@@ -31,11 +31,6 @@ m_v:
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
   ref_m_v: McConnachie2012AJ....144....4M
-metallicity_photometric:
-  metallicity_photometric: -1.93
-  metallicity_photometric_em: 0.2
-  metallicity_photometric_ep: 0.2
-  ref_metallicity_photometric: McConnachie2006MNRAS.365.1263M
 structure:
   ellipticity: 0.37
   position_angle: 57.0
@@ -48,3 +43,8 @@ velocity:
   vlos_systemic: 158.9
   vlos_systemic_em: 1.9
   vlos_systemic_ep: 1.9
+metallicity_isochrone:
+  metallicity_isochrone: -1.93
+  metallicity_isochrone_em: 0.2
+  metallicity_isochrone_ep: 0.2
+  ref_metallicity_isochrone: McConnachie2006MNRAS.365.1263M

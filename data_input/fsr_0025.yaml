@@ -24,9 +24,6 @@ distance:
 m_v:
   apparent_magnitude_v: 10.02
   ref_m_v: Obasi2021A&A...654A..39O
-metallicity_photometric:
-  metallicity_photometric: -0.5
-  ref_metallicity_photometric: Obasi2021A&A...654A..39O
 proper_motion:
   pmdec: -5.23
   pmdec_em: 0.74
@@ -48,3 +45,6 @@ structure_king:
   rking: 3.27
   rking_em: 0.85
   rking_ep: 0.85
+metallicity_isochrone:
+  metallicity_isochrone: -0.5
+  ref_metallicity_isochrone: Obasi2021A&A...654A..39O

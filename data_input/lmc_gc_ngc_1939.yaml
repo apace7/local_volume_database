@@ -31,9 +31,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.15
   metallicity_spectroscopic_ep: 0.15
   ref_metallicity_spectroscopic: Piatti2018MNRAS.481...49P
-metallicity_photometric:
-  metallicity_photometric: -1.5
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 velocity:
   vlos_systemic: 258.8
   vlos_systemic_em: 7.4
@@ -42,3 +39,6 @@ velocity:
 age:
   age: 13.3
   ref_age: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -1.5
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

@@ -17,11 +17,6 @@ m_v:
   apparent_magnitude_v_em: 0.57
   apparent_magnitude_v_ep: 0.57
   ref_m_v: Gatto2022ApJ...929L..21G
-metallicity_photometric:
-  metallicity_photometric: -1.12
-  metallicity_photometric_em: 0.13
-  metallicity_photometric_ep: 0.21
-  ref_metallicity_photometric: Gatto2022ApJ...929L..21G
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
@@ -44,3 +39,8 @@ structure:
   rhalf_em: 0.03097069163
   rhalf_ep: 0.03097069163
 table: gc_ufsc
+metallicity_isochrone:
+  metallicity_isochrone: -1.12
+  metallicity_isochrone_em: 0.13
+  metallicity_isochrone_ep: 0.21
+  ref_metallicity_isochrone: Gatto2022ApJ...929L..21G

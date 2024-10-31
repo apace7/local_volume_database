@@ -17,11 +17,6 @@ m_v:
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
   ref_m_v: Kim2016ApJ...820..119K
-metallicity_photometric:
-  metallicity_photometric: -1.6
-  metallicity_photometric_em: 0.3
-  metallicity_photometric_ep: 0.45
-  ref_metallicity_photometric: Kim2016ApJ...820..119K
 name_discovery:
   confirmed_real: 0
   confirmed_star_cluster: 0
@@ -50,3 +45,8 @@ structure:
   rhalf_em: 0.11
   rhalf_ep: 0.24
 table: gc_ufsc
+metallicity_isochrone:
+  metallicity_isochrone: -1.6
+  metallicity_isochrone_em: 0.3
+  metallicity_isochrone_ep: 0.45
+  ref_metallicity_isochrone: Kim2016ApJ...820..119K

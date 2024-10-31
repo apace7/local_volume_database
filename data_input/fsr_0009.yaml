@@ -33,13 +33,13 @@ proper_motion:
   pmdec_em: 0.99
   pmdec_ep: 0.99
   ref_proper_motion: Garro2022A&A...658A.120G
-metallicity_photometric:
-  metallicity_photometric: -1.2
-  metallicity_photometric_em: 0.3
-  metallicity_photometric_ep: 0.3
-  ref_metallicity_photometric: Garro2022A&A...658A.120G
 age:
   age: 11
   age_em: 2
   age_ep: 2
   ref_age: Garro2022A&A...658A.120G
+metallicity_isochrone:
+  metallicity_isochrone: -1.2
+  metallicity_isochrone_em: 0.3
+  metallicity_isochrone_ep: 0.3
+  ref_metallicity_isochrone: Garro2022A&A...658A.120G

@@ -6,19 +6,12 @@ location:
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: lmc
   name: NGC 1850
-  # other_name:
-  # - list
-  # ref_discovery:
-  # - list
   type: GC
-# notes:
-# - list
 structure:
   rhalf: 22.98
-  rhalf_em:  0.74
+  rhalf_em: 0.74
   rhalf_rp: 0.74
   spatial_units: arcsec
   spatial_model: plummer
@@ -41,15 +34,12 @@ proper_motion:
   pmra_em: 0.028
   pmra_ep: 0.028
   pmdec: 0.119
-  pmdec_em: 0.030
-  pmdec_ep: 0.030
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
   ref_proper_motion: Niederhofer2024A&A...689A.162N
-metallicity_photometric:
-  metallicity_photometric: -0.4
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.31
-  metallicity_spectroscopic_sigma: 0.20
+  metallicity_spectroscopic_sigma: 0.2
   ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
 velocity:
   vlos_systemic: 248.9
@@ -62,4 +52,6 @@ velocity:
 age:
   age: 0.07
   ref_age: Milone2023A&A...672A.161M
-
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

@@ -37,11 +37,11 @@ m_v:
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
   ref_m_v: Crnojevic2019ApJ...872...80C
-metallicity_photometric:
-  metallicity_photometric: -1.2
-  metallicity_photometric_em: 0.01
-  metallicity_photometric_ep: 0.01
-  ref_metallicity_photometric: Crnojevic2019ApJ...872...80C
 flux_HI:
-  flux_HI_ul: 1.20
+  flux_HI_ul: 1.2
   ref_flux_HI: Crnojevic2019ApJ...872...80C
+metallicity_isochrone:
+  metallicity_isochrone: -1.2
+  metallicity_isochrone_em: 0.01
+  metallicity_isochrone_ep: 0.01
+  ref_metallicity_isochrone: Crnojevic2019ApJ...872...80C

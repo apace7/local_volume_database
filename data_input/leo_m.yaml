@@ -21,11 +21,6 @@ m_v:
   apparent_magnitude_v_em: 0.16
   apparent_magnitude_v_ep: 0.15
   ref_m_v: McQuinn2024ApJ...967..161M
-metallicity_photometric:
-  metallicity_photometric: -1.9
-  metallicity_photometric_em: 0.1
-  metallicity_photometric_ep: 0.1
-  ref_metallicity_photometric: McQuinn2024ApJ...967..161M
 structure:
   rhalf: 59.8
   rhalf_em: 2.1
@@ -43,3 +38,8 @@ star_formation_history:
   tau_80_em: 2.2
   tau_80_ep: 1.1
   ref_star_formation_history: McQuinn2024ApJ...967..161M
+metallicity_isochrone:
+  metallicity_isochrone: -1.9
+  metallicity_isochrone_em: 0.1
+  metallicity_isochrone_ep: 0.1
+  ref_metallicity_isochrone: McQuinn2024ApJ...967..161M

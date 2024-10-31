@@ -6,24 +6,19 @@ location:
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: lmc
   name: NGC 1866
   other_name:
   - SL 319
   - LW 163
-  # ref_discovery:
-  # - list
   type: GC
-# notes:
-# - list
 structure:
   rhalf: 0.695
   spatial_units: arcmin
   ref_structure: Baumgardt2018MNRAS.478.1520B
 distance:
   ref_distance: Milone2023A&A...672A.161M
-  distance_modulus: 18.30
+  distance_modulus: 18.3
 m_v:
   apparent_magnitude_v: 9.251
   mean_ebv: 0.06
@@ -36,9 +31,6 @@ proper_motion:
   pmdec_em: 0.03
   pmdec_ep: 0.035
   ref_proper_motion: Milone2023A&A...672A.161M
-metallicity_photometric:
-  metallicity_photometric: -0.4
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 velocity:
   vlos_systemic: 299.09
   vlos_systemic_em: 0.26
@@ -48,4 +40,6 @@ velocity:
 age:
   age: 0.2
   ref_age: Milone2023A&A...672A.161M
-
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

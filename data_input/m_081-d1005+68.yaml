@@ -20,9 +20,9 @@ structure:
   position_angle: 38.4
   ref_structure: Okamoto2019ApJ...884..128O
 distance:
-  distance_modulus: 28.00
+  distance_modulus: 28.0
   distance_modulus_em: 0.25
-  distance_modulus_ep: 0.20
+  distance_modulus_ep: 0.2
   ref_distance: Smercina2017ApJ...843L...6S
 m_v:
   apparent_magnitude_v: 19.86
@@ -30,12 +30,6 @@ m_v:
   apparent_magnitude_v_ep: 0.55
   apparent_magnitude_i: 18.61
   ref_m_v: Okamoto2019ApJ...884..128O
-metallicity_photometric:
-  metallicity_photometric: -1.79
-  metallicity_photometric_em: 0.37
-  metallicity_photometric_ep: 0.37
-  metallicity_photometric_sigma: 0.28
-  ref_metallicity_photometric: Okamoto2019ApJ...884..128O
 structure_king:
   rcore: 0.3
   rcore_em: 0.2
@@ -51,10 +45,15 @@ structure_sersic:
   n_sersic: 0.5
   n_sersic_em: 0.2
   n_sersic_ep: 0.2
-  rad_sersic: 0.30
+  rad_sersic: 0.3
   rad_sersic_em: 0.05
   rad_sersic_ep: 0.05
   spatial_units: arcmin
   ellipticity: 0.27
   position_angle: 38.4
   ref_structure_sersic: Okamoto2019ApJ...884..128O
+metallicity_isochrone:
+  metallicity_isochrone: 0.28
+  metallicity_isochrone_em: 0.37
+  metallicity_isochrone_ep: 0.37
+  ref_metallicity_isochrone: Okamoto2019ApJ...884..128O

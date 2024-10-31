@@ -31,11 +31,6 @@ m_v:
   apparent_magnitude_v_ep: 0.4
   mean_ebv: 0.024
   ref_m_v: Cerny2021ApJ...910...18C
-metallicity_photometric:
-  metallicity_photometric: -2.0
-  metallicity_photometric_em: 0.5
-  metallicity_photometric_ep: 0.2
-  ref_metallicity_photometric: Cerny2021ApJ...910...18C
 proper_motion:
   pmdec: -0.97
   pmdec_em: 0.08
@@ -57,3 +52,8 @@ structure:
   rhalf_ep: 0.19
   spatial_model: plummer
   spatial_units: arcmin
+metallicity_isochrone:
+  metallicity_isochrone: -2.0
+  metallicity_isochrone_em: 0.5
+  metallicity_isochrone_ep: 0.2
+  ref_metallicity_isochrone: Cerny2021ApJ...910...18C

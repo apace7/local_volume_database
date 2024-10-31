@@ -10,11 +10,6 @@ location:
 m_v:
   apparent_magnitude_v: 7.1
   ref_m_v: Strader2008AJ....136.2102S
-metallicity_photometric:
-  metallicity_photometric: -0.33
-  metallicity_photometric_em: 0.14
-  metallicity_photometric_ep: 0.14
-  ref_metallicity_photometric: Kurtev2008A&A...489..583K
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
@@ -37,3 +32,8 @@ structure_king:
   ref_structure_king: Kurtev2008A&A...489..583K
   rking: 15.0
 table: gc_harris
+metallicity_isochrone:
+  metallicity_isochrone: -0.33
+  metallicity_isochrone_em: 0.14
+  metallicity_isochrone_ep: 0.14
+  ref_metallicity_isochrone: Kurtev2008A&A...489..583K

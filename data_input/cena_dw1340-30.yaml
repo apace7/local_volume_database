@@ -37,8 +37,8 @@ structure_sersic:
   central_surface_brightness: 25.5
   central_surface_brightness_em: 0.1
   central_surface_brightness_ep: 0.1
-metallicity_photometric:
-  metallicity_photometric: -2.27
-  metallicity_photometric_em: 0.4
-  metallicity_photometric_ep: 0.4
-  ref_metallicity_photometric: Muller2018A&A...615A..96M
+metallicity_isochrone:
+  metallicity_isochrone: -2.27
+  metallicity_isochrone_em: 0.4
+  metallicity_isochrone_ep: 0.4
+  ref_metallicity_isochrone: Muller2018A&A...615A..96M

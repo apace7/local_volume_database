@@ -26,15 +26,12 @@ m_v:
   ref_m_v: Bica1996ApJS..102...57B
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.79
-  ref_metallicity_spectroscopic: Olszewski1991AJ....101..515O 
-metallicity_photometric:
-  metallicity_photometric: -1.7
-  ref_metallicity_photometric: Giusti2024A&A...686A...6G
+  ref_metallicity_spectroscopic: Olszewski1991AJ....101..515O
 velocity:
-  vlos_systemic: 188 # [km/s]
+  vlos_systemic: 188
   vlos_systemic_em: 5
   vlos_systemic_ep: 5
-  ref_vlos: Olszewski1991AJ....101..515O 
+  ref_vlos: Olszewski1991AJ....101..515O
 structure_king:
   rcore: 3.5
   rcore_em: 0.5
@@ -49,3 +46,6 @@ age:
   age_em: 1
   age_ep: 1
   ref_age: Giusti2024A&A...686A...6G
+metallicity_isochrone:
+  metallicity_isochrone: -1.7
+  ref_metallicity_isochrone: Giusti2024A&A...686A...6G

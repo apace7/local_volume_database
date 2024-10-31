@@ -20,7 +20,7 @@ structure:
   rhalf_em: 0.01
   rhalf_ep: 0.01
   spatial_units: arcmin
-  ellipticity_ul: 0.20
+  ellipticity_ul: 0.2
   ref_structure: Crnojevic2019ApJ...872...80C
 distance:
   distance_modulus: 27.79
@@ -32,11 +32,11 @@ m_v:
   apparent_magnitude_v_em: 0.2
   apparent_magnitude_v_ep: 0.2
   ref_m_v: Crnojevic2019ApJ...872...80C
-metallicity_photometric:
-  metallicity_photometric: -1.46
-  metallicity_photometric_em: 0.02
-  metallicity_photometric_ep: 0.02
-  ref_metallicity_photometric: Crnojevic2019ApJ...872...80C
 flux_HI:
   flux_HI_ul: 1.24
   ref_flux_HI: Crnojevic2019ApJ...872...80C
+metallicity_isochrone:
+  metallicity_isochrone: -1.46
+  metallicity_isochrone_em: 0.02
+  metallicity_isochrone_ep: 0.02
+  ref_metallicity_isochrone: Crnojevic2019ApJ...872...80C

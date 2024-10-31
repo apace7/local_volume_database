@@ -6,16 +6,11 @@ location:
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: lmc
   name: NGC 1783
   other_name:
   - SL 148
-  # ref_discovery:
-  # - list
   type: GC
-# notes:
-# - list
 structure:
   rhalf: 0.875
   spatial_units: arcmin
@@ -35,9 +30,6 @@ proper_motion:
   pmdec_em: 0.04
   pmdec_ep: 0.04
   ref_proper_motion: Milone2023A&A...672A.161M
-metallicity_photometric:
-  metallicity_photometric: -0.4
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.54
   metallicity_spectroscopic_sigma: 0.1
@@ -53,4 +45,6 @@ velocity:
 age:
   age: 1.65
   ref_age: Milone2023A&A...672A.161M
-
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

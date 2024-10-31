@@ -6,16 +6,8 @@ location:
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: smc
   name: NGC 330
-  # other_name:
-  # - list
-  # ref_discovery:
-  # - list
-  # type: GC
-# notes:
-# - list
 structure:
   rhalf: 0.941
   spatial_units: arcsec
@@ -37,12 +29,9 @@ proper_motion:
   pmdec_em: 0.03
   pmdec_ep: 0.03
   ref_proper_motion: Milone2023A&A...672A.161M
-metallicity_photometric:
-  metallicity_photometric: -0.4
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.65
-  metallicity_spectroscopic_sigma: 0.10
+  metallicity_spectroscopic_sigma: 0.1
   ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
 velocity:
   vlos_systemic: 153.0
@@ -55,3 +44,6 @@ velocity:
 age:
   age: 0.09
   ref_age: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

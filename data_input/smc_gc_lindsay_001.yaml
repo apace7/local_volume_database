@@ -6,16 +6,9 @@ location:
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: smc
   name: Lindsay 1
-  # other_name:
-  # - list
-  # ref_discovery:
-  # - list
   type: GC
-# notes:
-# - list
 structure:
   rhalf: 18.28
   spatial_units: arcsec
@@ -37,9 +30,6 @@ proper_motion:
   pmdec_em: 0.03
   pmdec_ep: 0.03
   ref_proper_motion: Milone2023A&A...672A.161M
-metallicity_photometric:
-  metallicity_photometric: -1.2
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.98
   metallicity_spectroscopic_sigma: 0.13
@@ -55,3 +45,6 @@ velocity:
 age:
   age: 7.2
   ref_age: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -1.2
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

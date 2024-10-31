@@ -23,9 +23,6 @@ name_discovery:
   - McNanna2024ApJ...961..126M
   other_name:
   - DES J0015-3825
-metallicity_photometric:
-  metallicity_photometric: -1.8
-  ref_metallicity_photometric: McNanna2024ApJ...961..126M
 structure:
   rhalf: 5.2
   rhalf_em: 0.8
@@ -42,3 +39,6 @@ age:
   age_em: 2.7
   age_ep: 4.3
   ref_age: McNanna2024ApJ...961..126M
+metallicity_isochrone:
+  metallicity_isochrone: -1.8
+  ref_metallicity_isochrone: McNanna2024ApJ...961..126M

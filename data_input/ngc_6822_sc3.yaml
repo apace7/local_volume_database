@@ -22,7 +22,7 @@ structure:
   rhalf_ep: 0.0037
   ref_structure: Hwang2011ApJ...738...58H
 distance:
-  distance_fixed_host: True
+  distance_fixed_host: true
 m_v:
   apparent_magnitude_v: 18.44
   apparent_magnitude_v_em: 0.04
@@ -33,18 +33,18 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.06
   metallicity_spectroscopic_ep: 0.06
   ref_metallicity_spectroscopic: Hwang2014ApJ...783...49H
-metallicity_photometric:
-  metallicity_photometric: -1.7
-  metallicity_photometric_em: 0.4
-  metallicity_photometric_ep: 0.4
-  ref_metallicity_photometric: Veljanoski2015MNRAS.452..320V
 velocity:
   vlos_systemic: -83
   vlos_systemic_em: 14
   vlos_systemic_ep: 14
   ref_vlos: Veljanoski2015MNRAS.452..320V
 age:
-  age: 7.80
+  age: 7.8
   age_em: 0.74
   age_ep: 0.74
   ref_age: Hwang2014ApJ...783...49H
+metallicity_isochrone:
+  metallicity_isochrone: -1.7
+  metallicity_isochrone_em: 0.4
+  metallicity_isochrone_ep: 0.4
+  ref_metallicity_isochrone: Veljanoski2015MNRAS.452..320V

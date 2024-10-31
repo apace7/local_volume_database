@@ -26,11 +26,6 @@ distance:
 m_v:
   apparent_magnitude_v: 8.82
   ref_m_v: Garro2021A&A...649A..86G
-metallicity_photometric:
-  metallicity_photometric: -0.2
-  metallicity_photometric_em: 0.2
-  metallicity_photometric_ep: 0.2
-  ref_metallicity_photometric: Garro2021A&A...649A..86G
 proper_motion:
   pmdec: -5.49
   pmdec_em: 2.02
@@ -56,3 +51,8 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.3
   metallicity_spectroscopic_ep: 0.3
   ref_metallicity_spectroscopic: Butler2024ApJ...963L..33B
+metallicity_isochrone:
+  metallicity_isochrone: -0.2
+  metallicity_isochrone_em: 0.2
+  metallicity_isochrone_ep: 0.2
+  ref_metallicity_isochrone: Garro2021A&A...649A..86G

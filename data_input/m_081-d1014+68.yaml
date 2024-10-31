@@ -22,7 +22,7 @@ structure:
   ref_structure: Okamoto2019ApJ...884..128O
 distance:
   distance_modulus: 27.92
-  distance_modulus_em: 0.20
+  distance_modulus_em: 0.2
   distance_modulus_ep: 0.18
   ref_distance: Chiboucas2013AJ....146..126C
 m_v:
@@ -31,12 +31,6 @@ m_v:
   apparent_magnitude_v_ep: 0.48
   apparent_magnitude_i: 15.36
   ref_m_v: Okamoto2019ApJ...884..128O
-metallicity_photometric:
-  metallicity_photometric: -1.50
-  metallicity_photometric_em: 0.27
-  metallicity_photometric_ep: 0.27
-  metallicity_photometric_sigma: 0.33
-  ref_metallicity_photometric: Okamoto2019ApJ...884..128O
 structure_king:
   rcore: 0.6
   rcore_em: 0.05
@@ -59,4 +53,8 @@ structure_sersic:
   ellipticity: 0.2
   position_angle: 115.2
   ref_structure_sersic: Okamoto2019ApJ...884..128O
-
+metallicity_isochrone:
+  metallicity_isochrone: 0.33
+  metallicity_isochrone_em: 0.27
+  metallicity_isochrone_ep: 0.27
+  ref_metallicity_isochrone: Okamoto2019ApJ...884..128O

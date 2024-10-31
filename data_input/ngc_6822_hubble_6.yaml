@@ -21,21 +21,21 @@ structure:
   rhalf_ep: 0.0033
   ref_structure: Wyder2000PASP..112.1162W
 distance:
-  distance_fixed_host: True
+  distance_fixed_host: true
 m_v:
   apparent_magnitude_v: 15.97
   apparent_magnitude_v_em: 0.11
   apparent_magnitude_v_ep: 0.11
   ref_m_v: Wyder2000PASP..112.1162W
-metallicity_photometric:
-  metallicity_photometric: -0.6
-  ref_metallicity_photometric: Wyder2000PASP..112.1162W
 structure_king:
   rcore: 0.0027
   rking: 0.3
   ref_structure_king: Wyder2000PASP..112.1162W
 age:
-  age: 0.070
-  age_em: 0.010
-  age_ep: 0.010
+  age: 0.07
+  age_em: 0.01
+  age_ep: 0.01
   ref_age: Wyder2000PASP..112.1162W
+metallicity_isochrone:
+  metallicity_isochrone: -0.6
+  ref_metallicity_isochrone: Wyder2000PASP..112.1162W

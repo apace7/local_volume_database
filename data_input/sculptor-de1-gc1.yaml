@@ -9,8 +9,6 @@ name_discovery:
   discovery_year: 2009
   host: sculptor-de1
   name: Scl-dE1-GC1
-  # other_name:
-  # - list
   ref_discovery:
   - DaCosta2009AJ....137.4361D
 notes:
@@ -22,20 +20,20 @@ structure:
   rhalf_ep: 0.000833
   ref_structure: DaCosta2009AJ....137.4361D
 distance:
-  distance_fixed_host: True
+  distance_fixed_host: true
 m_v:
   apparent_magnitude_v: 21.5
   apparent_magnitude_v_em: 0.05
   apparent_magnitude_v_ep: 0.05
   ref_m_v: DaCosta2009AJ....137.4361D
-metallicity_photometric:
-  metallicity_photometric: -1.7
-  metallicity_photometric_em: 0.3
-  metallicity_photometric_ep: 0.3
-  ref_metallicity_photometric: DaCosta2009AJ....137.4361D
 structure_king:
   rcore: 0.0167
   rcore_em: 0.00167
   rcore_ep: 0.00167
   rking: 0.0744
   ref_structure_king: DaCosta2009AJ....137.4361D
+metallicity_isochrone:
+  metallicity_isochrone: -1.7
+  metallicity_isochrone_em: 0.3
+  metallicity_isochrone_ep: 0.3
+  ref_metallicity_isochrone: DaCosta2009AJ....137.4361D

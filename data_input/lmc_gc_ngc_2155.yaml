@@ -6,17 +6,12 @@ location:
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: lmc
   name: NGC 2155
   other_name:
   - SL 803
   - LW 347
-  # ref_discovery:
-  # - list
   type: GC
-# notes:
-# - list
 structure:
   rhalf: 0.68
   spatial_units: arcmin
@@ -36,9 +31,6 @@ proper_motion:
   pmdec_em: 0.05
   pmdec_ep: 0.05
   ref_proper_motion: Milone2023A&A...672A.161M
-metallicity_photometric:
-  metallicity_photometric: -0.4
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.59
   metallicity_spectroscopic_sigma: 0.12
@@ -54,3 +46,6 @@ velocity:
 age:
   age: 2.8
   ref_age: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

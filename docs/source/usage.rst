@@ -228,11 +228,19 @@ The collections are split such that a single reference can describe the contents
 
 * **metallicity_photometric**
 
-  * **metallicity_photometric** -- photometric metallicity. This can include isochrone fitting or narrow band photometry.
+  * **metallicity_photometric** -- photometric metallicity. This generally is from metallicity sensistive photometry (Ca H&K, u-band). 
 
-  * **metallicity_photometric_sigma** -- metallicity dispersion from photometric measurements. Many for narrow band photometry. 
+  * **metallicity_photometric_sigma** -- metallicity dispersion from photometric measurements. 
 
   * **ref_metallicity_photometric** -- reference
+
+* **metallicity_isochrone**
+
+  * **metallicity_isochrone** -- metallicity from isochrone or color-magnitude diagram fitting. 
+
+  * **metallicity_isochrone_sigma** -- metallicity dispersion from isochrone or color-magnitude diagram fitting. 
+
+  * **ref_metallicity_isochrone** -- reference
 
 * **structure_king**
 

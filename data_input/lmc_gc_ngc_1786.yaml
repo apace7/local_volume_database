@@ -6,13 +6,10 @@ location:
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: lmc
   name: NGC 1786
   other_name:
   - SL 149
-  # ref_discovery:
-  # - list
   type: GC
 distance:
   ref_distance: Milone2023A&A...672A.161M
@@ -34,9 +31,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.08
   metallicity_spectroscopic_ep: 0.08
   ref_metallicity_spectroscopic: Sharma2010AJ....139..878S
-metallicity_photometric:
-  metallicity_photometric: -1.5
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 velocity:
   vlos_systemic: 279.9
   vlos_systemic_em: 4.9
@@ -45,3 +39,6 @@ velocity:
 age:
   age: 12.9
   ref_age: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -1.5
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

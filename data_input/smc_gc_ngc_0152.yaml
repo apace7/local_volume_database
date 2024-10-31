@@ -6,13 +6,8 @@ location:
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: smc
   name: NGC 152
-  # other_name:
-  # - list
-  # ref_discovery:
-  # - list
   type: GC
 structure:
   rhalf: 4.67
@@ -35,9 +30,6 @@ proper_motion:
   pmdec_em: 0.04
   pmdec_ep: 0.04
   ref_proper_motion: Milone2023A&A...672A.161M
-metallicity_photometric:
-  metallicity_photometric: -0.6
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.73
   metallicity_spectroscopic_sigma: 0.11
@@ -53,3 +45,6 @@ velocity:
 age:
   age: 1.9
   ref_age: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.6
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M

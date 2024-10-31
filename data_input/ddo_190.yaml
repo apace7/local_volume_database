@@ -13,11 +13,6 @@ m_v:
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
   ref_m_v: McConnachie2012AJ....144....4M
-metallicity_photometric:
-  metallicity_photometric: -2.0
-  metallicity_photometric_em: 0.08
-  metallicity_photometric_ep: 0.08
-  ref_metallicity_photometric: McConnachie2006MNRAS.365.1263M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -45,3 +40,8 @@ velocity:
   vlos_systemic: 150.0
   vlos_systemic_em: 4.0
   vlos_systemic_ep: 4.0
+metallicity_isochrone:
+  metallicity_isochrone: -2.0
+  metallicity_isochrone_em: 0.08
+  metallicity_isochrone_ep: 0.08
+  ref_metallicity_isochrone: McConnachie2006MNRAS.365.1263M

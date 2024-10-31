@@ -37,9 +37,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -1.4
   metallicity_spectroscopic_sigma: 0.16
   ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
-metallicity_photometric:
-  metallicity_photometric: -1.5
-  ref_metallicity_photometric: Milone2023A&A...672A.161M
 velocity:
   vlos_systemic: 202.5
   vlos_systemic_em: 0.5
@@ -51,3 +48,6 @@ velocity:
 age:
   age: 13.2
   ref_age: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -1.5
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
