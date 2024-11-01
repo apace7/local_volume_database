@@ -5,10 +5,13 @@ import os.path
 import numpy.ma as ma
 import numpy as np
 
+## load environment variable
 lvdb_path = os.environ.get('LVDBDIR')
-print(lvdb_path)
+# print(lvdb_path)
 
 def get_notes(key, **kwargs):
+    ## input is lvdb key
+    
     path = kwargs.get('path', lvdb_path + '/data_input/')
     with open(path+ key + '.yaml', 'r') as stream:
         try:
@@ -27,11 +30,13 @@ coord.galactocentric_frame_defaults.set('v4.0')
 gc_frame = coord.Galactocentric()
 
 def add_coord(table_input):
+    ## add Galactic coordinates to table
     c_table_input = coord.SkyCoord(ra=table_input['ra']*u.deg, dec=table_input['dec']*u.deg,  frame='icrs',)
     table_input['ll'] = c_table_input.galactic.l.value
     table_input['bb'] = c_table_input.galactic.b.value
 
 def latex_name(name):
+    ## adds some special latex characters to some systems 
     if len(name)<6:
         return name
     if name[:6] == 'Bootes':
@@ -43,8 +48,18 @@ def latex_name(name):
     return name
 
 def add_column(table, yaml_key, yaml_name, **kwargs):
+    """
+    adds columns to the table.  
+    Parameters
+    ----------
+    table : input/output table
+    yaml_key : overall key  in YAML file 
+    yaml_name : name in the nested key strucutre in the YAML file
+    col_type (optional) : python column type, default is float
+    table_yaml_name (optional) : if the table output needs to have the name of the column changed from `yaml_name`
+    """
     table_yaml_name = kwargs.get('table_yaml_name', yaml_name)
-    col_type = kwargs.get('col_type', 'float')
+    col_type = kwargs.get('col_type', float)
     table[table_yaml_name] = np.ma.masked_all(len(table), dtype=col_type)
     #np.zeros(len(table), dtype=col_type)
     path = kwargs.get('path', lvdb_path + '/data_input/')
@@ -63,6 +78,7 @@ def add_column(table, yaml_key, yaml_name, **kwargs):
     # return table[table_yaml_name]
                 
 def make_latex_value(value, em, ep, **kwargs):
+    ## for rounding when making latex table
     ul = kwargs.get('ul', False)
     n = kwargs.get('n', 2)
     str_out = ' '
@@ -81,6 +97,7 @@ def make_latex_value(value, em, ep, **kwargs):
     return str_out
 
 def add_year(table, **kwargs):
+    ## initial version of add_column()
     table['year'] = np.zeros(len(table), dtype=int)
     path = kwargs.get('path', lvdb_path +'data_input/')
     for i in range(len(table)):
@@ -96,3 +113,36 @@ def add_year(table, **kwargs):
             except yaml.YAMLError as exc:
                 print(exc)
     # return table['year']
+
+reference_column = ['ref_structure', 'ref_distance', 'ref_vlos', 'ref_proper_motion', 'ref_metallicity_spectroscopic', 'ref_structure_king', 'ref_age', 'ref_structure_sersic', 'ref_metallicity_isochrone', 'ref_flux_HI']
+def get_citations(systems, style='individual', reference_column=reference_column):
+    ## output references in citep{}
+    if style=='individual':
+        for i in range(len(systems)):
+            cite_temp = []
+            for j in reference_column:
+                
+                if ma.is_masked(systems[j][i])==False:
+                    cite_temp.append(systems[j][i])
+            ## unique entries
+            cite_temp2 = np.unique(cite_temp)
+            out =''
+            for temp in cite_temp2:
+                out+=temp+', '
+#         x=x.replace('&', '\string&')
+            print(systems['name'][i], "\\citep{"+out[:-2]+"}" +',')
+    if style=='all':
+        cite_temp = []
+        for i in range(len(systems)):
+            
+            for j in reference_column:
+                
+                if ma.is_masked(systems[j][i])==False:
+                    cite_temp.append(systems[j][i])
+            ## unique entries
+        cite_temp2 = np.unique(cite_temp)
+        out =''
+        for temp in cite_temp2:
+            out+=temp+', '
+#         x=x.replace('&', '\string&')
+        print("\\citep{"+out[:-2]+"}")

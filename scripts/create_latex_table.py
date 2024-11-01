@@ -507,7 +507,7 @@ for tab in [gc_ufsc, gc_disk,  gc_harris, gc_dwarf]:
     add_column(tab, 'age', 'age_ep')
     add_column(tab, 'age', 'ref_age', col_type='U100')
     add_column(tab, 'name_discovery', 'type', col_type='U100')
-    add_coord(tab)
+    # add_coord(tab)
 
 # add_coord(dsph_m31)
 # add_coord(dsph_mw)

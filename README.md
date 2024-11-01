@@ -36,4 +36,4 @@ python -m build
 pip install .
 ```
 
-The `LVDBDIR` envirnment variable is used to point to the location of the input YAML files (/data_input/). 
+The `LVDBDIR` environment variable is used to point to the location of the input YAML files (/data_input/). 
