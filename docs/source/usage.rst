@@ -1,7 +1,7 @@
 Usage & Decription of tables 
 ============================
 
-For LVDB users that only want to  use  the combined catalogs/tables, installing the LVDB package is not required and the tables can be downloaded from the release page.
+For LVDB users that only want to  use  the combined catalogs/tables, installing the LVDB package is not required and the tables can be downloaded from the `release page <https://github.com/apace7/local_volume_database/releases>`_ (see assests).
 
 .. _installation:
 
@@ -18,17 +18,18 @@ The LVDB package is installable locally:
   pip install .
 
 The `LVDBDIR` envirnment variable is used to point to the location of the input YAML files (/data_input/). 
-Pip package coming. 
+Pip package coming. As the package interacts with the YAML files, it is recommended to install locally.
 
 Database content
 ----------------
 
-The database is structured as individual yaml files for each system and combined tables as csv and fits files (descriptions of both below). 
-The yaml files are located in `data_input/ <https://github.com/apace7/local_volume_database/tree/main/data_input>`_ and the combined csv tables are located in `data/ <https://github.com/apace7/local_volume_database/tree/main/data>`_. Fits files are located in the release pages.
+The database is structured as an individual yaml file for each system and combined catalogs for the database, available as csv and fits files on the release page. 
+The yaml files are located in `data_input/ <https://github.com/apace7/local_volume_database/tree/main/data_input>`_ and the combined csv tables are located in `data/ <https://github.com/apace7/local_volume_database/tree/main/data>`_ or on the `release page <https://github.com/apace7/local_volume_database/releases>`_. Fits files are located in the release pages.
 
 
 
-The tables can be directly loaded into jupyter notebooks without having to download the repository from either the release page (recommend) or from the github:
+The tables can be directly loaded into jupyter notebooks without having to download the repository.
+An example of loading the tables remotely from either the release page (recommend) or  github is as follows:
 
 .. code-block:: python
 

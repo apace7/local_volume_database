@@ -1,8 +1,6 @@
 Tutorials \& Examples
 =====================
 
-`ipython notebook example <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_plots.ipynb>`_ 
-
 Example: Accessing the database and creating a figure 
 ---------------------------------------------
 
@@ -64,7 +62,7 @@ I note that the name for one type of system in the catalog (labeled UFSC = ultra
 
    Example figure
 
-Additional, ipython notebooks are located here:   `ipython notebooks to create figures in overview paper <https://github.com/apace7/local_volume_database/tree/main/paper_examples>`_ and (slightly out-of-date examples) `original ipython notebook examples <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_plots.ipynb>`_ 
+In addition to the example above, there are two folders with example ipython notebooks:  `example_notebooks/ <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/>`_ and `paper_examples/ <https://github.com/apace7/local_volume_database/tree/main/paper_examples>`_. The former are general examples while the latter are the notebooks used to make the summary/example figures in the LVDB overview paper.
 
 Some Recommendations 
 ---------------------------------------------
