@@ -17,6 +17,8 @@ import os
 
 import corner
 
+import local_volume_database as lvdb
+
 path = "data_input/"
 dir_list = os.listdir(path)
 dir_list = [i for i in dir_list if i!='readme.md']
@@ -285,11 +287,16 @@ def value_add(input_table, table_type='dwarf', **kwargs):
             input_table['metallicity_em'][i] = input_table['metallicity_spectroscopic_em'][i]
             input_table['metallicity_ep'][i] = input_table['metallicity_spectroscopic_ep'][i]
             input_table['metallicity_type'][i] = 'spectroscopic'
+        elif  ma.is_masked(input_table['metallicity_photometric'][i])==False:
+            input_table['metallicity'][i] = input_table['metallicity_photometric'][i]
+            input_table['metallicity_em'][i] = input_table['metallicity_photometric_em'][i]
+            input_table['metallicity_ep'][i] = input_table['metallicity_photometric_ep'][i]
+            input_table['metallicity_type'][i] = 'photometric'
         elif  ma.is_masked(input_table['metallicity_isochrone'][i])==False:
             input_table['metallicity'][i] = input_table['metallicity_isochrone'][i]
             input_table['metallicity_em'][i] = input_table['metallicity_isochrone_em'][i]
             input_table['metallicity_ep'][i] = input_table['metallicity_isochrone_ep'][i]
-            input_table['metallicity_type'][i] = 'photometric'
+            input_table['metallicity_type'][i] = 'isochrone'
     
     # radial velocity in Galactic standard of rest https://docs.astropy.org/en/stable/generated/examples/coordinates/rv-to-gsr.html
     c_table_input = coord.SkyCoord(ra=input_table['ra']*u.deg, dec=input_table['dec']*u.deg,distance=input_table['distance']*u.kpc,radial_velocity=input_table['vlos_systemic']*u.km/u.s,  frame='icrs',)
@@ -476,6 +483,14 @@ print("missing table", Counter(missing_table))
 for missing in Counter(missing_table).keys():
     temp = missing_table_key[missing_table==missing]
     print("objects missing (key)", missing, Counter(temp))
+
+print('adding more columns')
+columns_to_add = ['metallicity_photometric', 'metallicity_photometric_em', 'metallicity_photometric_ep', 'metallicity_photometric_sigma', 'metallicity_photometric_sigma_em', 'metallicity_photometric_sigma_ep', 'metallicity_photometric_sigma_ul', ]
+
+for tab in [comb_gc_ufsc, comb_gc_harris,  comb_gc_disk, comb_gc_dwarf, comb_dwarf_mw, comb_dwarf_m31, comb_dwarf_lf, comb_dwarf_lf_distant, comb_candidate, comb_host]:
+    for column in columns_to_add:
+        lvdb.add_column(tab,'metallicity_photometric',column)
+    lvdb.add_column(tab,'metallicity_photometric','ref_metallicity_photometric', col_type='U50')
 
 ## save output
 # comb_gc_ufsc = value_add(comb_gc_ufsc, table_type='gc')

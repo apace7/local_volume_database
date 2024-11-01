@@ -1,7 +1,7 @@
 How to Contribute to the Local Volume Database
 ==============================================
 
-Community contributions to the local_volume_database are welcome. Examples contributions include: adding new measurements, updating current systems, adding new systems (both newly discovered and more distant), and/or new properties of current systems. 
+Community contributions to the local_volume_database are welcome. Some potential contributions include: adding new measurements, updating current systems, adding new systems (both newly discovered and more distant), and/or new properties of current systems. 
 
 Example: Add or update a measurement
 ------------------------------------
@@ -40,8 +40,8 @@ Example: How to add a new system the database
 
 This example walks through the progress to add a new system to the database. 
 Make a new yaml file in the ``data_input`` folder with the name ``new_system.yaml`` where new_system is the key of the new system.  This same key needs to be included as a yaml key named ``key`` (see example_yaml.yaml files).
-The easiest why to find the parameter input options and names to simply make a copy of the example yaml file  ``code/example_yaml.yaml`` with the new_system name.  Note that  ``example_yaml.yaml`` contains all possible properties/collections and keys for the database.  For the new system many of these will not be measured and should be deleted or commented out. 
-There are 4 required entries for each system: ``key``, ``table``, ``ra``, ``dec``.  The latter two keys are in the ``location`` collection. The ``table`` key is used to combine systems into tables in the ``data/`` folder. 
+The easiest way to verify that the correct YAML key names are  used is to copy  the example yaml file  ``code/example_yaml.yaml`` when creating the new YAML file.  Note that  ``example_yaml.yaml`` contains all possible properties/collections and keys for the database.  For the new system many of the YAML parameters will not be measured and should be deleted. 
+There are 4 required entries for each system: ``key``, ``table``, ``ra``, ``dec``.  The latter two keys are in the ``location`` collection. The ``table`` key is used to combine systems into tables in the ``data/`` folder.  The ``key`` value needs to be unique and match the file name.
 
 The new system will be added to the database tables by running the ``code/combine_table_general.py`` python script.
 
@@ -55,12 +55,12 @@ These are the current tables:
 * dwarf_local_field
 * dwarf_m31
 * gc_harris
-* gc_ufsc
-* gc_disk
+* gc_ufsc = gc_halo = gc_ambiguous (all these table values go into the same catalog)
+* gc_disk = gc_mw_new
 * gc_dwarf_hosted
 * candidate
 * local_field_distant
-* misc (note that this key is used to collect systems that are not included in other tables)
+* misc 
 
 .. How the database is constructed
 .. ---------------------------------------------
@@ -72,7 +72,8 @@ Potential Contributions/Expansion
 
 As stated earlier, community contributions are welcome and encouraged.  
 Here is a short list of items that generally focus on expanding the scope of the database.  
-A number of these items have entries that exist but are generally empty.
+The github issues are another list of potential contributions.
+Some of these items have YAML keys that exist but are generally empty.
 
 * Include gas kinematic properties. For example, peak rotation velocity and gas velocity dispersion.
 * Statistics on RRL or other variable/rare stars in dwarf galaxies.

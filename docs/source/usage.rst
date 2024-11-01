@@ -1,7 +1,7 @@
 Usage & Decription of tables 
 ============================
 
-For LVDB users that only want to  use  the combined catalogs/tables, installing the LVDB package is not required and the tables can be downloaded from the `release page <https://github.com/apace7/local_volume_database/releases>`_ (see assests).
+For LVDB users that only want to  use  the combined catalogs/tables, installing the LVDB package is not required and the tables can be downloaded from the `release page <https://github.com/apace7/local_volume_database/releases>`_ (see assets).
 
 .. _installation:
 
@@ -39,32 +39,33 @@ An example of loading the tables remotely from either the release page (recommen
   ## latest github
   dsph_all = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_all.csv')
 
-There is also a pdf document in release page summarizing the contents and properties of each combined table (`pdf summary file <https://github.com/apace7/local_volume_database/releases/download/v0.0.2/lvdb_table.pdf>`_ Note to verify that you are using the latest release here). 
+There is also a pdf document (named lvdb_table.pdf) in release page summarizing the contents and properties of each combined table. 
 
 
 Decription of Catalogs/Tables 
 --------------------
 
-The following are the available tables (in csv and fits file formats). The fits file format is limited to github releases while the csv is include both in the release and the main catalog.
+The following are the available tables (in csv and fits file formats). The fits file is limited to the release pages while the csv file is included in both the release and main github.
 
-* **dwarf_mw** : Milky Way dwarf galaxies (the most distant dwarf galaxy is Eridanus II at ~ 350 kpc)
-* **dwarf_m31**: M31 dwarf galaxies
-* **dwarf_local_field**: dwarf galaxies outside of MW/M31 within the Local group to a distance of ~ 3 Mpc. This is an extension of galaxies from McConnachie 2012
+* **dwarf_mw** : Milky Way dwarf galaxies (the most distant dwarf galaxy is Eridanus II at ~ 350 kpc).
+* **dwarf_m31**: M31 dwarf galaxies.
+* **dwarf_local_field**: dwarf galaxies outside of MW/M31 within the Local group to a distance of ~ 3 Mpc. This is an extension of galaxies from McConnachie 2012 compilation.
 * **dwarf_all** : combination of dwarf_mw, dwarf_m31, dwarf_local_field. Complete for known systems to ~ 3 Mpc.
-* **dwarf_local_field_distant**: dwarf galaxies with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete. 
+* **dwarf_local_field_distant**: dwarf galaxies with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete to known systems (it is complete for known systems to a distance < 3.5 Mpc). 
+* **gc_abmiguous**: systems with an abmiguous classification (referred to as amibguous or hyper-faint compact stellar systems). These are generally all MW halo systems. 
+* **gc_mw_new**: newly discovered globular clusters or candidate globular clusters (i.e. post-Harris catalog).  Many systems are at low Galactic latitude (abs(b) <10) and candidate systems may be open clusters.
+* **gc_harris**: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_abmiguous table).
+* **gc_dwarf_hosted**: globular clusters hosted by dwarf galaxies. This does not include the Sagittarius globular clusters which are in gc_harris. This catalog is incomplete for known systems.
+* **candidate**: known false-positive candidates, background galaxies, or low confidence candidates. Only included in the release page.
+* **misc_host**: brighter galaxies that are hosts to the dwarf galaxies.  Only included in the release page.  The catalog exists for completeness and for host information for dwarf galaxies.  The most primary properties compiled are phase-space information (ra,dec,distance, velocity). 
 
-* **gc_halo**: New star cluster-like systems in the Galactic halo or ambiguous compact stellar systems. These are faint star-cluster like systems (generally rhalf < 20 pc and M_V > -3 and at high Galactic latitudes abs(b) > ~5-10). A number of these systems are likely tidally stripped star clusters, tidally stripped dwarf galaxies, or the faintest dwarf galaxies. Many have are ambiguous classifications (as in the classification for dwarf galaxy and star cluster is ambiguous) and are difficult to classify. This does include several new Globular Cluster (Laevens 1/Crater I and Sagittarius II).
-* **gc_disk**: post-Harris catalog globular clusters at low Galactic latitude (abs(b) <10), some of these systems might be open clusters, and some systems have not been confirmed
-* **gc_harris**: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_ufsc table)
-* **gc_dwarf_hosted**: Globular clusters hosted by dwarf galaxies. This does not include the Sagittarius GCs which are in gc_harris. Incomplete catalog.
 
- (Note that older versions had  small differences between dwarf galaxy and star cluster catalogs)
 
-There are two extra tables (data/pm_overview.csv and data/j_factor.csv). Both are collections of measurements (the other tables have one measurement per system). 
+There are two extra tables: data/pm_overview.csv and data/j_factor.csv. The former is a compilation of systemic proper motion measurements for dwarf galaxies in the Local Group and the latter is a collection of J-factor measurements. Both are collections of measurements (the other tables have one measurement per system). 
 
 pm_overview.csv: key, reference, proper motion measurement, method (this includes most proper motion measurements of dwarf galaxies and the goal is to be complete for literature measurements).
 
-j_factor.csv: key, reference, angle, j-factor measurement [units are log10 GeV^2 cm^-5], notes (this includes some literature j-factor measurements, mostly from A. B. Pace.  This is not complete.).
+j_factor.csv: key, reference, angle, j-factor measurement [units are log10 GeV^2 cm^-5], notes (this includes some literature j-factor measurements, mostly from A. B. Pace.  This is not complete for literature measurements.).
 
 .. Decription of table contents
 .. ----------------------------
@@ -72,16 +73,16 @@ j_factor.csv: key, reference, angle, j-factor measurement [units are log10 GeV^2
 Columns:
 
 * key: unique identifier for each system.  The yaml input files have the same name.
-* host: host of system [MW, LMC, M31, etc]
-* confirmed_real: system has been confirmed with either deeper photometry, follow-up spectroscopy, proper motion, or other methods
+* host: host [LVDB key] of system [MW, LMC, M31, etc]
+* confirmed_real: system has been confirmed with either deeper photometry, follow-up spectroscopy, proper motion, or other methods (not a chance alignment of stars).
 * confirmed_dwarf: (or confirmed_star_cluster) system has been confirmed to be dwarf galaxy (or star cluster) based on spectroscopy, and/or deeper photometry.
-* ra: right ascension ICRS [degree]
-* dec: declination ICRS [degree]
-* rhalf: major axis half-light radius (or plummer radius) in [arcmin]. Note that input yaml files can have arcsec or arcmin input units. 
-* ellipticity: 1 - minor/major axis (or 1 - axis ratio)
+* ra: right ascension ICRS J2000.0 [degree]
+* dec: declination ICRS J2000.0 [degree]
+* rhalf: major axis of the half-light radius (or plummer radius) in [arcmin]. Note that input yaml files can have arcsec or arcmin input units but the combined catalogs are in arcmin. 
+* ellipticity: 1 - minor/major axis (or 1 - axis ratio).
 * position_angle: N->E [degree] 
 * distance_modulus [mag]
-* apparent_magnitude_v: apparent magnitude in V-band. Corrected for extinction. Value added.
+* apparent_magnitude_v: apparent magnitude in V-band. Corrected for extinction. 
 * vlos_systemic: heliocentric velocity of system [km/s]
 * vlos_sigma: velocity dispersion in line-of-sight [km/s]
 * metallicity_spectroscopic: spectroscopic metallicity [dex]
@@ -91,7 +92,7 @@ Columns:
 * rcore, rking: profile fits with king profile in arcmin
 * rad_sersic, n_sersic: sersic profile parameters. rad_sersic in arcmin
 * age: age of system [Gyr] 
-* metallicity_photometric: metallicity from isochrone fitting (or non-spectroscopic metallicity such as metallicity sensitive narrowband imaging)
+* metallicity_isochrone: metallicity from isochrone or cmd fitting 
 * flux_HI: flux in HI [Jy km s^−1]
 * ref_ + x : reference columns such as ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion.  All reference columns have the same format: author last name + ADS bibcode. 
 
@@ -99,9 +100,9 @@ Value-Added Columns:
 
 * M_V: absolute V-band magnitude, computed from distance_modulus and apparent_magnitude_V
 * mass_stellar: log10 stellar mass assuming M/L=2 and computed from M_V [log10 Msun]
-* distance: heliocentric distance, computed from distance_modulus [kpc]
-* ll: Galactic longitude
-* bb: Galactic latitude
+* distance: heliocentric distance, computed from the distance_modulus column [kpc]
+* ll: Galactic longitude [degree]
+* bb: Galactic latitude [degree]
 * sg_xx: Supergalactic coordinates, x [kpc]
 * sg_yy: Supergalactic coordinates, y [kpc]
 * sg_zz: Supergalactic coordinates, z [kpc] 
@@ -110,17 +111,17 @@ Value-Added Columns:
 * distance_lg: 3D distance to Local Group center [kpc] 
 * distance_host: 3D distance to host galaxy [kpc]
 * mass_HI: log10 HI mass computed from flux_HI and distance [log10 Msun] 
-* metallicity: union of spectroscopic and photometric metallicity, spectroscopic preferred over photometric metallicity [dex]
-* metallicity_type: lists whether `metallicity` column is photometric or spectroscopic. 
+* metallicity: union of spectroscopic, photometric, and isochrone, spectroscopic preferred over photometric metallicity, and photometric over isochrone [dex]
+* metallicity_type: lists whether `metallicity` column is photometric, isochrone or spectroscopic. 
 * velocity_gsr: Velocity in Galactic standard of rest frame [km/s]
 * velocity_lg: Velocity of system relative to the Local Group centroid [km/s]
 * mass_dynamical_wolf: Dynamical mass within 3D half-light radius using the dynamical mass estimator in `Wolf et al. 2010 <https://ui.adsabs.harvard.edu/abs/2010MNRAS.406.1220W/abstract>`_ [log10 Msun]. This column has errors and upper limit columns (em, ep, ul) using the errors from the half-light radius (rhalf), ellipticity, distance, and velocity dispersion (monte carlo errors). 
 * rhalf_physical: half-light radius in physical units --  rhalf * distance  [parsec]. Includes monte carlo errors (distance and rhalf errors).
-* rhalf_sph_physical: spherically averaged half-light radius (geometric mean); rhalf * distance * sqrt(1-ellipticity) in [parsec]. Includes monte carlo errors (distance, ellipticity, and rhalf errors).
-* surface_brightness_rhalf: average surface brightness within spherically averaged half-light radius [mag arcsec^-2]
+* rhalf_sph_physical: azimuthally-averaged half-light radius (geometric mean); rhalf * distance * sqrt(1-ellipticity) in [parsec]. Includes monte carlo errors (distance, ellipticity, and rhalf errors).
+* surface_brightness_rhalf: average surface brightness within azimuthally-averaged half-light radius [mag arcsec^-2]
 * ref_ + x : reference columns such as ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion.  All reference columns have the same format: author last name + ADS bibcode. 
 
-Many columns also have associated error columns. These follow the format of name + _em, + _ep + _ul (e.g., rhalf_em).
+Many columns also have associated error columns. These follow the format of name + _em, + _ep + _ul (e.g., rhalf_em). 
 
 Error Columns: 
 
@@ -136,12 +137,13 @@ Decription of yaml files
 ------------------------
 
 There is an `example yaml file <https://github.com/apace7/local_volume_database/blob/main/code/example_yaml.yaml>`_ in the /code/ folder. 
-It includes all collections and keys in the database.  Not all keys are included in the combined csv tables.
-The yaml keys are **Bolded** below and the bullet points follow the yaml collection structure.  Errors columns are not included in the list below and some columns include upper limits in the combined table. 
+The example yaml file includes all collections and keys in the database.  Not all keys are included in the combined csv tables.
+The yaml collections and keys are **Bolded**  and the bullet points follow the yaml collection structure.  Errors columns are not included in the list  and some columns include upper limits in the combined table. 
 The collections are split such that a single reference can describe the contents.
+Most keys are single entries and several keys are lists (specially other_name, ref_discovery, ref_false_positive).  
 
 * **key** —- unique internal identifier. This should be the same as the name of the file (without .yaml) (required yaml key). All keys are lowercase in LVDB. Globular clusters and some dwarf galaxies are grouped by their host (for example, all LMC globular cluster keys have the prefix lmc_gc_ and many Centuarus A dwarf galaxy keys have the prefix cena_ ). 
-* **table** -- table to place system into (required yaml key) list of possible tables [gc_harris, gc_dwarf_hosted, gc_disk, gc_halo=gc_ufsc, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc]. Systems in the candidate and misc tables are not combined into files. The candidate systems are included in the lvdb pdf summary. The misc systems are primarily bright host galaxies (MW, M31, Cen A) and only included for distance measurements (**distance_fixed_host**) and to link systems together. 
+* **table** -- table to place system into (required yaml key) list of possible tables [gc_harris, gc_dwarf_hosted, gc_disk=gc_mw_new, gc_halo=gc_ufsc=gc_abmiguous, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc]. The candidate and misc catalogs are only included in the release pages. The candidate systems are included in the lvdb pdf summary while the hosts/misc are not. The misc systems are primarily bright host galaxies (MW, M31, Cen A) and are partly included for distance measurements (**distance_fixed_host**) and to link systems together. 
 * **location** -- center of the system (yaml collection)
 
   * **ra** -- right ascension ICRS [degree]  (required yaml key)
@@ -172,13 +174,13 @@ The collections are split such that a single reference can describe the contents
 
   * **abbreviation** -- Common abbreviation for system (currently only for MW dwarf galaxies). 
   
-  * **type** -- dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster
+  * **type** -- dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster (mostly incomplete)
 
 * **structure** -- yaml collection
   
-  * **rhalf** -- elliptical half-light radius (or plummer radius) [arcmin]. This corresponds to the major axis. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+  * **rhalf** -- elliptical half-light radius (or plummer radius) [arcmin]. This corresponds to the major axis. The default units are arcmin if the **spatial_units** key is not included. 
 
-  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
+  * **spatial_units** -- this key sets the units of the spatial parameter (rhalf here). The options are [arcmin, arcsec].
 
   * **spatial_model** -- options = [plummer, exponential, sersic, king, eff] model assumption for the primary model assumed to compute rhalf.  Included for reference.
 
@@ -192,13 +194,15 @@ The collections are split such that a single reference can describe the contents
 
   * **distance_modulus** --  distance modulus of the system. [mag] This quantity is used to compute the distance in kpc for each system.
 
-  * **distance_fixed_host** -- True/False. This option fixes the distance of the system to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy and new (unconfirmed) satellites of more distant hosts (>3 Mpc)
+  * **distance_fixed_host** -- True/False. This option fixes the distance of the system to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy, systems without an independent distance measurement, and/or new candidate satellites in more distant systems (>3 Mpc)
 
   * **ref_distance**
 
 * **m_v** -- yaml collection
 
   * **apparent_magnitude_v** -- Apparent V-band magnitude of the system. This quantity is corrected for extinction. This quantity is combined with **distance_modulus** to compute the absolute V-band magnitude in the combined tables. 
+
+  * **apparent_magnitude_i** -- Apparent I-band magnitude of the system. This quantity is corrected for extinction.  This column is rarely used.
 
   * **mean_ebv** -- Mean E(B-V) for reference.  This is not currently used in calculations. 
 
@@ -248,11 +252,11 @@ The collections are split such that a single reference can describe the contents
 
 * **structure_king**
 
-  * **rcore** -- King core radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+  * **rcore** -- King core radius [arcmin]. The default units are arcmin if the **spatial_units** key is not included. 
 
   * **rking** -- King limiting radius, sometimes referred to as the tidal radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
 
-  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
+  * **spatial_units** -- this key sets the units of the spatial parameter. The options are [arcmin, arcsec].
   
   * **ellipticity** and **position_angle** -- these are specfic to the King profile fit 
 
@@ -262,9 +266,9 @@ The collections are split such that a single reference can describe the contents
 
   * **n_sersic** -- Sersic powerlaw value.
 
-  * **rad_sersic** -- Sersic radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+  * **rad_sersic** -- Sersic radius [arcmin]. The default units are arcmin if the **spatial_units** key is not included. 
 
-  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
+  * **spatial_units** -- this key sets the units of the spatial parameter. The options are [arcmin, arcsec].
 
   * **ellipticity** -- from Sersic fit.
 
@@ -274,13 +278,13 @@ The collections are split such that a single reference can describe the contents
 
   * **ref_structure_sersic**
 
-* **structure_eff**
+* **structure_eff** -- EFF profile (Elson, Fall & Freeman 1987). Commonly used for globular clusters.
 
   * **gamma_eff** -- Powerlaw value from EFF profile (Elson, Fall & Freeman 1987).
 
-  * **rad_eff** -- EFF scale radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+  * **rad_eff** -- EFF scale radius [arcmin]. The default units are arcmin if the **spatial_units** key is not included. 
 
-  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
+  * **spatial_units** -- this key sets the units of the spatial parameter. The options are [arcmin, arcsec].
 
   * **ellipticity** -- from EFF fit.
 
@@ -290,9 +294,9 @@ The collections are split such that a single reference can describe the contents
 
 * **structure_plummer**
 
-  * **rplummer** -- Plummer scale radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+  * **rplummer** -- Plummer scale radius [arcmin]. The default units are arcmin if the **spatial_units** key is not included. 
 
-  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
+  * **spatial_units** -- this key sets the units of the spatial parameter. The options are [arcmin, arcsec].
 
   * **ellipticity** -- from Plummer fit.
 
@@ -302,11 +306,11 @@ The collections are split such that a single reference can describe the contents
 
 * **structure_exponential**
 
-  * **rexponential** -- Exponential scale radius [arcmin]. Default units is arcmin if arcsec the **spatial_units** key needs to be set. 
+  * **rexponential** -- Exponential scale radius [arcmin]. The default units are arcmin if the **spatial_units** key is not included. 
 
-  * **spatial_units** -- options = [arcmin, arcsec] sets the units for the input radial parameter.
+  * **spatial_units** -- this key sets the units of the spatial parameter. The options are [arcmin, arcsec].
 
-  * **ellipticity** -- from EExponentialFF fit.
+  * **ellipticity** -- from Exponential fit.
 
   * **position_angle** -- from Exponential fit.
 
@@ -334,21 +338,24 @@ The collections are split such that a single reference can describe the contents
   
   * **tau_50** -- time for 50 per cent of stellar mass to form [Gyr ago]
 
-  * **tau_80** -- time where 80 per cent of stellar mass has formed, quenching time [Gyr ago]
+  * **tau_80** -- time for 80 per cent of stellar mass has formed, quenching time [Gyr ago]
 
-  * **tau_90** -- time where 90 per cent of stellar mass has formed, quenching time [Gyr ago]
+  * **tau_90** -- time for 90 per cent of stellar mass has formed, quenching time [Gyr ago]
 
   * **ref_star_formation_history**
 
 Citations to database and citations to the LVDB input
 -----------------------------
 
-The LVDB is set up to enable citations to the analysis and papers that serves as input to the LVDB. All reference columns (**ref_**) follow the same format of author last name (removed of special characters) + `NASA ADS bibcode <https://ui.adsabs.harvard.edu/>`_. There is a BibTeX file (`table/lvdb.bib <https://github.com/apace7/local_volume_database/blob/main/table/lvdb.bib>`_) with BibTeX entries from ADS with the key matching the LVDB reference column. There is an `ADS public library <https://ui.adsabs.harvard.edu/public-libraries/fVKkEJbdRyCmscCOwzsz6w>`_ that contains many of the input papers to the LVDB (with the goal to eventually contain all papers in the LVDB).  Papers replaced in the future will not be removed. 
-The example notebook `example_notebooks/example_latex_citations.ipynb/ <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_latex_citations.ipynb>`_ contains an example of creating a latex table with citations using the LVDB. 
+The LVDB is set up to enable citations to the literature input of the LVDB. All reference columns (**ref_**) follow the same format of author last name (removed of special characters) + `NASA ADS bibcode <https://ui.adsabs.harvard.edu/>`_. There is a BibTeX file (`table/lvdb.bib <https://github.com/apace7/local_volume_database/blob/main/table/lvdb.bib>`_) with BibTeX entries from ADS with the key matching the LVDB reference column. There is an `ADS public library <https://ui.adsabs.harvard.edu/public-libraries/fVKkEJbdRyCmscCOwzsz6w>`_ that contains the majority of the literature LVDB input.
+The example notebook `example_notebooks/example_latex_citations.ipynb <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_latex_citations.ipynb>`_ contains an example of creating a latex table with citations using the LVDB. 
+The LVDB package also contains a function that will output references (see `example_notebooks/example_lvdb_package.ipynb <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_lvdb_package.ipynb>`_)
 
-As ADS bibcode are a fixed length of 19 characters, the ADS bibcode can be retrieved from the LVDB reference columns.  Other public tools such as  `adstex <https://github.com/yymao/adstex>`_ can be used to create bibtex files. 
+As ADS bibcode are a fixed length of 19 characters, the ADS bibcode can be retrieved from the LVDB reference columns if users wish to use the ADS bibcodes instead.  Other public tools such as  `adstex <https://github.com/yymao/adstex>`_ can be used to create bibtex files. 
 
-Users of the LVDB are encouraged to cite the LVDB input of the systems studied in their analysis to give proper acknowledgment to the community.  
+Users of the LVDB are encouraged to cite the LVDB input (of the systems studied in their analysis) to give proper acknowledgment to the community.  
 
-If you use this in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the database paper (once it is written). 
+If you use the LVDB in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the database paper (once it is written). 
 An example in latex is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }}.
+
+.. The bibtex of the LVDB paper is below:
