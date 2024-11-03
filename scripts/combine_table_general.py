@@ -387,6 +387,8 @@ def value_add(input_table, table_type='dwarf', **kwargs):
     input_table['rhalf_sph_physical_em'] = np.ma.masked_all(len(input_table), dtype=float)
     input_table['rhalf_sph_physical_ep'] = np.ma.masked_all(len(input_table), dtype=float)
 
+    input_table['surface_brightness_rhalf'] = np.ma.masked_all(len(input_table), dtype=float)
+
     for i in range(len(input_table)):
         y= compute_mass_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i],input_table['vlos_sigma'][i], input_table['vlos_sigma_em'][i], input_table['vlos_sigma_ep'][i])
 
@@ -410,7 +412,7 @@ def value_add(input_table, table_type='dwarf', **kwargs):
 
     ## average surface brightness within half-light radius
         if ma.is_masked(input_table['rhalf_sph_physical'][i])==False:
-            input_table['surface_brightness_rhalf'] = input_table['M_V'][i] + 19.78 + input_table['distance_modulus'][i] +  2.5 * np.log10(np.degrees(np.arctan(input_table['rhalf_sph_physical'][i]/1000./input_table['distance'][i]))**2)
+            input_table['surface_brightness_rhalf'][i] = input_table['M_V'][i] + 19.78 + input_table['distance_modulus'][i] +  2.5 * np.log10(np.degrees(np.arctan(input_table['rhalf_sph_physical'][i]/1000./input_table['distance'][i]))**2)
 
     return input_table
 
