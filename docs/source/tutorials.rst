@@ -62,7 +62,15 @@ I note that the name for one type of system in the catalog (labeled UFSC = ultra
 
    Example figure
 
-In addition to the example above, there are two folders with example ipython notebooks:  `example_notebooks/ <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/>`_ and `paper_examples/ <https://github.com/apace7/local_volume_database/tree/main/paper_examples>`_. The former are general examples while the latter are the notebooks used to make the summary/example figures in the LVDB overview paper.
+Example Jupyter Notebooks
+---------------------------------------------
+
+In addition to the example above, there are two folders with example ipython notebooks:
+
+* `example_notebooks/ <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/>`_ =
+* `paper_examples/ <https://github.com/apace7/local_volume_database/tree/main/paper_examples>`_
+
+The former noteboks are general examples while the latter notebooks were used to make the figures in the LVDB overview paper.
 
 Some Recommendations 
 ---------------------------------------------
