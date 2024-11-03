@@ -178,7 +178,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
 * **structure** -- yaml collection
   
-  * **rhalf** -- elliptical half-light radius (or plummer radius) [arcmin]. This corresponds to the major axis. The default units are arcmin if the **spatial_units** key is not included. 
+  * **rhalf** -- elliptical half-light radius [arcmin]. This corresponds to the major axis. The default units are arcmin if the **spatial_units** key is not included. 
 
   * **spatial_units** -- this key sets the units of the spatial parameter (rhalf here). The options are [arcmin, arcsec].
 
