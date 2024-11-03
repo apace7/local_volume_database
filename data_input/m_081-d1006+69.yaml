@@ -53,7 +53,8 @@ structure_sersic:
   position_angle: 110.0
   ref_structure_sersic: Okamoto2019ApJ...884..128O
 metallicity_isochrone:
-  metallicity_isochrone: 0.16
+  metallicity_isochrone: -1.83
   metallicity_isochrone_em: 0.28
   metallicity_isochrone_ep: 0.28
+  metallicity_isochrone_sigma: 0.16
   ref_metallicity_isochrone: Okamoto2019ApJ...884..128O

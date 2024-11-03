@@ -67,10 +67,9 @@ Example Jupyter Notebooks
 
 In addition to the example above, there are two folders with example ipython notebooks:
 
-* `example_notebooks/ <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/>`_ =
-* `paper_examples/ <https://github.com/apace7/local_volume_database/tree/main/paper_examples>`_
+* `general example notebooks <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/>`_ 
+* `LVDB overview plots  <https://github.com/apace7/local_volume_database/tree/main/paper_examples>`_
 
-The former noteboks are general examples while the latter notebooks were used to make the figures in the LVDB overview paper.
 
 Some Recommendations 
 ---------------------------------------------

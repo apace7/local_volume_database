@@ -1,7 +1,7 @@
 Usage & Decription of tables 
 ============================
 
-For LVDB users that only want to  use  the combined catalogs/tables, installing the LVDB package is not required and the tables can be downloaded from the `release page <https://github.com/apace7/local_volume_database/releases>`_ (see assets).
+For LVDB users that only want to  use  the combined catalogs/tables, installing the LVDB package is not required and the combined catalogs/tables can be downloaded from the `GitHub release page <https://github.com/apace7/local_volume_database/releases>`_.
 
 .. _installation:
 
@@ -17,7 +17,7 @@ The LVDB package is installable locally:
   python -m build
   pip install .
 
-The `LVDBDIR` envirnment variable is used to point to the location of the input YAML files (/data_input/). 
+The ``LVDBDIR`` envirnment variable is used to point to the location of the input YAML files (local_volume_database/data_input/). 
 Pip package coming. As the package interacts with the YAML files, it is recommended to install locally.
 
 Database content

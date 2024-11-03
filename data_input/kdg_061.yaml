@@ -59,7 +59,8 @@ velocity:
   vlos_systemic_ep: 3
   ref_vlos: Makarova2010MNRAS.406.1152M
 metallicity_isochrone:
-  metallicity_isochrone: 0.38
+  metallicity_isochrone: -1.29
   metallicity_isochrone_em: 0.21
   metallicity_isochrone_ep: 0.21
+  metallicity_isochrone_sigma: 0.38
   ref_metallicity_isochrone: Okamoto2019ApJ...884..128O
