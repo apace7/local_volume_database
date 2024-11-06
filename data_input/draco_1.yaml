@@ -1,8 +1,21 @@
 key: draco_1
 table: dwarf_mw
 location:
-  dec: 57.9185
   ra: 260.0684
+  dec: 57.9185
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1955
+  host: mw
+  name: Draco
+  other_name:
+  - UGC 10822
+  - DDO 208
+  ref_discovery:
+  - Wilson1955PASP...67...27W
+  abbreviation: Dra
+  type: dSph  
 distance:
   distance_modulus: 19.557
   distance_modulus_em: 0.04
@@ -24,19 +37,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.02
   metallicity_spectroscopic_sigma_ep: 0.02
   ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 1955
-  host: mw
-  name: Draco
-  other_name:
-  - UGC 10822
-  - DDO 208
-  ref_discovery:
-  - Wilson1955PASP...67...27W
-  abbreviation: Dra
-  type: dSph
 proper_motion:
   pmdec: -0.188
   pmdec_em: 0.006
