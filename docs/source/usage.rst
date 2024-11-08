@@ -142,15 +142,15 @@ The yaml collections and keys are **Bolded**  and the bullet points follow the y
 The collections are split such that a single reference can describe the contents.
 Most keys are single entries and several keys are lists (specially other_name, ref_discovery, ref_false_positive).  
 
-* **key** —- unique internal identifier. This should be the same as the name of the file (without .yaml) (required yaml key). All keys are lowercase in LVDB. Globular clusters and some dwarf galaxies are grouped by their host (for example, all LMC globular cluster keys have the prefix lmc_gc_ and many Centuarus A dwarf galaxy keys have the prefix cena_ ). 
-* **table** -- table to place system into (required yaml key) list of possible tables [gc_harris, gc_dwarf_hosted, gc_disk=gc_mw_new, gc_halo=gc_ufsc=gc_abmiguous, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc]. The candidate and misc catalogs are only included in the release pages. The candidate systems are included in the lvdb pdf summary while the hosts/misc are not. The misc systems are primarily bright host galaxies (MW, M31, Cen A) and are partly included for distance measurements (**distance_fixed_host**) and to link systems together. 
-* **location** -- center of the system (yaml collection)
+* **key** —- unique internal identifier (required yaml key). This should be the same as the name of the file (without .yaml).  All keys are lowercase in LVDB. Globular clusters and some dwarf galaxies are grouped by their host. For example, all LMC globular cluster keys have the prefix lmc_gc_ and many Centuarus A dwarf galaxy keys have the prefix cena_. Most new satellite systems will have a host prefix.
+* **table** -- the table to place system into (required yaml key). The list of possible tables is: gc_harris, gc_dwarf_hosted, gc_disk=gc_mw_new, gc_halo=gc_ufsc=gc_abmiguous, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc (there are several options that will place systems into the same table). The candidate and misc catalogs are only included in the release pages. The candidate systems are included in the lvdb pdf summary while the hosts/misc are not. The misc systems are primarily bright host galaxies (MW, M31, Cen A) and are partly included for distance measurements (**distance_fixed_host**) and to link systems together. 
+* **location** -- yaml collection. center of the system 
 
   * **ra** -- right ascension ICRS [degree]  (required yaml key)
 
   * **dec** -- declination ICRS [degree] (required yaml key)
 
-* **name_discovery**
+* **name_discovery** -- yaml collection
 
   * **name** -- name of system
 
@@ -158,23 +158,23 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_discovery** --- List of discovery references. There can be multiple discovery references due to independent discoveries made on similar    timescales. Follow-up confirmation studies (i.e. HST imaging for distant candidate dwarfs around local volume hosts). Re-discoveries of systems (i.e. globular clusters hosted by dwarf galaxies).
 
-  * **discovery_year** -- year of discovery. This may follow the arxiv year instead of the journal publication year.
+  * **discovery_year** -- year of discovery. The year may be before the journal publication year due to an earlier arxiv submission.
 
-  * **host** -- host of system.
+  * **host** -- host galaxy of the system.
 
-  * **confirmed_dwarf** -- 0/1 -- 1 = confirmed dwarf galaxy.  
+  * **confirmed_dwarf** -- Integer that denotes whether the system is confirmed to be a dwarf galaxy (options = 0,1). 1 = confirmed dwarf galaxy.  
 
-  * **confirmed_star_cluster** -- 0 or 1 -- 1 = confirmed star cluster.  
+  * **confirmed_star_cluster** -- Integer that denotes whether the system is confirmed to be a star cluster (options = 0,1).  1 = confirmed star cluster.  
 
-  * **confirmed_real** -- 1 = system is confirmed to be physical system.  This includes deeper imaging (i.e. HST), spectroscopic confirmation, and/or proper motion confirmation.
+  * **confirmed_real** -- Integer that denotes whether the system is confirmed  to be physical system (options = 0,1). 1 = confirmed system.  To confirm a system, deeper imaging (i.e. HST), spectroscopy, and/or proper motion/astrometry may be required. 
 
-  * **false_positive** -- 1 = system is confirmed to be a false positive.  2 = system is confirmed to be background galaxy at much larger distances
+  * **false_positive** -- Integer that denotes whether the system is confirmed to a false positive or backkground galaxy (options = 0,1,2). 1 = system is confirmed to be a false positive.  2 = system is confirmed to be background galaxy at much larger distance (outside the Local Volume).
 
   * **ref_false_positive** -- list of references that shows an system is a false positive. This could include new dwarf galaxy searches that do not recover the system. This includes dwarf galaxies candidates that are later shown to be background galaxies. 
 
   * **abbreviation** -- Common abbreviation for system (currently only for MW dwarf galaxies). 
   
-  * **type** -- dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster (mostly incomplete)
+  * **type** -- dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster (this options are not complete here). This key is generally incomplete.
 
 * **structure** -- yaml collection
   
@@ -208,7 +208,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_m_v** -- reference
 
-* **velocity** -- stellar velocity/kinematics
+* **velocity** -- yaml collection. stellar velocity/kinematics
 
   * **vlos_systemic** -- systemic heliocentric velocity of the system. Stellar velocities are preferred but some distant systems only have HI velocities. [km/s]
   
@@ -218,7 +218,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
   
   * **ref_vlos** -- reference
 
-* **proper_motion**
+* **proper_motion** -- yaml collection
   
   * **pmra** -- systemic proper motion in the direction of right ascension (includes cosdec term) [mas/yr]
 
@@ -226,7 +226,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_proper_motion** -- reference
 
-* **spectroscopic_metallicity**
+* **spectroscopic_metallicity** -- yaml collection
 
   * **metallicity_spectroscopic** -- mean metallicity
 
@@ -234,7 +234,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_metallicity_spectroscopic** -- reference
 
-* **metallicity_photometric**
+* **metallicity_photometric** -- yaml collection
 
   * **metallicity_photometric** -- photometric metallicity. This generally is from metallicity sensistive photometry (Ca H&K, u-band). 
 
@@ -242,7 +242,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_metallicity_photometric** -- reference
 
-* **metallicity_isochrone**
+* **metallicity_isochrone** -- yaml collection
 
   * **metallicity_isochrone** -- metallicity from isochrone or color-magnitude diagram fitting. 
 
@@ -250,7 +250,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_metallicity_isochrone** -- reference
 
-* **structure_king**
+* **structure_king** -- yaml collection
 
   * **rcore** -- King core radius [arcmin]. The default units are arcmin if the **spatial_units** key is not included. 
 
@@ -262,7 +262,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_structure_king** -- reference
 
-* **structure_sersic**
+* **structure_sersic** -- yaml collection
 
   * **n_sersic** -- Sersic powerlaw value.
 
@@ -278,7 +278,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_structure_sersic**
 
-* **structure_eff** -- EFF profile (Elson, Fall & Freeman 1987). Commonly used for globular clusters.
+* **structure_eff** -- yaml collection. EFF profile (Elson, Fall & Freeman 1987). Commonly used for globular clusters.
 
   * **gamma_eff** -- Powerlaw value from EFF profile (Elson, Fall & Freeman 1987).
 
@@ -292,7 +292,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_structure_sersic**
 
-* **structure_plummer**
+* **structure_plummer** -- yaml collection. 
 
   * **rplummer** -- Plummer scale radius [arcmin]. The default units are arcmin if the **spatial_units** key is not included. 
 
@@ -304,7 +304,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_structure_plummer**
 
-* **structure_exponential**
+* **structure_exponential** -- yaml collection.
 
   * **rexponential** -- Exponential scale radius [arcmin]. The default units are arcmin if the **spatial_units** key is not included. 
 
@@ -316,7 +316,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_structure_exponential**
 
-* **flux_HI**
+* **flux_HI** -- yaml collection.
 
   * **flux_HI** -- [Jy km/s]
 
@@ -328,13 +328,13 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_flux_HI**
 
-* **age**
+* **age** -- yaml collection.
   
   * **age** -- mean age of the systemic in [Gyr]. Mainly for star clusters. 
 
   * **ref_age** -- reference
 
-* **star_formation_history**
+* **star_formation_history** -- yaml collection. Mainly for dwarf galaxies.
   
   * **tau_50** -- time for 50 per cent of stellar mass to form [Gyr ago]
 
@@ -344,18 +344,20 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_star_formation_history**
 
-Citations to database and citations to the LVDB input
+Citations to the LVDB and citations to the LVDB input
 -----------------------------
 
 The LVDB is set up to enable citations to the literature input of the LVDB. All reference columns (**ref_**) follow the same format of author last name (removed of special characters) + `NASA ADS bibcode <https://ui.adsabs.harvard.edu/>`_. There is a BibTeX file (`table/lvdb.bib <https://github.com/apace7/local_volume_database/blob/main/table/lvdb.bib>`_) with BibTeX entries from ADS with the key matching the LVDB reference column. There is an `ADS public library <https://ui.adsabs.harvard.edu/public-libraries/fVKkEJbdRyCmscCOwzsz6w>`_ that contains the majority of the literature LVDB input.
 The example notebook `example_notebooks/example_latex_citations.ipynb <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_latex_citations.ipynb>`_ contains an example of creating a latex table with citations using the LVDB. 
-The LVDB package also contains a function that will output references (see `example_notebooks/example_lvdb_package.ipynb <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_lvdb_package.ipynb>`_)
+The LVDB package also contains a function that will output references (see `example_lvdb_package.ipynb <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_lvdb_package.ipynb>`_).
+
+
 
 As ADS bibcode are a fixed length of 19 characters, the ADS bibcode can be retrieved from the LVDB reference columns if users wish to use the ADS bibcodes instead.  Other public tools such as  `adstex <https://github.com/yymao/adstex>`_ can be used to create bibtex files. 
 
-Users of the LVDB are encouraged to cite the LVDB input (of the systems studied in their analysis) to give proper acknowledgment to the community.  
+Users of the LVDB are encouraged to cite the LVDB input (of the systems studied in their analysis) to give proper acknowledgment to the community.  The references could be included in a table or appendix. See Appendix A of this paper (`Cerny et al. 2024 <https://ui.adsabs.harvard.edu/abs/2024arXiv241000981C/abstract>`_) for an example of including internal LVDB references to the text of a paper.
 
-If you use the LVDB in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the database paper (once it is written). 
+If you use the LVDB in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the LVDB overview paper (once it is written). 
 An example in latex is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }}.
 
 .. The bibtex of the LVDB paper is below:
