@@ -1,23 +1,8 @@
-distance:
-  distance_modulus: 16.8
-  distance_modulus_em: 0.2
-  distance_modulus_ep: 0.2
-  ref_distance: Belokurov2007ApJ...654..897B
-flux_HI:
-  flux_HI_ul: 0.089
-  ref_flux_HI: Spekkens2014ApJ...795L...5S
 key: segue_1
+table: dwarf_mw
 location:
-  dec: 16.0756
   ra: 151.7504
-m_v:
-  apparent_magnitude_v: 15.5
-  apparent_magnitude_v_em: 0.73
-  apparent_magnitude_v_ep: 0.73
-  ref_m_v: Munoz2018ApJ...860...66M
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.5
-  ref_metallicity_spectroscopic: Simon2011ApJ...733...46S
+  dec: 16.0756
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -27,7 +12,23 @@ name_discovery:
   ref_discovery:
   - Belokurov2007ApJ...654..897B
   abbreviation: Seg1
-  type: dSph
+  type: dSph  
+distance:
+  distance_modulus: 16.8
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.2
+  ref_distance: Belokurov2007ApJ...654..897B
+flux_HI:
+  flux_HI_ul: 0.089
+  ref_flux_HI: Spekkens2014ApJ...795L...5S
+m_v:
+  apparent_magnitude_v: 15.5
+  apparent_magnitude_v_em: 0.73
+  apparent_magnitude_v_ep: 0.73
+  ref_m_v: Munoz2018ApJ...860...66M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.5
+  ref_metallicity_spectroscopic: Simon2011ApJ...733...46S
 proper_motion:
   pmdec: -3.375
   pmdec_em: 0.046
@@ -63,7 +64,6 @@ structure_sersic:
   rad_sersic_em: 0.48
   rad_sersic_ep: 0.48
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Simon2011ApJ...733...46S
   vlos_sigma: 3.7
@@ -72,3 +72,11 @@ velocity:
   vlos_systemic: 208.5
   vlos_systemic_em: 0.9
   vlos_systemic_ep: 0.9
+metallicity_photometric:
+  metallicity_photometric: -2.36
+  metallicity_photometric_em: 0.23
+  metallicity_photometric_ep: 0.25
+  metallicity_photometric_sigma: 0.65
+  metallicity_photometric_sigma_em: 0.21
+  metallicity_photometric_sigma_ep: 0.26
+  ref_metallicity_photometric: Fu2023ApJ...958..167F

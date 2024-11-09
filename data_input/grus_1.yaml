@@ -32,6 +32,14 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.11
   metallicity_spectroscopic_sigma_ul: 0.44
   ref_metallicity_spectroscopic: Chiti2022ApJ...939...41C
+metallicity_photometric:
+  metallicity_photometric: -2.62
+  metallicity_photometric_em: 0.15
+  metallicity_photometric_ep: 0.14
+  metallicity_photometric_sigma: 0.61
+  metallicity_photometric_sigma_em: 0.11
+  metallicity_photometric_sigma_ep: 0.12
+  ref_metallicity_photometric: Fu2023ApJ...958..167F
 proper_motion:
   pmra: 0.069
   pmra_em: 0.05

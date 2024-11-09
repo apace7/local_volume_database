@@ -37,6 +37,14 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.09
   metallicity_spectroscopic_sigma_ep: 0.09
   ref_metallicity_spectroscopic: Simon2015ApJ...808...95S
+metallicity_photometric:
+  metallicity_photometric: -2.64
+  metallicity_photometric_em: 0.11
+  metallicity_photometric_ep: 0.10
+  metallicity_photometric_sigma: 0.72
+  metallicity_photometric_sigma_em: 0.08
+  metallicity_photometric_sigma_ep: 0.09
+  ref_metallicity_photometric: Fu2023ApJ...958..167F
 proper_motion:
   pmdec: -1.379
   pmdec_em: 0.025

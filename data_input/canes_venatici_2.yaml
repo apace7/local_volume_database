@@ -37,6 +37,14 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.12
   metallicity_spectroscopic_sigma_ep: 0.15
   ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
+metallicity_photometric:
+  metallicity_photometric: -2.98
+  metallicity_photometric_em: 0.12
+  metallicity_photometric_ep: 0.12
+  metallicity_photometric_sigma: 0.55
+  metallicity_photometric_sigma_em: 0.10
+  metallicity_photometric_sigma_ep: 0.12
+  ref_metallicity_photometric: Fu2023ApJ...958..167F
 proper_motion:
   pmdec: -0.254
   pmdec_em: 0.08

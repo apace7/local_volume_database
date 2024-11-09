@@ -51,6 +51,7 @@ comb_gc_ufsc = table.Table(np.zeros((Counter(table_list)['gc_ufsc']+Counter(tabl
 comb_gc_harris = table.Table(np.zeros((Counter(table_list)['gc_harris'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 comb_gc_disk = table.Table(np.zeros((Counter(table_list)['gc_disk']+Counter(table_list)['gc_mw_new'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 comb_gc_dwarf = table.Table(np.zeros((Counter(table_list)['gc_dwarf_hosted'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
+comb_gc_other = table.Table(np.zeros((Counter(table_list)['gc_other'], 3)),names=('key', 'ra', 'dec' ), dtype=('U100','f8', 'f8', ))
 
 ## add all the columns.  The columns are masked for missing entries 
 # for i,j in zip(col_name_gc, col_type_gc):
@@ -83,6 +84,7 @@ for i,j in zip(col_name_dwarf, col_type_dwarf):
 
     comb_candidate[i] = np.ma.masked_all(len(comb_candidate), dtype=j)
     comb_host[i] = np.ma.masked_all(len(comb_host), dtype=j)
+    comb_gc_other[i] = np.ma.masked_all(len(comb_gc_other), dtype=j)
 
 ## distance modulus
 def dist_mod(mu, mu_em=0, mu_ep=0):
@@ -430,6 +432,7 @@ place_gc_ufsc =0
 place_gc_dwarf =0 
 place_candidate =0
 place_misc = 0
+place_gc_other =0
 example_keys= ['discovery_year', 'other_name', 'ref_discovery', 'type', 'spatial_units', 'central_surface_brightness', 'central_surface_brightness_em', 'central_surface_brightness_ep', 'false_positive', 'metallicity_isochrone_sigma', 'mean_ebv', 'king_concentration', 'king_concentration_em', 'king_concentration_ep', 'abbreviation', 'vlos_sigma_central', 'vlos_sigma_central_em', 'vlos_sigma_central_ep', 'confirmed_star_cluster', 'vlos_systemic_HI', 'vlos_systemic_HI_em', 'vlos_systemic_HI_ep', 'sigma_HI', 'sigma_HI_em', 'sigma_HI_ep', 'vrot_HI', 'vrot_HI_em', 'vrot_HI_ep', 'ref_HI_kinematics',  'metallicity_isochrone_sigma_em', 'metallicity_isochrone_sigma_ep', 'apparent_magnitude_v_ul', 'age_ll']
 
 ## this add each galaxy/star cluster to the tables. 
@@ -466,6 +469,9 @@ for i in range(len(dir_list)):
         elif stream_yaml['table'] == 'misc':
             miss = add_to_table(stream_yaml, comb_host, place_misc)
             place_misc+=1 
+        elif stream_yaml['table'] == 'gc_other':
+            miss = add_to_table(stream_yaml, comb_gc_other, place_gc_other)
+            place_gc_other+=1 
         else:
             missing_table.append(stream_yaml['table'])
             missing_table_key.append(stream_yaml['key'])
@@ -489,7 +495,7 @@ for missing in Counter(missing_table).keys():
 print('adding more columns')
 columns_to_add = ['metallicity_photometric', 'metallicity_photometric_em', 'metallicity_photometric_ep', 'metallicity_photometric_sigma', 'metallicity_photometric_sigma_em', 'metallicity_photometric_sigma_ep', 'metallicity_photometric_sigma_ul', ]
 
-for tab in [comb_gc_ufsc, comb_gc_harris,  comb_gc_disk, comb_gc_dwarf, comb_dwarf_mw, comb_dwarf_m31, comb_dwarf_lf, comb_dwarf_lf_distant, comb_candidate, comb_host]:
+for tab in [comb_gc_ufsc, comb_gc_harris,  comb_gc_disk, comb_gc_dwarf, comb_dwarf_mw, comb_dwarf_m31, comb_dwarf_lf, comb_dwarf_lf_distant, comb_candidate, comb_host, comb_gc_other]:
     for column in columns_to_add:
         lvdb.add_column(tab,'metallicity_photometric',column)
     lvdb.add_column(tab,'metallicity_photometric','ref_metallicity_photometric', col_type='U50')
@@ -509,6 +515,8 @@ comb_dwarf_lf_distant = value_add(comb_dwarf_lf_distant, table_type='dwarf') # ,
 
 comb_candidate = value_add(comb_candidate, table_type='dwarf')
 comb_host = value_add(comb_host, table_type='dwarf')
+
+comb_gc_other = value_add(comb_gc_other, table_type='dwarf')
 
 print("Value added columns added")
 
@@ -554,7 +562,12 @@ comb_dwarf = table.vstack([comb_dwarf_mw, comb_dwarf_m31, comb_dwarf_lf, comb_dw
 comb_dwarf.write('data/dwarf_all.csv', format='csv', overwrite=True)
 comb_dwarf.write('data/dwarf_all.fits', format='fits', overwrite=True)
 
+
+comb_gc_other.write('data/gc_other.csv', format='csv', overwrite=True)
+comb_gc_other.write('data/gc_other.fits', format='fits', overwrite=True)
+
+
 ## don't add comb_gc_ufsc here 
-# comb_gc_all = table.vstack([comb_gc_disk, comb_gc_harris, comb_gc_dwarf])
+# comb_gc_all = table.vstack([comb_gc_disk, comb_gc_harris, comb_gc_dwarf, comb_gc_other])
 # comb_gc_all.write('data/gc_all.csv', format='csv', overwrite=True)
 # comb_gc_all.write('data/gc_all.fits', format='fits', overwrite=True)
