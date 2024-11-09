@@ -46,8 +46,18 @@ proper_motion:
   pmdec_ep: 0.0378
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
-  ref_structure: Baumgardt2018MNRAS.478.1520B
-  rhalf: 1.29
+  rhalf: 1.36
+  rhalf_em: 0.06
+  rhalf_ep: 0.06
+  spatial_units: arcmin
+  spatial_model: plummer
+  ellipticity: 0.09
+  ellipticity_em: 0.05
+  ellipticity_ep: 0.05
+  position_angle: 86
+  position_angle_em: 17
+  position_angle_ep: 17
+  ref_structure: Munoz2018ApJ...860...66M
 structure_sersic:
   n_sersic: 1.49
   n_sersic_em: 0.08

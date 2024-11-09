@@ -1,8 +1,18 @@
 key: ngc_5694
 table: gc_harris
 location:
-  dec: -26.538776
   ra: 219.901245
+  dec: -26.538776
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1784
+  name: NGC 5694
+  ref_discovery:
+  - Herschel1786RSPT...76..457H
+  host: mw
+notes:
+- discovered in 1784 by Herschel
 age:
   age: 13.44
   age_em: 0.9
@@ -21,16 +31,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.98
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 1784
-  name: NGC 5694
-  ref_discovery:
-  - Herschel1786RSPT...76..457H
-  host: mw
-notes:
-- discovered in 1784 by Herschel
 proper_motion:
   pmdec: -1.1046
   pmdec_em: 0.029
@@ -40,8 +40,18 @@ proper_motion:
   pmra_ep: 0.0293
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
-  ref_structure: Baumgardt2018MNRAS.478.1520B
-  rhalf: 0.3
+  rhalf: 0.68
+  rhalf_em: 0.15
+  rhalf_ep: 0.15
+  spatial_units: arcmin
+  spatial_model: plummer
+  ellipticity: 0.08
+  ellipticity_em: 0.16
+  ellipticity_ep: 0.16
+  position_angle: 32
+  position_angle_em: 24
+  position_angle_ep: 24
+  ref_structure: Munoz2018ApJ...860...66M
 structure_sersic:
   n_sersic: 3.2
   n_sersic_em: 0.08

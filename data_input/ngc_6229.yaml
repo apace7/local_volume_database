@@ -1,8 +1,8 @@
 key: ngc_6229
 table: gc_harris
 location:
-  dec: 47.527796
   ra: 251.745249
+  dec: 47.527796
 distance:
   distance_modulus: 17.393
   distance_modulus_em: 0.034
@@ -35,8 +35,18 @@ proper_motion:
   pmra_ep: 0.0263
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
-  ref_structure: Baumgardt2018MNRAS.478.1520B
-  rhalf: 0.36
+  rhalf: 0.41
+  rhalf_em: 0.01
+  rhalf_ep: 0.01
+  spatial_units: arcmin
+  spatial_model: plummer
+  ellipticity: 0.03
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 102
+  position_angle_em: 76
+  position_angle_ep: 76
+  ref_structure: Munoz2018ApJ...860...66M
 structure_sersic:
   n_sersic: 2.62
   n_sersic_em: 0.08

@@ -1,3 +1,18 @@
+key: am_1
+table: gc_harris
+location:
+  ra: 58.759586
+  dec: -49.615276
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1976
+  name: AM 1
+  other_name:
+  - E 1
+  ref_discovery:
+  - Lauberts1976A&A....52..309L
+  host: mw  
 age:
   age: 11.1
   age_em: 0.56
@@ -8,10 +23,6 @@ distance:
   distance_modulus_em: 0.062
   distance_modulus_ep: 0.062
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: am_1
-location:
-  dec: -49.615276
-  ra: 58.759586
 m_v:
   apparent_magnitude_v: 14.27
   apparent_magnitude_v_em: 0.05
@@ -20,16 +31,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.7
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 1976
-  name: AM 1
-  other_name:
-  - E 1
-  ref_discovery:
-  - Lauberts1976A&A....52..309L
-  host: mw
 proper_motion:
   pmdec: -0.1772
   pmdec_em: 0.0859
@@ -39,8 +40,18 @@ proper_motion:
   pmra_ep: 0.1071
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
-  ref_structure: Baumgardt2018MNRAS.478.1520B
-  rhalf: 0.43
+  rhalf: 0.45
+  rhalf_em: 0.03
+  rhalf_ep: 0.03
+  spatial_units: arcmin
+  spatial_model: plummer
+  ellipticity: 0.07
+  ellipticity_em: 0.05
+  ellipticity_ep: 0.05
+  position_angle: 42
+  position_angle_em: 23
+  position_angle_ep: 23
+  ref_structure: Munoz2018ApJ...860...66M
 structure_sersic:
   n_sersic: 1.08
   n_sersic_em: 0.13
@@ -49,7 +60,6 @@ structure_sersic:
   rad_sersic_em: 0.03
   rad_sersic_ep: 0.03
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 118.0

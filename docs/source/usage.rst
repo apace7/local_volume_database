@@ -20,7 +20,7 @@ The LVDB package is installable locally:
 The ``LVDBDIR`` envirnment variable is used to point to the location of the input YAML files (local_volume_database/data_input/). 
 Pip package coming. As the package interacts with the YAML files, it is recommended to install locally.
 
-Database content
+Database Content
 ----------------
 
 The database is structured as an individual yaml file for each system and combined catalogs for the database, available as csv and fits files on the release page. 
@@ -50,8 +50,8 @@ The following are the available tables (in csv and fits file formats). The fits 
 * **dwarf_mw** : Milky Way dwarf galaxies (the most distant dwarf galaxy is Eridanus II at ~ 350 kpc).
 * **dwarf_m31**: M31 dwarf galaxies.
 * **dwarf_local_field**: dwarf galaxies outside of MW/M31 within the Local group to a distance of ~ 3 Mpc. This is an extension of galaxies from McConnachie 2012 compilation.
-* **dwarf_all** : combination of dwarf_mw, dwarf_m31, dwarf_local_field. Complete for known systems to ~ 3 Mpc.
 * **dwarf_local_field_distant**: dwarf galaxies with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete to known systems (it is complete for known systems to a distance < 3.5 Mpc). 
+* **dwarf_all** : combination of dwarf_mw, dwarf_m31, dwarf_local_field, dwarf_local_field_distant. Complete for known systems to ~ 3.5 Mpc. Note that earlier versions did not include dwarf_local_field_distant. 
 * **gc_abmiguous**: systems with an abmiguous classification (referred to as amibguous or hyper-faint compact stellar systems). These are generally all MW halo systems. 
 * **gc_mw_new**: newly discovered globular clusters or candidate globular clusters (i.e. post-Harris catalog).  Many systems are at low Galactic latitude (abs(b) <10) and candidate systems may be open clusters.
 * **gc_harris**: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_abmiguous table).
@@ -133,7 +133,7 @@ Error Columns:
 The format for the reference columns is author last name + ADS bibcode. The author's last name has special characters removed but the capitalization is unchanged. 
 There is an associated bibtex file (latex/lvdb.bib) that includes all references in the database. 
 
-Decription of yaml files 
+Decription of YAML Files 
 ------------------------
 
 There is an `example yaml file <https://github.com/apace7/local_volume_database/blob/main/code/example_yaml.yaml>`_ in the /code/ folder. 
@@ -344,7 +344,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_star_formation_history**
 
-Citations to the LVDB and citations to the LVDB input
+Citations to the LVDB and Citations to the LVDB Input
 -----------------------------
 
 The LVDB is set up to enable citations to the literature input of the LVDB. All reference columns (**ref_**) follow the same format of author last name (removed of special characters) + `NASA ADS bibcode <https://ui.adsabs.harvard.edu/>`_. There is a BibTeX file (`table/lvdb.bib <https://github.com/apace7/local_volume_database/blob/main/table/lvdb.bib>`_) with BibTeX entries from ADS with the key matching the LVDB reference column. There is an `ADS public library <https://ui.adsabs.harvard.edu/public-libraries/fVKkEJbdRyCmscCOwzsz6w>`_ that contains the majority of the literature LVDB input.

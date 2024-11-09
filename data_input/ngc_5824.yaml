@@ -1,3 +1,16 @@
+key: ngc_5824
+table: gc_harris
+location:
+  ra: 225.994156
+  dec: -33.068138
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  host: sagittarius_1
+  name: NGC 5897
+  ref_discovery:
+  - Dunlop1828RSPT..118..113D
+  discovery_year: 1828  
 age:
   age: 12.8
   age_em: 0.9
@@ -8,10 +21,6 @@ distance:
   distance_modulus_em: 0.041
   distance_modulus_ep: 0.041
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_5824
-location:
-  dec: -33.068138
-  ra: 225.994156
 m_v:
   apparent_magnitude_v: 8.4
   apparent_magnitude_v_em: 0.07
@@ -20,14 +29,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.91
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  host: sagittarius_1
-  name: NGC 5897
-  ref_discovery:
-  - Dunlop1828RSPT..118..113D
-  discovery_year: 1828
 proper_motion:
   pmdec: -2.2338
   pmdec_em: 0.0257
@@ -47,7 +48,6 @@ structure_sersic:
   rad_sersic_em: 0.01
   rad_sersic_ep: 0.01
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -25.24

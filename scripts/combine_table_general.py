@@ -550,6 +550,11 @@ comb_gc_harris.write('data/gc_harris.fits', format='fits', overwrite=True)
 comb_gc_ufsc.write('data/gc_ambiguous.fits', format='fits', overwrite=True)
 comb_gc_dwarf.write('data/gc_dwarf_hosted.fits', format='fits', overwrite=True)
 
-comb_dwarf = table.vstack([comb_dwarf_mw, comb_dwarf_m31, comb_dwarf_lf])
+comb_dwarf = table.vstack([comb_dwarf_mw, comb_dwarf_m31, comb_dwarf_lf, comb_dwarf_lf_distant])
 comb_dwarf.write('data/dwarf_all.csv', format='csv', overwrite=True)
 comb_dwarf.write('data/dwarf_all.fits', format='fits', overwrite=True)
+
+## don't add comb_gc_ufsc here 
+# comb_gc_all = table.vstack([comb_gc_disk, comb_gc_harris, comb_gc_dwarf])
+# comb_gc_all.write('data/gc_all.csv', format='csv', overwrite=True)
+# comb_gc_all.write('data/gc_all.fits', format='fits', overwrite=True)

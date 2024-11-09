@@ -1,8 +1,16 @@
 key: ngc_7006
 table: gc_harris
 location:
-  dec: 16.187323
   ra: 315.372626
+  dec: 16.187323
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 7006
+  ref_discovery:
+  - Herschel1786RSPT...76..457H
+  discovery_year: 1786
+  host: mw
 age:
   age: 12.25
   age_em: 0.75
@@ -21,14 +29,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.52
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: NGC 7006
-  ref_discovery:
-  - Herschel1786RSPT...76..457H
-  discovery_year: 1786
-  host: mw
 proper_motion:
   pmdec: -0.6329
   pmdec_em: 0.027

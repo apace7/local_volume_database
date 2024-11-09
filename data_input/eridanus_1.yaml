@@ -1,3 +1,16 @@
+key: eridanus_1
+table: gc_harris
+location:
+  ra: 66.185608
+  dec: -21.186781
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1977
+  name: Eridanus
+  ref_discovery:
+  - Cesarsky1977A&A....61L..31C
+  host: mw  
 age:
   age: 9.7
   age_em: 0.84
@@ -8,10 +21,6 @@ distance:
   distance_modulus_em: 0.074
   distance_modulus_ep: 0.074
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: eridanus_1
-location:
-  dec: -21.186781
-  ra: 66.185608
 m_v:
   apparent_magnitude_v: 14.22
   apparent_magnitude_v_em: 0.03
@@ -20,14 +29,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.43
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 1977
-  name: Eridanus
-  ref_discovery:
-  - Cesarsky1977A&A....61L..31C
-  host: mw
 proper_motion:
   pmdec: -0.3011
   pmdec_em: 0.0408
@@ -37,8 +38,18 @@ proper_motion:
   pmra_ep: 0.0387
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
-  ref_structure: Baumgardt2018MNRAS.478.1520B
-  rhalf: 0.55
+  rhalf: 0.64
+  rhalf_em: 0.04
+  rhalf_ep: 0.04
+  spatial_units: arcmin
+  spatial_model: plummer
+  ellipticity: 0.09
+  ellipticity_em: 0.04
+  ellipticity_ep: 0.04
+  position_angle: 32
+  position_angle_em: 24
+  position_angle_ep: 24
+  ref_structure: Munoz2018ApJ...860...66M
 structure_sersic:
   n_sersic: 1.18
   n_sersic_em: 0.14
@@ -47,7 +58,6 @@ structure_sersic:
   rad_sersic_em: 0.04
   rad_sersic_ep: 0.04
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -23.15

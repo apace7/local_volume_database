@@ -1,22 +1,8 @@
-age:
-  age: 6.5
-  age_em: 0.5
-  age_ep: 1.0
-  ref_age: Carraro2007A&A...466..181C
-distance:
-  distance_modulus: 17.428
-  distance_modulus_em: 0.083
-  distance_modulus_ep: 0.083
-  ref_distance: Baumgardt2021MNRAS.505.5957B
 key: whiting_1
+table: gc_harris
 location:
-  dec: -3.252778
   ra: 30.737499
-m_v:
-  apparent_magnitude_v: 13.24
-  apparent_magnitude_v_em: 0.08
-  apparent_magnitude_v_ep: 0.08
-  ref_m_v: Baumgardt2020PASA...37...46B
+  dec: -3.252778
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
@@ -27,6 +13,21 @@ name_discovery:
   - WHI B0200-03
   ref_discovery:
   - Whiting2002ApJS..141..123W
+age:
+  age: 6.5
+  age_em: 0.5
+  age_ep: 1.0
+  ref_age: Carraro2007A&A...466..181C
+distance:
+  distance_modulus: 17.428
+  distance_modulus_em: 0.083
+  distance_modulus_ep: 0.083
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+m_v:
+  apparent_magnitude_v: 13.24
+  apparent_magnitude_v_em: 0.08
+  apparent_magnitude_v_ep: 0.08
+  ref_m_v: Baumgardt2020PASA...37...46B
 proper_motion:
   pmdec: -2.0458
   pmdec_em: 0.0561
@@ -36,8 +37,18 @@ proper_motion:
   pmra_ep: 0.0653
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
-  ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.06
+  rhalf_em: 0.08
+  rhalf_ep: 0.08
+  spatial_units: arcmin
+  spatial_model: plummer
+  ellipticity: 0.23
+  ellipticity_em: 0.07
+  ellipticity_ep: 0.07
+  position_angle: 48
+  position_angle_em: 16
+  position_angle_ep: 16
+  ref_structure: Munoz2018ApJ...860...66M
 structure_sersic:
   n_sersic: 2.19
   n_sersic_em: 0.26
@@ -46,7 +57,6 @@ structure_sersic:
   rad_sersic_em: 0.07
   rad_sersic_ep: 0.07
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -130.41

@@ -1,8 +1,8 @@
 key: palomar_02
 table: gc_harris
 location:
-  dec: 31.3815
   ra: 71.52462
+  dec: 31.3815
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -38,8 +38,18 @@ proper_motion:
   pmra_ep: 0.0341
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
-  ref_structure: Baumgardt2018MNRAS.478.1520B
-  rhalf: 0.63
+  rhalf: 1.12
+  rhalf_em: 0.08
+  rhalf_ep: 0.08
+  spatial_units: arcmin
+  spatial_model: plummer
+  ellipticity: 0.05
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  position_angle: 72
+  position_angle_em: 14
+  position_angle_ep: 14
+  ref_structure: Munoz2018ApJ...860...66M
 structure_sersic:
   n_sersic: 1.69
   n_sersic_em: 0.04

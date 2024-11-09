@@ -3,7 +3,7 @@ How to Contribute to the Local Volume Database
 
 Community contributions to the local_volume_database are welcome. Some potential contributions include: adding new measurements, updating current systems, adding new systems (both newly discovered and more distant), and/or new properties of current systems. 
 
-Example: Add or update a measurement
+Example: Add or Update a Measurement
 ------------------------------------
 
 This example shows how to add or update new measurements to the database. 
@@ -35,7 +35,7 @@ If the reference is not in the ``table/lvdb.bib`` file you should add it.
 Create the reference with "Export Citation" on ADS and update the entry to match the reference format in the database. 
 The content of the database can include both published and unpublished papers on the arXiv.  Papers only on arXiv still have an ADS bibcode created.  The reference in the database can be updated to the published version later. 
 
-Example: How to add a new system the database
+Example: How to Add a New System the Database
 ---------------------------------------------
 
 This example walks through the progress to add a new system to the database. 
@@ -67,7 +67,7 @@ These are the current tables:
 
 
 
-Potential Contributions/Expansion
+Some Ideas for Contributions 
 ---------------------------------------
 
 As stated earlier, community contributions are welcome and encouraged.  
