@@ -1,7 +1,11 @@
 Usage & Decription of tables 
 ============================
 
-For LVDB users that only want to  use  the combined catalogs/tables, installing the LVDB package is not required and the combined catalogs/tables can be downloaded from the `GitHub release page <https://github.com/apace7/local_volume_database/releases>`_.
+For LVDB users that only want to  use  the combined catalogs/tables, installing the LVDB package is not required and the primary catalogs are located as attachments in the `GitHub release pages <https://github.com/apace7/local_volume_database/releases>`_.
+The catalogs are included as csv and fits files and there is  a pdf summary file of the LVDB content.
+For reproducibility, it is recommended to use one of the tagged release versions for scientific analysis.
+
+
 
 .. _installation:
 
@@ -23,8 +27,9 @@ Pip package coming. As the package interacts with the YAML files, it is recommen
 Database Content
 ----------------
 
-The database is structured as an individual yaml file for each system and combined catalogs for the database, available as csv and fits files on the release page. 
-The yaml files are located in `data_input/ <https://github.com/apace7/local_volume_database/tree/main/data_input>`_ and the combined csv tables are located in `data/ <https://github.com/apace7/local_volume_database/tree/main/data>`_ or on the `release page <https://github.com/apace7/local_volume_database/releases>`_. Fits files are located in the release pages.
+The database is structured as a collection of YAML files, where the properties of each system are located in an individual YAML file.
+The YAML files are combined into catalogs that are available as csv and fits files on the release page. 
+The YAML files are located in `data_input/ <https://github.com/apace7/local_volume_database/tree/main/data_input>`_ and the combined csv tables are located in `data/ <https://github.com/apace7/local_volume_database/tree/main/data>`_ or on the `release page <https://github.com/apace7/local_volume_database/releases>`_. Fits files are only located in the release pages.
 
 
 
@@ -39,6 +44,7 @@ An example of loading the tables remotely from either the release page (recommen
   ## latest github
   dsph_all = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_all.csv')
 
+Note that the version number will need to be changed to access the lasted release page while the github link will go to the version on the main branch.
 There is also a pdf document (named lvdb_table.pdf) in release page summarizing the contents and properties of each combined table. 
 
 
@@ -49,23 +55,20 @@ The following are the available tables (in csv and fits file formats). The fits 
 
 * **dwarf_mw** : Milky Way dwarf galaxies (the most distant dwarf galaxy is Eridanus II at ~ 350 kpc).
 * **dwarf_m31**: M31 dwarf galaxies.
-* **dwarf_local_field**: dwarf galaxies outside of MW/M31 within the Local group to a distance of ~ 3 Mpc. This is an extension of galaxies from McConnachie 2012 compilation.
-* **dwarf_local_field_distant**: dwarf galaxies with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete to known systems (it is complete for known systems to a distance < 3.5 Mpc). 
+* **dwarf_local_field**: dwarf galaxies outside of MW/M31 within the Local Field to a distance of ~ 3 Mpc. This is an extension of galaxies from McConnachie 2012 compilation.
+* **dwarf_local_field_distant**: dwarf galaxies in the Local Volume with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete to known systems (it is complete for known systems to a distance < 3.5 Mpc). 
 * **dwarf_all** : combination of dwarf_mw, dwarf_m31, dwarf_local_field, dwarf_local_field_distant. Complete for known systems to ~ 3.5 Mpc. Note that earlier versions did not include dwarf_local_field_distant. 
-* **gc_abmiguous**: systems with an abmiguous classification (referred to as amibguous or hyper-faint compact stellar systems). These are generally all MW halo systems. 
-* **gc_mw_new**: newly discovered globular clusters or candidate globular clusters (i.e. post-Harris catalog).  Many systems are at low Galactic latitude (abs(b) <10) and candidate systems may be open clusters.
+* **gc_abmiguous**: systems with an abmiguous classification (referred to as amibguous or hyper-faint compact stellar systems in the LVDB). These are all MW halo systems. 
+* **gc_mw_new**: newly discovered globular clusters or candidate globular clusters (i.e. post-Harris catalog).  Many systems are at low Galactic latitude (abs(b) <10-20 deg) and candidate systems may be open clusters.
 * **gc_harris**: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_abmiguous table).
 * **gc_dwarf_hosted**: globular clusters hosted by dwarf galaxies. This does not include the Sagittarius globular clusters which are in gc_harris. This catalog is incomplete for known systems.
+* **gc_other**: for other globular clusters. (mostly for future work)
 * **candidate**: known false-positive candidates, background galaxies, or low confidence candidates. Only included in the release page.
-* **misc_host**: brighter galaxies that are hosts to the dwarf galaxies.  Only included in the release page.  The catalog exists for completeness and for host information for dwarf galaxies.  The most primary properties compiled are phase-space information (ra,dec,distance, velocity). 
+* **misc_host**: brighter galaxies that are hosts to the dwarf galaxies.  Only included in the release page.  The catalog exists for completeness and for host information for dwarf galaxies.  The main properties compiled for these systems are phase-space information (ra,dec,distance, velocity) and overall stellar and gas mass. 
 
 
 
-There are two extra tables: data/pm_overview.csv and data/j_factor.csv. The former is a compilation of systemic proper motion measurements for dwarf galaxies in the Local Group and the latter is a collection of J-factor measurements. Both are collections of measurements (the other tables have one measurement per system). 
 
-pm_overview.csv: key, reference, proper motion measurement, method (this includes most proper motion measurements of dwarf galaxies and the goal is to be complete for literature measurements).
-
-j_factor.csv: key, reference, angle, j-factor measurement [units are log10 GeV^2 cm^-5], notes (this includes some literature j-factor measurements, mostly from A. B. Pace.  This is not complete for literature measurements.).
 
 .. Decription of table contents
 .. ----------------------------
@@ -133,6 +136,15 @@ Error Columns:
 The format for the reference columns is author last name + ADS bibcode. The author's last name has special characters removed but the capitalization is unchanged. 
 There is an associated bibtex file (latex/lvdb.bib) that includes all references in the database. 
 
+There are two extra tables: data/pm_overview.csv and data/j_factor.csv. The former is a compilation of systemic proper motion measurements for dwarf galaxies in the Local Group and the latter is a collection of J-factor measurements. Both are collections of measurements (the other tables have one measurement per system). 
+The pm_overview table includes most proper motion literature measurements of dwarf galaxies and HFCSS. 
+The j-factor table includes some literature j-factor measurements, mostly from A. B. Pace.  This is not complete for literature measurements
+
+pm_overview.csv: LVDB key, LVDB reference, ADS bibcode, proper motion measurements (full columns = pmra, pmra_em, pmra_ep, pmdec, pmdec_em, pmdec_ep, correlation) [the units are mas/yr expect for the unitless corrleation column], method [current options include=GAIA_EDR3, GAIA_DR2, Ground, HST_Ground, HST, GAIA_DR2_HST, HSC, SRG, GAIA_EDR3_HST, maser, GaiaHub], text citation, comments
+
+
+j_factor.csv: LVDB key, LVDB reference, ADS bibcode, text citation, seleciton, angle [degree], j-factor measurement [units are log10 GeV^2 cm^-5] (full column names = logj, logj_em,	logj_ep,	logj_em05,	logj_ep95,	logj_ul95), use, comments
+
 Decription of YAML Files 
 ------------------------
 
@@ -142,8 +154,8 @@ The yaml collections and keys are **Bolded**  and the bullet points follow the y
 The collections are split such that a single reference can describe the contents.
 Most keys are single entries and several keys are lists (specially other_name, ref_discovery, ref_false_positive).  
 
-* **key** —- unique internal identifier (required yaml key). This should be the same as the name of the file (without .yaml).  All keys are lowercase in LVDB. Globular clusters and some dwarf galaxies are grouped by their host. For example, all LMC globular cluster keys have the prefix lmc_gc_ and many Centuarus A dwarf galaxy keys have the prefix cena_. Most new satellite systems will have a host prefix.
-* **table** -- the table to place system into (required yaml key). The list of possible tables is: gc_harris, gc_dwarf_hosted, gc_disk=gc_mw_new, gc_halo=gc_ufsc=gc_abmiguous, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc (there are several options that will place systems into the same table). The candidate and misc catalogs are only included in the release pages. The candidate systems are included in the lvdb pdf summary while the hosts/misc are not. The misc systems are primarily bright host galaxies (MW, M31, Cen A) and are partly included for distance measurements (**distance_fixed_host**) and to link systems together. 
+* **key** —- unique internal LVDB identifier (required yaml key). This should be the same as the name of the file (without .yaml).  All keys are lowercase in LVDB. Globular clusters and some dwarf galaxies are grouped by their host. For example, all LMC globular cluster keys have the prefix lmc_gc_ and many Centuarus A dwarf galaxy keys have the prefix cena_. Most new satellite systems will have a host prefix.
+* **table** -- the table to place system into (required yaml key). The list of possible tables is: gc_harris, gc_dwarf_hosted, gc_disk=gc_mw_new, gc_halo=gc_ufsc=gc_abmiguous, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc, gc_other (there are several options that will place systems into the same table). The candidate and misc catalogs are only included in the release pages. The candidate systems are included in the lvdb pdf summary while the hosts/misc are not. The misc systems are primarily bright host galaxies (MW, M31, Cen A) and are partly included for distance measurements (**distance_fixed_host**) and to link systems together. 
 * **location** -- yaml collection. center of the system 
 
   * **ra** -- right ascension ICRS [degree]  (required yaml key)
@@ -347,17 +359,17 @@ Most keys are single entries and several keys are lists (specially other_name, r
 Citations to the LVDB and Citations to the LVDB Input
 -----------------------------
 
-The LVDB is set up to enable citations to the literature input of the LVDB. All reference columns (**ref_**) follow the same format of author last name (removed of special characters) + `NASA ADS bibcode <https://ui.adsabs.harvard.edu/>`_. There is a BibTeX file (`table/lvdb.bib <https://github.com/apace7/local_volume_database/blob/main/table/lvdb.bib>`_) with BibTeX entries from ADS with the key matching the LVDB reference column. There is an `ADS public library <https://ui.adsabs.harvard.edu/public-libraries/fVKkEJbdRyCmscCOwzsz6w>`_ that contains the majority of the literature LVDB input.
-The example notebook `example_notebooks/example_latex_citations.ipynb <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_latex_citations.ipynb>`_ contains an example of creating a latex table with citations using the LVDB. 
+The LVDB is set up to enable citations to the literature input of the LVDB. All reference columns (**ref_**) follow the same format of author last name (removed of special characters) + `NASA ADS bibcode <https://ui.adsabs.harvard.edu/>`_. There is a BibTeX file (`table/lvdb.bib <https://github.com/apace7/local_volume_database/blob/main/table/lvdb.bib>`_) with BibTeX entries from ADS with the key matching the LVDB reference column. There is an ADS public library (`Link <https://ui.adsabs.harvard.edu/public-libraries/fVKkEJbdRyCmscCOwzsz6w>`_) that contains the majority of the literature LVDB input.
+The example notebook  contains an example of creating a latex table with citations using the LVDB (`example_notebooks/example_latex_citations.ipynb <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_latex_citations.ipynb>`_). 
 The LVDB package also contains a function that will output references (see `example_lvdb_package.ipynb <https://github.com/apace7/local_volume_database/blob/main/example_notebooks/example_lvdb_package.ipynb>`_).
 
 
 
-As ADS bibcode are a fixed length of 19 characters, the ADS bibcode can be retrieved from the LVDB reference columns if users wish to use the ADS bibcodes instead.  Other public tools such as  `adstex <https://github.com/yymao/adstex>`_ can be used to create bibtex files. 
+As ADS bibcode are a fixed length of 19 characters, the ADS bibcode can be retrieved from the LVDB reference columns if users wish to use the ADS bibcodes instead.  Other public tools such as  `adstex <https://github.com/yymao/adstex>`_ package can be used to create bibtex files. 
 
 Users of the LVDB are encouraged to cite the LVDB input (of the systems studied in their analysis) to give proper acknowledgment to the community.  The references could be included in a table or appendix. See Appendix A of this paper (`Cerny et al. 2024 <https://ui.adsabs.harvard.edu/abs/2024arXiv241000981C/abstract>`_) for an example of including internal LVDB references to the text of a paper.
 
-If you use the LVDB in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the LVDB overview paper (once it is written). 
-An example in latex is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }}.
+If you use the LVDB in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the LVDB overview paper. 
+An example in LaTeX that can be added to the acknowledgments section is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }} \citep{}.
 
 .. The bibtex of the LVDB paper is below:

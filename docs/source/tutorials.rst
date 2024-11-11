@@ -74,7 +74,7 @@ In addition to the example above, there are two folders with example ipython not
 Some Recommendations 
 ---------------------------------------------
 
-For detailed analysis, I would recommendation fixing the version of the tables to a tagged release version.
+For scientific analysis, I would recommendation fixing the LVDB version to a tagged release.
 Alternatively, a specific commit can be useed instead of the latest github version.  
 
 For example, this loads an older version of the data/dwarf_all.csv table for either a tagged release or a specific commit.

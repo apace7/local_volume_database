@@ -2,12 +2,12 @@
 
 ### DESCRIPTION:
 
-Database of Local Volume dwarf galaxies and Milky Way star clusters. The database is complete for dwarf galaxies within ~3 Mpc. 
-The planned limiting distance is ~10 Mpc (i.e. resolved stars with HST or JWST).  
+Database of Local Volume dwarf galaxies and  star clusters. The database is complete for dwarf galaxies within ~3 Mpc. 
+The planned limiting distance is ~10+ Mpc (i.e. resolved stars with HST or JWST).  
 The star cluster collections are currently limited to old star clusters/globular clusters in the Milky Way halo and globular clusters/star clusters hosted by low mas dwarf galaxies.
 
 The main data tables are located in the [`data/`](data/) folder in `csv` format. 
-A summary pdf document of the database and data files in `fits` format are on the release page available. 
+A summary pdf document of the database content and additional data files in `fits` format are on the release page available. 
 
 Documentation: [readthedocs](https://local-volume-database.readthedocs.io/en/latest/index.html)
 
@@ -15,17 +15,20 @@ The tables can be directly loaded into Jupyter notebooks without having to downl
 
     import astropy.table as table
     dwarf_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_mw.csv')
+    # or from the release page
+    dwarf_mw = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v0.0.2/dwarf_all.csv')
 
 
 ### ACKNOWLEDGEMENT:
 
-If you use this in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the database paper (once it is written). It is highly encouraged to cite the input references of the database if they are used in your work. An example in latex is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }}.
+If you use this in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the database paper. It is highly encouraged to cite the input references of the database if they are used in your work. An example in latex is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }} \citep{}. The BibTex of the citation is available here.
 
 ### INSTALLATION and USE:
 
-Users that only want to use the catalog tables do not need to install the package. 
-The package is focused on helper functions and yaml file access. 
+Users that only want to use the catalogs do not need to install the package. 
 The catalogs are available as csv and fits files in the release pages.
+The package is focused on helper functions and yaml file access. 
+
 
 The package is installable locally via pip:
 

@@ -1,15 +1,19 @@
 Welcome to the local_volume_database documentation!
 ===================================
 
-**local_volume_database** is a Python library of the fundamental properties of dwarf galaxies and star clusters in the Local Volume. `Link to github <https://github.com/apace7/local_volume_database>`_
+**local_volume_database** is a Python library of the fundamental properties of dwarf galaxies and star clusters in the Local Volume. 
 
-The primary database catalogs are located as attachments in the: `Release Pages <https://github.com/apace7/local_volume_database/releases>`_. This includes csv, fits files and the `pdf summary file <https://github.com/apace7/local_volume_database/releases/download/v0.0.2/lvdb_table.pdf>`_.
-An example of a catalog table: `Dwarf all csv <https://github.com/apace7/local_volume_database/releases/download/v0.0.2/dwarf_all.csv>`_
-The github has the latest csv files here: `Database Tables <https://github.com/apace7/local_volume_database/tree/main/data/>`_.
-For reproducibility, it is recommended to use one of the tagged release versions for scientific analysis.
+`Link to GitHub repository <https://github.com/apace7/local_volume_database>`_
 
-Check out the :doc:`usage` section for further information, including
-how to install (:ref:`installation`) the project.
+
+.. The primary database catalogs are located as attachments in the: `Release Pages <https://github.com/apace7/local_volume_database/releases>`_ and the catalog columns are described in :doc:`usage`. The catalogs are  included as both csv and  fits files.
+.. There is also a pdf summary file of the LVDB content.
+.. An example of a catalog table: `Dwarf all csv <https://github.com/apace7/local_volume_database/releases/download/v0.0.2/dwarf_all.csv>`_
+.. The github has the latest csv files here: `Database Tables <https://github.com/apace7/local_volume_database/tree/main/data/>`_.
+.. For reproducibility, it is recommended to use one of the tagged release versions for scientific analysis.
+
+.. Check out the :doc:`usage` section for further information, including
+.. how to install (:ref:`installation`) the project.
 
 
 Contents
