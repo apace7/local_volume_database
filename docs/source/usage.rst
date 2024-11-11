@@ -372,4 +372,6 @@ Users of the LVDB are encouraged to cite the LVDB input (of the systems studied 
 If you use the LVDB in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the LVDB overview paper. 
 An example in LaTeX that can be added to the acknowledgments section is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }} \citep{}.
 
+The LVDB releases are also indexed on `zenodo <https://doi.org/10.5281/zenodo.14076714>`_.
+
 .. The bibtex of the LVDB paper is below:

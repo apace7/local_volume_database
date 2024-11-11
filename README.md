@@ -9,7 +9,7 @@ The star cluster collections are currently limited to old star clusters/globular
 The main data tables are located in the [`data/`](data/) folder in `csv` format. 
 A summary pdf document of the database content and additional data files in `fits` format are on the release page available. 
 
-Documentation: [readthedocs](https://local-volume-database.readthedocs.io/en/latest/index.html)
+Documentation: [readthedocs](https://local-volume-database.readthedocs.io/en/latest/index.html).
 
 The tables can be directly loaded into Jupyter notebooks without having to download the repository:
 
@@ -22,6 +22,8 @@ The tables can be directly loaded into Jupyter notebooks without having to downl
 ### ACKNOWLEDGEMENT:
 
 If you use this in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the database paper. It is highly encouraged to cite the input references of the database if they are used in your work. An example in latex is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }} \citep{}. The BibTex of the citation is available here.
+
+The LVDB releases are also indexed on [zenodo](https://doi.org/10.5281/zenodo.14076714).
 
 ### INSTALLATION and USE:
 
