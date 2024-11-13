@@ -3,8 +3,9 @@ Welcome to the local_volume_database documentation!
 
 **local_volume_database** is a Python library of the fundamental properties of dwarf galaxies and star clusters in the Local Volume. 
 
-`Link to GitHub repository <https://github.com/apace7/local_volume_database>`_
-
+Some useful links:
+* `Link to GitHub repository <https://github.com/apace7/local_volume_database>`_
+* `ADS Link to Overview paper  <https://ui.adsabs.harvard.edu/abs/2024arXiv241107424P/abstract>`_
 
 .. The primary database catalogs are located as attachments in the: `Release Pages <https://github.com/apace7/local_volume_database/releases>`_ and the catalog columns are described in :doc:`usage`. The catalogs are  included as both csv and  fits files.
 .. There is also a pdf summary file of the LVDB content.
