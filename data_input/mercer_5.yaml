@@ -1,8 +1,8 @@
 key: mercer_5
 table: gc_disk
 location:
-  ra: 275.8291667
-  dec: -13.66722222
+  ra: 275.82917
+  dec: -13.66722
 name_discovery:
   confirmed_real: 0
   confirmed_star_cluster: 0

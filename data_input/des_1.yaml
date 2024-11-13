@@ -1,8 +1,8 @@
 key: des_1
 table: gc_ufsc
 location:
-  dec: -49.0386111
-  ra: 8.4991667
+  dec: -49.03861
+  ra: 8.49917
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0

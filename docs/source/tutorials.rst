@@ -21,8 +21,8 @@ load the data from github
     dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_mw.csv')
     dsph_m31 = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_m31.csv')
     dsph_lf = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_local_field.csv')
-    gc_halo = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/gc_halo.csv')
-    gc_disk = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/gc_disk.csv')
+    gc_halo = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/gc_ambiguous.csv')
+    gc_disk = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/gc_mw_new.csv')
     gc_harris = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/gc_harris.csv')
 
 make a figure
@@ -48,14 +48,12 @@ make a figure
     plt.legend(loc=(2))
     plt.ylim(3, -20)
     plt.xlim(1, 4e3)
-    ## plt.tight_layout()
-    ## plt.savefig('/example_rhalf_MV.png')
     plt.show()
 
 Figure from the sample (this does include custom matplotlib stylefile and latex for the captions).
 I note that the name for one type of system in the catalog (labeled UFSC = ultra-faint star clusters) has been changed several times. In the majority of the documentation these are referred to as, new star cluster-like systems in Galactic halo and/or ambiguous systems (as in the nature of dwarf galaxy and star cluster is ambiguous).
 
-.. figure:: /figures/example_rhalf_MV.png
+.. figure:: /docs/source/figures/example_rhalf_MV.png
    :width: 60%
    :align: center
    :alt: Example

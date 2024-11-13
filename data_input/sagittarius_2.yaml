@@ -2,7 +2,7 @@ key: sagittarius_2
 table: gc_mw_new
 location:
   ra: 298.16875
-  dec: -22.06805556
+  dec: -22.06806
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1

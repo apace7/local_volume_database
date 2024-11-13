@@ -9,7 +9,7 @@ The star cluster collections are currently limited to old star clusters/globular
 The main data tables are located in the [`data/`](data/) folder in `csv` format. 
 A summary pdf document of the database content and additional data files in `fits` format are on the release page available. 
 
-Documentation: [readthedocs](https://local-volume-database.readthedocs.io/en/latest/index.html).
+Documentation: [readthedocs](https://local-volume-database.readthedocs.io/en/latest/index.html).  
 Overview paper: [arXiv](https://arxiv.org/abs/2411.07424).
 
 The tables can be directly loaded into Jupyter notebooks without having to download the repository:

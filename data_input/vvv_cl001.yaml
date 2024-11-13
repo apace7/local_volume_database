@@ -1,8 +1,8 @@
 key: vvv_cl001
 table: gc_disk
 location:
-  dec: -24.01472222
-  ra: 268.6770833
+  dec: -24.01472
+  ra: 268.67708
 distance:
   distance_modulus: 14.58
   ref_distance: OlivaresCarvajal2022MNRAS.513.3993O

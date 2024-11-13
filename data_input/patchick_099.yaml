@@ -1,8 +1,8 @@
 key: patchick_099
 table: gc_disk
 location:
-  dec: -29.81277778
-  ra: 273.9458333
+  dec: -29.81278
+  ra: 273.94583
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0

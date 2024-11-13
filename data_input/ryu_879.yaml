@@ -5,8 +5,8 @@ distance:
   ref_distance: Ryu2018ApJ...863L..38R
 key: ryu_879
 location:
-  dec: -5.192583333
-  ra: 281.367375
+  dec: -5.19258
+  ra: 281.36738
 m_v:
   apparent_magnitude_v: 7.97
   apparent_magnitude_v_em: 0.33

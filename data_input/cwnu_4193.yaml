@@ -2,7 +2,7 @@ key: cwnu_4193
 table: gc_disk
 location:
   ra: 121.17375
-  dec: -38.92111111111111
+  dec: -38.92111
 name_discovery:
   confirmed_star_cluster: 0
   confirmed_real: 0

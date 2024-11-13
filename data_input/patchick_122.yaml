@@ -5,8 +5,8 @@ distance:
   ref_distance: Garro2022A&A...659A.155G
 key: patchick_122
 location:
-  dec: -52.42805556
-  ra: 145.6279167
+  dec: -52.42806
+  ra: 145.62792
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
