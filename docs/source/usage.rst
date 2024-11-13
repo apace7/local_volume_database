@@ -58,7 +58,7 @@ The following are the available tables (in csv and fits file formats). The fits 
 * **dwarf_local_field**: dwarf galaxies outside of MW/M31 within the Local Field to a distance of ~ 3 Mpc. This is an extension of galaxies from McConnachie 2012 compilation.
 * **dwarf_local_field_distant**: dwarf galaxies in the Local Volume with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete to known systems (it is complete for known systems to a distance < 3.5 Mpc). 
 * **dwarf_all** : combination of dwarf_mw, dwarf_m31, dwarf_local_field, dwarf_local_field_distant. Complete for known systems to ~ 3.5 Mpc. Note that earlier versions did not include dwarf_local_field_distant. 
-* **gc_abmiguous**: systems with an abmiguous classification (referred to as amibguous or hyper-faint compact stellar systems in the LVDB). These are all MW halo systems. 
+* **gc_ambiguous**: systems with an ambiguous classification (referred to as ambiguous or hyper-faint compact stellar systems in the LVDB). These are all MW halo systems. 
 * **gc_mw_new**: newly discovered globular clusters or candidate globular clusters (i.e. post-Harris catalog).  Many systems are at low Galactic latitude (abs(b) <10-20 deg) and candidate systems may be open clusters.
 * **gc_harris**: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_abmiguous table).
 * **gc_dwarf_hosted**: globular clusters hosted by dwarf galaxies. This does not include the Sagittarius globular clusters which are in gc_harris. This catalog is incomplete for known systems.
@@ -138,7 +138,7 @@ There is an associated bibtex file (latex/lvdb.bib) that includes all references
 
 There are two extra tables: data/pm_overview.csv and data/j_factor.csv. The former is a compilation of systemic proper motion measurements for dwarf galaxies in the Local Group and the latter is a collection of J-factor measurements. Both are collections of measurements (the other tables have one measurement per system). 
 The pm_overview table includes most proper motion literature measurements of dwarf galaxies and HFCSS. 
-The j-factor table includes some literature j-factor measurements, mostly from A. B. Pace.  This is not complete for literature measurements
+The j-factor table includes some literature j-factor measurements, mostly from A. B. Pace.  This is not complete for literature measurements.
 
 pm_overview.csv: LVDB key, LVDB reference, ADS bibcode, proper motion measurements (full columns = pmra, pmra_em, pmra_ep, pmdec, pmdec_em, pmdec_ep, correlation) [the units are mas/yr expect for the unitless corrleation column], method [current options include=GAIA_EDR3, GAIA_DR2, Ground, HST_Ground, HST, GAIA_DR2_HST, HSC, SRG, GAIA_EDR3_HST, maser, GaiaHub], text citation, comments
 

@@ -1,8 +1,8 @@
 key: laevens_3
 table: gc_mw_new
 location:
-  ra: 316.7293802
-  dec: 14.9843999
+  ra: 316.72938
+  dec: 14.9844
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1

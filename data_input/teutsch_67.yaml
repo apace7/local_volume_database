@@ -1,8 +1,8 @@
 key: teutsch_67
 table: gc_disk
 location:
-  ra: 143.44166666666666
-  dec: -57.099722222222226
+  ra: 143.44167
+  dec: -57.09972
 name_discovery:
   confirmed_star_cluster: 0
   confirmed_real: 0

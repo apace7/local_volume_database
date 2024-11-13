@@ -1,8 +1,8 @@
 key: ursa_major_3
 table: gc_ambiguous
 location:
-  ra: 174.70749999999995
-  dec: 31.078333333333333
+  ra: 174.70745
+  dec: 31.07833
 name_discovery:
   confirmed_dwarf: 0
   confirmed_star_cluster: 0

@@ -1,7 +1,7 @@
 key: fsr_1700
 table: gc_disk
 location:
-  ra: 234.71874999999994
+  ra: 234.71875
   dec: -59.2675
 name_discovery:
   confirmed_star_cluster: 0
