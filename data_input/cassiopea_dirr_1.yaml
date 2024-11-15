@@ -1,0 +1,35 @@
+key: cassiopea_dirr_1
+table: dwarf_local_field_distant
+location:
+  ra: 31.5329167
+  dec: 69.01
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1995
+  name: Cassiopea dIrr 1
+  other_name:
+  - Cas1
+  - KK19
+  - PGC100169
+  ref_discovery:
+  - Huchtmeier1995A&A...293L..33H
+notes:
+- high extinction and uncertain distance
+distance:
+  distance_modulus: 28.27
+  ref_distance: Anand2021AJ....162...80A
+m_v:
+  apparent_magnitude_v: 10.58
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 35
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: reHuchtmeier1995A&A...293L..33Hf
+flux_HI:
+  flux_HI: 46.4
+  vlos_systemic_HI: 35
+  vlos_systemic_HI_em: 2
+  vlos_systemic_HI_ep: 2
+  ref_flux_HI: Huchtmeier1995A&A...293L..33H
