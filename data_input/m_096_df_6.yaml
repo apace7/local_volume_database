@@ -1,8 +1,8 @@
 key: m_096_df_6
 table: dwarf_local_field_distant
 location:
-  ra: 161.72125 # [deg]
-  dec: 12.742639 # [deg]
+  ra: 161.72125
+  dec: 12.742639
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -13,12 +13,12 @@ name_discovery:
   - M96-DF6
   - NGC 3384-DF6
   - PGC 4689210
-  #- Leo I GROUP :[TT2002] 09
   - Leo I 09
+  - dw1046p1244
   ref_discovery:
   - Trentham2002MNRAS.335..712T
 structure:
-  rhalf: 0.6767 # [arcmin]
+  rhalf: 0.6767
   rhalf_em: 0.0233
   rhalf_ep: 0.0233
   ellipticity: 0.29
@@ -27,7 +27,7 @@ structure:
   spaital_units: arcmin
   ref_structure: Cohen2018ApJ...868...96C
 distance:
-  distance_modulus: 30.04 
+  distance_modulus: 30.04
   distance_modulus_em: 0.065
   distance_modulus_ep: 0.063
   ref_distance: Cohen2018ApJ...868...96C
@@ -40,7 +40,7 @@ structure_sersic:
   n_sersic: 0.99
   n_sersic_em: 0.03
   n_sersic_ep: 0.03
-  rad_sersic: 0.6767 # [arcmin]
+  rad_sersic: 0.6767
   rad_sersic_em: 0.0233
   rad_sersic_ep: 0.0233
   spaital_units: arcmin

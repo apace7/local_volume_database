@@ -21,7 +21,7 @@ distance:
   distance_modulus: 27.88
   distance_modulus_em: 0.14
   distance_modulus_ep: 0.14
-  ref_distance: EDD
+  ref_distance: Tully2009AJ....138..323T
 m_v:
   apparent_magnitude_v: 16.18
   ref_m_v: Muller2021A&A...645A..92M

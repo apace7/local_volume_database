@@ -1,8 +1,8 @@
 key: ugc_08882
 table: dwarf_local_field_distant
 location:
-  ra: 209.3108333333333 # [deg]
-  dec: 54.100833333333334 # [deg]
+  ra: 209.311
+  dec: 54.101
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -11,15 +11,24 @@ name_discovery:
   other_name:
   - PGC049636
 distance:
-  distance_modulus: 29.65
-  distance_modulus_em: 0.27
-  distance_modulus_ep: 0.24
-  ref_distance: Carlsten2019ApJ...878L..16C
+  distance_modulus: 29.21
+  distance_modulus_em: 0.14
+  distance_modulus_ep: 0.13
+  ref_distance: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 70.3
+  rhalf_em: 3.4
+  rhalf_ep: 3.4
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
 m_v:
-  apparent_magnitude_v: 15.07
-  ref_m_v: Karachentsev2013AJ....145..101K
+  apparent_magnitude_v: 14.82
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
 velocity:
-  vlos_systemic: 348.3 # [km/s]
+  vlos_systemic: 348.3
   vlos_systemic_em: 24.3
   vlos_systemic_ep: 24.3
   ref_vlos: AdelmanMcCarthy2007ApJS..172..634A 

@@ -1,0 +1,32 @@
+key: m_101_dw1350p5441
+table: dwarf_local_field_distant
+location:
+  ra: 207.743
+  dec: 54.689
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2022
+  host: m_101
+  name: dw1350p5441
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 23.7
+  rhalf_em: 1.5
+  rhalf_ep: 1.5
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 28.99
+  distance_modulus_em: 0.19
+  distance_modulus_ep: 0.18
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 16.87
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Carlsten2022ApJ...933...47C
+

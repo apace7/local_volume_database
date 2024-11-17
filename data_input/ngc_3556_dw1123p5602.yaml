@@ -1,0 +1,30 @@
+key: ngc_3556_dw1123p5602
+table: candidate
+location:
+  ra: 170.832
+  dec: 56.049
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2022
+  host: ngc_3556
+  name: dw1123p5602
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+notes:
+- candidate in Carlsten2022ApJ...933...47C; SBF attempted
+structure:
+  rhalf: 5.1
+  rhalf_em: 0.6
+  rhalf_ep: 0.6
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 5.12
+  apparent_magnitude_v_em: 0.56
+  apparent_magnitude_v_ep: 0.56
+  ref_m_v: Carlsten2022ApJ...933...47C

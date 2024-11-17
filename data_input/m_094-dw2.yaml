@@ -11,6 +11,8 @@ name_discovery:
   name: M94-Dw2
   ref_discovery:
   - Smercina2018ApJ...863..152S
+  other_name:
+  - dw1251p4138
 structure:
   rhalf: 13.9
   rhalf_em: 1.8

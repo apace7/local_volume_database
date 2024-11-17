@@ -26,7 +26,7 @@ velocity:
   vlos_systemic: 35
   vlos_systemic_em: 2
   vlos_systemic_ep: 2
-  ref_vlos: reHuchtmeier1995A&A...293L..33Hf
+  ref_vlos: Huchtmeier1995A&A...293L..33H
 flux_HI:
   flux_HI: 46.4
   vlos_systemic_HI: 35

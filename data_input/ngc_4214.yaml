@@ -17,16 +17,16 @@ distance:
   distance_modulus: 27.25
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
-  ref_distance: EDD
+  ref_distance: Tully2009AJ....138..323T
 flux_HI:
   flux_HI: 150.5
-  ref_flux_HI: EDD
+  ref_flux_HI: Tully2009AJ....138..323T
 m_v:
   apparent_magnitude_v: 9.6
-  ref_m_v: EDD
+  ref_m_v: Tully2009AJ....138..323T
 structure:
   ellipticity: 0.22
-  ref_structure: LVGDB
+  ref_structure: Karachentsev2013AJ....145..101K
 velocity:
-  ref_vlos: EDD
+  ref_vlos: Tully2009AJ....138..323T
   vlos_systemic: 293.0

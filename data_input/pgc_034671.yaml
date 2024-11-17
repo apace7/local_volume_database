@@ -1,0 +1,31 @@
+key: pgc_034671
+table: dwarf_local_field_distant
+location:
+  ra: 169.952
+  dec: 55.722
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3556
+  name: PGC 034671
+  other_name:
+  - dw1119p5543
+structure:
+  rhalf: 9.4
+  rhalf_em: 0.5
+  rhalf_ep: 0.5
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 15.96
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+distance:
+  distance_fixed_host: true
+velocity:
+  vlos_systemic: 605.1
+  vlos_systemic_em: 7.0
+  vlos_systemic_ep: 7.0
+

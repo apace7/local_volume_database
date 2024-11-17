@@ -11,6 +11,7 @@ name_discovery:
   name: M94-Dw1
   other_name:
   - dw1255+40
+  - dw1255p4035
   ref_discovery:
   - Muller2017A&A...602A.119M
   - Smercina2018ApJ...863..152S

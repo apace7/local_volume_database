@@ -7,7 +7,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   host: ngc_5128
-  name: KKS53
+  name: KKs 53
   other_name:
   - PGC2815820
   - '[KK2000] 53'
@@ -18,14 +18,14 @@ distance:
   distance_modulus: 27.28
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.07
-  ref_distance: EDD
+  ref_distance: Tully2009AJ....138..323T
 flux_HI:
   flux_HI_ul: 0.68
-  ref_flux_HI: LVGDB
+  ref_flux_HI: Karachentsev2013AJ....145..101K
 m_v:
   apparent_magnitude_v: 16.6
-  ref_m_v: EDD
+  ref_m_v: Tully2009AJ....138..323T
 structure:
   ellipticity: 0.13
-  ref_structure: LVGDB
+  ref_structure: Karachentsev2013AJ....145..101K
   rhalf: 0.79

@@ -11,6 +11,8 @@ name_discovery:
   name: M101-DF3
   ref_discovery:
   - Merritt2014ApJ...787L..37M
+  other_name:
+  - dw1403p5337
 structure:
   rhalf: 20.0
   rhalf_em: 2.6

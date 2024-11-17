@@ -1,8 +1,8 @@
 key: ngc_5474
 table: dwarf_local_field_distant
 location:
-  ra: 211.25875  # [deg]
-  dec: 53.66305555555555 # [deg]
+  ra: 211.256
+  dec: 53.662
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -11,19 +11,28 @@ name_discovery:
   other_name:
   - PGC050216
   - UGC09013
+structure:
+  rhalf: 86.6
+  rhalf_em: 4.1
+  rhalf_ep: 4.1
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
 distance:
-  distance_modulus: 29.17 
+  distance_modulus: 29.17
   distance_modulus_em: 0.13
   distance_modulus_ep: 0.13
   ref_distance: Tikhonov2015AstL...41..239T
 m_v:
-  apparent_magnitude_v: 10.93
-  ref_m_v: Karachentsev2013AJ....145..101K
+  apparent_magnitude_v: 11.05
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
 velocity:
   vlos_systemic: 275
   vlos_systemic_em: 2
   vlos_systemic_ep: 2
   ref_vlos: Davies1980MNRAS.191..253D
 flux_HI:
-  flux_HI:  89.536 # [Jy km/s ]
+  flux_HI:  89.536
   ref_flux_HI: Karachentsev2013AJ....145..101K

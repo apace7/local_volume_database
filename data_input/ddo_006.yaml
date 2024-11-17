@@ -1,8 +1,8 @@
 key: ddo_006
 table:  dwarf_local_field_distant
 location:
-  ra: 12.45500
-  dec: -21.01500
+  ra: 12.454
+  dec: -21.017
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -15,22 +15,16 @@ name_discovery:
   - MCG -04-03-019
   - PGC002902
   - UGCA015
+  - dw0049m2100
   ref_discovery:
   - vandenBergh1959PDDO....2..147V
-# notes:
-# - list
-# structure:
-#   rhalf: 0
-#   rhalf_em: 0
-#   rhalf_ep: 0
-#   ellipticity: 0
-#   ellipticity_em: 0
-#   ellipticity_ep: 0
-#   ellipticity_ul: 0
-#   position_angle: 0
-#   position_angle_em: 0
-#   position_angle_ep: 0
-#   ref_structure: ref
+structure:
+  rhalf: 37.6
+  rhalf_em: 1.9
+  rhalf_ep: 1.9
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
 distance:
   distance_modulus: 27.68
   distance_modulus_em: 0.10
@@ -38,24 +32,9 @@ distance:
   ref_distance: Jacobs2009AJ....138..332J
 m_v:
   apparent_magnitude_v: 14.92
-  # apparent_magnitude_v_em: 0
-  # apparent_magnitude_v_ep: 0
-  # ref_m_v: ref
-# structure_sersic:
-#   n_sersic: 0
-#   n_sersic_em: 0
-#   n_sersic_ep: 0
-#   rad_sersic: 0
-#   rad_sersic_em: 0
-#   rad_sersic_ep: 0
-#   ellipticity: 0
-#   ellipticity_em: 0
-#   ellipticity_ep: 0
-#   ellipticity_ul: 0
-#   position_angle: 0
-#   position_angle_em: 0
-#   position_angle_ep: 0
-#   ref_structure_sersic: ref
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
 velocity:
   vlos_systemic: 295.4
   vlos_systemic_em: 5

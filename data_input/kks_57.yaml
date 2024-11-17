@@ -2,7 +2,7 @@ key: kks_57
 table: dwarf_local_field_distant
 location:
   ra: 205.40875
-  dec: -42.581944444444446
+  dec: -42.581944
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -14,6 +14,7 @@ name_discovery:
   - PGC2815823
   ref_discovery:
   - Karachentseva2000A&AS..146..359K
+  type: dSph
 notes:
 - type = dSph
 structure:
@@ -24,11 +25,9 @@ distance:
   distance_modulus: 27.92
   distance_modulus_em: 0.25
   distance_modulus_ep: 0.25
-  ref_distance: EDD
+  ref_distance: Tully2009AJ....138..323T
 m_v:
   apparent_magnitude_v: 17.32
-  # apparent_magnitude_v_em: 0
-  # apparent_magnitude_v_ep: 0
   ref_m_v: Muller2017A&A...597A...7M
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.9
@@ -42,7 +41,7 @@ structure_sersic:
   rad_sersic: 12.23
   rad_sersic_em: 0.91
   rad_sersic_ep: 0.91
-  ref_structure_sersic:  Muller2017A&A...597A...7M
+  ref_structure_sersic: Muller2017A&A...597A...7M
 velocity:
   vlos_systemic: 511.3
   vlos_systemic_em: 16.8

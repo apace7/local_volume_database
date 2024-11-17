@@ -780,10 +780,29 @@ with open(output, 'w+') as f:
                     d = dm(stream_yaml['distance']['distance_modulus'])
                     dm_str = make_latex_value(stream_yaml['distance']['distance_modulus'], np.ma.masked,np.ma.masked, n=2)
                     dist_str = make_latex_value(d, np.ma.masked,np.ma.masked, n=1)
+                elif 'distance' in stream_yaml.keys() and 'distance_fixed_host' in stream_yaml['distance'].keys() and 'host' in stream_yaml['name_discovery'].keys():
+                    with open(path+ stream_yaml['name_discovery']['host'] +'.yaml', 'r') as stream_host:
+                        try:
+                            stream_yaml_host = yaml.load(stream_host, Loader=yaml.Loader)
+                            d = dm(stream_yaml_host['distance']['distance_modulus'])
+                            dm_str = make_latex_value(stream_yaml_host['distance']['distance_modulus'], np.ma.masked,np.ma.masked, n=2)
+                            dist_str = make_latex_value(d, np.ma.masked,np.ma.masked, n=1)
+                        except yaml.YAMLError as exc2:
+                            print(exc2)
+
                 if 'distance' in stream_yaml.keys() and 'structure' in stream_yaml.keys() and 'rhalf' in stream_yaml['structure'].keys() and 'distance_modulus' in stream_yaml['distance'].keys():
                     d = dm(stream_yaml['distance']['distance_modulus'])
                     rh = d*stream_yaml['structure']['rhalf']/180./60.*1000.*np.pi
                     str_rhalf = make_latex_value(rh, np.ma.masked,np.ma.masked, n=1)
+                elif 'distance' in stream_yaml.keys() and 'distance_fixed_host' in stream_yaml['distance'].keys() and 'host' in stream_yaml['name_discovery'].keys() and 'structure' in stream_yaml.keys() and 'rhalf' in stream_yaml['structure'].keys():
+                    with open(path+ stream_yaml['name_discovery']['host'] +'.yaml', 'r') as stream_host:
+                        try:
+                            stream_yaml_host = yaml.load(stream_host, Loader=yaml.Loader)
+                            d = dm(stream_yaml_host['distance']['distance_modulus'])
+                            rh = d*stream_yaml['structure']['rhalf']/180./60.*1000.*np.pi
+                            str_rhalf = make_latex_value(rh, np.ma.masked,np.ma.masked, n=1)
+                        except yaml.YAMLError as exc2:
+                            print(exc2)
                 v_str = ''
                 mv_str = ''
                 if 'distance' in stream_yaml.keys() and 'distance_modulus' in stream_yaml['distance'].keys() and 'apparent_magnitude_v' in stream_yaml['m_v'].keys():

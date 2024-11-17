@@ -1,8 +1,8 @@
 key: ngc_5477
 table: dwarf_local_field_distant
 location:
-  ra: 211.38791666666665  # [deg]
-  dec: 54.46083333333333 # [deg]
+  ra: 211.386
+  dec: 54.461
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -12,15 +12,23 @@ name_discovery:
   - DDO186
   - PGC050262
   - UGC09018
+structure:
+  rhalf: 26.5
+  rhalf_em: 1.3
+  rhalf_ep: 1.3
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
 distance:
   distance_modulus: 29.15
   distance_modulus_em: 0.13
   distance_modulus_ep: 0.13
   ref_distance: Tikhonov2015AstL...41..239T
 m_v:
-  apparent_magnitude_v: 13.83
-  ref_m_v: Karachentsev2013AJ....145..101K
-  ref_structure_eff: ref
+  apparent_magnitude_v: 13.78
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
 velocity:
   vlos_systemic: 312
   vlos_systemic_em: 2

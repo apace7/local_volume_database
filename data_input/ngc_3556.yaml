@@ -1,0 +1,29 @@
+key: ngc_3556
+table: misc
+location:
+  ra: 167.87917
+  dec: 55.67389
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 3556
+  other_name:
+  - MESSIER108
+  - PGC034030
+distance:
+  distance_modulus: 29.98
+  ref_distance: Karachentsev2013AJ....145..101K
+m_v:
+  apparent_magnitude_v: 9.94
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 696
+  vlos_systemic_em: 22
+  vlos_systemic_ep: 22
+  ref_vlos: Huchtmeier1985A&A...143..216H
+flux_HI:
+  flux_HI: 113
+  vlos_systemic_HI: 696
+  vlos_systemic_HI_em: 22
+  vlos_systemic_HI_ep: 22
+  ref_flux_HI: Huchtmeier1985A&A...143..216H

@@ -6,59 +6,29 @@ location:
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: ngc_0253
   name: NGC 247
   other_name:
   - ESO540-022
   - PGC002758
   - UGCA011
-#   ref_discovery:
-#   - list
-# notes:
-# - list
-# structure:
-#   rhalf: 0
-#   rhalf_em: 0
-#   rhalf_ep: 0
-#   ellipticity: 0
-#   ellipticity_em: 0
-#   ellipticity_ep: 0
-#   ellipticity_ul: 0
-#   position_angle: 0
-#   position_angle_em: 0
-#   position_angle_ep: 0
-#   ref_structure: ref
+structure:
+  rhalf: 237.2
+  rhalf_em: 11.1
+  rhalf_ep: 11.1
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
 distance:
   distance_modulus: 27.85
   distance_modulus_em: 0.02
   distance_modulus_ep: 0.02
   ref_distance: Jacobs2009AJ....138..332J
 m_v:
-  apparent_magnitude_v: 8.98
-  # apparent_magnitude_v_em: 0
-  # apparent_magnitude_v_ep: 0
-  # ref_m_v: ref
-# metallicity_photometric:
-#   metallicity_photometric: 0
-#   metallicity_photometric_em: 0
-#   metallicity_photometric_ep: 0
-#   ref_metallicity_photometric: ref
-# structure_sersic:
-#   n_sersic: 0
-#   n_sersic_em: 0
-#   n_sersic_ep: 0
-#   rad_sersic: 0
-#   rad_sersic_em: 0
-#   rad_sersic_ep: 0
-#   ellipticity: 0
-#   ellipticity_em: 0
-#   ellipticity_ep: 0
-#   ellipticity_ul: 0
-#   position_angle: 0
-#   position_angle_em: 0
-#   position_angle_ep: 0
-#   ref_structure_sersic: ref
+  apparent_magnitude_v: 9.25
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
 velocity:
   vlos_systemic: 153
   vlos_systemic_em: 5

@@ -11,8 +11,8 @@ name_discovery:
   name: M101-DF2
   ref_discovery:
   - Merritt2014ApJ...787L..37M
-notes:
-- list
+  other_name:
+  - dw1408p5419
 structure:
   rhalf: 10.35
   rhalf_em: 0.68

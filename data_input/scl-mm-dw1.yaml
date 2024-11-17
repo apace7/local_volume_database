@@ -11,6 +11,8 @@ name_discovery:
   name: Scl-MM-Dw1
   ref_discovery:
   - Sand2014ApJ...793L...7S
+  other_name:
+  - dw0047m2623
 notes:
 - HI gas upper limit 3 sigma
 structure:
