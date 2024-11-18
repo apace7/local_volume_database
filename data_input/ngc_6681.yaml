@@ -25,7 +25,7 @@ name_discovery:
   confirmed_star_cluster: 1
   name: NGC 6681
   other_name:
-  - M 70
+  - M70
   host: mw
 proper_motion:
   pmdec: -4.7438

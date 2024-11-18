@@ -25,7 +25,7 @@ name_discovery:
   confirmed_star_cluster: 1
   name: NGC 7089
   other_name:
-  - M 2
+  - M2
   host: mw
 proper_motion:
   pmdec: -2.1588

@@ -25,7 +25,7 @@ name_discovery:
   confirmed_star_cluster: 1
   name: NGC 7099
   other_name:
-  - M 30
+  - M30
   host: mw
 proper_motion:
   pmdec: -7.2987

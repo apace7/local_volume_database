@@ -1,3 +1,15 @@
+key: ngc_1904
+table: gc_harris
+location:
+  ra: 81.045837
+  dec: -24.524416
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 1904
+  other_name:
+  - M79
+  host: mw  
 age:
   age: 11.14
   age_em: 0.9
@@ -8,10 +20,6 @@ distance:
   distance_modulus_em: 0.03
   distance_modulus_ep: 0.03
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_1904
-location:
-  dec: -24.524416
-  ra: 81.045837
 m_v:
   apparent_magnitude_v: 7.91
   apparent_magnitude_v_em: 0.04
@@ -20,13 +28,6 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.6
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: NGC 1904
-  other_name:
-  - M 79
-  host: mw
 proper_motion:
   pmdec: -1.5938
   pmdec_em: 0.0251
@@ -38,7 +39,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 0.68
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 205.76

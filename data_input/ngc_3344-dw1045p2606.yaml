@@ -1,0 +1,30 @@
+key: ngc_3344-dw1045p2606
+table: candidate
+location:
+  ra: 161.276
+  dec: 26.105
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2022
+  host: ngc_3344
+  name: dw1045p2606
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+notes:
+- candidate in Carlsten2022ApJ...933...47C; SBF attempted
+structure:
+  rhalf: 4.3
+  rhalf_em: 0.5
+  rhalf_ep: 0.5
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 4.32
+  apparent_magnitude_v_em: 0.55
+  apparent_magnitude_v_ep: 0.55
+  ref_m_v: Carlsten2022ApJ...933...47C

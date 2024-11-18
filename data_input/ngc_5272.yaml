@@ -25,7 +25,7 @@ name_discovery:
   confirmed_star_cluster: 1
   name: NGC 5272
   other_name:
-  - M 3
+  - M3
   host: mw
 proper_motion:
   pmdec: -2.6696

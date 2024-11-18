@@ -25,7 +25,7 @@ name_discovery:
   confirmed_star_cluster: 1
   name: NGC 6981
   other_name:
-  - M 72
+  - M72
   host: mw
 proper_motion:
   pmdec: -3.3608

@@ -20,7 +20,7 @@ name_discovery:
   confirmed_star_cluster: 1
   name: NGC 6402
   other_name:
-  - M 14
+  - M14
   host: mw
 proper_motion:
   pmdec: -5.0588

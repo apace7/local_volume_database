@@ -25,7 +25,7 @@ name_discovery:
   confirmed_star_cluster: 1
   name: NGC 4590
   other_name:
-  - M 68
+  - M68
   host: mw
 proper_motion:
   pmdec: 1.7786

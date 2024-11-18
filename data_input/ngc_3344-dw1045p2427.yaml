@@ -1,0 +1,31 @@
+key: ngc_3344-dw1045p2427
+table: dwarf_local_field_distant
+location:
+  ra: 161.379
+  dec: 24.466
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2022
+  host: ngc_3344
+  name: dw1045p2427
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 9.2
+  rhalf_em: 1.1
+  rhalf_ep: 1.1
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.95
+  distance_modulus_em: 0.30
+  distance_modulus_ep: 0.28
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 19.50
+  apparent_magnitude_v_em: 0.14
+  apparent_magnitude_v_ep: 0.14
+  ref_m_v: Carlsten2022ApJ...933...47C

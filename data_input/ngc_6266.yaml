@@ -25,7 +25,7 @@ name_discovery:
   confirmed_star_cluster: 1
   name: NGC 6266
   other_name:
-  - M 62
+  - M62
   host: mw
 proper_motion:
   pmdec: -2.9467

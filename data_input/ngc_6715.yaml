@@ -26,7 +26,7 @@ name_discovery:
   name: NGC 6715
   host: sagittarius_1
   other_name:
-  - M 54
+  - M54
 proper_motion:
   pmdec: -1.3865
   pmdec_em: 0.0254
