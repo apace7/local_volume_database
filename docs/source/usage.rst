@@ -40,7 +40,7 @@ An example of loading the tables remotely from either the release page (recommen
 
   import astropy.table as table
   ## release page, the version will need to be updated to the latest release
-  dsph_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v0.0.2/dwarf_all.csv')
+  dsph_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v1.0.0/dwarf_all.csv')
   ## latest github
   dsph_all = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_all.csv')
 

@@ -18,6 +18,10 @@ load the data from github
 
 .. code-block:: python
 
+    ## can be loaded from the release page (recommended/perfered method). Note that the release tag needs to be selected.
+    dsph_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v1.0.0/dwarf_all.csv')
+
+    ## load from main github branch
     dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_mw.csv')
     dsph_m31 = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_m31.csv')
     dsph_lf = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_local_field.csv')
@@ -53,7 +57,7 @@ make a figure
 Figure from the sample (this does include custom matplotlib stylefile and latex for the captions).
 I note that the name for one type of system in the catalog (labeled UFSC = ultra-faint star clusters) has been changed several times. In the majority of the documentation these are referred to as, new star cluster-like systems in Galactic halo and/or ambiguous systems (as in the nature of dwarf galaxy and star cluster is ambiguous).
 
-.. figure:: /docs/source/figures/example_rhalf_MV.png
+.. figure:: /source/figures/example_rhalf_MV.png
    :width: 60%
    :align: center
    :alt: Example
@@ -79,7 +83,7 @@ For example, this loads an older version of the data/dwarf_all.csv table for eit
 
 .. code-block:: python
     ## tagged release
-    dsph_mw = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v0.0.2/dwarf_all.csv')
+    dsph_mw = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v1.0.0/dwarf_all.csv')
     ## specific commit
     dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/3a473c7f839f228a5702fa0293cebfea5fe3bcb6/data/dwarf_all.csv')
 
