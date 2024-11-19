@@ -57,7 +57,7 @@ make a figure
 Figure from the sample (this does include custom matplotlib stylefile and latex for the captions).
 I note that the name for one type of system in the catalog (labeled UFSC = ultra-faint star clusters) has been changed several times. In the majority of the documentation these are referred to as, new star cluster-like systems in Galactic halo and/or ambiguous systems (as in the nature of dwarf galaxy and star cluster is ambiguous).
 
-.. figure:: /source/figures/example_rhalf_MV.png
+.. figure:: /figures/example_rhalf_MV.png
    :width: 60%
    :align: center
    :alt: Example
