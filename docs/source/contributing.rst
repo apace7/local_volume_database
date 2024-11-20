@@ -43,27 +43,31 @@ Make a new yaml file in the ``data_input`` folder with the name ``new_system.yam
 The easiest way to verify that the correct YAML key names are  used is to copy  the example yaml file  ``code/example_yaml.yaml`` when creating the new YAML file.  Note that  ``example_yaml.yaml`` contains all possible properties/collections and keys for the database.  For the new system many of the YAML parameters will not be measured and should be deleted. 
 There are 4 required entries for each system: ``key``, ``table``, ``ra``, ``dec``.  The latter two keys are in the ``location`` collection. The ``table`` key is used to combine systems into tables in the ``data/`` folder.  The ``key`` value needs to be unique and match the file name.
 
-The new system will be added to the database tables by running the ``code/combine_table_general.py`` python script.
-
-The new system will be added to the summary pdf tables by running the ``code/create_latex_table.py`` python script and running the latex scripts.
-
-There is a bash/zsh shell script that will recreate the database and latex/pdf summary tables (there is a good chance that this script only works on my computer).
-
-These are the current tables: 
+List of current options for the tables: 
 
 * dwarf_mw
 * dwarf_local_field
 * dwarf_m31
-* gc_harris
+* dwarf_local_field_distant
 * gc_ufsc = gc_halo = gc_ambiguous (all these table values go into the same catalog)
-* gc_disk = gc_mw_new
+* gc_harris
+* gc_disk = gc_mw_new (these options both end up in the sane table/catalog)
 * gc_dwarf_hosted
 * candidate
-* local_field_distant
 * misc 
+* gc_other
 
-.. How the database is constructed
-.. ---------------------------------------------
+The new system will be added to the catalogs by running the ``create_database.sh`` script. 
+
+Table/Catalog Construction 
+---------------------------------------------
+
+The bash/zsh shell script, ``create_database.sh``, creates the tables/catalogs, overview figures, and the summary pdf. 
+The script runs three python scripts, ``scripts/combine_table_general.py``, ``scripts/create_latex_table.py``, and ``scripts/create_summary_plots.py``, and runs the LaTeX compilation of the pdf after. 
+The first script, combines together all the systems, adds value-added columns and saves the catalogs (csv and fits files).
+The second script, uses the output and the YAML files to create the input LaTeX data and citations files for the ``lvdb_table.pdf``. 
+The third script, creates summary figures. This includes recreating all the figures in the overview paper with the latest input files and some additional figures in a single combined pdf file, ``paper_examples/overview_plots.pdf``. The plots in the combined pdf file are for checking the content of the database (looking for outliers, etc). 
+
 
 
 

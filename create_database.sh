@@ -8,6 +8,10 @@ print 'creating latex tables'
 
 python scripts/create_latex_table.py
 
+read -s -k '?Press any key to create summary plots.'
+
+python scripts/create_summary_plots.py
+
 read -s -k '?Press any key to compile latex and create pdf.'
 
 cd table/

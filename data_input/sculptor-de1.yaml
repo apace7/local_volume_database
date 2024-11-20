@@ -15,10 +15,12 @@ name_discovery:
   ref_discovery:
   - Cote1997AJ....114.1313C
   type: dE
-# notes:
-# - list
 structure:
   rhalf: 20.5
+  rhalf_em: 1.9
+  rhalf_ep: 1.9
+  spatial_units: arcsec
+  spatial_model: sersic
   ref_structure: Jerjen2000AJ....119..593J
 distance:
   distance_modulus: 28.17
@@ -27,32 +29,6 @@ distance:
   ref_distance: DaCosta2009AJ....137.4361D
 m_v:
   apparent_magnitude_v: 16.67
-  # apparent_magnitude_v_em: 0
-  # apparent_magnitude_v_ep: 0
-  # ref_m_v: ref
-# structure_sersic:
-#   n_sersic: 0
-#   n_sersic_em: 0
-#   n_sersic_ep: 0
-#   rad_sersic: 0
-#   rad_sersic_em: 0
-#   rad_sersic_ep: 0
-#   ellipticity: 0
-#   ellipticity_em: 0
-#   ellipticity_ep: 0
-#   ellipticity_ul: 0
-#   position_angle: 0
-#   position_angle_em: 0
-#   position_angle_ep: 0
-#   ref_structure_sersic: ref
-# velocity:
-#   vlos_systemic: 0
-#   vlos_systemic_em: 0
-#   vlos_systemic_ep: 0
-#   vlos_sigma: 0
-#   vlos_sigma_em: 0
-#   vlos_sigma_ep: 0
-#   ref_vlos: ref
 flux_HI:
   flux_HI_ul: 0.0225
   ref_flux_HI: Bouchard2005AJ....130.2058B
