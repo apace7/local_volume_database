@@ -1,0 +1,42 @@
+key: lv_j1243p4127
+table: dwarf_local_field_distant
+location:
+  ra: 190.980
+  dec: 41.457
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_094
+  name: LV J1243+4127
+  other_name:
+  - dw1243p4127
+structure:
+  rhalf: 23.0
+  rhalf_em: 1.3
+  rhalf_ep: 1.3
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 28.41
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.11
+  ref_distance: Karachentsev2018ApJ...858...62K
+m_v:
+  apparent_magnitude_v: 16.41
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 402
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Huchtmeier2009A&A...506..677H
+flux_HI:
+  flux_HI: 1.2
+  flux_HI_em: 0.12
+  flux_HI_ep: 0.12
+  vlos_systemic_HI: 402
+  vlos_systemic_HI_em: 2
+  vlos_systemic_HI_ep: 2
+  ref_flux_HI: Huchtmeier2009A&A...506..677H

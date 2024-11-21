@@ -46,4 +46,4 @@ star_formation_history:
   tau_90: 1.90
   tau_90_em: 0.08
   tau_90_ep: 0.15
-  ref_star_formation_history: McMQuinn2024arXiv240919050
+  ref_star_formation_history: McQuinn2024ApJ...976...60M

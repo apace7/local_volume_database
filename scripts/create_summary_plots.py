@@ -185,49 +185,6 @@ add_columns()
 ## compuates average density within the half-light radius mass and errors
 ## this assumes Gaussian errors and averages the errors 
 def compute_density_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, ellipticity_ep, distance, distance_em, distance_ep, sigma, sigma_em,sigma_ep, n=10000):
-    
-    if ma.is_masked(rhalf_em)==False and ma.is_masked(rhalf)==False:
-        x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., n)
-    elif ma.is_masked(rhalf)==False:
-        x=np.empty(n)
-        x.fill(rhalf)
-    else:
-        x = np.zeros(n)
-    
-    if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
-        y = np.random.normal(ellipticity, (ellipticity_em+ellipticity_ep)/2., n)
-    elif ma.is_masked(ellipticity)==False:
-        y=np.empty(len(x))
-        y.fill(ellipticity)
-    else:
-        y = np.zeros(len(x))
-    
-    if ma.is_masked(distance_em)==False and ma.is_masked(distance)==False:
-        z = np.random.normal(distance, (distance_em+distance_ep)/2., n)
-    elif ma.is_masked(distance)==False:
-        z=np.empty(len(x))
-        z.fill(distance)
-    else:
-        z = np.full(10000, distance)
-    
-    if ma.is_masked(sigma_em)==False and ma.is_masked(sigma_ep)==False:
-        sig = np.random.normal(sigma, (sigma_em+sigma_ep)/2., n)
-    elif ma.is_masked(sigma)==False:
-        sig=np.empty(len(x))
-        sig.fill(sigma)
-    else:
-        sig = np.zeros(len(x))
-    
-    x2 = x[np.logical_and(y>=0, y<1)]
-    y2 = y[np.logical_and(y>=0, y<1)]
-    z2 = z[np.logical_and(y>=0, y<1)]
-    sig2 = sig[np.logical_and(y>=0, y<1)]
-    
-    rh_array = x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2
-    comb_mass = 930. * x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2 * sig2**2
-    comb_mass2 = comb_mass[~np.isnan(comb_mass)]
-    rh_array2 = rh_array[~np.isnan(comb_mass)]
-    comb_mass2_density = comb_mass2/(4./3.*np.pi * (4./3.*rh_array2)**3)
     if (ma.is_masked(sigma_em)==True or ma.is_masked(sigma_ep)==True) and ma.is_masked(sigma)==False:
         rh = distance*rhalf/180./60.*1000.*np.pi
         comb_mass = 930. * rh * sigma**2
@@ -237,7 +194,51 @@ def compute_density_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em
             return [comb_mass*np.sqrt(1.-ellipticity)/(4.*np.pi/3.*(4./3.*rh)**3),0,0]
         else:
             return[comb_mass/(4.*np.pi/3.*(4./3.*rh)**3),0,0]
-    else:
+    else: 
+        if ma.is_masked(rhalf_em)==False and ma.is_masked(rhalf)==False:
+            x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., n)
+        elif ma.is_masked(rhalf)==False:
+            x=np.empty(n)
+            x.fill(rhalf)
+        else:
+            x = np.zeros(n)
+            return [np.ma.masked,np.ma.masked,np.ma.masked]
+        
+        if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
+            y = np.random.normal(ellipticity, (ellipticity_em+ellipticity_ep)/2., n)
+        elif ma.is_masked(ellipticity)==False:
+            y=np.empty(len(x))
+            y.fill(ellipticity)
+        else:
+            y = np.zeros(len(x))
+        
+        if ma.is_masked(distance_em)==False and ma.is_masked(distance)==False:
+            z = np.random.normal(distance, (distance_em+distance_ep)/2., n)
+        elif ma.is_masked(distance)==False:
+            z=np.empty(len(x))
+            z.fill(distance)
+        else:
+            z = np.full(10000, distance)
+        
+        if ma.is_masked(sigma_em)==False and ma.is_masked(sigma_ep)==False:
+            sig = np.random.normal(sigma, (sigma_em+sigma_ep)/2., n)
+        elif ma.is_masked(sigma)==False:
+            sig=np.empty(len(x))
+            sig.fill(sigma)
+        else:
+            sig = np.zeros(len(x))
+        
+        x2 = x[np.logical_and(y>=0, y<1)]
+        y2 = y[np.logical_and(y>=0, y<1)]
+        z2 = z[np.logical_and(y>=0, y<1)]
+        sig2 = sig[np.logical_and(y>=0, y<1)]
+        
+        rh_array = x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2
+        comb_mass = 930. * x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2 * sig2**2
+        comb_mass2 = comb_mass[~np.isnan(comb_mass)]
+        rh_array2 = rh_array[~np.isnan(comb_mass)]
+
+        comb_mass2_density = comb_mass2/(4./3.*np.pi * (4./3.*rh_array2)**3)
         mean_mass = corner.quantile(comb_mass2_density, [.5, .1587, .8413, 0.0227501, 0.97725])
         return [mean_mass[0], mean_mass[0]-mean_mass[1], mean_mass[2]-mean_mass[0]]
     

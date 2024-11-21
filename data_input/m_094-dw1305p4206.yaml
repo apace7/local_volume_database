@@ -1,0 +1,30 @@
+key: m_094-dw1305p4206
+table: candidate
+location:
+  ra: 196.499
+  dec: 42.106
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2022
+  host: m_094
+  name: dw1305p4206
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+notes:
+- candidate in Carlsten2022ApJ...933...47C; SBF attempted
+structure:
+  rhalf: 13.9
+  rhalf_em: 1.1
+  rhalf_ep: 1.1
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 13.87
+  apparent_magnitude_v_em: 1.08
+  apparent_magnitude_v_ep: 1.08
+  ref_m_v: Carlsten2022ApJ...933...47C

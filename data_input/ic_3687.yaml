@@ -1,0 +1,42 @@
+key: ic_3687
+table: dwarf_local_field_distant
+location:
+  ra: 190.563
+  dec: 38.503
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_094
+  name: IC 3687
+  other_name:
+  - PGC042656
+  - UGC07866
+  - DDO 141
+structure:
+  rhalf: 49.5
+  rhalf_em: 2.4
+  rhalf_ep: 2.4
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 28.30
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 13.30
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 349.7
+  vlos_systemic_em: 17
+  vlos_systemic_ep: 17
+  ref_vlos: Kovac2009MNRAS.400..743K
+flux_HI:
+  flux_HI: 16.1
+  vlos_systemic_HI: 349.7
+  vlos_systemic_HI_em: 17
+  vlos_systemic_HI_ep: 17
+  ref_flux_HI: Kovac2009MNRAS.400..743K

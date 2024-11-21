@@ -772,6 +772,9 @@ with open(output, 'w+') as f:
                 str_rhalf = ''
                 if 'structure' in stream_yaml.keys() and 'rhalf' in stream_yaml['structure'].keys():
                     rh_str = make_latex_value(stream_yaml['structure']['rhalf'], np.ma.masked,np.ma.masked, n=2)
+                    if 'spatial_units' in stream_yaml['structure'].keys():
+                        if stream_yaml['structure']['spatial_units'] =='arcsec':
+                            rh_str = make_latex_value(stream_yaml['structure']['rhalf']/60., np.ma.masked,np.ma.masked, n=2)
                 def dm(x):
                     return pow(10., x/5.+1.)/1000.
                 dist_str = ''
@@ -800,6 +803,9 @@ with open(output, 'w+') as f:
                             stream_yaml_host = yaml.load(stream_host, Loader=yaml.Loader)
                             d = dm(stream_yaml_host['distance']['distance_modulus'])
                             rh = d*stream_yaml['structure']['rhalf']/180./60.*1000.*np.pi
+                            if 'spatial_units' in stream_yaml['structure'].keys():
+                                if stream_yaml['structure']['spatial_units'] =='arcsec':
+                                    rh = d*stream_yaml['structure']['rhalf']/180./3600.*1000.*np.pi
                             str_rhalf = make_latex_value(rh, np.ma.masked,np.ma.masked, n=1)
                         except yaml.YAMLError as exc2:
                             print(exc2)

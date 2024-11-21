@@ -68,6 +68,8 @@ The first script, combines together all the systems, adds value-added columns an
 The second script, uses the output and the YAML files to create the input LaTeX data and citations files for the ``lvdb_table.pdf``. 
 The third script, creates summary figures. This includes recreating all the figures in the overview paper with the latest input files and some additional figures in a single combined pdf file, ``paper_examples/overview_plots.pdf``. The plots in the combined pdf file are for checking the content of the database (looking for outliers, etc). 
 
+Note that the ``overview_plots.pdf`` is not saved in the github and  ``lvdb_table.pdf`` is only included in the release page. 
+
 
 
 
