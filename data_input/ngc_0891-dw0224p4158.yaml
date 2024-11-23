@@ -1,0 +1,30 @@
+key: ngc_0891-dw0224p4158
+table: candidate
+location:
+  ra: 36.097
+  dec: 41.975
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2022
+  host: ngc_0891
+  name: dw0224p4158
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+notes:
+- candidate in Carlsten2022ApJ...933...47C; SBF attempted
+structure:
+  rhalf: 3.7
+  rhalf_em: 0.5
+  rhalf_ep: 0.5
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 3.75
+  apparent_magnitude_v_em: 0.54
+  apparent_magnitude_v_ep: 0.54
+  ref_m_v: Carlsten2022ApJ...933...47C

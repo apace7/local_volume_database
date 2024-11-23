@@ -1,0 +1,39 @@
+key: ngc_0891-tt2009_25
+table: dwarf_local_field_distant
+location:
+  ra: 35.301
+  dec: 42.364
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2009
+  host: ngc_0891
+  name: TT2009 25
+  other_name:
+  - NGC 891 dwA
+  - dw0221p4221
+  ref_discovery:
+  - Trentham2009MNRAS.398..722T
+  type: dE
+structure:
+  rhalf: 10.3
+  rhalf_em: 0.6
+  rhalf_ep: 0.6
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 30.06
+  distance_modulus_em: 0.23
+  distance_modulus_ep: 0.40
+  ref_distance: Muller2019A&A...629L...2M
+m_v:
+  apparent_magnitude_v: 17.26
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 692
+  vlos_systemic_em: 58
+  vlos_systemic_ep: 58
+  ref_vlos: Karachentsev2015Ap.....58..309K

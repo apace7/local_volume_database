@@ -1,0 +1,28 @@
+key: ngc_0891
+table: dwarf_local_field_distant
+location:
+  ra: 35.6367
+  dec: 42.3467
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 891
+  other_name:
+  - PGC009031
+  - UGC01831
+distance:
+  distance_modulus: 29.99
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 9.38
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 526
+  vlos_systemic_em: 7
+  vlos_systemic_ep: 7
+  ref_vlos: StaveleySmith1987MNRAS.224..953S
+flux_HI:
+  flux_HI: 194.1
+  ref_flux_HI: Karachentsev2013AJ....145..101K
