@@ -14,8 +14,7 @@ name_discovery:
   - Greggio1993AJ....105..894G
 notes:
 - The ra, dec of the center is incorrectly set to the center of Aquarius 
-- center of cluster; (x y = 237.57  93.53) pixels Greggio1993AJ....105..894G; no center of the field or pixel scale is listed in the paper.  
-- distance assumed to match host
+- center of cluster; (x y = 237.57  93.53) pixels \citep{Greggio1993AJ....105..894G}; no center of the field or pixel scale is listed in the paper.  
 distance:
   distance_fixed_host: True
 m_v:

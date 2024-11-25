@@ -15,8 +15,8 @@ name_discovery:
   - Kronberger2006A&A...447..921K
   - Kharchenko2013A&A...558A..53K
 notes:
-- open cluster candidate or a compact open cluster remnant candidate Bica2019AJ....157...12B
-- classify as globular cluster Garro2022A&A...659A.155G
+- open cluster candidate or a compact open cluster remnant candidate \citep{Bica2019AJ....157...12B}
+- classify as globular cluster \citep{Garro2022A&A...659A.155G}
 distance:
   distance_modulus: 16.29
   distance_modulus_em: 0.02

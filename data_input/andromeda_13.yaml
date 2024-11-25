@@ -15,7 +15,7 @@ name_discovery:
   - Martin2006MNRAS.371.1983M
   type: dSph
 notes:
-- In Pisces MC12
+- In Pisces \citep{McConnachie2012AJ....144....4M}
 distance:
   distance_modulus: 24.57
   distance_modulus_em: 0.07

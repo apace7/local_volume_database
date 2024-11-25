@@ -12,12 +12,13 @@ name_discovery:
   ref_discovery:
   - Caldwell1998AJ....115..535C
 notes:
-- sersic fit from g-band fits Zemaitis2023MNRAS.518.2497Z
+- sersic fit from g-band fits \citep{Zemaitis2023MNRAS.518.2497Z}
 structure:
   rhalf: 1.98
   rhalf_em: 0.01
   rhalf_ep: 0.01
   spatial_units: arcmin
+  spatial_model: sersic
   ellipticity: 0.12
   ellipticity_em: 0.01
   ellipticity_ep: 0.01

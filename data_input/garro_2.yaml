@@ -12,8 +12,7 @@ name_discovery:
   ref_discovery:
   - Garro2022A&A...662A..95G
 notes:
-- MV errors are from M_Ks Garro2022A&A...662A..95G
-- rhalf computed from rc and rt Garro2022A&A...662A..95G
+- $M_V$ errors are from $M_{Ks}$; rhalf computed from rc and rt \citep{Garro2022A&A...662A..95G}
 age:
   age: 12.0
   age_em: 2.0

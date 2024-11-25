@@ -1,12 +1,12 @@
 key: cena_dw1337-26
 table: candidate
 location:
-  ra: 204.30416666666665
-  dec: -26.802777777777777
+  ra: 204.304167
+  dec: -26.80278
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
-  false_positive: 0
+  false_positive: 1
   discovery_year: 2015
   host: ngc_5128
   name: dw1337-26
@@ -15,7 +15,7 @@ name_discovery:
   ref_false_positive:
   - Muller2024A&A...684L...6M
 notes:
-- The dwarf galaxy candidate dw1337-26 looks to be part of a ring of scattered light and istherefore an artifact Muller2024A&A...684L...6M
+- The dwarf galaxy candidate dw1337-26 looks to be part of a ring of scattered light and is therefore an artifact \citep{Muller2024A&A...684L...6M}
 structure:
   rhalf: 34.61
   spatial_units: arcsec

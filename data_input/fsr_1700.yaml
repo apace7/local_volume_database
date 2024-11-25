@@ -13,9 +13,8 @@ name_discovery:
   - Froebrich2007MNRAS.374..399F
   type: OC/GC
 notes:
-- candidate GC He2023ApJS..267...34H
-- velocity from 2 Gaia RVS stars He2023ApJS..267...34H
-- APB if velocity is correct this is a disk-like orbit and open cluster like
+- candidate GC \citep{He2023ApJS..267...34H}
+- velocity from 2 Gaia RVS stars \citep{He2023ApJS..267...34H}. APB if velocity is correct this is a disk-like orbit and open cluster like
 structure:
   rhalf: 2.39
   rhalf_em: 0.08

@@ -13,7 +13,7 @@ name_discovery:
   ref_discovery:
   - Muller2017A&A...597A...7M
 notes:
-- type = cirrus? Muller2017A&A...597A...7M
+- cirrus? \citep{Muller2017A&A...597A...7M}
 structure:
   rhalf: 18.3
   spatial_units: arcsec

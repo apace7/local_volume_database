@@ -11,9 +11,8 @@ name_discovery:
   ref_discovery:
   - MartinezDelgado2018A&A...620A.126M
 notes:
-- satellite of NGC 404, ~65 kpc in projection.
-- position angle in plot but values not listed in paper. 
-- Gran Telescopio Canarias imaging
+- satellite of NGC 404, $\sim$65 kpc in projection.
+- position angle in plot but values not listed in paper \citep{MartinezDelgado2018A&A...620A.126M}. Gran Telescopio Canarias imaging
 structure:
   rhalf: 0.48
   rhalf_em: 0.15

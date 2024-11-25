@@ -25,6 +25,10 @@ import os.path
 
 path = 'data_input/'
 
+import local_volume_database as lvdb
+lvdb_path = os.environ.get('LVDBDIR')
+print(lvdb_path)
+
 np.random.seed(1988)
 
 def make_latex_value(value, em, ep, **kwargs):
@@ -839,3 +843,92 @@ with open(output_citations, 'w+') as f:
         j = j.replace('&', '\string&')
         f.write( "("+i+") \citet{"+j+"}\n",)
         
+
+def create_notes_latex():
+    print("create notes latex")
+    dwarf_all = table.Table.read('data/dwarf_all.csv')
+
+    dwarf_mw  = dwarf_all[dwarf_all['distance']<400]
+    print("number of MW dwarfs", len(dwarf_mw))
+
+    output = 'table/table_data/notes_mw.tex'
+    with open(output, 'w+') as f:
+        for i in range(len(dwarf_mw)):
+        #     print()
+            x = lvdb.get_notes(dwarf_mw['key'][i], print_output=False)
+            if x is not None:
+                for kk in x:
+                    f.write("\item "  + dwarf_mw['name'][i] +"---"+ kk + '\n')
+
+    dwarf_m31  = dwarf_all[np.logical_or(dwarf_all['host']=='m_031', dwarf_all['host']=='m_033')]
+    print("number of M31 satellites", len(dwarf_m31))
+    output = 'table/table_data/notes_m31.tex'
+    with open(output, 'w+') as f:
+        for i in range(len(dwarf_m31)):
+        #     print()
+            x = lvdb.get_notes(dwarf_m31['key'][i], print_output=False)
+            if x is not None:
+                for kk in x:
+                    f.write("\item "  + dwarf_m31['name'][i] +"---"+ kk + '\n')
+
+    dwarf_lf_local  = dwarf_all[np.logical_and.reduce((dwarf_all['host']!='m_031', dwarf_all['host']!='m_033', dwarf_all['host']!='mw', dwarf_all['host']!='lmc',  dwarf_all['distance']<3000))]
+    print("number of LF dwarf galaxies", len(dwarf_lf_local), len(dsph_lf))
+
+    output = 'table/table_data/notes_dwarf_lf.tex'
+    with open(output, 'w+') as f:
+        for i in range(len(dwarf_lf_local)):
+        #     print()
+            x = lvdb.get_notes(dwarf_lf_local['key'][i], print_output=False)
+            if x is not None:
+                for kk in x:
+                    f.write("\item "  + dwarf_lf_local['name'][i] +"---"+ kk + '\n')
+
+    dwarf_lf_distant  = dwarf_all[ dwarf_all['distance']>=3000]
+    print("number of LV dwarf galaxies", len(dwarf_lf_local), len(dwarf_lf_distant))
+
+    output = 'table/table_data/notes_dwarf_local_volume.tex'
+    with open(output, 'w+') as f:
+        for i in range(len(dwarf_lf_distant)):
+        #     print()
+            x = lvdb.get_notes(dwarf_lf_distant['key'][i], print_output=False)
+            if x is not None:
+                for kk in x:
+                    f.write("\item "  + dwarf_lf_distant['name'][i] +"---"+ kk + '\n')
+
+    output = 'table/table_data/notes_gc_ambiguous.tex'
+    with open(output, 'w+') as f:
+        for i in range(len(gc_ufsc)):
+        #     print()
+            x = lvdb.get_notes(gc_ufsc['key'][i], print_output=False)
+            if x is not None:
+                for kk in x:
+                    f.write("\item "  + gc_ufsc['name'][i] +"---"+ kk + '\n')
+
+    output = 'table/table_data/notes_gc_mw_new.tex'
+    with open(output, 'w+') as f:
+        for i in range(len(gc_disk)):
+        #     print()
+            x = lvdb.get_notes(gc_disk['key'][i], print_output=False)
+            if x is not None:
+                for kk in x:
+                    f.write("\item "  + gc_disk['name'][i] +"---"+ kk + '\n')
+
+    output = 'table/table_data/notes_gc_dwarf.tex'
+    with open(output, 'w+') as f:
+        for i in range(len(gc_dwarf)):
+        #     print()
+            x = lvdb.get_notes(gc_dwarf['key'][i], print_output=False)
+            if x is not None:
+                for kk in x:
+                    f.write("\item "  + gc_dwarf['name'][i] +"---"+ kk + '\n')
+
+    output = 'table/table_data/notes_gc_harris.tex'
+    with open(output, 'w+') as f:
+        for i in range(len(gc_harris)):
+        #     print()
+            x = lvdb.get_notes(gc_harris['key'][i], print_output=False)
+            if x is not None:
+                for kk in x:
+                    f.write("\item "  + gc_harris['name'][i] +"---"+ kk + '\n')
+
+create_notes_latex()

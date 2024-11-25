@@ -13,8 +13,6 @@ name_discovery:
   - H21-360500 ## unclear where second name comes from
   ref_discovery:
   - Crnojevic2019ApJ...872...80C
-notes:
-- distance assumed to be the same as the host
 structure:
   rhalf: 0.004243
   # rhalf_em: 0

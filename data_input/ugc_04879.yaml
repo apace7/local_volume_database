@@ -15,7 +15,7 @@ name_discovery:
   - VorontsovVelyaminov1959VV....C......0V
   type: dIrr/dSph
 notes:
-- Defines R_LG MC12
+- Defines $R_{LG}$ \citep{McConnachie2012AJ....144....4M}
 distance:
   distance_modulus: 25.43
   distance_modulus_em: 0.06

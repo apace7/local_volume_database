@@ -9,15 +9,12 @@ name_discovery:
   discovery_year: 2023
   host: eso_006-001
   name: ESO 006-001-GC
-  # other_name:
-  # - list
   ref_discovery:
   - Makarova2023ApJ...943..139M
   type: GC
-notes:
-- assuming the distance is the same to eso_006-001 Makarova2023ApJ...943..139M
 structure:
   rhalf: 0.002546479089
+  spatial_units: arcmin
   ref_structure: Makarova2023ApJ...943..139M
 distance:
   distance_fixed_host: True

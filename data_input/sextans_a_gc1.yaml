@@ -14,8 +14,6 @@ name_discovery:
   ref_discovery:
   - Pedreros2002IAUS..207..177P
   - Beasley2019MNRAS.487.1986B
-notes:
-- Assumed distance to match sextans_a Dalcanton2009ApJS..183...67D
 structure:
   rhalf: 0.0183
   rhalf_em: 0.0005

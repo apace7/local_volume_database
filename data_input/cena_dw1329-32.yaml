@@ -12,8 +12,9 @@ name_discovery:
   name: dw1329-32
   ref_discovery:
   - Muller2015A&A...583A..79M
+  # type: BCD?
 notes:
-- BCD?
+- type? BCD?
 structure:
   rhalf: 8.83
   spatial_units: arcsec

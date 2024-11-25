@@ -12,8 +12,6 @@ name_discovery:
   name: NGC 6822-SC5
   ref_discovery:
   - Huxor2013MNRAS.429.1039H
-notes:
-- distance assumed to match ngc_6822
 # structure:
 ## ABP I don't know where the rhalf comes from
 #   rhalf: 0.0183

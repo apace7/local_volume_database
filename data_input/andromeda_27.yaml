@@ -25,7 +25,7 @@ name_discovery:
   - Richardson2011ApJ...732...76R
   type: dSph
 notes:
-- Tidally disrupting? Remnant? MC12
+- Tidally disrupting? Remnant? \citep{McConnachie2012AJ....144....4M}
 structure:
   ellipticity: 0.4
   ellipticity_em: 0.2

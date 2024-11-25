@@ -12,8 +12,6 @@ name_discovery:
   ref_discovery:
   - Koposov2015ApJ...805..130K
   - Crnojevic2016ApJ...824L..14C
-notes:
-- The distance is assumed to be the same as the Eridanus II dwarf
 structure:
   rhalf: 0.1567
   rhalf_em: 0.01

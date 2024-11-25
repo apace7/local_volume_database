@@ -12,7 +12,7 @@ name_discovery:
   ref_discovery:
   - Froebrich2007MNRAS.374..399F
 notes:
-- rhalf computed from rc and rt Obasi2021A&A...654A..39O
+- rhalf computed from rc and rt \citep{Obasi2021A&A...654A..39O}
 age:
   age: 11.0
   ref_age: Obasi2021A&A...654A..39O

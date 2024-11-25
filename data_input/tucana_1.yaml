@@ -14,7 +14,7 @@ name_discovery:
   - Corwin1985sgcc.book.....C
   type: dSph
 notes:
-- Isolated dSph; defines R_LG MC12
+- Isolated dSph; defines $R_{LG}$ \citep{McConnachie2012AJ....144....4M}
 distance:
   distance_modulus: 24.74
   distance_modulus_em: 0.12

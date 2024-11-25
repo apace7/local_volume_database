@@ -16,7 +16,7 @@ name_discovery:
   abbreviation: Wil1
   type: dSph
 notes:
-- potential tidal disruption + unclear kinematics Willman2011AJ....142..128W
+- potential tidal disruption + unclear kinematics \citep{Willman2011AJ....142..128W}
 distance:
   distance_modulus: 17.9
   distance_modulus_em: 0.4

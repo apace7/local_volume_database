@@ -13,8 +13,6 @@ name_discovery:
   # - list
   ref_discovery:
   - Crnojevic2019ApJ...872...80C
-notes:
-- distance assumed to match host
 # structure:
 #   rhalf: 0
 #   rhalf_em: 0

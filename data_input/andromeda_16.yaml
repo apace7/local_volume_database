@@ -15,7 +15,7 @@ name_discovery:
   - Ibata2007ApJ...671.1591I
   type: dSph
 notes:
-- In Pisces MC12
+- In Pisces \citep{McConnachie2012AJ....144....4M}
 distance:
   distance_modulus: 23.57
   distance_modulus_em: 0.08

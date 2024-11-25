@@ -15,11 +15,9 @@ name_discovery:
   - Kronberger2006A&A...447..921K
   type: OC/GC
 notes:
-- OC Kronberger2006A&A...447..921K
-- OC candidate He2023ApJS..267...34H
-- GC candidate Saroon2024A&A...689A.115S
-- velocity from 1 Gaia RVS star He2023ApJS..267...34H
-- APB if velocity is correct this is a disk-like orbit and open cluster like
+- open cluster or open cluster candidate \citep{Kronberger2006A&A...447..921K, He2023ApJS..267...34H}
+- globular cluster candidate \citep{Saroon2024A&A...689A.115S}
+- velocity from 1 Gaia RVS star \citep{He2023ApJS..267...34H}. APB if velocity is correct this is a disk-like orbit and open cluster like
 structure:
   rhalf: 0.82
   rhalf_em: 0.02

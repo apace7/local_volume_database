@@ -12,9 +12,8 @@ name_discovery:
   ref_discovery:
   - Huxor2013MNRAS.429.1039H
 notes:
-- distance assumed to match ngc_6822
-- vlos_sigma from Larsen2018A&A...613A..56L
-- ellipticity ~ 0.25 from Huxor2013MNRAS.429.1039H
+- vlos sigma from \citet{Larsen2018A&A...613A..56L}
+- ellipticity $\sim 0.25$ from \citet{Huxor2013MNRAS.429.1039H}
 distance:
   distance_fixed_host: true
 m_v:

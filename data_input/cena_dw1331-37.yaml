@@ -13,10 +13,10 @@ name_discovery:
   ref_discovery:
   - Muller2017A&A...597A...7M
   ref_false_positive:
-  - Muller2019A&A...629A..18M 
+  - Muller2019A&A...629A..18M
+  type: dSph
 notes:
-- type = dSph Muller2017A&A...597A...7M
-- lower confidence -- are clearly visible as extended LSB objects and resemble dwarfs in their morphology. They may be in the outer distant part of the Centaurus aggregate, which is out of reach from our detection limit Muller2019A&A...629A..18M 
+- lower confidence -- are clearly visible as extended LSB objects and resemble dwarfs in their morphology. They may be in the outer distant part of the Centaurus aggregate, which is out of reach from our detection limit \citep{Muller2019A&A...629A..18M}
 structure:
   rhalf: 17.8
   spatial_units: arcsec

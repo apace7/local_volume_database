@@ -10,7 +10,7 @@ name_discovery:
   - Dunlop1828RSPT..118..113D
   type: Sc
 notes:
-- NGC 55 sub-group, forming "bridge" to Sculptor? MC12
+- NGC 55 sub-group, forming "bridge" to Sculptor? \citep{McConnachie2012AJ....144....4M}
 distance:
   distance_modulus: 26.59
   distance_modulus_em: 0.06

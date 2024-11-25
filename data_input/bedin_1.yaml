@@ -12,7 +12,7 @@ name_discovery:
   - Bedin2019MNRAS.484L..54B
   type: dSph
 notes:
-- assuming M_V ~ M_F606W
+- assuming $M_V \sim M_{F606W}$
 structure:
   rhalf: 0.3333333333
   ellipticity: 0.6

@@ -12,8 +12,7 @@ name_discovery:
   name: dw1410-34
   ref_discovery:
   - Muller2017A&A...597A...7M
-notes:
-- type = dIrr Muller2017A&A...597A...7M
+  type: dIrr
 structure:
   rhalf: 17.7
   spatial_units: arcsec

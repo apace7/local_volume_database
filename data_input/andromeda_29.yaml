@@ -1,3 +1,19 @@
+key: andromeda_29
+table: dwarf_m31
+location:
+  ra: 359.73167
+  dec: 30.75561
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2011
+  host: m_031
+  name: Andromeda XXIX
+  ref_discovery:
+  - Bell2011ApJ...742L..15B
+  type: dSph
+notes:
+- In Pegasus \citep{McConnachie2012AJ....144....4M}
 distance:
   distance_modulus: 24.26
   distance_modulus_em: 0.06
@@ -6,10 +22,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.2
   ref_flux_HI: Putman2021ApJ...913...53P
-key: andromeda_29
-location:
-  dec: 30.75561
-  ra: 359.73167
 m_v:
   apparent_magnitude_v: 16.09
   apparent_magnitude_v_em: 0.3
@@ -23,17 +35,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.11
   metallicity_spectroscopic_sigma_ep: 0.11
   ref_metallicity_spectroscopic: Slater2015ApJ...806..230S
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2011
-  host: m_031
-  name: Andromeda XXIX
-  ref_discovery:
-  - Bell2011ApJ...742L..15B
-  type: dSph
-notes:
-- In Pegasus MC12
 structure:
   ellipticity: 0.29
   ellipticity_em: 0.04
@@ -45,7 +46,6 @@ structure:
   rhalf: 1.39
   rhalf_em: 0.08
   rhalf_ep: 0.08
-table: dwarf_m31
 velocity:
   ref_vlos: Tollerud2013ApJ...768...50T
   vlos_sigma: 5.7

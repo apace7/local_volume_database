@@ -13,7 +13,7 @@ name_discovery:
   - Muller2015A&A...583A..79M
   - Carrillo2017MNRAS.465.5026C
 notes:
-- confirmed with HST imaging Carrillo2017MNRAS.465.5026C
+- confirmed with HST imaging \citep{Carrillo2017MNRAS.465.5026C}
 structure:
   rhalf: 27
   rhalf_em: 7

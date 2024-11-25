@@ -12,9 +12,9 @@ name_discovery:
   name: dw1314-28
   ref_discovery:
   - Muller2017A&A...597A...7M
+  type: dIrr/dSph
 notes:
-- type = dIrr/dSph Muller2017A&A...597A...7M
-- bg?
+- background?
 structure:
   rhalf: 18.1
   spatial_units: arcsec

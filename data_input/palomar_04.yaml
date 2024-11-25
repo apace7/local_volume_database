@@ -16,7 +16,7 @@ name_discovery:
   - Wilson1955PASP...67...27W
   host: mw
 notes:
-- independently discovered by Hubble and Wilson Abell1955PASP...67..258A
+- independently discovered by Hubble and Wilson \citep{Abell1955PASP...67..258A}
 age:
   age: 10.2
   age_em: 0.84

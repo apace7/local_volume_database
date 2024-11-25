@@ -14,8 +14,6 @@ name_discovery:
   - KK 197-NSC
   ref_discovery:
   - Georgiev2009MNRAS.392..879G
-notes:
-- Distance assumed to be the same as host galaxy KK_197 
 structure:
   rhalf: 0.002617179074
   rhalf_em: 0.0001122882111

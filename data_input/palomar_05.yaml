@@ -17,7 +17,7 @@ name_discovery:
   - MWSC 2282
   - UGC 9792
 notes:
-- independently discovered by Baade (1950) and Wilson (1995). Cataloged by Abell with Palomar numbers Abell1955PASP...67..258A
+- independently discovered by Baade (1950) and Wilson (1995). Cataloged by Abell with Palomar numbers \citep{Abell1955PASP...67..258A}
 age:
   age: 10.9
   age_em: 0.86

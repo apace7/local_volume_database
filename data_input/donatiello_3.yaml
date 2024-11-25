@@ -12,8 +12,6 @@ name_discovery:
   ref_discovery:
   - MartinezDelgado2021A&A...652A..48M
   - MutluPakdil2024ApJ...966..188M
-notes:
-  - spatial units arcsec
 structure:
   rhalf: 12.6
   rhalf_em: 0.8

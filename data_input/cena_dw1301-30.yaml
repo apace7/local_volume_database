@@ -12,8 +12,7 @@ name_discovery:
   name: dw1301-30
   ref_discovery:
   - Muller2017A&A...597A...7M
-notes:
-- type = dSph Muller2017A&A...597A...7M
+  type: dSph
 structure:
   rhalf: 14.8
   spatial_units: arcsec

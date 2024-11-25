@@ -22,7 +22,7 @@ name_discovery:
   - Begum2005MNRAS.359L..53B
   type: (d)Irr?
 notes:
-- Zone of obscuration. Binary with HIZSS 3B? MC12
+- Zone of obscuration. Binary with HIZSS 3B? \citep{McConnachie2012AJ....144....4M}
 table: dwarf_local_field
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M

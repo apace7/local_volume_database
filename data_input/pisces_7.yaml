@@ -16,8 +16,8 @@ name_discovery:
   type: dSph
   abbreviation: PscVII
 notes:
-- potential M33 satellite based on projected distance MartinezDelgado2022MNRAS.509...16M
-- improved projected distance (~93 kpc) suggests Pisces VII is M33 satellite Collins2024MNRAS.528.2614C
+- potential M33 satellite based on projected distance \citep{MartinezDelgado2022MNRAS.509...16M}
+- improved projected distance ($\sim93$ kpc) suggests Pisces VII is M33 satellite \citep{Collins2024MNRAS.528.2614C}
 distance:
   distance_modulus: 24.8
   distance_modulus_em: 0.2

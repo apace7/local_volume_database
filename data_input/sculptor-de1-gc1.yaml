@@ -12,8 +12,7 @@ name_discovery:
   ref_discovery:
   - DaCosta2009AJ....137.4361D
 notes:
-- Distance based on distance to host galaxy DaCosta2009AJ....137.4361D
-- M_V error is 0.13 if the distance errors are included DaCosta2009AJ....137.4361D
+- $M_V$ error is 0.13 if the distance errors are included \citep{DaCosta2009AJ....137.4361D}
 structure:
   rhalf: 0.0175
   rhalf_em: 0.000833

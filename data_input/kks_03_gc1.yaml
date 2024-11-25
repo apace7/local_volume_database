@@ -11,11 +11,10 @@ name_discovery:
   name: KKs 3-GC1
   ref_discovery:
   - Karachentsev2015MNRAS.447L..85K
+  type: NSC
 notes:
-- Assume distance to cluster is the same as the host galaxy Karachentsev2015MNRAS.447L..85K
 - Nuclear star cluster 
 - ra,dec is from Galaxy center not a star cluster measurement
-- distance assumed to match host
 structure:
   rhalf: 0.007783577594
   rhalf_em: 0.0003243157331

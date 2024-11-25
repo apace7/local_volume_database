@@ -17,7 +17,7 @@ name_discovery:
   - Bechtol2015ApJ...807...50B
   - Koposov2015ApJ...805..130K
 notes:
-- observed mass segregation suggests this is star cluster Kim2015ApJ...803...63K
+- observed mass segregation suggests this is star cluster \citep{Kim2015ApJ...803...63K}
 age:
   age: 11.5
   age_em: 3.5

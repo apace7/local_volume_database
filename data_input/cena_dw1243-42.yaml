@@ -12,9 +12,9 @@ name_discovery:
   name: dw1243-42
   ref_discovery:
   - Muller2017A&A...597A...7M
+  type: dSph
 notes:
-- type = dSph Muller2017A&A...597A...7M
-- 'pair: dw1243-42b'
+- pair with dw1243-42b
 structure:
   rhalf: 15.8
   spatial_units: arcsec

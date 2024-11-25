@@ -11,9 +11,9 @@ name_discovery:
   name: dw1342-43
   ref_discovery:
   - Muller2017A&A...597A...7M
+  type: dIrr
 notes:
-- type = dIrr? Muller2017A&A...597A...7M
-- note that sersic fits have a different form; source uses n instead of 1/n and this has been modified Muller2017A&A...597A...7M
+- note that sersic fits have a different form; source uses n instead of 1/n and this has been modified \citep{Muller2017A&A...597A...7M}
 structure:
   rhalf: 15.5
   spatial_units: arcsec

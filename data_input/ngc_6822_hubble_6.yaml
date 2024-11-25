@@ -13,8 +13,6 @@ name_discovery:
   - Hubble VI
   ref_discovery:
   - Hubble1925ApJ....62..409H
-notes:
-- distance assumed to match ngc_6822
 structure:
   rhalf: 0.013
   rhalf_em: 0.0033

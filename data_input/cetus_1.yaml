@@ -12,7 +12,7 @@ name_discovery:
   - Whiting1999AJ....118.2767W
   type: dSph
 notes:
-- isolated dSph MC12 
+- isolated dSph \citep{McConnachie2012AJ....144....4M} 
 distance:
   distance_modulus: 24.39
   distance_modulus_em: 0.07

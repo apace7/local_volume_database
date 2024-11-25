@@ -17,7 +17,7 @@ name_discovery:
   - Froebrich2000A&AS..145..229F
   type: dSph
 notes:
-- assume dm = 27.79 for Vmag calculation Carlsten2022ApJ...933...47C
+- assume dm = 27.79 for Vmag calculation \citep{Carlsten2022ApJ...933...47C}
 structure:
   rhalf: 32.8
   rhalf_em: 2.3

@@ -16,10 +16,10 @@ name_discovery:
   abbreviation: DraII
   type: dSph/SC
 notes:
-- observed mass segregation in Baumgardt2022MNRAS.510.3531B; there is potential metallicity
+- observed mass segregation in \citep{Baumgardt2022MNRAS.510.3531B}; there is potential metallicity
   dispersion in CaH\&K photometry but main sequence stars are included in this calculation
-  Fu2023ApJ...958..167F; no spectroscopic metallicity dispersion or velocity dispersion
-  Longeard2020MNRAS.491..356L; size is large for star cluster
+  \citep{Fu2023ApJ...958..167F}; no spectroscopic metallicity dispersion or velocity dispersion
+  \citep{Longeard2020MNRAS.491..356L}; size is large for star cluster
 distance:
   distance_modulus: 16.67
   distance_modulus_em: 0.05

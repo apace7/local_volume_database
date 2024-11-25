@@ -1,24 +1,22 @@
 key: donatiello_5
 table: dwarf_local_field_distant
 location:
-  ra: 8.243  # [deg]
-  dec: -23.279194 # [deg]
+  ra: 8.243
+  dec: -23.279194
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
   false_positive: 0
-  discovery_year: 2024 
+  discovery_year: 2024
   host: ngc_0253
   name: Donatiello V
   ref_discovery:
   - MartinezDelgado2024arXiv240503769M
   abbreviation: 'Do V'
 notes:
-  - spatial units arcsec
-  - distance fixed to current LVDB NGC_0253 distance (as of 5/8/2024); RadburnSmith2011ApJS..195...18R ; larger distance was assumed in discovery paper
-  - sersic/structure parameters from r-band fits MartinezDelgado2024arXiv240503769M
+  - sersic/structure parameters from r-band fits \citep{MartinezDelgado2024arXiv240503769M}
 structure:
-  rhalf: 9.0 # [arcsec]
+  rhalf: 9.
   rhalf_em: 0.5
   rhalf_ep: 0.5
   spatial_units: arcsec
@@ -40,7 +38,7 @@ structure_sersic:
   n_sersic: 0.70
   n_sersic_em: 0.07
   n_sersic_ep: 0.07
-  rad_sersic: 9.0 # [arcsec]
+  rad_sersic: 9.0
   rad_sersic_em: 0.5
   rad_sersic_ep: 0.5
   spatial_units: arcsec

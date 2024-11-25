@@ -12,8 +12,6 @@ name_discovery:
   ref_discovery:
   - Shapley1938BHarO.908....1S
   - Wang2019ApJ...875L..13W
-notes:
-- distance is assumed to be the distance to Fornax dSph
 structure:
   rhalf: 0.28
   rhalf_em: 0.033

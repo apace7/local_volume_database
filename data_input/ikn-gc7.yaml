@@ -13,4 +13,4 @@ name_discovery:
   ref_false_positive:
   - Forbes2024PASA...41...44F
 notes:
-  - Background galaxy at z ~ 0.2 from Keck/KCWI spectroscopy Forbes2024PASA...41...44F
+  - Background galaxy at z ~ 0.2 from Keck/KCWI spectroscopy \citep{Forbes2024PASA...41...44F}

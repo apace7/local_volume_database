@@ -13,7 +13,7 @@ name_discovery:
   host: mw
   name: Ferrero 54
 notes:
-- classify as globular cluster Garro2022A&A...659A.155G
+- classify as globular cluster \citep{Garro2022A&A...659A.155G}
 proper_motion:
   pmdec: 1.31
   pmdec_em: 0.34

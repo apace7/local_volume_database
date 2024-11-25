@@ -13,7 +13,7 @@ name_discovery:
   - Canterna1977ApJ...212L..57C
   type: dIrr/dSph
 notes:
-- there are 4 GC candidates from Canterna1977ApJ...212L..57C and MartinezDelgado1999AJ....118..862M
+- there are 4 GC candidates from \citet{Canterna1977ApJ...212L..57C, MartinezDelgado1999AJ....118..862M}
   but ra/dec coordinates are not in the literature
 distance:
   distance_modulus: 23.06

@@ -17,9 +17,9 @@ name_discovery:
   abbreviation: UMaIII
   type: dSph/SC
 notes:
-- velocity dispersions drops to 1.9_{-1.1}^{+1.4} km/s if one star is removed and
-  the velocity disperison is unresolved if two stars are removed Smith2024ApJ...961...92S
-- systematic proper motion errors are 0.033 mas/yr Smith2024ApJ...961...92S
+- velocity dispersions drops to $1.9_{-1.1}^{+1.4}~{\rm km~s^{-1}}$ if one star is removed and
+  the velocity disperison is unresolved if two stars are removed \citep{Smith2024ApJ...961...92S}
+- systematic proper motion errors are 0.033 mas/yr \citep{Smith2024ApJ...961...92S}
 structure:
   rhalf: 0.9
   rhalf_em: 0.3

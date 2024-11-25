@@ -12,11 +12,11 @@ name_discovery:
   ref_discovery:
   - Borissova2014A&A...569A..24B
 notes:
-- Note that the pmdec_error in Garro2022A&A...658A.120G is listed as 0.07 which is
-  likely a typo given the magnitude of the pmra_error and the errors of other proper
+- Note that the pmdec error in \citep{Garro2022A&A...658A.120G} is listed as 0.07 which is
+  likely a typo given the magnitude of the pmra error and the errors of other proper
   motion measurements in the paper.
-- old OC or GlC candidate Borissova2014A&A...569A..24B
-- classify as globular cluster Garro2022A&A...658A.120G
+- old open cluster or Globular Cluster candidate \citep{Borissova2014A&A...569A..24B}
+- classify as globular cluster \citep{Garro2022A&A...658A.120G}
 distance:
   distance_modulus: 14.77
   distance_modulus_em: 0.04

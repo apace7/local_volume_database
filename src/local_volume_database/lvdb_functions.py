@@ -11,20 +11,24 @@ lvdb_path = os.environ.get('LVDBDIR')
 
 def get_notes(key, **kwargs):
     ## input is lvdb key
-    
+    print_output = kwargs.get("print_output", True)
     path = kwargs.get('path', lvdb_path + '/data_input/')
     with open(path+ key + '.yaml', 'r') as stream:
         try:
             stream_yaml = yaml.load(stream, Loader=yaml.Loader)
             if 'notes' in stream_yaml.keys():
-                print("notes:\t", key)
-#                 print(stream_yaml['notes'])
-                for i in range(len(stream_yaml['notes'])):
-                    print(stream_yaml['notes'][i])
+                if print_output:
+                    print("notes:\t", key)
+    #                 print(stream_yaml['notes'])
+                    for i in range(len(stream_yaml['notes'])):
+                        print(stream_yaml['notes'][i])
+                return stream_yaml['notes']
             else:
-                print("no notes", key)
+                if print_output:
+                    print("no notes", key)
         except:
-            print("no key: ", key)
+            if print_output:
+                print("no key: ", key)
 
 coord.galactocentric_frame_defaults.set('v4.0')
 gc_frame = coord.Galactocentric()

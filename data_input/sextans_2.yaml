@@ -18,7 +18,7 @@ name_discovery:
   abbreviation: SexII
   # type: dSph/SC
 notes:
-- found in HSC and KiDS survey -> confirmed_real = 1
+- found in HSC and KiDS survey, considered confirmed real 
 structure:
   rhalf: 4.2
   rhalf_em: 0.5

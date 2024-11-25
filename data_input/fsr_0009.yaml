@@ -15,8 +15,8 @@ name_discovery:
   - Froebrich2007MNRAS.374..399F
   type: GC
 notes:
-- open cluster Buckner2013MNRAS.436.1465B
-- classify as globular cluster Garro2022A&A...658A.120G
+- open cluster \citep{Buckner2013MNRAS.436.1465B}
+- classify as globular cluster \citep{Garro2022A&A...658A.120G}
 distance:
   distance_modulus: 14.2
   distance_modulus_em: 0.04

@@ -9,8 +9,8 @@ name_discovery:
   host: mw
   name: ESO 456-09
 notes:
-- possible globular cluster Kharchenko2013A&A...558A..53K
-- classify as globular cluster Garro2022A&A...658A.120G
+- possible globular cluster \citep{Kharchenko2013A&A...558A..53K}
+- classify as globular cluster \citep{Garro2022A&A...658A.120G}
 distance:
   distance_modulus: 14.42
   distance_modulus_em: 0.04

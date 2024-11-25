@@ -11,7 +11,7 @@ name_discovery:
   ref_discovery:
   - Jones2024ApJ...971L..37J
 notes:
-  - vlos_systemic from HI
+  - vlos systemic from HI
 structure:
   rhalf: 15.2 
   rhalf_em: 0.5

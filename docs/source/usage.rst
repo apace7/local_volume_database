@@ -188,6 +188,8 @@ Most keys are single entries and several keys are lists (specially other_name, r
   
   * **type** -- dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster (this options are not complete here). This key is generally incomplete.
 
+* **notes**--list of notes  in LaTeX. These are added to the end of the summary pdf. 
+
 * **structure** -- yaml collection
   
   * **rhalf** -- elliptical half-light radius [arcmin]. This corresponds to the major axis. The default units are arcmin if the **spatial_units** key is not included. 

@@ -15,7 +15,7 @@ name_discovery:
   - Hubble1932ApJ....76...44H
   type: GC
 notes:
-  - ra dec coordinates are converted from B1950 to J2000 and there are likely astrometry errors Battistini1987A&AS...67..447B
+  - ABP the ra, dec coordinates are converted from B1950 to J2000 \citep{Battistini1987A&AS...67..447B} and there may be astrometry errors 
 distance:
   distance_fixed_host: True 
 m_v:

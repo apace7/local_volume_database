@@ -11,8 +11,6 @@ name_discovery:
   name: M81-dw J0954+6821
   ref_discovery:
   - Bell2022ApJ...937L...3B
-notes:
-- assumed to be at M81 group distance, 3.6 Mpc
 structure:
   rhalf: 0.07448451337
   rhalf_em: 0.007639437268

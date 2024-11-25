@@ -13,8 +13,8 @@ name_discovery:
   - Chiboucas2009AJ....137.3009C
   type: dIrr/tdl
 notes:
-- tidal dwarf galaxy? Chiboucas2013AJ....146..126C
-- assume V-I = 1 for M_I -> M_V from Chiboucas2013AJ....146..126C
+- tidal dwarf galaxy? \citep{Chiboucas2013AJ....146..126C}
+- assume $V-I$ = 1 for $M_I$ to $M_V$ from \citep{Chiboucas2013AJ....146..126C}
 structure:
   rhalf: 26.6
   spatial_units: arcsec

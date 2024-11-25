@@ -13,8 +13,8 @@ name_discovery:
   - He2023ApJS..267...34H
   type: OC/GC
 notes:
-- OC He2023ApJS..267...34H
-- GC candidate Saroon2024A&A...689A.115S
+- OC \citep{He2023ApJS..267...34H}
+- GC candidate \citep{Saroon2024A&A...689A.115S}
 structure:
   rhalf: 0.76
   rhalf_em: 0.01

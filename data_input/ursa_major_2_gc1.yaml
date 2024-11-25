@@ -14,9 +14,8 @@ name_discovery:
   - Zucker2006ApJ...650L..41Z
   - Eadie2022ApJ...926..162E
 notes:
-- assume the distance modulus matches host ursa_major_2 DallOra2012ApJ...752...42D
-- ra, dec are approximate, the discovery/confirmation paper only lists a center in HST pixels, (x,y) = (2010, 4040) Eadie2022ApJ...926..162E
-- the rhalf is approximate, the overall size is estimated at 500 pixels ~ 25 arcsec or 4 parsec and rhalf is estimated at ~10 arcsec Eadie2022ApJ...926..162E 
+- ra, dec are approximate, the discovery/confirmation paper only lists a center in HST pixels, (x,y) = (2010, 4040) \citep{Eadie2022ApJ...926..162E}
+- the rhalf is approximate, the overall size is estimated at 500 pixels or 25 arcsec or 4 parsec and rhalf is estimated at $\sim10$ arcsec \citep{Eadie2022ApJ...926..162E}
 structure:
   rhalf: 0.167
   ref_structure: Eadie2022ApJ...926..162E

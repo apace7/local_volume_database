@@ -16,7 +16,7 @@ name_discovery:
   - Reaves1956AJ.....61...69R
   type: dIrr
 notes:
-- Gibson Reaves gave this galaxy his initials MC12
+- Gibson Reaves gave this galaxy his initials \citep{McConnachie2012AJ....144....4M}
 distance:
   distance_modulus: 26.69
   distance_modulus_em: 0.12

@@ -14,7 +14,7 @@ name_discovery:
   ref_discovery:
   - Humason1956AJ.....61...97H
 notes:
-- ellipticity measurement from Stephens2006AJ....131.1426S
+- ellipticity measurement from \citet{Stephens2006AJ....131.1426S}
 structure:
   rhalf: 0.051
   rhalf_em: 0.004

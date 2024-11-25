@@ -15,8 +15,6 @@ name_discovery:
   ref_discovery:
   - Karachentseva2000A&AS..146..359K
   type: dSph
-notes:
-- type = dSph
 structure:
   rhalf: 12
   spatial_units: arcsec

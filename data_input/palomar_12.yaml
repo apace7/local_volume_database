@@ -16,7 +16,7 @@ name_discovery:
   - MWSC 3561
   - GCl 123
 notes:
-- discovered by Harrington and Zwicky Abell1955PASP...67..258A
+- discovered by Harrington and Zwicky \citep{Abell1955PASP...67..258A}
 age:
   age: 9.11
   age_em: 0.57

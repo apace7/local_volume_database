@@ -13,7 +13,7 @@ name_discovery:
   - Slater2011ApJ...742L..14S
   type: dSph
 notes:
-- In Pegasus MC12
+- In Pegasus \citep{McConnachie2012AJ....144....4M}
 distance:
   distance_modulus: 24.36
   distance_modulus_em: 0.05

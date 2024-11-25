@@ -13,9 +13,9 @@ name_discovery:
   - Hoessel1982ApJ...254...38H
   - Cole2017ApJ...837...54C
 notes:
-- for vlos_systemic we have assumed delta V = 3 + error (added in quadrature) relative
-  to the galaxy  (Leaman2020MNRAS.492.5102L) We used V_gal from Kirby2014MNRAS.439.1015K
-  matching the vlos_systemic which is different (likely velocity zeropoint) than Leaman2020MNRAS.492.5102L
+- for vlos systemic we have assumed delta V = 3 + error (added in quadrature) relative
+  to the galaxy  \citet{Leaman2020MNRAS.492.5102L}. We used $V_{gal}$ from \citep{Kirby2014MNRAS.439.1015K}
+  matching the vlos systemic which is different (likely velocity zeropoint) than \citet{Leaman2020MNRAS.492.5102L}
 structure:
   rhalf: 0.05167
   ref_structure: Cole2017ApJ...837...54C

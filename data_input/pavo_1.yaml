@@ -9,7 +9,7 @@ name_discovery:
   - Jones2023ApJ...957L...5J
   type: dIrr
 notes:
-- star forming, low SFR_UV
+- star forming, low UV SFR
 location:
   ra: 298.7499167
   dec: -61.0723611

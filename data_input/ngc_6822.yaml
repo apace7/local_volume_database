@@ -16,7 +16,7 @@ name_discovery:
   - Barnard1884AN....110..125B
   type: dIrr
 notes:
-- Polar ring morphology MC12
+- Polar ring morphology \citep{McConnachie2012AJ....144....4M}
 distance:
   distance_modulus: 23.78
   distance_modulus_em: 0.05

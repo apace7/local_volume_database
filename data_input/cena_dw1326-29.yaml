@@ -12,8 +12,7 @@ name_discovery:
   name: dw1326-29
   ref_discovery:
   - Muller2015A&A...583A..79M
-notes:
-- Irr?
+  type: Irr?
 structure:
   rhalf: 13.67
   spatial_units: arcsec

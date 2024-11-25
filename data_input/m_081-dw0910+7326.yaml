@@ -14,7 +14,7 @@ name_discovery:
   ref_discovery:
   - Casey2023MNRAS.520.4715C
 notes:
-- For M_V assumed M_V = M_B - 0.31 (and then converted to apparent mag.)
+- For $M_V$ assumed $M_V = M_B - 0.31$ (and then converted to apparent mag.)
 structure:
   rhalf: 0.8466666667
   rhalf_em: 0.02333333333

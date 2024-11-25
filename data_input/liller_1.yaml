@@ -12,7 +12,7 @@ name_discovery:
   ref_discovery:
   - Liller1977ApJ...213L..21L
 notes:
-- multi-modal metallicity distribution. Mean metallicity and dispersion are estimated from the multi-modal distribution Crociati2023ApJ...951...17C
+- multi-modal metallicity distribution. Mean metallicity and dispersion are estimated from the multi-modal distribution \citep{Crociati2023ApJ...951...17C}
 distance:
   distance_modulus: 14.532
   distance_modulus_em: 0.093

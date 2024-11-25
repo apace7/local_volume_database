@@ -11,7 +11,7 @@ name_discovery:
   - M 75
   host: mw
 notes:
-- half-mass radius
+- half-mass radius in \citet{Leanza2024A&A...688A.133L}
 age:
   age: 9.98
   age_em: 0.51

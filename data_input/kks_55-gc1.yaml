@@ -9,12 +9,8 @@ name_discovery:
   discovery_year: 2008
   host: kks_55
   name: KKs 55-GC1
-  # other_name:
-  # - list
   ref_discovery:
   - Georgiev2009MNRAS.392..879G
-notes:
-- distance assumed to match host
 structure:
   rhalf: 0.003935085771
   rhalf_em: 0.000157054421

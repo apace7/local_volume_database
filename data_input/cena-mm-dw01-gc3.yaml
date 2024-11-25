@@ -11,8 +11,6 @@ name_discovery:
   name: CenA-MM-Dw1-GC3
   ref_discovery:
   - Crnojevic2019ApJ...872...80C
-notes:
-- distance assumed to match host
 # structure:
 #   rhalf: 0
 #   rhalf_em: 0

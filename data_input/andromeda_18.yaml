@@ -12,8 +12,8 @@ name_discovery:
   - McConnachie2008ApJ...688.1009M
   type: dSph
 notes:
-- Isolated dSph MC12
-- ABP computed metallicity median and sigma from Kvasova2024ApJ...972..180K sample
+- Isolated dSph \citep{McConnachie2012AJ....144....4M}
+- ABP computed metallicity median and sigma from \citep{Kvasova2024ApJ...972..180K} sample
 distance:
   distance_modulus: 25.36
   distance_modulus_em: 0.08

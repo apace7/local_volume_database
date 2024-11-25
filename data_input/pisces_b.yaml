@@ -13,12 +13,12 @@ name_discovery:
   - Sand2015ApJ...806...95S
   other_name:
   - GALFA-Dw2
-notes:
-- structure rhalf from sersic fit
 structure:
   rhalf: 0.1728333333
   rhalf_em: 0.0005
   rhalf_ep: 0.0005
+  spatial_units: arcmin
+  spatial_model: sersic
   ellipticity: 0.52
   ellipticity_em: 0.01
   ellipticity_ep: 0.01

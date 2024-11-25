@@ -14,7 +14,7 @@ name_discovery:
   ref_discovery:
   - Kronberger2006A&A...447..921K
 notes:
-- classify as globular cluster Garro2022A&A...658A.120G
+- classify as globular cluster \citep{Garro2022A&A...658A.120G}
 distance:
   distance_modulus: 14.61
   distance_modulus_em: 0.04

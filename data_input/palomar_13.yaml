@@ -16,9 +16,9 @@ name_discovery:
   - Abell1955PASP...67..258A
   host: mw
 notes:
-- the mean velocity reference is Baumgardt2018MNRAS.478.1520B and the velocity dispersion
-  reference is Bradford2011ApJ...743..167B
-- discovered by A. G. Wilson Abell1955PASP...67..258A
+- the mean velocity reference is \citet{Baumgardt2018MNRAS.478.1520B} and the velocity dispersion
+  reference is \citet{Bradford2011ApJ...743..167B}
+- discovered by A. G. Wilson \citep{Abell1955PASP...67..258A}
 distance:
   distance_modulus: 16.853
   distance_modulus_em: 0.037

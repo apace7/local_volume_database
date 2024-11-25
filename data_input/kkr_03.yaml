@@ -17,7 +17,7 @@ name_discovery:
   - Karachentseva1999A&AS..135..221K
   type: dIrr
 notes:
-- Member of the Canes Venatici I cloud MC12
+- Member of the Canes Venatici I cloud \citep{McConnachie2012AJ....144....4M}
 distance:
   distance_modulus: 26.7
   distance_modulus_em: 0.12

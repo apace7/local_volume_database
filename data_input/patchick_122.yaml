@@ -13,7 +13,7 @@ name_discovery:
   host: mw
   name: Patchick 122
 notes:
-- classify as globular cluster Garro2022A&A...659A.155G
+- classify as globular cluster \citep{Garro2022A&A...659A.155G}
 proper_motion:
   pmdec: 3.81
   pmdec_em: 0.12

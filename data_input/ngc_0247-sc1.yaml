@@ -12,8 +12,7 @@ name_discovery:
   ref_discovery:
   - Romanowsky2023MNRAS.518.3164R
 notes:
-- Note different distance assumed in discovery Romanowsky2023MNRAS.518.3164R
-- distance assumed to match host
+- Note different distance assumed in discovery \citep{Romanowsky2023MNRAS.518.3164R}
 structure:
   rhalf: 0.01142660148
   rhalf_em: 0.0004883163027

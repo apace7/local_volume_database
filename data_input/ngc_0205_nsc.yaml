@@ -15,8 +15,8 @@ name_discovery:
   # - Hubble1932ApJ....76...44H
   type: NSC
 notes:
-  - possible M31 GC vandenBergh1969ApJS...19..145V
-  - ra dec coordinates are set to center of NGC 205 from Hannah2021AJ....162..281H
+  - possible M31 GC \citep{vandenBergh1969ApJS...19..145V}
+  - ra dec coordinates are set to center of NGC 205 from \citet{Hannah2021AJ....162..281H}
 structure:
   rhalf:  0.95 
   rhalf_em: 0.02

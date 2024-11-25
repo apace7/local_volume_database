@@ -13,8 +13,6 @@ name_discovery:
   - SexB-C1
   ref_discovery:
   - Sharina2007AstBu..62..209S
-notes:
-- distance assumed to match host
 structure:
   rhalf: 0.01036379541
   rhalf_em: 0.0005055509957

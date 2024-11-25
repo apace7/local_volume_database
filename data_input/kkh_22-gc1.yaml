@@ -9,24 +9,8 @@ name_discovery:
   discovery_year: 2020
   host: kkh_22
   name: KKH 22-GC1
-  # other_name:
-  # - list
   ref_discovery:
   - Karachentsev2020A&A...638A.111K
-notes:
-- distance assumed to match host
-# structure:
-#   rhalf: 0
-#   rhalf_em: 0
-#   rhalf_ep: 0
-#   ellipticity: 0
-#   ellipticity_em: 0
-#   ellipticity_ep: 0
-#   ellipticity_ul: 0
-#   position_angle: 0
-#   position_angle_em: 0
-#   position_angle_ep: 0
-#   ref_structure: ref
 distance:
   distance_fixed_host: True
 m_v:

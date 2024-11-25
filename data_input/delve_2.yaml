@@ -17,7 +17,7 @@ name_discovery:
   type: SC/dSph
 notes:
 - size+luminosity is in dwarf + star cluster overlap region; set to star cluster based
-  off original classification Cerny2021ApJ...910...18C
+  off original classification \citep{Cerny2021ApJ...910...18C}
 age:
   ref_age: Cerny2021ApJ...910...18C
 distance:

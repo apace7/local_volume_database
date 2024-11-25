@@ -12,8 +12,8 @@ name_discovery:
   - Whiting1997AJ....114..996W
   type: dIrr
 notes:
-- Loose NGC 3109 subgroup. Interacting with NGC 3109? MC12
-- Detected in HI Fouque1990A&AS...86..473F
+- Loose NGC 3109 subgroup. Interacting with NGC 3109? \citep{McConnachie2012AJ....144....4M}
+- Detected in HI \citep{Fouque1990A&AS...86..473F}
 distance:
   distance_modulus: 25.6
   distance_modulus_em: 0.07

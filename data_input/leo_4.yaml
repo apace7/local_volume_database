@@ -14,7 +14,7 @@ name_discovery:
   abbreviation: LeoIV
   type: dSph
 notes:
-- Binary w/ Leo V? MC12
+- Binary w/ Leo V? \citep{McConnachie2012AJ....144....4M}
 distance:
   distance_modulus: 20.9
   distance_modulus_em: 0.06

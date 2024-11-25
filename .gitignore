@@ -10,6 +10,7 @@ __pycache__/
 
 table/table_data/*_data.tex
 table/table_data/*_citations.tex
+table/table_data/notes_*.tex
 table/lvdb_table.aux
 table/lvdb_table.bbl
 table/lvdb_table.blg

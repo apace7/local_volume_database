@@ -1,21 +1,19 @@
 key: eso_269-066_gc3
 table: gc_dwarf_hosted
 location:
-  ra: 198.2868333333333
-  dec: -44.889608333333335
+  ra: 198.28683
+  dec: -44.8896083
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
   discovery_year: 2008
   host: eso_269-066
   name: ESO 269-066-GC3
-  # other_name:
-  # - list
   ref_discovery:
   - Georgiev2009MNRAS.392..879G
+  type: NSC
 notes:
 - Nuclear star cluster
-- Assume distance is the same as eso_269-066 Karachentsev2013AJ....145..101K
 structure:
   rhalf: 0.002249834274
   rhalf_em: 0.0001169913823

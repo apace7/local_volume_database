@@ -24,7 +24,7 @@ name_discovery:
   - Dunlop1828RSPT..118..113D
   type: Irr
 notes:
-- NGC 55 sub-group, forming "bridge" to Sculptor? MC12
+- NGC 55 sub-group, forming "bridge" to Sculptor? \citep{McConnachie2012AJ....144....4M}
 structure:
   ellipticity: 0.83
   ellipticity_em: 0.01

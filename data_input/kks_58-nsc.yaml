@@ -11,8 +11,7 @@ name_discovery:
   name: KKs 58-NSC
   ref_discovery:
   - Fahrion2020A&A...634A..53F
-notes:
-- distance fixed to host
+  type: NSC
 structure:
   rhalf: 0.006752716871
   rhalf_em: 0.0005115694599

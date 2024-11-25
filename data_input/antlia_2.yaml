@@ -14,7 +14,7 @@ name_discovery:
   abbreviation: AntII
   type: dSph
 notes:
-- tidal stripping Ji2021ApJ...921...32J
+- tidal stripping \citep{Ji2021ApJ...921...32J}
 distance:
   distance_modulus: 20.47
   distance_modulus_em: 0.09

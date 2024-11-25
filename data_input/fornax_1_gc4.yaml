@@ -12,7 +12,7 @@ name_discovery:
   ref_discovery:
   - Shapley1938BHarO.908....1S
 notes:
-- distance is from RRL (Greco2007ApJ...670..332G) and metallicity corrected by deBoer2016A&A...590A..35D
+- distance is from RRL \citep{Greco2007ApJ...670..332G} and metallicity corrected by \citep{deBoer2016A&A...590A..35D}
 structure:
   rhalf: 0.1156
   rhalf_em: 0.0064

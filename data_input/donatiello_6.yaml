@@ -1,8 +1,8 @@
 key: donatiello_6
 table: dwarf_local_field_distant
 location:
-  ra: 8.732  # [deg]
-  dec: -21.99481 # [deg]
+  ra: 8.732
+  dec: -21.99481
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
@@ -13,11 +13,8 @@ name_discovery:
   ref_discovery:
   - MartinezDelgado2024arXiv240503769M
   abbreviation: 'Do VI'
-notes:
-  - spatial units arcsec
-  - distance fixed to current LVDB NGC_0253 distance (as of 5/8/2024); RadburnSmith2011ApJS..195...18R ; larger distance was assumed in discovery paper
 structure:
-  rhalf: 7.6 # [arcsec]
+  rhalf: 7.6
   rhalf_em: 0.1
   rhalf_ep: 0.1
   spatial_units: arcsec

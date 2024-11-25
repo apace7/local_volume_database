@@ -16,7 +16,7 @@ name_discovery:
   - Chiboucas2009AJ....137.3009C
   type: BCD
 notes:
-- assume V-I = 1 for M_I -> M_V from Chiboucas2013AJ....146..126C
+- assume $V-I$ = 1 for $M_I$ to $M_V$ from \citep{Chiboucas2013AJ....146..126C}
 structure:
   rhalf: 13.9
   spatial_units: arcsec

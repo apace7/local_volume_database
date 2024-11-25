@@ -20,8 +20,8 @@ name_discovery:
   - Baade1944ApJ...100..147B
   type: dE/dSph
 notes:
-- Binary w/ NGC 185? Tidal stream McConnachie2012AJ....144....4M
-- part of local group Baade1944ApJ...100..147B
+- Binary w/ NGC 185? Tidal stream \citep{McConnachie2012AJ....144....4M}
+- part of local group \citep{Baade1944ApJ...100..147B}
 distance:
   distance_modulus: 24.33
   distance_modulus_em: 0.06

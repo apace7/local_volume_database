@@ -15,7 +15,7 @@ name_discovery:
   type: GC
 notes:
 - in older papers (1977-2013) might be swapped with Hodge III; see discusion in the
-  appendix of Veljanoski2013MNRAS.435.3654V
+  appendix of \citep{Veljanoski2013MNRAS.435.3654V}
 distance:
   distance_fixed_host: true
 m_v:

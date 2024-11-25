@@ -14,9 +14,9 @@ name_discovery:
   - Muller2017A&A...597A...7M
   ref_false_positive:
   - Muller2019A&A...629A..18M
+  type: dIrr
 notes:
-- type = dIrr? Muller2017A&A...597A...7M
-- patch of spurious galactic cirrus Muller2019A&A...629A..18M 
+- patch of spurious galactic cirrus \citep{Muller2019A&A...629A..18M}
 structure:
   rhalf: 10.3
   spatial_units: arcsec

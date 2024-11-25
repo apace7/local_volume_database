@@ -14,7 +14,7 @@ name_discovery:
   - DrlicaWagner2020ApJ...893...47D
   abbreviation: DEL1
 notes:
-- distance updated in Simon2024arXiv241008276S based on new metallicity
+- distance updated in \citep{Simon2024arXiv241008276S} based on new metallicity
 age:
   age: 12.5
   age_em: 0.7

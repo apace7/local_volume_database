@@ -15,8 +15,8 @@ name_discovery:
   - Martin2009ApJ...705..758M
   type: dSph
 notes:
-- M33 Satellite? In Pisces MC12
-- radial velocity suggests M33 association Chapman2013MNRAS.430...37C
+- M33 Satellite? In Pisces \citep{McConnachie2012AJ....144....4M}
+- radial velocity suggests M33 association \citep{Chapman2013MNRAS.430...37C}
 distance:
   distance_modulus: 24.39
   distance_modulus_em: 0.07

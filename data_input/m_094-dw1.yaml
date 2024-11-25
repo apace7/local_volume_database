@@ -16,7 +16,7 @@ name_discovery:
   - Muller2017A&A...602A.119M
   - Smercina2018ApJ...863..152S
 notes:
-- CVn I mem? Muller2017A&A...602A.119M
+- CVn I mem? \citep{Muller2017A&A...602A.119M}
 structure:
   rhalf: 31.1
   rhalf_em: 4.5

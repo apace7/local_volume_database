@@ -14,12 +14,12 @@ name_discovery:
   abbreviation: BooIII
   type: dSph
 notes:
-- Very diffuse. Tidal remnant? MC12
-- confirmed_dwarf == 1 due to resolved velocity dispersion and high mass-to-light
+- Very diffuse. Tidal remnant? \citep{McConnachie2012AJ....144....4M}
+- confirmed dwarf  due to resolved velocity dispersion and high mass-to-light
   ratio.
-- The spectroscopic sample (Carlin2009ApJ...702L...9C) is updated in Carlin2018ApJ...865....7C
+- The spectroscopic sample \citet{Carlin2009ApJ...702L...9C} is updated in \citet{Carlin2018ApJ...865....7C}
   using Gaia astrometry. The velocity dispersion, mean velocity, and metallicity dispersion
-  have updated values (Carlin2018ApJ...865....7C)
+  have updated values \citep{Carlin2018ApJ...865....7C}
 distance:
   distance_modulus: 18.34
   distance_modulus_em: 0.02

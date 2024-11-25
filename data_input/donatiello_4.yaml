@@ -12,14 +12,12 @@ name_discovery:
   ref_discovery:
   - MartinezDelgado2021A&A...652A..48M
   - MutluPakdil2024ApJ...966..188M
-notes:
-- distance is assumed to be NGC 253 distance
-- structure rhalf from sersic fit
 structure:
   rhalf: 16.2
   rhalf_em: 2.1
   rhalf_ep: 2.1
   spatial_units: arcsec
+  spatial_model: sersic
   ellipticity: 0.41
   ellipticity_em: 0.09
   ellipticity_ep: 0.09

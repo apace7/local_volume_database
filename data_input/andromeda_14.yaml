@@ -13,7 +13,7 @@ name_discovery:
   - Majewski2007ApJ...670L...9M
   type: dSph
 notes:
-- Unbound to M31? In Pisces
+- Unbound to M31? In Pisces \citep{McConnachie2012AJ....144....4M}
 distance:
   distance_modulus: 24.44
   distance_modulus_em: 0.06

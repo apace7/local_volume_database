@@ -15,7 +15,7 @@ name_discovery:
   - MWSC 3171
   host: mw
 notes:
-- discovered by A. G. Wilson Abell1955PASP...67..258A
+- discovered by A. G. Wilson \citep{Abell1955PASP...67..258A}
 distance:
   distance_modulus: 15.734
   distance_modulus_em: 0.079

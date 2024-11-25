@@ -13,11 +13,8 @@ name_discovery:
   ref_discovery:
   - MartinezDelgado2024arXiv240503769M
   abbreviation: 'Do VII'
-notes:
-  - spatial units arcsec
-  - distance fixed to current LVDB NGC_0253 distance (as of 5/8/2024); RadburnSmith2011ApJS..195...18R ; larger distance was assumed in discovery paper
 structure:
-  rhalf: 7.6 # [arcsec]
+  rhalf: 7.6
   rhalf_em: 0.3
   rhalf_ep: 0.3
   spatial_units: arcsec

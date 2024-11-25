@@ -11,8 +11,7 @@ name_discovery:
   name: dw1336-44
   ref_discovery:
   - Muller2017A&A...597A...7M
-notes:
-- type = dIrr Muller2017A&A...597A...7M
+  type: dIrr
 structure:
   rhalf: 8.07
   ellipticity: 0.33

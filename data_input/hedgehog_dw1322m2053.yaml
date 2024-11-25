@@ -14,7 +14,7 @@ name_discovery:
   - Li2024ApJ...975L..23L
   type: dSph
 notes:
-- foreground to NGC 5068 at D ~ 5 Mpc
+- foreground to NGC 5068 at $d \sim 5$ Mpc
 structure:
   rhalf: 15.1
   rhalf_em: 0.8

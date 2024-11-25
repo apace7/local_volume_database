@@ -14,7 +14,7 @@ name_discovery:
   abbreviation: LeoVI
   type: dSph
 notes:
-  - age lower limit at 68 confidence interval Tan2024arXiv240800865T
+  - age lower limit at 68 confidence interval \citep{Tan2024arXiv240800865T}
 structure:
   rhalf: 4.17
   rhalf_em: 1.33

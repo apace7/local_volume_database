@@ -12,8 +12,8 @@ name_discovery:
   ref_discovery:
   - Borissova2014A&A...569A..24B
 notes:
-- classify old open cluster or young globular cluster Borissova2014A&A...569A..24B
-- classify as globular cluster Garro2022A&A...658A.120G
+- classify old open cluster or young globular cluster \citep{Borissova2014A&A...569A..24B}
+- classify as globular cluster \citep{Garro2022A&A...658A.120G}
 distance:
   distance_modulus: 14.74
   distance_modulus_em: 0.05

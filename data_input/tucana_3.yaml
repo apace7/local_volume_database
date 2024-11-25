@@ -16,11 +16,10 @@ name_discovery:
   abbreviation: TucIII
   type: dSph/SC
 notes:
-- tidal tails DrlicaWagner2015ApJ...813..109D + Shipp2018ApJ...862..114S + Li2018ApJ...866...22L
+- tidal tails \citep{DrlicaWagner2015ApJ...813..109D, Shipp2018ApJ...862..114S, Li2018ApJ...866...22L}
 - classification remains unclear with unresolved velocity dispersion + metallicity
-  dispersion Simon2017ApJ...838...11S ; r-process abundances Hansen2017ApJ...838...44H
-  + Marshall2019ApJ...882..177M ; large size MutluPakdil2018ApJ...863...25M ; inconclusive
-  mass segregation Baumgardt2022MNRAS.510.3531B
+  dispersion \citep{Simon2017ApJ...838...11S}; r-process abundances \citep{Hansen2017ApJ...838...44H, Marshall2019ApJ...882..177M}; large size \citep{MutluPakdil2018ApJ...863...25M}; inconclusive
+  mass segregation \citep{Baumgardt2022MNRAS.510.3531B}
 distance:
   distance_modulus: 16.8
   distance_modulus_em: 0.1

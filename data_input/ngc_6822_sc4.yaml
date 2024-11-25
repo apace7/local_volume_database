@@ -14,8 +14,7 @@ name_discovery:
   ref_discovery:
   - Hwang2011ApJ...738...58H
 notes:
-- distance assumed to match ngc_6822
-- chi^2 age/metallicity from Hwang2014ApJ...783...49H
+- $\chi^2$ age/metallicity from \citet{Hwang2014ApJ...783...49H}
 structure:
   rhalf: 0.1009
   rhalf_em: 0.0022

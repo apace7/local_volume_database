@@ -13,8 +13,6 @@ name_discovery:
   - Gep I
   ref_discovery:
   - Cusano2016ApJ...829...26C
-notes:
-- the distance is assumed to match host
 structure:
   rhalf: 0.1
   ref_structure: Cusano2016ApJ...829...26C

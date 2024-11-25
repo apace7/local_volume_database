@@ -27,7 +27,7 @@ name_discovery:
   - Longmore1978MNRAS.183P..97L
   type: dIrr
 notes:
-- NGC 55 sub-group, forming "bridge" to Sculptor? MC12
+- NGC 55 sub-group, forming "bridge" to Sculptor? \citep{McConnachie2012AJ....144....4M}
 structure:
   ellipticity: 0.1
   ellipticity_em: 0.01

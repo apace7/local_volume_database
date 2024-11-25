@@ -12,7 +12,7 @@ name_discovery:
   ref_discovery:
   - Muller2023A&A...673A.160M
 notes:
-- Assuming M_V ~ M_F606W (HST)
+- Assuming $M_V \sim M_{F606W}$ (HST)
 structure:
   rhalf: 0.07
   rhalf_em: 0.01

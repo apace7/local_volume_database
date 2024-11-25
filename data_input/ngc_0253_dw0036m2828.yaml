@@ -13,7 +13,7 @@ name_discovery:
   - Carlsten2022ApJ...933...47C
   - MutluPakdil2024ApJ...966..188M
 notes:
-  - 3sigma HI gas mass upper limit MutluPakdil2024ApJ...966..188M
+  - 3sigma HI gas mass upper limit \citep{MutluPakdil2024ApJ...966..188M}
 structure:
   rhalf: 18.38
   rhalf_em: 2.4

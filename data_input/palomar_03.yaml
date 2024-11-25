@@ -15,7 +15,7 @@ name_discovery:
   - Wilson1955PASP...67...27W
   host: mw
 notes:
-- discovered by A. G. Wilson Abell1955PASP...67..258A
+- discovered by A. G. Wilson \citep{Abell1955PASP...67..258A}
 age:
   age: 10.5
   age_em: 0.7
