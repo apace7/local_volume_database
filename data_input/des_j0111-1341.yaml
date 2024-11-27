@@ -1,8 +1,8 @@
 key: des_j0111-1341
 table: candidate
 location:
-  ra: 17.79292 # [deg]
-  dec: -13.68483 # [deg]
+  ra: 17.79292
+  dec: -13.68483
 name_discovery:
   false_positive: 1
   discovery_year: 2016
@@ -17,11 +17,11 @@ name_discovery:
   - Pace2019ApJ...875...77P 
   - DrlicaWagner2020ApJ...893...47D
 notes:
-  - previously internally referred to as des_sag_1 by ABP
-  - false positive based on the lack of detection in DES year 3 search DrlicaWagner2020ApJ...893...47D
-  - false positive based on the the lack of an expected Gaia DR2 proper motion search Pace2019ApJ...875...77P 
+  - Previously this system was internally referred to as des\_sag\_1 by ABP.
+  - False positive based on the lack of detection in DES year 3 search \citep{DrlicaWagner2020ApJ...893...47D}.
+  - False positive based on the the lack of an expected Gaia DR2 proper motion search \citep{Pace2019ApJ...875...77P}.
 structure:
-  rhalf: 0.59 # [arcmin]
+  rhalf: 0.59
   ref_structure: Luque2017MNRAS.468...97L
 distance:
   distance_modulus: 17.12

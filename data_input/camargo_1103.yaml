@@ -15,7 +15,7 @@ name_discovery:
   ref_false_positive:
   - Lim2022A&A...666A..62L
 notes:
-- Not recovered with spectroscopic follow-up; Lim2022A&A...666A..62L
+- Not recovered with spectroscopic follow-up \citep{Lim2022A&A...666A..62L}.
 distance:
   distance_modulus: 13.49
   distance_modulus_em: 0.38

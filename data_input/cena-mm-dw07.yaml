@@ -14,7 +14,7 @@ name_discovery:
   ref_discovery:
   - Crnojevic2016ApJ...823...19C
 notes:
-- HI gas upper limit is 5 sigma
+- HI gas upper limit is at 5 sigma.
 structure:
   rhalf: 0.5
   rhalf_em: 0.05

@@ -15,7 +15,7 @@ name_discovery:
   ref_false_positive:
   - Makarov2012MNRAS.425..709M
 notes:
-  - background galaxy z ~ 0.335
+  - Background galaxy z $\sim$ 0.335 \citep{Makarov2012MNRAS.425..709M}.
 distance:
   distance_fixed_host: True 
 m_v:

@@ -13,9 +13,9 @@ name_discovery:
   ref_false_positive:
   - DrlicaWagner2020ApJ...893...47D
 notes:
-  - lack of detection in DES year 3/Pan-starrs DR1 search DrlicaWagner2020ApJ...893...47D
+  - Lack of detection in DES year 3/Pan-starrs DR1 search \citep{DrlicaWagner2020ApJ...893...47D}.
 structure:
-  rhalf: 4.3 # [arcmin]
+  rhalf: 4.3
   ref_structure: Liu2008A&A...477..139L
 distance:
   distance_modulus: 21.65 

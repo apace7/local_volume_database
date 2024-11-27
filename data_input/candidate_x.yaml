@@ -15,4 +15,4 @@ name_discovery:
   ref_false_positive:
   - Martin2008ApJ...684.1075M
 notes:
-  - Not recovered in Martin2008ApJ...684.1075M
+  - Not recovered in \citet{Martin2008ApJ...684.1075M}.

@@ -14,7 +14,7 @@ name_discovery:
   - Muller2017A&A...597A...7M
   type: dSph
 notes:
-- background?
+- Background?
 structure:
   rhalf: 12.4
   spatial_units: arcsec

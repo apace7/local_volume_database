@@ -1,8 +1,8 @@
 key: indus_2
 table: candidate
 location:
-  ra: 309.72 # [deg]
-  dec: -46.16 # [deg]
+  ra: 309.72
+  dec: -46.16
 name_discovery:
   discovery_year: 2015
   false_positive: 1
@@ -15,9 +15,9 @@ name_discovery:
   ref_false_positive:
   - Cantu2021ApJ...916...81C
 notes:
-  - false positive based on deep Magellan/Megacam photometry Cantu2021ApJ...916...81C
+  - False positive based on deep Magellan/Megacam photometry \citep{Cantu2021ApJ...916...81C}.
 structure:
-  rhalf: 2.9 # [arcmin]
+  rhalf: 2.9
   ref_structure: DrlicaWagner2015ApJ...813..109D
 distance:
   distance_modulus: 21.65 

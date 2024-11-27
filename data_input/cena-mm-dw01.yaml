@@ -14,7 +14,7 @@ name_discovery:
   ref_discovery:
   - Crnojevic2014ApJ...795L..35C
 notes:
-- HI upper limit is 5 sigma upper limit
+- HI upper limit is at 5 sigma.
 structure:
   rhalf: 1.6
   rhalf_em: 0.03

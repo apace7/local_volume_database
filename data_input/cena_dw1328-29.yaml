@@ -15,7 +15,7 @@ name_discovery:
   ref_false_positive:
   - For2019MNRAS.489.5723F
 notes:
-- background galaxy \citep{For2019MNRAS.489.5723F}
+- Background galaxy \citep{For2019MNRAS.489.5723F}.
 structure:
   rhalf: 12.88
   spatial_units: arcsec

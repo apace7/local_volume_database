@@ -13,7 +13,7 @@ name_discovery:
   ref_discovery:
   - Carlsten2022ApJ...933...47C
 notes:
-- candidate in Carlsten2022ApJ...933...47C; SBF attempted
+- M94 candidate in \citet{Carlsten2022ApJ...933...47C}; SBF attempted.
 structure:
   rhalf: 12.7
   rhalf_em: 1.0

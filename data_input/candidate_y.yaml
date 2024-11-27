@@ -15,5 +15,5 @@ name_discovery:
   ref_false_positive:
   - Martin2008ApJ...684.1075M
 notes:
-  - Partially recovered in Martin2008ApJ...684.1075M
+  - Partially recovered in \citet{Martin2008ApJ...684.1075M}.
 

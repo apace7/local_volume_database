@@ -483,6 +483,7 @@ gc_ufsc = table.Table.read('data/gc_ambiguous.csv')
 gc_disk = table.Table.read('data/gc_mw_new.csv')
 gc_harris = table.Table.read('data/gc_harris.csv')
 gc_dwarf = table.Table.read('data/gc_dwarf_hosted.csv')
+table_candidate = table.Table.read('data/candidate.csv')
 
 # dsph_mw['year'] = add_year(dsph_mw)
 # dsph_m31['year'] = add_year(dsph_m31)
@@ -930,5 +931,16 @@ def create_notes_latex():
             if x is not None:
                 for kk in x:
                     f.write("\item "  + gc_harris['name'][i] +"---"+ kk + '\n')
+    
+    output = 'table/table_data/notes_candidate.tex'
+    with open(output, 'w+') as f:
+        for i in range(len(table_candidate)):
+        #     print()
+            x = lvdb.get_notes(table_candidate['key'][i], print_output=False)
+            if x is not None:
+                for kk in x:
+                    f.write("\item "  + table_candidate['name'][i] +"---"+ kk + '\n')
+
+                    
 
 create_notes_latex()

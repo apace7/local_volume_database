@@ -15,7 +15,7 @@ name_discovery:
   ref_false_positive:
   - Muller2024A&A...684L...6M
 noteS:
-- The dwarf candidate dw1336-32 is part of a cirrus patch \citep{Muller2024A&A...684L...6M}
+- The dwarf candidate dw1336-32 is part of a cirrus patch \citep{Muller2024A&A...684L...6M}.
 structure:
   rhalf: 34.62
   spatial_units: arcsec

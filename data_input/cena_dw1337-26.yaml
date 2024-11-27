@@ -15,7 +15,7 @@ name_discovery:
   ref_false_positive:
   - Muller2024A&A...684L...6M
 notes:
-- The dwarf galaxy candidate dw1337-26 looks to be part of a ring of scattered light and is therefore an artifact \citep{Muller2024A&A...684L...6M}
+- The dwarf galaxy candidate dw1337-26 looks to be part of a ring of scattered light and is therefore an artifact \citep{Muller2024A&A...684L...6M}.
 structure:
   rhalf: 34.61
   spatial_units: arcsec

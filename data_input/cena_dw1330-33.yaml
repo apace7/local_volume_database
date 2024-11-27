@@ -13,7 +13,7 @@ name_discovery:
   ref_discovery:
   - Muller2015A&A...583A..79M
 notes:
-- Background?
+- Background? \citep{Muller2015A&A...583A..79M}.
 structure:
   rhalf: 6.3
   spatial_units: arcsec

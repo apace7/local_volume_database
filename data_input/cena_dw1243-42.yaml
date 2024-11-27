@@ -14,7 +14,7 @@ name_discovery:
   - Muller2017A&A...597A...7M
   type: dSph
 notes:
-- pair with dw1243-42b
+- Pair with dw1243-42b.
 structure:
   rhalf: 15.8
   spatial_units: arcsec

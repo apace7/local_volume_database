@@ -12,8 +12,8 @@ name_discovery:
   ref_discovery:
   - Crnojevic2016ApJ...823...19C
 notes:
-- galaxy is being tidally disrupted.
-- HI gas upper limit is 5 sigma
+- Galaxy is being tidally disrupted.
+- HI gas upper limit is at 5 sigma.
 structure:
   rhalf: 2.21
   rhalf_em: 0.15

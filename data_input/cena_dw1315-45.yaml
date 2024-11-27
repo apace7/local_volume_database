@@ -16,7 +16,7 @@ name_discovery:
   - Muller2019A&A...629A..18M 
   type: dIrr
 notes:
-- The candidate dw1315-45 appears to be a background galaxy in projection close to a galaxy at redshift z = 0.08 (d = 360 Mpc) \citep{Muller2019A&A...629A..18M}
+- The candidate dw1315-45 appears to be a background galaxy in projection close to a galaxy at redshift z = 0.08 (d = 360 Mpc) \citep{Muller2019A&A...629A..18M}.
 structure:
   rhalf: 9.5
   spatial_units: arcsec

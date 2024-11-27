@@ -14,7 +14,7 @@ name_discovery:
   - Muller2015A&A...583A..79M
   # type: BCD?
 notes:
-- type? BCD?
+-  BCD? from \citet{Muller2015A&A...583A..79M}.
 structure:
   rhalf: 8.83
   spatial_units: arcsec

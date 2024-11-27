@@ -1,8 +1,8 @@
 key: ikn-gc7
 table: candidate
 location:
-  ra:  152.037083   # [deg]
-  dec: 68.47689 # [deg]
+  ra:  152.037083
+  dec: 68.47689
 name_discovery:
   discovery_year: 2015
   false_positive: 2
@@ -13,4 +13,4 @@ name_discovery:
   ref_false_positive:
   - Forbes2024PASA...41...44F
 notes:
-  - Background galaxy at z ~ 0.2 from Keck/KCWI spectroscopy \citep{Forbes2024PASA...41...44F}
+  - Background galaxy at z $\sim$ 0.2 from Keck/KCWI spectroscopy \citep{Forbes2024PASA...41...44F}.
