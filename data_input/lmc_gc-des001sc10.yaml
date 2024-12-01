@@ -1,0 +1,35 @@
+key: lmc_gc-des001sc10
+table: gc_dwarf_hosted
+location:
+  ra: 82.85639
+  dec: -63.45356
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2015
+  host: lmc
+  name: DES001SC10
+  other_name:
+  - OGLE-LMC-CL-1422
+  ref_discovery:
+  - Pieres2016MNRAS.461..519P
+structure:
+  rhalf: 0.18
+  spatial_units: arcmin
+  ref_structure: Pieres2016MNRAS.461..519P
+distance:
+  distance_modulus: 18.32
+  distance_modulus_em: 0.16
+  distance_modulus_ep: 0.16
+  ref_distance: Pieres2016MNRAS.461..519P
+metallicity_isochrone:
+  metallicity_isochrone: -1.18
+  metallicity_isochrone_em: 0.09
+  metallicity_isochrone_ep: 0.09
+  ref_metallicity_isochrone: Pieres2016MNRAS.461..519P
+age:
+  age: 1.51
+  age_em: 0.15
+  age_ep: 0.15
+  ref_age: Pieres2016MNRAS.461..519P

@@ -1,0 +1,31 @@
+key: ngc_5194_dw1328p4703
+table: dwarf_local_field_distant
+location:
+  ra: 202.103
+  dec: 47.065
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2022
+  host: ngc_5194
+  name: dw1328+4703
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+  type: dSph
+distance:
+  distance_modulus: 29.61
+  distance_modulus_em: 0.28
+  distance_modulus_ep: 0.27
+  ref_distance: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 7.3
+  rhalf_em: 0.4
+  rhalf_ep: 0.4
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 20.00
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: Carlsten2022ApJ...933...47C

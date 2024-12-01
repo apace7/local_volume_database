@@ -1,0 +1,30 @@
+key: ngc_5194
+table: dwarf_local_field_distant
+location:
+  ra: 202.46958
+  dec: 47.234444
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 5194
+  other_name:
+  - M51a
+  - PGC047404
+  - UGC08493
+distance:
+  distance_modulus: 29.40
+  distance_modulus_em: 0.09
+  distance_modulus_ep: 0.09
+  ref_distance: Csornyei2023A&A...678A..44C
+m_v:
+  apparent_magnitude_v: 8.05
+  apparent_magnitude_b: 8.36
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 446
+  vlos_systemic_em: 7
+  vlos_systemic_ep: 7
+  ref_vlos: Appleton1986MNRAS.221..393A
+flux_HI:
+  flux_HI: 125.893
+  ref_flux_HI: Springob2005ApJS..160..149S

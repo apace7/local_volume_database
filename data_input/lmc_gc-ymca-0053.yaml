@@ -1,0 +1,27 @@
+key: lmc_gc-ymca-0053
+table: gc_dwarf_hosted
+location:
+  ra: 66.716
+  dec: -67.2567
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2024
+  host: lmc
+  name: YMCA-0053
+  ref_discovery:
+  - Gatto2024A&A...690A.164G
+notes:
+- rhalf=core radius
+structure:
+  rhalf: 0.24
+  rhalf_em: 0.12
+  rhalf_ep: 0.12
+  spatial_units: arcmin
+  ref_structure: Gatto2024A&A...690A.164G
+distance:
+  distance_fixed_host: true
+age:
+  age: 5.6
+  ref_age: Gatto2024A&A...690A.164G

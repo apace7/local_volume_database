@@ -1,0 +1,24 @@
+key: pgc_704814
+table: dwarf_local_field_distant
+location:
+  ra: 359.669583
+  dec: -31.4675
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: PGC704814
+distance:
+  distance_modulus: 27.82
+  distance_modulus_em: 0.10
+  distance_modulus_ep: 0.10
+  ref_distance: Karachentsev2021AJ....161..205K
+m_v:
+  apparent_magnitude_v: 16.11
+  apparent_magnitude_b: 16.42
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 299
+  vlos_systemic_em: 89
+  vlos_systemic_ep: 89
+  ref_vlos: Karachentsev2013AJ....145..101K
+

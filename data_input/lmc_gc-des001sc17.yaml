@@ -1,0 +1,33 @@
+key: lmc_gc-des001sc17
+table: gc_dwarf_hosted
+location:
+  ra: 84.74572
+  dec: -62.45673
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2015
+  host: lmc
+  name: DES001SC17
+  ref_discovery:
+  - Pieres2016MNRAS.461..519P
+structure:
+  rhalf: 0.17
+  spatial_units: arcmin
+  ref_structure: Pieres2016MNRAS.461..519P
+distance:
+  distance_modulus: 18.33
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Pieres2016MNRAS.461..519P
+metallicity_isochrone:
+  metallicity_isochrone: -0.48
+  metallicity_isochrone_em: 0.21
+  metallicity_isochrone_ep: 0.21
+  ref_metallicity_isochrone: Pieres2016MNRAS.461..519P
+age:
+  age: 1.26
+  age_em: 0.36
+  age_ep: 0.36
+  ref_age: Pieres2016MNRAS.461..519P

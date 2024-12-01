@@ -1,0 +1,27 @@
+key: lmc_gc-ymca-0069
+table: candidate
+location:
+  ra: 97.4821
+  dec: -70.4781
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2024
+  host: lmc
+  name: YMCA-0069
+  ref_discovery:
+  - Gatto2024A&A...690A.164G
+notes:
+- rhalf=core radius
+structure:
+  rhalf: 0.19
+  rhalf_em: 0.15
+  rhalf_ep: 0.15
+  spatial_units: arcmin
+  ref_structure: Gatto2024A&A...690A.164G
+distance:
+  distance_fixed_host: true
+age:
+  age: 2.8
+  ref_age: Gatto2024A&A...690A.164G

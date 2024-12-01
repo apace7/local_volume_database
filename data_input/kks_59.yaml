@@ -1,0 +1,36 @@
+key: kks_59
+table: dwarf_local_field_distant
+location:
+  ra: 206.990417
+  dec: -53.3511
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5128
+  name: KKs 59
+  other_name:
+  - '[KK2000] 59'
+  - PGC048937
+  - HIPASS J1348-53
+  - ESO 174-G?001
+distance:
+  distance_modulus: 27.78
+  ref_distance: Karachentsev2013AJ....145..101K
+m_v:
+  apparent_magnitude_v: 11.76
+  apparent_magnitude_b: 12.07
+  mean_ebv: 0.494
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 686
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Kirby2012MNRAS.420.2924K
+flux_HI:
+  flux_HI: 48.8
+  flux_HI_em: 2.6
+  flux_HI_ep: 2.6
+  vlos_systemic_HI: 686
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: Kirby2012MNRAS.420.2924K
