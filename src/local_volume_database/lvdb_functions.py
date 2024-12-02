@@ -1,5 +1,6 @@
 import yaml
 import astropy.coordinates as coord
+from astropy import units as u
 import astropy.table as table
 import os.path
 import numpy.ma as ma
@@ -41,6 +42,7 @@ def add_coord(table_input):
 
 def latex_name(name):
     ## adds some special latex characters to some systems 
+    name = name.replace('_', '\\_')
     if len(name)<6:
         return name
     if name[:6] == 'Bootes':

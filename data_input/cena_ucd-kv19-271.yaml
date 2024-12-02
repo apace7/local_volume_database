@@ -1,0 +1,38 @@
+key: cena_ucd-kv19-271
+table: dwarf_local_field_distant
+location:
+  ra: 201.296298
+  dec: -43.509212
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_star_cluster: 0
+  confirmed_real: 1
+  discovery_year: 2022
+  host: ngc_5128
+  name: KV19-271
+  ref_discovery:
+  - Voggel2020ApJ...899..140V
+  type: UCD
+structure:
+  rhalf: 0.2214
+  spatial_units: arcsec
+  ref_structure: Dumont2022ApJ...929..147D
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 17.50
+  ref_m_v: Dumont2022ApJ...929..147D
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.42
+  metallicity_spectroscopic_em: 0.32
+  metallicity_spectroscopic_ep: 0.32
+  ref_metallicity_spectroscopic: Dumont2022ApJ...929..147D
+velocity:
+  vlos_systemic: 548.3
+  vlos_systemic_em: 2.42
+  vlos_systemic_ep: 2.42
+  vlos_sigma: 21.41
+  vlos_sigma_central: 21.89
+  vlos_sigma_central_em: 1.57
+  vlos_sigma_central_ep: 1.57
+  ref_vlos: Dumont2022ApJ...929..147D

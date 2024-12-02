@@ -1,0 +1,40 @@
+key: ic_2574
+table: dwarf_local_field_distant
+location:
+  ra: 157.093
+  dec: 68.416
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_081
+  name: IC 2574
+  other_name:
+  - DDO081
+  - PGC030819
+  - UGC05666
+structure:
+  rhalf: 2.4
+  spatial_units: arcmin
+  ref_structure: Chiboucas2009AJ....137.3009C
+distance:
+  distance_modulus: 27.97
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 10.87
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  mean_ebv: 0.036
+  ref_m_v: Wenger2000A&AS..143....9W
+velocity:
+  vlos_systemic: 43
+  vlos_systemic_em: 4
+  vlos_systemic_ep: 4
+  ref_vlos: Appleton1981MNRAS.195..327A
+flux_HI:
+  flux_HI: 299
+  vlos_systemic_HI: 43
+  vlos_systemic_HI_em: 4
+  vlos_systemic_HI_ep: 4
+  ref_flux_HI: Appleton1981MNRAS.195..327A

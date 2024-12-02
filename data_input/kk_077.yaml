@@ -1,0 +1,26 @@
+key: kk_077
+table: dwarf_local_field_distant
+location:
+  ra: 147.54167
+  dec: 67.5067
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1994
+  host: m_081
+  name: KK 77
+  other_name:
+  - PGC166101
+  - A0946+67
+  type: dSph
+  ref_discovery:
+  - Karachentsev1994A&AT....6....1K
+distance:
+  distance_modulus: 27.90
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 14.72
+  apparent_magnitude_i: 15.03
+  ref_m_v: Karachentsev2013AJ....145..101K

@@ -1,0 +1,29 @@
+key: jkb_083
+table: dwarf_local_field_distant
+location:
+  ra: 148.9567
+  dec: 69.3325
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2016
+  host: m_081
+  name: JKB83
+  other_name:
+  - SDSS J095549.64+691957.4
+  ref_discovery:
+  - James2017MNRAS.465.3977J
+notes:
+- Blue diffuse dwarf galaxy
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 19.09
+  apparent_magnitude_b: 19.40
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 55.5
+  vlos_systemic_em: 10.0
+  vlos_systemic_ep: 10.0
+  ref_vlos: James2017MNRAS.465.3977J
+

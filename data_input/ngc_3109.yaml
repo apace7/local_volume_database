@@ -16,6 +16,7 @@ name_discovery:
   type: dIrr
 notes:
 - Loose NGC 3109 subgroup. Interacting with Antlia? \citep{McConnachie2012AJ....144....4M}
+- 10 GC candidates in \citet{Demers1985AJ.....90.1967D}. However, there are no ra,dec coordinates provided.
 distance:
   distance_modulus: 25.57
   distance_modulus_em: 0.08

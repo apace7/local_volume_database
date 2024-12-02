@@ -85,24 +85,9 @@ def add_column(table, yaml_key, yaml_name, **kwargs):
                 print(exc)
     # return table[table_yaml_name]
 
-def latex_name(name):
-    if len(name)<6:
-        return name
-    if name[:6] == 'Bootes':
-        name = name.replace('oo', 'o\\"{o}')
-    if len(name)<5:
-        return name
-    if name[:5] == 'Munoz':
-        name = name.replace('n', '{\\~n}')
-    return name
-
 coord.galactocentric_frame_defaults.set('v4.0')
 gc_frame = coord.Galactocentric()
 
-def add_coord(table_input):
-    c_table_input = coord.SkyCoord(ra=table_input['ra']*u.deg, dec=table_input['dec']*u.deg,  frame='icrs',)
-    table_input['ll'] = c_table_input.galactic.l.value
-    table_input['bb'] = c_table_input.galactic.b.value
 
 def create_latex_table_name_discovery(output, input_table, **kwargs):
     # classification_column = kwargs.get("classification_column", 'confirmed_dwarf')
@@ -114,7 +99,7 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
             if i == len(input_table)-1:
                 end_line=''
             k = input_table['key'][i]
-            name = latex_name(input_table['name'][i])
+            name = lvdb.latex_name(input_table['name'][i])
 
             out_str = '' + name + ' & '
             other_name = []
@@ -127,7 +112,7 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
         #             out_str = ''
                     if 'other_name' in stream_yaml['name_discovery'].keys():
                         for other_name_list in range(len(stream_yaml['name_discovery']['other_name'])):
-                            other_name.append(stream_yaml['name_discovery']['other_name'][other_name_list])
+                            other_name.append(lvdb.latex_name(stream_yaml['name_discovery']['other_name'][other_name_list]))
         #             else:
         #                 print(stream_yaml['key'], "missing table")
                     if 'ref_discovery' in stream_yaml['name_discovery'].keys():
@@ -192,7 +177,7 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
             while len(other_name)>place or len(ref) > place:
                 out_str2 = ' & '
                 if len(other_name)>place:
-                    name = latex_name(other_name[place])
+                    name = other_name[place]
                     out_str2 +=  name
                 out_str2 += ' &&&& '
                 if len(ref)>place:
@@ -285,7 +270,7 @@ def create_latex_table_structure(output, output_citations, input_table, **kwargs
             distance_factor = 1.
             if distance_units == 'mpc':
                 distance_factor = 1./1000.
-            name = latex_name(input_table['name'][i])
+            name = lvdb.latex_name(input_table['name'][i])
             f.write(name + '&'+"{:0.4f}".format(input_table['ra'][i])+'&'+"{:0.4f}".format(input_table['dec'][i])+'&'+
                   make_latex_value(spatial_convert_factor*input_table['rhalf'][i], spatial_convert_factor*input_table['rhalf_em'][i], spatial_convert_factor*input_table['rhalf_ep'][i], n=2)+'&'+
                  make_latex_value(input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], ul=input_table['ellipticity_ul'][i], n=2)+ '& '+
@@ -349,7 +334,7 @@ def create_latex_table_kinematics(output, output_citations, input_table, **kwarg
             end_line = '\\\\'
             if i == len(input_table)-1:
                 end_line=''
-            name = latex_name(input_table['name'][i])
+            name = lvdb.latex_name(input_table['name'][i])
             age_str = ''
             if add_age:
                 age_str = make_latex_value(input_table['age'][i], input_table['age_em'][i], input_table['age_ep'][i], n=1)+'&'
@@ -465,7 +450,7 @@ def create_latex_table_mass(output, output_citations, input_table):
         #     mstar_s = "{:0.1e}".format(mstar)
         #     mstar_split = mstar_s.split('e')
         #     mstar_split[1]
-            name = latex_name(input_table['name'][i])
+            name = lvdb.latex_name(input_table['name'][i])
 
             f.write(name +' & ' +  mstar_str +' & ' + m_dyn_str +' & ' + mass_to_light_str +' & ' + m_HI_str+' & ' + m_HI_m_star_str+ '& '+ letter_to_list_string + end_line + '\n')
 
@@ -493,7 +478,7 @@ table_candidate = table.Table.read('data/candidate.csv')
 for tab in [dsph_mw, dsph_m31,  dsph_lf, dsph_lf_distant]:
     # tab['year'] = add_year(tab)
     add_year(tab)
-    add_coord(tab)
+    lvdb.add_coord(tab)
     add_column(tab, 'name_discovery', 'type', col_type='U100')
 
 # gc_ufsc['year'] = add_year(gc_ufsc)
@@ -512,18 +497,7 @@ for tab in [gc_ufsc, gc_disk,  gc_harris, gc_dwarf]:
     add_column(tab, 'age', 'age_ep')
     add_column(tab, 'age', 'ref_age', col_type='U100')
     add_column(tab, 'name_discovery', 'type', col_type='U100')
-    # add_coord(tab)
 
-# add_coord(dsph_m31)
-# add_coord(dsph_mw)
-# add_coord(dsph_lf)
-# add_coord(dsph_lf_distant)
-
-# add_coord(gc_ufsc)
-# add_coord(gc_harris)
-# add_coord(gc_disk)
-
-# add_coord(gc_dwarf)
 
 dsph_mw.sort(['year', 'key'])
 create_latex_table_name_discovery('table/table_data/dwarf_mw_name_discovery_data.tex', dsph_mw)
@@ -631,11 +605,11 @@ with open(output, 'w+') as f:
                 x2 = c.dec.to_string(sep=":", precision=1, alwayssign=True, pad=True)
                 name = ''
                 if 'name' in stream_yaml['name_discovery'].keys():
-                    name= latex_name(stream_yaml['name_discovery']['name'])
+                    name= lvdb.latex_name(stream_yaml['name_discovery']['name'])
     #             out_str = ''
                 if 'other_name' in stream_yaml['name_discovery'].keys():
                     for other_name_list in range(len(stream_yaml['name_discovery']['other_name'])):
-                        other_name.append(stream_yaml['name_discovery']['other_name'][other_name_list])
+                        other_name.append(lvdb.latex_name(stream_yaml['name_discovery']['other_name'][other_name_list]))
     #             else:
     #                 print(stream_yaml['key'], "missing table")
                 if 'ref_discovery' in stream_yaml['name_discovery'].keys():
@@ -708,7 +682,7 @@ with open(output, 'w+') as f:
                 while len(other_name)>place or len(ref) > place or len(ref_fp)>place:
                     out_str2 = ' & '
                     if len(other_name)>place:
-                        name = latex_name(other_name[place])
+                        name = other_name[place]
                         out_str2 +=  name
                     out_str2 += ' &&&& '
                     if len(ref)>place:
@@ -828,7 +802,7 @@ with open(output, 'w+') as f:
                 # l = c_table_input.galactic.l.value
                 # input_table['bb'] = c_table_input.galactic.b.value
                 
-                name = latex_name(stream_yaml['name_discovery']['name'])
+                name = lvdb.latex_name(stream_yaml['name_discovery']['name'])
                 f.write(name + '&'+"{:0.4f}".format(stream_yaml['location']['ra'])+'&'+"{:0.4f}".format(stream_yaml['location']['dec'])+'&'+"{:0.4f}".format(c_table_input.galactic.l.value)+'&'+"{:0.4f}".format(c_table_input.galactic.b.value)+'&' +
                       rh_str+'&'+
                       str_rhalf + '& '+

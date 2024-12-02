@@ -12,6 +12,7 @@ name_discovery:
   other_name:
   - Blobby
   ref_discovery:
+  - Karachentsev2022AstBu..77..372K
   - Casey2023MNRAS.520.4715C
 notes:
 - For $M_V$ assumed $M_V = M_B - 0.31$ (and then converted to apparent mag.)
