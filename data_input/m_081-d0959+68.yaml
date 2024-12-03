@@ -11,7 +11,10 @@ name_discovery:
   name: d0959+68
   ref_discovery:
   - Chiboucas2009AJ....137.3009C
+  - Mouhcine2009MNRAS.399..737M
   type: dIrr/tdl
+  other_name:
+  - Clump II
 notes:
 - tidal dwarf galaxy? \citep{Chiboucas2013AJ....146..126C}
 - assume $V-I$ = 1 for $M_I$ to $M_V$ from \citep{Chiboucas2013AJ....146..126C}

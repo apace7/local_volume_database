@@ -5,14 +5,14 @@ location:
   dec: -35.651
 name_discovery:
   confirmed_star_cluster: 0
-  confirmed_real: 0
+  confirmed_real: 1
   host: mw
   name: ESO 393-12
   other_name:
   - MWSC 2654
 notes:
-- possible globular cluster \citep{Kharchenko2013A&A...558A..53K}
-- classify as globular cluster \citep{Garro2022A&A...658A.120G}
+- Possible globular cluster \citep{Kharchenko2013A&A...558A..53K}.
+- Classify as globular cluster \citep{Garro2022A&A...658A.120G}.
 distance:
   distance_modulus: 14.57
   distance_modulus_em: 0.03

@@ -8,11 +8,15 @@ name_discovery:
   confirmed_real: 1
   name: LV J1157+5638
 structure:
-  rhalf: 5.4264
-  rhalf_em: 0.0336
-  rhalf_ep: 0.0336
+  rhalf: 6.04
+  rhalf_em: 0.35
+  rhalf_ep: 0.35
   spatial_units: arcsec
-  ref_structure: Makarova2018MNRAS.474.3221M
+  spatial_model: sersic
+  ellipticity: 0.23
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
 distance:
   distance_modulus: 29.82
   distance_modulus_em: 0.09

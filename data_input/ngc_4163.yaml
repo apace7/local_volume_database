@@ -1,17 +1,8 @@
-distance:
-  distance_modulus: 27.28
-  distance_modulus_em: 0.03
-  distance_modulus_ep: 0.03
-  ref_distance: McConnachie2012AJ....144....4M
 key: ngc_4163
+table: dwarf_local_field
 location:
-  dec: 36.16916667
-  ra: 183.0379167
-m_v:
-  apparent_magnitude_v: 13.2
-  apparent_magnitude_v_em: 0.3
-  apparent_magnitude_v_ep: 0.3
-  ref_m_v: McConnachie2012AJ....144....4M
+  ra: 183.038917
+  dec: 36.168917
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -22,19 +13,27 @@ name_discovery:
   - NGC 4167
   ref_discovery:
   - Herschel1789RSPT...79..212H
-  type: dIrr
+  type: dIrr  
+distance:
+  distance_modulus: 27.28
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 13.26
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
 structure:
-  ellipticity: 0.3
-  ellipticity_em: 0.05
-  ellipticity_ep: 0.05
-  position_angle: 11.0
-  position_angle_em: 2.0
-  position_angle_ep: 2.0
-  ref_structure: McConnachie2012AJ....144....4M
-  rhalf: 0.45
-  rhalf_em: 0.05
-  rhalf_ep: 0.05
-table: dwarf_local_field
+  rhalf: 19.29
+  rhalf_em: 0.93
+  rhalf_ep: 0.936
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.15
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
 velocity:
   ref_vlos: McConnachie2012AJ....144....4M
   vlos_systemic: 165.0

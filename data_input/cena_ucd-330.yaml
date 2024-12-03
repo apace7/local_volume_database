@@ -1,0 +1,43 @@
+key: cena_ucd-330
+table: gc_other
+location:
+  ra: 2201.47625
+  dec: -42.990389
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_star_cluster: 0
+  confirmed_real: 1
+  discovery_year: 1992
+  host: ngc_5128
+  name: UCD 330
+  other_name:
+  - HGHH92-C23
+  ref_discovery:
+  - Harris1992AJ....104..613H
+notes:
+- UCD?
+structure:
+  rhalf: 0.2
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Voggel2018ApJ...858...20V
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 17.52
+  ref_m_v: Voggel2018ApJ...858...20V
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.85
+  metallicity_spectroscopic_em: 0.14
+  metallicity_spectroscopic_ep: 0.14
+  ref_metallicity_spectroscopic: Beasley2008MNRAS.386.1443B
+velocity:
+  vlos_systemic: 743
+  vlos_systemic_em: 5
+  vlos_systemic_ep: 5
+  vlos_sigma: 22.22
+  vlos_sigma_em: 4.26
+  vlos_sigma_ep: 4.26
+  vlos_sigma_central: 34
+  ref_vlos: Voggel2018ApJ...858...20V
+

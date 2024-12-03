@@ -1,0 +1,16 @@
+key: canis_major_1
+table: candidate
+location:
+  ra: 108.1458
+  dec: -27.6667
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 1
+  discovery_year: 2003
+  host: mw
+  name: Canes Major
+  ref_discovery:
+  - Martin2004MNRAS.348...12M
+  ref_false_positive:
+  - CarballoBello2021MNRAS.501.1690C

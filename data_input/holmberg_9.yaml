@@ -1,0 +1,32 @@
+key: holmberg_9
+table: dwarf_local_field_distant
+location:
+  ra: 149.385
+  dec: 69.04306
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_081
+  name: Holmberg IX
+  other_name:
+  - MAILYAN 048
+  - PGC 028757
+  - UGC 05336
+distance:
+  distance_modulus: 27.93
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 13.87
+  apparent_magnitude_b: 14.18
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 46
+  ref_vlos: Karachentsev2004AJ....127.2031K
+flux_HI:
+  flux_HI: 80.910
+  vlos_systemic_HI: 50
+  vlos_systemic_HI_em: 4
+  vlos_systemic_HI_ep: 4
+  ref_flux_HI: Appleton1981MNRAS.195..327A

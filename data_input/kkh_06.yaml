@@ -1,15 +1,17 @@
 key: kkh_06
 table: dwarf_local_field_distant
 location:
-  ra: 23.714999999999996
-  dec: 52.09166666666667
+  ra: 23.715
+  dec: 52.0917
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
-  # host: misc
+  discovery_year: 2001
   name: KKH 6
   other_name:
-  - PGC2807103
+  - PGC28 07103
+  ref_discovery:
+  - Karachentsev2001A&A...366..428K
 distance:
   distance_modulus: 27.64
   distance_modulus_em: 0.07

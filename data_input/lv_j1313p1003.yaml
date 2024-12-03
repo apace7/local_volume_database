@@ -1,0 +1,24 @@
+key: lv_j1313p1003
+table: dwarf_local_field_distant
+location:
+  ra: 198.447083
+  dec: 10.053056
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: LV J1313+1003
+  other_name:
+  - LEDA 4573336
+  - SDSS J131347.30+100311.1
+distance:
+  distance_modulus: 27.89
+  ref_distance: Karachentsev2013AJ....145..101K
+m_v:
+  apparent_magnitude_v: 16.42
+  apparent_magnitude_b: 16.73
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 472
+  vlos_systemic_em: 24
+  vlos_systemic_ep: 24
+  ref_vlos: Karachentsev2013AJ....145..101K

@@ -1,8 +1,8 @@
 key: ngc_2366
 table: dwarf_local_field_distant
 location:
-  ra: 112.22749999999999
-  dec: 69.20527777777778
+  ra: 112.2241
+  dec: 69.2127
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -18,8 +18,20 @@ distance:
   distance_modulus_ep: 0.03
   ref_distance: Tully2009AJ....138..323T
 m_v:
-  apparent_magnitude_v: 11.16
-  ref_m_v: Karachentsev2013AJ....145..101K
+  apparent_magnitude_v: 11.22
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
+structure:
+  rhalf: 155.01
+  rhalf_em: 7.32
+  rhalf_ep: 7.32
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.66
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
 velocity:
   vlos_systemic: 100.1
   ref_vlos: Walter2008AJ....136.2563W

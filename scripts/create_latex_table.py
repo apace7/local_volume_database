@@ -27,7 +27,7 @@ path = 'data_input/'
 
 import local_volume_database as lvdb
 lvdb_path = os.environ.get('LVDBDIR')
-print(lvdb_path)
+print('lvdb_path',lvdb_path)
 
 np.random.seed(1988)
 
@@ -185,7 +185,7 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
                 out_str2 += end_line
                 place+=1
                 f.write( out_str2+'\n')
-    print(Counter(missing_host))
+    print("missing host check",Counter(missing_host))
 
 def create_latex_table_structure(output, output_citations, input_table, **kwargs):
     citations = []

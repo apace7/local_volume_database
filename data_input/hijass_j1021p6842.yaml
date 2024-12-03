@@ -1,0 +1,22 @@
+key: hijass_j1021p6842
+table: dwarf_local_field_distant
+location:
+  ra: 155.25083
+  dec: 68.7
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  host: m_081
+  name: HIJASS J1021+6842
+  other_name:
+  - PGC 4689208
+distance:
+  distance_fixed_host: true
+velocity:
+  vlos_systemic: 46
+  ref_vlos: Boyce2001ApJ...560L.127B
+flux_HI:
+  flux_HI: 10
+  vlos_systemic_HI: 46
+  ref_flux_HI: Boyce2001ApJ...560L.127B

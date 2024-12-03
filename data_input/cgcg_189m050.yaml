@@ -1,0 +1,29 @@
+key: cgcg_189m050
+table: dwarf_local_field_distant
+location:
+  ra: 199.27042
+  dec: 37.9525
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: CGCG 189-050
+  other_name:
+  - PGC046257
+distance:
+  distance_modulus: 28.12
+  ref_distance: Karachentsev2024A&A...684L..24K
+m_v:
+  apparent_magnitude_v: 15.23
+  apparent_magnitude_b: 15.54
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 334
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Karachentsev2024A&A...684L..24K
+flux_HI:
+  flux_HI: 2.14
+  vlos_systemic_HI: 334
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 334
+  ref_flux_HI: Karachentsev2024A&A...684L..24K

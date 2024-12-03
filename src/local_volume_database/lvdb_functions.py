@@ -152,3 +152,26 @@ def get_citations(systems, style='individual', reference_column=reference_column
             out+=temp+', '
 #         x=x.replace('&', '\string&')
         print("\\citep{"+out[:-2]+"}")
+
+def lum(m_x, m_x_sun=4.83):
+	return pow(10., -.4*(m_x - m_x_sun) )
+def lum_inverse(lum, m_x_sun=4.83 ):
+    return np.log10(lum)/(-.4)+m_x_sun
+def dm(x):
+		return pow(10., x/5.+1.)/1000.
+def dist_mod(mu, mu_e=0, mu_em=0, mu_ep=0):
+	# def dm(x):
+	# 	return pow(10., x/5.+1.)/1000.
+
+	if mu_e > 0:
+		sample = []
+		for i in range(100000):
+			x = np.random.normal(mu, mu_e)
+			sample.append(dm(x))
+		a = corner.quantile(np.array(sample), [.5, .1587, .8413])
+
+		return (a[0], a[0]-a[1], a[2]-a[0], (a[2]-a[1])/2.)
+	else:
+		return dm(mu)
+def dist_mod_kpc(dist):
+    return (np.log10(dist*1000.) -1.)*5.

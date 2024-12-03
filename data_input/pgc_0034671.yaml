@@ -1,4 +1,4 @@
-key: pgc_034671
+key: pgc_0034671
 table: dwarf_local_field_distant
 location:
   ra: 169.952
@@ -7,7 +7,7 @@ name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   host: ngc_3556
-  name: PGC 034671
+  name: PGC 34671
   other_name:
   - dw1119p5543
 structure:

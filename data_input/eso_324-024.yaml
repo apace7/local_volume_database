@@ -1,0 +1,33 @@
+key: eso_324-024
+table: dwarf_local_field_distant
+location:
+  ra: 201.90583
+  dec: -41.48056
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5128
+  name: ESO 324-024
+  other_name:
+  - HIPASS J1327-41
+  - PGC 047171
+distance:
+  distance_modulus: 27.89
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 12.09
+  apparent_magnitude_b: 12.40
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 514
+  vlos_systemic_em: 18
+  vlos_systemic_ep: 18
+  ref_vlos: Doyle2005MNRAS.361...34D
+flux_HI:
+  flux_HI: 44.463
+  vlos_systemic_HI: 514
+  vlos_systemic_HI_em: 18
+  vlos_systemic_HI_ep: 18
+  ref_flux_HI: Doyle2005MNRAS.361...34D

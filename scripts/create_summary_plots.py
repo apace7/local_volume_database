@@ -17,7 +17,7 @@ from adjustText import adjust_text
 import local_volume_database as lvdb
 ## load environment variable
 lvdb_path = os.environ.get('LVDBDIR')
-print(lvdb_path)
+print("lvdb_path", lvdb_path)
 
 plt.style.use(lvdb_path + 'code/std.mplstyle')
 import matplotlib as mp
@@ -999,3 +999,63 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     pdf.savefig()
     plt.close()
     print("figure 13 finished")
+
+    print("distance vs M_V")
+    plt.figure(figsize = (6.4*2, 4.8*2))
+    plt.plot(dwarf_all['distance']/1e3, dwarf_all['M_V'], 'o')
+    max_x = plt.gca().get_xlim()[1]
+    min_x=plt.gca().get_xlim()[0]
+    plt.gca().set_xlim(min_x, max_x)
+    x = np.arange(0.1, max_x, .1)
+    plt.plot(x, 20. - lvdb.dist_mod_kpc(x*1e3), c='k',ls=':')
+    plt.plot(x, 19. - lvdb.dist_mod_kpc(x*1e3), c='k',ls=':')
+    plt.plot(x, 21. - lvdb.dist_mod_kpc(x*1e3), c='k', ls=':')
+    
+    plt.gca().invert_yaxis()
+    plt.gca().set_xlabel(r'$d~({\rm Mpc})$')
+    plt.gca().set_ylabel(r'$M_V$')
+    plt.tight_layout()
+    pdf.savefig()
+    plt.close()
+
+    plt.figure(figsize = (6.4*2, 4.8*2))
+    plt.gca().set_xlim(min_x, max_x)
+    plt.plot(x, 20. - lvdb.dist_mod_kpc(x*1e3), c='k',ls=':')
+    plt.plot(x, 19. - lvdb.dist_mod_kpc(x*1e3), c='k',ls=':')
+    plt.plot(x, 21. - lvdb.dist_mod_kpc(x*1e3), c='k', ls=':', label=r'$V=19,20,21~{\rm mag}$')
+    plt.gca().invert_yaxis()
+    plt.gca().set_xlabel(r'$d~({\rm Mpc})$')
+    plt.gca().set_ylabel(r'$M_V$')
+    plt.plot(isolated_close['distance']/1e3, isolated_close['M_V'], 'o', c='gray', label=r'${\rm isolated}$')
+    for host in Counter(close_has_host['host']).keys():
+        satellite = close_has_host[close_has_host['host']==host]
+        if len(satellite)<5:
+            plt.plot(satellite['distance']/1e3, satellite['M_V'], 'o', c='k')
+        else:
+            plt.plot(satellite['distance']/1000., satellite['M_V'],'o')
+    plt.plot([],[], 'o', c='k', label=r'${\rm satellite,~N<5}$')
+    plt.plot([],[], 'o', c='tab:blue', label=r'${\rm satellite,~N>5~(colored~points)}$')
+    plt.legend(loc=4)
+    plt.tight_layout()
+    pdf.savefig()
+    plt.close()
+
+    plt.figure(figsize = (6.4*2, 4.8*2))
+    plt.gca().set_xlim(min_x, max_x)
+    plt.plot(x, 20. - lvdb.dist_mod_kpc(x*1e3), c='k',ls=':')
+    plt.plot(x, 19. - lvdb.dist_mod_kpc(x*1e3), c='k',ls=':')
+    plt.plot(x, 21. - lvdb.dist_mod_kpc(x*1e3), c='k', ls=':')
+    plt.gca().invert_yaxis()
+    plt.gca().set_xlabel(r'$d~({\rm Mpc})$')
+    plt.gca().set_ylabel(r'$M_V$')
+    plt.plot(isolated_close['distance']/1e3, isolated_close['M_V'], '.', c='gray')
+    for host in Counter(close_has_host['host']).keys():
+        satellite = close_has_host[close_has_host['host']==host]
+        if len(satellite)<5:
+            plt.plot(satellite['distance']/1e3, satellite['M_V'], '.', c='k')
+        else:
+            plt.plot(satellite['distance']/1000., satellite['M_V'],)
+    plt.tight_layout()
+    pdf.savefig()
+    plt.close()
+    print("distance vs M_V finished")

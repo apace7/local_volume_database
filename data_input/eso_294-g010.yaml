@@ -1,8 +1,8 @@
 key: eso_294-g010
 table: dwarf_local_field
 location:
-  ra: 6.6391667
-  dec: -41.85527778
+  ra: 6.6395
+  dec: -41.8559
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -13,7 +13,7 @@ name_discovery:
   - Lauberts1982euse.book.....L
   type: dIrr/dSph
 notes:
-- NGC 55 sub-group, forming "bridge" to Sculptor? \citep{McConnachie2012AJ....144....4M}
+- NGC 55 sub-group, forming "bridge" to Sculptor? \citep{McConnachie2012AJ....144....4M}.
 distance:
   distance_modulus: 26.54
   distance_modulus_em: 0.04
@@ -25,17 +25,20 @@ flux_HI:
   flux_HI_ep: 0.017
   ref_flux_HI: Bouchard2005AJ....130.2058B
 m_v:
-  apparent_magnitude_v: 15.3
-  apparent_magnitude_v_em: 0.3
-  apparent_magnitude_v_ep: 0.3
-  ref_m_v: McConnachie2012AJ....144....4M
+  apparent_magnitude_v: 14.62
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
 structure:
-  ellipticity: 0.37
-  position_angle: 57.0
-  ref_structure: McConnachie2012AJ....144....4M
-  rhalf: 0.42
-  rhalf_em: 0.04
-  rhalf_ep: 0.04
+  rhalf: 27.46
+  rhalf_em: 1.38
+  rhalf_ep: 1.38
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.46
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
 velocity:
   ref_vlos: Bouchard2005AJ....130.2058B
   vlos_systemic: 106.9

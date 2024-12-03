@@ -1,0 +1,29 @@
+key: a0952p69
+table: dwarf_local_field_distant
+location:
+  ra: 149.37083
+  dec: 69.27222
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_081
+  name: A0952+69
+  other_name:
+  - Arp's LOOP
+  - PGC 028759
+distance:
+  distance_modulus: 27.97
+  distance_modulus_em: 0.17
+  distance_modulus_ep: 0.17
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 16.12
+  apparent_magnitude_b: 16.43
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 99
+  ref_vlos: Lang2003MNRAS.342..738L
+flux_HI:
+  flux_HI: 2.858
+  vlos_systemic_HI: 99
+  ref_flux_HI: Lang2003MNRAS.342..738L

@@ -1,0 +1,33 @@
+key: ngc_5102
+table: dwarf_local_field_distant
+location:
+  ra: 200.49083
+  dec: -36.62972
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5128
+  name: NGC 5102
+  other_name:
+  - PGC 046674
+  - ESO382-050
+distance:
+  distance_modulus: 27.82
+  distance_modulus_em: 0.22
+  distance_modulus_ep: 0.22
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 9.27
+  apparent_magnitude_b: 9.58
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 464
+  vlos_systemic_em: 18
+  vlos_systemic_ep: 18
+  ref_vlos: Doyle2005MNRAS.361...34D
+flux_HI:
+  flux_HI: 92.897
+  vlos_systemic_HI: 464
+  vlos_systemic_HI_em: 18
+  vlos_systemic_HI_ep: 18
+  ref_flux_HI: Doyle2005MNRAS.361...34D

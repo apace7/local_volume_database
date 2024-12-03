@@ -1,8 +1,8 @@
 key: ddo_053
 table: dwarf_local_field_distant
 location:
-  ra: 128.527083
-  dec: 66.179167
+  ra: 128.5362
+  dec: 66.1771
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -11,15 +11,29 @@ name_discovery:
   other_name:
   - PGC024050
   - UGC04459
+notes:
+- Apparent magnitude b from \citet{Karachentsev2013AJ....145..101K}.
 distance:
   distance_modulus: 27.83
   distance_modulus_em: 0.03
   distance_modulus_ep: 0.03
   ref_distance: Tully2009AJ....138..323T
 m_v:
-  apparent_magnitude_v: 14.08
-  apparent_magnitude_i: 14.39
-  ref_m_v: Karachentsev2013AJ....145..101K
+  apparent_magnitude_v: 14.19
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  apparent_magnitude_b: 14.39
+  ref_m_v: Carlsten2021ApJ...922..267C
+structure:
+  rhalf: 50.84
+  rhalf_em: 2.5
+  rhalf_ep: 2.5
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.35
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
 velocity:
   vlos_systemic: 19.2
   vlos_systemic_em: 1.7

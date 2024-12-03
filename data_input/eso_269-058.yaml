@@ -1,0 +1,32 @@
+key: eso_269-058
+table: dwarf_local_field_distant
+location:
+  ra: 197.637083
+  dec: -46.99083
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5128
+  name: ESO 269-058
+  other_name:
+  - PGC 045717
+distance:
+  distance_modulus: 27.87
+  distance_modulus_em: 0.01
+  distance_modulus_ep: 0.01
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 12.52
+  apparent_magnitude_b: 12.83
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 400
+  vlos_systemic_em: 18
+  vlos_systemic_ep: 18
+  ref_vlos: Banks1999ApJ...524..612B
+flux_HI:
+  flux_HI: 7.112
+  vlos_systemic_HI: 400
+  vlos_systemic_HI_em: 18
+  vlos_systemic_HI_ep: 18
+  ref_flux_HI: Banks1999ApJ...524..612B

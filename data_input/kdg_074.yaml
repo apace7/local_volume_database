@@ -1,0 +1,19 @@
+key: kdg_074
+table: dwarf_local_field_distant
+location:
+  ra: 165.59083
+  dec: 70.26389
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_081
+  name: KDG 74
+  other_name:
+  - KKH066
+  - PGC033305
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 18.21
+  apparent_magnitude_b: 18.52
+  ref_m_v: Karachentsev2013AJ....145..101K

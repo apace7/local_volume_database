@@ -1,8 +1,8 @@
 key: gr_8
 table: dwarf_local_field
 location:
-  ra: 194.6683333
-  dec: 14.2175
+  ra: 194.6663
+  dec: 14.2178
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -16,7 +16,7 @@ name_discovery:
   - Reaves1956AJ.....61...69R
   type: dIrr
 notes:
-- Gibson Reaves gave this galaxy his initials \citep{McConnachie2012AJ....144....4M}
+- Gibson Reaves gave this galaxy his initials \citep{McConnachie2012AJ....144....4M}.
 distance:
   distance_modulus: 26.69
   distance_modulus_em: 0.12
@@ -26,21 +26,20 @@ flux_HI:
   flux_HI: 9.74
   ref_flux_HI: Young2003ApJ...592..111Y
 m_v:
-  apparent_magnitude_v: 14.2
-  apparent_magnitude_v_em: 0.2
-  apparent_magnitude_v_ep: 0.2
-  ref_m_v: McConnachie2012AJ....144....4M
+  apparent_magnitude_v: 14.64
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
 structure:
-  ellipticity: 0.2
-  ellipticity_em: 0.05
-  ellipticity_ep: 0.05
-  position_angle: 61.0
-  position_angle_em: 2.0
-  position_angle_ep: 2.0
-  ref_structure: McConnachie2012AJ....144....4M
-  rhalf: 0.32
-  rhalf_em: 0.04
-  rhalf_ep: 0.04
+  rhalf: 28.44
+  rhalf_em: 1.42
+  rhalf_ep: 1.42
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.39
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
 velocity:
   ref_vlos: Young2003ApJ...592..111Y
   vlos_systemic: 213.9

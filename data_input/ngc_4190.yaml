@@ -21,12 +21,20 @@ flux_HI:
   flux_HI: 16.0
   ref_flux_HI: Tully2009AJ....138..323T
 m_v:
-  apparent_magnitude_v: 13.36
-  ref_m_v: Tully2009AJ....138..323T
+  apparent_magnitude_v: 12.76
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
 structure:
-  ellipticity: 0.12
-  ref_structure: Karachentsev2004AJ....127.2031K
-  rhalf: 1.7
+  rhalf: 27.29
+  rhalf_em: 1.30
+  rhalf_ep: 1.30
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.38
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
 velocity:
   ref_vlos: Tully2009AJ....138..323T
   vlos_systemic: 235.0

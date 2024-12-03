@@ -1,0 +1,32 @@
+key: pgc_0051659
+table: dwarf_local_field_distant
+location:
+  ra: 217.0154167
+  dec: -46.30167
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5128
+  name: PGC 51659
+  other_name:
+  - HIPASS J1428-46
+distance:
+  distance_modulus: 27.79
+  distance_modulus_em: 0.23
+  distance_modulus_ep: 0.23
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 14.33
+  apparent_magnitude_i: 14.64
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 391.5
+  vlos_systemic_em: 1.7
+  vlos_systemic_ep: 1.7
+  ref_vlos: Begum2008MNRAS.386.1667B
+flux_HI:
+  flux_HI: 19.8
+  vlos_systemic_HI: 391.5
+  vlos_systemic_HI_em: 1.7
+  vlos_systemic_HI_ep: 1.7
+  ref_flux_HI: Begum2008MNRAS.386.1667B

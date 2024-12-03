@@ -1,0 +1,43 @@
+key: m_081-hs_117
+table: dwarf_local_field_distant
+location:
+  ra: 155.355
+  dec: 71.116
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1998
+  host: m_081
+  name: HS 117
+  other_name:
+  - PGC 4689216
+  ref_discovery:
+  - Huchtmeier1998A&AS..127..269H
+  type: dIrr/dSph
+distance:
+  distance_modulus: 27.99
+  distance_modulus_em: 0.04
+  distance_modulus_ep: 0.04
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 16.12
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  apparent_magnitude_b: 16.39
+  ref_m_v: Carlsten2021ApJ...922..267C
+structure:
+  rhalf: 31.89
+  rhalf_em: 1.80
+  rhalf_ep: 1.80
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.51
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
+velocity:
+  vlos_systemic: 47
+  ref_vlos: Huchtmeier1998A&AS..127..269H
+flux_HI:
+  vlos_systemic_HI: 47
+  ref_flux_HI: Huchtmeier1998A&AS..127..269H

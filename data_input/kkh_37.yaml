@@ -1,24 +1,39 @@
 key: kkh_37
 table: dwarf_local_field_distant
 location:
-  ra: 101.94083333333332
-  dec: 80.12388888888889
+  ra: 101.9405
+  dec: 80.1235
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
+  discovery_year: 2001
   host: m_081
   name: KKH 37
   other_name:
   - Mailyan 16
   - PGC095597
+  ref_discovery:
+  - Karachentsev2001A&A...366..428K
 distance:
   distance_modulus: 27.68
   distance_modulus_em: 0.04
   distance_modulus_ep: 0.04
   ref_distance: Tully2009AJ....138..323T
 m_v:
-  apparent_magnitude_v: 15.76
-  ref_m_v: Karachentsev2013AJ....145..101K
+  apparent_magnitude_v: 15.28
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
+structure:
+  rhalf: 18.50
+  rhalf_em: 0.96
+  rhalf_ep: 0.96
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.33
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
 velocity:
   vlos_systemic: 11
   vlos_systemic_em: 7
