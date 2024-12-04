@@ -1,0 +1,32 @@
+key: smc_gc-lindsay_038
+table: gc_dwarf_hosted
+location:
+  ra: 12.2075
+  dec: -69.87017
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: Lindsay 38
+  other_name:
+  - ESO 51-3
+  - OGLE-CL SMC 308
+  ref_discovery:
+  - Lindsay1958MNRAS.118..172L
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 19.22
+proper_motion:
+  pmra: 0.54
+  pmra_em: 0.03
+  pmra_ep: 0.03
+  pmdec: -0.86
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -1.2
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 5.4
+  ref_age: Milone2023A&A...672A.161M

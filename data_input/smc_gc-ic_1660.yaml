@@ -1,0 +1,34 @@
+key: smc_gc-ic_1660
+table: gc_dwarf_hosted
+location:
+  ra: 18.156625
+  dec: -71.7615
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: IC 1660
+  other_name:
+  - Lindsay 89
+  - Kron 64
+  - ESO 51-24
+  ref_discovery:
+  - Kron1956PASP...68..125K
+  - Lindsay1958MNRAS.118..172L
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 19.06
+proper_motion:
+  pmra: 1.07
+  pmra_em: 0.05
+  pmra_ep: 0.05
+  pmdec: -1.3
+  pmdec_em: 0.04
+  pmdec_ep: 0.04
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.2
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 0.11
+  ref_age: Milone2023A&A...672A.161M

@@ -1,0 +1,33 @@
+key: smc_gc-ic_1641
+table: gc_dwarf_hosted
+location:
+  ra: 17.41175
+  dec: -71.7679
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: IC 1641
+  other_name:
+  - ESO 51-21
+  - HW 62
+  ref_discovery:
+  - Hodge1974AJ.....79..858H
+  type: GC
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.93
+proper_motion:
+  pmra: 1.04
+  pmra_em: 0.06
+  pmra_ep: 0.06
+  pmdec: -1.11
+  pmdec_em: 0.09
+  pmdec_ep: 0.09
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.6
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 1.2
+  ref_age: Milone2023A&A...672A.161M

@@ -1,0 +1,32 @@
+key: smc_gc-lindsay_114
+table: gc_dwarf_hosted
+location:
+  ra: 27.5802917
+  dec: -74.35569
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: Lindsay 114
+  other_name:
+  - ESO 30-5
+  ref_discovery:
+  - Lindsay1958MNRAS.118..172L
+  type: GC
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.86
+proper_motion:
+  pmra: 1.09
+  pmra_em: 0.03
+  pmra_ep: 0.03
+  pmdec: -1.14
+  pmdec_em: 0.04
+  pmdec_ep: 0.04
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 0.04
+  ref_age: Milone2023A&A...672A.161M

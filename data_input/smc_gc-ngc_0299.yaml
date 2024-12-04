@@ -1,0 +1,31 @@
+key: smc_gc-ngc_0299
+table: gc_dwarf_hosted
+location:
+  ra: 13.352125
+  dec: -72.19739
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: NGC 299
+  other_name:
+  - Kron 32
+  - Lindsay 49
+  - ESO 51-5
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.99
+proper_motion:
+  pmra: 0.69
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  pmdec: -1.25
+  pmdec_em: 0.02
+  pmdec_ep: 0.02
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 0.08
+  ref_age: Milone2023A&A...672A.161M

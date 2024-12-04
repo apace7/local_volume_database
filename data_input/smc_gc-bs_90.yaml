@@ -1,0 +1,29 @@
+key: smc_gc-bs_90
+table: gc_dwarf_hosted
+location:
+  ra: 14.77025
+  dec: -72.15286
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: BS 90
+  ref_discovery:
+  - Bica1995ApJS..101...41B
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.91
+proper_motion:
+  pmra: 0.67
+  pmra_em: 0.05
+  pmra_ep: 0.05
+  pmdec: -1.06
+  pmdec_em: 0.06
+  pmdec_ep: 0.06
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.7
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 4.2
+  ref_age: Milone2023A&A...672A.161M

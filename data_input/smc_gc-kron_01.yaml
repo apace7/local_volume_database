@@ -1,0 +1,33 @@
+key: smc_gc-kron_01
+table: gc_dwarf_hosted
+location:
+  ra: 5.35742
+  dec: -73.74881
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: Kron 1
+  other_name:
+  - ESO 28-15
+  - Lindsay 4
+  ref_discovery:
+  - Kron1956PASP...68..125K
+  - Lindsay1958MNRAS.118..172L
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.9
+proper_motion:
+  pmra: 0.35
+  pmra_em: 0.06
+  pmra_ep: 0.06
+  pmdec: -1.35
+  pmdec_em: 0.06
+  pmdec_ep: 0.06
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.9
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 6.8
+  ref_age: Milone2023A&A...672A.161M

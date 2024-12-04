@@ -1,0 +1,33 @@
+key: smc_gc-kron_21
+table: gc_dwarf_hosted
+location:
+  ra: 10.351625
+  dec: -72.88994
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: Kron 21
+  other_name:
+  - Lindsay 27
+  - OGLE-CL SMC 12
+  ref_discovery:
+  - Kron1956PASP...68..125K
+  - Lindsay1958MNRAS.118..172L
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.84
+proper_motion:
+  pmra: 0.62
+  pmra_em: 0.02
+  pmra_ep: 0.02
+  pmdec: -1.53
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -1.0
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 4.4
+  ref_age: Milone2023A&A...672A.161M

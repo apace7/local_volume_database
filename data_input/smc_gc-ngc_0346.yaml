@@ -1,0 +1,31 @@
+key: smc_gc-ngc_0346
+table: gc_dwarf_hosted
+location:
+  ra: 14.7705417
+  dec: -72.17706
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: NGC 346
+  other_name:
+  - Kron 39
+  - Lindsay 60
+  - ESO 51-10
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.94
+proper_motion:
+  pmra: 0.7
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  pmdec: -1.23
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 0.005
+  ref_age: Milone2023A&A...672A.161M
