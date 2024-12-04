@@ -1,4 +1,4 @@
-key: lmc_gc_hodge_011
+key: lmc_gc-hodge_011
 table: gc_dwarf_hosted
 location:
   ra: 93.595125
@@ -13,6 +13,7 @@ name_discovery:
   - LW 437
   ref_discovery:
   - Hodge1960ApJ...131..351H
+  - Shapley1963IrAJ....6...74S
   type: GC
 structure:
   rhalf: 29.71

@@ -1,0 +1,33 @@
+key: lmc_gc-hodge_002
+table: gc_dwarf_hosted
+location:
+  ra: 79.4537
+  dec: -69.64539
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: Hodge 2
+  other_name:
+  - SL 363
+  - OGLE-CL LMC 318
+  ref_discovery:
+  - Hodge1960ApJ...131..351H
+  - Shapley1963IrAJ....6...74S
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.32
+proper_motion:
+  pmra: 2.29
+  pmra_em: 0.13
+  pmra_ep: 0.13
+  pmdec: 0.43
+  pmdec_em: 0.15
+  pmdec_ep: 0.15
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.5
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 1.7
+  ref_age: Milone2023A&A...672A.161M
