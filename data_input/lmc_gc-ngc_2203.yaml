@@ -1,4 +1,4 @@
-key: lmc_gc_ngc_2203
+key: lmc_gc-ngc_2203
 table: gc_dwarf_hosted
 location:
   ra: 91.17758
@@ -13,9 +13,14 @@ name_discovery:
   - LW 380
   type: GC
 structure:
-  rhalf: 0.902
-  spatial_units: arcmin
-  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 33.64
+  rhalf_em: 0.64
+  rhalf_ep: 0.64
+  spatial_units: arcsec
+  ellipticity: 0.0
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.03
+  ref_structure: Niederhofer2024A&A...689A.162N
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.38

@@ -1,26 +1,29 @@
-key: lmc_gc_ngc_2209
+key: lmc_gc-ngc_2209
 table: gc_dwarf_hosted
 location:
   ra: 92.15025 
-  dec: -73.83552777777777
+  dec: -73.835528
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
-  # discovery_year: 0
   host: lmc
   name: NGC 2209
   other_name:
   - SL 849
   - LW 408
-  # ref_discovery:
-  # - list
   type: GC
-# notes:
-# - list
 structure:
-  rhalf: 5.52
+  rhalf: 34.76
+  rhalf_em: 1.25
+  rhalf_ep: 1.25
   spatial_units: arcsec
-  ref_structure: McLaughlin2005ApJS..161..304M
+  ellipticity: 0.08
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 48
+  position_angle_em: 10
+  position_angle_ep: 10
+  ref_structure: Niederhofer2024A&A...689A.162N
 distance:
   ref_distance: Correnti2014ApJ...793..121C
   distance_modulus: 18.37

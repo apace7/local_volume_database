@@ -1,0 +1,32 @@
+key: lmc_gc-ngc_2249
+table: gc_dwarf_hosted
+location:
+  ra: 96.456875
+  dec: -68.92061
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 2249
+  other_name:
+  - ESO 57-82
+  - KMHK 1755
+  - LW 479
+  - SL 893
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.34
+proper_motion:
+  pmra: 1.55
+  pmra_em: 0.06
+  pmra_ep: 0.06
+  pmdec: 1.09
+  pmdec_em: 0.05
+  pmdec_ep: 0.05
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 1.2
+  ref_age: Milone2023A&A...672A.161M

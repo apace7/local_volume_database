@@ -1,0 +1,27 @@
+key: lmc_gc-ngc_1917
+table: gc_dwarf_hosted
+location:
+  ra: 79.75808333333333
+  dec: -69.00152777777778
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1917
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.36
+proper_motion:
+  pmra: 1.65
+  pmra_em: 0.11
+  pmra_ep: 0.11
+  pmdec: 0.57
+  pmdec_em: 0.09
+  pmdec_ep: 0.09
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.3
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 1.7
+  ref_age: Milone2023A&A...672A.161M

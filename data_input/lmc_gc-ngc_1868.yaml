@@ -1,0 +1,44 @@
+key: lmc_gc-ngc_1868
+table: gc_dwarf_hosted
+location:
+  ra: 78.649625
+  dec: -63.95419
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1868
+  other_name:
+  - ESO 85-56
+  - KMHK 674
+  - LW 169
+  - SL 330
+structure:
+  rhalf: 15.19
+  rhalf_em: 0.48
+  rhalf_ep: 0.48
+  spatial_units: arcsec
+  ellipticity: 0.11
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.03
+  position_angle: 12
+  position_angle_em: 6
+  position_angle_ep: 6
+  ref_structure: Niederhofer2024A&A...689A.162N
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.45
+proper_motion:
+  pmra: 1.83
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  pmdec: 0.05
+  pmdec_em: 0.07
+  pmdec_ep: 0.07
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 1.45
+  ref_age: Milone2023A&A...672A.161M

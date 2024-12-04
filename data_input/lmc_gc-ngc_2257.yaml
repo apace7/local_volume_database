@@ -1,8 +1,8 @@
-key: lmc_gc_ngc_2257
+key: lmc_gc-ngc_2257
 table: gc_dwarf_hosted
 location:
-  ra: 97.55174999999998
-  dec: -64.32683333333333
+  ra: 97.55175
+  dec: -64.32683
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
@@ -13,9 +13,17 @@ name_discovery:
   - LW 481
   type: GC
 structure:
-  rhalf: 6.54
+  rhalf: 41.64
+  rhalf_em: 0.57
+  rhalf_ep: 0.57
   spatial_units: arcsec
-  ref_structure: McLaughlin2005ApJS..161..304M
+  ellipticity: 0.09
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  position_angle: 42
+  position_angle_em: 5
+  position_angle_ep: 5
+  ref_structure: Niederhofer2024A&A...689A.162N
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.37

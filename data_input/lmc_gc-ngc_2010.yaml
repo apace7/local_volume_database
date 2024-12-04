@@ -1,0 +1,31 @@
+key: lmc_gc-ngc_2010
+table: gc_dwarf_hosted
+location:
+  ra: 82.641375
+  dec: -70.81883
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 2010
+  other_name:
+  - ESO 56-139
+  - KMHK 1001
+  - SL 31
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.54
+proper_motion:
+  pmra: 2.23
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  pmdec: 0.45
+  pmdec_em: 0.04
+  pmdec_ep: 0.04
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.2
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 0.12
+  ref_age: Milone2023A&A...672A.161M

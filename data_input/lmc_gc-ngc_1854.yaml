@@ -1,0 +1,27 @@
+key: lmc_gc-ngc_1854
+table: gc_dwarf_hosted
+location:
+  ra: 77.332625
+  dec: -68.84777777777778
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1854
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.42
+proper_motion:
+  pmra: 2.09
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  pmdec: 0.15
+  pmdec_em: 0.02
+  pmdec_ep: 0.02
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.2
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 0.15
+  ref_age: Milone2023A&A...672A.161M

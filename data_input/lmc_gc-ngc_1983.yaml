@@ -1,0 +1,27 @@
+key: lmc_gc-ngc_1983
+table: gc_dwarf_hosted
+location:
+  ra: 81.93729166666667
+  dec: -68.98513888888888
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1983
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.56
+proper_motion:
+  pmra: 1.6
+  pmra_em: 0.05
+  pmra_ep: 0.05
+  pmdec: 0.49
+  pmdec_em: 0.05
+  pmdec_ep: 0.05
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: 0.0
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 0.014
+  ref_age: Milone2023A&A...672A.161M

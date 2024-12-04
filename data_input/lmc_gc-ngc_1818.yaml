@@ -1,0 +1,27 @@
+key: lmc_gc-ngc_1818
+table: gc_dwarf_hosted
+location:
+  ra: 76.05595833333332
+  dec: -66.43380555555557
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1818
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.44
+proper_motion:
+  pmra: 1.64
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  pmdec: 0.09
+  pmdec_em: 0.06
+  pmdec_ep: 0.06
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.2
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 0.07
+  ref_age: Milone2023A&A...672A.161M

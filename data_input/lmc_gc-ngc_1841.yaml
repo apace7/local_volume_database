@@ -1,4 +1,4 @@
-key: lmc_gc_ngc_1841
+key: lmc_gc-ngc_1841
 table: gc_dwarf_hosted
 location:
   ra: 71.34479166666665
@@ -14,9 +14,17 @@ name_discovery:
   - Shapley1940BHarO.914....6S
   type: GC
 structure:
-  rhalf: 11.93
+  rhalf: 45.21
+  rhalf_em: 0.46
+  rhalf_ep: 0.46
   spatial_units: arcsec
-  ref_structure: McLaughlin2005ApJS..161..304M
+  ellipticity: 0.11
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 46
+  position_angle_em: 3
+  position_angle_ep: 3
+  ref_structure: Niederhofer2024A&A...689A.162N
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.34

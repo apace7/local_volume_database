@@ -1,0 +1,27 @@
+key: lmc_gc-ngc_1852
+table: gc_dwarf_hosted
+location:
+  ra: 77.34979166666666
+  dec: -67.77933333333333
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1852
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.52
+proper_motion:
+  pmra: 1.78
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  pmdec: 0.16
+  pmdec_em: 0.06
+  pmdec_ep: 0.06
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 1.75
+  ref_age: Milone2023A&A...672A.161M

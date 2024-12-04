@@ -1,50 +1,58 @@
-key: lmc_gc_ngc_1846
+key: lmc_gc-ngc_1978
 table: gc_dwarf_hosted
 location:
-  ra: 76.89584
-  dec: -67.46083
+  ra: 82.18629
+  dec: -66.23636
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
   host: lmc
-  name: NGC 1846
+  name: NGC 1978
   other_name:
-  - SL 243
+  - SL 501
   type: GC
 structure:
-  rhalf: 1.387
-  spatial_units: arcmin
-  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 36.76
+  rhalf_em: 0.27
+  rhalf_ep: 0.27
+  spatial_units: arcsec
+  ellipticity: 0.21
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 55
+  position_angle_em: 1
+  position_angle_ep: 1
+  ref_structure: Niederhofer2024A&A...689A.162N
 distance:
   ref_distance: Milone2023A&A...672A.161M
-  distance_modulus: 18.52
+  distance_modulus: 18.53
 m_v:
-  apparent_magnitude_v: 10.494
-  mean_ebv: 0.05
+  apparent_magnitude_v: 10.045
+  mean_ebv: 0.07
   ref_m_v: Baumgardt2020PASA...37...46B
 proper_motion:
-  pmra: 1.71
-  pmra_em: 0.04
-  pmra_ep: 0.04
-  pmdec: 0.03
+  pmra: 1.76
+  pmra_em: 0.03
+  pmra_ep: 0.03
+  pmdec: 0.4
   pmdec_em: 0.04
   pmdec_ep: 0.04
   ref_proper_motion: Milone2023A&A...672A.161M
 metallicity_spectroscopic:
   metallicity_spectroscopic: -0.49
-  metallicity_spectroscopic_sigma: 0.08
+  metallicity_spectroscopic_sigma: 0.1
   ref_metallicity_spectroscopic: Song2021MNRAS.504.4160S
 velocity:
-  vlos_systemic: 239.2
+  vlos_systemic: 293.1
   vlos_systemic_em: 0.3
-  vlos_systemic_ep: 0.2
-  vlos_sigma_central: 2.1
+  vlos_systemic_ep: 0.3
+  vlos_sigma_central: 3.1
   vlos_sigma_central_em: 0.4
   vlos_sigma_central_ep: 0.3
   ref_vlos: Song2021MNRAS.504.4160S
 age:
-  age: 1.6
+  age: 2.5
   ref_age: Milone2023A&A...672A.161M
 metallicity_isochrone:
-  metallicity_isochrone: -0.4
+  metallicity_isochrone: -0.5
   ref_metallicity_isochrone: Milone2023A&A...672A.161M

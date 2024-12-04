@@ -1,4 +1,4 @@
-key: lmc_gc_ngc_1651
+key: lmc_gc-ngc_1651
 table: gc_dwarf_hosted
 location:
   ra: 69.38429
@@ -13,9 +13,14 @@ name_discovery:
   - LW 12
   type: GC
 structure:
-  rhalf: 0.814
-  spatial_units: arcmin
-  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 26.82
+  rhalf_em: 1.04
+  rhalf_ep: 1.04
+  spatial_units: arcsec
+  ellipticity: 0.01
+  ellipticity_em: 0.04
+  ellipticity_ep: 0.04
+  ref_structure: Niederhofer2024A&A...689A.162N
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.48

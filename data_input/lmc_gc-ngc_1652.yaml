@@ -1,0 +1,32 @@
+key: lmc_gc-ngc_1652
+table: gc_dwarf_hosted
+location:
+  ra: 69.594875
+  dec: -68.67217
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1652
+  other_name:
+  - ESO 55-32
+  - KMHK 23
+  - LW 14
+  - SL 10
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.46
+proper_motion:
+  pmra: 1.87
+  pmra_em: 0.06
+  pmra_ep: 0.06
+  pmdec: -0.37
+  pmdec_em: 0.07
+  pmdec_ep: 0.07
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.6
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 2.25
+  ref_age: Milone2023A&A...672A.161M

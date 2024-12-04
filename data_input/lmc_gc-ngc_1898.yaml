@@ -1,57 +1,56 @@
-key: lmc_gc_ngc_2005
+key: lmc_gc-ngc_1898
 table: gc_dwarf_hosted
 location:
-  ra: 82.54266666666666
-  dec: -69.75277777777778
+  ra: 79.17320833333332
+  dec: -69.65669444444445
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
   host: lmc
-  name: NGC 2005
+  name: NGC 1898
   other_name:
-  - SL 518
+  - SL 350
   type: GC
-structure:
-  rhalf: 12.79
-  rhalf_em: 0.17
-  rhalf_rp: 0.17
-  spatial_units: arcsec
-  spatial_model: plummer
-  ellipticity: 0.02
-  ellipticity_em: 0.02
-  ellipticity_ep: 0.02
-  position_angle: 61
-  position_angle_em: 19
-  position_angle_ep: 19
-  ref_structure: Niederhofer2024A&A...689A.162N
 distance:
   ref_distance: Milone2023A&A...672A.161M
-  distance_modulus: 18.44
+  distance_modulus: 18.6
 m_v:
-  apparent_magnitude_v: 11.291
-  mean_ebv: 0.09
+  apparent_magnitude_v: 11.674
+  mean_ebv: 0.06
   ref_m_v: Bica1996ApJS..102...57B
 proper_motion:
-  pmra: 1.88
-  pmra_em: 0.04
-  pmra_ep: 0.04
-  pmdec: 0.56
-  pmdec_em: 0.04
-  pmdec_ep: 0.04
+  pmra: 1.98
+  pmra_em: 0.05
+  pmra_ep: 0.05
+  pmdec: 0.35
+  pmdec_em: 0.05
+  pmdec_ep: 0.05
   ref_proper_motion: Milone2023A&A...672A.161M
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.77
+  metallicity_spectroscopic: -1.32
   metallicity_spectroscopic_em: 0.1
   metallicity_spectroscopic_ep: 0.1
   ref_metallicity_spectroscopic: Johnson2006ApJ...640..801J
 velocity:
-  vlos_systemic: 270
+  vlos_systemic: 210
   vlos_systemic_em: 5
   vlos_systemic_ep: 5
   ref_vlos: Schommer1992AJ....103..447S
 age:
-  age: 13.1
+  age: 11.7
   ref_age: Milone2023A&A...672A.161M
 metallicity_isochrone:
-  metallicity_isochrone: -1.6
+  metallicity_isochrone: -1.5
   ref_metallicity_isochrone: Milone2023A&A...672A.161M
+structure:
+  rhalf: 25.75
+  rhalf_em: 0.30
+  rhalf_ep: 0.30
+  spatial_units: arcsec
+  ellipticity: 0.07
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  position_angle: 84
+  position_angle_em: 3
+  position_angle_ep: 3
+  ref_structure: Niederhofer2024A&A...689A.162N

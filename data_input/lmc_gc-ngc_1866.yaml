@@ -1,4 +1,4 @@
-key: lmc_gc_ngc_1866
+key: lmc_gc-ngc_1866
 table: gc_dwarf_hosted
 location:
   ra: 78.41104
@@ -13,9 +13,17 @@ name_discovery:
   - LW 163
   type: GC
 structure:
-  rhalf: 0.695
-  spatial_units: arcmin
-  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 29.24
+  rhalf_em: 0.52
+  rhalf_ep: 0.52
+  spatial_units: arcsec
+  ellipticity: 0.06
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  position_angle: 55
+  position_angle_em: 10
+  position_angle_ep: 10
+  ref_structure: Niederhofer2024A&A...689A.162N
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.3

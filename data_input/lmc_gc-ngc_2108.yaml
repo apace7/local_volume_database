@@ -1,0 +1,43 @@
+key: lmc_gc-ngc_2108
+table: gc_dwarf_hosted
+location:
+  ra: 85.98558
+  dec: -69.18136
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 2108
+  other_name:
+  - ESO 57-33
+  - KMHK 1304
+  - SL 686
+structure:
+  rhalf: 27.85
+  rhalf_em: 0.99
+  rhalf_ep: 0.99
+  spatial_units: arcsec
+  ellipticity: 0.18
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.03
+  position_angle: 51
+  position_angle_em: 6
+  position_angle_ep: 6
+  ref_structure: Niederhofer2024A&A...689A.162N
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.48
+proper_motion:
+  pmra: 1.72
+  pmra_em: 0.06
+  pmra_ep: 0.06
+  pmdec: 0.84
+  pmdec_em: 0.08
+  pmdec_ep: 0.08
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.3
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 1.25
+  ref_age: Milone2023A&A...672A.161M

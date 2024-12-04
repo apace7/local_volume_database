@@ -1,0 +1,27 @@
+key: lmc_gc-ngc_1858
+table: gc_dwarf_hosted
+location:
+  ra: 77.50029166666667
+  dec: -68.90419444444446
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1858
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.46
+proper_motion:
+  pmra: 1.87
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  pmdec: 0.25
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.2
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 0.017
+  ref_age: Milone2023A&A...672A.161M

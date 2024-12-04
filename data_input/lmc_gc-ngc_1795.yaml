@@ -1,0 +1,27 @@
+key: lmc_gc-ngc_1795
+table: gc_dwarf_hosted
+location:
+  ra: 74.947292
+  dec: -69.80181
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1795
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.45
+proper_motion:
+  pmra: 1.9
+  pmra_em: 0.05
+  pmra_ep: 0.05
+  pmdec: 0.23
+  pmdec_em: 0.11
+  pmdec_ep: 0.11
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 1.85
+  ref_age: Milone2023A&A...672A.161M
