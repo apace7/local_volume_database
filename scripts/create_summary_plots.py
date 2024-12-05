@@ -1059,3 +1059,27 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     pdf.savefig()
     plt.close()
     print("distance vs M_V finished")
+
+    print("surface brightness plots")
+
+    plt.figure(figsize = (6.4*2, 4.8*2))
+
+    plt.gca().set_ylabel(r'$\mu~({\rm mag~arcsec^{-2}})$')
+    plt.gca().set_xlabel(r'$M_V$')
+    plt.plot(dwarf_all['M_V'], dwarf_all['surface_brightness_rhalf'], 'o')
+    plt.gca().invert_yaxis()
+    plt.tight_layout()
+    pdf.savefig()
+    plt.close()
+
+    ## second plots
+    plt.figure(figsize = (6.4*2, 4.8*2))
+    plt.gca().set_ylabel(r'$\mu~({\rm mag~arcsec^{-2}})$')
+    plt.gca().set_xlabel(r'$d~({\rm Mpc})$')
+    plt.plot(dwarf_all['distance']/1e3, dwarf_all['surface_brightness_rhalf'], 'o')
+    plt.gca().invert_yaxis()
+    plt.tight_layout()
+    pdf.savefig()
+    plt.close() 
+
+    print("surface brightness plots finished")
