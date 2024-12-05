@@ -1,0 +1,27 @@
+key: lmc_gc-ogle_cl_lmc_390
+table: gc_dwarf_hosted
+location:
+  ra: 80.3287917
+  dec: -69.47606
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: OGLE-CL LMC 390
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.44
+proper_motion:
+  pmra: 1.99
+  pmra_em: 0.21
+  pmra_ep: 0.21
+  pmdec: 0.6
+  pmdec_em: 0.29
+  pmdec_ep: 0.29
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.5
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 1.55
+  ref_age: Milone2023A&A...672A.161M

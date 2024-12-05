@@ -1,43 +1,43 @@
-key: lmc_gc_ngc_1786
+key: lmc_gc-ngc_1939
 table: gc_dwarf_hosted
 location:
-  ra: 74.78329166666666
-  dec: -67.74552777777778
+  ra: 80.35987499999999
+  dec: -69.94955555555556
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
   host: lmc
-  name: NGC 1786
-  other_name:
-  - SL 149
+  name: NGC 1939
   type: GC
+  other_name:
+  - SL 414
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.42
 m_v:
-  apparent_magnitude_v: 10.601
-  mean_ebv: 0.09
+  apparent_magnitude_v: 11.594
+  mean_ebv: 0.06
   ref_m_v: Bica1996ApJS..102...57B
 proper_motion:
-  pmra: 1.95
-  pmra_em: 0.03
-  pmra_ep: 0.03
-  pmdec: 0.06
+  pmra: 2.21
+  pmra_em: 0.07
+  pmra_ep: 0.07
+  pmdec: 0.44
   pmdec_em: 0.03
   pmdec_ep: 0.03
   ref_proper_motion: Milone2023A&A...672A.161M
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.77
-  metallicity_spectroscopic_em: 0.08
-  metallicity_spectroscopic_ep: 0.08
-  ref_metallicity_spectroscopic: Sharma2010AJ....139..878S
+  metallicity_spectroscopic: -2
+  metallicity_spectroscopic_em: 0.15
+  metallicity_spectroscopic_ep: 0.15
+  ref_metallicity_spectroscopic: Piatti2018MNRAS.481...49P
 velocity:
-  vlos_systemic: 279.9
-  vlos_systemic_em: 4.9
-  vlos_systemic_ep: 4.9
-  ref_vlos: Sharma2010AJ....139..878S
+  vlos_systemic: 258.8
+  vlos_systemic_em: 7.4
+  vlos_systemic_ep: 7.4
+  ref_vlos: Piatti2018MNRAS.481...49P
 age:
-  age: 12.9
+  age: 13.3
   ref_age: Milone2023A&A...672A.161M
 metallicity_isochrone:
   metallicity_isochrone: -1.5

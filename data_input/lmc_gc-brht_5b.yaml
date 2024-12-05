@@ -1,0 +1,29 @@
+key: lmc_gc-brht_5b
+table: gc_dwarf_hosted
+location:
+  ra: 77.21937499999999
+  dec: -68.755
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: BRHT 5b
+  other_name:
+  - OGLE-CL LMC 145
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.4
+proper_motion:
+  pmra: 2.09
+  pmra_em: 0.03
+  pmra_ep: 0.03
+  pmdec: 0.04
+  pmdec_em: 0.09
+  pmdec_ep: 0.09
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 0.015
+  ref_age: Milone2023A&A...672A.161M

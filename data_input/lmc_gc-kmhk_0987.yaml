@@ -1,0 +1,29 @@
+key: lmc_gc-kmhk_0987
+table: gc_dwarf_hosted
+location:
+  ra: 82.63629166666666
+  dec: -66.90344444444445
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: KMHK 987
+  ref_discovery:
+  - Kontizas1990A&AS...84..527K
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.52
+proper_motion:
+  pmra: 1.55
+  pmra_em: 0.03
+  pmra_ep: 0.03
+  pmdec: 0.47
+  pmdec_em: 0.04
+  pmdec_ep: 0.04
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.2
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 0.017
+  ref_age: Milone2023A&A...672A.161M

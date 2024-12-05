@@ -1,0 +1,32 @@
+key: lmc_gc-kmk88_49
+table: gc_dwarf_hosted
+location:
+  ra: 80.29483333333332
+  dec: -69.94175
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 1988
+  host: lmc
+  name: KMK88 49
+  other_name:
+  - OGLE-CL LMC 389
+  ref_discovery:
+  - Kontizas1988AJ.....96.1625K
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.44
+proper_motion:
+  pmra: 2.51
+  pmra_em: 0.41
+  pmra_ep: 0.41
+  pmdec: 0.34
+  pmdec_em: 0.13
+  pmdec_ep: 0.13
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 0.5
+  ref_age: Milone2023A&A...672A.161M

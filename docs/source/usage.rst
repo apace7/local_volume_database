@@ -186,9 +186,9 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **abbreviation** -- Common abbreviation for system (currently only for MW dwarf galaxies). 
   
-  * **type** -- dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster (this options are not complete here). This key is generally incomplete.
+  * **type** -- Morphological type. This includes: dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster (this is not the full set of options). This key is generally incomplete.
 
-* **notes**--list of notes  in LaTeX. These are added to the end of the summary pdf. 
+* **notes** -- List of notes in LaTeX. The notes are added to the summary pdf. 
 
 * **structure** -- yaml collection
   
@@ -373,6 +373,25 @@ Users of the LVDB are encouraged to cite the LVDB input (of the systems studied 
 
 If you use the LVDB in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the LVDB overview paper (`Pace 2024 <https://ui.adsabs.harvard.edu/abs/2024arXiv241107424P/abstract>`_). 
 An example in LaTeX that can be added to the acknowledgments section is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }} \citep{Pace2024arXiv241107424P}.
+
+.. code-block:: bibtex
+
+  @ARTICLE{Pace2024arXiv241107424P,
+    author = {{Pace}, Andrew B.},
+        title = "{The Local Volume Database: a library of the observed properties of nearby dwarf galaxies and star clusters}",
+    journal = {arXiv e-prints},
+    keywords = {Astrophysics - Astrophysics of Galaxies},
+        year = 2024,
+        month = nov,
+        eid = {arXiv:2411.07424},
+        pages = {arXiv:2411.07424},
+        doi = {10.48550/arXiv.2411.07424},
+  archivePrefix = {arXiv},
+    eprint = {2411.07424},
+  primaryClass = {astro-ph.GA},
+    adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv241107424P},
+    adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+  }
 
 The LVDB releases are also indexed on `zenodo <https://doi.org/10.5281/zenodo.14076714>`_.
 

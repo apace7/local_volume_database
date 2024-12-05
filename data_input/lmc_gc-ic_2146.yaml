@@ -1,0 +1,32 @@
+key: lmc_gc-ic_2146
+table: gc_dwarf_hosted
+location:
+  ra: 84.447375
+  dec: -74.783694
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: IC 2146
+  other_name:
+  - ESO 33-26
+  - KMHK 1178
+  - LW 258
+  - SL 632
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.42
+proper_motion:
+  pmra: 2.02
+  pmra_em: 0.03
+  pmra_ep: 0.03
+  pmdec: 0.73
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 2.2
+  ref_age: Milone2023A&A...672A.161M

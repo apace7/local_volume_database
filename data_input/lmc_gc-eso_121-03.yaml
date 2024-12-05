@@ -1,0 +1,32 @@
+key: lmc_gc-eso_121-03
+table: gc_dwarf_hosted
+location:
+  ra: 90.51
+  dec: -60.524
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: ESO 121-03
+  other_name:
+  - KMHK 1591
+  type: GC
+  ref_discovery:
+  - Kontizas1990A&AS...84..527K
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.34
+proper_motion:
+  pmra: 1.61
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  pmdec: 0.92
+  pmdec_em: 0.06
+  pmdec_ep: 0.06
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.8
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 6.9
+  ref_age: Milone2023A&A...672A.161M

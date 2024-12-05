@@ -1,0 +1,32 @@
+key: lmc_gc-kmhk_0250
+table: gc_dwarf_hosted
+location:
+  ra: 73.62633
+  dec: -69.920861
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: KMHK 250
+  other_name:
+  - SL 90
+  ref_discovery:
+  - Shapley1963IrAJ....6...74S
+  - Kontizas1990A&AS...84..527K
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.51
+proper_motion:
+  pmra: 2.01
+  pmra_em: 0.09
+  pmra_ep: 0.09
+  pmdec: 0.01
+  pmdec_em: 0.08
+  pmdec_ep: 0.08
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.5
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 1.8
+  ref_age: Milone2023A&A...672A.161M

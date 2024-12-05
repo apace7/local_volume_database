@@ -1,0 +1,32 @@
+key: lmc_gc-kmhk_0240
+table: gc_dwarf_hosted
+location:
+  ra: 73.612
+  dec: -68.24864
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: KMHK 240
+  other_name:
+  - SL 92
+  ref_discovery:
+  - Shapley1963IrAJ....6...74S
+  - Kontizas1990A&AS...84..527K
+distance:
+  ref_distance: Milone2023A&A...672A.161M
+  distance_modulus: 18.52
+proper_motion:
+  pmra: 2.26
+  pmra_em: 0.12
+  pmra_ep: 0.12
+  pmdec: -0.01
+  pmdec_em: 0.11
+  pmdec_ep: 0.11
+  ref_proper_motion: Milone2023A&A...672A.161M
+metallicity_isochrone:
+  metallicity_isochrone: -0.5
+  ref_metallicity_isochrone: Milone2023A&A...672A.161M
+age:
+  age: 2.1
+  ref_age: Milone2023A&A...672A.161M
