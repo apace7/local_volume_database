@@ -1,0 +1,54 @@
+key: fornax_1-gc5
+table: gc_dwarf_hosted
+location:
+  ra: 40.5879167
+  dec: -34.101944
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 1961
+  host: fornax_1
+  name: Fornax-GC5
+  ref_discovery:
+  - Hodge1961AJ.....66...83H
+notes:
+- distance is from RRL \citep{Mackey2003MNRAS.345..747M} and metallicity corrected by \citep{deBoer2016A&A...590A..35D}
+structure:
+  rhalf: 0.1098
+  rhalf_em: 0.0046
+  rhalf_ep: 0.0046
+  ref_structure: Mackey2003MNRAS.340..175M
+distance:
+  distance_modulus: 20.80
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Mackey2003MNRAS.345..747M
+m_v:
+  apparent_magnitude_v: 13.61
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.5
+  ref_m_v: Mackey2003MNRAS.340..175M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.1
+  metallicity_spectroscopic_em: 0.1
+  metallicity_spectroscopic_ep: 0.1
+  ref_metallicity_spectroscopic: Larsen2012A&A...546A..53L
+structure_king:
+  rcore: 0.03467
+  rcore_em: 0.00283
+  rcore_ep: 0.00283
+  rking: 1.267
+  ref_structure_king: Mackey2003MNRAS.340..175M
+velocity:
+  vlos_systemic: 60.6
+  vlos_systemic_em: 0.2
+  vlos_systemic_ep: 0.2
+  vlos_sigma: 4.6
+  vlos_sigma_em: 0.2
+  vlos_sigma_ep: 0.2
+  ref_vlos: Larsen2012A&A...546A..53L
+age:
+  age: 11.5
+  age_em: 1.5
+  age_ep: 1.5
+  ref_age: deBoer2016A&A...590A..35D

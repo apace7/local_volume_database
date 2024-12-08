@@ -1,0 +1,53 @@
+key: eridanus_2-gc1
+table: gc_dwarf_hosted
+location:
+  ra: 56.093333
+  dec: -43.5333611
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: eridanus_2
+  name: Eri II-GC
+  ref_discovery:
+  - Koposov2015ApJ...805..130K
+  - Crnojevic2016ApJ...824L..14C
+structure:
+  rhalf: 0.1567
+  rhalf_em: 0.01
+  rhalf_ep: 0.01
+  ellipticity: 0.31
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.05
+  position_angle: 75.0
+  position_angle_em: 6
+  position_angle_ep: 6
+  ref_structure: Simon2021ApJ...908...18S
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 19.95
+  apparent_magnitude_v_em: 0.3
+  apparent_magnitude_v_ep: 0.3
+  ref_m_v: Simon2021ApJ...908...18S
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.0
+  ref_metallicity_spectroscopic: Simon2021ApJ...908...18S
+velocity:
+  vlos_systemic: 79.7
+  vlos_systemic_em: 3.8
+  vlos_systemic_ep: 3.1
+  vlos_sigma: 2.3
+  vlos_sigma_em: 2.3
+  vlos_sigma_ep: 5.3
+  ref_vlos: Zoutendijk2020A&A...635A.107Z
+age:
+  age: 13.2
+  age_em: 0.3
+  age_ep: 0.3
+  ref_age: Weisz2023ApJ...948...50W
+metallicity_isochrone:
+  metallicity_isochrone: -2.75
+  metallicity_isochrone_em: 0.2
+  metallicity_isochrone_ep: 0.2
+  ref_metallicity_isochrone: Weisz2023ApJ...948...50W

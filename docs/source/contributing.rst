@@ -59,6 +59,23 @@ List of current options for the tables:
 
 The new system will be added to the catalogs by running the ``create_database.sh`` script. 
 
+LVDB key 
+---------------------------------------------
+
+The LVDB key is the unique identifier for each system. Some guidelines on the YAML ``key``:
+
+* All keys should be lowercase with no spaces. Spaces in names are preferred to be replaced with underscores.
+
+* All roman numerals should be converted to arabic numbers (IV -> 4). 
+
+* For satellite systems that have generic coordinate names (i.e. ``dw1305p4206``), the host key should be added in front of the name with a dash before the name (i.e. ``m_094-dw1305p4206``). In general, the name in the discovery paper is kept which leads to some host have dwarf satellites with inhomogenuous names (some combination of ``dw``, ``d``, ``lv``, ``dw-a``, etc). 
+
+* For most globular clusters/star clusters (MW clusters are the expection), the key should be host key + '_gc-' + name (i.e. ``lmc_gc-ngc_1850``).  
+
+
+
+
+
 Table/Catalog Construction 
 ---------------------------------------------
 

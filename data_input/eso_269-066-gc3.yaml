@@ -1,0 +1,44 @@
+key: eso_269-066-gc3
+table: gc_dwarf_hosted
+location:
+  ra: 198.28683
+  dec: -44.8896083
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2008
+  host: eso_269-066
+  name: ESO 269-066-GC3
+  ref_discovery:
+  - Georgiev2009MNRAS.392..879G
+  type: NSC
+notes:
+- Nuclear star cluster
+structure:
+  rhalf: 0.002249834274
+  rhalf_em: 0.0001169913823
+  rhalf_ep: 0.0001169913823
+  ellipticity: 0.13
+  ref_structure: Georgiev2009MNRAS.392..879G
+distance:
+  distance_fixed_host: True
+m_v:
+  apparent_magnitude_v: 17.92
+  apparent_magnitude_v_em: 0.06
+  apparent_magnitude_v_ep: 0.06
+  ref_m_v: Georgiev2009MNRAS.392..879G
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.5
+  metallicity_spectroscopic_em: 0.2
+  metallicity_spectroscopic_ep: 0.2
+  ref_metallicity_spectroscopic: Sharina2017MNRAS.471.1955S
+velocity:
+  vlos_systemic: 774
+  vlos_systemic_em: 6
+  vlos_systemic_ep: 6
+  ref_vlos: Sharina2017MNRAS.471.1955S
+age:
+  age: 12.6
+  age_em: 1.5
+  age_ep: 1.5
+  ref_age: Sharina2017MNRAS.471.1955S

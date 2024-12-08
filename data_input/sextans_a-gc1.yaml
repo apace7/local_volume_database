@@ -1,0 +1,47 @@
+key: sextans_a-gc1
+table: gc_dwarf_hosted
+location:
+  ra: 152.6825
+  dec: -4.72467
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2002
+  host: sextans_a
+  name: Sextans A-GC1
+  # other_name:
+  # - list
+  ref_discovery:
+  - Pedreros2002IAUS..207..177P
+  - Beasley2019MNRAS.487.1986B
+structure:
+  rhalf: 0.0183
+  rhalf_em: 0.0005
+  rhalf_ep: 0.0005
+  ellipticity: 0.12
+  ellipticity_em: 0.01
+  ellipticity_ep: 0.01
+  ref_structure: Beasley2019MNRAS.487.1986B
+distance:
+  distance_fixed_host: True
+m_v:
+  apparent_magnitude_v: 18.04
+  ref_m_v: Beasley2019MNRAS.487.1986B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.14
+  metallicity_spectroscopic_em: 0.04
+  metallicity_spectroscopic_ep: 0.04
+  ref_metallicity_spectroscopic: Gvozdenko2024A&A...685A.154G
+velocity:
+  vlos_systemic: 340.4
+  vlos_systemic_em: 0.6
+  vlos_systemic_ep: 0.6
+  vlos_sigma: 5.41
+  vlos_sigma_em: 0.77
+  vlos_sigma_ep: 0.77
+  ref_vlos: Gvozdenko2024A&A...685A.154G
+age:
+  age: 8.6
+  age_em: 2.7
+  age_ep: 2.7
+  ref_age: Beasley2019MNRAS.487.1986B

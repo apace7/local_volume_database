@@ -1,0 +1,33 @@
+key: andromeda_01-gc1
+table: gc_dwarf_hosted
+location:
+  ra: 11.42881
+  dec: 38.03162
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2000
+  host: andromeda_01
+  name: And I-GC1
+  ref_discovery:
+  - Grebel2000AGM....17..P61G
+  - Caldwell2017PASA...34...39C
+notes:
+- apparent magnitude V errors from Vera mag \citep{Caldwell2017PASA...34...39C}
+structure:
+  rhalf: 0.019
+  rhalf_em: 0.002
+  rhalf_ep: 0.002
+  ref_structure: Caldwell2017PASA...34...39C
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 20.1
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Caldwell2017PASA...34...39C
+metallicity_isochrone:
+  metallicity_isochrone: -1.5
+  metallicity_isochrone_em: 0.4
+  metallicity_isochrone_ep: 0.4
+  ref_metallicity_isochrone: Caldwell2017PASA...34...39C
