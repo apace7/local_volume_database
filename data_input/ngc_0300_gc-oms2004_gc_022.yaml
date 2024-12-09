@@ -1,0 +1,31 @@
+key: ngc_0300_gc-oms2004_gc_022
+table: candidate
+location:
+  ra: 13.480625
+  dec: -37.395272
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2004
+  host: lmc
+  name: '[OMS2004] NGC 300 22'
+  other_name:
+  - NGC 300db
+  ref_discovery:
+  - Olsen2004AJ....127.2674O
+notes:
+- Possible foreground star \citep{Nantais2010AJ....139.1178N}.
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.23
+  metallicity_spectroscopic_em: 0.81
+  metallicity_spectroscopic_ep: 0.81
+  ref_metallicity_spectroscopic: Nantais2010AJ....139.1178N
+velocity:
+  vlos_systemic: -123.0
+  vlos_systemic_em: 46.0
+  vlos_systemic_ep: 46.0
+  ref_vlos: Nantais2010AJ....139.1178N

@@ -1,0 +1,35 @@
+key: ngc_0300_gc-ksl2002_gc_05
+table: gc_dwarf_hosted
+location:
+  ra: 13.705625
+  dec: -37.725139
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2002
+  host: lmc
+  name: '[KSL2002] GC 5'
+  other_name:
+  - NGC 300-05
+  ref_discovery:
+  - Kim2002JKAS...35....9K
+notes:
+- Unclear if extinction correction has been applied.
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 19.076
+  apparent_magnitude_i: 18.29
+  apparent_magnitude_b: 19.697
+  ref_m_v: Kim2002JKAS...35....9K
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.57
+  metallicity_spectroscopic_em: 0.52
+  metallicity_spectroscopic_ep: 0.52
+  ref_metallicity_spectroscopic: Nantais2010AJ....139.1178N
+velocity:
+  vlos_systemic: 120.0
+  vlos_systemic_em: 35.0
+  vlos_systemic_ep: 35.0
+  ref_vlos: Nantais2010AJ....139.1178N

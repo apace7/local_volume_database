@@ -208,19 +208,23 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **distance_modulus** --  distance modulus of the system. [mag] This quantity is used to compute the distance in kpc for each system.
 
-  * **distance_fixed_host** -- True/False. This option fixes the distance of the system to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy, systems without an independent distance measurement, and/or new candidate satellites in more distant systems (>3 Mpc)
+  * **distance_fixed_host** -- True/False. This option fixes the distance of the system to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy, systems without an independent distance measurement, and/or new candidate satellites in more distant systems (>3 Mpc).
+
+  **distance_measurement_method** -- Refers to the method used for the distance measurement ['host', 'trgb', 'cmd', 'hb', 'rrl'].'hb'=Horizontal branch
 
   * **ref_distance**
 
 * **m_v** -- yaml collection
 
-  * **apparent_magnitude_v** -- Apparent V-band magnitude of the system. This quantity is corrected for extinction. This quantity is combined with **distance_modulus** to compute the absolute V-band magnitude in the combined tables. 
+  * **apparent_magnitude_v** -- Apparent V-band magnitude of the system (Johnson-Kron-Cousins UBVRI photometric system). This quantity is corrected for extinction. This quantity is combined with **distance_modulus** to compute the absolute V-band magnitude in the combined tables. 
 
-  * **apparent_magnitude_i** -- Apparent I-band magnitude of the system. This quantity is corrected for extinction.  This column is rarely used.
+  * **apparent_magnitude_i** -- Apparent I-band magnitude of the system (Johnson-Kron-Cousins UBVRI photometric system). This quantity is corrected for extinction.
 
-  * **mean_ebv** -- Mean E(B-V) for reference.  This is not currently used in calculations. 
+  * **apparent_magnitude_b** -- Apparent B-band magnitude of the system (Johnson-Kron-Cousins UBVRI photometric system). This quantity is corrected for extinction.
 
-  * **ref_m_v** -- reference
+  * **mean_ebv** -- Mean E(B-V) for reference.  This is included for reference and is not used in calculations. 
+
+  * **ref_m_v** -- Reference.
 
 * **velocity** -- yaml collection. stellar velocity/kinematics
 

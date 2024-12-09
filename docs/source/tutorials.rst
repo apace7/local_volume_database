@@ -76,14 +76,19 @@ In addition to the example above, there are two folders with example ipython not
 Some Recommendations 
 ---------------------------------------------
 
-For scientific analysis, I would recommendation fixing the LVDB version to a tagged release.
+For scientific analysis, I would recommendation fixing the LVDB version to a tagged GitHub release.
 Alternatively, a specific commit can be useed instead of the latest github version.  
 
 For example, this loads an older version of the data/dwarf_all.csv table for either a tagged release or a specific commit.
 
 .. code-block:: python
-    ## tagged release
+
+    ## tagged GitHub release
     dsph_mw = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v1.0.0/dwarf_all.csv')
     ## specific commit
     dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/3a473c7f839f228a5702fa0293cebfea5fe3bcb6/data/dwarf_all.csv')
 
+Interactive Website
+---------------------------------------------
+
+An interactive version of the LVDB is available here: [link](https://lvd-interactive.streamlit.app/) (made by Katya Gozman).

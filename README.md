@@ -24,6 +24,8 @@ The tables can be directly loaded into Jupyter notebooks without having to downl
     # or from a  github branch
     dwarf_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_mw.csv') 
 
+An interactive version of the LVDB is available here: [link](https://lvd-interactive.streamlit.app/) (made by Katya Gozman).
+
 ### INSTALLATION and USE:
 
 Users that only want to use the catalogs do not need to install the package. 

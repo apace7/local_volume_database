@@ -95,7 +95,7 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
     missing_host = []
     with open(output, 'w+') as f:
         for i in range(len(input_table)):
-            end_line = '\\\\'
+            end_line = '\\\\\\relax'
             if i == len(input_table)-1:
                 end_line=''
             k = input_table['key'][i]
@@ -263,7 +263,7 @@ def create_latex_table_structure(output, output_citations, input_table, **kwargs
                 str_rhalf = make_latex_value(mean[0], mean[0]-mean[1], mean[2]-mean[0], n=round_rhalf)
         #     rhalf_pc = mean[0]
         #     rhalf_pc_error = (mean[2]-mean[1])/2.
-            end_line = '\\\\'
+            end_line = '\\\\\\relax'
             if i == len(input_table)-1:
                 end_line=''
             ## output each row of our table, plus the citations at the end of the line
@@ -331,7 +331,7 @@ def create_latex_table_kinematics(output, output_citations, input_table, **kwarg
                 for kk in letter_to_list:
                     letter_to_list_string+=kk  +','
                 letter_to_list_string = letter_to_list_string[:-1]
-            end_line = '\\\\'
+            end_line = '\\\\\\relax'
             if i == len(input_table)-1:
                 end_line=''
             name = lvdb.latex_name(input_table['name'][i])
@@ -444,7 +444,7 @@ def create_latex_table_mass(output, output_citations, input_table):
                 m_HI_str = ''
                 m_HI_m_star_str=''
 
-            end_line = '\\\\'
+            end_line = '\\\\\\relax'
             if i == len(input_table)-1:
                 end_line=''
         #     mstar_s = "{:0.1e}".format(mstar)
@@ -587,7 +587,7 @@ with open(output, 'w+') as f:
     for candidate in range(len(table_list_sort)):
         yaml_name = table_list_sort[candidate][0]
 #         print(yaml_name)
-        end_line = '\\\\'
+        end_line = '\\\\\\relax'
         if candidate == len(table_list_sort)-1:
             end_line=''
         k = yaml_name
@@ -794,7 +794,7 @@ with open(output, 'w+') as f:
                     mv_str = make_latex_value(stream_yaml['m_v']['apparent_magnitude_v']-stream_yaml['distance']['distance_modulus'], np.ma.masked,np.ma.masked, n=1)
                 if 'm_v' in stream_yaml.keys() and 'apparent_magnitude_v' in stream_yaml['m_v'].keys():
                     v_str = make_latex_value(stream_yaml['m_v']['apparent_magnitude_v'], np.ma.masked,np.ma.masked, n=1) 
-                end_line = '\\\\'
+                end_line = '\\\\\\relax'
                 if candidate == len(table_list_sort)-1:
                     end_line=''
                 ## output each row of our table, plus the citations at the end of the line
@@ -833,7 +833,7 @@ def create_notes_latex():
             x = lvdb.get_notes(dwarf_mw['key'][i], print_output=False)
             if x is not None:
                 for kk in x:
-                    f.write("\item "  + dwarf_mw['name'][i] +"---"+ kk + '\n')
+                    f.write("\item " +  "\\relax " + dwarf_mw['name'][i] +"---"+ kk + "\\relax" + '\n')
 
     dwarf_m31  = dwarf_all[np.logical_or(dwarf_all['host']=='m_031', dwarf_all['host']=='m_033')]
     print("number of M31 satellites", len(dwarf_m31))
@@ -844,7 +844,7 @@ def create_notes_latex():
             x = lvdb.get_notes(dwarf_m31['key'][i], print_output=False)
             if x is not None:
                 for kk in x:
-                    f.write("\item "  + dwarf_m31['name'][i] +"---"+ kk + '\n')
+                    f.write("\item " +  "\\relax " + dwarf_m31['name'][i] +"---"+ kk + "\\relax" + '\n')
 
     dwarf_lf_local  = dwarf_all[np.logical_and.reduce((dwarf_all['host']!='m_031', dwarf_all['host']!='m_033', dwarf_all['host']!='mw', dwarf_all['host']!='lmc',  dwarf_all['distance']<3000))]
     print("number of LF dwarf galaxies", len(dwarf_lf_local), len(dsph_lf))
@@ -856,7 +856,7 @@ def create_notes_latex():
             x = lvdb.get_notes(dwarf_lf_local['key'][i], print_output=False)
             if x is not None:
                 for kk in x:
-                    f.write("\item "  + dwarf_lf_local['name'][i] +"---"+ kk + '\n')
+                    f.write("\item " +  "\\relax " + dwarf_lf_local['name'][i] +"---"+ kk + "\\relax" + '\n')
 
     dwarf_lf_distant  = dwarf_all[ dwarf_all['distance']>=3000]
     print("number of LV dwarf galaxies", len(dwarf_lf_local), len(dwarf_lf_distant))
@@ -868,7 +868,7 @@ def create_notes_latex():
             x = lvdb.get_notes(dwarf_lf_distant['key'][i], print_output=False)
             if x is not None:
                 for kk in x:
-                    f.write("\item "  + dwarf_lf_distant['name'][i] +"---"+ kk + '\n')
+                    f.write("\item " +  "\\relax " + dwarf_lf_distant['name'][i] +"---"+ kk + "\\relax" + '\n')
 
     output = 'table/table_data/notes_gc_ambiguous.tex'
     with open(output, 'w+') as f:
@@ -877,7 +877,7 @@ def create_notes_latex():
             x = lvdb.get_notes(gc_ufsc['key'][i], print_output=False)
             if x is not None:
                 for kk in x:
-                    f.write("\item "  + gc_ufsc['name'][i] +"---"+ kk + '\n')
+                    f.write("\item " +  "\\relax " + gc_ufsc['name'][i] +"---"+ kk + "\\relax" + '\n')
 
     output = 'table/table_data/notes_gc_mw_new.tex'
     with open(output, 'w+') as f:
@@ -886,7 +886,7 @@ def create_notes_latex():
             x = lvdb.get_notes(gc_disk['key'][i], print_output=False)
             if x is not None:
                 for kk in x:
-                    f.write("\item "  + gc_disk['name'][i] +"---"+ kk + '\n')
+                    f.write("\item " +  "\\relax " + gc_disk['name'][i] +"---"+ kk + "\\relax" + '\n')
 
     output = 'table/table_data/notes_gc_dwarf.tex'
     with open(output, 'w+') as f:
@@ -895,7 +895,7 @@ def create_notes_latex():
             x = lvdb.get_notes(gc_dwarf['key'][i], print_output=False)
             if x is not None:
                 for kk in x:
-                    f.write("\item "  + gc_dwarf['name'][i] +"---"+ kk + '\n')
+                    f.write("\item " +  "\\relax " + gc_dwarf['name'][i] +"---"+ kk + "\\relax" + '\n')
 
     output = 'table/table_data/notes_gc_harris.tex'
     with open(output, 'w+') as f:
@@ -904,7 +904,7 @@ def create_notes_latex():
             x = lvdb.get_notes(gc_harris['key'][i], print_output=False)
             if x is not None:
                 for kk in x:
-                    f.write("\item "  + gc_harris['name'][i] +"---"+ kk + '\n')
+                    f.write("\item " +  "\\relax " + gc_harris['name'][i] +"---"+ kk + "\\relax" + '\n')
     
     output = 'table/table_data/notes_candidate.tex'
     with open(output, 'w+') as f:
@@ -913,7 +913,7 @@ def create_notes_latex():
             x = lvdb.get_notes(table_candidate['key'][i], print_output=False)
             if x is not None:
                 for kk in x:
-                    f.write("\item "  + table_candidate['name'][i] +"---"+ kk + '\n')
+                    f.write("\item " +  "\\relax "  + table_candidate['name'][i] +"---"+ kk +  "\\relax" +"\n")
 
                     
 

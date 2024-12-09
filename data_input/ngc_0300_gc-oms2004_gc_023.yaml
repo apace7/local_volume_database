@@ -1,0 +1,23 @@
+key: ngc_0300_gc-oms2004_gc_023
+table: gc_dwarf_hosted
+location:
+  ra: 13.481917
+  dec: -37.543717
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2004
+  host: lmc
+  name: '[OMS2004] NGC 300 23'
+  other_name:
+  - NGC 300s
+  ref_discovery:
+  - Olsen2004AJ....127.2674O
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+velocity:
+  vlos_systemic: 249.0
+  vlos_systemic_em: 29.0
+  vlos_systemic_ep: 29.0
+  ref_vlos: Olsen2004AJ....127.2674O
