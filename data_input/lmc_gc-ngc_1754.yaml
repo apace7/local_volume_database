@@ -14,7 +14,9 @@ name_discovery:
 distance:
   distance_fixed_host: True
 structure:
-  rhalf: 0.15
+  rhalf: 3.27
+  rhalf_em: 0.56
+  rhalf_ep: 0.59
   spatial_units: arcmin
   ref_structure: Mackey2003MNRAS.338...85M
 m_v:

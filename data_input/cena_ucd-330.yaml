@@ -1,7 +1,7 @@
 key: cena_ucd-330
 table: gc_other
 location:
-  ra: 2201.47625
+  ra: 201.47625
   dec: -42.990389
 name_discovery:
   confirmed_dwarf: 0

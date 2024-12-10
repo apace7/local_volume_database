@@ -1,0 +1,14 @@
+key: lmc_gc-ngc_1847
+table: gc_dwarf_hosted
+location:
+  ra: 76.784167
+  dec: -68.970969
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1847
+  other_name:
+  - ESO 56-66
+  - SL 240
+  - OGLE-CL LMC 118

@@ -1,0 +1,14 @@
+key: lmc_gc-ngc_2100
+table: gc_dwarf_hosted
+location:
+  ra: 85.53
+  dec: -69.207497
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 2100
+  other_name:
+  - ESO 57-25
+  - KMHK 1257
+  - SL 662

@@ -12,11 +12,12 @@ name_discovery:
   - SL 215
   type: GC
 structure:
-  rhalf: 13
-  rhalf_em: 1
-  rhalf_ep: 3
+  rhalf: 3.96
+  rhalf_em: 0.30
+  rhalf_ep: 0.32
   spatial_units: arcsec
-  ref_structure: Giusti2024A&A...687A.310G
+  spatial_model: eff
+  ref_structure: Mackey2003MNRAS.338..120M
 distance:
   distance_modulus: 18.58
   ref_distance: Giusti2024A&A...686A...6G

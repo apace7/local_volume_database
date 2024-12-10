@@ -1,0 +1,24 @@
+key: smc_gc-ngc_0361
+table: gc_dwarf_hosted
+location:
+  ra: 15.546292
+  dec: -71.607028
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: NGC 361
+  other_name:
+  - Lindsay 67
+  - Kron 46
+  - ESO 51-12
+structure:
+  rhalf: 18.02
+  rhalf_em: 2.13
+  rhalf_ep: 2.22
+  spatial_units: arcsec
+  spatial_model: eff
+  ref_structure: Mackey2003MNRAS.338..120M
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

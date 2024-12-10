@@ -1,0 +1,14 @@
+key: lmc_gc-ngc_2153
+table: gc_dwarf_hosted
+location:
+  ra: 89.466542
+  dec: -66.400575
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 2153
+  other_name:
+  - KMHK 1555
+  - SL 792
+  - ESO 86-43

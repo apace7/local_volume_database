@@ -9,9 +9,12 @@ name_discovery:
   host: smc
   name: NGC 416
 structure:
-  rhalf: 2.65
+  rhalf: 7.83
+  rhalf_em: 0.79
+  rhalf_ep: 0.84
   spatial_units: arcsec
-  ref_structure: Glatt2009AJ....138.1403G
+  spatial_model: eff
+  ref_structure: Mackey2003MNRAS.338..120M
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.96

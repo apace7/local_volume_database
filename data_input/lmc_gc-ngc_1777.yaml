@@ -1,0 +1,15 @@
+key: lmc_gc-ngc_1777
+table: gc_dwarf_hosted
+location:
+  ra: 73.95
+  dec: -74.283333
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1777
+  other_name:
+  - KMHK 328
+  - ESO 33-1
+  - LW 96
+  - SL 121

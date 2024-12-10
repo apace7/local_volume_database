@@ -1,0 +1,24 @@
+key: smc_gc-ngc_0176
+table: gc_dwarf_hosted
+location:
+  ra: 8.9945
+  dec: -73.165694
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: NGC 176
+  other_name:
+  - Lindsay 16
+  - Kron 12
+  - ESO 29-2
+structure:
+  rhalf: 8.82
+  rhalf_em: 0.81
+  rhalf_ep: 0.90
+  spatial_units: arcsec
+  spatial_model: eff
+  ref_structure: Mackey2003MNRAS.338..120M
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

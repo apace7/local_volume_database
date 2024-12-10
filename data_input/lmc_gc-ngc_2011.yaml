@@ -1,0 +1,14 @@
+key: lmc_gc-ngc_2011
+table: gc_dwarf_hosted
+location:
+  ra: 83.079167
+  dec: -67.521667
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 2011
+  other_name:
+  - ESO 56-144
+  - SL 559
+  - KMHK 1039

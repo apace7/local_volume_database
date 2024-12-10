@@ -12,8 +12,12 @@ name_discovery:
   other_name:
   - ESO 050-SC 012
 structure:
-  rhalf: 0.326
-  ref_structure: Baumgardt2018MNRAS.478.1520B
+  rhalf: 7.97
+  rhalf_em: 0.41
+  rhalf_ep: 0.45
+  spatial_units: arcsec
+  spatial_model: eff
+  ref_structure: Mackey2003MNRAS.338..120M
 distance:
   distance_modulus: 19.06
   ref_distance: Baumgardt2021MNRAS.505.5957B

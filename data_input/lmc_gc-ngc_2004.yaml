@@ -1,0 +1,14 @@
+key: lmc_gc-ngc_2004
+table: gc_dwarf_hosted
+location:
+  ra: 82.67225
+  dec: -67.289397
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 2004
+  other_name:
+  - KMHK 991
+  - SL 523
+  - ESO 86-4

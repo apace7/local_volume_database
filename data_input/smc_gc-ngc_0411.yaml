@@ -9,9 +9,12 @@ name_discovery:
   host: smc
   name: NGC 411
 structure:
-  rhalf: 2.87
+  rhalf: 8.43
+  rhalf_em: 0.55
+  rhalf_ep: 0.60
   spatial_units: arcsec
-  ref_structure: Goudfrooij2014ApJ...797...35G
+  spatial_model: eff
+  ref_structure: Mackey2003MNRAS.338..120M
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.97

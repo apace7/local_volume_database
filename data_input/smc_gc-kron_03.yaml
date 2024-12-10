@@ -10,9 +10,12 @@ name_discovery:
   name: Kron 3
   type: GC
 structure:
-  rhalf: 6.38
+  rhalf: 17.37
+  rhalf_em: 1.1
+  rhalf_ep: 1.27
   spatial_units: arcsec
-  ref_structure: Glatt2009AJ....138.1403G
+  spatial_model: eff
+  ref_structure: Mackey2003MNRAS.338..120M
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.93

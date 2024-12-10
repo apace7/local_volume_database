@@ -91,4 +91,4 @@ For example, this loads an older version of the data/dwarf_all.csv table for eit
 Interactive Website
 ---------------------------------------------
 
-An interactive version of the LVDB is available here: [link](https://lvd-interactive.streamlit.app/) (made by Katya Gozman).
+An interactive version of the LVDB is available here: `link <https://lvd-interactive.streamlit.app/>`_ (made by Katya Gozman).

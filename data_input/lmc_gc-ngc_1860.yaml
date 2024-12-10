@@ -1,0 +1,14 @@
+key: lmc_gc-ngc_1860
+table: gc_dwarf_hosted
+location:
+  ra: 77.671417
+  dec: -68.753503
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: lmc
+  name: NGC 1860
+  other_name:
+  - OGLE-CL LMC 187
+  - ESO 56-75
+  - SL 284

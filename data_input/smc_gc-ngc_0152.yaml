@@ -10,9 +10,12 @@ name_discovery:
   name: NGC 152
   type: GC
 structure:
-  rhalf: 4.67
+  rhalf: 19.47
+  rhalf_em: 4.11
+  rhalf_ep: 5.76
   spatial_units: arcsec
-  ref_structure: McLaughlin2005ApJS..161..304M
+  spatial_model: eff
+  ref_structure: Mackey2003MNRAS.338..120M
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 19.07

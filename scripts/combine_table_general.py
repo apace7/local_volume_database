@@ -566,6 +566,22 @@ comb_dwarf.write('data/dwarf_all.fits', format='fits', overwrite=True)
 comb_gc_other.write('data/gc_other.csv', format='csv', overwrite=True)
 comb_gc_other.write('data/gc_other.fits', format='fits', overwrite=True)
 
+comb_all = table.vstack([comb_dwarf, comb_gc_harris, comb_gc_disk, comb_gc_ufsc, comb_gc_dwarf, comb_gc_other, comb_candidate, comb_host])
+comb_all.write('data/comb_all.csv', format='csv', overwrite=True)
+
+def unit_test():
+    print("unit tests started")
+    ra_dec_to_large = comb_all[np.logical_or.reduce((comb_all['ra']<0, comb_all['ra']>360., comb_all['dec']<-90, comb_all['dec']>90.))]
+    if len(ra_dec_to_large)==0:
+        print("ra dec checked")
+    else:
+        print("ra_dec_to_large", len(ra_dec_to_large))
+        for i in range(len(ra_dec_to_large)):
+            print(i, ra_dec_to_large['key'][i], ra_dec_to_large['ra'][i], ra_dec_to_large['dec'][i])
+        print()
+
+
+unit_test()
 
 ## don't add comb_gc_ufsc here 
 # comb_gc_all = table.vstack([comb_gc_disk, comb_gc_harris, comb_gc_dwarf, comb_gc_other])

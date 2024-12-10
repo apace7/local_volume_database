@@ -1,0 +1,24 @@
+key: smc_gc-ngc_0458
+table: gc_dwarf_hosted
+location:
+  ra: 18.720583
+  dec: -71.55
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: NGC 458
+  other_name:
+  - Lindsay 67
+  - Kron 46
+  - ESO 51-12
+structure:
+  rhalf: 9.15
+  rhalf_em: 1.45
+  rhalf_ep: 1.58
+  spatial_units: arcsec
+  spatial_model: eff
+  ref_structure: Mackey2003MNRAS.338..120M
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

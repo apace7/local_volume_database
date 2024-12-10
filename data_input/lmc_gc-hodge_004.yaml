@@ -16,9 +16,12 @@ name_discovery:
   - Shapley1963IrAJ....6...74S
   type: GC
 structure:
-  rhalf: 0.43
+  rhalf: 14.52
+  rhalf_em: 1.92
+  rhalf_ep: 2.29
   spatial_units: arcsec
-  ref_structure: McLaughlin2005ApJS..161..304M
+  spatial_model: eff
+  ref_structure: Mackey2003MNRAS.338..120M
 distance:
   ref_distance: Grocholski2007AJ....134..680G
   distance_modulus: 18.37

@@ -13,9 +13,12 @@ name_discovery:
   - SL1
   - LW1
 structure:
-  rhalf: 1.85
+  rhalf: 8.83
+  rhalf_em: 0.51
+  rhalf_ep: 0.58
   spatial_units: arcsec
-  ref_structure: McLaughlin2005ApJS..161..304M
+  spatial_model: eff
+  ref_structure: Mackey2003MNRAS.338..120M
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.58
