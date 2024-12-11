@@ -1,0 +1,46 @@
+key: ddo_226
+table: dwarf_local_field_distant
+location:
+  ra: 10.76583
+  dec: -22.25028
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: DDO 226
+  name_lvg: DDO226
+  other_name:
+  - ESO474-018
+  - IC1574
+  - PGC002578
+  - UGCA009
+structure:
+  rhalf: 40.34
+  rhalf_em: 1.97
+  rhalf_ep: 1.97
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.65
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
+m_v:
+  apparent_magnitude_v: 14.00
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
+distance:
+  distance_modulus: 28.46
+  distance_modulus_em: 0.13
+  distance_modulus_ep: 0.13
+  distance_measurement_method: trgb
+  ref_distance: Tully2009AJ....138..323T
+velocity:
+  vlos_systemic: 361
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Huchtmeier2000A&AS..141..469H
+flux_HI:
+  flux_HI: 3.84
+  vlos_systemic_HI: 361
+  vlos_systemic_HI_em: 2
+  ref_flux_HI: Huchtmeier2000A&AS..141..469H

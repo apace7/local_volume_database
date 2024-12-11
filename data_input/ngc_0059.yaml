@@ -1,0 +1,35 @@
+key: ngc_0059
+table: dwarf_local_field_distant
+location:
+  ra: 3.854583
+  dec: -21.44389
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 59
+  name_lvg: NGC0059
+  other_name:
+  - KK2
+  - PGC001034
+  - ESO539-004
+distance:
+  distance_modulus: 28.45
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  distance_measurement_method: trgb
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 12.57
+  apparent_magnitude_b: 12.88
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 361
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Huchtmeier2000A&AS..141..469H
+flux_HI:
+  flux_HI: 3.84
+  vlos_systemic_HI: 361
+  vlos_systemic_HI_em: 2
+  vlos_systemic_HI_ep: 2
+  ref_flux_HI: Huchtmeier2000A&AS..141..469H

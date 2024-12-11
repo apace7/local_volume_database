@@ -2,7 +2,7 @@ key: cena_ucd-330
 table: gc_other
 location:
   ra: 201.47625
-  dec: -42.990389
+  dec: -41.009722
 name_discovery:
   confirmed_dwarf: 0
   confirmed_star_cluster: 0
@@ -14,7 +14,7 @@ name_discovery:
   - HGHH92-C23
   ref_discovery:
   - Harris1992AJ....104..613H
-  name_lvg: UCD320
+  name_lvg: UCD330
 notes:
 - UCD?
 structure:

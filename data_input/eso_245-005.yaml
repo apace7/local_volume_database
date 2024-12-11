@@ -1,0 +1,46 @@
+key: eso_245-005
+table: dwarf_local_field_distant
+location:
+  ra: 26.265
+  dec: -43.5981
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: ESO 245-005
+  name_lvg: ESO245-005
+  other_name:
+  - PGC006430
+structure:
+  rhalf: 103.83
+  rhalf_em: 4.93
+  rhalf_ep: 4.93
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.40
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
+m_v:
+  apparent_magnitude_v: 12.03
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
+distance:
+  distance_modulus: 28.30
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  distance_measurement_method: trgb
+  ref_distance: Tully2009AJ....138..323T
+velocity:
+  vlos_systemic: 393
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Kirby2012MNRAS.420.2924K
+flux_HI:
+  flux_HI: 81.6
+  flux_HI_em: 2.6
+  flux_HI_ep: 2.6
+  vlos_systemic_HI: 393
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: Kirby2012MNRAS.420.2924K

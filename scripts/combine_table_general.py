@@ -110,16 +110,25 @@ def add_to_table(yaml_input, table_output, place, ):
                         stream_yaml_host = yaml.load(yaml_to_load, Loader=yaml.Loader)
                         # print("stream_yaml_host", stream_yaml_host)
                         x = list(stream_yaml_host['distance'].keys())
-                        # print(x)
-                        for list_key in range(len(x)):
-                            name = x[list_key]
-                            # print(name)
-                            if name not in table_output.dtype.names:
-                                missing_key.append(name)
-                                continue
-                            else:
-                            # if name == 'distance_modulus':
-                                table_output[name][place] = stream_yaml_host['distance'][x[list_key]]
+                        if 'distance_fixed_host' in stream_yaml_host['distance'].keys() and 'host' in stream_yaml_host['name_discovery']:
+                                with open(path + stream_yaml_host['name_discovery']['host'] + '.yaml', 'r') as yaml_to_load_level_two:
+                                    stream_yaml_host_level_two = yaml.load(yaml_to_load_level_two, Loader=yaml.Loader)
+                                    x2 = list(stream_yaml_host_level_two['distance'].keys())
+                                    for list_key in range(len(x2)):
+                                        name = x2[list_key]
+                                        if name not in table_output.dtype.names:
+                                            missing_key.append(name)
+                                            continue
+                                        else:
+                                            table_output[name][place] = stream_yaml_host_level_two['distance'][x2[list_key]]
+                        else:
+                            for list_key in range(len(x)):
+                                name = x[list_key]
+                                if name not in table_output.dtype.names:
+                                    missing_key.append(name)
+                                    continue
+                                else:
+                                    table_output[name][place] = stream_yaml_host['distance'][x[list_key]]
                 except:
                     print("host missing for", stream_yaml['key'])
                         # print(stream_yaml['name_discovery']['host'] + '.yaml' in dir_list)

@@ -1,0 +1,47 @@
+key: ddo_167
+table: dwarf_local_field_distant
+location:
+  ra: 198.345
+  dec: 46.31972
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: DDO 167
+  other_name:
+  - PGC 045939
+  - UGC08308
+  name_lvg: DDO167
+structure:
+  rhalf: 23.55
+  rhalf_em: 1.21
+  rhalf_ep: 1.21
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.42
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
+distance:
+  distance_modulus: 28.14
+  distance_modulus_em: 0.16
+  distance_modulus_ep: 0.16
+  distance_measurement_method: trgb
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 15.18
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
+velocity:
+  vlos_systemic: 150.2
+  vlos_systemic_em: 1.7
+  vlos_systemic_ep: 1.7
+  ref_vlos: Begum2008MNRAS.386.1667B
+flux_HI:
+  flux_HI: 3.7
+  flux_HI_em: 0.4
+  flux_HI_ep: 0.4
+  vlos_systemic_HI: 150.2
+  vlos_systemic_HI_em: 1.7
+  vlos_systemic_HI_ep: 1.7
+  ref_flux_HI: Begum2008MNRAS.386.1667B

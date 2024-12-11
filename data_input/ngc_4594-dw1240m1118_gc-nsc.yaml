@@ -8,7 +8,6 @@ name_discovery:
   confirmed_real: 1
   host: ngc_4594-dw1240m1118
   name: dw1240-1118-NSC
-  name_lvg: name
   type: NSC
 notes:
 - ra, dec is from Legacy viewer. Associated confirmed with IFU data \citep{Crosby2024arXiv241202060C}.
