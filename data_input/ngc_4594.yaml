@@ -1,0 +1,31 @@
+key: ngc_4594
+table: misc
+location:
+  ra: 189.99625
+  dec: -11.62305
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1781
+  name: NGC 4594
+  other_name:
+  - M 104
+  - PGC 042407
+  - UGCA 293
+  name_lvg: NGC4594
+distance:
+  distance_modulus: 29.90
+  distance_modulus_em: 0.10
+  distance_modulus_ep: 0.10
+  distance_measurement_method: trgb
+  ref_distance: McQuinn2016AJ....152..144M
+m_v:
+  apparent_magnitude_v: 7.71
+  apparent_magnitude_b: 8.02
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 1095
+  ref_vlos: Kourkchi2020ApJ...902..145K
+flux_HI:
+  flux_HI: 11.169
+  ref_flux_HI: Karachentsev2013AJ....145..101K

@@ -1,0 +1,53 @@
+key: ngc_4594-dw1
+table: dwarf_local_field_distant
+location:
+  ra: 189.81375
+  dec: -11.71889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1983
+  host: ngc_4594
+  name: NGC 4594-DW1
+  other_name:
+  - N4594DW1
+  - dw1239-1143
+  ref_discovery:
+  - Caldwell1983AJ.....88..804C
+  type: dE, N
+  name_lvg: N4594DW1
+notes:
+- nucleated dEs, possessing Nuclear Star Clusters
+structure:
+  rhalf: 13.31
+  rhalf_em: 0.26
+  rhalf_ep: 0.26
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.86
+  distance_modulus_em: 0.15
+  distance_modulus_ep: 0.14
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 16.12
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Carlsten2022ApJ...933...47C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.2
+  metallicity_spectroscopic_em: 0.1
+  metallicity_spectroscopic_ep: 0.1
+  ref_metallicity_spectroscopic: Crosby2024arXiv241202060C
+velocity:
+  vlos_systemic: 1367
+  vlos_systemic_em: 12
+  vlos_systemic_ep: 12
+  ref_vlos: Crosby2024arXiv241202060C
+age:
+  age: 9.0
+  age_em: 0.7
+  age_ep: 0.8
+  ref_age: Crosby2024arXiv241202060C

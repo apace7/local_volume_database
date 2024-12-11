@@ -188,6 +188,8 @@ Most keys are single entries and several keys are lists (specially other_name, r
   
   * **type** -- Morphological type. This includes: dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster (this is not the full set of options). This key is generally incomplete.
 
+  * **nme_lvg** -- exact name in the Catalog and Atlas of Local Volume galaxies (`LVG <https://www.sao.ru/lv/lvgdb/>`_). To enable a join on the LVG identifiers.
+
 * **notes** -- List of notes in LaTeX. The notes are added to the summary pdf. 
 
 * **structure** -- yaml collection

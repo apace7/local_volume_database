@@ -1,0 +1,14 @@
+key: ngc_4594-dw1240m1118_gc-nsc
+table: gc_dwarf_hosted
+location:
+  ra: 190.0391 
+  dec: -11.3139
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: ngc_4594-dw1240m1118
+  name: dw1240-1118-NSC
+  name_lvg: name
+  type: NSC
+notes:
+- ra, dec is from Legacy viewer. Associated confirmed with IFU data \citep{Crosby2024arXiv241202060C}.

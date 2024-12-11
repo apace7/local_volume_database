@@ -1,0 +1,27 @@
+key: ngc_4594_gc-rz_3246
+table: gc_dwarf_hosted
+location:
+  ra: 189.96421
+  dec: -11.735100
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2004
+  host: ngc_4594-kksg_32
+  name: RZ 3246
+  ref_discovery:
+  - Rhode2004AJ....127..302R
+  type: GC
+notes:
+- Association between KKSG 32 and RZ 2279 needs to be confirmed (projected distance is 2.8 kpc). Only GC has velocity measurement.
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 20.60
+  ref_m_v: Dowell2014AJ....147..150D
+velocity:
+  vlos_systemic: 1095.2
+  vlos_systemic_em: 49.5
+  vlos_systemic_ep: 49.5
+  ref_vlos: Dowell2014AJ....147..150D

@@ -1,0 +1,34 @@
+key: ngc_4594-dw1241m1153
+table: dwarf_local_field_distant
+location:
+  ra: 190.3
+  dec: -11.8925
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2022
+  host: ngc_4594
+  name: dw1241-1153
+  other_name:
+  - Sombrero DwB
+  name_lvg: Sombrero DwB
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 13.25
+  rhalf_em: 1.59
+  rhalf_ep: 1.59
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 30.24
+  distance_modulus_em: 0.24
+  distance_modulus_ep: 0.25
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 18.39
+  apparent_magnitude_v_em: 0.19
+  apparent_magnitude_v_ep: 0.19
+  ref_m_v: Carlsten2022ApJ...933...47C

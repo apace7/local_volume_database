@@ -9,6 +9,7 @@ name_discovery:
   name: CGCG 189-050
   other_name:
   - PGC046257
+  name_lvg: CGCG 189-050
 distance:
   distance_modulus: 28.12
   ref_distance: Karachentsev2024A&A...684L..24K

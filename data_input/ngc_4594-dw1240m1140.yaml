@@ -1,0 +1,37 @@
+key: ngc_4594-dw1240m1140
+table: dwarf_local_field_distant
+location:
+  ra: 190.07333
+  dec: -11.67944
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2022
+  host: ngc_4594
+  name: dw1240-1140
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+  name_lvg: dw1240-1140
+notes:
+- Systemic velocity from globular cluster \citep{Dowell2014AJ....147..150D}.
+- SBF distance is 4 Mpc closer than host galaxy and is 15 projected kpc away \citep{Carlsten2022ApJ...933...47C}. Using host distance.
+structure:
+  rhalf: 69.58
+  rhalf_em: 4.06
+  rhalf_ep: 4.06
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 16.25
+  apparent_magnitude_v_em: 0.38
+  apparent_magnitude_v_ep: 0.38
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 1293
+  vlos_systemic_em: 9
+  vlos_systemic_ep: 9
+  ref_vlos: Dowell2014AJ....147..150D

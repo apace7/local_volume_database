@@ -10,6 +10,7 @@ name_discovery:
   other_name:
   - LEDA 4573336
   - SDSS J131347.30+100311.1
+  name_lvg: LV J1313+1003
 distance:
   distance_modulus: 27.89
   ref_distance: Karachentsev2013AJ....145..101K

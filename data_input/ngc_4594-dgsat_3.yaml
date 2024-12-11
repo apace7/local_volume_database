@@ -1,0 +1,38 @@
+key: ngc_4594-dgsat_3
+table: dwarf_local_field_distant
+location:
+  ra: 189.88667
+  dec: -11.22722
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: ngc_4594
+  name: NGC 4594-DGSAT-3
+  other_name:
+  - N4594-DGSAT-3
+  - dw1239-1113
+  ref_discovery:
+  - Javanmardi2016A&A...588A..89J
+  name_lvg: N4594-DGSAT-3
+structure:
+  rhalf: 17.92
+  rhalf_em: 2.77
+  rhalf_ep: 2.77
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.58
+  distance_modulus_em: 0.35
+  distance_modulus_ep: 0.31
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 17.56
+  apparent_magnitude_v_em: 0.26
+  apparent_magnitude_v_ep: 0.26
+  ref_m_v: Carlsten2022ApJ...933...47C
+flux_HI:
+  flux_HI_ul: 0.480
+  ref_flux_HI: Karachentsev2013AJ....145..101K

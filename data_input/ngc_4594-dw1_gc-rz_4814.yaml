@@ -1,0 +1,25 @@
+key: ngc_4594-dw1_gc-rz_4814
+table: gc_dwarf_hosted
+location:
+  ra: 189.81371
+  dec: -11.718856
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2004
+  host: ngc_4594-dw1_gc-rz_4814
+  name: RZ 4814
+  ref_discovery:
+  - Rhode2004AJ....127..302R
+  type: NSC
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 20.89
+  ref_m_v: Dowell2014AJ....147..150D
+velocity:
+  vlos_systemic: 1368.1
+  vlos_systemic_em: 9.5
+  vlos_systemic_ep: 9.5
+  ref_vlos: Dowell2014AJ....147..150D

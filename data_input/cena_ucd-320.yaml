@@ -14,6 +14,7 @@ name_discovery:
   - HGHH92-C21
   ref_discovery:
   - Harris1992AJ....104..613H
+  name_lvg: UCD330
 notes:
 - UCD?
 structure:
@@ -21,7 +22,7 @@ structure:
   spatial_units: arcsec
   spatial_model: sersic
   ellipticity: 0.35
-  position_anlge: -79.82
+  position_angle: -79.82
   ref_structure: Voggel2018ApJ...858...20V
 distance:
   distance_fixed_host: true

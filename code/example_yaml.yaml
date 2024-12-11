@@ -16,6 +16,7 @@ name_discovery:
   discovery_year: 0
   host: misc
   name: name
+  name_lvg: name
   other_name:
   - list
   ref_discovery:

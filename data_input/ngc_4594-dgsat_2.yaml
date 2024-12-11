@@ -1,0 +1,35 @@
+key: ngc_4594-dgsat_2
+table: dwarf_local_field_distant
+location:
+  ra: 189.96458
+  dec: -11.34139
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2015
+  host: ngc_4594
+  name: NGC 4594-DGSAT-2
+  other_name:
+  - Sombrero DwA
+  - dw1239-1120
+  ref_discovery:
+  - Javanmardi2016A&A...588A..89J
+  name_lvg: Sombrero DwA
+structure:
+  rhalf: 6.66
+  rhalf_em: 0.62
+  rhalf_ep: 0.62
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.94
+  distance_modulus_em: 0.14
+  distance_modulus_ep: 0.13
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 19.29
+  apparent_magnitude_v_em: 0.10
+  apparent_magnitude_v_ep: 0.10
+  ref_m_v: Carlsten2022ApJ...933...47C

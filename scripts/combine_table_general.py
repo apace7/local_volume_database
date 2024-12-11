@@ -567,6 +567,15 @@ comb_gc_other.write('data/gc_other.csv', format='csv', overwrite=True)
 comb_gc_other.write('data/gc_other.fits', format='fits', overwrite=True)
 
 comb_all = table.vstack([comb_dwarf, comb_gc_harris, comb_gc_disk, comb_gc_ufsc, comb_gc_dwarf, comb_gc_other, comb_candidate, comb_host])
+
+# lvdb.add_column(comb_all,'table','table', col_type='U50')
+comb_all['table'] = np.ma.masked_all(len(comb_all), dtype='U50')
+for i in range(len(comb_all)):
+    k = comb_all['key'][i]
+    with open(path+ k +'.yaml', 'r') as stream:
+        stream_yaml = yaml.load(stream, Loader=yaml.Loader)
+        comb_all['table'][i] = stream_yaml['table']
+print(Counter(comb_all['table']))
 comb_all.write('data/comb_all.csv', format='csv', overwrite=True)
 
 def unit_test():

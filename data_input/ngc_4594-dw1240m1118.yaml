@@ -1,0 +1,49 @@
+key: ngc_4594-dw1240m1118
+table: dwarf_local_field_distant
+location:
+  ra: 190.039167
+  dec: -11.313889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2022
+  host: ngc_4594
+  name: dw1240-1118
+  other_name:
+  - PGC042428
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+  name_lvg: dw1240-1118
+structure:
+  rhalf: 15.50
+  rhalf_em: 0.40
+  rhalf_ep: 0.40
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.72
+  distance_modulus_em: 0.15
+  distance_modulus_ep: 0.12
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 15.46
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Carlsten2022ApJ...933...47C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.9
+  metallicity_spectroscopic_em: 0.1
+  metallicity_spectroscopic_ep: 0.1
+  ref_metallicity_spectroscopic: Crosby2024arXiv241202060C
+velocity:
+  vlos_systemic: 1593
+  vlos_systemic_em: 9
+  vlos_systemic_ep: 9
+  ref_vlos: Crosby2024arXiv241202060C
+age:
+  age: 9.0
+  age_em: 0.9
+  age_ep: 1.0
+  ref_age: Crosby2024arXiv241202060C

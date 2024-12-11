@@ -10,6 +10,7 @@ name_discovery:
   name: Centaurus N
   other_name:
   - PGC 4689187
+  name_lvg: CenN
 distance:
   distance_modulus: 27.82
   distance_modulus_em: 0.05

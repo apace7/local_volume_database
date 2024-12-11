@@ -23,6 +23,7 @@ paper_examples/*.pdf
 data/*.fits
 data/candidate.csv
 data/misc_host.csv
+data/comb_all.csv
 
 # Distribution / packaging
 .Python

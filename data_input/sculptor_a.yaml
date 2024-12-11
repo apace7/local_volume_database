@@ -1,7 +1,7 @@
 key: sculptor_a
 table: dwarf_local_field
 location:
-  ra: 17.128333333333334 
+  ra: 17.128333333333334
   dec: -36.06469444444444
 name_discovery:
   confirmed_dwarf: 0
@@ -9,7 +9,7 @@ name_discovery:
   discovery_year: 2024
   name: Sculptor A
   ref_discovery:
-  - Sand2024arXiv240916345S
+  - Sand2024ApJ...977L...5S
   type: dSph
 structure:
   rhalf: 16.8 
@@ -23,18 +23,18 @@ structure:
   position_angle: -11.5
   position_angle_em: 17.5
   position_angle_ep: 17.5
-  ref_structure: Sand2024arXiv240916345S
+  ref_structure: Sand2024ApJ...977L...5S
 distance:
   distance_modulus: 25.65
   distance_modulus_em: 0.13
   distance_modulus_ep: 0.33
-  ref_distance: Sand2024arXiv240916345S
+  ref_distance: Sand2024ApJ...977L...5S
 m_v:
   apparent_magnitude_v: 18.75
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
   mean_ebv: 0.015
-  ref_m_v: Sand2024arXiv240916345S
+  ref_m_v: Sand2024ApJ...977L...5S
 flux_HI:
   flux_HI_ul: 0.46
-  ref_flux_HI: Sand2024arXiv240916345S ## mostly for flux_HI
+  ref_flux_HI: Sand2024ApJ...977L...5S
