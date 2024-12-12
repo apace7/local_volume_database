@@ -1,0 +1,46 @@
+key: kdg_215
+table: dwarf_local_field_distant
+location:
+  ra: 193.91875
+  dec: 19.209167
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: KDG 215
+  ref_discovery:
+  - Karachentseva1968CoBAO..39...61K
+  other_name:
+  - LSBC F575-05
+  - dw1255+1912
+  - PGC 044055
+  - F575-v3
+  name_lvg: KDG215
+structure:
+  rhalf: 37.78
+  rhalf_em: 2.04
+  rhalf_ep: 2.04
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 28.42
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 15.76
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 419
+  vlos_systemic_em: 9
+  vlos_systemic_ep: 9
+  ref_vlos: Schombert1997ApJS..111..233S
+flux_HI:
+  flux_HI: 4.41
+  vlos_systemic_HI: 419
+  vlos_systemic_HI_em: 9
+  vlos_systemic_HI_ep: 9
+  ref_flux_HI: Schombert1997ApJS..111..233S

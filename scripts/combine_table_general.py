@@ -600,8 +600,4 @@ def unit_test():
 
 
 unit_test()
-
-## don't add comb_gc_ufsc here 
-# comb_gc_all = table.vstack([comb_gc_disk, comb_gc_harris, comb_gc_dwarf, comb_gc_other])
-# comb_gc_all.write('data/gc_all.csv', format='csv', overwrite=True)
-# comb_gc_all.write('data/gc_all.fits', format='fits', overwrite=True)
+print()

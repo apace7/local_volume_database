@@ -1,0 +1,33 @@
+key: ugc_07929
+table: dwarf_local_field_distant
+location:
+  ra: 191.337083
+  dec: 21.426944
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_094
+  name: UGC 7929
+  other_name:
+  - PGC 042985
+  - EVCC 1137
+  - dw1245+2125
+  name_lvg: UGC07929
+structure:
+  rhalf: 27.10
+  rhalf_em: 1.45
+  rhalf_ep: 1.45
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 15.67
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_em: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 387
+  ref_vlos: Kim2014ApJS..215...22K

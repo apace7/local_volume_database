@@ -1,0 +1,28 @@
+key: kkh_18
+table: dwarf_local_field_distant
+location:
+  ra: 45.774583
+  dec: 33.694444
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: KKH 18
+  other_name:
+  - PGC2807110
+  name_lvg: KKH18
+distance:
+  distance_modulus: 28.40
+  distance_modulus_em: 0.13
+  distance_modulus_ep: 0.13
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 15.53
+  apparent_magnitude_b: 15.84
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 216
+  ref_vlos: Karachentsev2013AJ....145..101K
+flux_HI:
+  flux_HI: 2.54
+  ref_flux_HI: Karachentsev2013AJ....145..101K

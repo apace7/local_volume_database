@@ -1,0 +1,19 @@
+key: kkh_78
+table: dwarf_local_field_distant
+location:
+  ra: 184.435417
+  dec: 33.345278
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: KKH 78
+  other_name:
+  - PGC2 807147
+  name_lvg: KKH78
+distance:
+  distance_modulus: 28.36
+  ref_distance: Karachentsev2013AJ....145..101K
+m_v:
+  apparent_magnitude_v: 17.33
+  apparent_magnitude_b: 17.64
+  ref_m_v: Karachentsev2013AJ....145..101K

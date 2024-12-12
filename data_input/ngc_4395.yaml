@@ -1,0 +1,34 @@
+key: ngc_4395
+table: dwarf_local_field_distant
+location:
+  ra: 186.4575
+  dec: 33.546111
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 4395
+  other_name:
+  - PGC040596
+  - UGC07524
+  name_lvg: NGC4395
+distance:
+  distance_modulus: 28.39
+  distance_modulus_em: 0.01
+  distance_modulus_ep: 0.01
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 10.20
+  apparent_magnitude_b: 10.51
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 313
+  vlos_systemic_em: 17
+  vlos_systemic_ep: 17
+  ref_vlos: Kovac2009MNRAS.400..743K
+flux_HI:
+  flux_HI: 222.8
+  vlos_systemic_HI: 313
+  vlos_systemic_HI_em: 17
+  vlos_systemic_HI_ep: 17
+  ref_flux_HI: Kovac2009MNRAS.400..743K

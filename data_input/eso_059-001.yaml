@@ -1,0 +1,35 @@
+key: eso_059-001
+table: dwarf_local_field_distant
+location:
+  ra: 112.830417
+  dec: -68.186111
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: ESO 059-001
+  other_name:
+  - PGC 021199
+  name_lvg: ESO059-001
+distance:
+  distance_modulus: 28.33
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  distance_measurement_method: trgb
+  ref_distance: Tully2009AJ....138..323T
+m_v:
+  apparent_magnitude_v: 13.00
+  apparent_magnitude_b: 13.31
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 530
+  vlos_systemic_em: 3
+  vlos_systemic_ep: 3
+  ref_vlos: Kirby2012MNRAS.420.2924K
+flux_HI:
+  flux_HI: 19.6
+  flux_HI_em: 2.2
+  flux_HI_ep: 2.2
+  vlos_systemic_HI: 530
+  vlos_systemic_HI_em: 3
+  vlos_systemic_HI_ep: 3
+  ref_flux_HI: Kirby2012MNRAS.420.2924K
