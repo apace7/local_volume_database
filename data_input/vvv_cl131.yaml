@@ -1,5 +1,5 @@
 key: vvv_cl131
-table: gc_disk
+table: gc_mw_new
 location:
   ra: 265.321
   dec: -34.567
@@ -12,9 +12,9 @@ name_discovery:
   ref_discovery:
   - Borissova2014A&A...569A..24B
 notes:
-- Note that the pmdec error in \citep{Garro2022A&A...658A.120G} is listed as 0.07 which is
-  likely a typo given the magnitude of the pmra error and the errors of other proper
-  motion measurements in the paper.
+- Note that the pmdec error in \citep{Garro2022A&A...658A.120G} is listed as 0.07
+  which is likely a typo given the magnitude of the pmra error and the errors of other
+  proper motion measurements in the paper.
 - old open cluster or Globular Cluster candidate \citep{Borissova2014A&A...569A..24B}
 - classify as globular cluster \citep{Garro2022A&A...658A.120G}
 distance:

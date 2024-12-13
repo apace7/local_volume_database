@@ -30,7 +30,7 @@ structure:
   rhalf: 1.07
   rhalf_em: 0.03
   rhalf_ep: 0.03
-table: gc_disk
+table: gc_mw_new
 velocity:
   ref_vlos: Gran2024A&A...683A.167G
   vlos_systemic: 61.24

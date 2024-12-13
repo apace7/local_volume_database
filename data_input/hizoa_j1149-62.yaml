@@ -1,0 +1,28 @@
+key: hizoa_j1149-62
+table: dwarf_local_field_distant
+location:
+  ra: 177.41
+  dec: -62.183889
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  name: HIZOA J1149-62
+  name_lvg: HIZOA J1149-62
+distance:
+  distance_modulus: 28.27
+  ref_distance: Karachentsev2013AJ....145..101K
+  distance_measurement_method: btf
+velocity:
+  vlos_systemic: 512
+  vlos_systemic_em: 4
+  vlos_systemic_ep: 4
+  ref_vlos: StaveleySmith2016AJ....151...52S
+flux_HI:
+  flux_HI: 2.8
+  flux_HI_em: 0.8
+  flux_HI_ep: 0.8
+  vlos_systemic_HI: 512
+  vlos_systemic_HI_em: 4
+  vlos_systemic_HI_ep: 4
+  ref_flux_HI: StaveleySmith2016AJ....151...52S

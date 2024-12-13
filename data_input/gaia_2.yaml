@@ -33,7 +33,7 @@ structure:
   rhalf: 1.9
   rhalf_em: 0.34
   rhalf_ep: 0.4
-table: gc_disk
+table: gc_mw_new
 velocity:
   ref_vlos: Garro2023A&A...669A.136G
   vlos_systemic: -54.36

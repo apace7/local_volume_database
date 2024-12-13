@@ -36,7 +36,7 @@ proper_motion:
   ref_proper_motion: Dias2022A&A...657A..67D
 structure:
   ref_structure: Minniti2017RNAAS...1...16M
-table: gc_disk
+table: gc_mw_new
 velocity:
   ref_vlos: Dias2022A&A...657A..67D
   vlos_systemic: -103.7

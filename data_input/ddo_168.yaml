@@ -1,0 +1,35 @@
+key: ddo_168
+table: dwarf_local_field_distant
+location:
+  ra: 198.619167
+  dec: 45.919444
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: DDO 168
+  other_name:
+  - PGC 46039
+  - UGC 8320
+  name_lvg: DDO168
+distance:
+  distance_modulus: 28.14
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 12.59
+  apparent_magnitude_b: 12.90
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 191
+  vlos_systemic_em: 8
+  vlos_systemic_ep: 8
+  ref_vlos: Stil2002A&A...389...29S
+flux_HI:
+  flux_HI: 50.58
+  vlos_systemic_HI: 191
+  vlos_systemic_HI_em: 8
+  vlos_systemic_HI_ep: 8
+  ref_flux_HI: Stil2002A&A...389...29S
+

@@ -1,5 +1,5 @@
 key: delve_1
-table: gc_ufsc
+table: gc_ambiguous
 location:
   ra: 247.725
   dec: -0.972
@@ -15,7 +15,8 @@ name_discovery:
   abbreviation: DEL1
 notes:
 - Distance updated in \citep{Simon2024ApJ...976..256S} based on new metallicity.
-- Very metal-poor and carbon-enchanced star which may suggest dwarf galaxy origin \citep{Simon2024ApJ...976..256S}.
+- Very metal-poor and carbon-enchanced star which may suggest dwarf galaxy origin
+  \citep{Simon2024ApJ...976..256S}.
 age:
   age: 12.5
   age_em: 0.7

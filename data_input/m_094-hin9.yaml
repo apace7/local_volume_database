@@ -1,0 +1,27 @@
+key: m_094-hin9
+table: candidate
+location:
+  ra: 192.966667
+  dec: 40.291389
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2023
+  host: m_094
+  name: M94-HIn9
+  name_lvg: M94-HIn9
+  ref_discovery:
+  - Zhou2023ApJ...952..130Z
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+velocity:
+  vlos_systemic: 298.0
+  ref_vlos: Zhou2023ApJ...952..130Z
+flux_HI:
+  flux_HI: 0.239
+  flux_HI_em: 0.01
+  flux_HI_ep: 0.01
+  vlos_systemic_HI: 298
+  ref_flux_HI: Zhou2023ApJ...952..130Z

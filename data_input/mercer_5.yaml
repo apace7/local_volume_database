@@ -1,5 +1,5 @@
 key: mercer_5
-table: gc_disk
+table: gc_mw_new
 location:
   ra: 275.82917
   dec: -13.66722
@@ -15,7 +15,7 @@ name_discovery:
   - Mercer2005ApJ...635..560M
   - Longmore2011MNRAS.416..465L
 distance:
-  distance_modulus: 13.70
+  distance_modulus: 13.7
   ref_distance: Longmore2011MNRAS.416..465L
 proper_motion:
   pmra: -3.9647

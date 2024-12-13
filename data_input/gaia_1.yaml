@@ -31,7 +31,7 @@ structure:
   rhalf: 6.5
   rhalf_em: 0.4
   rhalf_ep: 0.4
-table: gc_disk
+table: gc_mw_new
 velocity:
   ref_vlos: Simpson2017MNRAS.471.4087S
   vlos_sigma: 0.94

@@ -47,7 +47,7 @@ structure_king:
   rking: 0.93
   rking_em: 0.4
   rking_ep: 0.4
-table: gc_disk
+table: gc_mw_new
 metallicity_isochrone:
   metallicity_isochrone: -2.2
   metallicity_isochrone_em: 0.2

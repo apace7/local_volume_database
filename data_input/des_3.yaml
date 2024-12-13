@@ -36,7 +36,7 @@ structure:
   rhalf: 0.3
   rhalf_em: 0.04
   rhalf_ep: 0.05
-table: gc_ufsc
+table: gc_ambiguous
 metallicity_isochrone:
   metallicity_isochrone: -1.84
   metallicity_isochrone_em: 0.12

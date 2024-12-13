@@ -50,7 +50,7 @@ structure_king:
   rking: 46.8
   rking_em: 13.2
   rking_ep: 13.2
-table: gc_disk
+table: gc_mw_new
 velocity:
   ref_vlos: RomeroColmenares2021A&A...652A.158R
   vlos_sigma: 3.51

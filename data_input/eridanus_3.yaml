@@ -1,5 +1,5 @@
 key: eridanus_3
-table: gc_ufsc
+table: gc_ambiguous
 location:
   ra: 35.6952
   dec: -52.2838
@@ -18,10 +18,11 @@ name_discovery:
   type: SC/dSph
 notes:
 - Observed mass segregation which would classifty Eri 3 as a star cluster \citep{Baumgardt2022MNRAS.510.3531B}.
-- Metallicity dispersion from Ca H\&K photometry which would classify Eri
-  3 as a dwarf galaxy \citep{Fu2023ApJ...958..167F}.
+- Metallicity dispersion from Ca H\&K photometry which would classify Eri 3 as a dwarf
+  galaxy \citep{Fu2023ApJ...958..167F}.
 - The size + luminosity is consistent with both star cluster and dwarf galaxy.
-- Very metal-poor and carbon-enchanced star which may suggest dwarf galaxy classification \citep{Simon2024ApJ...976..256S}.
+- Very metal-poor and carbon-enchanced star which may suggest dwarf galaxy classification
+  \citep{Simon2024ApJ...976..256S}.
 age:
   age: 12.5
   age_em: 0.7

@@ -1,0 +1,19 @@
+key: m_081-dw1235+7050
+table: dwarf_local_field_distant
+location:
+  ra: 188.997917
+  dec: 70.848056
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  host: m_081
+  name: Dw1235+7050
+  name_lvg: Dw1235+7050
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 18.63
+  apparent_magnitude_b: 18.94
+  ref_m_v: Karachentsev2013AJ....145..101K

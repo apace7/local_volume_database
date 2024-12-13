@@ -33,4 +33,4 @@ structure:
   rhalf: 0.44
   rhalf_em: 0.06
   rhalf_ep: 0.07
-table: gc_ufsc
+table: gc_ambiguous

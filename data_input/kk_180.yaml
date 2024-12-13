@@ -1,0 +1,20 @@
+key: kk_180
+table: dwarf_local_field_distant
+location:
+  ra: 196.124583
+  dec: 17.758889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_4826
+  name: KK 180
+  other_name:
+  - PGC 086645
+  name_lvg: KK180
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 16.89
+  apparent_magnitude_b: 17.20
+  ref_m_v: Karachentsev2013AJ....145..101K

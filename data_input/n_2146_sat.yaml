@@ -1,0 +1,18 @@
+key: n_2146_sat
+table: dwarf_local_field_distant
+location:
+  ra: 96.055
+  dec: 77.964722
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  host: m_081
+  name: N2146sat
+  name_lvg: N2146sat
+distance:
+  distance_modulus: 28.27
+  ref_distance: Karachentsev2013AJ....145..101K
+m_v:
+  apparent_magnitude_v: 16.78
+  apparent_magnitude_i: 17.09
+  ref_m_v: Karachentsev2013AJ....145..101K

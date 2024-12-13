@@ -1,8 +1,8 @@
 key: minni_48
-table: gc_disk
+table: gc_mw_new
 location:
   ra: 263.325
-  dec: -28.000
+  dec: -28.0
 age:
   age: 10.0
   age_em: 2.0

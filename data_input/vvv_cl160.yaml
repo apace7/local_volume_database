@@ -41,7 +41,7 @@ structure_king:
   rcore: 0.38
   ref_structure_king: Minniti2021A&A...650L..11M
   rking: 50.0
-table: gc_disk
+table: gc_mw_new
 velocity:
   ref_vlos: Garro2023A&A...669A.136G
   vlos_systemic: 245.3

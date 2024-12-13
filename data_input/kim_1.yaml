@@ -44,7 +44,7 @@ structure_sersic:
   rad_sersic_em: 0.22
   rad_sersic_ep: 0.22
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: gc_ufsc
+table: gc_ambiguous
 metallicity_isochrone:
   metallicity_isochrone: -1.7
   metallicity_isochrone_em: 0.2

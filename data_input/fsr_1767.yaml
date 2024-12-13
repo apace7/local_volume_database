@@ -1,5 +1,5 @@
 key: fsr_1767
-table: gc_disk
+table: gc_mw_new
 location:
   ra: 263.929
   dec: -36.358
@@ -13,7 +13,8 @@ name_discovery:
   - Froebrich2007MNRAS.374..399F
   type: GC
 notes:
-- classify as globular cluster \citep{Bonatto2007MNRAS.381L..45B, Bonatto2009MNRAS.397.1032B, Garro2022A&A...658A.120G}
+- classify as globular cluster \citep{Bonatto2007MNRAS.381L..45B, Bonatto2009MNRAS.397.1032B,
+  Garro2022A&A...658A.120G}
 - classify as open cluster \citep{Buckner2013MNRAS.436.1465B}
 structure:
   rhalf: 1.38

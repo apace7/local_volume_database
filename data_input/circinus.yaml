@@ -1,0 +1,33 @@
+key: circinus
+table: misc
+location:
+  ra: 213.28875
+  dec: -65.339167
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: CIRCINUS
+  other_name:
+  - ESO097-013
+  - HIPASS J1413-65
+  - PGC050779
+  name_lvg: CIRCINUS
+distance:
+  distance_modulus: 28.12
+  ref_distance: Karachentsev2013AJ....145..101K
+  distance_measurement_method: tf
+m_v:
+  apparent_magnitude_v: 7.16
+  apparent_magnitude_b: 7.47
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 434
+  vlos_systemic_em: 18
+  vlos_systemic_ep: 18
+  ref_vlos: Doyle2005MNRAS.361...34D
+flux_HI:
+  flux_HI: 478.6
+  vlos_systemic_HI: 434
+  vlos_systemic_HI_em: 18
+  vlos_systemic_HI_ep: 18
+  ref_flux_HI: Doyle2005MNRAS.361...34D

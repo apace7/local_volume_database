@@ -1,0 +1,22 @@
+key: kk_166
+table: dwarf_local_field_distant
+location:
+  ra: 192.305417
+  dec: 35.6125
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: KK 166
+  other_name:
+  - PGC 166146
+  name_lvg: KK166
+distance:
+  distance_modulus: 28.21
+  distance_modulus_em: 0.16
+  distance_modulus_ep: 0.16
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 17.25
+  apparent_magnitude_b: 17.56
+  ref_m_v: Karachentsev2013AJ....145..101K

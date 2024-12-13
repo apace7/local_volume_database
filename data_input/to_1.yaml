@@ -19,4 +19,4 @@ name_discovery:
 structure:
   ref_structure: Torrealba2019MNRAS.484.2181T
   rhalf: 0.27
-table: gc_ufsc
+table: gc_ambiguous
