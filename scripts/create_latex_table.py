@@ -790,7 +790,7 @@ with open(output, 'w+') as f:
                             print(exc2)
                 v_str = ''
                 mv_str = ''
-                if 'distance' in stream_yaml.keys() and 'distance_modulus' in stream_yaml['distance'].keys() and 'apparent_magnitude_v' in stream_yaml['m_v'].keys():
+                if 'distance' in stream_yaml.keys() and 'distance_modulus' in stream_yaml['distance'].keys() and 'm_v' in stream_yaml.keys() and 'apparent_magnitude_v' in stream_yaml['m_v'].keys():
                     mv_str = make_latex_value(stream_yaml['m_v']['apparent_magnitude_v']-stream_yaml['distance']['distance_modulus'], np.ma.masked,np.ma.masked, n=1)
                 if 'm_v' in stream_yaml.keys() and 'apparent_magnitude_v' in stream_yaml['m_v'].keys():
                     v_str = make_latex_value(stream_yaml['m_v']['apparent_magnitude_v'], np.ma.masked,np.ma.masked, n=1) 

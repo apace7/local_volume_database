@@ -1,0 +1,19 @@
+key: sagittarius_1_gc-minni_349
+table: candidate
+location:
+  ra: 286.24
+  dec: -28.44
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2017
+  host: sagittarius_1
+  name: Minni 349
+  ref_discovery:
+  - Minniti2021A&A...650L..12M
+notes:
+- Association with Sagittarius \citep{Minniti2021A&A...650L..12M}. More confident
+  candidate
+distance:
+  distance_fixed_host: true

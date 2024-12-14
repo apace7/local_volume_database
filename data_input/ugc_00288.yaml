@@ -1,0 +1,44 @@
+key: ugc_00288
+table: dwarf_local_field_distant
+location:
+  ra: 7.266667
+  dec: 43.431667
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: UGC 288
+  other_name:
+  - PGC001777
+  name_lvg: UGC00288
+structure:
+  rhalf: 22.95
+  rhalf_em: 1.17
+  rhalf_ep: 1.17
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.49
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
+m_v:
+  apparent_magnitude_v: 15.14
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
+distance:
+  distance_modulus: 29.17
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+velocity:
+  vlos_systemic: 187
+  vlos_systemic_em: 0.5
+  vlos_systemic_ep: 0.5
+  ref_vlos: Huchtmeier2003A&A...401..483H
+flux_HI:
+  flux_HI: 4.45
+  vlos_systemic_HI: 187
+  vlos_systemic_HI_em: 0.5
+  vlos_systemic_HI_ep: 0.5
+  ref_flux_HI: Huchtmeier2003A&A...401..483H

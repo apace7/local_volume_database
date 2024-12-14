@@ -1,0 +1,29 @@
+key: sagittarius_1_gc-minni_340
+table: candidate
+location:
+  ra: 282.73
+  dec: -30.46
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2017
+  host: sagittarius_1
+  name: Minni 340
+  ref_discovery:
+  - Minniti2021A&A...650L..12M
+notes:
+- Association with Sagittarius \citep{Minniti2021A&A...650L..12M}.
+distance:
+  distance_fixed_host: true
+m_v:
+  apparent_magnitude_v: 11.02
+  ref_m_v: Garro2021A&A...654A..23G
+metallicity_isochrone:
+  metallicity_isochrone: -0.5
+  metallicity_isochrone_em: 0.2
+  metallicity_isochrone_ep: 0.2
+  ref_metallicity_isochrone: Garro2021A&A...654A..23G
+age:
+  age: 10.0
+  ref_age: Garro2021A&A...654A..23G

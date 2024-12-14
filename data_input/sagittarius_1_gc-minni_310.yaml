@@ -1,0 +1,21 @@
+key: sagittarius_1_gc-minni_310
+table: candidate
+location:
+  ra: 278.5625
+  dec: -28.563611
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2020
+  host: sagittarius_1
+  name: Minni 310
+  ref_discovery:
+  - Minniti2020RNAAS...4..218M
+  - Minniti2021A&A...647L...4M
+notes:
+- 'Association with Sagittarius \citep{Minniti2021A&A...647L...4M}. Classification
+  from \citet{Minniti2021A&A...647L...4M}: Inconclusive'
+distance:
+  distance_modulus: 17.33
+  ref_distance: Minniti2021A&A...647L...4M

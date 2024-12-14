@@ -1,0 +1,32 @@
+key: sagittarius_1_gc-minni_325
+table: candidate
+location:
+  ra: 283.541667
+  dec: -31.97
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2020
+  host: sagittarius_1
+  name: Minni 325
+  ref_discovery:
+  - Minniti2020RNAAS...4..218M
+  - Minniti2021A&A...647L...4M
+notes:
+- 'Association with Sagittarius \citep{Minniti2021A&A...647L...4M}. Classification
+  from \citet{Minniti2021A&A...647L...4M}: Sgr GC'
+distance:
+  distance_modulus: 17.22
+  ref_distance: Minniti2021A&A...647L...4M
+m_v:
+  apparent_magnitude_v: 12.12
+  ref_m_v: Garro2021A&A...654A..23G
+metallicity_isochrone:
+  metallicity_isochrone: -0.4
+  metallicity_isochrone_em: 0.2
+  metallicity_isochrone_ep: 0.2
+  ref_metallicity_isochrone: Garro2021A&A...654A..23G
+age:
+  age: 10.0
+  ref_age: Garro2021A&A...654A..23G

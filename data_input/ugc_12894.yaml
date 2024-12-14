@@ -1,0 +1,31 @@
+key: ugc_12894
+table: dwarf_local_field_distant
+location:
+  ra: 0.09375
+  dec: 39.495556
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: UGC 12894
+  other_name:
+  - PGC000035
+  name_lvg: UGC12894
+distance:
+  distance_modulus: 29.78
+  ref_distance: Anand2021AJ....162...80A
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 16.02
+  apparent_magnitude_b: 16.33
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 335
+  vlos_systemic_em: 22
+  vlos_systemic_ep: 22
+  ref_vlos: Schneider1992ApJS...81....5S
+flux_HI:
+  flux_HI: 4.97
+  vlos_systemic_HI: 335
+  vlos_systemic_HI_em: 22
+  vlos_systemic_HI_ep: 22
+  ref_flux_HI: Schneider1992ApJS...81....5S

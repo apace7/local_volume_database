@@ -1,0 +1,20 @@
+key: sagittarius_1_gc-minni_087
+table: candidate
+location:
+  ra: 273.45
+  dec: -27.956389
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2019
+  host: sagittarius_1
+  name: Minni 87
+  ref_discovery:
+  - Minniti2019RNAAS...3..101M
+  - Minniti2021A&A...647L...4M
+notes:
+- 'Association with Sagittarius \citep{Minniti2021A&A...647L...4M}. Classification
+  from \citet{Minniti2021A&A...647L...4M}: Inconclusive'
+distance:
+  distance_fixed_host: true
