@@ -1,0 +1,26 @@
+key: ic_2574_gc-19
+table: gc_dwarf_hosted
+location:
+  ra: 157.108333
+  dec: 68.418358
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 1
+  discovery_year: 2024
+  host: ic_2574
+  name: IC 2574-19
+  ref_discovery:
+  - Crosby2024MNRAS.527.9118C
+  type: GC
+structure:
+  rhalf: 0.3
+  spatial_units: arcsec
+  spatial_model: exponential
+  ref_structure: Crosby2024MNRAS.527.9118C1052
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 21.33
+  apparent_magnitude_i: 19.88
+  ref_m_v: Crosby2024MNRAS.527.9118C

@@ -20,14 +20,13 @@ structure:
   spatial_units: arcsec
   spatial_model: sersic
   ellipticity: 0.5
-  ref_structure: Crosby2024MNRAS.527.9118C1052
+  ref_structure: Crosby2024MNRAS.527.9118C
 distance:
   distance_fixed_host: true
   distance_measurement_method: host
 m_v:
   apparent_magnitude_v: 16.0
   ref_m_v: Crosby2024MNRAS.527.9118C
-
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.3
   metallicity_spectroscopic_em: 0.6

@@ -1,0 +1,43 @@
+key: ngc_4594-kksg_29
+table: dwarf_local_field_distant
+location:
+  ra: 189.30875
+  dec: -10.4975
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2000
+  host: ngc_4594
+  name: KKSG 29
+  name_lvg: KKSG29
+  ref_discovery:
+  - Karachentsev2000A&AS..145..415K
+  other_name:
+  - PGC042120
+  type: dIrr
+structure:
+  rhalf: 32.9
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.56
+  ref_structure: Crosby2024MNRAS.527.9118C1052
+distance:
+  distance_measurement_method: trgb
+  distance_modulus: 29.96
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Karachentsev2018ApJ...858...62K
+m_v:
+  apparent_magnitude_v: 15.22
+  ref_m_v: Crosby2024MNRAS.527.9118C
+velocity:
+  vlos_systemic: 756
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Huchtmeier2009A&A...506..677H
+flux_HI:
+  flux_HI: 0.731
+  vlos_systemic_HI: 756
+  vlos_systemic_HI_em: 2
+  vlos_systemic_HI_ep: 2
+  ref_flux_HI: Huchtmeier2009A&A...506..677H

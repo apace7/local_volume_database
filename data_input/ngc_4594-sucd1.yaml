@@ -1,0 +1,43 @@
+key: ngc_4594-sucd1
+table: dwarf_local_field_distant
+location:
+  ra: 190.012917
+  dec: -11.667778
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2000
+  host: ngc_4594
+  name: SUCD1
+  name_lvg: SUCD1
+  ref_discovery:
+  - Hau2009MNRAS.394L..97H
+  type: UCD
+structure:
+  rhalf: 0.34
+  rhalf_em: 0.03
+  rhalf_ep: 0.03
+  spatial_units: arcsec
+  ref_structure: Hau2009MNRAS.394L..97H
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 17.46
+  ref_m_v: Hau2009MNRAS.394L..97H
+velocity:
+  vlos_systemic: 1293.1
+  vlos_systemic_em: 9.5
+  vlos_systemic_ep: 9.5
+  vlos_sigma: 25
+  vlos_sigma_em: 5.6
+  vlos_sigma_ep: 5.6
+  ref_vlos: Hau2009MNRAS.394L..97H
+age:
+  age: 12.6
+  ref_age: Hau2009MNRAS.394L..97H
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.082
+  metallicity_spectroscopic_em: 0.081
+  metallicity_spectroscopic_ep: 0.081
+  ref_metallicity_spectroscopic: Hau2009MNRAS.394L..97H
