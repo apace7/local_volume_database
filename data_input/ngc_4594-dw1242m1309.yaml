@@ -1,0 +1,27 @@
+key: ngc_4594-dw1242m1309
+table: dwarf_local_field_distant
+location:
+  ra: 190.6875
+  dec: -13.166111
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2023
+  host: ngc_4594
+  name: dw1242-1309
+  name_lvg: dw1242-1309
+  ref_discovery:
+  - Crosby2024MNRAS.527.9118C
+  type: dSph
+structure:
+  rhalf: 10.96
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.46
+  ref_structure: Crosby2024MNRAS.527.9118C1052
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 20.3
+  ref_m_v: Crosby2024MNRAS.527.9118C

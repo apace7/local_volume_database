@@ -1,8 +1,8 @@
 key: candidate_z
 table: candidate
 location:
-  ra:  193.379  # [deg]
-  dec: 46.4156 # [deg]
+  ra:  179.144
+  dec: 21.049
 name_discovery:
   discovery_year: 2007
   false_positive: 1

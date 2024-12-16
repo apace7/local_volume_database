@@ -1,0 +1,27 @@
+key: ngc_4594-dw1243m1048
+table: candidate
+location:
+  ra: 190.908333
+  dec: -10.801944
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2023
+  host: ngc_4594
+  name: dw1243-1048
+  ref_discovery:
+  - Crosby2024MNRAS.527.9118C
+  type: dSph
+structure:
+  rhalf: 2.28
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.09
+  ref_structure: Crosby2024MNRAS.527.9118C1052
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 20.47
+  ref_m_v: Crosby2024MNRAS.527.9118C

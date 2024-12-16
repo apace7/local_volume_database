@@ -1,0 +1,27 @@
+key: ngc_4594-dw1238m1043
+table: dwarf_local_field_distant
+location:
+  ra: 189.675
+  dec: -10.725
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2023
+  host: ngc_4594
+  name: dw1238-1043
+  name_lvg: dw1238-1043
+  ref_discovery:
+  - Crosby2024MNRAS.527.9118C
+  type: dSph
+structure:
+  rhalf: 5.37
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.48
+  ref_structure: Crosby2024MNRAS.527.9118C1052
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 21.21
+  ref_m_v: Crosby2024MNRAS.527.9118C
