@@ -17,7 +17,7 @@ structure:
   spatial_units: arcsec
   spatial_model: sersic
   ellipticity: 0.17
-  ref_structure: Crosby2024MNRAS.527.9118C1052
+  ref_structure: Crosby2024MNRAS.527.9118C
 distance:
   distance_fixed_host: true
   distance_measurement_method: host

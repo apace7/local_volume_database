@@ -8,6 +8,8 @@ print 'creating latex tables'
 
 python scripts/create_latex_table.py
 
+python scripts/unit_tests.py
+
 read -s -k '?Press any key to create summary plots.'
 
 python scripts/create_summary_plots.py

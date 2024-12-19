@@ -1,7 +1,6 @@
 ## this takes yaml files as input and creates tables and saves them as csv (or other file types) 
 
 import numpy as np
-# import matplotlib.pyplot as plt
 
 import astropy.table as table
 
@@ -587,17 +586,4 @@ for i in range(len(comb_all)):
 print(Counter(comb_all['table']))
 comb_all.write('data/comb_all.csv', format='csv', overwrite=True)
 
-def unit_test():
-    print("unit tests started")
-    ra_dec_to_large = comb_all[np.logical_or.reduce((comb_all['ra']<0, comb_all['ra']>360., comb_all['dec']<-90, comb_all['dec']>90.))]
-    if len(ra_dec_to_large)==0:
-        print("ra dec checked")
-    else:
-        print("ra_dec_to_large", len(ra_dec_to_large))
-        for i in range(len(ra_dec_to_large)):
-            print(i, ra_dec_to_large['key'][i], ra_dec_to_large['ra'][i], ra_dec_to_large['dec'][i])
-        print()
-
-
-unit_test()
 print()

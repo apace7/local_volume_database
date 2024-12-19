@@ -1,0 +1,45 @@
+key: kk_017
+table: dwarf_local_field_distant
+location:
+  ra: 30.04125
+  dec: 28.8325
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: KK 17
+  other_name:
+  - PGC166065
+  - AGC111164 
+  name_lvg: KK17
+structure:
+  rhalf: 16.6
+  rhalf_em: 0.99
+  rhalf_ep: 0.99
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.52
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
+m_v:
+  apparent_magnitude_v: 16.73
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
+distance:
+  distance_modulus: 28.50
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+velocity:
+  vlos_systemic: 168
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Huchtmeier2003A&A...401..483H
+flux_HI:
+  flux_HI: 0.964
+  vlos_systemic_HI: 168
+  vlos_systemic_HI_em: 2
+  vlos_systemic_HI_ep: 2
+  ref_flux_HI: Huchtmeier2003A&A...401..483H

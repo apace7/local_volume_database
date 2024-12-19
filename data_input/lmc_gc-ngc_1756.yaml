@@ -12,8 +12,6 @@ name_discovery:
   - ESO 56-27
   - KMHK 257
   - SL 94
-  ref_discovery:
-  - list
 distance:
   ref_distance: Milone2023A&A...672A.161M
   distance_modulus: 18.55
