@@ -80,12 +80,15 @@ Table/Catalog Construction
 ---------------------------------------------
 
 The bash/zsh shell script, ``create_database.sh``, creates the tables/catalogs, overview figures, and the summary pdf. 
-The script runs three python scripts, ``scripts/combine_table_general.py``, ``scripts/create_latex_table.py``, and ``scripts/create_summary_plots.py``, and runs the LaTeX compilation of the pdf after. 
-The first script, combines together all the systems, adds value-added columns and saves the catalogs (csv and fits files).
-The second script, uses the output and the YAML files to create the input LaTeX data and citations files for the ``lvdb_table.pdf``. 
-The third script, creates summary figures. This includes recreating all the figures in the overview paper with the latest input files and some additional figures in a single combined pdf file, ``paper_examples/overview_plots.pdf``. The plots in the combined pdf file are for checking the content of the database (looking for outliers, etc). 
+The script runs several python scripts, ``scripts/combine_table_general.py``, ``scripts/create_latex_table.py``, ``scripts/unit_tests.py``, and ``scripts/create_summary_plots.py``, and runs the LaTeX compilation of the pdf after. 
 
-Note that the ``overview_plots.pdf`` is not saved in the github and  ``lvdb_table.pdf`` is only included in the release page. 
+* ``scripts/combine_table_general.py`` -- combines together all the systems, adds value-added columns and saves the catalogs (csv and fits files).
+* ``scripts/create_latex_table.py`` -- uses the output and the YAML files to create the input LaTeX data and citations files for the ``lvdb_table.pdf``. 
+* ``scripts/unit_tests.py`` -- runs unit tests to validate files. 
+* ``scripts/create_summary_plots.py`` -- creates summary figures. This includes recreating all the figures in the overview paper with the latest input files and some additional figures in a single combined pdf file, ``paper_examples/overview_plots.pdf``. The plots in the combined pdf file are for checking the content of the database (looking for outliers, etc). 
+* Lastly, latex compilation of the lvdb_table.pdf
+
+Note that the ``overview_plots.pdf`` is not saved in the github or release pages and  ``lvdb_table.pdf`` is only included in the release page. 
 
 
 

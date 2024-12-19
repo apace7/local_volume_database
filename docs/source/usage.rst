@@ -63,8 +63,9 @@ The following are the available tables (in csv and fits file formats). The fits 
 * **gc_harris**: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_abmiguous table).
 * **gc_dwarf_hosted**: globular clusters hosted by dwarf galaxies. This does not include the Sagittarius globular clusters which are in gc_harris. This catalog is incomplete for known systems.
 * **gc_other**: for other globular clusters. (mostly for future work)
-* **candidate**: known false-positive candidates, background galaxies, or low confidence candidates. Only included in the release page.
-* **misc_host**: brighter galaxies that are hosts to the dwarf galaxies.  Only included in the release page.  The catalog exists for completeness and for host information for dwarf galaxies.  The main properties compiled for these systems are phase-space information (ra,dec,distance, velocity) and overall stellar and gas mass. 
+* **candidate**: known false-positive candidates, background galaxies, or low confidence candidates. **Only included in the release page.**
+* **misc_host**: brighter galaxies that are hosts to the dwarf galaxies.  The catalog exists for completeness and for host information for dwarf galaxies.  The main properties compiled for these systems are phase-space information (ra,dec,distance, velocity) and overall stellar and gas mass. **Only included in the release page.**
+* **comb_all**: the union of all tables.  Includes all systems in the LVDB.  This table has an additional column `table` that specifies the table origin of the system. **Only included in the release page.**
 
 
 
@@ -379,6 +380,8 @@ Users of the LVDB are encouraged to cite the LVDB input (of the systems studied 
 
 If you use the LVDB in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the LVDB overview paper (`Pace 2024 <https://ui.adsabs.harvard.edu/abs/2024arXiv241107424P/abstract>`_). 
 An example in LaTeX that can be added to the acknowledgments section is: This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }} \citep{Pace2024arXiv241107424P}.
+
+The bibtex of the LVDB paper is below:
 
 .. code-block:: bibtex
 
