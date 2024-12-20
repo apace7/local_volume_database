@@ -42,8 +42,3 @@ age:
   age_em: 1.77
   age_ep: 1.77
   ref_age: Hwang2014ApJ...783...49H
-metallicity_isochrone:
-  metallicity_isochrone: 0
-  metallicity_isochrone_em: 0
-  metallicity_isochrone_ep: 0
-  ref_metallicity_isochrone: ref
