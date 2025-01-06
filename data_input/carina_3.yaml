@@ -13,6 +13,7 @@ name_discovery:
   - Torrealba2018MNRAS.475.5085T
   abbreviation: CarIII
   type: dSph
+  name_lvg: Carina III
 distance:
   distance_modulus: 17.22
   distance_modulus_em: 0.1

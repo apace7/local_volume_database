@@ -1,22 +1,26 @@
-distance:
-  distance_modulus: 17.0
-  ref_distance: Torrealba2019MNRAS.484.2181T
+
 key: des_5
+table: gc_ambiguous
 location:
-  dec: -62.58046
   ra: 77.50351
-m_v:
-  apparent_magnitude_v: 17.3
-  ref_m_v: Torrealba2019MNRAS.484.2181T
+  dec: -62.58046
 name_discovery:
   confirmed_real: 0
   confirmed_star_cluster: 0
-  discovery_year: 2018
+  discovery_year: 2016
   host: mw
-  name: DES 5
+  name: OGLE-CL LMC 874
+  other_name:
+  - DES 5
   ref_discovery:
+  - Sitek2016AcA....66..255S
   - Torrealba2019MNRAS.484.2181T
 structure:
   ref_structure: Torrealba2019MNRAS.484.2181T
   rhalf: 0.18
-table: gc_ambiguous
+m_v:
+  apparent_magnitude_v: 17.3
+  ref_m_v: Torrealba2019MNRAS.484.2181T
+distance:
+  distance_modulus: 17.0
+  ref_distance: Torrealba2019MNRAS.484.2181T

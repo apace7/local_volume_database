@@ -16,6 +16,7 @@ name_discovery:
   - Belokurov2014MNRAS.441.2124B
   - Laevens2014ApJ...786L...3L
   type: GC
+  name_lvg: Crater
 age:
   age: 7.5
   age_em: 0.4

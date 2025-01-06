@@ -31,6 +31,7 @@ name_discovery:
   - Belokurov2009MNRAS.397.1748B
   abbreviation: Seg2
   type: dSph
+  name_lvg: Segue 2
 proper_motion:
   pmdec: -0.322
   pmdec_em: 0.05

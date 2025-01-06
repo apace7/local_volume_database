@@ -13,6 +13,7 @@ name_discovery:
   - Koposov2018MNRAS.479.5343K
   abbreviation: HyiI
   type: dSph
+  name_lvg: Hydrus 1 dw
 notes:
 - possible rotation \citep{Koposov2018MNRAS.479.5343K}
 distance:

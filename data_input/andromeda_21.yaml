@@ -29,6 +29,7 @@ name_discovery:
   ref_discovery:
   - Martin2009ApJ...705..758M
   type: dSph
+  name_lvg: And XXI
 structure:
   ellipticity: 0.36
   ellipticity_em: 0.13

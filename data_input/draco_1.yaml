@@ -15,7 +15,8 @@ name_discovery:
   ref_discovery:
   - Wilson1955PASP...67...27W
   abbreviation: Dra
-  type: dSph  
+  type: dSph
+  name_lvg: Draco
 distance:
   distance_modulus: 19.557
   distance_modulus_em: 0.04

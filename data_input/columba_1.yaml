@@ -15,6 +15,7 @@ name_discovery:
   - DrlicaWagner2015ApJ...813..109D
   abbreviation: ColI
   type: dSph
+  name_lvg: Columbia I
 notes:
 - confirmed dwarf  due to size $\sim 100$ pc and measured mean velocity
 distance:

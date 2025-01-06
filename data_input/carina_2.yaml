@@ -12,7 +12,8 @@ name_discovery:
   ref_discovery:
   - Torrealba2018MNRAS.475.5085T
   abbreviation: CarII
-  type: dSph  
+  type: dSph
+  name_lvg: Carina II
 distance:
   distance_modulus: 17.864
   distance_modulus_em: 0.023

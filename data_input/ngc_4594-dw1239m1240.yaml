@@ -29,14 +29,14 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -1.2
   metallicity_spectroscopic_em: 0.3
   metallicity_spectroscopic_ep: 0.3
-  ref_metallicity_spectroscopic: Crosby2024arXiv241202060C
+  ref_metallicity_spectroscopic: Crosby2025MNRAS.536.2072C
 velocity:
   vlos_systemic: 1040
   vlos_systemic_em: 13
   vlos_systemic_ep: 13
-  ref_vlos: Crosby2024arXiv241202060C
+  ref_vlos: Crosby2025MNRAS.536.2072C
 age:
   age: 8.7
   age_em: 1.3
   age_ep: 1.6
-  ref_age: Crosby2024arXiv241202060C
+  ref_age: Crosby2025MNRAS.536.2072C

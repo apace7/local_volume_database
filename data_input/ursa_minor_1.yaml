@@ -17,6 +17,7 @@ name_discovery:
   - Wilson1955PASP...67...27W
   abbreviation: UMi
   type: dSph
+  name_lvg: UMin
 distance:
   distance_modulus: 19.23
   distance_modulus_em: 0.09

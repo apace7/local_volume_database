@@ -8,6 +8,11 @@ table: misc
 location:
   ra: 0
   dec: 0
+  ra_em: 0
+  ra_ep: 0
+  dec_em: 0
+  dec_ep: 0
+  ref_location: ref
 name_discovery:
   confirmed_dwarf: 0
   confirmed_star_cluster: 0

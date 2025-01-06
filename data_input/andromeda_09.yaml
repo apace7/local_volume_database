@@ -12,6 +12,7 @@ name_discovery:
   ref_discovery:
   - Zucker2004ApJ...612L.121Z
   type: dSph
+  name_lvg: And IX
 distance:
   distance_modulus: 24.23
   distance_modulus_em: 0.06

@@ -1,0 +1,26 @@
+key: phoenix_1_gc-3
+table: gc_dwarf_hosted
+location:
+  ra: 27.7636
+  dec: -44.4696
+name_discovery:
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  discovery_year: 1977
+  host: phoenix_1
+  name: Phoenix GC-3
+  ref_discovery:
+  - Canterna1977ApJ...212L..57C
+  - MartinezDelgado1999AJ....118..862M
+  type: GC
+notes:
+  - Gaia DR3 source\_id = 4954935441037741440 . Photometrically variable source in Gaia DR3. V-band magnitude is from DES DR2 or DECaLS DR10 catalog.
+structure:
+  rhalf: 1.3
+  spatial_units: arcsec
+  ref_structure: MartinezDelgado1999AJ....118..862M
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 18.43

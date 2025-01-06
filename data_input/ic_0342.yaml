@@ -8,6 +8,7 @@ name_discovery:
   other_name:
   - PGC013826
   - UGC02847
+  name_lvg: IC0342
 distance:
   distance_modulus: 26.80
   distance_modulus_em: 0.10

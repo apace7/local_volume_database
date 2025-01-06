@@ -12,7 +12,8 @@ name_discovery:
   ref_discovery:
   - Belokurov2007ApJ...654..897B
   abbreviation: Seg1
-  type: dSph  
+  type: dSph
+  name_lvg: Segue 1
 distance:
   distance_modulus: 16.8
   distance_modulus_em: 0.2
