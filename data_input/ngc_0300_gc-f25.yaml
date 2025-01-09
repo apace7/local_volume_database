@@ -1,0 +1,49 @@
+key: ngc_0300_gc-f25
+table: gc_dwarf_hosted
+location:
+  ra: 13.065583
+  dec: -38.1011
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2025
+  host: ngc_0300
+  name: NGC 300-GCF25
+  ref_discovery:
+  - Fielder2025arXiv250104089F
+  type: GC
+notes:
+  - Age estimated from NGC 300 properties and metallicity computed from V-I color \citep{Fielder2025arXiv250104089F}.
+structure:
+  rhalf: 1.17
+  rhalf_em: 0.15
+  rhalf_ep: 0.15
+  spatial_units: arcsec
+  ellipticity: 0.071
+  ellipticity_em: 0.005
+  ellipticity_ep: 0.005
+  ref_structure: Fielder2025arXiv250104089F
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 17.55
+  apparent_magnitude_v_em: 0.16
+  apparent_magnitude_v_ep: 0.16
+  apparent_magnitude_i: 16.69
+  apparent_magnitude_i_em: 0.19
+  apparent_magnitude_i_ep: 0.19
+  ref_m_v: Fielder2025arXiv250104089F
+metallicity_photometric:
+  metallicity_photometric: -1.6
+  metallicity_photometric_em: 0.6
+  metallicity_photometric_ep: 0.6
+  ref_metallicity_photometric: Fielder2025arXiv250104089F
+velocity:
+  vlos_systemic: 190
+  vlos_systemic_em: 8
+  vlos_systemic_ep: 8
+  ref_vlos: Fielder2025arXiv250104089F
+age:
+  age: 10
+  ref_age: Fielder2025arXiv250104089F

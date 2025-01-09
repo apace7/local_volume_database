@@ -12,10 +12,10 @@ name_discovery:
 notes:
 - NGC 55 sub-group, forming "bridge" to Sculptor? \citep{McConnachie2012AJ....144....4M}
 distance:
-  distance_modulus: 26.59
+  distance_modulus: 26.60
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
-  ref_distance: McConnachie2012AJ....144....4M
+  ref_distance: Tully2009AJ....138..323T
 flux_HI:
   flux_HI: 1720.0
   flux_HI_em: 181.0
