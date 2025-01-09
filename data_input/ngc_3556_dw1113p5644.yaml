@@ -24,7 +24,7 @@ structure:
 distance:
   distance_fixed_host: true
 m_v:
-  apparent_magnitude_v: 4.92
-  apparent_magnitude_v_em: 0.64
-  apparent_magnitude_v_ep: 0.64
+  apparent_magnitude_v: 20.05
+  apparent_magnitude_v_em: 0.15
+  apparent_magnitude_v_ep: 0.15
   ref_m_v: Carlsten2022ApJ...933...47C

@@ -1,4 +1,4 @@
-key: ngc_4826_dw1300+1843
+key: ngc_4826-dw1300p1843
 table: dwarf_local_field_distant
 location:
   ra: 195.129
@@ -13,6 +13,7 @@ name_discovery:
   - Carlsten2022ApJ...933...47C
   other_name:
   - dw1300p1843
+  name_lvg: dw1300+1843
 distance:
   distance_modulus: 27.64
   distance_modulus_em: 0.39

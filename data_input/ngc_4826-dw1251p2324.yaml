@@ -1,21 +1,21 @@
-key: m_094-dw1311p4051
+key: ngc_4826-dw1251p2324
 table: candidate
 location:
-  ra: 197.922
-  dec: 40.863
+  ra: 192.868
+  dec: 23.401
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
   false_positive: 0
   discovery_year: 2022
-  host: m_094
-  name: dw1311p4051
+  host: ngc_4826
+  name: dw1251p2324
   ref_discovery:
   - Carlsten2022ApJ...933...47C
 notes:
-- M94 candidate in \citet{Carlsten2022ApJ...933...47C}; SBF attempted.
+- Candidate in \citep{Carlsten2022ApJ...933...47C}.
 structure:
-  rhalf: 7.3
+  rhalf: 5.2
   rhalf_em: 0.5
   rhalf_ep: 0.5
   spatial_units: arcsec
@@ -23,8 +23,9 @@ structure:
   ref_structure: Carlsten2022ApJ...933...47C
 distance:
   distance_fixed_host: true
+  distance_measurement_method: host
 m_v:
-  apparent_magnitude_v: 18.04
-  apparent_magnitude_v_em: 0.1
-  apparent_magnitude_v_ep: 0.1
+  apparent_magnitude_v: 18.89
+  apparent_magnitude_v_em: 0.12
+  apparent_magnitude_v_ep: 0.12
   ref_m_v: Carlsten2022ApJ...933...47C

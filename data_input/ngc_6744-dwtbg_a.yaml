@@ -1,0 +1,31 @@
+key: ngc_6744-dwtbg_a
+table: dwarf_local_field_distant
+location:
+  ra: 286.483333
+  dec: -63.271944
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_6744
+  name: NGC 6744 dwTBGa
+  other_name:
+  - dw1905-6316
+  name_lvg: NGC6744dwTBGa
+structure:
+  rhalf: 11.2
+  rhalf_em: 0.8
+  rhalf_ep: 0.8
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.41
+  distance_modulus_em: 0.33
+  distance_modulus_ep: 0.31
+  ref_distance: Carlsten2022ApJ...933...47C
+  distance_measurement_method: sbf
+m_v:
+  apparent_magnitude_v: 17.69
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: Carlsten2022ApJ...933...47C

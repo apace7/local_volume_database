@@ -1,0 +1,35 @@
+key: kks_71
+table: dwarf_local_field_distant
+location:
+  ra: 287.183333
+  dec: -63.731389
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  host: ngc_6744
+  name: KKs 71
+  other_name:
+  - ESO104-038
+  - PGC062815
+  - PGC329742
+  - NGC6744A
+  - dw1908-6343
+  name_lvg: '[KK2000] 71'
+structure:
+  rhalf: 66.8
+  rhalf_em: 3.3
+  rhalf_ep: 3.3
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 28.63
+  distance_modulus_em: 0.23
+  distance_modulus_ep: 0.24
+  ref_distance: Carlsten2022ApJ...933...47C
+  distance_measurement_method: sbf
+m_v:
+  apparent_magnitude_v: 13.29
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C

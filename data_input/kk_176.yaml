@@ -1,0 +1,33 @@
+key: kk_176
+table: dwarf_local_field_distant
+location:
+  ra: 194.984583
+  dec: -19.413056
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: KK 176
+  other_name:
+  - PGC 044681
+  name_lvg: KK176
+distance:
+  distance_modulus: 29.31
+  distance_modulus_em: 0.09
+  distance_modulus_ep: 0.09
+  ref_distance: Karachentsev2018ApJ...858...62K
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 16.03
+  apparent_magnitude_b: 16.34
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 825.4
+  vlos_systemic_em: 0.5
+  vlos_systemic_ep: 0.5
+  ref_vlos: Huchtmeier2003A&A...401..483H
+flux_HI:
+  flux_HI: 5.15
+  vlos_systemic_HI: 825.4
+  vlos_systemic_HI_em: 0.5
+  vlos_systemic_HI_ep: 0.5
+  ref_flux_HI: Huchtmeier2003A&A...401..483H

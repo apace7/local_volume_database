@@ -1,0 +1,33 @@
+key: ngc_4826-dw1252p2215
+table: dwarf_local_field_distant
+location:
+  ra: 193.024167
+  dec: 22.265
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2022
+  host: ngc_4826
+  name: dw1252+2215
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+  name_lvg: dw1252+2215
+structure:
+  rhalf: 8.9
+  rhalf_em: 1.0
+  rhalf_ep: 1.0
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 28.67
+  distance_modulus_em: 0.28
+  distance_modulus_ep: 0.27
+  ref_distance: Carlsten2022ApJ...933...47C
+  distance_measurement_method: sbf
+m_v:
+  apparent_magnitude_v: 19.60
+  apparent_magnitude_v_em: 0.14
+  apparent_magnitude_v_ep: 0.14
+  ref_m_v: Carlsten2022ApJ...933...47C

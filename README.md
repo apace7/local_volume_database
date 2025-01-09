@@ -20,6 +20,7 @@ The tables can be directly loaded into Jupyter notebooks without having to downl
 
     import astropy.table as table
     ## from the release page (recommended)
+    ## Note that this links to the first release version (v1.0.0) and you should use the most up-to-date release.
     dwarf_mw = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v1.0.0/dwarf_all.csv')
     # or from a  github branch
     dwarf_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_mw.csv') 
