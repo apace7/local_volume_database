@@ -1,0 +1,32 @@
+key: kk_070
+table: dwarf_local_field_distant
+location:
+  ra: 133.841667
+  dec: 33.559167
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  host: ngc_2683
+  name: KK 70
+  other_name:
+  - PGC166096
+  - dw0855+3333
+  name_lvg: KK70
+structure:
+  rhalf: 22.3
+  rhalf_em: 1.3
+  rhalf_ep: 1.3
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 16.32
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.81
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb

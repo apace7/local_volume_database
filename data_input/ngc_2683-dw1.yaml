@@ -1,0 +1,41 @@
+key: ngc_2683-dw1
+table: dwarf_local_field_distant
+location:
+  ra: 133.361667
+  dec: 33.305278
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_2683
+  name: NGC 2683-dw1
+  other_name:
+  - LV 0853+3318
+  - dw0853+3318
+  name_lvg: NGC2683dw1
+  discovery_year: 2015
+  ref_discovery:
+  - Karachentsev2015AstBu..70..379K
+structure:
+  rhalf: 9.9
+  rhalf_em: 0.8
+  rhalf_ep: 0.8
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 30.10
+  distance_modulus_em: 0.22
+  distance_modulus_ep: 0.22
+  ref_distance: Carlsten2022ApJ...933...47C
+  distance_measurement_method: sbf
+m_v:
+  apparent_magnitude_v: 18.41
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 380
+  vlos_systemic_em: 25
+  vlos_systemic_ep: 25
+  ref_vlos: Karachentsev2015Ap.....58..309K
+  

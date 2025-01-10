@@ -1,0 +1,44 @@
+key: kk_069
+table: dwarf_local_field_distant
+location:
+  ra: 133.21125
+  dec: 33.797778
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  host: ngc_2683
+  name: KK69
+  other_name:
+  - PGC166095
+  - dw0852+3347
+  name_lvg: KK69
+structure:
+  rhalf: 52.5
+  rhalf_em: 2.9
+  rhalf_ep: 2.9
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 16.18
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.84
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+velocity:
+  vlos_systemic: 462
+  vlos_systemic_em: 1.7
+  vlos_systemic_ep: 1.7
+  ref_vlos: Begum2008MNRAS.386.1667B
+flux_HI:
+  flux_HI: 2.29
+  vlos_systemic_HI: 462
+  vlos_systemic_HI_em: 1.7
+  vlos_systemic_HI_ep: 1.7
+  ref_flux_HI: Begum2008MNRAS.386.1667B
+
