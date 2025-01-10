@@ -1,8 +1,13 @@
 key: centaurus_1
 table: dwarf_mw
 location:
-  ra: 189.585
-  dec: -40.902
+  ra: 189.5908
+  dec: -40.9043
+  ra_em: 0.0026
+  ra_ep: 0.0026
+  dec_em: 0.0029
+  dec_ep: 0.0029
+  ref_location: Casey2025arXiv250104772C
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -19,11 +24,11 @@ distance:
   distance_modulus_ep: 0.07
   ref_distance: MartinezVazquez2021AJ....162..253M
 m_v:
-  apparent_magnitude_v: 14.78
-  apparent_magnitude_v_em: 0.11
-  apparent_magnitude_v_ep: 0.11
+  apparent_magnitude_v: 15.0
+  apparent_magnitude_v_em: 0.17
+  apparent_magnitude_v_ep: 0.17
   mean_ebv: 0.124
-  ref_m_v: Mau2020ApJ...890..136M
+  ref_m_v: Casey2025arXiv250104772C
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.57
   metallicity_spectroscopic_em: 0.08
@@ -41,17 +46,17 @@ proper_motion:
   pmra_ep: 0.05
   ref_proper_motion: Heiger2024ApJ...961..234H
 structure:
-  ellipticity: 0.4
-  ellipticity_em: 0.1
-  ellipticity_ep: 0.1
-  position_angle: 20.0
-  position_angle_em: 11.0
-  position_angle_ep: 11.0
-  ref_structure: Mau2020ApJ...890..136M
-  rhalf: 2.9
-  rhalf_em: 0.4
-  rhalf_ep: 0.5
-  spatial_model: plummer
+  ellipticity: 0.36
+  ellipticity_em: 0.05
+  ellipticity_ep: 0.05
+  position_angle: 10
+  position_angle_em: 4
+  position_angle_ep: 4
+  ref_structure: Casey2025arXiv250104772C
+  rhalf: 2.60
+  rhalf_em: 0.30
+  rhalf_ep: 0.30
+  spatial_model: exponential
   spatial_units: arcmin
 velocity:
   ref_vlos: Heiger2024ApJ...961..234H

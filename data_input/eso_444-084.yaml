@@ -1,8 +1,8 @@
 key: eso_444-084
 table: dwarf_local_field_distant
 location:
-  ra: 204.33416666666665  # [deg]
-  dec: -28.046111111111113 # [deg]
+  ra: 204.33416666666665
+  dec: -28.046111111111113
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -11,9 +11,14 @@ name_discovery:
   other_name:
   - PGC048111
 structure:
-  rhalf: 21.39
+  rhalf: 31.77
+  rhalf_em: 2.04
+  rhalf_ep: 2.04
   spatial_units: arcsec
-  ref_structure: Muller2015A&A...583A..79M
+  spatial_model: sersic
+  ellipticity: 0.30
+  position_angle: 310
+  ref_structure: Li2025arXiv250104943L
 distance:
   distance_modulus: 28.32 
   distance_modulus_em: 0.19
@@ -23,7 +28,7 @@ m_v:
   apparent_magnitude_v: 14.31
   ref_m_v: Muller2015A&A...583A..79M
 velocity:
-  vlos_systemic: 587 # [km/s]
+  vlos_systemic: 587
   vlos_systemic_em: 3
   vlos_systemic_ep: 3
   ref_vlos: Koribalski2004AJ....128...16K 

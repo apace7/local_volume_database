@@ -1,0 +1,52 @@
+key: gaia_09
+table: gc_other
+location:
+  ra: 119.707
+  dec: -39.011
+  ref_location: Pace2023MNRAS.526.1075P
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  discovery_year: 2023
+  host: mw
+  name: Gaia 9
+  ref_discovery:
+  - Pace2023MNRAS.526.1075P
+notes:
+- open cluster
+structure:
+  rhalf: 1.4
+  rhalf_em: 0.2
+  rhalf_ep: 0.2
+  spatial_units: arcmin
+  spatial_model: plummer
+  ref_structure: Pace2023MNRAS.526.1075P
+distance:
+  distance_modulus: 15.7
+  distance_measurement_method: cmd
+  ref_distance: Pace2023MNRAS.526.1075P
+proper_motion:
+  pmra: -1.08
+  pmra_em: 0.03
+  pmra_ep: 0.03
+  pmdec: 1.50
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  ref_proper_motion: Pace2023MNRAS.526.1075P
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.50
+  metallicity_spectroscopic_em: 0.05
+  metallicity_spectroscopic_ep: 0.05
+  metallicity_spectroscopic_sigma_ul: 0.16
+  ref_metallicity_spectroscopic: Pace2023MNRAS.526.1075P
+velocity:
+  vlos_systemic: 159.0
+  vlos_systemic_em: 0.3
+  vlos_systemic_ep: 0.3
+  vlos_sigma: 1.0
+  vlos_sigma_em: 0.3
+  vlos_sigma_ep: 0.3
+  ref_vlos: Pace2023MNRAS.526.1075P
+age:
+  age: 1.5
+  ref_age: Pace2023MNRAS.526.1075P

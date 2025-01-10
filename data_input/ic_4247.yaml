@@ -1,8 +1,8 @@
 key: ic_4247
 table: dwarf_local_field_distant
 location:
-  ra: 201.685  # [deg]
-  dec: -30.3625 # [deg]
+  ra: 201.685
+  dec: -30.3625
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -12,9 +12,14 @@ name_discovery:
   - PGC047073
   - ESO444-034
 structure:
-  rhalf: 15.32 
+  rhalf: 19.60
+  rhalf_em: 0.45
+  rhalf_ep: 0.45
   spatial_units: arcsec
-  ref_structure: Muller2015A&A...583A..79M
+  spatial_model: sersic
+  ellipticity: 0.40
+  position_angle: 333
+  ref_structure: Li2025arXiv250104943L
 distance:
   distance_modulus: 28.57
   distance_modulus_em: 0.03
@@ -24,9 +29,9 @@ m_v:
   apparent_magnitude_v: 13.61
   ref_m_v: Muller2015A&A...583A..79M
 velocity:
-  vlos_systemic: 420 # [km/s]
+  vlos_systemic: 420
   ref_vlos: Banks1999ApJ...524..612B 
 flux_HI:
-  flux_HI:  6.3 # [Jy km/s ]
-  vlos_systemic_HI: 420 #[km/s]
-  ref_flux_HI: Banks1999ApJ...524..612B ## mostly for flux_HI
+  flux_HI:  6.3
+  vlos_systemic_HI: 420
+  ref_flux_HI: Banks1999ApJ...524..612B

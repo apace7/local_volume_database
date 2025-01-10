@@ -163,6 +163,8 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **dec** -- declination ICRS [degree] (required yaml key)
 
+  * **ref_location** -- reference for center/location. Errors are supported for the center of the system. 
+
 * **name_discovery** -- yaml collection
 
   * **name** -- name of system

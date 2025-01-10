@@ -32,3 +32,12 @@ flux_HI:
   vlos_systemic_HI_em: 4
   vlos_systemic_HI_ep: 4
   ref_flux_HI: Koribalski2004AJ....128...16K
+structure:
+  rhalf: 26.79
+  rhalf_em: 0.85
+  rhalf_ep: 0.85
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.31
+  position_angle: 24
+  ref_structure: Li2025arXiv250104943L

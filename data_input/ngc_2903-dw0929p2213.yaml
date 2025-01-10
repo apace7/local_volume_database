@@ -1,0 +1,32 @@
+key: ngc_2903-dw0929p2213
+table: dwarf_local_field_distant
+location:
+  ra: 142.477917
+  dec: 22.218056
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_2903
+  name: dw0929+2213
+  name_lvg: dw0929+2213
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+  discovery_year: 2022
+structure:
+  rhalf: 8.73
+  rhalf_em: 1.30
+  rhalf_ep: 1.30
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 20.54
+  apparent_magnitude_v_em: 0.17
+  apparent_magnitude_v_ep: 0.17
+  ref_m_v: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.96
+  distance_modulus_em: 0.36
+  distance_modulus_ep: 0.34
+  ref_distance: Carlsten2022ApJ...933...47C
+  distance_measurement_method: sbf
