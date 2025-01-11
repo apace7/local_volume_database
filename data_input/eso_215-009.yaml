@@ -1,0 +1,44 @@
+key: eso_215-009
+table: dwarf_local_field_distant
+location:
+  ra: 164.375833
+  dec: -48.178889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5128
+  name: ESO 215-009
+  other_name:
+  - KKs 40
+  - PGC490287
+  name_lvg: ESO215-009
+structure:
+  rhalf: 28.3
+  rhalf_em: 0.6
+  rhalf_ep: 0.6
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Warren2004AJ....128.1152W
+distance:
+  distance_modulus: 28.69
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 14.77
+  apparent_magnitude_b: 15.08
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 598
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Kirby2012MNRAS.420.2924K
+flux_HI:
+  flux_HI: 100.9
+  flux_HI_em: 3.1
+  flux_HI_ep: 3.1
+  vlos_systemic_HI: 598
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: Kirby2012MNRAS.420.2924K

@@ -1,0 +1,23 @@
+key: ngc_5055-dwtbg6
+table: dwarf_local_field_distant
+location:
+  ra: 199.645417
+  dec: 41.753333
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  host: ngc_5055
+  name: NGC 5055-dwTBG6
+  ref_discovery:
+  - Karachentsev2020AN....341.1037K
+  discovery_year: 2000
+notes:
+- Candidate in \citet{Karachentsev2020AN....341.1037K}; might be patch of reflecting nebulae.
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 18.17
+  apparent_magnitude_b: 18.48
+  ref_m_v: Karachentsev2013AJ....145..101K

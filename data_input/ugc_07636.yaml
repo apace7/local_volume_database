@@ -1,0 +1,28 @@
+key: ugc_07636
+table: dwarf_local_field_distant
+location:
+  ra: 187.504167
+  dec: 7.929444
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: UGC 7636
+  other_name:
+  - PGC041258
+  name_lvg: UGC07636
+distance:
+  distance_modulus: 28.58
+  ref_distance: Karachentsev2013AJ....145..101K
+  distance_measurement_method: tf
+m_v:
+  apparent_magnitude_v: 14.50
+  apparent_magnitude_b: 14.81
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 469
+  vlos_systemic_em: 16
+  vlos_systemic_ep: 16
+  ref_vlos: Schneider1990ApJS...72..245S
+flux_HI:
+  flux_HI: 0.23
+  ref_flux_HI: Karachentsev2013AJ....145..101K

@@ -1,0 +1,21 @@
+key: kk_108
+table: dwarf_local_field_distant
+location:
+  ra: 175.015
+  dec: 46.478611
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  name: KK 108
+  other_name:
+  - '[KK98] 108'
+  - PGC166114
+  - BTS037
+  name_lvg: '[KK98] 108'
+distance:
+  distance_modulus: 28.49
+  ref_distance: Karachentsev2013AJ....145..101K
+m_v:
+  apparent_magnitude_v: 17.32
+  apparent_magnitude_b: 17.63
+  ref_m_v: Karachentsev2013AJ....145..101K

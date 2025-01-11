@@ -1,0 +1,38 @@
+key: agc_238890
+table: dwarf_local_field_distant
+location:
+  ra: 203.12625
+  dec: 25.123611
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: AGC 238890
+  name_lvg: AGC238890
+structure:
+  rhalf: 53
+  spatial_units: arcsec
+  ellipticity: 0.33
+  position_angle: 85
+  ref_structure: McQuinn2021ApJ...918...23M
+distance:
+  distance_modulus: 28.64
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: McQuinn2021ApJ...918...23M
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 15.67
+  ref_m_v: McQuinn2021ApJ...918...23M
+velocity:
+  vlos_systemic: 360
+  vlos_systemic_em: 3
+  vlos_systemic_ep: 3
+  ref_vlos: Haynes2011AJ....142..170H
+flux_HI:
+  flux_HI: 0.35
+  flux_HI_em: 0.04
+  flux_HI_ep: 0.04
+  vlos_systemic_HI: 360
+  vlos_systemic_HI_em: 3
+  vlos_systemic_HI_ep: 3
+  ref_flux_HI: Haynes2011AJ....142..170H

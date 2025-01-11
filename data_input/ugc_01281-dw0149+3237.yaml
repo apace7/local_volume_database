@@ -1,0 +1,29 @@
+key: ugc_01281-dw0149+3237
+table: dwarf_local_field_distant
+location:
+  ra: 27.462083
+  dec: 32.628333
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  host: ugc_01281
+  name: Dw 0149+3237
+  other_name:
+  - SSH-UDG 1
+  name_lvg: Dw0149+3237
+  ref_discovery:
+  - Annibali2020MNRAS.491.5101A
+  - Karachentsev2022AstBu..77..372K
+  discovery_year: 2020
+structure:
+  rhalf: 0.4
+  spatial_units: arcmin
+  ref_structure: Karachentsev2022AstBu..77..372K
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 21.03
+  apparent_magnitude_b: 21.34
+  ref_m_v: Karachentsev2013AJ....145..101K

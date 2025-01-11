@@ -1,0 +1,32 @@
+key: ngc_5055-dw1310p4153
+table: dwarf_local_field_distant
+location:
+  ra: 197.674167
+  dec: 41.891111
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5055
+  name: dw1310+4153
+  name_lvg: dw1310+4153
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+  discovery_year: 2022
+m_v:
+  apparent_magnitude_v: 18.39
+  apparent_magnitude_v_em: 0.12
+  apparent_magnitude_v_ep: 0.12
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 16.60
+  rhalf_em: 1.56
+  rhalf_ep: 1.56
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.34
+  distance_modulus_em: 0.23
+  distance_modulus_ep: 0.23
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C

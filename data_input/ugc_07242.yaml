@@ -1,0 +1,35 @@
+key: ugc_07242
+table: dwarf_local_field_distant
+location:
+  ra: 183.530833
+  dec: 66.092222
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_4605
+  name: UGC 7242
+  other_name:
+  - PGC039058
+  - KKH 77
+  name_lvg: UGC07242
+distance:
+  distance_modulus: 28.68
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 14.21
+  apparent_magnitude_b: 14.52
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 66
+  vlos_systemic_em: 1.7
+  vlos_systemic_ep: 1.7
+  ref_vlos: Begum2008MNRAS.386.1667B
+flux_HI:
+  flux_HI: 7.0
+  vlos_systemic_HI: 66
+  vlos_systemic_HI_em: 1.7
+  vlos_systemic_HI_ep: 1.7
+  ref_flux_HI: Begum2008MNRAS.386.1667B

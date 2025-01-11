@@ -1,0 +1,35 @@
+key: ngc_5055
+table: misc
+location:
+  ra: 198.955417
+  dec: 42.029167
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 5055
+  other_name:
+  - MESSIER063
+  - PGC046153
+  - UGC08334
+  name_lvg: NGC5055
+distance:
+  distance_modulus: 29.78
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 8.45
+  apparent_magnitude_b: 8.76
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 500
+  vlos_systemic_em: 8.2
+  vlos_systemic_ep: 8.2
+  ref_vlos: Springob2005ApJS..160..149S
+flux_HI:
+  flux_HI: 219
+  vlos_systemic_HI: 500
+  vlos_systemic_HI_em: 8.2
+  vlos_systemic_HI_ep: 8.2
+  ref_flux_HI: Springob2005ApJS..160..149S

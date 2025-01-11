@@ -1,0 +1,41 @@
+key: pgc_0020125
+table: dwarf_local_field_distant
+location:
+  ra: 106.32125
+  dec: -58.520556
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: PGC 20125
+  other_name:
+  - Argo Dwarf Irregular
+  - AM 0704-582
+  - FG202
+  name_lvg: FG202
+structure:
+  rhalf: 57.34
+  spatial_units: arcsec
+  ref_structure: Parodi2002A&A...388...29P
+distance:
+  distance_modulus: 28.62
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.11
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 14.13
+  apparent_magnitude_b: 14.44
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 564
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Kirby2012MNRAS.420.2924K
+flux_HI:
+  flux_HI: 33.2
+  flux_HI_em: 1.5
+  flux_HI_ep: 1.5
+  vlos_systemic_HI: 564
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: Kirby2012MNRAS.420.2924K

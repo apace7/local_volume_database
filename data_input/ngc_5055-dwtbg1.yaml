@@ -1,0 +1,34 @@
+key: ngc_5055-dwtbg1
+table: dwarf_local_field_distant
+location:
+  ra: 198.07875
+  dec: 41.976944
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5055
+  name: NGC 5055-dwTBG1
+  other_name:
+  - dw1312+4158
+  name_lvg: NGC5055dwTBG1
+  ref_discovery:
+  - Karachentsev2020Ap.....63....5K
+  discovery_year: 2000
+m_v:
+  apparent_magnitude_v: 19.40
+  apparent_magnitude_v_em: 0.13
+  apparent_magnitude_v_ep: 0.13
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 12.15
+  rhalf_em: 1.31
+  rhalf_ep: 1.31
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.83
+  distance_modulus_em: 0.19
+  distance_modulus_ep: 0.17
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C

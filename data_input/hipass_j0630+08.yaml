@@ -1,0 +1,31 @@
+key: hipass_j0630+08
+table: dwarf_local_field_distant
+location:
+  ra: 97.538333
+  dec: 8.354444
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  name: HIPASS J0630+08
+  other_name:
+  - HIZOA J0630+08
+  name_lvg: HIPASS J0630+08
+distance:
+  distance_modulus: 28.55
+  ref_distance: Karachentsev2013AJ....145..101K
+  distance_measurement_method: tf
+m_v:
+  apparent_magnitude_v: 15.74
+  apparent_magnitude_b: 16.05
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 367
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Donley2005AJ....129..220D
+flux_HI:
+  flux_HI: 4.875
+  vlos_systemic_HI: 367
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: Donley2005AJ....129..220D

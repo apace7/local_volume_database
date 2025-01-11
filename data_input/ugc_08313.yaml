@@ -1,0 +1,39 @@
+key: ugc_08313
+table: dwarf_local_field_distant
+location:
+  ra: 198.474583
+  dec: 42.208611
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5055
+  name: UGC 8313
+  other_name:
+  - PGC045992
+  name_lvg: UGC08313
+m_v:
+  apparent_magnitude_v: 13.83
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 31.52
+  rhalf_em: 1.54
+  rhalf_ep: 1.54
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.71
+  distance_modulus_em: 0.13
+  distance_modulus_ep: 0.12
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 596
+  vlos_systemic_em: 8
+  vlos_systemic_ep: 8
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 4.66
+  ref_flux_HI: Karachentsev2013AJ....145..101K

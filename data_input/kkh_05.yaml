@@ -1,0 +1,31 @@
+key: kkh_05
+table: dwarf_local_field_distant
+location:
+  ra: 16.885417
+  dec: 51.440278
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: KKH 5
+  other_name:
+  - PGC2807102
+  name_lvg: KKH5
+distance:
+  distance_modulus: 28.62
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 15.57
+  apparent_magnitude_b: 15.88
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 61
+  vlos_systemic_em: 8
+  vlos_systemic_ep: 8
+  ref_vlos: Karachentsev2001A&A...366..428K
+flux_HI:
+  flux_HI: 1.74
+  vlos_systemic_HI: 61
+  vlos_systemic_HI_em: 8
+  vlos_systemic_HI_ep: 8
+  ref_flux_HI: Karachentsev2001A&A...366..428K

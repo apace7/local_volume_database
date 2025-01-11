@@ -1,0 +1,28 @@
+key: kkh_11
+table: dwarf_local_field_distant
+location:
+  ra: 36.145833
+  dec: 56.011667
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: KKH11
+  other_name:
+  - PGC168300
+  name_lvg: KKH11
+distance:
+  distance_modulus: 28.93
+  ref_distance: Karachentsev2025MNRAS.537L..21K
+  distance_measurement_method: nam
+m_v:
+  apparent_magnitude_v: 13.76
+  apparent_magnitude_b: 14.07
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 111
+  vlos_systemic_em: 10
+  vlos_systemic_ep: 10
+  ref_vlos: Karachentsev2025MNRAS.537L..21K
+flux_HI:
+  flux_HI: 21.68
+  ref_flux_HI: Karachentsev2013AJ....145..101K

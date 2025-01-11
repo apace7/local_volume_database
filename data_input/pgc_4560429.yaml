@@ -1,0 +1,23 @@
+key: pgc_4560429
+table: dwarf_local_field_distant
+location:
+  ra: 181.639583
+  dec: 30.621111
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: PGC4560429
+  name_lvg: PGC4560429
+distance:
+  distance_modulus: 28.69
+  ref_distance: Karachentsev2013AJ....145..101K
+  distance_measurement_method: nam
+m_v:
+  apparent_magnitude_v: 17.72
+  apparent_magnitude_b: 18.03
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 494.1
+  vlos_systemic_em: 18
+  vlos_systemic_ep: 18
+  ref_vlos: SDSS2015ApJS..219...12A

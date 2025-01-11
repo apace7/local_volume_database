@@ -1,0 +1,39 @@
+key: ugca_337
+table: dwarf_local_field_distant
+location:
+  ra: 198.244583
+  dec: 41.786667
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5055
+  name: UGCA 337
+  other_name:
+  - PGC045897
+  - KKH 82
+  name_lvg: KKH82
+  ref_discovery:
+  - Karachentsev2001A&A...366..428K
+m_v:
+  apparent_magnitude_v: 14.55
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 30.82
+  rhalf_em: 1.58
+  rhalf_ep: 1.58
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.40
+  distance_modulus_em: 0.19
+  distance_modulus_ep: 0.16
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 460
+  vlos_systemic_em: 5
+  vlos_systemic_ep: 5
+  ref_vlos: Huchtmeier2009A&A...506..677H
