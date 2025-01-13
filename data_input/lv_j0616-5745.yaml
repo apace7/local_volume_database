@@ -1,0 +1,28 @@
+key: lv_j0616-5745
+table: dwarf_local_field_distant
+location:
+  ra: 94.038333
+  dec: -57.765278
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: eso_121-020
+  name: LV J0616-5745
+  other_name:
+  - PGC385975
+  name_lvg: LV J0616-5745
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 16.53
+  apparent_magnitude_b: 16.84
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 554
+  vlos_systemic_em: 4
+  vlos_systemic_ep: 4
+  ref_vlos: Warren2006AJ....131.2056W
+flux_HI:
+  flux_HI: 2.7
+  ref_flux_HI: Karachentsev2013AJ....145..101K

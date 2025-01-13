@@ -4,8 +4,8 @@ location:
   ra: 133.841667
   dec: 33.559167
 name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 0
+  confirmed_dwarf: 1
+  confirmed_real: 1
   host: ngc_2683
   name: KK 70
   other_name:

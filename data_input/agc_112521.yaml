@@ -1,0 +1,44 @@
+key: agc_112521
+table: dwarf_local_field_distant
+location:
+  ra: 25.282917
+  dec: 27.323889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: AGC 112521
+  name_lvg: AGC112521
+m_v:
+  apparent_magnitude_v: 17.71
+  apparent_magnitude_v_em: 0.10
+  apparent_magnitude_v_ep: 0.10
+  ref_m_v: Carlsten2021ApJ...922..267C
+structure:
+  rhalf: 13.47
+  rhalf_em: 0.95
+  rhalf_ep: 0.95
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.50
+  ellipticity_em: 0.03
+  ellipticity_ep: 0.03
+  ref_structure: Carlsten2021ApJ...922..267C
+distance:
+  distance_modulus: 29.09
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: McQuinn2021ApJ...918...23M
+  distance_measurement_method: trgb
+velocity:
+  vlos_systemic: 274
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Haynes2011AJ....142..170H
+flux_HI:
+  flux_HI: 0.69
+  flux_HI_em: 0.04
+  flux_HI_ep: 0.04
+  vlos_systemic_HI: 274
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: Haynes2011AJ....142..170H

@@ -1,0 +1,41 @@
+key: kk_144
+table: dwarf_local_field_distant
+location:
+  ra: 186.36625
+  dec: 28.4825
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: KK 144
+  other_name:
+  - PGC166137
+  name_lvg: KK144
+distance:
+  distance_modulus: 28.89
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Karachentsev2018ApJ...858...62K
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 15.77
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
+structure:
+  rhalf: 24.24
+  rhalf_em: 1.29
+  rhalf_ep: 1.29
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.49
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
+velocity:
+  vlos_systemic: 480
+  vlos_systemic_em: 1.7
+  vlos_systemic_ep: 1.7
+  ref_vlos: Begum2008MNRAS.386.1667B
+flux_HI:
+  flux_HI: 8.2
+  ref_flux_HI: Karachentsev2013AJ....145..101K
