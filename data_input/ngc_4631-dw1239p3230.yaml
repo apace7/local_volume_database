@@ -1,0 +1,29 @@
+key: ngc_4631-dw1239p3230
+table: dwarf_local_field_distant
+location:
+  ra: 189.770833
+  dec: 32.505
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_4631
+  name: dw1239+3230
+  name_lvg: dw1239+3230
+  ref_discovery:
+  - Carlsten2020ApJ...891..144C
+  discovery_year: 2019
+structure:
+  rhalf: 22.60
+  spatial_units: arcsec
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.32
+  distance_modulus_em: 0.21
+  distance_modulus_ep: 0.22
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 18.06
+  apparent_magnitude_v_em: 0.10
+  apparent_magnitude_v_ep: 0.10
+  ref_m_v: Carlsten2022ApJ...933...47C

@@ -1,0 +1,28 @@
+key: hipass_j1133-32
+table: dwarf_local_field_distant
+location:
+  ra: 173.295833
+  dec: -32.961944
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: HIPASS J1133-32
+  name_lvg: HIPASS J1133-32
+distance:
+  distance_modulus: 28.74
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 15.70
+  apparent_magnitude_b: 16.01
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 709
+  vlos_systemic_em: 18
+  vlos_systemic_ep: 18
+  ref_vlos: Doyle2005MNRAS.361...34D
+flux_HI:
+  flux_HI: 2.8
+  ref_flux_HI: Karachentsev2013AJ....145..101K

@@ -1,0 +1,27 @@
+key: ngc_3521-sat
+table: dwarf_local_field_distant
+location:
+  ra: 166.419583
+  dec: 0.120833
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3521
+  name: NGC 3521-sat
+  other_name:
+  - dw1105p0006
+  name_lvg: NGC3521sat
+structure:
+  rhalf: 62.87
+  rhalf_em: 3.39
+  rhalf_ep: 3.39
+  spatial_units: arcsec
+  ref_structure: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 15.69
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host

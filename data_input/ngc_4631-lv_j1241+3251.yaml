@@ -1,0 +1,40 @@
+key: ngc_4631-lv_j1241+3251
+table: dwarf_local_field_distant
+location:
+  ra: 190.447083
+  dec: 32.857778
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_4631
+  name: LV J1241+3251
+  other_name:
+  - PGC100707
+  - dw1241+3251
+  - HSC-8
+  name_lvg: LV J1241+3251
+structure:
+  rhalf: 21.65
+  rhalf_em: 1.11
+  rhalf_ep: 1.11
+  spatial_units: arcsec
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 28.97
+  distance_modulus_em: 0.15
+  distance_modulus_ep: 0.16
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 15.25
+  apparent_magnitude_v_em: 0.05
+  apparent_magnitude_v_ep: 0.05
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 693.1
+  vlos_systemic_em: 17
+  vlos_systemic_ep: 17
+  ref_vlos: Kovac2009MNRAS.400..743K
+flux_HI:
+  flux_HI: 1.27
+  ref_flux_HI: Karachentsev2013AJ....145..101K

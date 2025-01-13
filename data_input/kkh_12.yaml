@@ -1,0 +1,28 @@
+key: kkh_12
+table: dwarf_local_field_distant
+location:
+  ra: 36.8625
+  dec: 57.487778
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: KKH 12
+  other_name:
+  - PGC2807107
+  name_lvg: KKH12
+distance:
+  distance_modulus: 28.73
+  ref_distance: Karachentsev2013AJ....145..101K
+  distance_measurement_method: nam
+m_v:
+  apparent_magnitude_v: 14.05
+  apparent_magnitude_b: 14.36
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 70
+  vlos_systemic_em: 1.7
+  vlos_systemic_ep: 1.7
+  ref_vlos: Begum2008MNRAS.386.1667B
+flux_HI:
+  flux_HI: 8.1
+  ref_flux_HI: Karachentsev2013AJ....145..101K

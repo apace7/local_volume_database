@@ -1,0 +1,27 @@
+key: lv_j1149+1715
+table: dwarf_local_field_distant
+location:
+  ra: 177.273333
+  dec: 17.255833
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: LV J1149+1715
+  other_name:
+  - PGC1528400
+  - SDSS J114905.54+171520.5
+  name_lvg: LV J1149+1715
+distance:
+  distance_modulus: 28.84
+  ref_distance: Karachentsev2013AJ....145..101K
+  distance_measurement_method: nam
+m_v:
+  apparent_magnitude_v: 17.77
+  apparent_magnitude_b: 18.08
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 623
+  vlos_systemic_em: 29
+  vlos_systemic_ep: 29
+  ref_vlos: Karachentsev2013AJ....145..101K
+

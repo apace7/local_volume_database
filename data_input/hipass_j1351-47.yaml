@@ -1,0 +1,30 @@
+key: hipass_j1351-47
+table: dwarf_local_field_distant
+location:
+  ra: 207.841667
+  dec: -47.0
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: HIPASS J1351-47
+  other_name:
+  - PGC3097113
+  name_lvg: HIPASS J1351-47
+distance:
+  distance_modulus: 28.79
+  distance_modulus_em: 0.12
+  distance_modulus_ep: 0.12
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 16.57
+  apparent_magnitude_b: 16.88
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 529
+  vlos_systemic_em: 18
+  vlos_systemic_ep: 18
+  ref_vlos: Doyle2005MNRAS.361...34D
+flux_HI:
+  flux_HI: 3.4
+  ref_flux_HI: Karachentsev2013AJ....145..101K

@@ -1,0 +1,46 @@
+key: kk_016
+table: dwarf_local_field_distant
+location:
+  ra: 28.835833
+  dec: 27.954167
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_0784
+  name: KK 16
+  other_name:
+  - PGC166064
+  - AGC111977
+  name_lvg: KK16
+structure:
+  rhalf: 19.94
+  rhalf_em: 1.07
+  rhalf_ep: 1.07
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.64
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
+m_v:
+  apparent_magnitude_v: 15.77
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
+distance:
+  distance_modulus: 28.75
+  distance_modulus_em: 0.04
+  distance_modulus_ep: 0.04
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+velocity:
+  vlos_systemic: 207
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Haynes2011AJ....142..170H
+flux_HI:
+  flux_HI: 0.98
+  vlos_systemic_HI: 207
+  vlos_systemic_HI_em: 2
+  vlos_systemic_HI_ep: 2
+  ref_flux_HI: Haynes2011AJ....142..170H

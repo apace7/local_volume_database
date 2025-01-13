@@ -1,0 +1,31 @@
+key: ngc_4248-bts_132
+table: dwarf_local_field_distant
+location:
+  ra: 185.9425
+  dec: 47.658889
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  host: ngc_4248
+  name: BTS132
+  other_name:
+  - dw1223+4739
+  - PGC2832112
+  name_lvg: BTS132
+structure:
+  rhalf: 15.47
+  rhalf_em: 2.25
+  rhalf_ep: 2.25
+  spatial_units: arcsec
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.35
+  distance_modulus_em: 0.24
+  distance_modulus_ep: 0.23
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 17.93
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C

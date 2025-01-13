@@ -1,0 +1,41 @@
+key: ngc_4248-lv_j1218+4655
+table: dwarf_local_field_distant
+location:
+  ra: 184.54625
+  dec: 46.916944
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_4248
+  name: LV J1218+4655
+  other_name:
+  - PGC4320422
+  name_lvg: LV J1218+4655
+structure:
+  rhalf: 14.01
+  rhalf_em: 0.51
+  rhalf_ep: 0.51
+  spatial_units: arcsec
+  ref_structure: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 16.67
+  apparent_magnitude_v_em: 0.02
+  apparent_magnitude_v_ep: 0.02
+  ref_m_v: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.59
+  distance_modulus_em: 0.09
+  distance_modulus_ep: 0.09
+  ref_distance: Karachentsev2018ApJ...858...62K
+  distance_measurement_method: trgb
+velocity:
+  vlos_systemic: 396
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Karachentsev2024A&A...684L..24K
+flux_HI:
+  flux_HI: 3.11
+  vlos_systemic_HI: 396
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: Karachentsev2024A&A...684L..24K

@@ -21,4 +21,4 @@ velocity:
   vlos_systemic: 322.9
   vlos_systemic_em: 22.8
   vlos_systemic_ep: 22.8
-  # ref_vlos: SDSS DR7 
+  ref_vlos: Karachentsev2013AJ....145..101K

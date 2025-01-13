@@ -1,0 +1,39 @@
+key: agc_749241
+table: dwarf_local_field_distant
+location:
+  ra: 190.007083
+  dec: 26.321944
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: AGC 749241
+  name_lvg: AGC749241
+structure:
+  rhalf: 27
+  rhalf_em: 0.07
+  spatial_units: arcsec
+  ellipticity: 0.07
+  position_angle: 0
+  ref_structure: McQuinn2021ApJ...918...23M
+distance:
+  distance_modulus: 28.75
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.06
+  ref_distance: McQuinn2021ApJ...918...23M
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 17.82
+  ref_m_v: McQuinn2021ApJ...918...23M
+velocity:
+  vlos_systemic: 451
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Haynes2011AJ....142..170H
+flux_HI:
+  flux_HI: 0.76
+  flux_HI_em: 0.03
+  flux_HI_ep: 0.03
+  vlos_systemic_HI: 451
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: Haynes2011AJ....142..170H

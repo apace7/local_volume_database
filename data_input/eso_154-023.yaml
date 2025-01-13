@@ -1,0 +1,42 @@
+key: eso_154-023
+table: dwarf_local_field_distant
+location:
+  ra: 44.21
+  dec: -54.573056
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: ESO154-023
+  other_name:
+  - PGC011139
+  name_lvg: ESO154-023
+structure:
+  rhalf: 103.33
+  rhalf_em: 16.11
+  rhalf_ep: 16.11
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.49
+  position_angle: 39
+  ref_structure: Li2025arXiv250104943L
+distance:
+  distance_modulus: 28.84
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 12.08
+  apparent_magnitude_b: 12.39
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 574
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Koribalski2004AJ....128...16K
+flux_HI:
+  flux_HI: 169
+  vlos_systemic_HI: 574
+  vlos_systemic_HI_em: 2
+  vlos_systemic_HI_ep: 2
+  ref_flux_HI: Koribalski2004AJ....128...16K

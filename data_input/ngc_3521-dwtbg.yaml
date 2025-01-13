@@ -1,0 +1,33 @@
+key: ngc_3521-dwtbg
+table: dwarf_local_field_distant
+location:
+  ra: 166.804583
+  dec: -0.1875
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3521
+  name: NGC 3521-dwTBG
+  other_name:
+  - dw110m0011
+  name_lvg: NGC3521dwTBG
+  ref_discovery:
+  - Karachentsev2020Ap.....63....5K
+  discovery_year: 2020
+structure:
+  rhalf: 17.91
+  rhalf_em: 1.19
+  rhalf_ep: 1.19
+  spatial_units: arcsec
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 30.45
+  distance_modulus_em: 0.19
+  distance_modulus_ep: 0.17
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 17.53
+  apparent_magnitude_v_em: 0.10
+  apparent_magnitude_v_ep: 0.10
+  ref_m_v: Carlsten2022ApJ...933...47C

@@ -1,0 +1,39 @@
+key: maffei_1
+table: misc
+location:
+  ra: 39.147917
+  dec: 59.655
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: Maffei 1
+  other_name:
+  - PGC009892
+  - UGCA034
+  name_lvg: Maffei1
+structure:
+  rhalf: 222
+  spatial_units: arcsec
+  ref_structure: Buta1999ApJS..124...33B
+distance:
+  distance_modulus: 27.69
+  distance_modulus_em: 0.17
+  distance_modulus_ep: 0.17
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 6.47
+  apparent_magnitude_v_em: 0.20
+  apparent_magnitude_v_ep: 0.20
+  apparent_magnitude_b: 7.35
+  apparent_magnitude_b_em: 0.26
+  apparent_magnitude_b_ep: 0.26
+  apparent_magnitude_i: 5.41
+  apparent_magnitude_i_em: 0.11
+  apparent_magnitude_i_ep: 0.11
+  ref_m_v: Fingerhut2003ApJ...587..672F
+velocity:
+  vlos_systemic: 66.4
+  vlos_systemic_em: 5
+  vlos_systemic_ep: 5
+  ref_vlos: Fingerhut2003ApJ...587..672F

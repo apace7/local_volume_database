@@ -1,0 +1,40 @@
+key: ngc_3521-kksg_20
+table: dwarf_local_field_distant
+location:
+  ra: 166.169167
+  dec: 0.058333
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3521
+  name: KKSG 20
+  other_name:
+  - MGC16030
+  - PGC135770
+  - dw1104p0003
+  name_lvg: KKSG20
+structure:
+  rhalf: 17.28
+  rhalf_em: 0.99
+  rhalf_ep: 0.99
+  spatial_units: arcsec
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 30.04
+  distance_modulus_em: 0.17
+  distance_modulus_ep: 0.16
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 16.05
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 835
+  vlos_systemic_em: 13
+  vlos_systemic_ep: 13
+  ref_vlos: Roberts2004MNRAS.352..478R
+flux_HI:
+  flux_HI: 0.056
+  ref_flux_HI: Roberts2004MNRAS.352..478R

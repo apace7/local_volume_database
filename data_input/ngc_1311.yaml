@@ -1,0 +1,42 @@
+key: ngc_1311
+table: dwarf_local_field_distant
+location:
+  ra: 50.030833
+  dec: -52.185
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC1311
+  other_name:
+  - PGC012460
+  - ESO200-007
+  name_lvg: NGC1311
+structure:
+  rhalf: 34.97
+  rhalf_em: 1.67
+  rhalf_ep: 1.67
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.67
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
+m_v:
+  apparent_magnitude_v: 12.69
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
+distance:
+  distance_modulus: 28.72
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+velocity:
+  vlos_systemic: 571
+  vlos_systemic_em: 3
+  vlos_systemic_ep: 3
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 15.3
+  ref_flux_HI: Karachentsev2013AJ....145..101K

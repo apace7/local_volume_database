@@ -1,0 +1,35 @@
+key: eso_137-018
+table: dwarf_local_field_distant
+location:
+  ra: 245.247083
+  dec: -60.4875
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: ESO137-018
+  other_name:
+  - PGC057888
+  name_lvg: ESO137-018
+distance:
+  distance_modulus: 28.84
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 10.63
+  apparent_magnitude_b: 10.94
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 603
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Kirby2012MNRAS.420.2924K
+flux_HI:
+  flux_HI: 47.8
+  flux_HI_em: 1.5
+  flux_HI_ep: 1.5
+  vlos_systemic_HI: 603
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: Kirby2012MNRAS.420.2924K

@@ -1,0 +1,31 @@
+key: ngc_4656
+table: misc
+location:
+  ra: 190.99
+  dec: 32.170278
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_4631
+  name: NGC 4656
+  other_name:
+  - PGC042863
+  name_lvg: NGC4656
+distance:
+  distance_modulus: 29.51
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Karachentsev2018ApJ...858...62K
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 10.15
+  apparent_magnitude_b: 10.46
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 637.5
+  vlos_systemic_em: 17
+  vlos_systemic_ep: 17
+  ref_vlos: Kovac2009MNRAS.400..743K
+flux_HI:
+  flux_HI: 227
+  ref_flux_HI: Karachentsev2013AJ....145..101K

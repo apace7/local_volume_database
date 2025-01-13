@@ -1,0 +1,33 @@
+key: ngc_3521-dw1104p0004
+table: dwarf_local_field_distant
+location:
+  ra: 166.16
+  dec: 0.080278
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3521
+  name: dw1104+0004
+  name_lvg: Dw1104+0004
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+  - Karachentsev2022AJ....163..234K
+  discovery_year: 2022
+structure:
+  rhalf: 4.96
+  rhalf_em: 0.66
+  rhalf_ep: 0.66
+  spatial_units: arcsec
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 30.34
+  distance_modulus_em: 0.21
+  distance_modulus_ep: 0.21
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 20.01
+  apparent_magnitude_v_em: 0.15
+  apparent_magnitude_v_ep: 0.15
+  ref_m_v: Carlsten2022ApJ...933...47C
+

@@ -1,0 +1,36 @@
+key: ngc_4631-bts_151
+table: dwarf_local_field_distant
+location:
+  ra: 190.8525
+  dec: 32.482222
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_4631
+  name: BTS151
+  other_name:
+  - dw1243+3228
+  - PGC2832120
+  - HSC-6
+  name_lvg: BTS151
+structure:
+  rhalf: 14.69
+  rhalf_em: 0.27
+  rhalf_ep: 0.27
+  spatial_units: arcsec
+  ref_structure: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 16.67
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.50
+  ref_distance: Anand2021AJ....162...80A
+  distance_measurement_method: trgb
+velocity:
+  vlos_systemic: 734.8
+  vlos_systemic_em: 55.2
+  vlos_systemic_ep: 55.2
+  ref_vlos: Karachentsev2013AJ....145..101K
+
