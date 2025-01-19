@@ -1,0 +1,39 @@
+key: ngc_1827
+table: dwarf_local_field_distant
+location:
+  ra: 77.521
+  dec: -36.961
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2022
+  host: ngc_1808
+  name: NGC 1827
+  other_name:
+  - PGC 16849
+  - ESO 362-006
+structure:
+  rhalf: 43.9
+  rhalf_em: 2.1
+  rhalf_ep: 2.1
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 30.20
+  distance_modulus_em: 0.40
+  distance_modulus_ep: 0.40
+  ref_distance: Makarov2014A&A...570A..13M
+m_v:
+  apparent_magnitude_v: 12.44
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 1038
+  vlos_systemic_em: 3
+  vlos_systemic_ep: 3
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 16.7
+  ref_flux_HI: Makarov2014A&A...570A..13M

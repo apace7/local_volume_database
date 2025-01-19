@@ -1,0 +1,35 @@
+key: ugc_02165
+table: dwarf_local_field_distant
+location:
+  ra: 40.315
+  dec: 38.744
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_1023
+  name: UGC 2165
+  other_name:
+  - PGC 10180
+structure:
+  rhalf: 28.5
+  rhalf_em: 0.8
+  rhalf_ep: 0.8
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+distance:
+  distance_modulus: 30.16
+  distance_modulus_em: 0.17
+  distance_modulus_ep: 0.16
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 13.78
+  apparent_magnitude_v_em: 0.04
+  apparent_magnitude_v_ep: 0.04
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 740
+  vlos_systemic_em: 43
+  vlos_systemic_ep: 43
+  ref_vlos: Makarov2014A&A...570A..13M

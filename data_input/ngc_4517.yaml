@@ -1,0 +1,30 @@
+key: ngc_4517
+table: dwarf_local_field_distant
+location:
+  ra: 188.189583
+  dec: 0.115
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 4517
+  other_name:
+  - PGC 41618
+  - UGC 7694
+  name_lvg: NGC4517
+distance:
+  distance_modulus: 29.61
+  distance_modulus_em: 0.12
+  distance_modulus_ep: 0.12
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 9.19
+  ref_m_v: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 1127
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 100.9
+  ref_flux_HI: Karachentsev2013AJ....145..101K

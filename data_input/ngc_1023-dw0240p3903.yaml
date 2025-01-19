@@ -1,0 +1,26 @@
+key: ngc_1023-dw0240p3903
+table: dwarf_local_field_distant
+location:
+  ra: 40.154
+  dec: 39.059
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2022
+  host: ngc_1023
+  name: dw0240p3903
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 14.61
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 40.6
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic

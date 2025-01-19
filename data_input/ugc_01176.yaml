@@ -1,0 +1,41 @@
+key: ugc_01176
+table: dwarf_local_field_distant
+location:
+  ra: 25.043
+  dec: 15.905
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2022
+  host: ngc_0628
+  name: UGC 1176
+  name_lvg: DDO013
+  other_name:
+  - DDO 13
+  - KDG 8
+  - PGC 6174
+distance:
+  distance_modulus: 29.78
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.20
+  ref_distance: Sharina1996A&AS..119..499S
+m_v:
+  apparent_magnitude_v: 14.02
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 49.6
+  rhalf_em: 2.4
+  rhalf_ep: 2.4
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+velocity:
+  vlos_systemic: 631
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Haynes2011AJ....142..170H
+flux_HI:
+  flux_HI: 23.55
+  ref_flux_HI: Haynes2011AJ....142..170H

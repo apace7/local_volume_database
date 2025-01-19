@@ -1,0 +1,31 @@
+key: ngc_1808-dw0507m3629
+table: dwarf_local_field_distant
+location:
+  ra: 76.776
+  dec: -36.483
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2022
+  host: ngc_1808
+  name: dw0507m3629
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 8.8
+  rhalf_em: 0.7
+  rhalf_ep: 0.7
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 30.19
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.2
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 18.78
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: Carlsten2022ApJ...933...47C

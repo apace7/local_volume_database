@@ -1,0 +1,31 @@
+key: ngc_3379
+table: misc
+location:
+  ra: 161.956667
+  dec: 12.581667
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 3379
+  other_name:
+  - MESSIER105
+  - PGC 32256
+  - UGC 5902
+  name_lvg: NGC3379
+distance:
+  distance_modulus: 30.27
+  distance_modulus_em: 0.02
+  distance_modulus_ep: 0.02
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 13.44
+  ref_m_v: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 923
+  vlos_systemic_em: 5
+  vlos_systemic_ep: 5
+  ref_vlos: Wegner2003AJ....126.2268W
+flux_HI:
+  flux_HI: 0.7
+  ref_flux_HI: Makarov2014A&A...570A..13M

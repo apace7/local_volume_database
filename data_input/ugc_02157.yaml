@@ -1,0 +1,35 @@
+key: ugc_02157
+table: dwarf_local_field_distant
+location:
+  ra: 40.104
+  dec: 38.563
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_1023
+  name: UGC 2157
+  other_name:
+  - PGC 10124
+structure:
+  rhalf: 30.1
+  rhalf_em: 0.8
+  rhalf_ep: 0.8
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 13.98
+  apparent_magnitude_v_em: 0.03
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Carlsten2022ApJ...933...47C
+flux_HI:
+  flux_HI: 1.69
+  ref_flux_HI: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 489
+  vlos_systemic_em: 4
+  vlos_systemic_ep: 4
+  ref_vlos: Makarov2014A&A...570A..13M

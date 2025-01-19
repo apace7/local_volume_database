@@ -1,0 +1,31 @@
+key: ngc_0628-dwb
+table: dwarf_local_field_distant
+location:
+  ra: 24.096667
+  dec: 15.964722
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_0628
+  name: NGC 628-dwB
+  other_name:
+  - dw0137+1537
+  name_lvg: NGC628dwB
+  ref_discovery:
+  - Davis2021MNRAS.500.3854D
+  discover_year: 2000
+structure:
+  rhalf: 3.50
+  rhalf_em: 0.02
+  rhalf_ep: 0.02
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Davis2021MNRAS.500.3854D
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 22.23
+  apparent_magnitude_v_em: 0.13
+  apparent_magnitude_v_ep: 0.13
+  ref_m_v: Davis2021MNRAS.500.3854D

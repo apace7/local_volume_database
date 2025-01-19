@@ -1,0 +1,39 @@
+key: ngc_1792
+table: dwarf_local_field_distant
+location:
+  ra: 76.308
+  dec: -37.979
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2022
+  host: ngc_1808
+  name: NGC 1792
+  other_name:
+  - PGC 16709
+  - ESO 305-006
+structure:
+  rhalf: 62.3
+  rhalf_em: 2.9
+  rhalf_ep: 2.9
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 30.10
+  distance_modulus_em: 0.26
+  distance_modulus_ep: 0.26
+  ref_distance: Makarov2014A&A...570A..13M
+m_v:
+  apparent_magnitude_v: 10.09
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 1210
+  vlos_systemic_em: 4
+  vlos_systemic_ep: 4
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 28.76
+  ref_flux_HI: Makarov2014A&A...570A..13M

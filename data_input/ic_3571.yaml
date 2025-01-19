@@ -1,0 +1,36 @@
+key: ic_3571
+table: dwarf_local_field_distant
+location:
+  ra: 189.084
+  dec: 26.084
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2022
+  host: ngc_4565
+  name: IC3571
+  other_name:
+  - PGC 2793674
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 16.49
+  apparent_magnitude_v_em: 0.01
+  apparent_magnitude_v_ep: 0.01
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 8.8
+  rhalf_em: 0.1
+  rhalf_ep: 0.1
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+velocity:
+  vlos_systemic: 1175
+  vlos_systemic_em: 33
+  vlos_systemic_ep: 33
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 5.6
+  ref_flux_HI: Makarov2014A&A...570A..13M

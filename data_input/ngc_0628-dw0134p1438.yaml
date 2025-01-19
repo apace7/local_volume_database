@@ -1,0 +1,39 @@
+key: ngc_0628-dw0134p1438
+table: dwarf_local_field_distant
+location:
+  ra: 23.674
+  dec: 14.644
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_0628
+  name: dw0134+1438
+  other_name:
+  - AGC 114027
+  - PGC 1463377
+  name_lvg: AGC114027
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 16.94
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 10.5
+  rhalf_em: 0.6
+  rhalf_ep: 0.6
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+velocity:
+  vlos_systemic: 731
+  vlos_systemic_em: 16
+  vlos_systemic_ep: 16
+  ref_vlos: Haynes2011AJ....142..170H
+flux_HI:
+  flux_HI: 1.05
+  flux_HI_em: 0.04
+  flux_HI_ep: 0.04
+  ref_flux_HI: Haynes2011AJ....142..170H

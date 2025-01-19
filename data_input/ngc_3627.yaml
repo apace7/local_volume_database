@@ -1,0 +1,31 @@
+key: ngc_3627
+table: misc
+location:
+  ra: 170.0625
+  dec: 12.991389
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 3627
+  other_name:
+  - MESSIER066
+  - PGC 34695
+  - UGC 6346
+  name_lvg: NGC3627
+distance:
+  distance_modulus: 30.23
+  distance_modulus_em: 0.10
+  distance_modulus_ep: 0.10
+  ref_distance: Hoyt2019ApJ...882..150H
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 8.46
+  ref_m_v: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 716
+  vlos_systemic_em: 1.5
+  vlos_systemic_ep: 1.5
+  ref_vlos: Haynes2011AJ....142..170H
+flux_HI:
+  flux_HI: 41.3
+  ref_flux_HI: Haynes2011AJ....142..170H
