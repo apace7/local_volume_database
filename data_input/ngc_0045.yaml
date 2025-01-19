@@ -1,0 +1,32 @@
+key: ngc_0045
+table: dwarf_local_field_distant
+location:
+  ra: 3.51625
+  dec: -23.182222
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 45
+  other_name:
+  - UGCA 4
+  - PGC 930
+  - ESO 473-001
+  - DDO 223
+  name_lvg: NGC0045
+distance:
+  distance_modulus: 29.11
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 10.36
+  ref_m_v: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 466
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 199.5
+  ref_flux_HI: Makarov2014A&A...570A..13M

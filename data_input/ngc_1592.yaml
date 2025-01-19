@@ -1,0 +1,29 @@
+key: ngc_1592
+table: dwarf_local_field_distant
+location:
+  ra: 67.42
+  dec: -27.408611
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 1592
+  other_name:
+  - ESO 421-002
+  - PGC 15292
+  name_lvg: NGC1592
+distance:
+  distance_modulus: 29.80
+  ref_distance: Karachentsev2013AJ....145..101K
+  distance_measurement_method: tf
+m_v:
+  apparent_magnitude_v: 13.89
+  apparent_magnitude_b: 14.20
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 942
+  vlos_systemic_em: 5
+  vlos_systemic_ep: 5
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 5.1
+  ref_flux_HI: Makarov2014A&A...570A..13M

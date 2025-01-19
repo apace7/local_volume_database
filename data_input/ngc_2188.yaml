@@ -1,0 +1,30 @@
+key: ngc_2188
+table: dwarf_local_field_distant
+location:
+  ra: 92.539583
+  dec: -34.106111
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 2188
+  other_name:
+  - ESO 364-037
+  - PGC 018536
+  name_lvg: NGC2188
+distance:
+  distance_modulus: 29.62
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 10.53
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 743
+  vlos_systemic_em: 13
+  vlos_systemic_ep: 13
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 28.3
+  ref_flux_HI: Makarov2014A&A...570A..13M

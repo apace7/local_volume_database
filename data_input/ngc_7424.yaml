@@ -1,0 +1,29 @@
+key: ngc_7424
+table: misc
+location:
+  ra: 344.3265
+  dec: -41.070694
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC 7424
+  other_name:
+  - PGC 70096
+  - ESO 346-019
+  name_lvg: NGC1637
+distance:
+  distance_modulus: 29.97
+  ref_distance: Karachentsev2013AJ....145..101K
+  distance_measurement_method: tf
+m_v:
+  apparent_magnitude_v: 10.10
+  apparent_magnitude_b: 10.51
+  ref_m_v: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 737
+  vlos_systemic_em: 9
+  vlos_systemic_ep: 9
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 150.0
+  ref_flux_HI: Makarov2014A&A...570A..13M
