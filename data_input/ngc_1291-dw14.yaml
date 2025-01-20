@@ -1,0 +1,28 @@
+key: ngc_1291-dw14
+table: dwarf_local_field_distant
+location:
+  ra: 51.261667
+  dec: -40.358889
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  host: ngc_1291
+  name: N1291-DW14
+  ref_discovery:
+  - Byun2020ApJ...891...18B
+  discover_year: 2020
+  other_name:
+  - LEDA 587327
+structure:
+  rhalf: 4.56
+  rhalf_em: 0.18
+  rhalf_ep: 0.18
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Byun2020ApJ...891...18B
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 18.51
+  ref_m_v: Byun2020ApJ...891...18B

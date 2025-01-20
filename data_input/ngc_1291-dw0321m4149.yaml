@@ -1,0 +1,31 @@
+key: ngc_1291-dw0321m4149
+table: candidate
+location:
+  ra: 50.485
+  dec: -41.818
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2022
+  host: ngc_1291
+  name: dw0321m4149
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+notes:
+- Candidate in \citep{Carlsten2022ApJ...933...47C}.
+structure:
+  rhalf: 11.5
+  rhalf_em: 1.6
+  rhalf_ep: 1.6
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 20.19
+  apparent_magnitude_v_em: 0.16
+  apparent_magnitude_v_ep: 0.16
+  ref_m_v: Carlsten2022ApJ...933...47C

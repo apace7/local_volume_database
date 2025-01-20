@@ -1,0 +1,38 @@
+key: eso_300-016
+table: dwarf_local_field_distant
+location:
+  ra: 47.54375
+  dec: -40.003056
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_1291
+  name: ESO 300-016
+  other_name:
+  - dw0310m4000
+  - PGC 11842
+  name_lvg: ESO300-016
+m_v:
+  apparent_magnitude_v: 15.48
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 21.2
+  rhalf_em: 1.1
+  rhalf_ep: 1.1
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+distance:
+  distance_modulus: 29.85
+  ref_distance: Anand2021AJ....162...80A
+  distance_measurement_method: trgb
+velocity:
+  vlos_systemic: 710
+  vlos_systemic_em: 3
+  vlos_systemic_ep: 3
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 3.9
+  ref_flux_HI: Makarov2014A&A...570A..13M
