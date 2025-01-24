@@ -1,0 +1,30 @@
+key: ngc_3628
+table: dwarf_local_field_distant
+location:
+  ra: 170.071
+  dec: 13.59
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3627
+  name: NGC 3628
+  other_name:
+  - PGC 34697
+  - UGC 6350
+  name_lvg: NGC3628
+distance:
+  distance_modulus: 30.21
+  distance_modulus_em: 0.34
+  distance_modulus_ep: 0.34
+  ref_distance: Makarov2014A&A...570A..13M
+m_v:
+  apparent_magnitude_v: 8.47
+  ref_m_v: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 845
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 161.4
+  ref_flux_HI: Makarov2014A&A...570A..13M

@@ -1,0 +1,31 @@
+key: ngc_3379-dw1043p1207
+table: candidate
+location:
+  ra: 160.979
+  dec: 12.133
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2022
+  host: ngc_3379
+  name: dw1043p1207
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+notes:
+- Candidate in \citep{Carlsten2022ApJ...933...47C}.
+structure:
+  rhalf: 9.6
+  rhalf_em: 0.9
+  rhalf_ep: 0.9
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 18.69
+  apparent_magnitude_v_em: 0.12
+  apparent_magnitude_v_ep: 0.12
+  ref_m_v: Carlsten2022ApJ...933...47C

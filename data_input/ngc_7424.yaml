@@ -10,7 +10,6 @@ name_discovery:
   other_name:
   - PGC 70096
   - ESO 346-019
-  name_lvg: NGC1637
 distance:
   distance_modulus: 29.97
   ref_distance: Karachentsev2013AJ....145..101K

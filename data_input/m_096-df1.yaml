@@ -1,0 +1,35 @@
+key: m_096-df1
+table: dwarf_local_field_distant
+location:
+  ra: 162.054583
+  dec: 11.968333
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_096
+  name: M96-DF1
+  other_name:
+  - dw1048p1158
+  name_lvg: M96-DF1
+  ref_discovery:
+  - Cohen2018ApJ...868...96C
+  discovery_year: 2018
+structure:
+  rhalf: 9.9
+  rhalf_em: 1.0
+  rhalf_ep: 1.0
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+distance:
+  distance_modulus: 30.09
+  distance_modulus_em: 0.10
+  distance_modulus_ep: 0.10
+  ref_distance: Cohen2018ApJ...868...96C
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 18.95
+  apparent_magnitude_v_em: 0.12
+  apparent_magnitude_v_ep: 0.12
+  ref_m_v: Carlsten2022ApJ...933...47C
+

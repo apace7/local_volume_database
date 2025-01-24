@@ -1,0 +1,40 @@
+key: ic_2787
+table: dwarf_local_field_distant
+location:
+  ra: 170.83
+  dec: 13.63
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3627
+  name: IC 2787
+  other_name:
+  - PGC 34969
+  - UGC 06401
+  name_lvg: IC2787
+structure:
+  rhalf: 18.7
+  rhalf_em: 0.9
+  rhalf_ep: 0.9
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 30.22
+  distance_modulus_em: 0.24
+  distance_modulus_ep: 0.21
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 14.77
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 842
+  vlos_systemic_em: 58
+  vlos_systemic_ep: 58
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 0.74
+  ref_flux_HI: Karachentsev2013AJ....145..101K

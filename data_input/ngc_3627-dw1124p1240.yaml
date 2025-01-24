@@ -1,0 +1,42 @@
+key: ngc_3627-dw1124p1240
+table: dwarf_local_field_distant
+location:
+  ra: 171.145
+  dec: 12.674
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2022
+  host: ngc_3627
+  name: dw1124p1240
+  other_name:
+  - AGC 215415
+  name_lvg: AGC215415
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 17.97
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 18.8
+  rhalf_em: 1.4
+  rhalf_ep: 1.4
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+velocity:
+  vlos_systemic: 1004
+  vlos_systemic_em: 2.5
+  vlos_systemic_ep: 2.5
+  ref_vlos: Haynes2018ApJ...861...49H
+flux_HI:
+  flux_HI: 0.40
+  flux_HI_em: 0.03
+  flux_HI_ep: 0.03
+  vlos_systemic_HI: 1004
+  vlos_systemic_HI_em: 2.5
+  vlos_systemic_HI_ep: 2.5
+  ref_flux_HI: Haynes2018ApJ...861...49H

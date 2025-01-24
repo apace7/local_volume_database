@@ -247,6 +247,8 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **pmdec** -- systemic proper motion in the direction of declination [mas/yr]
 
+  * **pmra_pmdec_corr** -- correlation between pmra, pmdec, unitless [-1, 1]. 
+
   * **ref_proper_motion** -- reference
 
 * **spectroscopic_metallicity** -- yaml collection

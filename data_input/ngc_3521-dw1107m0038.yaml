@@ -9,8 +9,6 @@ name_discovery:
   false_positive: 0
   host: ngc_3521
   name: dw1107-0038
-  other_name:
-  - list
   name_lvg: dw1107-0038
   ref_discovery:
   - Carlsten2022ApJ...933...47C

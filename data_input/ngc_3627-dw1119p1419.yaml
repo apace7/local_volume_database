@@ -1,0 +1,39 @@
+key: ngc_3627-dw1119p1419
+table: dwarf_local_field_distant
+location:
+  ra: 169.803
+  dec: 14.327
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3627
+  name: dw1119p1419
+  other_name:
+  - AGC215286
+  name_lvg: AGC215286
+distance:
+  distance_modulus: 30.34
+  distance_measurement_method: tf
+  ref_distance: Karachentsev2013AJ....145..101K
+m_v:
+  apparent_magnitude_v: 16.11
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 24.7
+  rhalf_em: 1.4
+  rhalf_ep: 1.4
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+velocity:
+  vlos_systemic: 998
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Haynes2018ApJ...861...49H
+flux_HI:
+  flux_HI: 0.56
+  flux_HI_em: 0.03
+  flux_HI_ep: 0.03
+  ref_flux_HI: Haynes2018ApJ...861...49H

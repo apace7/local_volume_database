@@ -1,0 +1,42 @@
+key: ic_1959
+table: dwarf_local_field_distant
+location:
+  ra: 53.299167
+  dec: -50.410556
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: IC1959
+  other_name:
+  - PGC 13163
+  - ESO 200-039
+  name_lvg: IC1959
+m_v:
+  apparent_magnitude_v: 12.70
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2021ApJ...922..267C
+structure:
+  rhalf: 39.20
+  rhalf_em: 1.87
+  rhalf_ep: 1.87
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.75
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  ref_structure: Carlsten2021ApJ...922..267C
+distance:
+  distance_modulus: 28.96
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+velocity:
+  vlos_systemic: 640
+  vlos_systemic_em: 4
+  vlos_systemic_ep: 4
+  ref_vlos: Koribalski2004AJ....128...16K
+flux_HI:
+  flux_HI: 26.8
+  ref_flux_HI: Koribalski2004AJ....128...16K

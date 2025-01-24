@@ -1,0 +1,31 @@
+key: ngc_3627-dw1117p1250
+table: candidate
+location:
+  ra: 169.435
+  dec: 12.837
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2022
+  host: ngc_3627
+  name: dw1117p1250
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+notes:
+- Candidate in \citep{Carlsten2022ApJ...933...47C}.
+structure:
+  rhalf: 13.9
+  rhalf_em: 1.8
+  rhalf_ep: 1.8
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 19.98
+  apparent_magnitude_v_em: 0.15
+  apparent_magnitude_v_ep: 0.15
+  ref_m_v: Carlsten2022ApJ...933...47C

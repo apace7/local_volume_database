@@ -1,0 +1,32 @@
+key: ngc_3627-dw1120p1332
+table: dwarf_local_field_distant
+location:
+  ra: 170.067
+  dec: 13.549
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2022
+  host: ngc_3627
+  name: dw1120p1332
+  ref_discovery:
+  - Carlsten2022ApJ...933...47C
+  name_lvg: dw1120+1332
+structure:
+  rhalf: 12.0
+  rhalf_em: 0.8
+  rhalf_ep: 0.8
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 30.29
+  distance_modulus_em: 0.25
+  distance_modulus_ep: 0.27
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 17.8
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Carlsten2022ApJ...933...47C

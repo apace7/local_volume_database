@@ -72,6 +72,7 @@ proper_motion:
   pmdec: 0
   pmdec_em: 0
   pmdec_ep: 0
+  pmra_pmdec_corr: 0
   ref_proper_motion: ref
 metallicity_spectroscopic:
   metallicity_spectroscopic: 0

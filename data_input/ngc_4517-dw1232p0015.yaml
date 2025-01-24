@@ -1,0 +1,35 @@
+key: ngc_4517-dw1232p0015
+table: dwarf_local_field_distant
+location:
+  ra: 188.151
+  dec: 0.262
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_4517
+  name: dw1232p0015
+  other_name:
+  - EVCC0839
+  - PGC1161319
+  name_lvg: dw1232+0015
+structure:
+  rhalf: 6.0
+  rhalf_em: 0.4
+  rhalf_ep: 0.4
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.9
+  distance_modulus_em: 0.18
+  distance_modulus_ep: 0.16
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 17.47
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 1192
+  ref_vlos: Kim2014ApJS..215...22K

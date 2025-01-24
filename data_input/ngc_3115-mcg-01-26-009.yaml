@@ -1,0 +1,37 @@
+key: ngc_3115-mcg-01-26-009
+table: dwarf_local_field_distant
+location:
+  ra: 150.39
+  dec: -6.525
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3115
+  name: MCG -01-26-009
+  other_name:
+  - PGC029038
+  - dw1001m0631
+  name_lvg: MCG -01-26-009
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 15.5
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 18.4
+  rhalf_em: 1.0
+  rhalf_ep: 1.0
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+velocity:
+  vlos_systemic: 747
+  vlos_systemic_em: 6
+  vlos_systemic_ep: 6
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 2.27
+  ref_flux_HI: Makarov2014A&A...570A..13M

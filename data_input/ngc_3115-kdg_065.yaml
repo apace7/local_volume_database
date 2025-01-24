@@ -1,0 +1,28 @@
+key: ngc_3115-kdg_065
+table: dwarf_local_field_distant
+location:
+  ra: 151.396
+  dec: -7.75
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  host: ngc_3115
+  name: KDG 65
+  other_name:
+  - dw1005m0744
+  name_lvg: KDG065
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 15.37
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 23.3
+  rhalf_em: 1.2
+  rhalf_ep: 1.2
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
