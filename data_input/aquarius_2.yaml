@@ -42,6 +42,7 @@ proper_motion:
   pmra: -0.179
   pmra_em: 0.113
   pmra_ep: 0.119
+  pmra_pmdec_corr: 0.111
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
   ellipticity: 0.39

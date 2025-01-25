@@ -1,3 +1,19 @@
+key: ursa_major_1
+table: dwarf_mw
+location:
+  ra: 158.7706
+  dec: 51.9479
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2005
+  host: mw
+  name: Ursa Major I
+  ref_discovery:
+  - Willman2005ApJ...626L..85W
+  abbreviation: UMaI
+  type: dSph
+  name_lvg: UMa I
 distance:
   distance_modulus: 19.94
   distance_modulus_em: 0.13
@@ -6,10 +22,6 @@ distance:
 flux_HI:
   flux_HI_ul: 3.11
   ref_flux_HI: Putman2021ApJ...913...53P
-key: ursa_major_1
-location:
-  dec: 51.9479
-  ra: 158.7706
 m_v:
   apparent_magnitude_v: 14.8
   apparent_magnitude_v_em: 0.38
@@ -23,17 +35,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.08
   metallicity_spectroscopic_sigma_ep: 0.1
   ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2005
-  host: mw
-  name: Ursa Major I
-  ref_discovery:
-  - Willman2005ApJ...626L..85W
-  abbreviation: UMaI
-  type: dSph
-  name_lvg: UMa I
 proper_motion:
   pmdec: -0.613
   pmdec_em: 0.042
@@ -41,6 +42,7 @@ proper_motion:
   pmra: -0.401
   pmra_em: 0.036
   pmra_ep: 0.036
+  pmra_pmdec_corr: 0.022
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
   ellipticity: 0.59
@@ -69,7 +71,6 @@ structure_sersic:
   rad_sersic_em: 0.34
   rad_sersic_ep: 0.34
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Simon2007ApJ...670..313S
   vlos_sigma: 7.0

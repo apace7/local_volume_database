@@ -1,3 +1,18 @@
+key: bootes_1
+table: dwarf_mw
+location:
+  ra: 210.02
+  dec: 14.5135
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2006
+  host: mw
+  name: Bootes I
+  ref_discovery:
+  - Belokurov2006ApJ...647L.111B
+  abbreviation: BooI
+  type: dSph
 distance:
   distance_modulus: 19.11
   distance_modulus_em: 0.08
@@ -6,10 +21,6 @@ distance:
 flux_HI:
   flux_HI_ul: 0.25
   ref_flux_HI: Spekkens2014ApJ...795L...5S
-key: bootes_1
-location:
-  dec: 14.5135
-  ra: 210.02
 m_v:
   apparent_magnitude_v: 13.09
   apparent_magnitude_v_em: 0.25
@@ -23,16 +34,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_em: 0.06
   metallicity_spectroscopic_sigma_ep: 0.07
   ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
-name_discovery:
-  confirmed_dwarf: 1
-  confirmed_real: 1
-  discovery_year: 2006
-  host: mw
-  name: Bootes I
-  ref_discovery:
-  - Belokurov2006ApJ...647L.111B
-  abbreviation: BooI
-  type: dSph
 proper_motion:
   pmdec: -1.068
   pmdec_em: 0.013
@@ -40,6 +41,7 @@ proper_motion:
   pmra: -0.385
   pmra_em: 0.017
   pmra_ep: 0.017
+  pmra_pmdec_corr: -0.094
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
   ellipticity: 0.3
@@ -68,7 +70,6 @@ structure_sersic:
   rad_sersic_em: 0.27
   rad_sersic_ep: 0.27
   ref_structure_sersic: Munoz2018ApJ...860...66M
-table: dwarf_mw
 velocity:
   ref_vlos: Koposov2011ApJ...736..146K
   vlos_sigma: 4.6

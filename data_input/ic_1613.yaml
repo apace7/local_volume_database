@@ -43,6 +43,7 @@ proper_motion:
   pmra: 0.04
   pmra_em: 0.02
   pmra_ep: 0.02
+  pmra_pmdec_corr: -0.46
   ref_proper_motion: Battaglia2022A&A...657A..54B
 structure:
   ellipticity: 0.2

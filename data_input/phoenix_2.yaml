@@ -52,6 +52,7 @@ proper_motion:
   pmra: 0.507
   pmra_em: 0.048
   pmra_ep: 0.047
+  pmra_pmdec_corr: -0.407
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
   rhalf: 1.5

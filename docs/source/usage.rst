@@ -411,3 +411,38 @@ The LVDB releases are also indexed on `zenodo <https://doi.org/10.5281/zenodo.14
 Link to the LVDB overview paper  on `arXiv <https://arxiv.org/abs/2411.07424>`_. and `ADS <https://ui.adsabs.harvard.edu/abs/2024arXiv241107424P/abstract>`_. 
 
 .. The bibtex of the LVDB paper is below:
+
+Extra Catalogs
+-----------------------------
+
+There are two additional catalogs included in the LVDB, pm_overview.csv and j_factor.csv. In constrast to other catalogs,  both these catalogs are compliations of measurements. pm_overview.csv compiles systemic proper motion measurements and j_factor.csv compiles J-factor  measurements (see appendix B of the LVDB overview paper for more details). 
+The columns of the catalogs are described below.
+
+pm_overview.csv  column description:
+
+* key: LVDB key
+* ref: ADS bibcode
+* ref_cite: LVDB bibcode
+* pmra: systemic proper motion [mas/yr] + (pmra_em and pmra_ep)
+* pmdec: systemic proper motion [mas/yr] + (pmdec_em and pmdec_ep)
+* pmra_pmdec_corr: correlation between errors [-1 to 1]
+* method: options [GAIA_EDR3, GAIA_DR2, HST, GaiaHub, Ground, SRG, GAIA_EDR3_HST, HST_Ground, GAIA_DR2_HST, HSC, maser, Euclid + Gaia]
+* citation: in text citation
+* comments: notes
+
+j_factor.csv column description: 
+
+* key: LVDB key
+* ref: ADS bibcode
+* ref_cite: LVDB bibcode
+* citation: in text citation
+* selection: details on methodology
+* angle: maximum angle [deg]
+* logj: log_10 J-factor 
+*	logj_em: 16% credible interval
+*	logj_ep: 84% credible interval
+* logj_em05: 5% credible interval
+* logj_ep95: 95% credible interval
+* logj_ul95: 95% upper limit
+* use: value to use when there are multiple measurements in the same paper
+* comments: noes
