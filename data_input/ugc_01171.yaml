@@ -23,7 +23,6 @@ distance:
   distance_modulus: 30.03
   distance_modulus_em: 0.22
   distance_modulus_ep: 0.26
-  distance_fixed_host: true
   distance_measurement_method: sbf
   ref_distance: Carlsten2022ApJ...933...47C
 m_v:

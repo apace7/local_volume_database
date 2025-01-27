@@ -1,0 +1,34 @@
+key: ngc_3379-m96-df2
+table: dwarf_local_field_distant
+location:
+  ra: 161.919167
+  dec: 12.048889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3379
+  name: M96-DF2
+  other_name:
+  - dw1047+1202
+  name_lvg: M96-DF2
+  ref_discovery:
+  - Cohen2018ApJ...868...96C
+m_v:
+  apparent_magnitude_v: 19.22
+  apparent_magnitude_v_em: 0.13
+  apparent_magnitude_v_ep: 0.13
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 11.3
+  rhalf_em: 1.2
+  rhalf_ep: 1.2
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+distance:
+  distance_modulus: 30.13
+  distance_modulus_em: 0.10
+  distance_modulus_ep: 0.10
+  ref_distance: Cohen2018ApJ...868...96C
+  distance_measurement_method: trgb
+

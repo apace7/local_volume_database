@@ -1,0 +1,43 @@
+key: ngc_3379-leg_21
+table: dwarf_local_field_distant
+location:
+  ra: 161.753333
+  dec: 12.959722
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3379
+  name: LeG21
+  other_name:
+  - AGC201975
+  - PGC4689200
+  - dw1047+1257
+  name_lvg: LeG21
+  ref_discovery:
+  - Karachentsev2004ARep...48..267K
+structure:
+  rhalf: 7.9
+  rhalf_em: 0.7
+  rhalf_ep: 0.7
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 30.31
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.17
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 18.56
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 843
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Stierwalt2009AJ....138..338S
+flux_HI:
+  flux_HI: 0.48
+  ref_flux_HI: Stierwalt2009AJ....138..338S

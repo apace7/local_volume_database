@@ -1,36 +1,37 @@
-key: ngc_1291-dw06
+key: ngc_3379-leg_19
 table: dwarf_local_field_distant
 location:
-  ra: 49.68
-  dec: -41.024
+  ra: 161.728333
+  dec: 12.788056
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
-  discovery_year: 2020
-  host: ngc_1291
-  name: N1291-DW6
-  ref_discovery:
-  - Byun2020ApJ...891...18B
-  - MorshidiEsslinger1999MNRAS.304..297M
+  host: ngc_3379
+  name: LeG19
   other_name:
-  - dw0317m4141
-  - F301-056
-  name_lvg: N1291-DW6
+  - FS20
+  - PGC083338
+  - dw1046+1247
+  name_lvg: LeG19
+  ref_discovery:
+  - Ferguson1990AJ....100....1F
+  - Karachentsev2004ARep...48..267K
 structure:
-  rhalf: 8.8
+  rhalf: 8.9
   rhalf_em: 0.7
   rhalf_ep: 0.7
   spatial_units: arcsec
   spatial_model: sersic
   ref_structure: Carlsten2022ApJ...933...47C
 distance:
-  distance_modulus: 29.54
-  distance_modulus_em: 0.31
-  distance_modulus_ep: 0.29
+  distance_modulus: 30.34
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.17
   distance_measurement_method: sbf
   ref_distance: Carlsten2022ApJ...933...47C
 m_v:
-  apparent_magnitude_v: 18.04
+  apparent_magnitude_v: 18.22
   apparent_magnitude_v_em: 0.11
   apparent_magnitude_v_ep: 0.11
   ref_m_v: Carlsten2022ApJ...933...47C
+

@@ -1,0 +1,33 @@
+key: ngc_3379-dw1051p1406
+table: dwarf_local_field_distant
+location:
+  ra: 162.881
+  dec: 14.115
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3379
+  name: dw1051p1406
+  other_name:
+  - AGC 205540
+  name_lvg: AGC205540
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 17.38
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 6.7
+  rhalf_em: 0.5
+  rhalf_ep: 0.5
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+velocity:
+  vlos_systemic: 832
+  vlos_systemic_em: 53
+  vlos_systemic_ep: 53
+  ref_vlos: Karachentsev2013AJ....145..101K

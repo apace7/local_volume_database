@@ -1,0 +1,43 @@
+key: ngc_3379-kk_094
+table: dwarf_local_field_distant
+location:
+  ra: 161.73875
+  dec: 12.998333
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3379
+  name: KK94
+  other_name:
+  - M96-DF8
+  - FS21
+  - AGC201972
+  - PGC083339
+  - dw1046p1259
+  name_lvg: KK94
+distance:
+  distance_modulus: 30.04
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Cohen2018ApJ...868...96C
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 16.62
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 23.2
+  rhalf_em: 1.4
+  rhalf_ep: 1.4
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+velocity:
+  vlos_systemic: 832
+  vlos_systemic_em: 4
+  vlos_systemic_ep: 4
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 1.56
+  ref_flux_HI: Makarov2014A&A...570A..13M

@@ -1,35 +1,31 @@
-key: ngc_1291-dw08
+key: ngc_3379-dw1042p1359
 table: dwarf_local_field_distant
 location:
-  ra: 49.256
-  dec: -41.7
+  ra: 160.689
+  dec: 13.99
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
-  discovery_year: 2020
-  host: ngc_1291
-  name: N1291-DW8
+  discovery_year: 2022
+  host: ngc_3379
+  name: dw1042p1359
   ref_discovery:
-  - Byun2020ApJ...891...18B
-  other_name:
-  - dw0317m4142
-  name_lvg: N1291-DW8
+  - Carlsten2022ApJ...933...47C
+  name_lvg: dw1042+1359
 structure:
-  rhalf: 15.9
+  rhalf: 5.4
   rhalf_em: 0.9
   rhalf_ep: 0.9
   spatial_units: arcsec
   spatial_model: sersic
   ref_structure: Carlsten2022ApJ...933...47C
 distance:
-  distance_modulus: 29.78
-  distance_modulus_em: 0.33
-  distance_modulus_ep: 0.32
+  distance_modulus: 30.11
+  distance_modulus_em: 0.2
   distance_measurement_method: sbf
   ref_distance: Carlsten2022ApJ...933...47C
 m_v:
-  apparent_magnitude_v: 16.57
-  apparent_magnitude_v_em: 0.09
-  apparent_magnitude_v_ep: 0.09
+  apparent_magnitude_v: 20.46
+  apparent_magnitude_v_em: 0.18
+  apparent_magnitude_v_ep: 0.18
   ref_m_v: Carlsten2022ApJ...933...47C
-

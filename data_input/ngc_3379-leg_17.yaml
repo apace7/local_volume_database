@@ -1,0 +1,45 @@
+key: ngc_3379-leg_17
+table: dwarf_local_field_distant
+location:
+  ra: 161.672917
+  dec: 12.326389
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3379
+  name: LeG17
+  other_name:
+  - AGC202027
+  - dw1046+1219
+  - FS17
+  - PGC083336
+  name_lvg: LeG17
+  ref_discovery:
+  - Ferguson1990AJ....100....1F
+  - Karachentsev2004ARep...48..267K
+structure:
+  rhalf: 27.9
+  rhalf_em: 1.7
+  rhalf_ep: 1.7
+  spatial_units: arcsec
+  spatial_model: sersic
+  ref_structure: Carlsten2022ApJ...933...47C
+distance:
+  distance_modulus: 29.64
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.17
+  distance_measurement_method: sbf
+  ref_distance: Carlsten2022ApJ...933...47C
+m_v:
+  apparent_magnitude_v: 16.22
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+velocity:
+  vlos_systemic: 1030
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Stierwalt2009AJ....138..338S
+flux_HI:
+  flux_HI: 1.24
+  ref_flux_HI: Stierwalt2009AJ....138..338S

@@ -1,0 +1,32 @@
+key: ngc_3351
+table: dwarf_local_field_distant
+location:
+  ra: 160.990417
+  dec: 11.703611
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3379
+  name: NGC 3351
+  other_name:
+  - PGC032007
+  - MESSIER095
+  - UGC05850
+  name_lvg: NGC3351
+distance:
+  distance_modulus: 29.99
+  distance_modulus_em: 0.03
+  distance_modulus_ep: 0.03
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 9.41
+  ref_m_v: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 777
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Haynes2011AJ....142..170H
+flux_HI:
+  flux_HI: 37.0
+  ref_flux_HI: Haynes2011AJ....142..170H

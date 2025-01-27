@@ -1,0 +1,38 @@
+key: ngc_3379-leg_09
+table: dwarf_local_field_distant
+location:
+  ra: 160.644167
+  dec: 12.150556
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_3379
+  name: LeG09
+  other_name:
+  - FS05
+  - PGC083321
+  - dw1042+1208
+  - AGC202020
+  name_lvg: LeG09
+  ref_discovery:
+  - Ferguson1990AJ....100....1F
+  - Karachentsev2004ARep...48..267K
+m_v:
+  apparent_magnitude_v: 16.53
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 25.2
+  rhalf_em: 1.5
+  rhalf_ep: 1.5
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+distance:
+  distance_modulus: 30.04
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Cohen2018ApJ...868...96C
+  distance_measurement_method: trgb
+

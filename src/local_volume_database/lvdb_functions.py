@@ -75,8 +75,8 @@ def add_column(table, yaml_key, yaml_name, **kwargs):
             try:
                 stream_yaml = yaml.load(stream, Loader=yaml.Loader)
 
-                if yaml_key in stream_yaml.keys() and  table_yaml_name in stream_yaml[yaml_key].keys():
-                    table[table_yaml_name][i] = stream_yaml[yaml_key][table_yaml_name]
+                if yaml_key in stream_yaml.keys() and  yaml_name in stream_yaml[yaml_key].keys():
+                    table[table_yaml_name][i] = stream_yaml[yaml_key][yaml_name]
                 # else:
                 #     print(stream_yaml['key'], "discovery_year")
             except yaml.YAMLError as exc:

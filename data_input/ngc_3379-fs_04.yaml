@@ -1,0 +1,41 @@
+key: ngc_3379-fs_04
+table: dwarf_local_field_distant
+location:
+  ra: 160.50125
+  dec: 12.335
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1990
+  host: ngc_3379
+  name: FS04
+  other_name:
+  - PGC031877
+  - AGC200532
+  - dw1042p1220
+  name_lvg: FS04
+  ref_discovery:
+  - Ferguson1990AJ....100....1F
+m_v:
+  apparent_magnitude_v: 15.15
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 20.5
+  rhalf_em: 1.1
+  rhalf_ep: 1.1
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+velocity:
+  vlos_systemic: 772
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 1.1
+  ref_flux_HI: Makarov2014A&A...570A..13M

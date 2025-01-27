@@ -1,0 +1,35 @@
+key: ngc_3379-dw1049p1233
+table: dwarf_local_field_distant
+location:
+  ra: 162.358
+  dec: 12.552
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2018
+  host: ngc_3379
+  name: dw1049p1233
+  ref_discovery:
+  - Muller2018A&A...615A.105M
+  other_name:
+  - M96-DF5
+  - dw1049+12b
+  name_lvg: dw1049+12b
+distance:
+  distance_modulus: 30.17
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  distance_measurement_method: trgb
+  ref_distance: Cohen2018ApJ...868...96C
+m_v:
+  apparent_magnitude_v: 18.75
+  apparent_magnitude_v_em: 0.12
+  apparent_magnitude_v_ep: 0.12
+  ref_m_v: Carlsten2022ApJ...933...47C
+structure:
+  rhalf: 11.2
+  rhalf_em: 1.1
+  rhalf_ep: 1.1
+  ref_structure: Carlsten2022ApJ...933...47C
+  spatial_units: arcsec
+  spatial_model: sersic
