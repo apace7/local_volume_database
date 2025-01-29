@@ -45,6 +45,7 @@ structure:
   position_angle: 0
   position_angle_em: 0
   position_angle_ep: 0
+  diameter_holm: 0
   ref_structure: ref
 distance:
   distance_modulus: 0

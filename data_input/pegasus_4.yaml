@@ -13,6 +13,8 @@ name_discovery:
   - Cerny2023ApJ...942..111C
   abbreviation: PegIV
   type: dSph  
+notes:
+- pmra pmdec correlation computed by ABP from 9 Spectra members.
 distance:
   distance_modulus: 19.77
   distance_modulus_em: 0.03
@@ -39,6 +41,7 @@ proper_motion:
   pmra: 0.33
   pmra_em: 0.07
   pmra_ep: 0.07
+  pmra_pmdec_corr: 0.16
   ref_proper_motion: Cerny2023ApJ...942..111C
 structure:
   ellipticity_ul: 0.41

@@ -44,6 +44,7 @@ proper_motion:
   pmra: -0.14
   pmra_em: 0.05
   pmra_ep: 0.05
+  pmra_pmdec_corr: -0.03
   ref_proper_motion: Heiger2024ApJ...961..234H
 structure:
   ellipticity: 0.36

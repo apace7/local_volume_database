@@ -14,7 +14,9 @@ name_discovery:
   abbreviation: LeoVI
   type: dSph
 notes:
-  - age lower limit at 68 confidence interval \citep{Tan2024arXiv240800865T}
+  - age lower limit at 68 confidence interval \citep{Tan2024arXiv240800865T}.
+  - systematic error of 0.1 is not included in the distance modulus error \citep{Tan2024arXiv240800865T}.
+  - pmra pmdec correlation computed by ABP.
 structure:
   rhalf: 4.17
   rhalf_em: 1.33
@@ -45,6 +47,7 @@ proper_motion:
   pmdec: -0.22
   pmdec_em: 0.17
   pmdec_ep: 0.22
+  pmra_pmdec_corr: 0.025
   ref_proper_motion: Tan2024arXiv240800865T
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.41

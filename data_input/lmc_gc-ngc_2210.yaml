@@ -15,7 +15,7 @@ name_discovery:
 structure:
   rhalf: 16.26
   rhalf_em: 0.18
-  rhalf_rp: 0.18
+  rhalf_ep: 0.18
   spatial_units: arcsec
   spatial_model: plummer
   ellipticity: 0.09

@@ -31,6 +31,7 @@ proper_motion:
   pmra: -0.33
   pmra_em: 0.34
   pmra_ep: 0.31
+  pmra_pmdec_corr: 0.00
   ref_proper_motion: Cerny2023ApJ...953....1C
 structure:
   ellipticity_ul: 0.4

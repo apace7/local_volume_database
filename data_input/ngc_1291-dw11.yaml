@@ -13,7 +13,7 @@ name_discovery:
   - dw0325m4113
   ref_discovery:
   - Byun2020ApJ...891...18B
-  discover_year: 2020
+  discovery_year: 2020
 structure:
   rhalf: 11.64
   rhalf_em: 0.54

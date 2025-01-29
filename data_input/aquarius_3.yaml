@@ -2,7 +2,12 @@ key: aquarius_3
 table: dwarf_mw
 location:
   ra: 357.218 
-  dec: -3.489 
+  dec: -3.489
+  ra_em: 0.004
+  ra_ep: 0.005
+  dec_em: 0.003
+  dec_ep: 0.004
+  ref_location: Cerny2025ApJ...979..164C
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -12,9 +17,12 @@ name_discovery:
   other_name:
   - DELVE J2348-0329
   ref_discovery:
-  - Cerny2024arXiv241000981C
+  - Cerny2025ApJ...979..164C
   abbreviation: AqrIII
   type: dSph
+notes:
+- pmra pmdec correlation computed by ABP from \citet{Cerny2025ApJ...979..164C} members.
+- systematic error of 0.1 is not included in the distance modulus error \citep{Cerny2025ApJ...979..164C}.
 structure:
   rhalf: 2.1 
   rhalf_em: 0.5
@@ -22,54 +30,55 @@ structure:
   spatial_units: arcmin
   spatial_model: plummer
   ellipticity: 0.47
-  ellipticity_em: 0.14
-  ellipticity_ep: 0.28
-  position_angle: 120
-  position_angle_em: 15
-  position_angle_ep: 12
-  ref_structure: Cerny2024arXiv241000981C
+  ellipticity_em: 0.28
+  ellipticity_ep: 0.14
+  position_angle: 119
+  position_angle_em: 11
+  position_angle_ep: 17
+  ref_structure: Cerny2025ApJ...979..164C
 distance:
   distance_modulus: 19.66
   distance_modulus_em: 0.11
   distance_modulus_ep: 0.11
-  ref_distance: Cerny2024arXiv241000981C
+  ref_distance: Cerny2025ApJ...979..164C
 m_v:
   apparent_magnitude_v: 17.16
-  apparent_magnitude_v_em: 0.4
-  apparent_magnitude_v_ep: 0.5
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.3
   mean_ebv: 0.04
-  ref_m_v: Cerny2024arXiv241000981C
+  ref_m_v: Cerny2025ApJ...979..164C
 proper_motion:
-  pmra: 1.01 # [mas/yr]
+  pmra: 1.01
   pmra_em: 0.25
   pmra_ep: 0.26
-  pmdec: -0.11 # [mas/yr]
+  pmdec: -0.11
   pmdec_em: 0.19
   pmdec_ep: 0.19
-  ref_proper_motion: Cerny2024arXiv241000981C
+  pmra_pmdec_corr: 0.42
+  ref_proper_motion: Cerny2025ApJ...979..164C
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.61
-  metallicity_spectroscopic_em: 0.20
-  metallicity_spectroscopic_ep: 0.20
+  metallicity_spectroscopic_em: 0.21  
+  metallicity_spectroscopic_ep: 0.21
   metallicity_spectroscopic_sigma: 0.46
-  metallicity_spectroscopic_sigma_em: 0.15
+  metallicity_spectroscopic_sigma_em: 0.14
   metallicity_spectroscopic_sigma_ep: 0.26
-  ref_metallicity_spectroscopic: Cerny2024arXiv241000981C
+  ref_metallicity_spectroscopic: Cerny2025ApJ...979..164C
 structure_plummer:
   rplummer: 2.1 
   rplummer_em: 0.5
   rplummer_ep: 0.7
   spatial_units: arcmin
   ellipticity: 0.47
-  ellipticity_em: 0.14
-  ellipticity_ep: 0.28
-  position_angle: 120
-  position_angle_em: 15
-  position_angle_ep: 12
-  ref_structure_plummer: Cerny2024arXiv241000981C
+  ellipticity_em: 0.28
+  ellipticity_ep: 0.14
+  position_angle: 119
+  position_angle_em: 11
+  position_angle_ep: 17
+  ref_structure_plummer: Cerny2025ApJ...979..164C
 velocity:
-  vlos_systemic: -13.1 # [km/s]
-  vlos_systemic_em: 1.0
+  vlos_systemic: -13.1
+  vlos_systemic_em: 0.9
   vlos_systemic_ep: 1.0
   vlos_sigma_ul: 3.5
-  ref_vlos: Cerny2024arXiv241000981C 
+  ref_vlos: Cerny2025ApJ...979..164C 

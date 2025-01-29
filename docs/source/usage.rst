@@ -207,6 +207,8 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **position_angle** -- position angle defined north to east [degree]
 
+  * **diameter_holmberg** -- Holmberg isophote: projected major axis of galaxy at the isophotal level 25 mas/arcsec^2 in the B-band. Mainly included for systems without a half-light measurements (larger or brighter galaxies).
+
   * **ref_structure** -- reference
 
 * **distance** -- yaml collection

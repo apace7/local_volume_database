@@ -6,7 +6,6 @@ location:
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
-  discovery_year: 0
   name: M81
   other_name:
   - NGC 3031
@@ -15,7 +14,11 @@ name_discovery:
   - MCG+12-10-010
   - Bode's Galaxy
 distance:
-  distance_modulus: 27.78
+  distance_modulus: 27.79
+  distance_modulus_em: 0.04
+  distance_modulus_ep: 0.02
+  distance_measurement_method: trgb
+  ref_distance: Newman2024ApJ...966..175N
 m_v:
   apparent_magnitude_v: 6.94
 velocity:

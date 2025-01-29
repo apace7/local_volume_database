@@ -33,6 +33,7 @@ proper_motion:
   pmra: -0.01
   pmra_em: 0.4
   pmra_ep: 0.39
+  pmra_pmdec_corr: 0.23
   ref_proper_motion: Cerny2023ApJ...953....1C
 structure:  
   rhalf: 1.09

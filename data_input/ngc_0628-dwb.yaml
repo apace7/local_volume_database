@@ -13,7 +13,7 @@ name_discovery:
   name_lvg: NGC628dwB
   ref_discovery:
   - Davis2021MNRAS.500.3854D
-  discover_year: 2000
+  discovery_year: 2000
 structure:
   rhalf: 3.50
   rhalf_em: 0.02

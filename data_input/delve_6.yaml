@@ -11,6 +11,8 @@ name_discovery:
   name: DELVE 6
   ref_discovery:
   - Cerny2023ApJ...953L..21C
+notes:
+- pmra pmdec correlation computed by ABP from 2 Gaia members.
 distance:
   distance_modulus: 19.51
   distance_modulus_em: 0.16
@@ -29,6 +31,7 @@ proper_motion:
   pmra: 0.93
   pmra_em: 0.39
   pmra_ep: 0.39
+  pmra_pmdec_corr: -0.16
   ref_proper_motion: Cerny2023ApJ...953L..21C
 structure:
   ellipticity_ul: 0.56

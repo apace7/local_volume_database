@@ -7,6 +7,8 @@ import bibtexparser
 import local_volume_database as lvdb
 from collections import Counter
 
+import numpy.ma as ma
+
 lvdb_path = os.environ.get('LVDBDIR')
 print("lvdb_path", lvdb_path)
 
@@ -17,7 +19,10 @@ lvdb.add_column(comb_all,'structure_plummer','ref_structure_plummer', col_type='
 lvdb.add_column(comb_all,'structure_eff','ref_structure_eff', col_type='U50')
 lvdb.add_column(comb_all,'star_formation_history','ref_star_formation_history', col_type='U50')
 
-def unit_test():
+lvdb.add_column(comb_all,'distance','distance_fixed_host', col_type=bool)
+lvdb.add_column(comb_all,'distance','distance_measurement_method', col_type='U50')
+
+def ra_dec_values():
     print("unit tests started")
     ra_dec_to_large = comb_all[np.logical_or.reduce((comb_all['ra']<0, comb_all['ra']>360., comb_all['dec']<-90, comb_all['dec']>90.))]
     if len(ra_dec_to_large)==0:
@@ -28,6 +33,7 @@ def unit_test():
             print(i, ra_dec_to_large['key'][i], ra_dec_to_large['ra'][i], ra_dec_to_large['dec'][i])
         print()
 
+def check_references():
     print('checking references')
     ref_keys = ['ref_structure', 'ref_age', 'ref_distance', 'ref_m_v', 'ref_vlos', 'ref_proper_motion', 'ref_metallicity_spectroscopic', 'ref_structure_king', 'ref_structure_sersic', 'ref_metallicity_isochrone', 'ref_flux_HI', 'ref_metallicity_photometric','ref_structure_exponential','ref_structure_plummer','ref_structure_eff','ref_star_formation_history']
 
@@ -55,7 +61,7 @@ def unit_test():
         if i not in bib_keys:
             bad_reference.append(i)
             # print(i)
-    
+    print("bad references follow")
     for bad in bad_reference:
         print(bad)
         for ref in ref_keys:
@@ -64,8 +70,30 @@ def unit_test():
                 print(test_array['key'])
     print('references checked')
 
+def check_distance():
+    print("check for distance measurements fixed to host values")
+    fixed_host = comb_all[comb_all['distance_fixed_host'] == True]
+    print("number of dwarfs fixed to host distance",len(comb_all), len(fixed_host))
+
+    keep = np.zeros(len(fixed_host), dtype=bool)
+    for i in range(len(fixed_host)):
+        if ma.is_masked(fixed_host['distance_measurement_method'][i])==False:
+            keep[i]=True
+        else:
+            keep[i]=False
+    temp_fixed = fixed_host[keep]
+    print("number of dwarfs fixed to host distance with distance_measurement_method",len(temp_fixed))
+    print("distance_measurement_method", Counter(temp_fixed['distance_measurement_method']))
+    system_with_issue =temp_fixed[temp_fixed['distance_measurement_method']!='host']
+    print(len(system_with_issue))
+    print(system_with_issue['key'])
 
 
 
-unit_test()
+
+ra_dec_values()
+check_references()
+check_distance()
+
+
 print("unit tests completed")
