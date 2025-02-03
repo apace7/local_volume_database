@@ -30,6 +30,7 @@ proper_motion:
   pmdec: 0.138
   pmdec_em: 0.038
   pmdec_ep: 0.038
+  pmra_pmdec_corr: -0.16
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ellipticity: 0.06

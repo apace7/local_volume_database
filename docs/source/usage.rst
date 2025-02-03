@@ -217,7 +217,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **distance_fixed_host** -- True/False. This option fixes the distance of the system to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy, systems without an independent distance measurement, and/or new candidate satellites in more distant systems (>3 Mpc).
 
-  **distance_measurement_method** -- Refers to the method used for the distance measurement ['host', 'trgb', 'cmd', 'hb', 'rrl'].'hb'=Horizontal branch
+  **distance_measurement_method** -- Refers to the method used for the distance measurement ['host', 'trgb', 'cmd', 'hb', 'rrl', 'sbf', 'nam']. 'hb' = horizontal branch, 'host' = distance fixed to the host (overlaps with **distance_fixed_host**), 'trgb' = tip of the red giant branch distance, 'sbf' = surface brightness fluctuation, 'rrl' = RR Lyrae, 'cmd' = color-magnitude diagram fitting, 'nam' = numerical action method based distance, 'btf' = baryonic Tully-Fisher distance, 'tf' = Tully-Fisher distance, 'sn' = supernova based distance
 
   * **ref_distance**
 

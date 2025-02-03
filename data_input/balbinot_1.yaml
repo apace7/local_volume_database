@@ -11,6 +11,8 @@ name_discovery:
   name: Balbinot 1
   ref_discovery:
   - Balbinot2013ApJ...767..101B
+notes:
+- The center is offset from published center \citep{Balbinot2013ApJ...767..101B}.
 age:
   age: 11.7
   age_em: 0.8

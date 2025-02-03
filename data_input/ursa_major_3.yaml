@@ -20,6 +20,7 @@ notes:
 - velocity dispersions drops to $1.9_{-1.1}^{+1.4}~{\rm km~s^{-1}}$ if one star is removed and
   the velocity disperison is unresolved if two stars are removed \citep{Smith2024ApJ...961...92S}
 - systematic proper motion errors are 0.033 mas/yr \citep{Smith2024ApJ...961...92S}
+- pmra pmdec correlation computed by ABP from 8 Gaia members.
 structure:
   rhalf: 0.9
   rhalf_em: 0.3
@@ -48,6 +49,7 @@ proper_motion:
   pmdec: 1.15
   pmdec_em: 0.14
   pmdec_ep: 0.14
+  pmra_pmdec_corr: -0.61
   ref_proper_motion: Smith2024ApJ...961...92S
 velocity:
   vlos_systemic: 88.6
