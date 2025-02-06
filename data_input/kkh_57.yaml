@@ -1,8 +1,8 @@
 key: kkh_57
 table: dwarf_local_field_distant
 location:
-  ra: 150.067
-  dec: 63.185
+  ra: 150.064167
+  dec: 63.183722
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

@@ -1,20 +1,8 @@
-distance:
-  distance_modulus: 14.343
-  distance_modulus_em: 0.058
-  distance_modulus_ep: 0.059
-  ref_distance: Baumgardt2021MNRAS.505.5957B
 key: eso_452_sc11
+table: gc_harris
 location:
-  dec: -28.399167
   ra: 249.854167
-m_v:
-  apparent_magnitude_v: 10.34
-  apparent_magnitude_v_em: 0.06
-  apparent_magnitude_v_ep: 0.06
-  ref_m_v: Baumgardt2020PASA...37...46B
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.5
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+  dec: -28.399167
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -23,6 +11,26 @@ name_discovery:
   ref_discovery:
   - Lauberts1981A&AS...43..307L
   host: mw
+distance:
+  distance_modulus: 14.343
+  distance_modulus_em: 0.058
+  distance_modulus_ep: 0.059
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+m_v:
+  apparent_magnitude_v: 10.34
+  apparent_magnitude_v_em: 0.06
+  apparent_magnitude_v_ep: 0.06
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_isochrone:
+  metallicity_isochrone: -0.94
+  metallicity_isochrone_em: 0.08
+  metallicity_isochrone_ep: 0.11
+  ref_metallicity_isochrone: Massari2025arXiv250201741M
+age:
+  age: 13.59
+  age_em: 0.69
+  age_ep: 0.48
+  ref_age: Massari2025arXiv250201741M
 proper_motion:
   pmdec: -6.472
   pmdec_em: 0.0303
@@ -34,7 +42,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.15
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 16.37

@@ -1,8 +1,8 @@
 key: kdg_073
 table: dwarf_local_field_distant
 location:
-  ra: 163.23792
-  dec: 69.54583
+  ra: 163.2333825
+  dec: 69.547753
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

@@ -141,7 +141,7 @@ There are two extra tables: data/pm_overview.csv and data/j_factor.csv. The form
 The pm_overview table includes most proper motion literature measurements of dwarf galaxies and HFCSS. 
 The j-factor table includes some literature j-factor measurements, mostly from A. B. Pace.  This is not complete for literature measurements.
 
-pm_overview.csv: LVDB key, LVDB reference, ADS bibcode, proper motion measurements (full columns = pmra, pmra_em, pmra_ep, pmdec, pmdec_em, pmdec_ep, correlation) [the units are mas/yr expect for the unitless corrleation column], method [current options include=GAIA_EDR3, GAIA_DR2, Ground, HST_Ground, HST, GAIA_DR2_HST, HSC, SRG, GAIA_EDR3_HST, maser, GaiaHub], text citation, comments
+pm_overview.csv: LVDB key, LVDB reference, ADS bibcode, proper motion measurements (full columns = pmra, pmra_em, pmra_ep, pmdec, pmdec_em, pmdec_ep, pmra_pmdec_corr) [the units are mas/yr expect for the unitless corrleation column], method [current options include=GAIA_EDR3, GAIA_DR2, Ground, HST_Ground, HST, GAIA_DR2_HST, HSC, SRG, GAIA_EDR3_HST, maser, GaiaHub], text citation, comments
 
 
 j_factor.csv: LVDB key, LVDB reference, ADS bibcode, text citation, seleciton, angle [degree], j-factor measurement [units are log10 GeV^2 cm^-5] (full column names = logj, logj_em,	logj_ep,	logj_em05,	logj_ep95,	logj_ul95), use, comments
@@ -156,7 +156,9 @@ The collections are split such that a single reference can describe the contents
 Most keys are single entries and several keys are lists (specially other_name, ref_discovery, ref_false_positive).  
 
 * **key** —- unique internal LVDB identifier (required yaml key). This should be the same as the name of the file (without .yaml).  All keys are lowercase in LVDB. Globular clusters and some dwarf galaxies are grouped by their host. For example, all LMC globular cluster keys have the prefix lmc_gc_ and many Centuarus A dwarf galaxy keys have the prefix cena_. Most new satellite systems will have a host prefix.
-* **table** -- the table to place system into (required yaml key). The list of possible tables is: gc_harris, gc_dwarf_hosted, gc_disk=gc_mw_new, gc_halo=gc_ufsc=gc_abmiguous, dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant, candidate, misc, gc_other (there are several options that will place systems into the same table). The candidate and misc catalogs are only included in the release pages. The candidate systems are included in the lvdb pdf summary while the hosts/misc are not. The misc systems are primarily bright host galaxies (MW, M31, Cen A) and are partly included for distance measurements (**distance_fixed_host**) and to link systems together. 
+
+* **table** -- the table to place system into (required yaml key). The list of possible tables is: gc_harris, gc_dwarf_hosted, gc_mw_new, gc_abmiguous, dwarf_mw, dwarf_m31, dwarf_local_field,  dwarf_local_field_distant, candidate, misc, gc_other. The candidate and misc catalogs are only included in the release pages. The candidate systems are included in the lvdb pdf summary while the hosts/misc are not. The misc systems are primarily bright host galaxies (MW, M31, Cen A) and are partly included for distance measurements (**distance_fixed_host**) and to link systems together. 
+
 * **location** -- yaml collection. center of the system 
 
   * **ra** -- right ascension ICRS [degree]  (required yaml key)
@@ -191,7 +193,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
   
   * **type** -- Morphological type. This includes: dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster (this is not the full set of options). This key is generally incomplete.
 
-  * **nme_lvg** -- exact name in the Catalog and Atlas of Local Volume galaxies (`LVG <https://www.sao.ru/lv/lvgdb/>`_). To enable a join on the LVG identifiers.
+  * **name_lvg** -- exact name in the Catalog and Atlas of Local Volume galaxies (`LVG <https://www.sao.ru/lv/lvgdb/>`_). To enable a join on the LVG identifiers.
 
 * **notes** -- List of notes in LaTeX. The notes are added to the summary pdf. 
 
@@ -217,7 +219,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **distance_fixed_host** -- True/False. This option fixes the distance of the system to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy, systems without an independent distance measurement, and/or new candidate satellites in more distant systems (>3 Mpc).
 
-  **distance_measurement_method** -- Refers to the method used for the distance measurement ['host', 'trgb', 'cmd', 'hb', 'rrl', 'sbf', 'nam']. 'hb' = horizontal branch, 'host' = distance fixed to the host (overlaps with **distance_fixed_host**), 'trgb' = tip of the red giant branch distance, 'sbf' = surface brightness fluctuation, 'rrl' = RR Lyrae, 'cmd' = color-magnitude diagram fitting, 'nam' = numerical action method based distance, 'btf' = baryonic Tully-Fisher distance, 'tf' = Tully-Fisher distance, 'sn' = supernova based distance
+  * **distance_measurement_method** -- Refers to the method used for the distance measurement ['host', 'trgb', 'cmd', 'hb', 'rrl', 'sbf', 'nam']. 'hb' = horizontal branch, 'host' = distance fixed to the host (overlaps with **distance_fixed_host**), 'trgb' = tip of the red giant branch distance, 'sbf' = surface brightness fluctuation, 'rrl' = RR Lyrae, 'cmd' = color-magnitude diagram fitting, 'nam' = numerical action method based distance, 'btf' = baryonic Tully-Fisher distance, 'tf' = Tully-Fisher distance, 'sn' = supernova based distance
 
   * **ref_distance**
 

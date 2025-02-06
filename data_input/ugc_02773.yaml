@@ -1,0 +1,33 @@
+key: ugc_02773
+table: dwarf_local_field_distant
+location:
+  ra: 53.030292
+  dec: 47.794028
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: maffei_2
+  name: UGC 2773
+  other_name:
+  - KK028
+  - PGC013115
+  name_lvg: UGC02773
+structure:
+  diameter_holm: 1.20
+distance:
+  distance_modulus: 28.22
+  distance_modulus_em: 0.50
+  distance_modulus_ep: 0.40
+  ref_distance: Nasonova2011A&A...532A.104N
+  distance_measurement_method: tf
+m_v:
+  apparent_magnitude_v: 13.51
+  ref_m_v: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 220
+  vlos_systemic_em: 6
+  vlos_systemic_ep: 6
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 23.99
+  ref_flux_HI: Makarov2014A&A...570A..13M

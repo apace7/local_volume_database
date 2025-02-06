@@ -1,8 +1,8 @@
 key: pgc_0725719
 table: dwarf_local_field_distant
 location:
-  ra: 200.736667
-  dec: -29.738611
+  ra: 200.7374
+  dec: -29.739333
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

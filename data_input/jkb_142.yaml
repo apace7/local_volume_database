@@ -1,8 +1,8 @@
 key: jkb_142
 table: dwarf_local_field_distant
 location:
-  ra: 26.45083
-  dec: 16.37806
+  ra: 6.4495
+  dec: 16.378139
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
