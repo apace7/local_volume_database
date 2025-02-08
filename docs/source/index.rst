@@ -27,6 +27,7 @@ Contents
    usage
    tutorials
    contributing
+   catalogs
 
    .. table_description
    .. yaml_description
