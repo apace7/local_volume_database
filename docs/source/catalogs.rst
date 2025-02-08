@@ -9,7 +9,7 @@ List of other catalogs relevant to the LVDB including references and links:
 
 * Local Volume Galaxy (LVG) catalog, [`ADS <https://ui.adsabs.harvard.edu/abs/2004AJ....127.2031K/abstract>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2013AJ....145..101K/abstract>`_], [`website <https://www.sao.ru/lv/lvgdb/>`_].
 
-* Extragalactic Distance Database (EDD) [TRGB papers `ADS <https://ui.adsabs.harvard.edu/abs/2009AJ....138..332J/abstract>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2021AJ....162...80A/abstract >`_], [`website <http://edd.ifa.hawaii.edu/>`_].
+* Extragalactic Distance Database (EDD) [TRGB papers `ADS <https://ui.adsabs.harvard.edu/abs/2009AJ....138..332J/abstract>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2021AJ....162...80A/abstract>`_], [`website <http://edd.ifa.hawaii.edu/>`_].
 
 * HyperLeda, [`ADS <https://ui.adsabs.harvard.edu/abs/2014A%26A...570A..13M/abstract>`_], [`website <http://atlas.obs-hp.fr/hyperleda/>`_].
 
@@ -23,4 +23,10 @@ List of other catalogs relevant to the LVDB including references and links:
 
 * Galstreams [`ADS <https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.5225M/abstract>`_], [`website <https://github.com/cmateu/galstreams>`_]. Properties of stellar streams in the Milky Way. Not included in the LVDB.
 
-* The Revised Bologna Catalogue (M31 Globular Clusters) catalog of M31 GCs. [`ADS <https://ui.adsabs.harvard.edu/abs/2004A%26A...416..917G/abstract>`_], [`website <http://www.bo.astro.it/M31/>`_]. 
+* The Revised Bologna Catalogue (M31 Globular Clusters) catalog of M31 GCs. [`ADS <https://ui.adsabs.harvard.edu/abs/2004A%26A...416..917G/abstract>`_], [`website <http://www.bo.astro.it/M31/>`_]. Other M31 star cluster results [`website <https://lweb.cfa.harvard.edu/oir/eg/m31clusters/M31_Hectospec.html>`_]
+
+* Bica Catalogs (LMC/SMC star clusters) [`ADS <https://ui.adsabs.harvard.edu/abs/2008MNRAS.389..678B/abstract>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2020AJ....159...82B/abstract>`_]
+
+* Open cluster catalogs, Bica catalogs [`ADS <https://ui.adsabs.harvard.edu/abs/2019AJ....157...12B/abstract>`_], new Gaia open clusters [some examples `ADS <https://ui.adsabs.harvard.edu/abs/2023A&A...673A.114H/abstract>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2020A&A...633A..99C/abstract>`_]
+
+* Some websites about NGC/IC catalogs [`website <http://www.klima-luft.de/steinicke/index_e.htm>`_], [`website <http://haroldcorwin.net/ngcic/index.html>`_], [`website <https://github.com/mattiaverga/OpenNGC>`_]
