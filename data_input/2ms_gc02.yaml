@@ -1,16 +1,8 @@
 key: 2ms_gc02
 table: gc_harris
 location:
-  dec: -20.778889
   ra: 272.4021
-distance:
-  distance_modulus: 11.992
-  distance_modulus_em: 0.4
-  distance_modulus_ep: 0.363
-  ref_distance: Baumgardt2021MNRAS.505.5957B
-m_v:
-  apparent_magnitude_v: 8.69
-  ref_m_v: Baumgardt2020PASA...37...46B
+  dec: -20.778889
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -19,6 +11,14 @@ name_discovery:
   ref_discovery:
   - Hurt2000AJ....120.1876H
   host: mw
+distance:
+  distance_modulus: 14.000
+  distance_modulus_em: 0.142
+  distance_modulus_ep: 0.134
+  ref_distance: AlonsoGarcia2025arXiv250206504A
+m_v:
+  apparent_magnitude_v: 8.69
+  ref_m_v: Baumgardt2020PASA...37...46B
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.39
@@ -30,3 +30,11 @@ velocity:
 metallicity_isochrone:
   metallicity_isochrone: -1.08
   ref_metallicity_isochrone: Harris1996AJ....112.1487H
+proper_motion:
+  pmra: 4.2
+  pmra_em: 0.4
+  pmra_ep: 0.4
+  pmdec: -4.6
+  pmdec_em: 0.4
+  pmdec_ep: 0.4
+  ref_proper_motion: AlonsoGarcia2025arXiv250206504A

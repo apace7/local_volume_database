@@ -1,0 +1,18 @@
+key: smc_gc-bruck_168
+table: gc_dwarf_hosted
+location:
+  ra: 21.677917
+  dec: -70.783
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: Bruck 168
+  other_name:
+  - OGLE-SMC-CL-343
+  ref_discovery:
+  - Bruck1976ORROE...1.....B
+  - Sitek2017AcA....67..363S
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

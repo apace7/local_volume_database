@@ -13,6 +13,7 @@ name_discovery:
   - ESO 455-11
   - ESO 455-SC11
   - GCL B1727-2956
+  - FSR 1781
   host: mw
   ref_discovery:
   - Dufay1954POHP....3R....D

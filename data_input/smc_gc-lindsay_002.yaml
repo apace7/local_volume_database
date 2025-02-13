@@ -1,0 +1,17 @@
+key: smc_gc-lindsay_002
+table: gc_dwarf_hosted
+location:
+  ra: 3.237083 
+  dec: -73.491111
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: Lindsay 2
+  ref_discovery:
+  - Lindsay1958MNRAS.118..172L
+  other_name:
+  - OGLE-CL SMC 312
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

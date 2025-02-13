@@ -1,0 +1,18 @@
+key: smc_gc-hw_79
+table: gc_dwarf_hosted
+location:
+  ra: 20.7
+  dec: -75.001111
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: HW 79
+  other_name:
+  - OGLE-SMC-CL-306
+  ref_discovery:
+  - Hodge1974AJ.....79..858H
+  - Sitek2017AcA....67..363S
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

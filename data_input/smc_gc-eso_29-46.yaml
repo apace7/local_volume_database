@@ -1,0 +1,18 @@
+key: smc_gc-eso_29-46
+table: gc_dwarf_hosted
+location:
+  ra: 23.309583
+  dec: -74.166111
+name_discovery:
+  confirmed_star_cluster: 1
+  confirmed_real: 1
+  host: smc
+  name: ESO 29-46
+  ref_discovery:
+  - Lindsay1958MNRAS.118..172L
+  other_name:
+  - Lindsay 109
+  - OGLE-CL SMC 294
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host
