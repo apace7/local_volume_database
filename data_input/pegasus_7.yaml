@@ -1,0 +1,49 @@
+key: pegasus_7
+table: dwarf_m31
+location:
+  ra: 345.455417
+  dec: 32.097778
+  ra_em: 7.5
+  ra_ep: 7.5
+  dec_em: 6
+  dec_ep: 6
+  ref_location: Smith2025arXiv250209792S
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2025
+  host: m_031
+  name: Pegasus VII
+  ref_discovery:
+  - Smith2025arXiv250209792S
+  type: dSph
+structure:
+  rhalf: 0.8
+  rhalf_em: 0.2
+  rhalf_ep: 0.1
+  spatial_units: arcmin
+  spatial_model: exponential
+  ellipticity: 0.5
+  ellipticity_em: 0.2
+  ellipticity_ep: 0.1
+  position_angle: 40
+  position_angle_em: 9
+  position_angle_ep: 12
+  ref_structure: Smith2025arXiv250209792S
+distance:
+  distance_modulus: 24.38
+  distance_modulus_em: 18
+  distance_modulus_ep: 17
+  distance_measurement_method: hb
+  ref_distance: Smith2025arXiv250209792S
+m_v:
+  apparent_magnitude_v: 18.68
+  apparent_magnitude_v_em: 0.20
+  apparent_magnitude_v_ep: 0.20
+  ref_m_v: Smith2025arXiv250209792S
+metallicity_isochrone:
+  metallicity_isochrone: -2
+  ref_metallicity_isochrone: Smith2025arXiv250209792S
+age:
+  age: 10
+  ref_age: Smith2025arXiv250209792S
