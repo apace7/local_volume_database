@@ -16,9 +16,9 @@ distance:
   distance_modulus_ep: 0.13
   ref_distance: Carlsten2022ApJ...933...47C
 structure:
-  rhalf: 70.3
-  rhalf_em: 3.4
-  rhalf_ep: 3.4
+  rhalf: 15.77
+  rhalf_em: 0.80
+  rhalf_ep: 0.80
   spatial_units: arcsec
   spatial_model: sersic
   ref_structure: Carlsten2022ApJ...933...47C

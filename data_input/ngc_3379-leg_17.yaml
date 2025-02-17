@@ -18,9 +18,9 @@ name_discovery:
   - Ferguson1990AJ....100....1F
   - Karachentsev2004ARep...48..267K
 structure:
-  rhalf: 27.9
-  rhalf_em: 1.7
-  rhalf_ep: 1.7
+  rhalf: 15.0
+  rhalf_em: 0.9
+  rhalf_ep: 0.9
   spatial_units: arcsec
   spatial_model: sersic
   ref_structure: Carlsten2022ApJ...933...47C
