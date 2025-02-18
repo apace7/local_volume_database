@@ -26,8 +26,6 @@ structure:
   ref_structure: Carlsten2022ApJ...933...47C
 distance:
   distance_modulus: 29.26
-  distance_modulus_em: 1.38
-  distance_modulus_ep: 1.38
   distance_measurement_method: sbf
   ref_distance: Carlsten2022ApJ...933...47C
 m_v:

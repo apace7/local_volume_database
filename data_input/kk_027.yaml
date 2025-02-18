@@ -14,7 +14,7 @@ name_discovery:
 distance:
   distance_modulus: 28.13
   distance_modulus_em: 0.05
-  distance_modulus_ep: 005
+  distance_modulus_ep: 0.05
   ref_distance: Tully2009AJ....138..323T
   distance_measurement_method: trgb
 m_v:
@@ -23,8 +23,6 @@ m_v:
   ref_m_v: Karachentsev2013AJ....145..101K
 velocity:
   vlos_systemic: 533
-  vlos_systemic_em: 0
-  vlos_systemic_ep: 0
   ref_vlos: Karachentsev2013AJ....145..101K
 flux_HI:
   flux_HI: 0.2

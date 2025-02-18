@@ -85,9 +85,12 @@ def check_distance():
     print("number of dwarfs fixed to host distance with distance_measurement_method",len(temp_fixed))
     print("distance_measurement_method", Counter(temp_fixed['distance_measurement_method']))
     system_with_issue =temp_fixed[temp_fixed['distance_measurement_method']!='host']
-    print(len(system_with_issue))
+    print("number of systems with host distance issue", len(system_with_issue))
     print(system_with_issue['key'])
 
+    large_errors = comb_all[np.logical_or(comb_all['distance_modulus_em'] >1, comb_all['distance_modulus_ep'] >1)]
+    print("number of systems with large distance errors", len(large_errors))
+    print(large_errors['key'])
 
 
 

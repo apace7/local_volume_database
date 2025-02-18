@@ -3,10 +3,10 @@ table: dwarf_m31
 location:
   ra: 345.455417
   dec: 32.097778
-  ra_em: 7.5
-  ra_ep: 7.5
-  dec_em: 6
-  dec_ep: 6
+  ra_em: 0.002083
+  ra_ep: 0.002083
+  dec_em: 0.001667
+  dec_ep: 0.001667
   ref_location: Smith2025arXiv250209792S
 name_discovery:
   confirmed_dwarf: 1
@@ -32,8 +32,8 @@ structure:
   ref_structure: Smith2025arXiv250209792S
 distance:
   distance_modulus: 24.38
-  distance_modulus_em: 18
-  distance_modulus_ep: 17
+  distance_modulus_em: 0.18
+  distance_modulus_ep: 0.17
   distance_measurement_method: hb
   ref_distance: Smith2025arXiv250209792S
 m_v:
