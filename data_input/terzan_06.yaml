@@ -2,7 +2,12 @@ key: terzan_06
 table: gc_harris
 location:
   ra: 267.6954167
-  dec: -31.2750389
+  dec: -31.275156
+  ra_em: 0.000122
+  ra_ep: 0.000122
+  dec_em: 0.00001
+  dec_ep: 0.00001
+  ref_location: Loriga2025arXiv250212247L
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -42,8 +47,11 @@ proper_motion:
   pmdec_ep: 0.0392
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
-  ref_structure: Baumgardt2018MNRAS.478.1520B
-  rhalf: 0.5
+  ref_structure: Loriga2025arXiv250212247L
+  rhalf: 24
+  rhalf_em: 7
+  rhalf_ep: 19
+  spatial_units: arcsec
 velocity:
   ref_vlos: Fanelli2024A&A...688A.154F
   vlos_systemic: 143.3
@@ -52,3 +60,8 @@ velocity:
   vlos_sigma: 5.1
   vlos_sigma_em: 0.7
   vlos_sigma_ep: 0.7
+age:
+  age: 13
+  age_em: 1
+  age_ep: 1
+  ref_age: Loriga2025arXiv250212247L

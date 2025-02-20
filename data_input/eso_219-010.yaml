@@ -1,0 +1,25 @@
+key: eso_219-010
+table: dwarf_local_field_distant
+location:
+  ra: 194.04
+  dec: -50.143889
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_5128
+  name: ESO219-010
+  other_name:
+  - PGC044110
+  name_lvg: ESO219-010
+structure:
+  diameter_holm: 0.68
+distance:
+  distance_modulus: 28.40
+  distance_modulus_em: 0.18
+  distance_modulus_ep: 0.18
+  ref_distance: Jerjen2000AJ....119..166J
+  distance_measurement_method: sbf
+m_v:
+  apparent_magnitude_v: 12.33
+  apparent_magnitude_b: 12.64
+  ref_m_v: Karachentsev2013AJ....145..101K
