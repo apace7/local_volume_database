@@ -2,7 +2,7 @@
 
 ### DESCRIPTION:
 
-Database of Local Volume dwarf galaxies and  star clusters. The database is complete for dwarf galaxies within ~3 Mpc. 
+The LVDB is a database of dwarf galaxies and star clusters in the Local Volume. The database is complete for dwarf galaxies within ~5 Mpc. 
 The planned limiting distance is ~10+ Mpc (i.e. resolved stars with HST or JWST).  
 The star cluster collections are currently limited to old star clusters/globular clusters in the Milky Way halo and globular clusters/star clusters hosted by low mas dwarf galaxies.
 
@@ -27,6 +27,8 @@ The tables can be directly loaded into Jupyter notebooks without having to downl
 
 An interactive version of the LVDB is available here: [link](https://lvd-interactive.streamlit.app/) (made by Katya Gozman).
 
+Community contributions to the LVDB are welcome. Please feel free to contract me with any questions are content and potential contributions. 
+
 ### INSTALLATION and USE:
 
 Users that only want to use the catalogs do not need to install the package. 
@@ -43,7 +45,7 @@ python -m build
 pip install .
 ```
 
-The `LVDBDIR` environment variable is used to point to the location of the input YAML files (/data_input/). 
+The `LVDBDIR` environment variable is required to point to the location of the input YAML files (/data_input/). 
 
 ### ACKNOWLEDGEMENT:
 

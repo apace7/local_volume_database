@@ -1,0 +1,46 @@
+key: andromeda_35
+table: dwarf_m31
+location:
+  ra: 6.660833
+  dec: 40.108111
+  ra_em: 0.0075
+  ra_ep: 0.007083
+  dec_em: 0.000833
+  dec_ep: 0.000833
+  ref_location: Arias2025arXiv250219516A
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2025
+  host: m_031
+  name: Andromeda XXXV
+  ref_discovery:
+  - Arias2025arXiv250219516A
+  type: dSph
+structure:
+  rhalf: 0.27
+  rhalf_em: 0.06
+  rhalf_ep: 0.09
+  spatial_units: arcmin
+  spatial_model: plummer
+  ellipticity: 0.43
+  ellipticity_em: 0.23
+  ellipticity_ep: 0.17
+  position_angle: 82
+  position_angle_em: 17
+  position_angle_ep: 17
+  ref_structure: Arias2025arXiv250219516A
+distance:
+  distance_modulus: 24.83
+  distance_modulus_em: 0.15
+  distance_modulus_ep: 0.17
+  distance_measurement_method: hb
+  ref_distance: Arias2025arXiv250219516A
+m_v:
+  apparent_magnitude_v: 19.63
+  apparent_magnitude_v_em: 0.30
+  apparent_magnitude_v_ep: 0.03
+  ref_m_v: Arias2025arXiv250219516A
+metallicity_isochrone:
+  metallicity_isochrone: -1.9
+  ref_metallicity_isochrone: Arias2025arXiv250219516A
