@@ -1,30 +1,38 @@
-age:
-  age: 11.14
-  age_em: 0.9
-  age_ep: 0.9
-  ref_age: Forbes2010MNRAS.404.1203F
-distance:
-  distance_modulus: 15.763
-  distance_modulus_em: 0.064
-  distance_modulus_ep: 0.064
-  ref_distance: Baumgardt2021MNRAS.505.5957B
 key: ngc_6284
+table: gc_harris
 location:
-  dec: -24.764799
-  ra: 256.120114
-m_v:
-  apparent_magnitude_v: 8.12
-  apparent_magnitude_v_em: 0.08
-  apparent_magnitude_v_ep: 0.08
-  ref_m_v: Baumgardt2020PASA...37...46B
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.26
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+  ra: 256.1192583
+  dec: -24.7648085
+  ra_em: 0.000028
+  ra_ep: 0.000028
+  dec_em: 0.000028
+  dec_ep: 0.000028
+  ref_location: Deras2024A&A...681A..38D
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 6284
   host: mw
+age:
+  age: 13.3
+  age_em: 0.4
+  age_ep: 0.4
+  ref_age: Deras2024A&A...681A..38D
+distance:
+  distance_modulus: 15.763
+  distance_modulus_em: 0.064
+  distance_modulus_ep: 0.064
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+m_v:
+  apparent_magnitude_v: 8.12
+  apparent_magnitude_v_em: 0.08
+  apparent_magnitude_v_ep: 0.08
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_isochrone:
+  metallicity_isochrone: -1.36
+  metallicity_isochrone_em: 0.01
+  metallicity_isochrone_ep: 0.01
+  ref_metallicity_isochrone: Deras2024A&A...681A..38D
 proper_motion:
   pmdec: -2.0021
   pmdec_em: 0.0278
@@ -36,7 +44,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 0.71
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 28.62

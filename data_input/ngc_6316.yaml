@@ -1,8 +1,13 @@
 key: ngc_6316
 table: gc_harris
 location:
-  ra: 259.155417
-  dec: -28.140111
+  ra: 259.155
+  dec: -28.139839
+  ra_em: 0.000056
+  ra_ep: 0.000056
+  dec_em: 0.000056
+  dec_ep: 0.000056
+  ref_location: Deras2023ApJ...942..104D
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1

@@ -27,7 +27,7 @@ The tables can be directly loaded into Jupyter notebooks without having to downl
 
 An interactive version of the LVDB is available here: [link](https://lvd-interactive.streamlit.app/) (made by Katya Gozman).
 
-Community contributions to the LVDB are welcome. Please feel free to contract me with any questions are content and potential contributions. 
+Community contributions to the LVDB are welcome. Please feel free to contract me with any questions about LVDB content and/or potential contributions. 
 
 ### INSTALLATION and USE:
 
