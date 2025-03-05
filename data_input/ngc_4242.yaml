@@ -1,0 +1,32 @@
+key: ngc_4242
+table: dwarf_local_field_distant
+location:
+  ra: 184.375833
+  dec: 45.619444
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_4258
+  name: NGC 4242
+  other_name:
+  - PGC039423
+  - UGC07323
+  name_lvg: NGC4242
+structure:
+  spatial_units: arcmin
+  diameter_holm: 5.50
+distance:
+  distance_modulus: 29.41
+  ref_distance: Anand2021AJ....162...80A
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 10.76
+  ref_m_v: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 516
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 31.9
+  ref_flux_HI: Makarov2014A&A...570A..13M

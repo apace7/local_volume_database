@@ -19,8 +19,7 @@ List of other catalogs relevant to the LVDB including references and links:
 
 * Harris catalog [`ADS <https://ui.adsabs.harvard.edu/abs/1996AJ....112.1487H/abstract>`_, 2010 version `ADS <https://ui.adsabs.harvard.edu/abs/2010arXiv1012.3224H/abstract>`_], [`catalog <https://physics.mcmaster.ca/~harris/Databases.html>`_]
 
-* Fundamental parameters of Galactic globular clusters (Baumgardt Catalog) [`ADS <https://ui.adsabs.harvard.edu/abs/2018MNRAS.478.1520B/abstract>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2020PASA...37...46B/abstract>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2021MNRAS.505.5978V/abstract>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2021MNRAS.505.5957B/abstract>`_], [`website <https://people.smp.uq.edu.au/HolgerBaumgardt/globular/>`_]. Also referred to as the Galactic Glob-
-ular Clusters Database (GGCD)
+* Fundamental parameters of Galactic globular clusters (Baumgardt Catalog) [`ADS <https://ui.adsabs.harvard.edu/abs/2018MNRAS.478.1520B/abstract>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2020PASA...37...46B/abstract>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2021MNRAS.505.5978V/abstract>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2021MNRAS.505.5957B/abstract>`_], [`website <https://people.smp.uq.edu.au/HolgerBaumgardt/globular/>`_]. Also referred to as the Galactic Globular Clusters Database (GGCD)
 
 * Galstreams [`ADS <https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.5225M/abstract>`_], [`website <https://github.com/cmateu/galstreams>`_]. Properties of stellar streams in the Milky Way. Not included in the LVDB.
 
@@ -31,3 +30,8 @@ ular Clusters Database (GGCD)
 * Open cluster catalogs, Bica catalogs [`ADS <https://ui.adsabs.harvard.edu/abs/2019AJ....157...12B/abstract>`_], new Gaia open clusters [some examples `ADS <https://ui.adsabs.harvard.edu/abs/2023A&A...673A.114H/abstract>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2020A&A...633A..99C/abstract>`_]
 
 * Some websites about NGC/IC catalogs [`website <http://www.klima-luft.de/steinicke/index_e.htm>`_], [`website <http://haroldcorwin.net/ngcic/index.html>`_], [`website <https://github.com/mattiaverga/OpenNGC>`_]
+
+
+The completeness of the LVDB is characterized by comparing to other catalogs. 
+v1.0.3 of the LVDB is complete to 6 Mpc when comparing to the Local Volume Galaxy catalog and Extragalactic Distance Database. 
+Current efforts are focused on verifying this completeness limit with other catalogs  (HyperLEDA, the NED LVS and Siena Galaxy Atlas)and adding missing systems and any new discoveries. 

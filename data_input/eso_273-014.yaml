@@ -1,0 +1,30 @@
+key: eso_273-014
+table: dwarf_local_field_distant
+location:
+  ra: 224.62625
+  dec: -47.698611
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: ESO 273-014
+  other_name:
+  - PGC 53500
+  name_lvg: ESO273-014
+structure:
+  diameter_holm: 3.8
+  spatial_units: arcmin
+distance:
+  distance_modulus: 29.98
+  ref_distance: Karachentsev2013AJ....145..101K
+  distance_measurement_method: tf
+m_v:
+  apparent_magnitude_v: 11.02
+  ref_m_v: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 1052
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 173.8
+  ref_flux_HI: Makarov2014A&A...570A..13M
