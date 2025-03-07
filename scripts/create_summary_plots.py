@@ -14,6 +14,8 @@ from matplotlib.backends.backend_pdf import PdfPages
 from collections import Counter
 from adjustText import adjust_text
 
+import warnings; warnings.filterwarnings('ignore')
+
 import local_volume_database as lvdb
 ## load environment variable
 lvdb_path = os.environ.get('LVDBDIR')

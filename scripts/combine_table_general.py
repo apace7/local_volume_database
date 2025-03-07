@@ -17,6 +17,7 @@ import os
 import corner
 
 import local_volume_database as lvdb
+import warnings; warnings.filterwarnings('ignore')
 
 path = "data_input/"
 dir_list = os.listdir(path)

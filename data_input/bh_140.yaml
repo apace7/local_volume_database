@@ -36,3 +36,8 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 4.45
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 90.3
+  vlos_systemic_em: 0.35
+  vlos_systemic_ep: 0.35

@@ -13,6 +13,8 @@ import yaml
 from astropy import units as u
 import astropy.coordinates as coord
 
+import warnings; warnings.filterwarnings('ignore')
+
 ## this makes a->z plus aa -> zz for labeling citations
 import string
 string.ascii_lowercase

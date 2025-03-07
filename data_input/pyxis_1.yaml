@@ -31,8 +31,10 @@ m_v:
   apparent_magnitude_v_ep: 0.04
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.2
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+  metallicity_spectroscopic: -1.45
+  metallicity_spectroscopic_em: 0.14
+  metallicity_spectroscopic_ep: 0.14
+  ref_metallicity_spectroscopic: Saviane2012A&A...540A..27S
 proper_motion:
   pmdec: 0.1378
   pmdec_em: 0.0347
