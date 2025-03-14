@@ -15,7 +15,7 @@ distance:
   distance_modulus: 14.000
   distance_modulus_em: 0.142
   distance_modulus_ep: 0.134
-  ref_distance: AlonsoGarcia2025arXiv250206504A
+  ref_distance: AlonsoGarcia2025A&A...695A..47A
 m_v:
   apparent_magnitude_v: 8.69
   ref_m_v: Baumgardt2020PASA...37...46B
@@ -37,4 +37,4 @@ proper_motion:
   pmdec: -4.6
   pmdec_em: 0.4
   pmdec_ep: 0.4
-  ref_proper_motion: AlonsoGarcia2025arXiv250206504A
+  ref_proper_motion: AlonsoGarcia2025A&A...695A..47A
