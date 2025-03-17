@@ -171,7 +171,7 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
             #     out_str +=  '  '        
 
             if i == len(input_table)-1 and np.logical_or.reduce((len(other_name)>place , len(ref) > place )):
-                out_str += '\\\\'+'\n'
+                out_str += '\\\\\\relax'+'\n'
             else:
                 out_str += end_line+'\n'
                 
@@ -184,7 +184,12 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
                 out_str2 += ' &&&& '
                 if len(ref)>place:
                     out_str2 += "\\citet{" + ref[place]+'}'
-                out_str2 += end_line
+                end_line_temp = end_line
+                if i == len(input_table)-1 and np.logical_or(len(other_name)-1>place , len(ref)-1 > place):
+                    end_line_temp = '\\\\\\relax'
+                else:
+                    end_line_temp = end_line
+                out_str2 += end_line_temp
                 place+=1
                 f.write( out_str2+'\n')
     print("missing host check",Counter(missing_host))
