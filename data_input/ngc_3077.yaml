@@ -12,13 +12,11 @@ name_discovery:
   - PGC029146
   - UGC05398
 structure:
-  rhalf: 6.0
-  rhalf_em: 0.1
-  rhalf_ep: 0.1
+  rhalf: 2.3167
   spatial_units: arcmin
-  ellipticity: 0.22
-  position_angle: 46.3
-  ref_structure: Okamoto2023ApJ...952...77O
+  ellipticity: 0.2487
+  position_angle: 53.75
+  ref_structure: Moustakas2023ApJS..269....3M
 distance:
   distance_modulus: 27.93
   distance_modulus_em: 0.07

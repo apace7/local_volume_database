@@ -1,0 +1,30 @@
+key: eso_472-015
+table: dwarf_local_field_distant
+location:
+  ra: 1.701667
+  dec: -24.944722
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_0024
+  name: ESO 472-015
+  other_name:
+  - PGC000513
+  type: Im
+structure:
+  rhalf: 1.53
+  spatial_units: arcmin
+  ellipticity: 0.56
+  ref_structure: Karachentsev2025PASA...42...26K
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 15.93
+  apparent_magnitude_b: 16.24
+  ref_m_v: Karachentsev2025PASA...42...26K
+velocity:
+  vlos_systemic: 655
+  vlos_systemic_em: 46
+  vlos_systemic_ep: 46
+  ref_vlos: Makarov2014A&A...570A..13M

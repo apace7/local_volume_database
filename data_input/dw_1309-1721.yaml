@@ -1,0 +1,28 @@
+key: dw_1309-1721
+table: dwarf_local_field_distant
+location:
+  ra: 197.325
+  dec: -17.365
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2025
+  host: ngc_5068
+  name: Dw1309-1721
+  ref_discovery:
+  - Karachentsev2025PASA...42...26K
+  type: Sph
+structure:
+  rhalf: 0.52
+  spatial_units: arcmin
+  ellipticity: 0.78
+  ref_structure: Karachentsev2025PASA...42...26K
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 19.59
+  apparent_magnitude_b: 19.9
+  ref_m_v: Karachentsev2025PASA...42...26K
+

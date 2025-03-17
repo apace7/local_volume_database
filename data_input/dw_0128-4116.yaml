@@ -1,0 +1,27 @@
+key: dw_0128-4116
+table: dwarf_local_field_distant
+location:
+  ra: 22.179167
+  dec: -41.276111
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2025
+  host: ngc_0625
+  name: Dw0128-4116
+  ref_discovery:
+  - Karachentsev2025PASA...42...26K
+  type: Irr
+structure:
+  rhalf: 0.68
+  spatial_units: arcmin
+  ellipticity: 0.52
+  ref_structure: Karachentsev2025PASA...42...26K
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 17.37
+  apparent_magnitude_b: 17.68
+  ref_m_v: Karachentsev2025PASA...42...26K

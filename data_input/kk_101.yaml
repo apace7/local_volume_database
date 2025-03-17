@@ -1,0 +1,28 @@
+key: kk_101
+table: dwarf_local_field_distant
+location:
+  ra: 169.185833
+  dec: -32.651111
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  host: ngc_3621
+  name: KK 101
+  other_name:
+  - PGC 166110
+  ref_discovery:
+  - Karachentsev2025PASA...42...26K
+  type: Sph
+structure:
+  rhalf: 1.06
+  spatial_units: arcmin
+  ellipticity: 0.72
+  ref_structure: Karachentsev2025PASA...42...26K
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 17.25
+  apparent_magnitude_b: 17.56
+  ref_m_v: Karachentsev2025PASA...42...26K
+

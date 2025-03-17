@@ -12,6 +12,7 @@ name_discovery:
   name: dw1903m6405
   ref_discovery:
   - Carlsten2022ApJ...933...47C
+  - Karachentsev2025PASA...42...26K
 notes:
 - Candidate in \citep{Carlsten2022ApJ...933...47C}.
 structure:

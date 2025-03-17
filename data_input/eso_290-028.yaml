@@ -1,0 +1,33 @@
+key: eso_290-028
+table: dwarf_local_field_distant
+location:
+  ra: 344.288333
+  dec: -42.805
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_7424
+  name: ESO 290-028
+  other_name:
+  - NGC 7412A
+  - PGC 70089
+  type: Sdm
+structure:
+  rhalf: 5.63
+  spatial_units: arcmin
+  ellipticity: 0.1
+  ref_structure: Karachentsev2025PASA...42...26K
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 13.67
+  ref_m_v: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 929
+  vlos_systemic_em: 3
+  vlos_systemic_ep: 3
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 18.5
+  ref_flux_HI: Makarov2014A&A...570A..13M

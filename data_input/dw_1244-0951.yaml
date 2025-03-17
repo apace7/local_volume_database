@@ -1,0 +1,28 @@
+key: dw_1244-0951
+table: dwarf_local_field_distant
+location:
+  ra: 191.020833
+  dec: -9.85
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2025
+  host: ngc_4594
+  name: Dw1244-0951
+  ref_discovery:
+  - Karachentsev2025PASA...42...26K
+  type: Sph
+structure:
+  rhalf: 0.24
+  spatial_units: arcmin
+  ellipticity: 0.75
+  ref_structure: Karachentsev2025PASA...42...26K
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 21.49
+  apparent_magnitude_b: 21.8
+  ref_m_v: Karachentsev2025PASA...42...26K
+

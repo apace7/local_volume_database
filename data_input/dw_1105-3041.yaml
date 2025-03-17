@@ -1,0 +1,28 @@
+key: dw_1105-3041
+table: dwarf_local_field_distant
+location:
+  ra: 166.447917
+  dec: -30.688611
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2025
+  host: ngc_3621
+  name: Dw1105-3041
+  ref_discovery:
+  - Karachentsev2025PASA...42...26K
+  type: Sph
+structure:
+  rhalf: 0.77
+  spatial_units: arcmin
+  ellipticity: 0.84
+  ref_structure: Karachentsev2025PASA...42...26K
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 19.69
+  apparent_magnitude_b: 20.0
+  ref_m_v: Karachentsev2025PASA...42...26K
+

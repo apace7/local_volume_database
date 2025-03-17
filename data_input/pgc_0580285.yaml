@@ -1,0 +1,25 @@
+key: pgc_0580285
+table: dwarf_local_field_distant
+location:
+  ra: 347.65875
+  dec: -40.986389
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2025
+  host: ngc_7424
+  name: PGC580285
+  type: Irr
+structure:
+  rhalf: 0.83
+  spatial_units: arcmin
+  ellipticity: 0.76
+  ref_structure: Karachentsev2025PASA...42...26K
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 17.2
+  apparent_magnitude_b: 17.51
+  ref_m_v: Karachentsev2025PASA...42...26K
+

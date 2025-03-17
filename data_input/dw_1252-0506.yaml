@@ -1,0 +1,28 @@
+key: dw_1252-0506
+table: dwarf_local_field_distant
+location:
+  ra: 193.087083
+  dec: -5.105
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  false_positive: 0
+  discovery_year: 2025
+  host: ngc_4594
+  name: Dw1252-0506
+  ref_discovery:
+  - Karachentsev2025PASA...42...26K
+  type: Sph
+structure:
+  rhalf: 0.8
+  spatial_units: arcmin
+  ellipticity: 0.79
+  ref_structure: Karachentsev2025PASA...42...26K
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 18.69
+  apparent_magnitude_b: 19.0
+  ref_m_v: Karachentsev2025PASA...42...26K
+
