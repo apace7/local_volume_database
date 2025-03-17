@@ -34,18 +34,27 @@ The YAML files are located in `data_input/ <https://github.com/apace7/local_volu
 
 
 The tables can be directly loaded into jupyter notebooks without having to download the repository.
-An example of loading the tables remotely from either the release page (recommend) or  github is as follows:
+The recommended catalogs to use are located on the github release page. 
+The latest catalogs (dwarf galaxy or everything) can be loaded as follows:
 
 .. code-block:: python
 
   import astropy.table as table
-  ## release page, the version will need to be updated to the latest release
-  dsph_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v1.0.0/dwarf_all.csv')
+  # loads the current dwarf galaxy data catalog from the release page (recommended)
+  version_number_string = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/code/release_version.txt', format='ascii.fast_no_header')['col1'][0]
+  dwarf_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/'+version_number_string+'/dwarf_all.csv')
+  comb_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/'+version_number_string+'/comb_all.csv')
+
+The catalogs can also be loaded from the main github (or from older commits).  
+
+.. code-block:: python
+
+  import astropy.table as table
   ## latest github
   dsph_all = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_all.csv')
 
 Note that the version number will need to be changed to access the lasted release page while the github link will go to the version on the main branch.
-There is also a pdf document (named lvdb_table.pdf) in release page summarizing the contents and properties of each combined table. 
+There is also a pdf document (named lvdb_table.pdf) in github releases summarizing the contents and properties of each combined catalog. The pdf file continues readable tables for quick lookup. 
 
 
 Decription of Catalogs/Tables 
@@ -382,7 +391,7 @@ The LVDB package also contains a function that will output references (see `exam
 
 
 
-As ADS bibcode are a fixed length of 19 characters, the ADS bibcode can be retrieved from the LVDB reference columns if users wish to use the ADS bibcodes instead.  Other public tools such as  `adstex <https://github.com/yymao/adstex>`_ package can be used to create bibtex files. 
+As ADS bibcode are a fixed length of 19 characters, the ADS bibcode can be retrieved from the LVDB reference columns if users wish to use the ADS bibcodes instead.  Other public tools such as the `adstex <https://github.com/yymao/adstex>`_ package can be used to create bibtex files. 
 
 Users of the LVDB are encouraged to cite the LVDB input (of the systems studied in their analysis) to give proper acknowledgment to the community.  The references could be included in a table or appendix. See Appendix A of this paper (`Cerny et al. 2024 <https://ui.adsabs.harvard.edu/abs/2024arXiv241000981C/abstract>`_) for an example of including internal LVDB references to the text of a paper.
 

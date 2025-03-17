@@ -19,11 +19,10 @@ The LVDB releases are also indexed on [zenodo](https://doi.org/10.5281/zenodo.14
 The tables can be directly loaded into Jupyter notebooks without having to download the repository:
 
     import astropy.table as table
-    ## from the release page (recommended)
-    ## Note that this links to the first release version (v1.0.0) and you should use the most up-to-date release.
-    dwarf_mw = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v1.0.0/dwarf_all.csv')
-    # or from a  github branch
-    dwarf_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_mw.csv') 
+    # loads the current dwarf galaxy data catalog from the release page (recommended)
+    version_number_string = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/code/release_version.txt', format='ascii.fast_no_header')['col1'][0]
+    dwarf_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/'+version_number_string+'/dwarf_all.csv')
+
 
 An interactive version of the LVDB is available here: [link](https://lvd-interactive.streamlit.app/) (made by Katya Gozman).
 
