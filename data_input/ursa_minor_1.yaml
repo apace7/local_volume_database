@@ -20,9 +20,9 @@ name_discovery:
   name_lvg: UMin
 distance:
   distance_modulus: 19.23
-  distance_modulus_em: 0.09
-  distance_modulus_ep: 0.09
-  ref_distance: Garofalo2024arXiv241012433G
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.11
+  ref_distance: Garofalo2025A&A...695A..88G
 flux_HI:
   flux_HI_ul: 0.046
   ref_flux_HI: Spekkens2014ApJ...795L...5S
