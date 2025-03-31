@@ -11,6 +11,7 @@ name_discovery:
   name: DELVE 6
   ref_discovery:
   - Cerny2023ApJ...953L..21C
+  abbreviation: DEL6
 notes:
 - pmra pmdec correlation computed by ABP from 2 Gaia members.
 distance:

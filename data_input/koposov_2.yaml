@@ -11,6 +11,7 @@ name_discovery:
   name: Koposov 2
   ref_discovery:
   - Koposov2007ApJ...669..337K
+  abbreviation: Ko2
 distance:
   distance_modulus: 17.7
   ref_distance: Munoz2018ApJ...860...66M

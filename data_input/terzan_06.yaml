@@ -7,7 +7,7 @@ location:
   ra_ep: 0.000122
   dec_em: 0.00001
   dec_ep: 0.00001
-  ref_location: Loriga2025arXiv250212247L
+  ref_location: Loriga2025A&A...695A.156L
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -47,10 +47,10 @@ proper_motion:
   pmdec_ep: 0.0392
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
-  ref_structure: Loriga2025arXiv250212247L
+  ref_structure: Loriga2025A&A...695A.156L
   rhalf: 24
   rhalf_em: 7
-  rhalf_ep: 19
+  rhalf_ep: 20
   spatial_units: arcsec
 velocity:
   ref_vlos: Fanelli2024A&A...688A.154F
@@ -64,4 +64,4 @@ age:
   age: 13
   age_em: 1
   age_ep: 1
-  ref_age: Loriga2025arXiv250212247L
+  ref_age: Loriga2025A&A...695A.156L

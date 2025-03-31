@@ -11,6 +11,7 @@ name_discovery:
   name: DES 1
   ref_discovery:
   - Luque2016MNRAS.458..603L
+  abbreviation: DES1
 age:
   age: 11.2
   age_em: 0.9

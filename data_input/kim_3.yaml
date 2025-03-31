@@ -25,6 +25,7 @@ name_discovery:
   name: Kim 3
   ref_discovery:
   - Kim2016ApJ...820..119K
+  abbreviation: Kim3
 proper_motion:
   pmdec: 3.396
   pmdec_em: 0.14

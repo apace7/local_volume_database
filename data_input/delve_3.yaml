@@ -13,6 +13,7 @@ name_discovery:
   - DELVE J1921-6047
   ref_discovery:
   - Cerny2023ApJ...953....1C
+  abbreviation: DEL3
 distance:
   distance_modulus: 18.73
   distance_modulus_em: 0.23

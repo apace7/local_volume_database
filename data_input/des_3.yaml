@@ -25,6 +25,7 @@ name_discovery:
   name: DES 3
   ref_discovery:
   - Luque2018MNRAS.478.2006L
+  abbreviation: DES3
 structure:
   ellipticity: 0.18
   ellipticity_em: 0.12

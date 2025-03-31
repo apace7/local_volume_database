@@ -13,6 +13,7 @@ name_discovery:
   - DELVE J1448+1728
   ref_discovery:
   - Cerny2023ApJ...953....1C
+  abbreviation: DEL5
 age:
   age: 10.0
   ref_age: Cerny2023ApJ...953....1C

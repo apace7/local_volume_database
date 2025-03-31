@@ -11,6 +11,7 @@ name_discovery:
   name: Koposov 1
   ref_discovery:
   - Koposov2007ApJ...669..337K
+  abbreviation: Ko1
 distance:
   distance_modulus: 18.42
   ref_distance: Munoz2018ApJ...860...66M

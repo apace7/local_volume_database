@@ -25,6 +25,7 @@ name_discovery:
   name: Kim 1
   ref_discovery:
   - Kim2015ApJ...799...73K
+  abbreviation: Kim1
 structure:
   ellipticity: 0.42
   ellipticity_em: 0.1
