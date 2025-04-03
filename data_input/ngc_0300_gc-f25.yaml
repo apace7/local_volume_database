@@ -10,10 +10,10 @@ name_discovery:
   host: ngc_0300
   name: NGC 300-GCF25
   ref_discovery:
-  - Fielder2025arXiv250104089F
+  - Fielder2025ApJ...982L..41F
   type: GC
 notes:
-  - Age estimated from NGC 300 properties and metallicity computed from V-I color \citep{Fielder2025arXiv250104089F}.
+  - Age estimated from NGC 300 properties and metallicity computed from V-I color \citep{Fielder2025ApJ...982L..41F}.
 structure:
   rhalf: 1.17
   rhalf_em: 0.15
@@ -22,7 +22,7 @@ structure:
   ellipticity: 0.071
   ellipticity_em: 0.005
   ellipticity_ep: 0.005
-  ref_structure: Fielder2025arXiv250104089F
+  ref_structure: Fielder2025ApJ...982L..41F
 distance:
   distance_fixed_host: True
   distance_measurement_method: host
@@ -33,17 +33,17 @@ m_v:
   apparent_magnitude_i: 16.69
   apparent_magnitude_i_em: 0.19
   apparent_magnitude_i_ep: 0.19
-  ref_m_v: Fielder2025arXiv250104089F
+  ref_m_v: Fielder2025ApJ...982L..41F
 metallicity_photometric:
   metallicity_photometric: -1.6
   metallicity_photometric_em: 0.6
   metallicity_photometric_ep: 0.6
-  ref_metallicity_photometric: Fielder2025arXiv250104089F
+  ref_metallicity_photometric: Fielder2025ApJ...982L..41F
 velocity:
   vlos_systemic: 190
   vlos_systemic_em: 8
   vlos_systemic_ep: 8
-  ref_vlos: Fielder2025arXiv250104089F
+  ref_vlos: Fielder2025ApJ...982L..41F
 age:
   age: 10
-  ref_age: Fielder2025arXiv250104089F
+  ref_age: Fielder2025ApJ...982L..41F
