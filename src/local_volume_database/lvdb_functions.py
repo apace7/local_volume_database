@@ -6,9 +6,20 @@ import os.path
 import numpy.ma as ma
 import numpy as np
 
+import matplotlib.pyplot as plt
+import matplotlib._color_data as mcd
+from collections import Counter
+
+
+
+
 ## load environment variable
 lvdb_path = os.environ.get('LVDBDIR')
 # print(lvdb_path)
+
+plt.style.use(lvdb_path+'/code/std.mplstyle')
+import matplotlib as mp
+mp.rcParams['text.usetex'] = True
 
 def get_notes(key, **kwargs):
     ## input is lvdb key
@@ -175,3 +186,91 @@ def dist_mod(mu, mu_e=0, mu_em=0, mu_ep=0):
 		return dm(mu)
 def dist_mod_kpc(dist):
     return (np.log10(dist*1000.) -1.)*5.
+
+pm_data = table.Table.read(lvdb_path+'/data/pm_overview.csv')
+
+def plot_galaxy_3panel(key, pm_overview = pm_data,  add=[], **kwargs):
+    error_option = kwargs.get('error_option', False)
+    save_file_name = kwargs.get('save_file_name', '')
+    non_gaia = kwargs.get('non_gaia',False)
+    
+    if non_gaia:
+        fig, ax = plt.subplots(1,3,figsize=(18,5))
+    else:
+        fig, ax = plt.subplots(1,2,figsize=(12,5))
+
+    pm_overview2 = pm_overview[pm_overview['key']==key]
+    print("number of measurements and mehtods:",len(pm_overview2), Counter(pm_overview2['method']))
+    print_pm = kwargs.get('print_pm',True)
+    if print_pm:
+        for kk in range(len(pm_overview2)):
+            print(pm_overview2['ref_cite'][kk], pm_overview2['method'][kk], pm_overview2['pmra'][kk], pm_overview2['pmra_em'][kk], pm_overview2['pmdec'][kk], pm_overview2['pmdec_em'][kk])
+    keep = np.zeros(len(pm_overview2), dtype=bool)
+    exclude = kwargs.get('exclude', [])
+    for i in range(len(pm_overview2)):
+        if pm_overview2['ref_cite'][i] in exclude:
+            keep[i]=False
+        else:
+            keep[i]=True
+    print("excluded measurements:",len(pm_overview2)-np.sum(keep), len(exclude))
+    pm_overview2 = pm_overview2[keep]
+    
+    temp_color = list(plt.rcParams['axes.prop_cycle'].by_key()['color'])
+    for i in ['black', 'lightgreen', 'magenta', 'navy', 'gold', 'maroon']:
+        temp_color.append(i)
+    tot = len(list(mcd.XKCD_COLORS))
+    x = np.random.choice(tot, tot)
+    for x2 in x:
+        temp_color.append(list(mcd.XKCD_COLORS)[x2])
+    xkcd = 0
+
+    if len(add)>0:
+        for i in [0,1]:
+            ax[i].errorbar(add[0], add[2], fmt='*',xerr=add[1], yerr=add[3],label=r'${\rm This~Work}$', c=temp_color[xkcd], ms=10, zorder=1000)
+        if non_gaia:
+            ax[2].errorbar(add[0], add[2], fmt='*',  xerr=add[1], yerr=add[3], label=r'${\rm This~Work}$', c=temp_color[xkcd], ms=10, zorder=1000)
+        xkcd+=1
+        
+    for kk in range(len(pm_overview2)):
+        if non_gaia:
+            ax[2].errorbar(pm_overview2['pmra'][kk], pm_overview2['pmdec'][kk], fmt='o', xerr=[[pm_overview2['pmra_em'][kk]],[pm_overview2['pmra_ep'][kk]]],yerr=[[pm_overview2['pmdec_em'][kk]], [pm_overview2['pmdec_ep'][kk]]], label=pm_overview2['citation'][kk],c=temp_color[xkcd])
+            
+        if pm_overview2['method'][kk] in ['GAIA_EDR3', 'GAIA_DR2']:
+            ax[1].errorbar(pm_overview2['pmra'][kk], pm_overview2['pmdec'][kk], fmt='o', xerr=[[pm_overview2['pmra_em'][kk]], [pm_overview2['pmra_ep'][kk]]], yerr=[[pm_overview2['pmdec_em'][kk]], [pm_overview2['pmdec_ep'][kk]]], label=pm_overview2['citation'][kk],c=temp_color[xkcd])
+            if pm_overview2['method'][kk]=='GAIA_EDR3':
+                ax[0].errorbar(pm_overview2['pmra'][kk], pm_overview2['pmdec'][kk], fmt='o', xerr=[[pm_overview2['pmra_em'][kk]], [pm_overview2['pmra_ep'][kk]]],  yerr=[[pm_overview2['pmdec_em'][kk]], [pm_overview2['pmdec_ep'][kk]]], label=pm_overview2['citation'][kk],c=temp_color[xkcd])
+        xkcd+=1
+    
+#     ax[3].axis("off")
+    for i in [0,1]:
+        ax[i].set_xlabel(r'$\mu_{\alpha *}~({\rm mas~yr^{-1}})$', fontsize=15)
+        ax[i].set_ylabel(r'$\mu_{\delta }~({\rm mas~yr^{-1}})$', fontsize=15)
+        xvals,yvals = ax[i].axes.get_xlim(),ax[i].axes.get_ylim()
+
+        xrange = xvals[1]-xvals[0]
+        yrange = yvals[1]-yvals[0]
+        ax[i].set_aspect((xrange/yrange)*.9, adjustable='box')
+#         ax[i].set_box_aspect(1)
+    ax[0].set_title(r'${\rm {\it Gaia}~EDR3}$')
+    ax[1].set_title(r'${\rm All~{\it Gaia}}$')
+    if non_gaia:
+        ax[2].set_xlabel(r'$\mu_{\alpha *}~({\rm mas~yr^{-1}})$', fontsize=15)
+        ax[2].set_ylabel(r'$\mu_{\delta }~({\rm mas~yr^{-1}})$', fontsize=15)
+        ax[2].set_title(r'${\rm All~Measurements}$')
+        xvals,yvals = ax[2].axes.get_xlim(),ax[2].axes.get_ylim()
+
+        xrange = xvals[1]-xvals[0]
+        yrange = yvals[1]-yvals[0]
+        ax[2].set_aspect((xrange/yrange)*.9, adjustable='box')
+#     ax.set_box_aspect(1)
+    
+    if non_gaia:
+        lgd = ax[2].legend(fontsize=13, loc=(1,0))
+    else:
+        lgd = ax[1].legend(fontsize=13, loc=(1,0))
+        
+    plt.tight_layout()
+    if len(save_file_name)>0:
+        plt.savefig(save_file_name)
+        
+    plt.show()
