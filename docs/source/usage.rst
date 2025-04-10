@@ -342,6 +342,11 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_structure_plummer**
 
+  $$
+  \Sigma(R) = \frac{1}{\pi r_p^2} \frac{1}{\left(1 + \left(R/r_p\right)^2 \right)^{2}}
+  $$
+  where **rplummer** corresponds to {math}`r_p`.  
+
 * **structure_exponential** -- yaml collection.
 
   * **rexponential** -- Exponential scale radius [arcmin]. The default units are arcmin if the **spatial_units** key is not included. 

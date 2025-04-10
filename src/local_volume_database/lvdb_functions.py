@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib._color_data as mcd
 from collections import Counter
-
+import corner
 
 
 
@@ -23,6 +23,7 @@ mp.rcParams['text.usetex'] = True
 
 def get_notes(key, **kwargs):
     ## input is lvdb key
+    ## outputs notes in LVDB YAML file
     print_output = kwargs.get("print_output", True)
     path = kwargs.get('path', lvdb_path + '/data_input/')
     with open(path+ key + '.yaml', 'r') as stream:
@@ -165,12 +166,17 @@ def get_citations(systems, style='individual', reference_column=reference_column
         print("\\citep{"+out[:-2]+"}")
 
 def lum(m_x, m_x_sun=4.83):
+    ## M_V -> L_V, default is V-band (absolute magnitude to luminosity conversion)
 	return pow(10., -.4*(m_x - m_x_sun) )
 def lum_inverse(lum, m_x_sun=4.83 ):
+    ## Luminosity to absoltue magnitude conversion, default is V-band
     return np.log10(lum)/(-.4)+m_x_sun
 def dm(x):
-		return pow(10., x/5.+1.)/1000.
+    ## distance modulus equation
+    return pow(10., x/5.+1.)/1000.
 def dist_mod(mu, mu_e=0, mu_em=0, mu_ep=0):
+    ## distance modulus to distance, has option to mcmc over errors
+    ## output is in kpc
 	# def dm(x):
 	# 	return pow(10., x/5.+1.)/1000.
 
@@ -190,9 +196,13 @@ def dist_mod_kpc(dist):
 pm_data = table.Table.read(lvdb_path+'/data/pm_overview.csv')
 
 def plot_galaxy_3panel(key, pm_overview = pm_data,  add=[], **kwargs):
+    #key = LVDB key, system to examine
+    ## pm_overview = input proper motion array.  Default is to load the local LVDB version but this option allows for other input
+    ## add = by hand point to include (new measurement to compare to, )
+    # add = [pmra, pmra_error, pmdec, pmdec_error] (for plotting only)
     error_option = kwargs.get('error_option', False)
     save_file_name = kwargs.get('save_file_name', '')
-    non_gaia = kwargs.get('non_gaia',False)
+    non_gaia = kwargs.get('non_gaia',False)## include 3rd plot with non-Gaia based proper motion measurements
     
     if non_gaia:
         fig, ax = plt.subplots(1,3,figsize=(18,5))
