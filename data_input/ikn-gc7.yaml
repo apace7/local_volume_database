@@ -1,7 +1,7 @@
 key: ikn-gc7
 table: candidate
 location:
-  ra:  152.037083
+  ra: 152.037083
   dec: 68.47689
 name_discovery:
   discovery_year: 2015
@@ -14,3 +14,6 @@ name_discovery:
   - Forbes2024PASA...41...44F
 notes:
   - Background galaxy at z $\sim$ 0.2 from Keck/KCWI spectroscopy \citep{Forbes2024PASA...41...44F}.
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

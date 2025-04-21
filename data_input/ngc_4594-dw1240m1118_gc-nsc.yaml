@@ -11,3 +11,6 @@ name_discovery:
   type: NSC
 notes:
 - ra, dec is from Legacy viewer. Associated confirmed with IFU data \citep{Crosby2025MNRAS.536.2072C}.
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

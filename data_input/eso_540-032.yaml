@@ -23,7 +23,7 @@ structure:
   position_angle: -45
   ref_structure: Kirby2008AJ....136.1866K
 distance:
-  distance_modulus: 28.80
+  distance_modulus: 27.80
   distance_modulus_em: 0.03
   distance_modulus_ep: 0.03
   ref_distance: Jacobs2009AJ....138..332J

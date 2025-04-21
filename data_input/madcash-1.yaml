@@ -1,8 +1,13 @@
 key: madcash-1
 table: dwarf_local_field_distant
 location:
-  ra: 160.6641667
-  dec: 65.41666944
+  ra: 115.6641667
+  dec: 65.4166694
+  ra_em: 0.0104167
+  ra_ep: 0.0104167
+  dec_em: 0.0003889
+  dec_ep: 0.0003889
+  ref_location: Carlin2021ApJ...909..211C
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -14,6 +19,7 @@ name_discovery:
   ref_discovery:
   - Carlin2016ApJ...828L...5C
   - Carlin2021ApJ...909..211C
+  name_lvg: MADCASH J0742+65dw
 notes:
 - HI gas upper limit 3 sigma
 structure:
@@ -23,6 +29,8 @@ structure:
   ellipticity: 0.25
   ellipticity_em: 0.11
   ellipticity_ep: 0.11
+  spatial_units: arcmin
+  spatial_model: exponential
   position_angle: 0.0
   position_angle_em: 19.0
   position_angle_ep: 19.0
