@@ -34,7 +34,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma: 0.08
   metallicity_spectroscopic_sigma_em: 0.02
   metallicity_spectroscopic_sigma_ep: 0.02
-  ref_metallicity_spectroscopic: Henao2025arXiv250303836H
+  ref_metallicity_spectroscopic: Henao2025A&A...696A.154H
 proper_motion:
   pmdec: -10.093
   pmdec_em: 0.0374
