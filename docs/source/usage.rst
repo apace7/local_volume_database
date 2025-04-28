@@ -1,4 +1,4 @@
-Usage & Decription of tables 
+Usage & Description of tables 
 ============================
 
 For LVDB users that only want to  use  the combined catalogs/tables, installing the LVDB package is not required and the primary catalogs are located as attachments in the `GitHub release pages <https://github.com/apace7/local_volume_database/releases>`_.
@@ -57,7 +57,7 @@ Note that the version number will need to be changed to access the lasted releas
 There is also a pdf document (named lvdb_table.pdf) in github releases summarizing the contents and properties of each combined catalog. The pdf file continues readable tables for quick lookup. 
 
 
-Decription of Catalogs/Tables 
+Description of Catalogs/Tables 
 --------------------
 
 The following are the available tables (in csv and fits file formats). The fits file is limited to the release pages while the csv file is included in both the release and main github.
@@ -80,7 +80,7 @@ The following are the available tables (in csv and fits file formats). The fits 
 
 
 
-.. Decription of table contents
+.. Description of table contents
 .. ----------------------------
 
 Columns:
@@ -155,7 +155,7 @@ pm_overview.csv: LVDB key, LVDB reference, ADS bibcode, proper motion measuremen
 
 j_factor.csv: LVDB key, LVDB reference, ADS bibcode, text citation, seleciton, angle [degree], j-factor measurement [units are log10 GeV^2 cm^-5] (full column names = logj, logj_em,	logj_ep,	logj_em05,	logj_ep95,	logj_ul95), use, comments
 
-Decription of YAML Files 
+Description of YAML Files 
 ------------------------
 
 There is an `example yaml file <https://github.com/apace7/local_volume_database/blob/main/code/example_yaml.yaml>`_ in the /code/ folder. 
