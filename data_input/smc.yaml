@@ -1,8 +1,9 @@
 key: smc
 table: dwarf_mw
 location:
-  ra: 13.158
-  dec: -72.8003
+  ra: 16.25
+  dec: -72.42
+  ref_location: Stanimirovic2004ApJ...604..176S
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -16,6 +17,8 @@ name_discovery:
   - Small Milky Cloud
   abbreviation: SMC
   type: dIrr
+notes:
+- The center of the SMC is debated in the literature and the center here is selected to be consistent with the proper motion measurement \citep{Stanimirovic2004ApJ...604..176S, Zivick2018ApJ...864...55Z}.
 distance:
   distance_modulus: 18.99
   distance_modulus_em: 0.1

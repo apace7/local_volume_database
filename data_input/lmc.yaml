@@ -1,8 +1,13 @@
 key: lmc
 table: dwarf_mw
 location:
-  ra: 80.894
-  dec: -69.7561
+  ra: 78.76
+  ra_em: 0.52
+  ra_ep: 0.52
+  dec: -69.19
+  dec_em: 0.25
+  dec_ep: 0.25
+  ref_location: vanderMarel2014ApJ...781..121V
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -15,6 +20,8 @@ name_discovery:
   - Large Milky Cloud
   abbreviation: LMC
   type: Irr
+notes:
+- The center of the LMC is debated in the literature and the center here is selected to be consistent with the proper motion measurement \citep{Kallivayalil2013ApJ...764..161K, vanderMarel2014ApJ...781..121V}.
 distance:
   distance_modulus: 18.477
   distance_modulus_em: 0.024
