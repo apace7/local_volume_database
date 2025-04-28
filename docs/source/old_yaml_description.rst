@@ -1,7 +1,7 @@
 ..
   this files is no longer used, see usage file
 
-Decription of yaml files 
+Description of yaml files 
 ===================================
 
 There is an `example yaml file <https://github.com/apace7/local_volume_database/blob/main/code/example_yaml.yaml>`_ in the /code/ folder. 

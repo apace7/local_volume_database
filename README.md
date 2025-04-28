@@ -4,7 +4,7 @@
 
 The LVDB is a database of dwarf galaxies and star clusters in the Local Volume. The database is complete for dwarf galaxies within ~5 Mpc. 
 The planned limiting distance is ~10+ Mpc (i.e. resolved stars with HST or JWST).  
-The star cluster collections are currently limited to old star clusters/globular clusters in the Milky Way halo and globular clusters/star clusters hosted by low mas dwarf galaxies.
+The star cluster collections are currently limited to old star clusters/globular clusters in the Milky Way halo and globular clusters/star clusters hosted by low mass dwarf galaxies.
 
 The main data tables are located in the release pages in `csv` and `fits` file formats. The data tables are also available in the [`data/`](data/) folder in `csv` format. 
 A summary pdf document of the database content is available in the release page. 
@@ -48,7 +48,7 @@ The `LVDBDIR` environment variable is required to point to the location of the i
 
 ### ACKNOWLEDGEMENT:
 
-If you use this in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the overview paper. It is highly encouraged to cite the input references of the database if they are used in your work. An example acknowledgement in LaTeX (with BibTeX below): This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database }} \citep{Pace2024arXiv241107424P}. 
+If you use this in your research please include a link to the github repository (https://github.com/apace7/local_volume_database) and cite the overview paper. It is highly encouraged to cite the input references of the database if they are used in your work. An example acknowledgement in LaTeX (with BibTeX below): This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database}} \citep{Pace2024arXiv241107424P}. 
 
 The BibTeX of the citation is available below and on [ADS](https://ui.adsabs.harvard.edu/abs/2024arXiv241107424P/exportcitation):
 

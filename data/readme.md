@@ -1,6 +1,6 @@
 table descriptions (tab/sheet)
 
-description at [readthedocs](https://local-volume-database.readthedocs.io/en/latest/usage.html#decription-of-tables)
+description at [readthedocs](https://local-volume-database.readthedocs.io/en/latest/usage.html#description-of-tables)
 
 dwarf_mw : Milky Way dwarf galaxies  
 dwarf_m31: M31 dwarf galaxies  

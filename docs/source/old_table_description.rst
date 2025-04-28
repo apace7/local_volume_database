@@ -1,7 +1,7 @@
 ..
   this files is no longer used, see usage file
 
-Decription of tables 
+Description of tables 
 ===================================
 
 table descriptions (tab/sheet). These are available as csv and fits files. 
@@ -18,7 +18,7 @@ pm_overview: key, reference, proper motion measurement, method (this includes mo
 
 j_factor.csv: key, reference, angle, j-factor measurement [units are log10 GeV^2 cm^-5], notes (this includes some literature j-factor measurements, mostly from A. B. Pace)
 
-Decription of table contents
+Description of table contents
 ----------------------------
 
 columns:
