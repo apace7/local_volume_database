@@ -1,3 +1,13 @@
+key: ngc_6541
+table: gc_harris
+location:
+  ra: 272.009827
+  dec: -43.714889
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6541
+  host: mw 
 age:
   age: 12.89
   age_em: 0.53
@@ -8,23 +18,19 @@ distance:
   distance_modulus_em: 0.029
   distance_modulus_ep: 0.029
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_6541
-location:
-  dec: -43.714889
-  ra: 272.009827
 m_v:
   apparent_magnitude_v: 6.17
   apparent_magnitude_v_em: 0.04
   apparent_magnitude_v_ep: 0.04
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.81
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: NGC 6541
-  host: mw
+  metallicity_spectroscopic: -1.740
+  metallicity_spectroscopic_em: 0.001
+  metallicity_spectroscopic_ep: 0.001
+  metallicity_spectroscopic_sigma: 0.028
+  metallicity_spectroscopic_sigma_em: 0.001
+  metallicity_spectroscopic_sigma_ep: 0.001
+  ref_metallicity_spectroscopic: Latour2025A&A...694A.248L
 proper_motion:
   pmdec: -8.8472
   pmdec_em: 0.0245
@@ -36,7 +42,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.03
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -163.97

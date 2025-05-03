@@ -1,3 +1,15 @@
+key: ngc_6656
+table: gc_harris
+location:
+  ra: 279.099762
+  dec: -23.904749
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6656
+  other_name:
+  - M22
+  host: mw  
 age:
   age: 12.67
   age_em: 0.64
@@ -8,25 +20,19 @@ distance:
   distance_modulus_em: 0.024
   distance_modulus_ep: 0.024
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_6656
-location:
-  dec: -23.904749
-  ra: 279.099762
 m_v:
   apparent_magnitude_v: 4.01
   apparent_magnitude_v_em: 0.04
   apparent_magnitude_v_ep: 0.04
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.7
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: NGC 6656
-  other_name:
-  - M22
-  host: mw
+  metallicity_spectroscopic: -1.816
+  metallicity_spectroscopic_em: 0.005
+  metallicity_spectroscopic_ep: 0.005
+  metallicity_spectroscopic_sigma: 0.064
+  metallicity_spectroscopic_sigma_em: 0.004
+  metallicity_spectroscopic_sigma_ep: 0.004
+  ref_metallicity_spectroscopic: Latour2025A&A...694A.248L
 proper_motion:
   pmdec: -5.6175
   pmdec_em: 0.0232
@@ -38,7 +44,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 3.31
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_sigma: 7.8

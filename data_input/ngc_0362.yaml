@@ -1,3 +1,13 @@
+key: ngc_0362
+table: gc_harris
+location:
+  ra: 15.809416
+  dec: -70.848778
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 362
+  host: mw
 age:
   age: 10.87
   age_em: 0.42
@@ -8,23 +18,19 @@ distance:
   distance_modulus_em: 0.024
   distance_modulus_ep: 0.023
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_0362
-location:
-  dec: -70.848778
-  ra: 15.809416
 m_v:
   apparent_magnitude_v: 6.32
   apparent_magnitude_v_em: 0.03
   apparent_magnitude_v_ep: 0.03
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.26
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: NGC 362
-  host: mw
+  metallicity_spectroscopic: -1.191
+  metallicity_spectroscopic_em: 0.002
+  metallicity_spectroscopic_ep: 0.002
+  metallicity_spectroscopic_sigma: 0.038
+  metallicity_spectroscopic_sigma_em: 0.002
+  metallicity_spectroscopic_sigma_ep: 0.002
+  ref_metallicity_spectroscopic: Latour2025A&A...694A.248L
 proper_motion:
   pmdec: -2.5354
   pmdec_em: 0.0242
@@ -36,7 +42,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 0.86
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 223.12
