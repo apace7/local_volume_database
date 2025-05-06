@@ -4,14 +4,15 @@ location:
   ra: 205.33416666666665 
   dec: -29.5675
 name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 0
-  false_positive: 0
+  confirmed_dwarf: 1
+  confirmed_real: 1
   discovery_year: 2024
-  host: m_083
+  host: ngc_5264
   name: dw1341-29
   ref_discovery:
   - Muller2024A&A...684L...6M
+notes:
+- Satellite of satellite, NGC 5264 and M 83\citep{Muller2025arXiv250420765M}.
 # structure:
 #   rhalf: 0 
 #   spatial_units: arcsec
@@ -22,3 +23,13 @@ distance:
 m_v:
   apparent_magnitude_v: 19.65
   ref_m_v: Muller2024A&A...684L...6M
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.21
+  metallicity_spectroscopic_em: 0.13
+  metallicity_spectroscopic_ep: 0.13
+  ref_metallicity_spectroscopic: Muller2025arXiv250420765M
+velocity:
+  vlos_systemic: 483.4
+  vlos_systemic_em: 20.6
+  vlos_systemic_ep: 20.6
+  ref_vlos: Muller2025arXiv250420765M
