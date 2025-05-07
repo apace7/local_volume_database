@@ -195,7 +195,7 @@ def dist_mod_kpc(dist):
 
 pm_data = table.Table.read(lvdb_path+'/data/pm_overview.csv')
 
-def plot_galaxy_3panel(key, pm_overview = pm_data,  add=[], **kwargs):
+def plot_proper_motion_galaxy_3panel(key, pm_overview = pm_data,  add=[], **kwargs):
     #key = LVDB key, system to examine
     ## pm_overview = input proper motion array.  Default is to load the local LVDB version but this option allows for other input
     ## add = by hand point to include (new measurement to compare to, )
