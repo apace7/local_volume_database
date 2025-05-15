@@ -7,7 +7,7 @@ location:
   ra_ep: 0.0026
   dec_em: 0.0029
   dec_ep: 0.0029
-  ref_location: Casey2025arXiv250104772C
+  ref_location: Casey2025ApJ...984..148C
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -25,10 +25,10 @@ distance:
   ref_distance: MartinezVazquez2021AJ....162..253M
 m_v:
   apparent_magnitude_v: 15.0
-  apparent_magnitude_v_em: 0.17
-  apparent_magnitude_v_ep: 0.17
+  apparent_magnitude_v_em: 0.19
+  apparent_magnitude_v_ep: 0.19
   mean_ebv: 0.124
-  ref_m_v: Casey2025arXiv250104772C
+  ref_m_v: Casey2025ApJ...984..148C
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.57
   metallicity_spectroscopic_em: 0.08
@@ -53,7 +53,7 @@ structure:
   position_angle: 10
   position_angle_em: 4
   position_angle_ep: 4
-  ref_structure: Casey2025arXiv250104772C
+  ref_structure: Casey2025ApJ...984..148C
   rhalf: 2.60
   rhalf_em: 0.30
   rhalf_ep: 0.30

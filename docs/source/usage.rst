@@ -463,4 +463,4 @@ j_factor.csv column description:
 * logj_ep95: 95% credible interval
 * logj_ul95: 95% upper limit
 * use: value to use when there are multiple measurements in the same paper
-* comments: noes
+* comments: notes
