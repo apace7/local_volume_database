@@ -1,6 +1,6 @@
 key: example_yaml
 table: misc
-# gc_harris , gc_dwarf_hosted , gc_disk , gc_ufsc
+# gc_harris , gc_dwarf_hosted , gc_mw_new , gc_ambiguous
 # dwarf_mw , dwarf_local_field , dwarf_m31 , dwarf_local_field_distant
 # misc == currently catch-all for systems that don't go elsewhere (for bright hosts)
 # candidate  == place holder, does not have catalog/table (but is included in pdf)
@@ -22,6 +22,9 @@ name_discovery:
   host: misc
   name: name
   name_lvg: name
+  name_hyperleda: name
+  name_ned_lvs: name
+  name_sga: name
   other_name:
   - list
   ref_discovery:

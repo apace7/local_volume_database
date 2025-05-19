@@ -1,0 +1,25 @@
+key: alice_1
+table: gc_ambiguous
+location:
+  ra: 220.774
+  dec: -28.028
+  ref_location: Popova2025arXiv250511120P
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_star_cluster: 0
+  confirmed_real: 0
+  discovery_year: 2025
+  host: mw
+  name: Alice
+  ref_discovery:
+  - Popova2025arXiv250511120P
+notes:
+  - Size is approximately 15 arcsec \citep{Popova2025arXiv250511120P}.
+distance:
+  distance_modulus: 19.35
+  distance_modulus_em: 0.32
+  distance_modulus_ep: 0.28
+  distance_measurement_method: cmd
+  ref_distance: Popova2025arXiv250511120P
+
+
