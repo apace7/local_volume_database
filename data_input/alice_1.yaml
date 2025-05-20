@@ -21,5 +21,8 @@ distance:
   distance_modulus_ep: 0.28
   distance_measurement_method: cmd
   ref_distance: Popova2025arXiv250511120P
-
+structure:
+  rhalf: 0.45
+  spatial_units: arcmin
+  ref_structure: Popova2025arXiv250511120P
 
