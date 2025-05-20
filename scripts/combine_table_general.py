@@ -585,6 +585,8 @@ for i in range(len(comb_all)):
         stream_yaml = yaml.load(stream, Loader=yaml.Loader)
         comb_all['table'][i] = stream_yaml['table']
 print(Counter(comb_all['table']))
+
 comb_all.write('data/comb_all.csv', format='csv', overwrite=True)
+comb_all.write('data/comb_all.fits', format='fits', overwrite=True)
 
 print()
