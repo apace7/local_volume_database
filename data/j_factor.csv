@@ -419,7 +419,6 @@ centaurus_1,2024ApJ...961..234H,Heiger2024ApJ...961..234H,Heiger et al. 2024,PS1
 centaurus_1,2024ApJ...961..234H,Heiger2024ApJ...961..234H,Heiger et al. 2024,PS19,0.3,17.69830172,0.2864029547,0.3224233524,0.5462271728,0.6594450578,18.23725345,1,
 centaurus_1,2024ApJ...961..234H,Heiger2024ApJ...961..234H,Heiger et al. 2024,PS19,0.5,17.73186555,0.3031159899,0.3571486826,0.5661578356,0.7313252656,18.32581022,1,
 centaurus_1,2024ApJ...961..234H,Heiger2024ApJ...961..234H,Heiger et al. 2024,PS19,1,17.75166166,0.3139568637,0.4062104353,0.5826127609,0.8189087935,18.42648815,1,
-,,,,,,,,,,,,,
 bootes_1,2014PhRvD..89d2001A,FermiLATCollaboration2014PhRvD..89d2001A,Fermi-LAT 2014,NFW,0.5,18.8,0.22,0.22,,,,,
 canes_venatici_1,2014PhRvD..89d2001A,FermiLATCollaboration2014PhRvD..89d2001A,Fermi-LAT 2014,NFW,0.5,17.7,0.26,0.26,,,,,
 canes_venatici_2,2014PhRvD..89d2001A,FermiLATCollaboration2014PhRvD..89d2001A,Fermi-LAT 2014,NFW,0.5,17.9,0.25,0.25,,,,,
@@ -606,3 +605,19 @@ leo_1,2020ApJ...904...45H,Hayashi2020ApJ...904...45H,Hayashi et al. 2020,,0.5,17
 leo_2,2020ApJ...904...45H,Hayashi2020ApJ...904...45H,Hayashi et al. 2020,,0.5,17.75,0.59,0.66,,,,,axisymmetric + generalized NFW
 sculptor_1,2020ApJ...904...45H,Hayashi2020ApJ...904...45H,Hayashi et al. 2020,,0.5,18.54,0.2,0.24,,,,,axisymmetric + generalized NFW
 fornax_1,2020ApJ...904...45H,Hayashi2020ApJ...904...45H,Hayashi et al. 2020,,0.5,17.91,0.13,0.22,,,,,axisymmetric + generalized NFW
+antlia_2,2019MNRAS.488.2743T,Torrealba2019MNRAS.488.2743T,Torrealba et al. 2019,,0.5,16,0.4,0.4,,,,,scaling relation
+crater_2,2017ApJ...839...20C,Caldwell2017ApJ...839...20C,Caldwell et al. 2017,,1.4,15.7,0.25,0.25,,,,,
+leo_6,2025ApJ...979..176T,Tan2025ApJ...979..176T,Tan et al. 2025,PS19,0.01,16.34,1.02,0.88,2.46,1.77,17.79,1,
+leo_6,2025ApJ...979..176T,Tan2025ApJ...979..176T,Tan et al. 2025,PS19,0.1,17.04,0.98,0.83,2.44,1.66,18.42,1,
+leo_6,2025ApJ...979..176T,Tan2025ApJ...979..176T,Tan et al. 2025,PS19,0.15,17.12,0.97,0.84,2.42,1.67,18.5,1,
+leo_6,2025ApJ...979..176T,Tan2025ApJ...979..176T,Tan et al. 2025,PS19,0.2,17.17,0.98,0.84,2.41,1.68,18.55,1,
+leo_6,2025ApJ...979..176T,Tan2025ApJ...979..176T,Tan et al. 2025,PS19,0.3,17.23,0.99,0.85,2.42,1.69,18.61,1,
+leo_6,2025ApJ...979..176T,Tan2025ApJ...979..176T,Tan et al. 2025,PS19,0.5,17.29,1.01,0.86,2.43,1.7,18.68,1,
+leo_6,2025ApJ...979..176T,Tan2025ApJ...979..176T,Tan et al. 2025,PS19,1,17.34,1.02,0.89,2.45,1.74,18.78,1,
+aquarius_3,2025ApJ...979..164C,Cerny2025ApJ...979..164C,Cerny et al. 2025,PS19,0.01,14.32,1.57,1.52,2.59,2.85,16.76,1,
+aquarius_3,2025ApJ...979..164C,Cerny2025ApJ...979..164C,Cerny et al. 2025,PS19,0.1,15.04,1.43,1.43,2.41,2.82,17.43,1,
+aquarius_3,2025ApJ...979..164C,Cerny2025ApJ...979..164C,Cerny et al. 2025,PS19,0.15,15.12,1.39,1.43,2.34,2.83,17.51,1,
+aquarius_3,2025ApJ...979..164C,Cerny2025ApJ...979..164C,Cerny et al. 2025,PS19,0.2,15.17,1.37,1.45,2.31,2.84,17.57,1,
+aquarius_3,2025ApJ...979..164C,Cerny2025ApJ...979..164C,Cerny et al. 2025,PS19,0.3,15.24,1.35,1.45,2.26,2.85,17.63,1,
+aquarius_3,2025ApJ...979..164C,Cerny2025ApJ...979..164C,Cerny et al. 2025,PS19,0.5,15.29,1.32,1.46,2.21,2.87,17.7,1,
+aquarius_3,2025ApJ...979..164C,Cerny2025ApJ...979..164C,Cerny et al. 2025,PS19,1,15.31,1.32,1.46,2.2,2.89,17.72,1,
