@@ -34,7 +34,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.13
   metallicity_spectroscopic_ep: 0.13
   metallicity_spectroscopic_sigma: 0.47
-  metallicity_spectroscopic_sigma_em: 0.9
+  metallicity_spectroscopic_sigma_em: 0.09
   metallicity_spectroscopic_sigma_ep: 0.12
   ref_metallicity_spectroscopic: Li2017ApJ...838....8L
 metallicity_photometric:
