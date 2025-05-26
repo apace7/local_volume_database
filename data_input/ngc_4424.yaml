@@ -1,8 +1,8 @@
 key: ngc_4424
 table: dwarf_local_field_distant
 location:
-  ra: 12.4532467
-  dec: 9.4204423
+  ra: 186.79875
+  dec: 9.4205
   ref_location: Makarov2014A&A...570A..13M
 name_discovery:
   confirmed_dwarf: 1

@@ -1,8 +1,9 @@
 key: kk_166
 table: dwarf_local_field_distant
 location:
-  ra: 192.305417
-  dec: 35.6125
+  ra: 192.30065
+  dec: 35.61258
+  ref_location: Zaritsky2023ApJS..267...27Z
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -10,6 +11,12 @@ name_discovery:
   other_name:
   - PGC 166146
   name_lvg: KK166
+structure:
+  rhalf: 11.97
+  spatial_units: arcsec
+  ellipticity: 0.12
+  position_angle: 67.09
+  ref_structure: Zaritsky2023ApJS..267...27Z
 distance:
   distance_modulus: 28.21
   distance_modulus_em: 0.16
