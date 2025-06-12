@@ -209,6 +209,9 @@ flux_HI:
   vrot_HI: 0
   vrot_HI_em: 0
   vrot_HI_ep: 0
+  HI_line_width_50: 0
+  HI_line_width_50_em: 0
+  HI_line_width_50_ep: 0
   ref_flux_HI: ref
   ref_HI_kinematics: ref
 age:

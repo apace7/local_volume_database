@@ -342,11 +342,6 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_structure_plummer**
 
-  $$
-  \Sigma(R) = \frac{1}{\pi r_p^2} \frac{1}{\left(1 + \left(R/r_p\right)^2 \right)^{2}}
-  $$
-  where **rplummer** corresponds to {math}`r_p`.  
-
 * **structure_exponential** -- yaml collection.
 
   * **rexponential** -- Exponential scale radius [arcmin]. The default units are arcmin if the **spatial_units** key is not included. 
@@ -368,6 +363,8 @@ Most keys are single entries and several keys are lists (specially other_name, r
   * **sigma_HI** -- velocity dispersion of HI gas [km/s]
 
   * **vrot_HI** -- rotation velocity of HI gas [km/s]
+
+  * **HI_line_width_50** -- line width measured at 50% of the peak of the HI line profile.
 
   * **ref_flux_HI**
 

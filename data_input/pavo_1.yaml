@@ -9,7 +9,7 @@ name_discovery:
   - Jones2023ApJ...957L...5J
   type: dIrr
 notes:
-- star forming, low UV SFR
+- star forming, low UV SFR \citep{Jones2023ApJ...957L...5J}.
 location:
   ra: 298.7499167
   dec: -61.0723611
@@ -34,6 +34,19 @@ structure:
   position_angle_em: 21
   position_angle_ep: 21
   ref_structure: Jones2023ApJ...957L...5J
+velocity:
+  vlos_systemic: 223.7
+  vlos_systemic_em: 3.6
+  vlos_systemic_ep: 3.6
+  ref_vlos: Jones2025arXiv250606424J
 flux_HI:
-  flux_HI_ul: 1.06
-  ref_flux_HI: Jones2023ApJ...957L...5J
+  flux_HI: 0.56
+  flux_HI_em: 0.02
+  flux_HI_ep: 0.02
+  vlos_systemic_HI: 223.7
+  vlos_systemic_HI_em: 3.6
+  vlos_systemic_HI_ep: 3.6
+  HI_line_width_50: 19.7
+  HI_line_width_50_em: 2.5
+  HI_line_width_50_ep: 2.5
+  ref_flux_HI: Jones2025arXiv250606424J
