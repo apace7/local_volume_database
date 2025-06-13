@@ -1,8 +1,9 @@
 key: ugca_281
 table: dwarf_local_field_distant
 location:
-  ra: 186.566667
-  dec: 48.491944
+  ra: 186.570833
+  dec: 48.494167
+  ref_location: Tully2016AJ....152...50T
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -19,6 +20,7 @@ structure:
   ellipticity: 0.39
   ellipticity_em: 0.02
   ellipticity_ep: 0.02
+  position_angle: 69.5
   ref_structure: Carlsten2021ApJ...922..267C
 m_v:
   apparent_magnitude_v: 14.48
