@@ -1,8 +1,9 @@
 key: kks_51
 table: dwarf_local_field_distant
 location:
-  ra: 191.0875
-  dec: -42.939722
+  ra: 191.0895833
+  dec: -42.9396944
+  ref_location: Cook2023ApJS..268...14C
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

@@ -1,8 +1,8 @@
 key: ngc_4631-dw1239p3230
 table: dwarf_local_field_distant
 location:
-  ra: 189.770833
-  dec: 32.505
+  ra: 189.771
+  dec: 32.5042
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

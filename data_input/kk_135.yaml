@@ -1,8 +1,9 @@
 key: kk_135
 table: dwarf_local_field_distant
 location:
-  ra: 184.894583
-  dec: 58.042778
+  ra: 184.8944985
+  dec: 58.0439485
+  ref_location: Makarov2014A&A...570A..13M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

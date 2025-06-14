@@ -1,13 +1,12 @@
 key: mcg-04-31-038
 table: dwarf_local_field_distant
 location:
-  ra: 197.39999999999998  # [deg]
-  dec: -27.140555555555554 # [deg]
+  ra: 197.4025
+  dec: -27.14075
+  ref_location: Cook2023ApJS..268...14C
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
-  # discovery_year: 0
-  # host: ngc_5128
   name: MCG-04-31-038
   type: dIrr
   other_name:

@@ -1,8 +1,9 @@
 key: eso_269-037
 table: dwarf_local_field_distant
 location:
-  ra: 195.89
-  dec: -46.58416666666667
+  ra: 195.8882925
+  dec: -46.586861
+  ref_location: Makarov2014A&A...570A..13M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

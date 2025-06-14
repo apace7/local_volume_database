@@ -1,11 +1,27 @@
 key: ngc_1042
 table: dwarf_local_field_distant
 location:
-  ra: 40.0999125
-  dec: -8.433591
+  ra: 40.099892
+  dec: -8.433514
   ref_location: Makarov2014A&A...570A..13M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   name: NGC 1042
   name_hyperleda: NGC1042
+velocity:
+  vlos_systemic: 1371
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 38.37
+  ref_flux_HI: Makarov2014A&A...570A..13M
+distance:
+  distance_modulus: 31.25
+  distance_modulus_em: 0.89
+  distance_modulus_ep: 0.89
+  ref_distance: Makarov2014A&A...570A..13M
+m_v:
+  apparent_magnitude_v: 10.60
+  ref_m_v: Makarov2014A&A...570A..13M
