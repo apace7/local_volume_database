@@ -1,4 +1,4 @@
-key: eso_280_sc06
+key:  
 table: gc_harris
 location:
   ra: 272.275
@@ -23,10 +23,11 @@ m_v:
   apparent_magnitude_v_ep: 0.2
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.48
-  metallicity_spectroscopic_em: 0.11
+  metallicity_spectroscopic: -2.54
+  metallicity_spectroscopic_em: 0.06
   metallicity_spectroscopic_ep: 0.06
-  ref_metallicity_spectroscopic: Simpson2018MNRAS.477.4565S
+  metallicity_spectroscopic_sigma_ul: 0.11
+  ref_metallicity_spectroscopic: Usman2025arXiv250615664U
 proper_motion:
   pmdec: -2.7775
   pmdec_em: 0.0332
@@ -36,10 +37,17 @@ proper_motion:
   pmra_ep: 0.0392
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
-  ref_structure: Baumgardt2018MNRAS.478.1520B
-  rhalf: 1.15
+  ref_structure: Simpson2019MNRAS.490..741S
+  rhalf: 46.71
+  rhalf_rm: 6.79
+  rhalf_ep: 5.45
+  spatial_units: arcsec
+  spatial_model: king
 velocity:
-  ref_vlos: Simpson2018MNRAS.477.4565S
-  vlos_systemic: 92.5
-  vlos_systemic_em: 2.0
-  vlos_systemic_ep: 2.0
+  ref_vlos: Simpson2019MNRAS.490..741S
+  vlos_systemic: 94.89
+  vlos_systemic_em: 0.53
+  vlos_systemic_ep: 0.53
+  vlos_sigma: 2.27 
+  vlos_sigma_em: 0.38
+  vlos_sigma_ep: 0.38
