@@ -1,4 +1,4 @@
-key: pegasus_1_gc1
+key: pegasus_dirr_gc1
 table: gc_dwarf_hosted
 location:
   ra: 352.109583
@@ -7,7 +7,7 @@ name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
   discovery_year: 1982
-  host: pegasus_1
+  host: pegasus_dirr
   name: DDO 216-A1
   ref_discovery:
   - Hoessel1982ApJ...254...38H
