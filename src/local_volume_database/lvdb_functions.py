@@ -235,11 +235,12 @@ def plot_proper_motion_galaxy_3panel(key, pm_overview = pm_data,  add=[], **kwar
     xkcd = 0
 
     if len(add)>0:
-        for i in [0,1]:
-            ax[i].errorbar(add[0], add[2], fmt='*',xerr=add[1], yerr=add[3],label=r'${\rm This~Work}$', c=temp_color[xkcd], ms=10, zorder=1000)
-        if non_gaia:
-            ax[2].errorbar(add[0], add[2], fmt='*',  xerr=add[1], yerr=add[3], label=r'${\rm This~Work}$', c=temp_color[xkcd], ms=10, zorder=1000)
-        xkcd+=1
+        for jj in range(len(add)):
+            for i in [0,1]:
+                ax[i].errorbar(add[jj][0], add[jj][3], fmt='*',xerr=[[add[jj][1]],[add[jj][2]]], yerr=[[add[jj][4]],[add[jj][5]]],label=add[jj][6], c=temp_color[xkcd], ms=10, zorder=1000)
+            if non_gaia:
+                ax[2].errorbar(add[jj][0], add[jj][3], fmt='*',  xerr=[[add[jj][1]],[add[jj][2]]], yerr=[[add[jj][4]],[add[jj][5]]], label=add[jj][6], c=temp_color[xkcd], ms=10, zorder=1000)
+            xkcd+=1
         
     for kk in range(len(pm_overview2)):
         if non_gaia:
