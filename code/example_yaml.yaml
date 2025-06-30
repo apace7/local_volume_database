@@ -94,6 +94,7 @@ metallicity_photometric:
   metallicity_photometric_sigma: 0
   metallicity_photometric_sigma_em: 0
   metallicity_photometric_sigma_ep: 0
+  metallicity_photometric_sigma_ul: 0
   ref_metallicity_photometric: ref
 metallicity_isochrone:
   metallicity_isochrone: 0

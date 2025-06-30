@@ -1,52 +1,77 @@
 key: pictor_2
 table: dwarf_mw
 location:
-  ra: 101.18
-  dec: -59.897
+  ra: 101.175
+  ra_em: 0.006
+  ra_ep: 0.006
+  dec: -59.901
+  dec_em: 0.003
+  dec_ep: 0.003
+  ref_location: Pace2025arXiv250621841P
 name_discovery:
-  confirmed_dwarf: 0
+  confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2016
-  host: mw
+  host: lmc
   name: Pictor II
   ref_discovery:
   - DrlicaWagner2016ApJ...833L...5D
   abbreviation: PicII
 distance:
-  distance_modulus: 18.3
-  distance_modulus_em: 0.15
-  distance_modulus_ep: 0.12
-  ref_distance: DrlicaWagner2016ApJ...833L...5D
+  distance_modulus: 18.26
+  distance_modulus_em: 0.10
+  distance_modulus_ep: 0.10
+  ref_distance: Pace2025arXiv250621841P
 flux_HI:
   flux_HI_ul: 0.58
   ref_flux_HI: Putman2021ApJ...913...53P
 m_v:
-  apparent_magnitude_v: 15.1
-  apparent_magnitude_v_em: 0.5
-  apparent_magnitude_v_ep: 0.4
-  ref_m_v: DrlicaWagner2016ApJ...833L...5D
+  apparent_magnitude_v: 15.61
+  apparent_magnitude_v_em: 0.48
+  apparent_magnitude_v_ep: 0.69
+  ref_m_v: Pace2025arXiv250621841P
 proper_motion:
-  pmdec: 1.14
+  pmdec: 1.18
   pmdec_em: 0.05
-  pmdec_ep: 0.06
-  pmra: 1.15
-  pmra_em: 0.06
-  pmra_ep: 0.06
-  pmra_pmdec_corr: -0.05
-  ref_proper_motion: Battaglia2022A&A...657A..54B
+  pmdec_ep: 0.05
+  pmra: 1.16
+  pmra_em: 0.05
+  pmra_ep: 0.05
+  pmra_pmdec_corr: -0.035
+  ref_proper_motion: Pace2025arXiv250621841P
 structure:
-  ellipticity: 0.13
+  ellipticity: 0.22
   ellipticity_em: 0.13
-  ellipticity_ep: 0.22
-  position_angle: 14.0
-  position_angle_em: 66.0
-  position_angle_ep: 60.0
-  ref_structure: DrlicaWagner2016ApJ...833L...5D
-  rhalf: 3.8
-  rhalf_em: 1.0
-  rhalf_ep: 1.5
+  ellipticity_ep: 0.11
+  position_angle: 55
+  position_angle_em: 18
+  position_angle_ep: 20
+  rhalf: 2.8
+  rhalf_em: 0.3
+  rhalf_ep: 0.4
+  ref_structure: Pace2025arXiv250621841P
 metallicity_isochrone:
   metallicity_isochrone: -1.8
   metallicity_isochrone_em: 0.3
   metallicity_isochrone_ep: 0.3
   ref_metallicity_isochrone: DrlicaWagner2016ApJ...833L...5D
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.99
+  metallicity_spectroscopic_em: 0.06
+  metallicity_spectroscopic_ep: 0.06
+  metallicity_spectroscopic_sigma_ul: 0.18
+  ref_metallicity_spectroscopic: Pace2025arXiv250621841P
+metallicity_photometric:
+  metallicity_photometric: -2.98
+  metallicity_photometric_em: 0.10
+  metallicity_photometric_ep: 0.10
+  metallicity_photometric_sigma_ul: 0.35
+  ref_metallicity_photometric: Pace2025arXiv250621841P
+velocity:
+  vlos_systemic: 326.9
+  vlos_systemic_em: 1.1
+  vlos_systemic_ep: 1.1
+  vlos_sigma: 3.5
+  vlos_sigma_em: 0.9
+  vlos_sigma_ep: 1.1
+  ref_vlos: Pace2025arXiv250621841P

@@ -20,10 +20,10 @@ name_discovery:
 notes:
 - Defines $R_{LG}$ \citep{McConnachie2012AJ....144....4M}
 distance:
-  distance_modulus: 24.85
-  distance_modulus_em: 0.05
-  distance_modulus_ep: 0.05
-  ref_distance: Higgs2021MNRAS.503..176H
+  distance_modulus: 24.977
+  distance_modulus_em: 0.059
+  distance_modulus_ep: 0.059
+  ref_distance: Yan2025ApJ...986...54Y
 flux_HI:
   flux_HI: 297.4
   flux_HI_em: 24.38

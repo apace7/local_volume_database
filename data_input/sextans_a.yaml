@@ -17,10 +17,10 @@ name_discovery:
 notes:
 - Loose NGC 3109 subgroup \citep{McConnachie2012AJ....144....4M}
 distance:
-  distance_modulus: 25.705
-  distance_modulus_em: 0.079
-  distance_modulus_ep: 0.079
-  ref_distance: Dalcanton2009ApJS..183...67D
+  distance_modulus: 25.740
+  distance_modulus_em: 0.058
+  distance_modulus_ep: 0.058
+  ref_distance: Yan2025ApJ...986...54Y
 flux_HI:
   flux_HI: 159.37
   flux_HI_em: 12.42
