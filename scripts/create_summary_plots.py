@@ -794,17 +794,17 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
         ax[0][0].errorbar(obj['rhalf_sph_physical'], obj['vlos_sigma'], fmt='o', yerr=[obj['vlos_sigma_em'], obj['vlos_sigma_ep']], xerr=[obj['rhalf_sph_physical_em'], obj['rhalf_sph_physical_ep']], c=color,  mec='k', mew=0.75)
         ax[0][0].errorbar(obj['rhalf_sph_physical'], obj['vlos_sigma_ul'], fmt='o', yerr=obj['vlos_sigma_ul']*.4, uplims=True, c=color, xerr=[obj['rhalf_sph_physical_em'], obj['rhalf_sph_physical_ep']],  mec='k', mew=0.75 )
         
-        ax[1][0].errorbar(obj['M_V'], obj['mass_dynamical_wolf'], fmt='o', yerr=[obj['mass_dynamical_wolf_em'], obj['mass_dynamical_wolf_ep']], xerr=[obj['M_V_em'], obj['M_V_ep']], c=color,  mec='k', mew=0.75)
-        ax[1][0].errorbar(obj['M_V'], obj['mass_dynamical_wolf_ul'], fmt='o', yerr=obj['mass_dynamical_wolf_ul']*.4, uplims=True, c=color, xerr=[obj['M_V_em'], obj['M_V_ep']],  mec='k', mew=0.75 )
+        ax[1][0].errorbar(obj['M_V'], 10**obj['mass_dynamical_wolf'], fmt='o', yerr=[10**obj['mass_dynamical_wolf_em'], 10**obj['mass_dynamical_wolf_ep']], xerr=[obj['M_V_em'], obj['M_V_ep']], c=color,  mec='k', mew=0.75)
+        ax[1][0].errorbar(obj['M_V'], 10**obj['mass_dynamical_wolf_ul'], fmt='o', yerr=10**obj['mass_dynamical_wolf_ul']*.4, uplims=True, c=color, xerr=[obj['M_V_em'], obj['M_V_ep']],  mec='k', mew=0.75 )
         
-        ax[1][2].errorbar(obj['M_V'], obj['mass_dynamical_wolf']/apy_lum(obj['M_V']), fmt='o', yerr=[obj['mass_dynamical_wolf_em']/apy_lum(obj['M_V']), obj['mass_dynamical_wolf_ep']/apy_lum(obj['M_V'])], xerr=[obj['M_V_em'], obj['M_V_ep']], c=color,  mec='k', mew=0.75)
-        ax[1][2].errorbar(obj['M_V'], obj['mass_dynamical_wolf_ul']/apy_lum(obj['M_V']), fmt='o', yerr=obj['mass_dynamical_wolf_ul']/apy_lum(obj['M_V'])*.4, uplims=True, c=color, xerr=[obj['M_V_em'], obj['M_V_ep']],  mec='k', mew=0.75 )
+        ax[1][2].errorbar(obj['M_V'], 10**obj['mass_dynamical_wolf']/apy_lum(obj['M_V']), fmt='o', yerr=[10**obj['mass_dynamical_wolf_em']/apy_lum(obj['M_V']), 10**obj['mass_dynamical_wolf_ep']/apy_lum(obj['M_V'])], xerr=[obj['M_V_em'], obj['M_V_ep']], c=color,  mec='k', mew=0.75)
+        ax[1][2].errorbar(obj['M_V'], 10**obj['mass_dynamical_wolf_ul']/apy_lum(obj['M_V']), fmt='o', yerr=10**obj['mass_dynamical_wolf_ul']/apy_lum(obj['M_V'])*.4, uplims=True, c=color, xerr=[obj['M_V_em'], obj['M_V_ep']],  mec='k', mew=0.75 )
         
         ax[0][2].errorbar(obj['rhalf_sph_physical'], obj['density_dyn_mcmc'], fmt='o', yerr=[obj['density_dyn_mcmc_em'], obj['density_dyn_mcmc_ep']], xerr=[obj['rhalf_sph_physical_em'], obj['rhalf_sph_physical_ep']], c=color,  mec='k', mew=0.75)
         ax[0][2].errorbar(obj['rhalf_sph_physical'], obj['density_dyn_mcmc_ul'], fmt='o', yerr=obj['density_dyn_mcmc_ul']*.4, uplims=True, c=color, xerr=[obj['rhalf_sph_physical_em'], obj['rhalf_sph_physical_ep']],  mec='k', mew=0.75 )
         
-        ax[1][1].errorbar(obj['rhalf_sph_physical'], obj['mass_dynamical_wolf'], fmt='o', yerr=[obj['mass_dynamical_wolf_em'], obj['mass_dynamical_wolf_ep']], xerr=[obj['rhalf_sph_physical_em'], obj['rhalf_sph_physical_ep']], c=color,  mec='k', mew=0.75)
-        ax[1][1].errorbar(obj['rhalf_sph_physical'], obj['mass_dynamical_wolf_ul'], fmt='o', yerr=obj['mass_dynamical_wolf_ul']*.4, uplims=True, c=color, xerr=[obj['rhalf_sph_physical_em'], obj['rhalf_sph_physical_ep']],  mec='k', mew=0.75 )
+        ax[1][1].errorbar(obj['rhalf_sph_physical'], 10**obj['mass_dynamical_wolf'], fmt='o', yerr=[10**obj['mass_dynamical_wolf_em'], 10**obj['mass_dynamical_wolf_ep']], xerr=[obj['rhalf_sph_physical_em'], obj['rhalf_sph_physical_ep']], c=color,  mec='k', mew=0.75)
+        ax[1][1].errorbar(obj['rhalf_sph_physical'], 10**obj['mass_dynamical_wolf_ul'], fmt='o', yerr=10**obj['mass_dynamical_wolf_ul']*.4, uplims=True, c=color, xerr=[obj['rhalf_sph_physical_em'], obj['rhalf_sph_physical_ep']],  mec='k', mew=0.75 )
         
 
     ax[0][0].set_xscale('log')
@@ -1085,3 +1085,19 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     plt.close() 
 
     print("surface brightness plots finished")
+
+    print("additional mass plots")
+    
+    fig = plt.figure()
+    for obj, color, label in zip([dsph_mw, dsph_m31, dsph_lf, gc_ambiguous], [color_dsph_mw,color_dsph_m31, color_dsph_lf, color_gc_ufcss], [label_dsph_mw, label_dsph_m31, label_dsph_lf, label_gc_ufcss]):
+    # for obj, color, label in zip([dsph_mw, dsph_m31, dsph_lf, ], [color_dsph_mw,color_dsph_m31, color_dsph_lf, ], [label_dsph_mw, label_dsph_m31, label_dsph_lf, ]):
+        plt.errorbar(obj['mass_stellar'], obj['mass_dynamical_wolf'], fmt='o',  c=color, label=label,  mec='k', mew=0.75)
+        plt.errorbar(obj['mass_stellar'], obj['mass_dynamical_wolf_ul'], fmt='o', yerr=0.5, uplims=True, c=color, mec='k', mew=0.75)
+        
+    plt.gca().set_xlabel(r'$\log_{10}M_{\star}~({\rm M_{\odot}})$')
+    plt.gca().set_ylabel(r'$\log_{10}M_{\rm dyn}~(r=r_{1/2})~({\rm M_{\odot}})$')
+    plt.tight_layout()
+    pdf.savefig()
+    plt.close()
+
+    print("additional mass plots finished")

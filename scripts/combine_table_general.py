@@ -339,9 +339,9 @@ def value_add(input_table, table_type='dwarf', **kwargs):
             
             if ma.is_masked(ellipticity)==False:
                 rh = rh*np.sqrt(1.-ellipticity)
-                return [comb_mass*np.sqrt(1.-ellipticity),0,0]
+                return [np.log10(comb_mass*np.sqrt(1.-ellipticity)),0,0]
             else:
-                return[comb_mass,np.ma.masked,np.ma.masked]
+                return[np.log10(comb_mass),np.ma.masked,np.ma.masked]
         else:
             if ma.is_masked(rhalf_em)==False and ma.is_masked(rhalf)==False:
                 x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., n)
@@ -383,7 +383,7 @@ def value_add(input_table, table_type='dwarf', **kwargs):
             comb_mass = 930. * x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2 * sig2**2
             comb_mass2 = comb_mass[~np.isnan(comb_mass)]
         
-            mean_mass = corner.quantile(comb_mass2, [.5, .1587, .8413, 0.0227501, 0.97725])
+            mean_mass = corner.quantile(np.log10(comb_mass2), [.5, .1587, .8413, 0.0227501, 0.97725])
             return [mean_mass[0], mean_mass[0]-mean_mass[1], mean_mass[2]-mean_mass[0]]
         
     input_table['mass_dynamical_wolf'] = np.ma.masked_all(len(input_table), dtype=float)
