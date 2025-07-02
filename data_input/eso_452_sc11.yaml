@@ -25,12 +25,12 @@ metallicity_isochrone:
   metallicity_isochrone: -0.94
   metallicity_isochrone_em: 0.08
   metallicity_isochrone_ep: 0.11
-  ref_metallicity_isochrone: Massari2025arXiv250201741M
+  ref_metallicity_isochrone: Massari2025A&A...698A.197M
 age:
   age: 13.59
   age_em: 0.69
   age_ep: 0.48
-  ref_age: Massari2025arXiv250201741M
+  ref_age: Massari2025A&A...698A.197M
 proper_motion:
   pmdec: -6.472
   pmdec_em: 0.0303

@@ -12,7 +12,7 @@ name_discovery:
   - Hurt2000AJ....120.1876H
   host: mw
 notes:
-- Possible open cluster, circular disk-like orbit but structural parameters and stellar mass are outlier for open cluster \citep{Massari2025arXiv250201741M}.
+- Possible open cluster, circular disk-like orbit but structural parameters and stellar mass are outlier for open cluster \citep{Massari2025A&A...698A.197M}.
 distance:
   distance_modulus: 12.64
   distance_modulus_em: 0.4
@@ -33,9 +33,9 @@ metallicity_isochrone:
   metallicity_isochrone: -0.85
   metallicity_isochrone_em: 0.06
   metallicity_isochrone_ep: 0.07
-  ref_metallicity_isochrone: Massari2025arXiv250201741M
+  ref_metallicity_isochrone: Massari2025A&A...698A.197M
 age:
   age: 7.22
   age_em: 1.11
   age_ep: 0.93
-  ref_age: Massari2025arXiv250201741M
+  ref_age: Massari2025A&A...698A.197M

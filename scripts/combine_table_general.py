@@ -586,6 +586,8 @@ for i in range(len(comb_all)):
         comb_all['table'][i] = stream_yaml['table']
 print(Counter(comb_all['table']))
 
+lvdb.add_column(comb_all, 'name_discovery', 'confirmed_star_cluster', col_type='int')
+
 comb_all.write('data/comb_all.csv', format='csv', overwrite=True)
 comb_all.write('data/comb_all.fits', format='fits', overwrite=True)
 
