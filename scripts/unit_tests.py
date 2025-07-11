@@ -92,11 +92,20 @@ def check_distance():
     print("number of systems with large distance errors", len(large_errors))
     print(large_errors['key'])
 
+def check_keys():
+    print("check that keys are unique")
+    x = list(Counter(comb_all['key']).values())
+    
+    print("Counter keys", Counter(x))
+    if len(list(Counter(x).keys()))>1:
+        print("keys issue")
+        print("repeat keys", Counter(comb_all['key']).most_common(5))
+    print("end keys test")
 
 
 ra_dec_values()
 check_references()
 check_distance()
-
+check_keys()
 
 print("unit tests completed")
