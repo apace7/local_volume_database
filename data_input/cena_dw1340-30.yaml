@@ -46,9 +46,9 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -1.71
   metallicity_spectroscopic_em: 0.19
   metallicity_spectroscopic_ep: 0.19
-  ref_metallicity_spectroscopic: Muller2025arXiv250420765M
+  ref_metallicity_spectroscopic: Muller2025A&A...699A.207M
 velocity:
   vlos_systemic: 429.3
   vlos_systemic_em: 21.6
   vlos_systemic_ep: 21.6
-  ref_vlos: Muller2025arXiv250420765M
+  ref_vlos: Muller2025A&A...699A.207M

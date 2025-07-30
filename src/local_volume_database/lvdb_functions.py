@@ -211,10 +211,11 @@ def plot_proper_motion_galaxy_3panel(key, pm_overview = pm_data,  add=[], **kwar
 
     pm_overview2 = pm_overview[pm_overview['key']==key]
     print("number of measurements and mehtods:",len(pm_overview2), Counter(pm_overview2['method']))
+    print("reference", "method", 'pmra', 'pmra_em', 'pmra_ep', 'pmdec', 'pmdec_em', 'pmdec_ep')
     print_pm = kwargs.get('print_pm',True)
     if print_pm:
         for kk in range(len(pm_overview2)):
-            print(pm_overview2['ref_cite'][kk], pm_overview2['method'][kk], pm_overview2['pmra'][kk], pm_overview2['pmra_em'][kk], pm_overview2['pmdec'][kk], pm_overview2['pmdec_em'][kk])
+            print(pm_overview2['ref_cite'][kk], pm_overview2['method'][kk], pm_overview2['pmra'][kk], pm_overview2['pmra_em'][kk],pm_overview2['pmra_ep'][kk], pm_overview2['pmdec'][kk], pm_overview2['pmdec_em'][kk], pm_overview2['pmdec_ep'][kk])
     keep = np.zeros(len(pm_overview2), dtype=bool)
     exclude = kwargs.get('exclude', [])
     for i in range(len(pm_overview2)):

@@ -15,7 +15,7 @@ name_discovery:
   ref_discovery:
   - Karachentseva1998A&AS..127..409K
 notes:
-- tidally disrupting/stellar stream? \citep{Muller2025arXiv250420765M}
+- tidally disrupting/stellar stream? \citep{Muller2025A&A...699A.207M}
 structure:
   rhalf: 17.0
   spatial_units: arcsec
@@ -32,14 +32,14 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -1.68
   metallicity_spectroscopic_em: 0.08
   metallicity_spectroscopic_ep: 0.08
-  ref_metallicity_spectroscopic: Muller2025arXiv250420765M
+  ref_metallicity_spectroscopic: Muller2025A&A...699A.207M
 velocity:
   vlos_systemic: 594.9
   vlos_systemic_em: 9.0
   vlos_systemic_ep: 9.0
-  ref_vlos: Muller2025arXiv250420765M
+  ref_vlos: Muller2025A&A...699A.207M
 age:
   age: 8.3
   age_em: 1.4
   age_ep: 1.4
-  ref_age: Muller2025arXiv250420765M
+  ref_age: Muller2025A&A...699A.207M

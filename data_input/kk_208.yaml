@@ -15,7 +15,7 @@ name_discovery:
   - Karachentseva1998A&AS..127..409K
   type: dSph
 notes:
-- tidally disrupted dwarf or stellar stream \citep{Muller2025arXiv250420765M}.
+- tidally disrupted dwarf or stellar stream \citep{Muller2025A&A...699A.207M}.
 distance:
   distance_modulus: 28.50
   distance_modulus_em: 0.08
@@ -31,9 +31,9 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -1.53
   metallicity_spectroscopic_em: 0.23
   metallicity_spectroscopic_ep: 0.23
-  ref_metallicity_spectroscopic: Muller2025arXiv250420765M
+  ref_metallicity_spectroscopic: Muller2025A&A...699A.207M
 velocity:
   vlos_systemic: 439.9
   vlos_systemic_em: 15.6
   vlos_systemic_ep: 15.6
-  ref_vlos: Muller2025arXiv250420765M
+  ref_vlos: Muller2025A&A...699A.207M
