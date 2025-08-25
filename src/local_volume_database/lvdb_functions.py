@@ -21,6 +21,8 @@ plt.style.use(lvdb_path+'/code/std.mplstyle')
 import matplotlib as mp
 mp.rcParams['text.usetex'] = True
 
+Gravity = 4.301e-6
+
 def get_notes(key, **kwargs):
     ## input is lvdb key
     ## outputs notes in LVDB YAML file
@@ -286,3 +288,140 @@ def plot_proper_motion_galaxy_3panel(key, pm_overview = pm_data,  add=[], **kwar
         plt.savefig(save_file_name)
         
     plt.show()
+
+def compute_mass_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, ellipticity_ep, distance, distance_em, distance_ep, sigma, sigma_em,sigma_ep, **kwargs):
+    ## computes Wolf et al. 2010 https://ui.adsabs.harvard.edu/abs/2010MNRAS.406.1220W/abstract
+    ## accounts for errors 
+    ## returns 
+    ## at some point asymmetric errors need to be addresses
+
+    n=kwargs.get('n', 10000)
+    seed=kwargs.get('seed')
+    if seed:
+        np.random.seed(seed) ## so each monte carlo is the same if nothing is changed
+
+    # np.random.seed(1988) ## so each monte carlo is the same if nothing is changed
+    if ma.is_masked(sigma)==True:
+        return [np.ma.masked,np.ma.masked,np.ma.masked]
+    elif (ma.is_masked(sigma_em)==True or ma.is_masked(sigma_ep)==True) and ma.is_masked(sigma)==False:
+        rh = distance*rhalf/180./60.*1000.*np.pi
+        comb_mass = 930. * rh * sigma**2
+        
+        if ma.is_masked(ellipticity)==False:
+            rh = rh*np.sqrt(1.-ellipticity)
+            return [np.log10(comb_mass*np.sqrt(1.-ellipticity)),0,0]
+        else:
+            return[np.log10(comb_mass),np.ma.masked,np.ma.masked]
+    else:
+        if ma.is_masked(rhalf_em)==False and ma.is_masked(rhalf)==False:
+            x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., n)
+        elif ma.is_masked(rhalf)==False:
+            x=np.empty(n)
+            x.fill(rhalf)
+        else:
+            x = np.zeros(n)
+        
+        if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
+            y = np.random.normal(ellipticity, (ellipticity_em+ellipticity_ep)/2., n)
+        elif ma.is_masked(ellipticity)==False:
+            y=np.empty(len(x))
+            y.fill(ellipticity)
+        else:
+            y = np.zeros(len(x))
+        
+        if ma.is_masked(distance_em)==False and ma.is_masked(distance)==False:
+            z = np.random.normal(distance, (distance_em+distance_ep)/2., n)
+        elif ma.is_masked(distance)==False:
+            z=np.empty(len(x))
+            z.fill(distance)
+        else:
+            z = np.full(n, distance)
+        
+        if ma.is_masked(sigma_em)==False and ma.is_masked(sigma_ep)==False:
+            sig = np.random.normal(sigma, (sigma_em+sigma_ep)/2., n)
+        elif ma.is_masked(sigma)==False:
+            sig=np.empty(len(x))
+            sig.fill(sigma)
+        else:
+            sig = np.zeros(len(x))
+        
+        x2 = x[np.logical_and.reduce((y>=0, y<1, x>0))]
+        y2 = y[np.logical_and.reduce((y>=0, y<1, x>0))]
+        z2 = z[np.logical_and.reduce((y>=0, y<1, x>0))]
+        sig2 = sig[np.logical_and.reduce((y>=0, y<1, x>0))]
+        
+        comb_mass = 930. * x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2 * sig2**2
+        comb_mass2 = comb_mass[~np.isnan(comb_mass)]
+        if len(comb_mass2)==0:
+            return [np.ma.masked,np.ma.masked,np.ma.masked]
+        mean_mass = corner.quantile(np.log10(comb_mass2), [.5, .1587, .8413, 0.0227501, 0.97725])
+
+        return [mean_mass[0], mean_mass[0]-mean_mass[1], mean_mass[2]-mean_mass[0]]
+
+def compute_rhalf_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, ellipticity_ep, distance, distance_em, distance_ep, **kwargs):
+    n=kwargs.get('n', 10000)
+    seed=kwargs.get('seed')
+    if seed:
+        np.random.seed(seed) ## so each monte carlo is the same if nothing is changed
+    if (ma.is_masked(rhalf_em)==True or ma.is_masked(rhalf_ep)==True) and ma.is_masked(rhalf)==False:
+        rh_noerror = distance*rhalf/180./60.*1000.*np.pi
+        if ma.is_masked(ellipticity)==False:
+            rh2 = rh_noerror*np.sqrt(1.-ellipticity)
+            return [rh2, np.ma.masked, np.ma.masked]
+        else:
+            return [rh_noerror, np.ma.masked, np.ma.masked]
+    else:
+        x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., n)
+        if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
+            y = np.random.normal(ellipticity, (ellipticity_em+ellipticity_ep)/2., n)
+        elif ma.is_masked(ellipticity)==False:
+            y=np.empty(n)
+            y.fill(ellipticity)
+        else:
+            y = np.zeros(n)
+        if ma.is_masked(distance_em)==False and ma.is_masked(distance)==False:
+            z = np.random.normal(distance, (distance_em+distance_ep)/2., n)
+        elif ma.is_masked(distance)==False:
+            z=np.empty(n)
+            z.fill(distance)
+        else:
+            z = np.zeros(n)
+        x2 = x[np.logical_and.reduce((y>=0, y<1, x>0))]
+        y2 = y[np.logical_and.reduce((y>=0, y<1, x>0))]
+        z2 = z[np.logical_and.reduce((y>=0, y<1, x>0))]
+        comb = x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2
+        comb2 = comb[~np.isnan(comb)]
+        if len(comb2)==0:
+            return [np.ma.masked,np.ma.masked,np.ma.masked]
+    
+        mean = corner.quantile(comb2, [.5, .1587, .8413, 0.0227501, 0.97725])
+        return [mean[0], mean[0]-mean[1], mean[2]-mean[0]]
+
+def add_timescales(table_input):
+    ## adds columns to input table
+    ## mass_stellar, mass_dynamical_wolf are in log10 units
+    ## rhalf_sph_physical is in parsec
+
+    average_mass_of_star = 0.4
+    const = ((3.154e16)**2 *(3.086e16 )**-2) ## km -> kpc and s -> yr
+    
+    ## average number of stars for old/metal-poor system
+    table_input['number_stellar'] = 10**table_input['mass_stellar']/average_mass_of_star 
+        
+    ## stellar only timescales 
+    ## crossing time, relaxation time, and evaporation time
+    table_input['time_cross_stellar'] = np.power(Gravity * (10**table_input['mass_stellar']/2.*(table_input['rhalf_sph_physical']/1000.)**-3.) * const, -0.5)
+    table_input['time_relax_stellar'] = table_input['time_cross_stellar'] * table_input['number_stellar']/(8. * np.log(table_input['number_stellar']))
+    table_input['time_evap_stellar'] = 140.*table_input['time_relax_stellar']
+    
+    ## dynamical timescales 
+    table_input['time_cross_dynamical'] = np.power(Gravity * 4./3.*np.pi * (10**table_input['mass_dynamical_wolf']*(table_input['rhalf_sph_physical']/1000.)**-3.) * const, -0.5)
+    
+    ## https://ui.adsabs.harvard.edu/abs/2011PASA...28...77F/abstract 
+    table_input['time_relax_dynamical'] = (10**table_input['mass_dynamical_wolf'])**0.5 * (table_input['rhalf_sph_physical'])**1.5 / np.log(10**table_input['mass_dynamical_wolf']) * 0.2/np.sqrt( 0.0045)/0.3
+    
+    ## https://ui.adsabs.harvard.edu/abs/2025arXiv250522717E/abstract 
+    ## Eqn 6 
+    table_input['time_relax_dynamical_errani'] = np.sqrt(2./3./np.pi/4.493e-6) * (10**table_input['mass_dynamical_wolf'] * table_input['rhalf_sph_physical']/1000.)**1.5 * table_input['number_stellar']**(-1) * (average_mass_of_star)**(-2) * (8.2 - 1.9 )**(-1)
+
+    return table_input

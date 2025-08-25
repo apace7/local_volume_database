@@ -239,50 +239,6 @@ def value_add(input_table, table_type='dwarf', **kwargs):
             except:
                 print("no  host info", input_table['key'][i], path + input_table['host'][i] + '.yaml')    
 
-    def compute_rhalf_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, ellipticity_ep, distance, distance_em, distance_ep, n=10000):
-        np.random.seed(1988) ## so each monte carlo is the same if nothing is changed
-        if (ma.is_masked(rhalf_em)==True or ma.is_masked(rhalf_ep)==True) and ma.is_masked(rhalf)==False:
-            rh_noerror = distance*rhalf/180./60.*1000.*np.pi
-            if ma.is_masked(ellipticity)==False:
-                rh2 = rh_noerror*np.sqrt(1.-ellipticity)
-                return [rh2, np.ma.masked, np.ma.masked]
-            else:
-                return [rh_noerror, np.ma.masked, np.ma.masked]
-        else:
-            x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., n)
-            if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
-                y = np.random.normal(ellipticity, (ellipticity_em+ellipticity_ep)/2., n)
-            elif ma.is_masked(ellipticity)==False:
-                y=np.empty(n)
-                y.fill(ellipticity)
-            else:
-                y = np.zeros(n)
-            if ma.is_masked(distance_em)==False and ma.is_masked(distance)==False:
-                z = np.random.normal(distance, (distance_em+distance_ep)/2., n)
-            elif ma.is_masked(distance)==False:
-                z=np.empty(n)
-                z.fill(distance)
-            else:
-                z = np.zeros(n)
-            x2 = x[np.logical_and(y>=0, y<1)]
-            y2 = y[np.logical_and(y>=0, y<1)]
-            z2 = z[np.logical_and(y>=0, y<1)]
-            comb = x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2
-            comb2 = comb[~np.isnan(comb)]
-            if len(comb2)==0:
-                return [np.ma.masked,np.ma.masked,np.ma.masked]
-        
-            mean = corner.quantile(comb2, [.5, .1587, .8413, 0.0227501, 0.97725])
-            return [mean[0], mean[0]-mean[1], mean[2]-mean[0]]
-    
-    # input_table['rhalf_physical'] = input_table['distance']*1000.*input_table['rhalf']/spatial_units_conversion/180.*np.pi
-    # input_table['rhalf_sph_physical'] = np.ma.masked_all(len(input_table), dtype=float)
-    # for i in range(len(input_table)):
-    #     if ma.is_masked(input_table['ellipticity'][i])==False:
-    #         input_table['rhalf_sph_physical'][i] = input_table['rhalf_physical'][i]*np.sqrt(1.-input_table['ellipticity'][i])
-    #     else:
-    #         input_table['rhalf_sph_physical'][i] = input_table['rhalf_physical'][i]
-
     #HI mass
     if table_type=='dwarf':
         input_table['mass_HI'] = np.log10(235600 * input_table['flux_HI']*(input_table['distance']/1000.)**2 )
@@ -327,64 +283,6 @@ def value_add(input_table, table_type='dwarf', **kwargs):
         if ma.is_masked(input_table['vlos_systemic'][i])==False:
             input_table['velocity_gsr'][i] = vgsr[i].value
             input_table['velocity_lg'][i] = input_table['vlos_systemic'][i] + vel_lg * (np.sin(np.deg2rad(input_table['bb'][i])) * np.sin(np.deg2rad(angle_lg_b)) + np.cos(np.deg2rad(input_table['bb'][i])) * np.cos(np.deg2rad(angle_lg_b)) * np.cos(np.deg2rad(input_table['ll'][i] - angle_lg_l)))
-
-    def compute_mass_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, ellipticity_ep, distance, distance_em, distance_ep, sigma, sigma_em,sigma_ep, n=10000):
-        ## at some point asymmetric errors need to be addresses
-        np.random.seed(1988) ## so each monte carlo is the same if nothing is changed
-        if ma.is_masked(sigma)==True:
-            return [np.ma.masked,np.ma.masked,np.ma.masked]
-        elif (ma.is_masked(sigma_em)==True or ma.is_masked(sigma_ep)==True) and ma.is_masked(sigma)==False:
-            rh = distance*rhalf/180./60.*1000.*np.pi
-            comb_mass = 930. * rh * sigma**2
-            
-            if ma.is_masked(ellipticity)==False:
-                rh = rh*np.sqrt(1.-ellipticity)
-                return [np.log10(comb_mass*np.sqrt(1.-ellipticity)),0,0]
-            else:
-                return[np.log10(comb_mass),np.ma.masked,np.ma.masked]
-        else:
-            if ma.is_masked(rhalf_em)==False and ma.is_masked(rhalf)==False:
-                x = np.random.normal(rhalf, (rhalf_em+rhalf_ep)/2., n)
-            elif ma.is_masked(rhalf)==False:
-                x=np.empty(n)
-                x.fill(rhalf)
-            else:
-                x = np.zeros(n)
-            
-            if ma.is_masked(ellipticity_em)==False and ma.is_masked(ellipticity)==False:
-                y = np.random.normal(ellipticity, (ellipticity_em+ellipticity_ep)/2., n)
-            elif ma.is_masked(ellipticity)==False:
-                y=np.empty(len(x))
-                y.fill(ellipticity)
-            else:
-                y = np.zeros(len(x))
-            
-            if ma.is_masked(distance_em)==False and ma.is_masked(distance)==False:
-                z = np.random.normal(distance, (distance_em+distance_ep)/2., n)
-            elif ma.is_masked(distance)==False:
-                z=np.empty(len(x))
-                z.fill(distance)
-            else:
-                z = np.full(10000, distance)
-            
-            if ma.is_masked(sigma_em)==False and ma.is_masked(sigma_ep)==False:
-                sig = np.random.normal(sigma, (sigma_em+sigma_ep)/2., n)
-            elif ma.is_masked(sigma)==False:
-                sig=np.empty(len(x))
-                sig.fill(sigma)
-            else:
-                sig = np.zeros(len(x))
-            
-            x2 = x[np.logical_and(y>=0, y<1)]
-            y2 = y[np.logical_and(y>=0, y<1)]
-            z2 = z[np.logical_and(y>=0, y<1)]
-            sig2 = sig[np.logical_and(y>=0, y<1)]
-            
-            comb_mass = 930. * x2 *np.pi/180./60.*1000.*np.sqrt(1. - y2)* z2 * sig2**2
-            comb_mass2 = comb_mass[~np.isnan(comb_mass)]
-        
-            mean_mass = corner.quantile(np.log10(comb_mass2), [.5, .1587, .8413, 0.0227501, 0.97725])
-            return [mean_mass[0], mean_mass[0]-mean_mass[1], mean_mass[2]-mean_mass[0]]
         
     input_table['mass_dynamical_wolf'] = np.ma.masked_all(len(input_table), dtype=float)
     input_table['mass_dynamical_wolf_em'] = np.ma.masked_all(len(input_table), dtype=float)
@@ -401,17 +299,17 @@ def value_add(input_table, table_type='dwarf', **kwargs):
     input_table['surface_brightness_rhalf'] = np.ma.masked_all(len(input_table), dtype=float)
 
     for i in range(len(input_table)):
-        y= compute_mass_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i],input_table['vlos_sigma'][i], input_table['vlos_sigma_em'][i], input_table['vlos_sigma_ep'][i])
+        y= lvdb.compute_mass_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i],input_table['vlos_sigma'][i], input_table['vlos_sigma_em'][i], input_table['vlos_sigma_ep'][i], seed=1988)
 
         input_table['mass_dynamical_wolf'][i] = y[0]
         input_table['mass_dynamical_wolf_em'][i] = y[1]
         input_table['mass_dynamical_wolf_ep'][i] = y[2]
         
-        z= compute_mass_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i],input_table['vlos_sigma_ul'][i], np.ma.masked, np.ma.masked)
+        z= lvdb.compute_mass_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i],input_table['vlos_sigma_ul'][i], np.ma.masked, np.ma.masked, seed=1988)
         input_table['mass_dynamical_wolf_ul'][i] = z[0]
 
-        rh_azi = compute_rhalf_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i])
-        rh_sph = compute_rhalf_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], np.ma.masked, np.ma.masked, np.ma.masked, input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i])
+        rh_azi = lvdb.compute_rhalf_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], input_table['ellipticity'][i], input_table['ellipticity_em'][i], input_table['ellipticity_ep'][i], input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i], seed=1988)
+        rh_sph = lvdb.compute_rhalf_error(input_table['rhalf'][i], input_table['rhalf_em'][i], input_table['rhalf_ep'][i], np.ma.masked, np.ma.masked, np.ma.masked, input_table['distance'][i], input_table['distance_em'][i], input_table['distance_ep'][i], seed=1988)
 
         input_table['rhalf_physical'][i] = rh_sph[0]
         input_table['rhalf_physical_em'][i] = rh_sph[1]
