@@ -62,19 +62,20 @@ Description of Catalogs/Tables
 
 The following are the available tables (in csv and fits file formats). The fits file is limited to the release pages while the csv file is included in both the release and main github.
 
+* **comb_all**: the union of all tables and includes all systems in the LVDB. Users are recommended to use this table.  This table has an additional column `table` that specifies the table origin of the system. **Only included in the release page.** 
 * **dwarf_mw** : Milky Way dwarf galaxies (the most distant dwarf galaxy is Eridanus II at ~ 350 kpc).
 * **dwarf_m31**: M31 dwarf galaxies.
 * **dwarf_local_field**: dwarf galaxies outside of MW/M31 within the Local Field to a distance of ~ 3 Mpc. This is an extension of galaxies from McConnachie 2012 compilation.
-* **dwarf_local_field_distant**: dwarf galaxies in the Local Volume with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete to known systems (it is complete for known systems to a distance < 3.5 Mpc). 
-* **dwarf_all** : combination of dwarf_mw, dwarf_m31, dwarf_local_field, dwarf_local_field_distant. Complete for known systems to ~ 3.5 Mpc. Note that earlier versions did not include dwarf_local_field_distant. 
+* **dwarf_local_field_distant**: dwarf galaxies in the Local Volume with distance > 3 Mpc. The limiting distance is set to ~10-40 Mpc (the approximate limits of HST/JWST). This table is not complete for known systems. 
+* **dwarf_all** : combination of dwarf_mw, dwarf_m31, dwarf_local_field, dwarf_local_field_distant. Note that earlier versions did not include dwarf_local_field_distant. 
 * **gc_ambiguous**: systems with an ambiguous classification (referred to as ambiguous or hyper-faint compact stellar systems in the LVDB). These are all MW halo systems. 
 * **gc_mw_new**: newly discovered globular clusters or candidate globular clusters (i.e. post-Harris catalog).  Many systems are at low Galactic latitude (abs(b) <10-20 deg) and candidate systems may be open clusters.
 * **gc_harris**: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_abmiguous table).
 * **gc_dwarf_hosted**: globular clusters hosted by dwarf galaxies. This does not include the Sagittarius globular clusters which are in gc_harris. This catalog is incomplete for known systems.
 * **gc_other**: for other globular clusters. (mostly for future work)
 * **candidate**: known false-positive candidates, background galaxies, or low confidence candidates. **Only included in the release page.**
-* **misc_host**: brighter galaxies that are hosts to the dwarf galaxies.  The catalog exists for completeness and for host information for dwarf galaxies.  The main properties compiled for these systems are phase-space information (ra,dec,distance, velocity) and overall stellar and gas mass. **Only included in the release page.**
-* **comb_all**: the union of all tables.  Includes all systems in the LVDB.  This table has an additional column `table` that specifies the table origin of the system. **Only included in the release page.**
+* **misc_host**: brighter galaxies that are hosts to the dwarf galaxies.  The catalog exists for completeness and for host information for dwarf galaxies.  The main properties compiled for these systems are phase-space information (ra,dec,distance, velocity) and overall stellar and gas mass. **Only included in the release page.** Labeled `misc` in the `table` column.
+
 
 
 
@@ -91,7 +92,7 @@ Columns:
 * confirmed_dwarf: (or confirmed_star_cluster) system has been confirmed to be dwarf galaxy (or star cluster) based on spectroscopy, and/or deeper photometry.
 * ra: right ascension ICRS J2000.0 [degree]
 * dec: declination ICRS J2000.0 [degree]
-* rhalf: major axis of the half-light radius (or plummer radius) in [arcmin]. Note that input yaml files can have arcsec or arcmin input units but the combined catalogs are in arcmin. 
+* rhalf: projected (2D) major axis of the half-light radius (or plummer radius) in [arcmin]. Note that input yaml files can have arcsec or arcmin input units but the combined catalogs are in arcmin. 
 * ellipticity: 1 - minor/major axis (or 1 - axis ratio).
 * position_angle: N->E [degree] 
 * distance_modulus [mag]
@@ -129,8 +130,8 @@ Value-Added Columns:
 * velocity_gsr: Velocity in Galactic standard of rest frame [km/s]
 * velocity_lg: Velocity of system relative to the Local Group centroid [km/s]
 * mass_dynamical_wolf: Dynamical mass within 3D half-light radius using the dynamical mass estimator in `Wolf et al. 2010 <https://ui.adsabs.harvard.edu/abs/2010MNRAS.406.1220W/abstract>`_ [log10 Msun]. This column has errors and upper limit columns (em, ep, ul) using the errors from the half-light radius (rhalf), ellipticity, distance, and velocity dispersion (monte carlo errors). 
-* rhalf_physical: half-light radius in physical units --  rhalf * distance  [parsec]. Includes monte carlo errors (distance and rhalf errors).
-* rhalf_sph_physical: azimuthally-averaged half-light radius (geometric mean); rhalf * distance * sqrt(1-ellipticity) in [parsec]. Includes monte carlo errors (distance, ellipticity, and rhalf errors).
+* rhalf_physical: projected (2D) half-light radius in physical units --  rhalf * distance  [parsec]. Includes monte carlo errors (distance and rhalf errors).
+* rhalf_sph_physical: projected (2D) azimuthally-averaged half-light radius (geometric mean); rhalf * distance * sqrt(1-ellipticity) in [parsec]. Includes monte carlo errors (distance, ellipticity, and rhalf errors).
 * surface_brightness_rhalf: average surface brightness within azimuthally-averaged half-light radius [mag arcsec^-2]
 * ref_ + x : reference columns such as ref_structure, ref_distance, ref_m_v, ref_vlos, ref_proper_motion.  All reference columns have the same format: author last name + ADS bibcode. 
 
@@ -208,7 +209,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
 * **structure** -- yaml collection
   
-  * **rhalf** -- elliptical half-light radius [arcmin]. This corresponds to the major axis. The default units are arcmin if the **spatial_units** key is not included. 
+  * **rhalf** -- elliptical half-light radius [arcmin]. This corresponds to the projected (2D) major axis. The default units are arcmin if the **spatial_units** key is not included. 
 
   * **spatial_units** -- this key sets the units of the spatial parameter (rhalf here). The options are [arcmin, arcsec].
 

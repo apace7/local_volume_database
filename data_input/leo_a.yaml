@@ -20,10 +20,10 @@ notes:
 - Defines $R_{LG}$ \citep{McConnachie2012AJ....144....4M}
 - ABP measured metallicity mean/sigma with Normal/Gaussian from data in \citep{Kirby2017ApJ...834....9K}
 distance:
-  distance_modulus: 24.28
-  distance_modulus_em: 0.05
-  distance_modulus_ep: 0.05
-  ref_distance: Higgs2021MNRAS.503..176H
+  distance_modulus: 24.51
+  distance_modulus_em: 0.12
+  distance_modulus_ep: 0.12
+  ref_distance: Dolphin2002AJ....123.3154D
 flux_HI:
   flux_HI: 73.3
   flux_HI_em: 6.67
