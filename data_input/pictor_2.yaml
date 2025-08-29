@@ -21,6 +21,7 @@ distance:
   distance_modulus: 18.26
   distance_modulus_em: 0.10
   distance_modulus_ep: 0.10
+  distance_measurement_method: cmd
   ref_distance: Pace2025OJAp....8E.112P
 flux_HI:
   flux_HI_ul: 0.58

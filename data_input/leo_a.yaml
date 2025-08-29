@@ -23,6 +23,7 @@ distance:
   distance_modulus: 24.51
   distance_modulus_em: 0.12
   distance_modulus_ep: 0.12
+  distance_measurement_method: rrl
   ref_distance: Dolphin2002AJ....123.3154D
 flux_HI:
   flux_HI: 73.3

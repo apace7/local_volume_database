@@ -18,10 +18,11 @@ name_discovery:
   abbreviation: LeoII
   type: dSph  
 distance:
-  distance_modulus: 21.84
-  distance_modulus_em: 0.13
-  distance_modulus_ep: 0.13
-  ref_distance: Bellazzini2005MNRAS.360..185B
+  distance_modulus: 21.60
+  distance_modulus_em: 0.06
+  distance_modulus_ep: 0.06
+  distance_measurement_method: rrl
+  ref_distance: Monelli2025A&A...700A.201M
 flux_HI:
   flux_HI_ul: 0.15
   ref_flux_HI: Spekkens2014ApJ...795L...5S
