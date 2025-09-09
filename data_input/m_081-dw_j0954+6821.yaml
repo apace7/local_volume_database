@@ -4,13 +4,15 @@ location:
   ra: 148.5292
   dec: 68.3641
 name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 0
+  confirmed_dwarf: 1
+  confirmed_real: 1
   discovery_year: 2023
   host: m_081
   name: M81-dw J0954+6821
   ref_discovery:
   - Bell2022ApJ...937L...3B
+notes:
+- Confirmed with HST imaging \citep{Gozman2024ApJ...977..179G, Karachentsev2025arXiv250821494K}.
 structure:
   rhalf: 0.07448451337
   rhalf_em: 0.007639437268
@@ -23,7 +25,11 @@ structure:
   position_angle_ep: 8.0
   ref_structure: Bell2022ApJ...937L...3B
 distance:
-  distance_fixed_host: True 
+  distance_modulus: 27.94
+  distance_modulus_em: 0.09
+  distance_modulus_ep: 0.08
+  distance_measurement_method: trgb
+  ref_distance: Karachentsev2025arXiv250821494K
 m_v:
   apparent_magnitude_v: 20.68
   apparent_magnitude_v_em: 0.25

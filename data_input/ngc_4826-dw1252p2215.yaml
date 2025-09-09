@@ -4,15 +4,16 @@ location:
   ra: 193.024167
   dec: 22.265
 name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 0
-  false_positive: 0
+  confirmed_dwarf: 1
+  confirmed_real: 1
   discovery_year: 2022
   host: ngc_4826
   name: dw1252+2215
   ref_discovery:
   - Carlsten2022ApJ...933...47C
   name_lvg: dw1252+2215
+notes:
+- Confirmed with HST imaging \citep{Karachentsev2025arXiv250821494K}.
 structure:
   rhalf: 8.9
   rhalf_em: 1.0
@@ -21,11 +22,11 @@ structure:
   spatial_model: sersic
   ref_structure: Carlsten2022ApJ...933...47C
 distance:
-  distance_modulus: 28.67
-  distance_modulus_em: 0.28
-  distance_modulus_ep: 0.27
-  ref_distance: Carlsten2022ApJ...933...47C
-  distance_measurement_method: sbf
+  distance_modulus: 28.63
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Karachentsev2025arXiv250821494K
+  distance_measurement_method: trgb
 m_v:
   apparent_magnitude_v: 19.60
   apparent_magnitude_v_em: 0.14

@@ -4,16 +4,19 @@ location:
   ra: 188.593
   dec: 39.879
 name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 0
-  false_positive: 0
+  confirmed_dwarf: 1
+  confirmed_real: 1
   discovery_year: 2022
   host: m_094
   name: dw1234p3952
+  other_name:
+  - SMDG 1234223+395243
   ref_discovery:
   - Carlsten2022ApJ...933...47C
+  - Zaritsky2023ApJS..267...27Z
 notes:
 - M94 candidate in \citet{Carlsten2022ApJ...933...47C}; SBF attempted.
+- Confirmed with HST imaging \citep{Karachentsev2025arXiv250821494K}.
 structure:
   rhalf: 10.2
   rhalf_em: 0.8
@@ -22,7 +25,11 @@ structure:
   spatial_model: sersic
   ref_structure: Carlsten2022ApJ...933...47C
 distance:
-  distance_fixed_host: true
+  distance_modulus: 28.19
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  distance_measurement_method: trgb
+  ref_distance: Karachentsev2025arXiv250821494K
 m_v:
   apparent_magnitude_v: 18.12
   apparent_magnitude_v_em: 0.11
