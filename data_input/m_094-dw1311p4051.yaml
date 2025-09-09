@@ -1,19 +1,19 @@
 key: m_094-dw1311p4051
-table: candidate
+table: dwarf_local_field_distant
 location:
   ra: 197.922
   dec: 40.863
 name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 0
-  false_positive: 0
+  confirmed_dwarf: 1
+  confirmed_real: 1
   discovery_year: 2022
-  host: m_094
+  host: ngc_5055
   name: dw1311p4051
   ref_discovery:
   - Carlsten2022ApJ...933...47C
 notes:
 - M94 or NGC 5055 candidate in \citet{Carlsten2022ApJ...933...47C}; SBF attempted.
+- Confirmed with HST imaging and suggests NGC 5055 host \citep{Karachentsev2025arXiv250821494K}.
 structure:
   rhalf: 7.3
   rhalf_em: 0.5
@@ -28,3 +28,10 @@ m_v:
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
   ref_m_v: Carlsten2022ApJ...933...47C
+flux_HI:
+  flux_HI: 0.46 
+  vlos_systemic_HI: 604
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  HI_line_width_50: 21
+  ref_flux_HI: Karachentsev2024A&A...684L..24K
