@@ -4,13 +4,15 @@ location:
   ra: 151.73125
   dec: 69.90461111
 name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 0
+  confirmed_dwarf: 1
+  confirmed_real: 1
   discovery_year: 2019
   host: m_081
   name: d1006+69
   ref_discovery:
   - Okamoto2019ApJ...884..128O
+notes:
+- Confirmed with HST imaging \citep{Gozman2024ApJ...977..179G}
 structure:
   rhalf: 0.22
   rhalf_em: 0.03

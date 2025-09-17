@@ -59,3 +59,11 @@ metallicity_photometric:
   metallicity_photometric_sigma_em: 0.03
   metallicity_photometric_sigma_ep: 0.03
   ref_metallicity_photometric: Fu2024ApJ...965...36F
+proper_motion:
+  pmra: 0.0135
+  pmra_em: 0.0074
+  pmra_ep: 0.0074
+  pmdec: -0.0224
+  pmdec_em: 0.0074
+  pmdec_ep: 0.0074
+  ref_proper_motion: Bennet2025arXiv250911299B

@@ -4,13 +4,15 @@ location:
   ra: 151.3845833
   dec: 68.23813889
 name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 0
+  confirmed_dwarf: 1
+  confirmed_real: 1
   discovery_year: 2017
   host: m_081
   name: d1005+68
   ref_discovery:
   - Smercina2017ApJ...843L...6S
+notes:
+- Confirmed with HST imaging \citep{Gozman2024ApJ...977..179G}
 structure:
   rhalf: 0.3
   rhalf_em: 0.05

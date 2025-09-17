@@ -64,3 +64,11 @@ velocity:
   vlos_systemic: -83.9
   vlos_systemic_em: 1.2
   vlos_systemic_ep: 1.2
+proper_motion:
+  pmra: 0.0618
+  pmra_em: 0.0106
+  pmra_ep: 0.0106
+  pmdec: -0.0730
+  pmdec_em: 0.0100
+  pmdec_ep: 0.0100
+  ref_proper_motion: Bennet2025arXiv250911299B

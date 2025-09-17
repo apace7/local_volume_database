@@ -517,3 +517,26 @@ leo_6,2025ApJ...979..176T,Tan2025ApJ...979..176T,-0.06,0.2,0.18,-0.22,0.17,0.22,
 2ms_gc02,2025A&A...695A..47A,AlonsoGarcia2025A&A...695A..47A,4.2,0.4,0.4,-4.6,0.4,0.4,,VVV,Alonso-Garcia et al. 2025,
 uks_1,2021MNRAS.505.5978V,Vasiliev2021MNRAS.505.5978V,-2.023,0.107,0.107,-2.76,0.069,0.069,-0.24,GAIA_EDR3,Vasiliev & Baumgardt 2021,
 uks_1,2025A&A...695A..47A,AlonsoGarcia2025A&A...695A..47A,-2.2,0.5,0.5,-2.7,0.5,0.5,,VVV,Alonso-Garcia et al. 2025,
+sextans_1,2025A&A...698A..53T,Tolstoy2025A&A...698A..53T,-0.394,0.017,0.017,0.035,0.015,0.015,,GAIA_EDR3,Tolstoy et al. 2025,
+draco_1,2025ApJ...988..199Y,Yang2025ApJ...988..199Y,-0.05,0.01,0.01,-0.24,0.01,0.01,,Ground,Yang et al. 2025,bright sample; WFST+PS1+Gaia DR3
+draco_1,2025ApJ...988..199Y,Yang2025ApJ...988..199Y,-0.57,0.06,0.06,-0.24,0.06,0.06,,Ground,Yang et al. 2025,faint sample; WFST+PS1+Gaia DR3
+bootes_3,2025ApJ...988..199Y,Yang2025ApJ...988..199Y,-1.26,0.05,0.05,-1.05,0.04,0.04,,Ground,Yang et al. 2025,bright sample; WFST+PS1+Gaia DR3
+bootes_3,2025ApJ...988..199Y,Yang2025ApJ...988..199Y,-1.31,0.16,0.16,-1.01,0.16,0.16,,Ground,Yang et al. 2025,faint sample; WFST+PS1+Gaia DR3
+pictor_2,2025OJAp....8E.112P,Pace2025OJAp....8E.112P,1.18,0.05,0.05,1.16,0.05,0.05,-0.035,GAIA_EDR3,Pace et al. 2025,
+m_033,2024A&A...692A..30R,Rusterucci2024A&A...692A..30R,0.0671,0.0561,0.0561,-0.0114,0.0365,0.0365,,GAIA_EDR3,Rusterucci et al. 2024,errors are combined statistical and systematic
+m_031,2024A&A...692A..30R,Rusterucci2024A&A...692A..30R,0.0469,0.0519,0.0519,-0.0291,0.0368,0.0368,,GAIA_EDR3,Rusterucci et al. 2024,errors are combined statistical and systematic
+m_031,2012ApJ...753....8V,vanderMarel2012ApJ...753....8V,0.045,0.013,0.013,-0.032,0.012,0.012,,HST,van der Marel et al. 2012,
+m_031,2019ApJ...872...24V,vanderMarel2019ApJ...872...24V,0.065,0.0241,0.0241,-0.057,0.0219,0.0219,,GAIA_DR2,van der Marel et al. 2019,errors are combined statistical and systematic
+m_031,2021MNRAS.507.2592S,Salomon2021MNRAS.507.2592S,0.048,0.0102,0.0102,-0.0384,0.078,0.078,,GAIA_EDR3,Salomon et al. 2021,
+m_033,2005Sci...307.1440B,Brunthaler2005Sci...307.1440B,0.023,0.007,0.007,0.008,0.009,0.009,,VLBI,Brunthaler et al. 2005,
+ic_0010,2007A&A...462..101B,Brunthaler2007A&A...462..101B,-0.002,0.008,0.008,0.02,0.008,0.008,,VLBI,Brunthaler et al. 2007,
+lmc_gc-reticulum_1,2023A&A...672A.161M,Milone2023A&A...672A.161M,1.95,0.05,0.05,-0.027,0.02,0.02,,HST,Milone et al. 2023,
+lmc_gc-ngc_1841,2023A&A...672A.161M,Milone2023A&A...672A.161M,2.05,0.02,0.02,0,0.03,0.03,,HST,Milone et al. 2023,
+lmc_gc-ngc_1898,2023A&A...672A.161M,Milone2023A&A...672A.161M,1.98,0.05,0.05,0.35,0.05,0.05,,HST,Milone et al. 2023,
+lmc_gc-ngc_2005,2023A&A...672A.161M,Milone2023A&A...672A.161M,1.88,0.04,0.04,0.56,0.04,0.04,,HST,Milone et al. 2023,
+lmc_gc-ngc_2210,2023A&A...672A.161M,Milone2023A&A...672A.161M,1.44,0.05,0.05,1.36,0.05,0.05,,HST,Milone et al. 2023,
+lmc_gc-ngc_2257,2023A&A...672A.161M,Milone2023A&A...672A.161M,1.39,0.05,0.05,1,0.04,0.04,,HST,Milone et al. 2023,
+lmc_gc-hodge_011,2022ApJ...935..149B,Bennet2022ApJ...935..149B,1.466,0.034,0.034,0.989,0.049,0.049,,GAIA_EDR3,Bennet et al. 2022,
+lmc_gc-hodge_011,2023A&A...672A.161M,Milone2023A&A...672A.161M,1.56,0.08,0.08,0.75,0.07,0.07,,HST,Milone et al. 2023,
+lmc_gc-ngc_1850,2024A&A...689A.162N,Niederhofer2024A&A...689A.162N,2.011,0.028,0.028,0.119,0.03,0.03,,HST,Niederhofer et al. 2024,
+lmc_gc-ngc_1850,2023A&A...672A.161M,Milone2023A&A...672A.161M,2.02,0.04,0.04,0.11,0.04,0.04,,HST,Milone et al. 2023,
