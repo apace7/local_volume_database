@@ -19,8 +19,8 @@ distance:
   distance_modulus_ep: 0.07
   ref_distance: McConnachie2012AJ....144....4M
 flux_HI:
-  flux_HI_ul: 0.71
-  ref_flux_HI: Putman2021ApJ...913...53P
+  flux_HI_ul: 0.0608
+  ref_flux_HI: Bennet2025arXiv250911299B
 m_v:
   apparent_magnitude_v: 13.2
   apparent_magnitude_v_em: 0.2

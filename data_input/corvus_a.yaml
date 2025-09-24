@@ -1,8 +1,13 @@
 key: corvus_a
 table: dwarf_local_field_distant
 location:
-  ra: 183.68999999999997  
-  dec: -16.396944444444443
+  ra: 183.69021
+  dec: -16.396367
+  ra_em: 0.00417
+  ra_ep: 0.00417
+  dec_em: 0.00028
+  dec_ep: 0.00028
+  ref_location: MutluPakdil2025arXiv250916307M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -13,38 +18,40 @@ name_discovery:
 notes:
   - vlos systemic from HI
 structure:
-  rhalf: 15.2 
-  rhalf_em: 0.5
-  rhalf_ep: 0.5
+  rhalf: 18 
+  rhalf_em: 1
+  rhalf_ep: 1
   spatial_units: arcsec
-  ellipticity: 0.30
-  ellipticity_em: 0.01
-  ellipticity_ep: 0.01
-  position_angle: 110
-  position_angle_em: 10
-  position_angle_ep: 10
-  ref_structure: Jones2024ApJ...971L..37J
+  spatial_model: exponential
+  ellipticity: 0.36
+  ellipticity_em: 0.04
+  ellipticity_ep: 0.04
+  position_angle: 117
+  position_angle_em: 4
+  position_angle_ep: 4
+  ref_structure: MutluPakdil2025arXiv250916307M
 distance:
-  distance_modulus: 27.71
-  distance_modulus_em: 0.16
-  distance_modulus_ep: 0.14
-  ref_distance: Jones2024ApJ...971L..37J
+  distance_modulus: 27.62
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  distance_measurement_method: trgb
+  ref_distance: MutluPakdil2025arXiv250916307M
 m_v:
-  apparent_magnitude_v: 16.51
+  apparent_magnitude_v: 16.69
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
   mean_ebv: 0.0428
-  ref_m_v: Jones2024ApJ...971L..37J
+  ref_m_v: MutluPakdil2025arXiv250916307M
 velocity:
-  vlos_systemic: 523 # [km/s]
+  vlos_systemic: 523
   vlos_systemic_em: 2
   vlos_systemic_ep: 2
   ref_vlos: Jones2024ApJ...971L..37J  
 flux_HI:
-  flux_HI: 1.36 # [Jy km/s ]
+  flux_HI: 1.36
   flux_HI_em: 0.05
   flux_HI_ep: 0.05
-  vlos_systemic_HI: 523 #[km/s]
+  vlos_systemic_HI: 523
   vlos_systemic_HI_em: 2
   vlos_systemic_HI_ep: 2
   ref_flux_HI: Jones2024ApJ...971L..37J 
