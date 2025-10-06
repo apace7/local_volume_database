@@ -81,6 +81,8 @@ Table/Catalog Construction
 
 The bash/zsh shell script, ``create_database.sh``, creates the tables/catalogs, overview figures, and the summary pdf. 
 The script runs several python scripts, ``scripts/combine_table_general.py``, ``scripts/create_latex_table.py``, ``scripts/unit_tests.py``, and ``scripts/create_summary_plots.py``, and runs the LaTeX compilation of the pdf after. 
+The ``local_volume_databse`` package is a requirement to run the ``scripts/combine_table_general.py`` script. 
+The ``LVDBDIR`` environment variable is required to point to the directory location of the ``local_volume_database/data_input/`` folder for the scripts to run. 
 
 * ``scripts/combine_table_general.py`` -- combines together all the systems, adds value-added columns and saves the catalogs (csv and fits files).
 * ``scripts/create_latex_table.py`` -- uses the output and the YAML files to create the input LaTeX data and citations files for the ``lvdb_table.pdf``. 
