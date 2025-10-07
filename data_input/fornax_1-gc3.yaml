@@ -3,6 +3,7 @@ table: gc_dwarf_hosted
 location:
   ra: 39.9504167
   dec: -34.25833
+  ref_location: Mackey2003MNRAS.340..175M
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
@@ -17,9 +18,11 @@ name_discovery:
 notes:
 - distance is from RRL \citep{Mackey2003MNRAS.345..747M} and metallicity corrected by \citep{deBoer2016A&A...590A..35D}
 structure:
-  rhalf: 0.1191
-  rhalf_em: 0.0029
-  rhalf_ep: 0.0029
+  rhalf: 2.11
+  rhalf_em: 0.13
+  rhalf_ep: 0.14
+  spatial_units: arcsec
+  spatial_model: eff
   ref_structure: Mackey2003MNRAS.340..175M
 distance:
   distance_modulus: 20.76
@@ -36,12 +39,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.1
   metallicity_spectroscopic_ep: 0.1
   ref_metallicity_spectroscopic: Letarte2006A&A...453..547L
-structure_king:
-  rcore: 0.0402
-  rcore_em: 0.0018
-  rcore_ep: 0.0018
-  rking: 1.267
-  ref_structure_king: Mackey2003MNRAS.340..175M
 velocity:
   vlos_systemic: 60.4
   vlos_systemic_em: 0.2
@@ -55,3 +52,12 @@ age:
   age_em: 1.4
   age_ep: 1.4
   ref_age: deBoer2016A&A...590A..35D
+structure_eff:
+  gamma_eff: 2.63
+  gamma_eff_em: 0.06
+  gamma_eff_ep: 0.06
+  rad_eff: 2.89
+  rad_eff_em: 0.17
+  rad_eff_ep: 0.17
+  spatial_units: arcsec
+  ref_structure_eff: Mackey2003MNRAS.340..175M

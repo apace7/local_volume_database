@@ -73,11 +73,11 @@ structure_sersic:
   rad_sersic_ep: 0.4
   ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref_vlos: Kirby2017ApJ...838...83K
-  vlos_sigma_ul: 4.2
-  vlos_systemic: -381.7
-  vlos_systemic_em: 1.1
-  vlos_systemic_ep: 1.1
+  ref_vlos: Buttry2022MNRAS.514.1706B
+  vlos_sigma_ul: 3.5
+  vlos_systemic: -382.3
+  vlos_systemic_em: 0.7
+  vlos_systemic_ep: 0.7
 star_formation_history:
   tau_50: 13.50
   tau_50_em: 0.23
