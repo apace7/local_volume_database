@@ -3,7 +3,7 @@ Notes & Discussion on Other Catalogs
 
 List of other catalogs relevant to the LVDB including references and links: 
 
-* The Local Volume Database (LVDB, this work for reference) [`ADS <https://ui.adsabs.harvard.edu/abs/2024arXiv241107424P/abstract>`_], [`github/website <https://github.com/apace7/local_volume_database>`_].
+* The Local Volume Database (LVDB, this work for reference) [`ADS <https://ui.adsabs.harvard.edu/abs/2025OJAp....8E.142P/abstract>`_], [`github/website <https://github.com/apace7/local_volume_database>`_].
 
 * Local Group and Nearby Dwarf Galaxies (MC12), [`ADS <https://ui.adsabs.harvard.edu/abs/2012AJ....144....4M/abstract>`_], [`website <https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/community/nearby/>`_].  This includes dwarf galaxies within 3 Mpc. 
 
@@ -34,4 +34,4 @@ List of other catalogs relevant to the LVDB including references and links:
 
 The completeness of the LVDB is characterized by comparing to other catalogs. 
 v1.0.3 of the LVDB is complete to 6 Mpc when comparing to the Local Volume Galaxy catalog and Extragalactic Distance Database. 
-Current efforts are focused on verifying this completeness limit with other catalogs  (HyperLEDA, the NED LVS and Siena Galaxy Atlas)and adding missing systems and any new discoveries. 
+Current efforts are focused on verifying this completeness limit with other catalogs (HyperLEDA, the NED LVS and Siena Galaxy Atlas) and adding missing systems and any new discoveries. 
