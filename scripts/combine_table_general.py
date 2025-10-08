@@ -180,10 +180,16 @@ def value_add(input_table, table_type='dwarf', **kwargs):
     input_table['mass_stellar'] = np.log10(lum(input_table['M_V']) * 2.)
 
     ## heliocentric distance
-    d, dem, dep = dist_mod( input_table['distance_modulus'], input_table['distance_modulus_em'], input_table['distance_modulus_ep'])
-    input_table['distance'] = d
-    input_table['distance_em'] = dem
-    input_table['distance_ep'] = dep
+    if np.ma.is_masked(input_table['distance_modulus_em']) ==True:
+        d, dem, dep = dist_mod( input_table['distance_modulus'])
+        input_table['distance'] = d
+        input_table['distance_em'] = np.ma.masked
+        input_table['distance_ep'] = np.ma.masked
+    else:
+        d, dem, dep = dist_mod( input_table['distance_modulus'], input_table['distance_modulus_em'], input_table['distance_modulus_ep'])
+        input_table['distance'] = d
+        input_table['distance_em'] = dem
+        input_table['distance_ep'] = dep
     
     ## Galactic longitude and latitude
     c_table_input = coord.SkyCoord(ra=input_table['ra']*u.deg, dec=input_table['dec']*u.deg,distance=input_table['distance']*u.kpc,  frame='icrs',)
@@ -322,10 +328,11 @@ def value_add(input_table, table_type='dwarf', **kwargs):
     ## average surface brightness within half-light radius
         if ma.is_masked(input_table['rhalf_sph_physical'][i])==False:
             input_table['surface_brightness_rhalf'][i] = input_table['M_V'][i] + 19.78 + input_table['distance_modulus'][i] +  2.5 * np.log10(np.degrees(np.arctan(input_table['rhalf_sph_physical'][i]/1000./input_table['distance'][i]))**2)
-    
-    input_table.round({'M_V':2, 'M_V_em':2, 'M_V_ep':2, 'mass_stellar':2, 'distance':2, 'distance_em':2, 'distance_ep':2, 'll': 7, 'bb': 7, 'sg_xx':2, 'sg_yy':2, 'sg_zz':2, 'distance_gc':2, 'distance_m31':2, 'distance_lg':2, 'distance_host':2, 'mass_HI':2, 'mass_HI_ul':2, 'metallicity':2, 'metallicity_em':2, 'metallicity_ep':2, 'velocity_gsr':2, 'velocity_lg':2, 'mass_dynamical_wolf':2, 'mass_dynamical_wolf_em':2, 'mass_dynamical_wolf_ep':2, 'mass_dynamical_wolf_ul':2, 'rhalf_physical':2, 'rhalf_physical_em':2, 'rhalf_physical_ep':2, 'rhalf_sph_physical':2, 'rhalf_sph_physical_em':2, 'rhalf_sph_physical_ep':2, 'surface_brightness_rhalf':2 })
 
-    input_table.round({'rhalf':4, 'rhalf_em':4, 'rhalf_ep':4})
+    dict_round = {'M_V':2, 'M_V_em':2, 'M_V_ep':2, 'mass_stellar':2, 'distance':2, 'distance_em':2, 'distance_ep':2, 'll': 7, 'bb': 7, 'sg_xx':2, 'sg_yy':2, 'sg_zz':2, 'distance_gc':2, 'distance_m31':2, 'distance_lg':2, 'distance_host':2, 'mass_HI':2, 'mass_HI_ul':2, 'metallicity':2, 'metallicity_em':2, 'metallicity_ep':2, 'velocity_gsr':2, 'velocity_lg':2, 'mass_dynamical_wolf':2, 'mass_dynamical_wolf_em':2, 'mass_dynamical_wolf_ep':2, 'mass_dynamical_wolf_ul':2, 'rhalf_physical':2, 'rhalf_physical_em':2, 'rhalf_physical_ep':2, 'rhalf_sph_physical':2, 'rhalf_sph_physical_em':2, 'rhalf_sph_physical_ep':2, 'surface_brightness_rhalf':2 ,'rhalf':4, 'rhalf_em':4, 'rhalf_ep':4}
+
+    for key, value in dict_round.items():
+        input_table[key] = np.round(input_table[key], value)
 
     input_table.rename_column('confirmed_dwarf', 'confirmed_galaxy')
 
