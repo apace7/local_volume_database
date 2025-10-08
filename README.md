@@ -4,9 +4,9 @@
 
 The LVDB is a database of dwarf galaxies and star clusters in the Local Volume. The database is complete for dwarf galaxies within ~5 Mpc. 
 The planned limiting distance is ~10+ Mpc (i.e. resolved stars with HST or JWST).  
-The star cluster collections are currently limited to old star clusters/globular clusters in the Milky Way halo and globular clusters/star clusters hosted by low mass dwarf galaxies.
+The star cluster collections are currently limited to old star clusters/globular clusters in the Milky Way halo and globular clusters/star clusters hosted by low-mass dwarf galaxies.
 
-The main data tables are located in the [`github release pages`](https://github.com/apace7/local_volume_database/releases/) in `csv` and `fits` file formats. This includes a combined catalog file of the entire database (comb_all.csv) and a summary pdf document of the database content. 
+The main data tables are located in the [`GitHub release pages`](https://github.com/apace7/local_volume_database/releases/) in `CSV` and `FITS` file formats. This includes a combined catalog file of the entire database (comb_all.csv) and a summary pdf document of the database content. 
 
 
 
@@ -14,7 +14,7 @@ Documentation: [readthedocs](https://local-volume-database.readthedocs.io/en/lat
 
 Overview paper: [arXiv](https://arxiv.org/abs/2411.07424) and  [ADS](https://ui.adsabs.harvard.edu/abs/2024arXiv241107424P/abstract).
 
-The LVDB releases are also indexed on [zenodo](https://doi.org/10.5281/zenodo.14076714).
+The LVDB releases are also indexed on [Zenodo](https://doi.org/10.5281/zenodo.14076714).
 
 The catalog can be directly loaded into Jupyter notebooks without having to download the repository:
 

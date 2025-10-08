@@ -1,8 +1,8 @@
 Usage & Description of tables 
 ============================
 
-For LVDB users that only want to  use  the combined catalogs/tables, installing the LVDB package is not required and the primary catalogs are located as attachments in the `GitHub release pages <https://github.com/apace7/local_volume_database/releases>`_.
-The catalogs are included as csv and fits files and there is  a pdf summary file of the LVDB content.
+For LVDB users that only want to  use  the combined catalogs/tables, installing the LVDB package is not required, and the primary catalogs are located as attachments in the `GitHub release pages <https://github.com/apace7/local_volume_database/releases>`_.
+The catalogs are included as CSV and FITS files, and there is a PDF summary file of the LVDB content.
 For reproducibility, it is recommended to use one of the tagged release versions for scientific analysis.
 
 
@@ -22,30 +22,29 @@ The LVDB package is installable locally:
   pip install .
 
 The ``LVDBDIR`` envirnment variable is used to point to the location of the input YAML files (local_volume_database/data_input/). 
-Pip package coming. As the package interacts with the YAML files, it is recommended to install locally.
+As the package interacts with the YAML files, it is recommended to install locally.
 
 Database Content
 ----------------
 
 The database is structured as a collection of YAML files, where the properties of each system are located in an individual YAML file.
-The YAML files are combined into catalogs that are available as csv and fits files on the release page. 
-The YAML files are located in `data_input/ <https://github.com/apace7/local_volume_database/tree/main/data_input>`_ and the combined csv tables are located in `data/ <https://github.com/apace7/local_volume_database/tree/main/data>`_ or on the `release page <https://github.com/apace7/local_volume_database/releases>`_. Fits files are only located in the release pages.
+The YAML files are combined into catalogs that are available as CSV and FITS files on the GitHub release page. 
+The YAML files are located in `data_input/ <https://github.com/apace7/local_volume_database/tree/main/data_input>`_ and the combined tables are located in the `GitHub release page <https://github.com/apace7/local_volume_database/releases>`_ or in `data/ <https://github.com/apace7/local_volume_database/tree/main/data>`_. The FITS files are only located in the GitHub release pages.
 
 
 
 The tables can be directly loaded into jupyter notebooks without having to download the repository.
-The recommended catalogs to use are located on the github release page. 
-The latest catalogs (dwarf galaxy or everything) can be loaded as follows:
+The recommended catalogs to use are located on the GitHub release page and it is recommended to use the combined table (`comb_all.csv` or `comb_all.fits`). 
+The latest catalog can be loaded as follows:
 
 .. code-block:: python
 
   import astropy.table as table
-  # loads the current dwarf galaxy data catalog from the release page (recommended)
+  # loads the current catalog from the release page (recommended)
   version_number_string = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/code/release_version.txt', format='ascii.fast_no_header')['col1'][0]
-  dwarf_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/'+version_number_string+'/dwarf_all.csv')
   comb_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/'+version_number_string+'/comb_all.csv')
 
-The catalogs can also be loaded from the main github (or from older commits).  
+The catalogs can also be loaded from the main GitHub (or from older commits).  This functionality might be removed in the future. 
 
 .. code-block:: python
 
@@ -53,14 +52,14 @@ The catalogs can also be loaded from the main github (or from older commits).
   ## latest github
   dsph_all = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_all.csv')
 
-Note that the version number will need to be changed to access the lasted release page while the github link will go to the version on the main branch.
-There is also a pdf document (named lvdb_table.pdf) in github releases summarizing the contents and properties of each combined catalog. The pdf file continues readable tables for quick lookup. 
+Note that the version number will need to be changed to access the lasted release page while the GitHub link will go to the version on the main branch.
+There is also a PDF document (named lvdb_table.pdf) in GitHub releases summarizing the contents and properties of each combined catalog. The PDF file contains readable tables for a quick lookup of observed properties. 
 
 
 Description of Catalogs/Tables 
 --------------------
 
-The following are the available tables (in csv and fits file formats). The fits file is limited to the release pages while the csv file is included in both the release and main github.
+The following are the available tables (in CSV and FITS file formats). The fits files are limited to the GitHub release pages while the CSV files are included in both the GitHub release and main.
 
 * **comb_all**: the union of all tables and includes all systems in the LVDB. Users are recommended to use this table.  This table has an additional column `table` that specifies the table origin of the system. **Only included in the release page.** 
 * **dwarf_mw** : Milky Way dwarf galaxies (the most distant dwarf galaxy is Eridanus II at ~ 350 kpc).
@@ -115,6 +114,7 @@ Value-Added Columns:
 * M_V: absolute V-band magnitude, computed from distance_modulus and apparent_magnitude_V
 * mass_stellar: log10 stellar mass assuming M/L=2 and computed from M_V [log10 Msun]
 * distance: heliocentric distance, computed from the distance_modulus column [kpc]
+* distance_measurement_method: method to measure the distance. When `distance_measurement_method==host`, distance errors are not included for satellites. 
 * ll: Galactic longitude [degree]
 * bb: Galactic latitude [degree]
 * sg_xx: Supergalactic coordinates, x [kpc]
@@ -144,12 +144,12 @@ Error Columns:
 * _ll = lower limt at  5% confidence/credible interval 
 * _ul = upper limit at 95% confidence/credible interval (some are at 5sigma, 90% or 84%, but the goal is to make it consistent)
 
-The format for the reference columns is author last name + ADS bibcode. The author's last name has special characters removed but the capitalization is unchanged. 
+The format for the reference columns is author last name + ADS bibcode. The author's last name has special characters removed, but the capitalization is unchanged. 
 There is an associated bibtex file (latex/lvdb.bib) that includes all references in the database. 
 
-There are two extra tables: data/pm_overview.csv and data/j_factor.csv. The former is a compilation of systemic proper motion measurements for dwarf galaxies in the Local Group and the latter is a collection of J-factor measurements. Both are collections of measurements (the other tables have one measurement per system). 
+There are two extra tables: data/pm_overview.csv and data/j_factor.csv. The former is a compilation of systemic proper motion measurements for dwarf galaxies in the Local Group, and the latter is a collection of J-factor measurements. Both are collections of measurements (the other tables have one measurement per system). 
 The pm_overview table includes most proper motion literature measurements of dwarf galaxies and HFCSS. 
-The j-factor table includes some literature j-factor measurements, mostly from A. B. Pace.  This is not complete for literature measurements.
+The J-factor table includes some literature J-factor measurements, mostly from A. B. Pace.  This is not complete for literature measurements.
 
 pm_overview.csv: LVDB key, LVDB reference, ADS bibcode, proper motion measurements (full columns = pmra, pmra_em, pmra_ep, pmdec, pmdec_em, pmdec_ep, pmra_pmdec_corr) [the units are mas/yr expect for the unitless corrleation column], method [current options include=GAIA_EDR3, GAIA_DR2, Ground, HST_Ground, HST, GAIA_DR2_HST, HSC, SRG, GAIA_EDR3_HST, maser, GaiaHub], text citation, comments
 
@@ -159,33 +159,33 @@ j_factor.csv: LVDB key, LVDB reference, ADS bibcode, text citation, seleciton, a
 Description of YAML Files 
 ------------------------
 
-There is an `example yaml file <https://github.com/apace7/local_volume_database/blob/main/code/example_yaml.yaml>`_ in the /code/ folder. 
-The example yaml file includes all collections and keys in the database.  Not all keys are included in the combined csv tables.
-The yaml collections and keys are **Bolded**  and the bullet points follow the yaml collection structure.  Errors columns are not included in the list  and some columns include upper limits in the combined table. 
+There is an `example YAML file <https://github.com/apace7/local_volume_database/blob/main/code/example_yaml.yaml>`_ in the /code/ folder. 
+The example YAML file includes all collections and keys in the database.  Not all keys are included in the combined CSV/FITS tables.
+The YAML collections and keys are **Bolded**, and the bullet points follow the YAML collection structure.  Errors columns are not included in the list, and some columns include upper limits in the combined table. 
 The collections are split such that a single reference can describe the contents.
-Most keys are single entries and several keys are lists (specially other_name, ref_discovery, ref_false_positive).  
+Most keys are single entries, and several keys are lists (especially other_name, ref_discovery, ref_false_positive).  
 
-* **key** —- unique internal LVDB identifier (required yaml key). This should be the same as the name of the file (without .yaml).  All keys are lowercase in LVDB. Globular clusters and some dwarf galaxies are grouped by their host. For example, all LMC globular cluster keys have the prefix lmc_gc_ and many Centuarus A dwarf galaxy keys have the prefix cena_. Most new satellite systems will have a host prefix.
+* **key** —- unique internal LVDB identifier (required YAML key). This should be the same as the name of the file (without `.yaml`).  All keys are lowercase in LVDB. Globular clusters and some dwarf galaxies are grouped by their host. For example, all LMC globular cluster keys have the prefix lmc_gc_ and many Centaurus A dwarf galaxy keys have the prefix cena_. Most new satellite systems will have a host prefix.
 
-* **table** -- the table to place system into (required yaml key). The list of possible tables is: gc_harris, gc_dwarf_hosted, gc_mw_new, gc_abmiguous, dwarf_mw, dwarf_m31, dwarf_local_field,  dwarf_local_field_distant, candidate, misc, gc_other. The candidate and misc catalogs are only included in the release pages. The candidate systems are included in the lvdb pdf summary while the hosts/misc are not. The misc systems are primarily bright host galaxies (MW, M31, Cen A) and are partly included for distance measurements (**distance_fixed_host**) and to link systems together. 
+* **table** -- the table to place system into (required YAML key). The list of possible tables is: gc_harris, gc_dwarf_hosted, gc_mw_new, gc_abmiguous, dwarf_mw, dwarf_m31, dwarf_local_field,  dwarf_local_field_distant, candidate, misc, gc_other. The candidate and misc catalogs are only included in the release pages. The candidate systems are included in the lvdb pdf summary while the hosts/misc are not. The misc systems are primarily bright host galaxies (MW, M31, Cen A) and are partly included for distance measurements (**distance_fixed_host**) and to link systems together. 
 
-* **location** -- yaml collection. center of the system 
+* **location** -- YAML collection. center of the system 
 
-  * **ra** -- right ascension ICRS [degree]  (required yaml key)
+  * **ra** -- right ascension ICRS [degree]  (required YAML key)
 
-  * **dec** -- declination ICRS [degree] (required yaml key)
+  * **dec** -- declination ICRS [degree] (required YAML key)
 
   * **ref_location** -- reference for center/location. Errors are supported for the center of the system. 
 
-* **name_discovery** -- yaml collection
+* **name_discovery** -- YAML collection
 
   * **name** -- name of system
 
   * **other_name** -- list of additional names of the system
 
-  * **ref_discovery** --- List of discovery references. There can be multiple discovery references due to independent discoveries made on similar    timescales. Follow-up confirmation studies (i.e. HST imaging for distant candidate dwarfs around local volume hosts). Re-discoveries of systems (i.e. globular clusters hosted by dwarf galaxies).
+  * **ref_discovery** --- List of discovery references. There can be multiple discovery references due to independent discoveries made on similar timescales. Follow-up confirmation studies (i.e. HST imaging for distant candidate dwarf galaxies around local volume hosts). Re-discoveries of systems (i.e. globular clusters hosted by dwarf galaxies).
 
-  * **discovery_year** -- year of discovery. The year may be before the journal publication year due to an earlier arxiv submission.
+  * **discovery_year** -- year of discovery. The year may be before the journal publication year due to an earlier arXiv submission.
 
   * **host** -- host galaxy of the system.
 
@@ -207,7 +207,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
 * **notes** -- List of notes in LaTeX. The notes are added to the summary pdf. 
 
-* **structure** -- yaml collection
+* **structure** -- YAML collection
   
   * **rhalf** -- elliptical half-light radius [arcmin]. This corresponds to the projected (2D) major axis. The default units are arcmin if the **spatial_units** key is not included. 
 
@@ -223,17 +223,17 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_structure** -- reference
 
-* **distance** -- yaml collection
+* **distance** -- YAML collection
 
   * **distance_modulus** --  distance modulus of the system. [mag] This quantity is used to compute the distance in kpc for each system.
 
   * **distance_fixed_host** -- True/False. This option fixes the distance of the system to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy, systems without an independent distance measurement, and/or new candidate satellites in more distant systems (>3 Mpc).
 
-  * **distance_measurement_method** -- Refers to the method used for the distance measurement ['host', 'trgb', 'cmd', 'hb', 'rrl', 'sbf', 'nam']. 'hb' = horizontal branch, 'host' = distance fixed to the host (overlaps with **distance_fixed_host**), 'trgb' = tip of the red giant branch distance, 'sbf' = surface brightness fluctuation, 'rrl' = RR Lyrae, 'cmd' = color-magnitude diagram fitting, 'nam' = numerical action method based distance, 'btf' = baryonic Tully-Fisher distance, 'tf' = Tully-Fisher distance, 'sn' = supernova based distance
+  * **distance_measurement_method** -- Refers to the method used for the distance measurement ['host', 'trgb', 'cmd', 'hb', 'rrl', 'sbf', 'nam']. 'hb' = horizontal branch, 'host' = distance fixed to the host (overlaps with **distance_fixed_host**), 'trgb' = tip of the red giant branch distance, 'sbf' = surface brightness fluctuation, 'rrl' = RR Lyrae, 'cmd' = color-magnitude diagram fitting, 'nam' = numerical action method based distance, 'btf' = baryonic Tully-Fisher distance, 'tf' = Tully-Fisher distance, 'sn' = supernova based distance. When `distance_measurement_method==host`, distance errors are not included for satellites in the combined tables. 
 
   * **ref_distance**
 
-* **m_v** -- yaml collection
+* **m_v** -- YAML collection
 
   * **apparent_magnitude_v** -- Apparent V-band magnitude of the system (Johnson-Kron-Cousins UBVRI photometric system). This quantity is corrected for extinction. This quantity is combined with **distance_modulus** to compute the absolute V-band magnitude in the combined tables. 
 
@@ -245,7 +245,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_m_v** -- Reference.
 
-* **velocity** -- yaml collection. stellar velocity/kinematics
+* **velocity** -- YAML collection. stellar velocity/kinematics
 
   * **vlos_systemic** -- systemic heliocentric velocity of the system. Stellar velocities are preferred but some distant systems only have HI velocities. [km/s]
   
@@ -255,7 +255,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
   
   * **ref_vlos** -- reference
 
-* **proper_motion** -- yaml collection
+* **proper_motion** -- YAML collection
   
   * **pmra** -- systemic proper motion in the direction of right ascension (includes cosdec term) [mas/yr]
 
@@ -265,7 +265,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_proper_motion** -- reference
 
-* **spectroscopic_metallicity** -- yaml collection
+* **spectroscopic_metallicity** -- YAML collection
 
   * **metallicity_spectroscopic** -- mean metallicity
 
@@ -273,7 +273,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_metallicity_spectroscopic** -- reference
 
-* **metallicity_photometric** -- yaml collection
+* **metallicity_photometric** -- YAML collection
 
   * **metallicity_photometric** -- photometric metallicity. This generally is from metallicity sensistive photometry (Ca H&K, u-band). 
 
@@ -281,7 +281,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_metallicity_photometric** -- reference
 
-* **metallicity_isochrone** -- yaml collection
+* **metallicity_isochrone** -- YAML collection
 
   * **metallicity_isochrone** -- metallicity from isochrone or color-magnitude diagram fitting. 
 
@@ -289,7 +289,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_metallicity_isochrone** -- reference
 
-* **structure_king** -- yaml collection
+* **structure_king** -- YAML collection
 
   * **rcore** -- King core radius [arcmin]. The default units are arcmin if the **spatial_units** key is not included. 
 
@@ -301,7 +301,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_structure_king** -- reference
 
-* **structure_sersic** -- yaml collection
+* **structure_sersic** -- YAML collection
 
   * **n_sersic** -- Sersic powerlaw value.
 
@@ -317,7 +317,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_structure_sersic**
 
-* **structure_eff** -- yaml collection. EFF profile (Elson, Fall & Freeman 1987). Commonly used for globular clusters.
+* **structure_eff** -- YAML collection. EFF profile (Elson, Fall & Freeman 1987). Commonly used for globular clusters.
 
   * **gamma_eff** -- Powerlaw value from EFF profile (Elson, Fall & Freeman 1987).
 
@@ -331,7 +331,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_structure_sersic**
 
-* **structure_plummer** -- yaml collection. 
+* **structure_plummer** -- YAML collection. 
 
   * **rplummer** -- Plummer scale radius [arcmin]. The default units are arcmin if the **spatial_units** key is not included. 
 
@@ -343,7 +343,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_structure_plummer**
 
-* **structure_exponential** -- yaml collection.
+* **structure_exponential** -- YAML collection.
 
   * **rexponential** -- Exponential scale radius [arcmin]. The default units are arcmin if the **spatial_units** key is not included. 
 
@@ -355,7 +355,7 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_structure_exponential**
 
-* **flux_HI** -- yaml collection.
+* **flux_HI** -- YAML collection.
 
   * **flux_HI** -- [Jy km/s]
 
@@ -369,13 +369,13 @@ Most keys are single entries and several keys are lists (specially other_name, r
 
   * **ref_flux_HI**
 
-* **age** -- yaml collection.
+* **age** -- YAML collection.
   
   * **age** -- mean age of the systemic in [Gyr]. Mainly for star clusters. 
 
   * **ref_age** -- reference
 
-* **star_formation_history** -- yaml collection. Mainly for dwarf galaxies.
+* **star_formation_history** -- YAML collection. Star formation history from resolved star, color-magnitude diagram based measurements. For dwarf galaxies.
   
   * **tau_50** -- time for 50 per cent of stellar mass to form [Gyr ago]
 
@@ -423,9 +423,9 @@ The bibtex of the LVDB paper is below:
         adsnote = {Provided by the SAO/NASA Astrophysics Data System}
   }
 
-The LVDB releases are also indexed on `zenodo <https://doi.org/10.5281/zenodo.14076714>`_.
+The LVDB releases are also indexed on `Zenodo <https://doi.org/10.5281/zenodo.14076714>`_.
 
-Link to the LVDB overview paper  on `arXiv <https://arxiv.org/abs/2411.07424>`_. and `ADS <https://ui.adsabs.harvard.edu/abs/2025OJAp....8E.142P/abstract>`_. 
+Link to the LVDB overview paper  on `arXiv <https://arxiv.org/abs/2411.07424>`_ and `ADS <https://ui.adsabs.harvard.edu/abs/2025OJAp....8E.142P/abstract>`_. 
 
 .. The bibtex of the LVDB paper is below:
 

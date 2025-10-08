@@ -3,7 +3,7 @@ Notes & Discussion on Other Catalogs
 
 List of other catalogs relevant to the LVDB including references and links: 
 
-* The Local Volume Database (LVDB, this work for reference) [`ADS <https://ui.adsabs.harvard.edu/abs/2025OJAp....8E.142P/abstract>`_], [`github/website <https://github.com/apace7/local_volume_database>`_].
+* The Local Volume Database (LVDB, this work for reference) [`ADS <https://ui.adsabs.harvard.edu/abs/2025OJAp....8E.142P/abstract>`_], [`GitHub/website <https://github.com/apace7/local_volume_database>`_].
 
 * Local Group and Nearby Dwarf Galaxies (MC12), [`ADS <https://ui.adsabs.harvard.edu/abs/2012AJ....144....4M/abstract>`_], [`website <https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/community/nearby/>`_].  This includes dwarf galaxies within 3 Mpc. 
 

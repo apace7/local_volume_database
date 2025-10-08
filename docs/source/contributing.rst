@@ -29,9 +29,9 @@ Bruce et al (2023) made new and improved measurements of the systemic velocity, 
         metallicity_spectroscopic_sigma_ul: 0.37
         ref_metallicity_spectroscopic: Bruce2023ApJ...950..167B
 
-For any measurement in the database a reference should be included. 
-The format for the database is author last name + ADS bibcode ( ``Bruce2023ApJ...950..167B`` for this example). The author last name should be stripped of special characters and spaces but capitalization is not changed. 
-If the reference is not in the ``table/lvdb.bib`` file you should add it. 
+For any measurement in the database, a reference should be included. 
+The format for the database is author last name + ADS bibcode ( ``Bruce2023ApJ...950..167B`` for this example). The author last name should be stripped of special characters and spaces, but capitalization is not changed. 
+If the reference is not in the ``table/lvdb.bib`` file, you should add it. 
 Create the reference with "Export Citation" on ADS and update the entry to match the reference format in the database. 
 The content of the database can include both published and unpublished papers on the arXiv.  Papers only on arXiv still have an ADS bibcode created.  The reference in the database can be updated to the published version later. 
 
@@ -49,9 +49,9 @@ List of current options for the tables:
 * dwarf_local_field
 * dwarf_m31
 * dwarf_local_field_distant
-* gc_ufsc = gc_halo = gc_ambiguous (all these table values go into the same catalog)
+* gc_ambiguous (note that previous versions also used gc_ufsc and gc_halo)
 * gc_harris
-* gc_disk = gc_mw_new (these options both end up in the sane table/catalog)
+* gc_mw_new (note that previous versions also used gc_disk)
 * gc_dwarf_hosted
 * candidate
 * misc 
@@ -88,9 +88,9 @@ The ``LVDBDIR`` environment variable is required to point to the directory locat
 * ``scripts/create_latex_table.py`` -- uses the output and the YAML files to create the input LaTeX data and citations files for the ``lvdb_table.pdf``. 
 * ``scripts/unit_tests.py`` -- runs unit tests to validate files. 
 * ``scripts/create_summary_plots.py`` -- creates summary figures. This includes recreating all the figures in the overview paper with the latest input files and some additional figures in a single combined pdf file, ``paper_examples/overview_plots.pdf``. The plots in the combined pdf file are for checking the content of the database (looking for outliers, etc). 
-* Lastly, latex compilation of the lvdb_table.pdf
+* Lastly, latex compilation of the PDF summary, ``lvdb_table.pdf``.
 
-Note that the ``overview_plots.pdf`` is not saved in the github or release pages and  ``lvdb_table.pdf`` is only included in the release page. 
+Note that the ``overview_plots.pdf`` is not saved in the GitHub and  ``lvdb_table.pdf`` is only included in the GitHub release page. 
 
 
 
@@ -100,7 +100,7 @@ Some Ideas for Contributions
 
 As stated earlier, community contributions are welcome and encouraged.  
 Here is a short list of items that generally focus on expanding the scope of the database.  
-The github issues are another list of potential contributions.
+The GitHub issues are another list of potential contributions.
 Some of these items have YAML keys that exist but are generally empty.
 
 * Include gas kinematic properties. For example, peak rotation velocity and gas velocity dispersion.
