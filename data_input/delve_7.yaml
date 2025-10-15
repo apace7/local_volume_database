@@ -1,0 +1,51 @@
+key: delve_7
+table: gc_ambiguous
+location:
+  ra: 304.107
+  dec: -50.330
+  ra_em: 0.005
+  ra_ep: 0.004
+  dec_em: 0.002
+  dec_ep: 0.002
+  ref_location: Tan2025arXiv251011684T
+name_discovery:
+  confirmed_real: 1
+  discovery_year: 2025
+  host: mw
+  name: DELVE 7
+  other_name:
+  - DELVE J2016-5019
+  ref_discovery:
+  - list
+  abbreviation: DEL7
+structure:
+  rhalf: 0.32
+  rhalf_em: 0.16
+  rhalf_ep: 0.58
+  spatial_units: arcmin
+  spatial_model: plummer
+  ellipticity: 0.63
+  ellipticity_em: 0.53
+  ellipticity_ep: 0.17
+  position_angle: 101
+  position_angle_em: 55
+  position_angle_ep: 43
+  ref_structure: Tan2025arXiv251011684T
+distance:
+  distance_modulus: 018.1
+  distance_modulus_em: 0.3
+  distance_modulus_ep: 0.3
+  distance_measurement_method: cmd
+  ref_distance: Tan2025arXiv251011684T
+m_v:
+  apparent_magnitude_v: 19.3
+  apparent_magnitude_v_em: 2.1
+  apparent_magnitude_v_ep: 0.7
+  mean_ebv: 0.052
+  ref_m_v: Tan2025arXiv251011684T
+metallicity_isochrone:
+  metallicity_isochrone: -1.40
+  ref_metallicity_isochrone: Tan2025arXiv251011684T
+age:
+  age: 10.0
+  ref_age: Tan2025arXiv251011684T

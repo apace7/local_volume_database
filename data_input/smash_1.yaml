@@ -18,6 +18,7 @@ name_discovery:
   name: SMASH 1
   ref_discovery:
   - Martin2016ApJ...830L..10M
+  abbreviation: SMA1
 structure:
   ellipticity: 0.62
   ellipticity_em: 0.21

@@ -25,6 +25,7 @@ name_discovery:
   name: YMCA-1
   ref_discovery:
   - Gatto2021RNAAS...5..159G
+  abbreviation: YMCA1
 proper_motion:
   pmdec: 1.107
   pmdec_em: 0.209

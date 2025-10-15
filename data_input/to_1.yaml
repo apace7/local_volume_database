@@ -16,6 +16,7 @@ name_discovery:
   name: To 1
   ref_discovery:
   - Torrealba2019MNRAS.484.2181T
+  abbreviation: To1
 structure:
   ref_structure: Torrealba2019MNRAS.484.2181T
   rhalf: 0.27

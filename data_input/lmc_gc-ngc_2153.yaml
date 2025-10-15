@@ -12,3 +12,6 @@ name_discovery:
   - KMHK 1555
   - SL 792
   - ESO 86-43
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

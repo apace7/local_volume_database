@@ -12,3 +12,6 @@ name_discovery:
   - ESO 56-144
   - SL 559
   - KMHK 1039
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

@@ -12,7 +12,7 @@ The main data tables are located in the [`GitHub release pages`](https://github.
 
 Documentation: [readthedocs](https://local-volume-database.readthedocs.io/en/latest/index.html).
 
-Overview paper: [arXiv](https://arxiv.org/abs/2411.07424) and  [ADS](https://ui.adsabs.harvard.edu/abs/2024arXiv241107424P/abstract).
+Overview paper: [arXiv](https://arxiv.org/abs/2411.07424) and  [ADS](https://ui.adsabs.harvard.edu/abs/2025OJAp....8E.142P/abstract).
 
 The LVDB releases are also indexed on [Zenodo](https://doi.org/10.5281/zenodo.14076714).
 

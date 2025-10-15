@@ -12,3 +12,6 @@ name_discovery:
   - KMHK 991
   - SL 523
   - ESO 86-4
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

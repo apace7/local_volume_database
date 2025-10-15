@@ -12,3 +12,6 @@ name_discovery:
   - ESO 56-66
   - SL 240
   - OGLE-CL LMC 118
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

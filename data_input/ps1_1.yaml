@@ -18,6 +18,7 @@ name_discovery:
   - Prestgard 64
   ref_discovery:
   - Torrealba2019MNRAS.484.2181T
+  abbreviation: PS1-1
 structure:
   ref_structure: Torrealba2019MNRAS.484.2181T
   rhalf: 0.55

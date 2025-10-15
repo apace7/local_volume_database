@@ -22,6 +22,7 @@ name_discovery:
   - HSC J2217+0328
   ref_discovery:
   - Homma2019PASJ...71...94H
+  abbreviation: HSC1
 structure:
   ellipticity: 0.46
   ellipticity_em: 0.1

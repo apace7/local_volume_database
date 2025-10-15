@@ -13,3 +13,6 @@ name_discovery:
   - ESO 33-1
   - LW 96
   - SL 121
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

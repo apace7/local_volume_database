@@ -4,11 +4,13 @@ source ~/.zshrc
 
 python scripts/combine_table_general.py
 
+print 'starting units tests'
+
+python scripts/unit_tests.py
+
 print 'creating latex tables'
 
 python scripts/create_latex_table.py
-
-python scripts/unit_tests.py
 
 read -s -k '?Press any key to create summary plots.'
 

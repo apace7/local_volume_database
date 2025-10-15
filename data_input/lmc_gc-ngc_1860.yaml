@@ -12,3 +12,6 @@ name_discovery:
   - OGLE-CL LMC 187
   - ESO 56-75
   - SL 284
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

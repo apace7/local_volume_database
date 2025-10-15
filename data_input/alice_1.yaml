@@ -13,6 +13,7 @@ name_discovery:
   name: Alice
   ref_discovery:
   - Popova2025arXiv250511120P
+  abbreviation: Ali1
 notes:
   - Size is approximately 15 arcsec \citep{Popova2025arXiv250511120P}.
 distance:

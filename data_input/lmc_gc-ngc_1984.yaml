@@ -11,3 +11,6 @@ name_discovery:
   other_name:
   - ESO 56-132
   - SL 488
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

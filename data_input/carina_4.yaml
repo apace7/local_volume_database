@@ -1,0 +1,67 @@
+key: carina_4
+table: dwarf_mw
+location:
+  ra: 104.046
+  dec: -63.319
+  ra_em: 0.015
+  ra_ep: 0.012
+  dec_em: 0.005
+  dec_ep: 0.006
+  ref_location: Tan2025arXiv251011684T
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2025
+  host: mw
+  name: Carina IV
+  other_name:
+  - DELVE J0656-6319
+  ref_discovery:
+  - list
+  abbreviation: CarIV
+  type: dSph
+structure:
+  rhalf: 1.34
+  rhalf_em: 0.38
+  rhalf_ep: 0.56
+  spatial_units: arcmin
+  spatial_model: plummer
+  ellipticity: 0.21
+  ellipticity_em: 0.21
+  ellipticity_ep: 0.27
+  position_angle: 117
+  position_angle_em: 68
+  position_angle_ep: 63
+  ref_structure: Tan2025arXiv251011684T
+distance:
+  distance_modulus: 20.1
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.1
+  distance_measurement_method: cmd
+  ref_distance: Tan2025arXiv251011684T
+m_v:
+  apparent_magnitude_v: 17.3
+  apparent_magnitude_v_em: 0.6
+  apparent_magnitude_v_ep: 0.4
+  mean_ebv: 0.090
+  ref_m_v: Tan2025arXiv251011684T
+proper_motion:
+  pmra: 0.94
+  pmra_em: 0.53
+  pmra_ep: 0.54
+  pmdec: 0.23
+  pmdec_em: 0.40
+  pmdec_ep: 0.41
+  pmra_pmdec_corr: 0.19
+  ref_proper_motion: Tan2025arXiv251011684T
+metallicity_photometric:
+  metallicity_photometric: -2.0
+  metallicity_photometric_em: 0.2
+  metallicity_photometric_ep: 0.2
+  ref_metallicity_photometric: Tan2025arXiv251011684T
+metallicity_isochrone:
+  metallicity_isochrone: -2.07
+  ref_metallicity_isochrone: Tan2025arXiv251011684T
+age:
+  age: 12.5
+  ref_age: Tan2025arXiv251011684T

@@ -77,6 +77,7 @@ print("number of MW / M31 / LF / LV dwarf galaxies", len(dsph_mw), len(dsph_m31)
 lvdb.add_column(dsph_lf,'name_discovery','discovery_year', col_type=int)
 lvdb.add_column(dsph_mw,'name_discovery','discovery_year', col_type=int)
 lvdb.add_column(dsph_mw,'name_discovery','abbreviation', col_type='U100')
+lvdb.add_column(gc_ambiguous,'name_discovery','abbreviation', col_type='U100')
 
 lvdb.add_column(dsph_m31,'name_discovery','discovery_year', col_type=int)
 lvdb.add_column(gc_ambiguous,'name_discovery','discovery_year', col_type=int)
@@ -358,6 +359,34 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     pdf.savefig()
     plt.close()
 
+    c_dsph_mw = coord.SkyCoord(ra=dsph_mw['ra']*u.deg, dec=dsph_mw['dec']*u.deg,  frame='icrs', distance=dsph_mw['distance']*u.kpc, radial_velocity=dsph_mw['vlos_systemic']*u.km/u.s, pm_ra_cosdec=dsph_mw['pmra']*u.mas/u.yr,pm_dec=dsph_mw['pmdec']*u.mas/u.yr)
+
+    fig = plt.figure(1,figsize=(16*1.2,6*1.2))
+    ax = fig.add_subplot(111, projection='mollweide')
+    cb = ax.scatter(c_dsph_mw.ra.wrap_at(180*u.deg).rad, c_dsph_mw.dec.rad  , c=c_dsph_mw.distance.value, label=r'${\rm Dwarf~MW}$', cmap='bwr', s=dsph_mw['mass_stellar']**2.5, zorder=10, ec='k')
+    plt.colorbar(cb)
+    ## colorbar is based on distance
+    ## size of points is based on stellar mass (mass-to-light ratio =2)
+
+    ## this labels the objects
+    texts = [plt.text(c_dsph_mw.ra.wrap_at(180*u.deg).rad[i], c_dsph_mw.dec.rad[i], r'${\rm '+dsph_mw['abbreviation'][i]+'}$', ha='center', va='center') for i in range(len(c_dsph_mw))]
+
+    adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey'))
+
+    ## this adds ra, dec=0 grey line
+    gal_long = np.arange(-180., 180., .1)
+    c_gc = coord.SkyCoord(l=gal_long*u.deg, b=np.zeros(len(gal_long))*u.deg,  frame='galactic')
+    temp = c_gc.transform_to('icrs')
+    ax.plot(temp.icrs.ra.wrap_at(180*u.deg).rad, temp.icrs.dec.rad  , '.', c='k', ms=.1, rasterized=True,zorder=1)
+
+    ax.grid(ls=':')
+
+    plt.tight_layout()
+    pdf.savefig()
+    plt.close()
+
+    print("figure 3 part 1, ra, dec version")
+
     ### Figure 3 part 2
     c_dsph_m31 = coord.SkyCoord(ra=dsph_m31['ra']*u.deg, dec=dsph_m31['dec']*u.deg,  frame='icrs', distance=dsph_m31['distance']*u.kpc)
     c_dsph_lf = coord.SkyCoord(ra=dsph_lf['ra']*u.deg, dec=dsph_lf['dec']*u.deg,  frame='icrs', distance=dsph_lf['distance']*u.kpc)
@@ -447,6 +476,35 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     plt.close()
 
     print("figure 3 finished")
+
+     ### Figure 3 part 1
+    c_dsph_mw = coord.SkyCoord(ra=gc_ambiguous['ra']*u.deg, dec=gc_ambiguous['dec']*u.deg,  frame='icrs', distance=gc_ambiguous['distance']*u.kpc)
+
+    fig = plt.figure(1,figsize=(16*1.2,6*1.2))
+    ax = fig.add_subplot(111, projection='mollweide')
+    cb = ax.scatter(c_dsph_mw.galactic.l.wrap_at(180*u.deg).rad, c_dsph_mw.galactic.b.rad  , c=c_dsph_mw.distance.value, label=r'${\rm Ambiguous}$', cmap='bwr', s=gc_ambiguous['mass_stellar']**2.5, zorder=10, ec='k')
+    plt.colorbar(cb)
+    ## colorbar is based on distance
+    ## size of points is based on stellar mass (mass-to-light ratio =2)
+
+    ## this labels the objects
+    texts = [plt.text(c_dsph_mw.galactic.l.wrap_at(180*u.deg).rad[i], c_dsph_mw.galactic.b.rad[i], r'${\rm '+gc_ambiguous['abbreviation'][i]+'}$', ha='center', va='center') for i in range(len(c_dsph_mw))]
+
+    adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey'))
+
+    ## this adds ra, dec=0 grey line
+    gal_long = np.arange(-180., 180., .1)
+    c_gc = coord.SkyCoord(ra=gal_long*u.deg, dec=np.zeros(len(gal_long))*u.deg,  frame='icrs')
+    temp = c_gc.transform_to('galactic')
+    ax.plot(temp.galactic.l.wrap_at(180*u.deg).rad, temp.galactic.b.rad  , '.', c='k', ms=.1, rasterized=True,zorder=1)
+
+    ax.grid(ls=':')
+
+    plt.tight_layout()
+    pdf.savefig()
+    plt.close()
+
+    print("GC ambiguous mollweide plot")
 
     ### Figure 4
 

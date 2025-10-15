@@ -11,3 +11,6 @@ name_discovery:
   other_name:
   - KMHK 145
   - SL 55
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host

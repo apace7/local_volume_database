@@ -15,6 +15,7 @@ name_discovery:
   ref_discovery:
   - Sitek2016AcA....66..255S
   - Torrealba2019MNRAS.484.2181T
+  abbreviation: DES5
 structure:
   ref_structure: Torrealba2019MNRAS.484.2181T
   rhalf: 0.18
