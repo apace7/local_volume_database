@@ -68,4 +68,4 @@ proper_motion:
   pmdec: -0.0742
   pmdec_em: 0.0191
   pmdec_ep: 0.0191
-  ref_proper_motion: CasettiDinescu2025arXiv250906215C
+  ref_proper_motion: CasettiDinescu2025ApJ...992...54C
