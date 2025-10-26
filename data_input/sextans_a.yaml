@@ -66,3 +66,8 @@ velocity:
 metallicity_isochrone:
   metallicity_isochrone: -1.85
   ref_metallicity_isochrone: McConnachie2006MNRAS.365.1263M
+gas_phase_metallicity:
+  gas_phase_metallicity: 7.54
+  gas_phase_metallicity_em: 0.06
+  gas_phase_metallicity_ep: 0.06
+  ref_gas_phase_metallicity: Kniazev2005AJ....130.1558K

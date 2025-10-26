@@ -88,7 +88,8 @@ Columns:
 * key: unique identifier for each system.  The yaml input files have the same name.
 * host: host [LVDB key] of system [MW, LMC, M31, etc]
 * confirmed_real: system has been confirmed with either deeper photometry, follow-up spectroscopy, proper motion, or other methods (not a chance alignment of stars).
-* confirmed_dwarf: (or confirmed_star_cluster) system has been confirmed to be dwarf galaxy (or star cluster) based on spectroscopy, and/or deeper photometry.
+* confirmed_galaxy: system has been confirmed to be galaxy based on spectroscopy, and/or deeper photometry. Input YAML key is labeled confirmed_dwarf
+* confirmed_star_cluster: system is confirmed to be a star cluster.
 * ra: right ascension ICRS J2000.0 [degree]
 * dec: declination ICRS J2000.0 [degree]
 * rhalf: projected (2D) major axis of the half-light radius (or plummer radius) in [arcmin]. Note that input yaml files can have arcsec or arcmin input units but the combined catalogs are in arcmin. 
@@ -189,7 +190,7 @@ Most keys are single entries, and several keys are lists (especially other_name,
 
   * **host** -- host galaxy of the system.
 
-  * **confirmed_dwarf** -- Integer that denotes whether the system is confirmed to be a dwarf galaxy (options = 0,1). 1 = confirmed dwarf galaxy.  
+  * **confirmed_dwarf** -- Integer that denotes whether the system is confirmed to be a dwarf galaxy or galaxy (options = 0,1). 1 = confirmed galaxy.  Catalog lists this column as confirmed_galaxy
 
   * **confirmed_star_cluster** -- Integer that denotes whether the system is confirmed to be a star cluster (options = 0,1).  1 = confirmed star cluster.  
 
@@ -384,6 +385,14 @@ Most keys are single entries, and several keys are lists (especially other_name,
   * **tau_90** -- time for 90 per cent of stellar mass has formed, quenching time [Gyr ago]
 
   * **ref_star_formation_history**
+
+* **gas_phase_metallicity** -- YAML collection. Gas phase metallicity, 12 + log(O/H)
+  
+  * **gas_phase_metallicity** -- gas phase metallicity on 12 + log(O/H) scale.
+
+  * **method** -- measurement method for gas phase metallicity.
+
+  * **ref_gas_phase_metallicity**
 
 Citations to the LVDB and Citations to the LVDB Input
 -----------------------------

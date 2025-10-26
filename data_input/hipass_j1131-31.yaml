@@ -50,3 +50,8 @@ flux_HI:
   vlos_systemic_HI_em: 1
   vlos_systemic_HI_ep: 1
   ref_flux_HI: Koribalski2018MNRAS.478.1611K
+gas_phase_metallicity:
+  gas_phase_metallicity: 6.99
+  gas_phase_metallicity_em: 0.06
+  gas_phase_metallicity_ep: 0.06
+  ref_gas_phase_metallicity: Kniazev2025A&A...698L..20K

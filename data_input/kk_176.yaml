@@ -9,7 +9,14 @@ name_discovery:
   name: KK 176
   other_name:
   - PGC 044681
+  - LEDA 44681
   name_lvg: KK176
+structure:
+  rhalf: 35.3
+  rhalf_em: 2.2
+  rhalf_ep: 2.2
+  spatial_units: arcsec
+  ref_structure: Dudley2025arXiv250915340D
 distance:
   distance_modulus: 29.31
   distance_modulus_em: 0.09
@@ -21,13 +28,24 @@ m_v:
   apparent_magnitude_b: 16.34
   ref_m_v: Karachentsev2013AJ....145..101K
 velocity:
-  vlos_systemic: 825.4
-  vlos_systemic_em: 0.5
-  vlos_systemic_ep: 0.5
-  ref_vlos: Huchtmeier2003A&A...401..483H
+  vlos_systemic: 827
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Kurapati2024MNRAS.533.1178K
 flux_HI:
-  flux_HI: 5.15
-  vlos_systemic_HI: 825.4
-  vlos_systemic_HI_em: 0.5
-  vlos_systemic_HI_ep: 0.5
-  ref_flux_HI: Huchtmeier2003A&A...401..483H
+  flux_HI: 4.49
+  flux_HI_em: 0.14
+  flux_HI_ep: 0.14
+  vlos_systemic_HI: 827
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: Kurapati2024MNRAS.533.1178K
+  HI_line_width_50: 38
+  HI_line_width_50_em: 2
+  HI_line_width_50_ep: 2
+  ref_HI_kinematics: Kurapati2024MNRAS.533.1178K
+gas_phase_metallicity:
+  gas_phase_metallicity: 7.28
+  gas_phase_metallicity_em: 0.05
+  gas_phase_metallicity_ep: 0.05
+  ref_gas_phase_metallicity: Kurapati2024MNRAS.533.1178K

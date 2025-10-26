@@ -231,3 +231,9 @@ star_formation_history:
   tau_90_em: 0
   tau_90_ep: 0
   ref_star_formation_history: ref
+gas_phase_metallicity:
+  gas_phase_metallicity: 0
+  gas_phase_metallicity_em: 0
+  gas_phase_metallicity_ep: 0
+  method: direct
+  ref_gas_phase_metallicity: ref

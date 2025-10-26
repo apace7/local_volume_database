@@ -47,3 +47,8 @@ star_formation_history:
   tau_90_em: 0.08
   tau_90_ep: 0.15
   ref_star_formation_history: McQuinn2024ApJ...976...60M
+gas_phase_metallicity:
+  gas_phase_metallicity: 7.17
+  gas_phase_metallicity_em: 0.04
+  gas_phase_metallicity_ep: 0.04
+  ref_gas_phase_metallicity: Skillman2013AJ....146....3S

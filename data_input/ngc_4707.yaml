@@ -1,0 +1,31 @@
+key: ngc_4707
+table: dwarf_local_field_distant
+location:
+  ra: 192.095417
+  dec: 51.164722
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: NGC4707
+  other_name:
+  - DDO150
+  - PGC043255
+  - UGC07971
+  name_lvg: NGC4707
+distance:
+  distance_modulus: 29.07
+  distance_modulus_em: 0.10
+  distance_modulus_ep: 0.10
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 12.66
+  ref_m_v: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 468
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 11.07
+  ref_flux_HI: Makarov2014A&A...570A..13M

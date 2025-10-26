@@ -61,3 +61,8 @@ velocity:
   vlos_systemic: 304.0
   vlos_systemic_em: 1.0
   vlos_systemic_ep: 1.0
+gas_phase_metallicity:
+  gas_phase_metallicity: 7.53
+  gas_phase_metallicity_em: 0.05
+  gas_phase_metallicity_ep: 0.05
+  ref_gas_phase_metallicity: Kniazev2005AJ....130.1558K
