@@ -44,14 +44,13 @@ metallicity_photometric:
   metallicity_photometric_sigma_ep: 0.12
   ref_metallicity_photometric: Fu2023ApJ...958..167F
 proper_motion:
-  pmdec: 0.887
-  pmdec_em: 0.072
-  pmdec_ep: 0.072
-  pmra: 1.027
-  pmra_em: 0.065
-  pmra_ep: 0.067
-  pmra_pmdec_corr: 0.026
-  ref_proper_motion: Pace2022ApJ...940..136P
+  pmra: 1.043
+  pmra_em: 0.029
+  pmra_ep: 0.029
+  pmdec: 0.879
+  pmdec_em: 0.028
+  pmdec_ep: 0.028
+  ref_proper_motion: Warfield2025arXiv251024849W
 structure:
   ellipticity: 0.23
   ellipticity_em: 0.15
