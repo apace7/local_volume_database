@@ -15,9 +15,9 @@ name_discovery:
   type: dSph  
 distance:
   distance_modulus: 20.333
-  distance_modulus_em: 0.07
-  distance_modulus_ep: 0.07
-  ref_distance: Torrealba2016MNRAS.459.2370T
+  distance_modulus_em: 0.068
+  distance_modulus_ep: 0.068
+  ref_distance: Vivas2020MNRAS.492.1061V
 flux_HI:
   flux_HI_ul: 0.91
   ref_flux_HI: Putman2021ApJ...913...53P
