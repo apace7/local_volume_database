@@ -1,0 +1,31 @@
+key: dw1259m1735
+table: dwarf_local_field_distant
+location:
+  ra: 194.9186
+  dec: -17.5966
+  ref_location: Li2025arXiv251101733L
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2025
+  host: ddo_161
+  name: dw1259m1735
+  ref_discovery:
+  - Li2025arXiv251101733L
+structure:
+  rhalf: 15.4
+  rhalf_em: 1.0
+  rhalf_ep: 1.0
+  spatial_units: arcsec
+  ref_structure: Li2025arXiv251101733L
+distance:
+  distance_modulus: 28.88
+  distance_modulus_em: 0.12
+  distance_modulus_ep: 0.13
+  distance_measurement_method: sbf
+  ref_distance: Li2025arXiv251101733L
+m_v:
+  apparent_magnitude_v: 17.28
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  ref_m_v: Li2025arXiv251101733L
