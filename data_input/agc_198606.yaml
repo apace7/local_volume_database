@@ -1,11 +1,26 @@
 key: agc_198606
-table: dwarf_local_field_distant
+table: candidate
 location:
   ra: 142.519635
   dec: 16.6511806
-  ref_location: Makarov2014A&A...570A..13M
+  ref_location: Janesh2015ApJ...811...35J
 name_discovery:
-  confirmed_dwarf: 1
+  confirmed_dwarf: 0
   confirmed_real: 0
   name: AGC 198606
   name_hyperleda: AGC198606
+  ref_discovery:
+  - Janesh2015ApJ...811...35J
+velocity:
+  vlos_systemic: 51
+  vlos_systemic_em: 3
+  vlos_systemic_ep: 3
+  ref_vlos: Janesh2015ApJ...811...35J
+flux_HI:
+  flux_HI: 17.5
+  ref_flux_HI: Janesh2015ApJ...811...35J
+distance:
+  distance_modulus: 22.89
+  distance_modulus_em: 0.20
+  distance_modulus_ep: 0.20
+  ref_distance: Janesh2015ApJ...811...35J

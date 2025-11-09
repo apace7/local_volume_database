@@ -1,0 +1,40 @@
+key: ugc_07950
+table: dwarf_local_field_distant
+location:
+  ra: 191.7344
+  dec: 51.6128
+  ref_location: Li2025arXiv250408030L
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_4707
+  name: UGC 7950
+  other_name:
+  - PGC043124
+  - HARO36
+  - dw1246p5136
+  name_lvg: UGC07950
+structure:
+  rhalf: 19.6
+  rhalf_em: 0.9
+  rhalf_ep: 0.9
+  ref_structure: Li2025arXiv250408030L
+distance:
+  distance_modulus: 29.24
+  distance_modulus_em: 0.28
+  distance_modulus_ep: 0.34
+  ref_distance: Li2025arXiv250408030L
+  distance_measurement_method: sbf
+m_v:
+  apparent_magnitude_v: 13.34
+  apparent_magnitude_v_em: 0.10
+  apparent_magnitude_v_ep: 0.10
+  ref_m_v: Li2025arXiv250408030L
+velocity:
+  vlos_systemic: 493
+  vlos_systemic_em: 20
+  vlos_systemic_ep: 20
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 5.86
+  ref_flux_HI: Makarov2014A&A...570A..13M
