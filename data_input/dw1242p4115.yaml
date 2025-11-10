@@ -1,0 +1,35 @@
+key: dw1242p4115
+table: dwarf_local_field_distant
+location:
+  ra: 190.5470
+  dec: 41.2525
+  ref_location: Li2025arXiv250408030L
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2009
+  host: ngc_4618
+  name: dw1242p4115
+  other_name:
+  - NGC 4625A
+  - N4625A
+  ref_discovery:
+  - GildePaz2005ApJ...627L..29G
+  - Karachentsev2015AstBu..70..379K
+  - Li2025arXiv250408030L
+structure:
+  rhalf: 12.8
+  rhalf_em: 1.1
+  rhalf_ep: 1.1
+  ref_structure: Li2025arXiv250408030L
+distance:
+  distance_modulus: 29.50
+  distance_modulus_em: 0.22
+  distance_modulus_ep: 0.20
+  ref_distance: Li2025arXiv250408030L
+  distance_measurement_method: sbf
+m_v:
+  apparent_magnitude_v: 17.93
+  apparent_magnitude_v_em: 0.10
+  apparent_magnitude_v_ep: 0.10
+  ref_m_v: Li2025arXiv250408030L

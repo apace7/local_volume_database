@@ -80,3 +80,8 @@ metallicity_isochrone:
   metallicity_isochrone_em: 0.5
   metallicity_isochrone_ep: 0.5
   ref_metallicity_isochrone: McConnachie2006MNRAS.365.1263M
+gas_phase_metallicity:
+  gas_phase_metallicity: 7.50
+  gas_phase_metallicity_em: 0.08
+  gas_phase_metallicity_ep: 0.08
+  ref_gas_phase_metallicity: Andrade2025A&A...699A.281A

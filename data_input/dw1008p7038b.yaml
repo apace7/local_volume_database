@@ -1,0 +1,30 @@
+key: dw1008p7038b
+table: dwarf_local_field_distant
+location:
+  ra: 152.2005
+  dec: 70.6456
+  ref_location: Li2025arXiv250408030L
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2009
+  host: ugc_05423
+  name: dw1008p7038b
+  ref_discovery:
+  - Li2025arXiv250408030L
+structure:
+  rhalf: 10.5
+  rhalf_em: 0.7
+  rhalf_ep: 0.7
+  ref_structure: Li2025arXiv250408030L
+distance:
+  distance_modulus: 30.13
+  distance_modulus_em: 0.25
+  distance_modulus_ep: 0.28
+  ref_distance: Li2025arXiv250408030L
+  distance_measurement_method: sbf
+m_v:
+  apparent_magnitude_v: 17.66
+  apparent_magnitude_v_em: 0.10
+  apparent_magnitude_v_ep: 0.10
+  ref_m_v: Li2025arXiv250408030L
