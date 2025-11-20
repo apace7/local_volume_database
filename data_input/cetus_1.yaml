@@ -20,7 +20,7 @@ distance:
   ref_distance: McConnachie2012AJ....144....4M
 flux_HI:
   flux_HI_ul: 0.0608
-  ref_flux_HI: Bennet2025arXiv250911299B
+  ref_flux_HI: Bennet2025ApJ...993..228B
 m_v:
   apparent_magnitude_v: 13.2
   apparent_magnitude_v_em: 0.2
@@ -71,4 +71,4 @@ proper_motion:
   pmdec: -0.0730
   pmdec_em: 0.0100
   pmdec_ep: 0.0100
-  ref_proper_motion: Bennet2025arXiv250911299B
+  ref_proper_motion: Bennet2025ApJ...993..228B

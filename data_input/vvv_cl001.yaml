@@ -42,3 +42,8 @@ velocity:
   vlos_systemic: -324.9
   vlos_systemic_em: 0.8
   vlos_systemic_ep: 0.8
+age:
+  age: 12.1
+  age_em: 1.2
+  age_ep: 1
+  ref_age: HaroMoya2025arXiv251113161H

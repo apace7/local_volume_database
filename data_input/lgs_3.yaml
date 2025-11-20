@@ -53,4 +53,4 @@ proper_motion:
   pmdec: 0.005
   pmdec_em: 0.0099
   pmdec_ep: 0.0099
-  ref_proper_motion: Bennet2025arXiv250911299B
+  ref_proper_motion: Bennet2025ApJ...993..228B

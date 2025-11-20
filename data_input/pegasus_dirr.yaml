@@ -42,7 +42,7 @@ proper_motion:
   pmdec: 0.0085
   pmdec_em: 0.0098
   pmdec_ep: 0.0098
-  ref_proper_motion: Bennet2025arXiv250911299B
+  ref_proper_motion: Bennet2025ApJ...993..228B
 structure:
   ellipticity: 0.56
   ellipticity_em: 0.05
