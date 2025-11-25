@@ -17,18 +17,24 @@ name_discovery:
   - Karachentseva1998A&AS..127..409K
   - Xu2025ApJ...982L..36X
 structure:
-  rhalf: 22
+  rhalf: 17.4
+  rhalf_em: 0.8
+  rhalf_ep: 0.8
+  ellipticity: 0.4
+  position_angle: 167
   spatial_units: arcsec
-  ref_structure: Xu2025ApJ...982L..36X
+  ref_structure: Bellazzini2025arXiv251117132B
 distance:
-  distance_modulus: 26.51
-  distance_modulus_em: 1.11
-  distance_modulus_ep: 1.34
-  distance_measurement_method: btfr
-  ref_distance: Xu2025ApJ...982L..36X
+  distance_modulus: 27.43
+  distance_modulus_em: 0.10
+  distance_modulus_ep: 0.12
+  distance_measurement_method: trgb
+  ref_distance: Bellazzini2025arXiv251117132B
 m_v:
-  apparent_magnitude_v: 17.06
-  ref_m_v: Xu2025ApJ...982L..36X
+  apparent_magnitude_v: 16.56
+  apparent_magnitude_v_em: 0.20
+  apparent_magnitude_v_ep: 0.20
+  ref_m_v: Bellazzini2025arXiv251117132B
 velocity:
   vlos_systemic: 127.5
   vlos_systemic_em: 0.2
