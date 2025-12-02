@@ -1,12 +1,18 @@
+key: ngc_6749
+table: gc_harris
+location:
+  ra: 286.314056
+  dec: 1.899756
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6749
+  host: mw
 distance:
   distance_modulus: 14.401
   distance_modulus_em: 0.062
   distance_modulus_ep: 0.061
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_6749
-location:
-  dec: 1.899756
-  ra: 286.314056
 m_v:
   apparent_magnitude_v: 6.28
   apparent_magnitude_v_em: 0.06
@@ -15,23 +21,17 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.6
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: NGC 6749
-  host: mw
 proper_motion:
-  pmdec: -6.0057
-  pmdec_em: 0.0274
-  pmdec_ep: 0.0274
-  pmra: -2.8293
-  pmra_em: 0.0276
-  pmra_ep: 0.0276
-  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+  pmra: -2.82
+  pmra_em: 0.008
+  pmra_ep: 0.008
+  pmdec: -5.99
+  pmdec_em: 0.008
+  pmdec_ep: 0.008
+  ref_proper_motion: Rosignoli2025arXiv251201530R
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.89
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -58.44
