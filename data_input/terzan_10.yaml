@@ -29,12 +29,12 @@ name_discovery:
   - Terzan1971A&A....12..477T
   host: mw
 proper_motion:
-  pmdec: -6.4384
-  pmdec_em: 0.0358
-  pmdec_ep: 0.0358
-  pmra: 2.5655
-  pmra_em: 0.039
-  pmra_ep: 0.039
+  pmra: -6.827
+  pmra_em: 0.059
+  pmra_ep: 0.059
+  pmdec: -2.588
+  pmdec_em: 0.050
+  pmdec_ep: 0.050
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

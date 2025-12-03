@@ -16,7 +16,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -1.09
   metallicity_spectroscopic_em: 0.06
   metallicity_spectroscopic_ep: 0.06
-  ref_metallicity_spectroscopic: Geisler2025arXiv250809970G
+  ref_metallicity_spectroscopic: Geisler2025A&A...703A.267G
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -26,12 +26,12 @@ name_discovery:
   - MWSC 2804
   host: mw
 proper_motion:
-  pmdec: -2.7911
-  pmdec_em: 0.0318
-  pmdec_ep: 0.0318
-  pmra: -3.7019
+  pmra: -3.702
   pmra_em: 0.032
   pmra_ep: 0.032
+  pmdec: -2.791
+  pmdec_em: 0.032
+  pmdec_ep: 0.032
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

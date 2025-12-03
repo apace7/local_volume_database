@@ -1,12 +1,18 @@
+key: ngc_6522
+table: gc_harris
+location:
+  ra: 270.891958
+  dec: -30.033974
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6522
+  host: mw  
 distance:
   distance_modulus: 14.315
   distance_modulus_em: 0.062
   distance_modulus_ep: 0.062
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_6522
-location:
-  dec: -30.033974
-  ra: 270.891958
 m_v:
   apparent_magnitude_v: 6.79
   apparent_magnitude_v_em: 0.03
@@ -15,23 +21,17 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.34
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: NGC 6522
-  host: mw
 proper_motion:
-  pmdec: -2.5885
-  pmdec_em: 0.0496
-  pmdec_ep: 0.0496
-  pmra: -6.8266
-  pmra_em: 0.0594
-  pmra_ep: 0.0594
+  pmra: 2.565
+  pmra_em: 0.037
+  pmra_ep: 0.037
+  pmdec: -6.438
+  pmdec_em: 0.035
+  pmdec_ep: 0.035
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.17
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: -15.23

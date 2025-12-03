@@ -16,7 +16,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -0.73
   metallicity_spectroscopic_em: 0.03
   metallicity_spectroscopic_ep: 0.03
-  ref_metallicity_spectroscopic: Geisler2025arXiv250809970G
+  ref_metallicity_spectroscopic: Geisler2025A&A...703A.267G
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -30,12 +30,12 @@ name_discovery:
   - Pismis1959BOTT....2r..37P
   host: mw
 proper_motion:
-  pmdec: -0.7551
-  pmdec_em: 0.0294
-  pmdec_ep: 0.0294
-  pmra: -5.9041
-  pmra_em: 0.0308
-  pmra_ep: 0.0308
+  pmra: -5.904
+  pmra_em: 0.031
+  pmra_ep: 0.031
+  pmdec: -0.755
+  pmdec_em: 0.029
+  pmdec_ep: 0.029
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

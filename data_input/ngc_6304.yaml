@@ -21,19 +21,19 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -0.49
   metallicity_spectroscopic_em: 0.06
   metallicity_spectroscopic_ep: 0.06
-  ref_metallicity_spectroscopic: Geisler2025arXiv250809970G
+  ref_metallicity_spectroscopic: Geisler2025A&A...703A.267G
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 6304
   host: mw
 proper_motion:
-  pmdec: -1.0878
-  pmdec_em: 0.0283
-  pmdec_ep: 0.0283
-  pmra: -4.07
-  pmra_em: 0.0285
-  pmra_ep: 0.0285
+  pmra: -4.070
+  pmra_em: 0.029
+  pmra_ep: 0.029
+  pmdec: -1.088
+  pmdec_em: 0.028
+  pmdec_ep: 0.028
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

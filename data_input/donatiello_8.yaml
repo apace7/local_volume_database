@@ -1,42 +1,51 @@
 key: donatiello_8
 table: dwarf_local_field_distant
 location:
-  ra: 10.14542
-  dec: -20.557
+  ra: 10.1454167
+  dec: -20.5571111
+  ref_location: Fielder2025arXiv251202118F
 name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 0
-  false_positive: 0
-  discovery_year: 2024
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2022
   host: ngc_0253
   name: Donatiello VIII
   ref_discovery:
+  - Zaritsky2022ApJS..261...11Z
   - MartinezDelgado2024arXiv240503769M
+  - Fielder2025arXiv251202118F
   abbreviation: 'Do VIII'
+  other_name:
+  - SMDG0040349-203322
+  - Cetus B
 structure:
-  rhalf: 24
-  rhalf_em: 2
-  rhalf_ep: 2
+  rhalf: 12.72
+  rhalf_em: 0.37
+  rhalf_ep: 0.37
   spatial_units: arcsec
-  ellipticity: 0.689
-  ellipticity_em: 0.009
-  ellipticity_ep: 0.009
-  position_angle: 12.9
-  position_angle_em: 0.8
-  position_angle_ep: 0.8
-  ref_structure: MartinezDelgado2024arXiv240503769M
+  ellipticity: 0.47
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  position_angle: 10.83
+  position_angle_em: 0.59
+  position_angle_ep: 0.59
+  ref_structure: Fielder2025arXiv251202118F
 distance:
-  distance_fixed_host: True
+  distance_modulus: 27.60
+  distance_modulus_em: 0.16
+  distance_modulus_ep: 0.16
+  distance_measurement_method: trgb
+  ref_distance: Fielder2025arXiv251202118F
 m_v:
-  apparent_magnitude_v: 18.96
-  apparent_magnitude_v_em: 0.05
-  apparent_magnitude_v_ep: 0.05
-  ref_m_v: MartinezDelgado2024arXiv240503769M
+  apparent_magnitude_v: 19.34
+  apparent_magnitude_v_em: 0.17
+  apparent_magnitude_v_ep: 0.17
+  ref_m_v: Fielder2025arXiv251202118F
 structure_sersic:
   n_sersic: 1.09
   n_sersic_em: 0.08
   n_sersic_ep: 0.08
-  rad_sersic: 24 # [arcsec]
+  rad_sersic: 24
   rad_sersic_em: 2
   rad_sersic_ep: 2
   spatial_units: arcsec
@@ -47,3 +56,6 @@ structure_sersic:
   position_angle_em: 0.8
   position_angle_ep: 0.8
   ref_structure_sersic: MartinezDelgado2024arXiv240503769M
+flux_HI:
+  flux_HI_ul: 0.57
+  ref_flux_HI: Fielder2025arXiv251202118F

@@ -22,14 +22,14 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -2.12
   metallicity_spectroscopic_em: 0.08
   metallicity_spectroscopic_ep: 0.08
-  ref_metallicity_spectroscopic: Geisler2025arXiv250809970G
+  ref_metallicity_spectroscopic: Geisler2025A&A...703A.267G
 proper_motion:
-  pmdec: -4.326
-  pmdec_em: 0.0275
-  pmdec_ep: 0.0275
-  pmra: 0.8703
+  pmra: 0.870
   pmra_em: 0.028
   pmra_ep: 0.028
+  pmdec: -4.326
+  pmdec_em: 0.028
+  pmdec_ep: 0.028
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

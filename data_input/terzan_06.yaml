@@ -40,11 +40,11 @@ metallicity_spectroscopic:
   ref_metallicity_spectroscopic: Fanelli2024A&A...688A.154F
 proper_motion:
   pmra: -4.979
-  pmra_em: 0.0482
-  pmra_ep: 0.0482
-  pmdec: -7.4313
-  pmdec_em: 0.0392
-  pmdec_ep: 0.0392
+  pmra_em: 0.048
+  pmra_ep: 0.048
+  pmdec: -7.431
+  pmdec_em: 0.039
+  pmdec_ep: 0.039
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Loriga2025A&A...695A.156L

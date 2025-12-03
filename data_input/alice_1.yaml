@@ -3,7 +3,7 @@ table: gc_ambiguous
 location:
   ra: 220.774
   dec: -28.028
-  ref_location: Popova2025arXiv250511120P
+  ref_location: Popova2025Ap.....68..327P
 name_discovery:
   confirmed_dwarf: 0
   confirmed_star_cluster: 0
@@ -12,18 +12,18 @@ name_discovery:
   host: mw
   name: Alice
   ref_discovery:
-  - Popova2025arXiv250511120P
+  - Popova2025Ap.....68..327P
   abbreviation: Ali1
 notes:
-  - Size is approximately 15 arcsec \citep{Popova2025arXiv250511120P}.
+  - Size is approximately 15 arcsec \citep{Popova2025Ap.....68..327P}.
 distance:
   distance_modulus: 19.35
   distance_modulus_em: 0.32
   distance_modulus_ep: 0.28
   distance_measurement_method: cmd
-  ref_distance: Popova2025arXiv250511120P
+  ref_distance: Popova2025Ap.....68..327P
 structure:
   rhalf: 0.45
   spatial_units: arcmin
-  ref_structure: Popova2025arXiv250511120P
+  ref_structure: Popova2025Ap.....68..327P
 

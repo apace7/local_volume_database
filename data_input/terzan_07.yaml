@@ -29,12 +29,13 @@ name_discovery:
   ref_discovery:
   - Terzan1968CRASB.267.1245T
 proper_motion:
+  pmra: -3.002
+  pmra_em: 0.029
+  pmra_ep: 0.029
   pmdec: -1.651
-  pmdec_em: 0.0287
-  pmdec_ep: 0.0287
-  pmra: -3.0018
-  pmra_em: 0.0286
-  pmra_ep: 0.0286
+  pmdec_em: 0.029
+  pmdec_ep: 0.029
+  
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
