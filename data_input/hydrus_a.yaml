@@ -17,7 +17,6 @@ structure:
   rhalf_em: 1.2
   rhalf_ep: 1.2
   spatial_units: arcsec
-  spatial_model: plummer, exponential, sersic, king, eff
   ellipticity: 0.15
   ellipticity_em: 0.03
   ellipticity_ep: 0.03
@@ -32,7 +31,7 @@ distance:
 m_v:
   apparent_magnitude_v: 18.26
   apparent_magnitude_v_em: 0.20
-  apparent_magnitude_v_ep: 02.0
+  apparent_magnitude_v_ep: 0.20
   ref_m_v: Fielder2025arXiv251202118F
 flux_HI:
   flux_HI_ul: 0.69

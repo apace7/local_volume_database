@@ -1,0 +1,43 @@
+key: leda_486718
+table: dwarf_local_field_distant
+location:
+  ra: 49.4090833
+  dec: -48.5065806
+  ref_location: Fielder2025arXiv251202118F
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1987
+  name: LEDA 486718
+  host: ngc_0253
+  ref_discovery:
+  - Arp1987cspg.book.....A
+  - Karachentsev2000A&AS..145..415K
+  other_name:
+  - AM0316-484
+structure:
+  rhalf: 12.14
+  rhalf_em: 0.14
+  rhalf_ep: 0.14
+  spatial_units: arcsec
+  ellipticity: 0.20
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  position_angle: 18.74
+  position_angle_em: 0.67
+  position_angle_ep: 0.67
+  ref_structure: Fielder2025arXiv251202118F
+distance:
+  distance_modulus: 28.41
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  distance_measurement_method: trgb
+  ref_distance: Fielder2025arXiv251202118F
+m_v:
+  apparent_magnitude_v: 16.79
+  apparent_magnitude_v_em: 0.14
+  apparent_magnitude_v_ep: 0.14
+  ref_m_v: Fielder2025arXiv251202118F
+flux_HI:
+  flux_HI_ul: 0.70
+  ref_flux_HI: Fielder2025arXiv251202118F
