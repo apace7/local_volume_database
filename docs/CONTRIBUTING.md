@@ -1,15 +1,8 @@
-# Contributing Guide
+# Contributions, Support, and Issues
 
-The package is built as a set of yaml files (1 per object) that are combined into a series of tables.  
-There are 6 tables created directly from the yaml file:
-- dwarf_mw
-- dwarf_m31
-- dwarf_local_field
-- gc_ufsc
-- gc_disk
-- gc_harris
+Please report any bugs, issues, or suggestions by opening a ['GitHub issue'](https://github.com/apace7/local_volume_database/issues/new). Generally, questions and comments will lead to more comprehensive documentation and a better catalog.
 
-A 7th table is created that is the combined table of `dwarf_mw` `dwarf_m31` and `dwarf_local_field`  
-The `table` entry in the yaml file sets which table the object goes into. 
+For contributions, please fork the repository and submit a pull request. Contributions of all types are welcome. Expanding the LVDB with new measurements, new types of measurements, and new systems will make the LVDB more useful for the community.
+For more details, see the [`contributing section on readthedocs`](https://local-volume-database.readthedocs.io/en/latest/contributing.html).
 
-Contributions of updates to yaml file, new yaml file (new objects), and code updates are welcome.
+

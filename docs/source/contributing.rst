@@ -3,6 +3,8 @@ How to Contribute to the Local Volume Database
 
 Community contributions to the local_volume_database are welcome. Some potential contributions include: adding new measurements, updating current systems, adding new systems (both newly discovered and more distant), and/or new properties of current systems. 
 
+For any contributions, fork the GitHub and submit a pull request.
+
 Example: Add or Update a Measurement
 ------------------------------------
 
@@ -98,10 +100,9 @@ Note that the ``overview_plots.pdf`` is not saved in the GitHub and  ``lvdb_tabl
 Some Ideas for Contributions 
 ---------------------------------------
 
-As stated earlier, community contributions are welcome and encouraged.  
-Here is a short list of items that generally focus on expanding the scope of the database.  
-The GitHub issues are another list of potential contributions.
-Some of these items have YAML keys that exist but are generally empty.
+Community contributions are welcome and encouraged.  
+
+Here is a short list of items that generally focus on expanding the scope of the database: 
 
 * Include gas kinematic properties. For example, peak rotation velocity and gas velocity dispersion.
 * Statistics on RRL or other variable/rare stars in dwarf galaxies.
@@ -113,3 +114,4 @@ Some of these items have YAML keys that exist but are generally empty.
 * Complete dwarf galaxy entries for systems beyond 3 Mpc. 
 * Complete dwarf galaxy globular cluster systems and properties. 
 
+Existing GitHub issues are another list of potential contributions.
