@@ -12,14 +12,14 @@ name_discovery:
   - PGC047073
   - ESO444-034
 structure:
-  rhalf: 19.60
-  rhalf_em: 0.45
-  rhalf_ep: 0.45
+  rhalf: 19.6
+  rhalf_em: 0.4
+  rhalf_ep: 0.4
   spatial_units: arcsec
   spatial_model: sersic
   ellipticity: 0.40
   position_angle: 333
-  ref_structure: Li2025arXiv250104943L
+  ref_structure: Li2026ApJS..282...16L
 distance:
   distance_modulus: 28.57
   distance_modulus_em: 0.03

@@ -33,11 +33,11 @@ flux_HI:
   vlos_systemic_HI_ep: 0.5
   ref_flux_HI: Huchtmeier2003A&A...401..483H
 structure:
-  rhalf: 42.36
-  rhalf_em: 3.48
-  rhalf_ep: 3.48
+  rhalf: 42.4
+  rhalf_em: 3.5
+  rhalf_ep: 3.5
   spatial_units: arcsec
   spatial_model: sersic
   ellipticity: 0.29
   position_angle: 90
-  ref_structure: Li2025arXiv250104943L
+  ref_structure: Li2026ApJS..282...16L

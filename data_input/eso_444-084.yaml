@@ -11,14 +11,14 @@ name_discovery:
   other_name:
   - PGC048111
 structure:
-  rhalf: 31.77
-  rhalf_em: 2.04
-  rhalf_ep: 2.04
+  rhalf: 31.8
+  rhalf_em: 2.0
+  rhalf_ep: 2.0
   spatial_units: arcsec
   spatial_model: sersic
   ellipticity: 0.30
   position_angle: 310
-  ref_structure: Li2025arXiv250104943L
+  ref_structure: Li2026ApJS..282...16L
 distance:
   distance_modulus: 28.32 
   distance_modulus_em: 0.19

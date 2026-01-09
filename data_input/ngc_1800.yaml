@@ -12,14 +12,14 @@ name_discovery:
   - ESO 422-030
   name_lvg: NGC1800
 structure:
-  rhalf: 22.45
-  rhalf_em: 1.00
-  rhalf_ep: 1.00
+  rhalf: 22.4
+  rhalf_em: 1.0
+  rhalf_ep: 1.0
   spatial_units: arcsec
   spatial_model: sersic
   ellipticity: 0.29
   position_angle: 107
-  ref_structure: Li2025arXiv250104943L
+  ref_structure: Li2026ApJS..282...16L
 distance:
   distance_modulus: 29.52
   ref_distance: Karachentsev2013AJ....145..101K
