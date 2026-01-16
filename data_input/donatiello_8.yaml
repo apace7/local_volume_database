@@ -12,7 +12,7 @@ name_discovery:
   name: Donatiello VIII
   ref_discovery:
   - Zaritsky2022ApJS..261...11Z
-  - MartinezDelgado2024arXiv240503769M
+  - MartinezDelgado2026A&A...705A..77M
   - Fielder2025arXiv251202118F
   abbreviation: 'Do VIII'
   other_name:
@@ -55,7 +55,7 @@ structure_sersic:
   position_angle: 12.9
   position_angle_em: 0.8
   position_angle_ep: 0.8
-  ref_structure_sersic: MartinezDelgado2024arXiv240503769M
+  ref_structure_sersic: MartinezDelgado2026A&A...705A..77M
 flux_HI:
   flux_HI_ul: 0.57
   ref_flux_HI: Fielder2025arXiv251202118F

@@ -1,8 +1,8 @@
 key: donatiello_7
 table: dwarf_local_field_distant
 location:
-  ra: 9.395083  # [deg]
-  dec: -29.4791 # [deg]
+  ra: 9.395083
+  dec: -29.4791
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0
@@ -11,7 +11,7 @@ name_discovery:
   host: ngc_0253
   name: Donatiello VII
   ref_discovery:
-  - MartinezDelgado2024arXiv240503769M
+  - MartinezDelgado2026A&A...705A..77M
   abbreviation: 'Do VII'
 structure:
   rhalf: 7.6
@@ -24,19 +24,19 @@ structure:
   position_angle: -57
   position_angle_em: 2
   position_angle_ep: 2
-  ref_structure: MartinezDelgado2024arXiv240503769M
+  ref_structure: MartinezDelgado2026A&A...705A..77M
 distance:
   distance_fixed_host: True
 m_v:
   apparent_magnitude_v: 20.44
   apparent_magnitude_v_em: 0.02
   apparent_magnitude_v_ep: 0.02
-  ref_m_v: MartinezDelgado2024arXiv240503769M
+  ref_m_v: MartinezDelgado2026A&A...705A..77M
 structure_sersic:
   n_sersic: 0.43
   n_sersic_em: 0.03
   n_sersic_ep: 0.03
-  rad_sersic: 7.6 # [arcsec]
+  rad_sersic: 7.6
   rad_sersic_em: 0.3
   rad_sersic_ep: 0.3
   spatial_units: arcsec
@@ -46,4 +46,4 @@ structure_sersic:
   position_angle: -57
   position_angle_em: 2
   position_angle_ep: 2
-  ref_structure_sersic: MartinezDelgado2024arXiv240503769M
+  ref_structure_sersic: MartinezDelgado2026A&A...705A..77M
