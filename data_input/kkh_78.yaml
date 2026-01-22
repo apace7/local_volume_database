@@ -1,19 +1,51 @@
 key: kkh_78
 table: dwarf_local_field_distant
 location:
-  ra: 184.435417
-  dec: 33.345278
+  ra: 184.4369
+  ra_em: 0.0004
+  ra_ep: 0.0004
+  dec: 33.3457
+  dec_em: 0.0003
+  dec_ep: 0.0003
+  ref_location: Hai2026arXiv260114248H
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   name: KKH 78
   other_name:
-  - PGC2 807147
+  - PGC 2807147
+  - BTS 113
+  - SMDG J1217443+332043
+  - Canes Venatici C (CVn C)
   name_lvg: KKH78
+  ref_discovery:
+  - Binggeli1990A&A...228...42B
+  - Karachentsev2001A&A...366..428K
+  - Karunakaran2024ApJ...975...91K
+structure:
+  rhalf: 26.6
+  rhalf_em: 1.7
+  rhalf_ep: 2.0
+  spatial_units: arcsec
+  spatial_model: sersic
+  ellipticity: 0.1707
+  ellipticity_em: 0.0010
+  ellipticity_ep: 0.0008
+  position_angle: -81
+  position_angle_em: 4
+  position_angle_ep: 5
+  ref_structure: Hai2026arXiv260114248H
 distance:
-  distance_modulus: 28.36
-  ref_distance: Karachentsev2013AJ....145..101K
+  distance_modulus: 29.63
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.12
+  distance_measurement_method: trgb
+  ref_distance: Hai2026arXiv260114248H
 m_v:
-  apparent_magnitude_v: 17.33
-  apparent_magnitude_b: 17.64
-  ref_m_v: Karachentsev2013AJ....145..101K
+  apparent_magnitude_v: 18.43
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.8
+  ref_m_v: Hai2026arXiv260114248H
+flux_HI:
+  flux_HI_ul: 0.09
+  ref_flux_HI: Hai2026arXiv260114248H
