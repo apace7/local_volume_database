@@ -46,3 +46,8 @@ velocity:
   vlos_systemic: -184.72
   vlos_systemic_em: 1.12
   vlos_systemic_ep: 1.12
+age:
+  age: 13.56
+  age_em: 0.75
+  age_ep: 0.85
+  ref_age: Ortolani2026arXiv260118567O
