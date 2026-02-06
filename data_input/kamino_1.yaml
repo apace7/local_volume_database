@@ -7,14 +7,14 @@ location:
   ra_ep: 0.00833
   dec_em: 0.00028
   dec_ep: 0.00028
-  ref_location: MutluPakdil2025arXiv250916307M
+  ref_location: MutluPakdil2026ApJ...997..271M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2025
   name: Kamino
   ref_discovery:
-  - MutluPakdil2025arXiv250916307M
+  - MutluPakdil2026ApJ...997..271M
 structure:
   rhalf: 19
   rhalf_em: 1
@@ -27,23 +27,23 @@ structure:
   position_angle: 74
   position_angle_em: 3
   position_angle_ep: 3
-  ref_structure: MutluPakdil2025arXiv250916307M
+  ref_structure: MutluPakdil2026ApJ...997..271M
 distance:
   distance_modulus: 28.88
   distance_modulus_em: 0.09
   distance_modulus_ep: 0.09
   distance_measurement_method: trgb
-  ref_distance: MutluPakdil2025arXiv250916307M
+  ref_distance: MutluPakdil2026ApJ...997..271M
 m_v:
   apparent_magnitude_v: 16.86
   apparent_magnitude_v_em: 0.12
   apparent_magnitude_v_ep: 0.12
-  ref_m_v: MutluPakdil2025arXiv250916307M
+  ref_m_v: MutluPakdil2026ApJ...997..271M
 velocity:
   vlos_systemic: 526
   vlos_systemic_em: 21
   vlos_systemic_ep: 21
-  ref_vlos: MutluPakdil2025arXiv250916307M
+  ref_vlos: MutluPakdil2026ApJ...997..271M
 flux_HI:
   flux_HI_ul: 2.38
-  ref_flux_HI: MutluPakdil2025arXiv250916307M
+  ref_flux_HI: MutluPakdil2026ApJ...997..271M

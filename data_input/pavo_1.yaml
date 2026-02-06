@@ -17,17 +17,17 @@ location:
   ra_ep: 0.00833
   dec_em: 0.00028
   dec_ep: 0.00028
-  ref_location: MutluPakdil2025arXiv250916307M
+  ref_location: MutluPakdil2026ApJ...997..271M
 distance:
   distance_modulus: 26.67
   distance_modulus_em: 0.08
   distance_modulus_ep: 0.08
-  ref_distance: MutluPakdil2025arXiv250916307M
+  ref_distance: MutluPakdil2026ApJ...997..271M
 m_v:
   apparent_magnitude_v: 16.05
   apparent_magnitude_v_em: 0.08
   apparent_magnitude_v_ep: 0.08
-  ref_m_v: MutluPakdil2025arXiv250916307M
+  ref_m_v: MutluPakdil2026ApJ...997..271M
 structure:
   rhalf: 49
   rhalf_em: 2
@@ -40,7 +40,7 @@ structure:
   position_angle: 137
   position_angle_em: 1
   position_angle_ep: 1
-  ref_structure: MutluPakdil2025arXiv250916307M
+  ref_structure: MutluPakdil2026ApJ...997..271M
 velocity:
   vlos_systemic: 223.7
   vlos_systemic_em: 3.6
