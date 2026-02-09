@@ -33,7 +33,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma: 0.28
   metallicity_spectroscopic_sigma_em: 0.03
   metallicity_spectroscopic_sigma_ep: 0.03
-  ref_metallicity_spectroscopic: Sandford2025arXiv250902546S
+  ref_metallicity_spectroscopic: Sandford2026ApJ...998...47S
 proper_motion:
   pmdec: -1.068
   pmdec_em: 0.013
@@ -71,7 +71,7 @@ structure_sersic:
   rad_sersic_ep: 0.27
   ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref_vlos: Sandford2025arXiv250902546S
+  ref_vlos: Sandford2026ApJ...998...47S
   vlos_sigma: 4.0
   vlos_sigma_em: 0.3
   vlos_sigma_ep: 0.4

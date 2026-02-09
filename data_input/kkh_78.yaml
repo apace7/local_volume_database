@@ -7,7 +7,7 @@ location:
   dec: 33.3457
   dec_em: 0.0003
   dec_ep: 0.0003
-  ref_location: Hai2026arXiv260114248H
+  ref_location: Hai2026ApJ...998...20H
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -34,18 +34,18 @@ structure:
   position_angle: -81
   position_angle_em: 4
   position_angle_ep: 5
-  ref_structure: Hai2026arXiv260114248H
+  ref_structure: Hai2026ApJ...998...20H
 distance:
   distance_modulus: 29.63
   distance_modulus_em: 0.08
   distance_modulus_ep: 0.12
   distance_measurement_method: trgb
-  ref_distance: Hai2026arXiv260114248H
+  ref_distance: Hai2026ApJ...998...20H
 m_v:
   apparent_magnitude_v: 18.43
   apparent_magnitude_v_em: 0.5
   apparent_magnitude_v_ep: 0.8
-  ref_m_v: Hai2026arXiv260114248H
+  ref_m_v: Hai2026ApJ...998...20H
 flux_HI:
   flux_HI_ul: 0.09
-  ref_flux_HI: Hai2026arXiv260114248H
+  ref_flux_HI: Hai2026ApJ...998...20H

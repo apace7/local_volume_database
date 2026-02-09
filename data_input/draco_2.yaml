@@ -50,7 +50,7 @@ proper_motion:
   pmdec: 0.879
   pmdec_em: 0.028
   pmdec_ep: 0.028
-  ref_proper_motion: Warfield2025arXiv251024849W
+  ref_proper_motion: Warfield2026ApJ...998....3W
 structure:
   ellipticity: 0.23
   ellipticity_em: 0.15
