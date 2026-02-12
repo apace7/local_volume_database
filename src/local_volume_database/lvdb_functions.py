@@ -427,9 +427,17 @@ def add_timescales(table_input):
     return table_input
 
 def plot_property_collection(key, property_to_examine, collected_data = pm_data,  add=[], **kwargs):
+    """
+    This is a generic version of `plot_proper_motion_galaxy_3panel` that compares collections of individual measurements. The main collections of the LVDB are proper motion measurements and J-factors. 
+    input:
+    key                     LVDB key for system
+    property_to_examine     property to compare (e.g., pmra)
+    collected_data          structure with data collection
+    add                     "new" measurement to compare to the collection, not implemented yet
+    """
     collected_data_key = collected_data[collected_data['key']==key]
-    name_option = kwargs.get('name_option', 'ref_lvdb')
-    notes = kwargs.get('notes', 'notes')
+    name_option = kwargs.get('name_option', 'ref_cite')
+    notes = kwargs.get('notes', 'comments')
     
     ul_option = kwargs.get('ul_option', False)
     save_file_name = kwargs.get('save_file_name', '')
