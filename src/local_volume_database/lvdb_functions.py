@@ -212,7 +212,7 @@ def plot_proper_motion_galaxy_3panel(key, pm_overview = pm_data,  add=[], **kwar
         fig, ax = plt.subplots(1,2,figsize=(12,5))
 
     pm_overview2 = pm_overview[pm_overview['key']==key]
-    print("number of measurements and mehtods:",len(pm_overview2), Counter(pm_overview2['method']))
+    print("number of measurements and methods:",len(pm_overview2), Counter(pm_overview2['method']))
     print("reference", "method", 'pmra', 'pmra_em', 'pmra_ep', 'pmdec', 'pmdec_em', 'pmdec_ep')
     print_pm = kwargs.get('print_pm',True)
     if print_pm:
@@ -425,3 +425,49 @@ def add_timescales(table_input):
     table_input['time_relax_dynamical_errani'] = np.sqrt(2./3./np.pi/4.493e-6) * (10**table_input['mass_dynamical_wolf'] * table_input['rhalf_sph_physical']/1000.)**1.5 * table_input['number_stellar']**(-1) * (average_mass_of_star)**(-2) * (8.2 - 1.9 )**(-1)
 
     return table_input
+
+def plot_property_collection(key, property_to_examine, collected_data = pm_data,  add=[], **kwargs):
+    collected_data_key = collected_data[collected_data['key']==key]
+    name_option = kwargs.get('name_option', 'ref_lvdb')
+    notes = kwargs.get('notes', 'notes')
+    
+    ul_option = kwargs.get('ul_option', False)
+    save_file_name = kwargs.get('save_file_name', '')
+    
+    print(key, len(collected_data_key), property_to_examine)
+    print("number of measurements and methods:",len(collected_data_key), )
+    print("reference", "method", 'pmra', 'pmra_em', 'pmra_ep', 'pmdec', 'pmdec_em', 'pmdec_ep')
+    
+    print_measurements = kwargs.get('print_measurements',True)
+    if print_measurements:
+        for kk in range(len(collected_data_key)):
+            if ul_option == False:
+                print(collected_data_key[name_option][kk], collected_data_key['method'][kk], collected_data_key[property_to_examine][kk], collected_data_key[property_to_examine+'_em'][kk],collected_data_key[property_to_examine+'_ep'][kk],collected_data_key[notes][kk], )
+            else:
+                print(collected_data_key[name_option][kk], collected_data_key['method'][kk], collected_data_key[property_to_examine][kk], collected_data_key[property_to_examine+'_em'][kk],collected_data_key[property_to_examine+'_ep'][kk],collected_data_key[property_to_examine+'_ul'][kk],collected_data_key[notes][kk], )
+    
+    keep = np.zeros(len(collected_data_key), dtype=bool)
+    exclude = kwargs.get('exclude', [])
+    for i in range(len(collected_data_key)):
+        if collected_data_key[name_option][i] in exclude:
+            keep[i]=False
+        else:
+            keep[i]=True
+    print("excluded measurements:",len(collected_data_key)-np.sum(keep), len(exclude))
+    collected_data_key = collected_data_key[keep]
+    
+    for kk in range(len(collected_data_key)):
+        collected_data_key[name_option][kk] = collected_data_key[name_option][kk].replace('&', '\string&')
+    
+    fig, ax = plt.subplots(1,1,figsize=(5,len(collected_data_key)))
+    for kk in range(len(collected_data_key)):
+        if np.ma.is_masked(collected_data_key[property_to_examine][kk])==True and ul_option==True:
+            ax.errorbar(collected_data_key[property_to_examine+'_ul'][kk], collected_data_key[name_option][kk], fmt='o', xerr=1, xuplims=True)
+        else:
+            ax.errorbar(collected_data_key[property_to_examine][kk], collected_data_key[name_option][kk], fmt='o', xerr=[[collected_data_key[property_to_examine + '_em'][kk]], [collected_data_key[property_to_examine + '_ep'][kk]]])
+       
+    plt.tight_layout()
+    if len(save_file_name)>0:
+        plt.savefig(save_file_name)
+        
+    plt.show()
