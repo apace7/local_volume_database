@@ -512,7 +512,7 @@ leo_4,2024A&A...687A.212J,Julio2024A&A...687A.212J,-0.1921,0.0514,0.0514,-0.0686
 leo_5,2024A&A...687A.212J,Julio2024A&A...687A.212J,0.1186,0.1943,0.1943,-0.1183,0.1704,0.1704,,HST,Julio et al. 2024,3 year baseline
 andromeda_03,2024ApJ...975..138C,CasettiDinescu2024ApJ...975..138C,-0.0105,0.0125,0.0125,0.0475,0.0125,0.0125,,HST,Casetti-Dinescu et al. 2024,
 ngc_6397,2024A&A...692A..96L,Libralato2024A&A...692A..96L,3.271,0.003,0.003,-17.644,0.003,0.003,,Euclid + Gaia,Libralato et al. 2024,
-aquarius_3,2025ApJ...979..164C,Cerny2025ApJ...979..164C,1.01,0.25,0.26,-0.11,0.19,0.19,0.42,GAIA_EDR3,Cerny et al. 2025,
+aquarius_3,2025ApJ...979..164C,Cerny2025ApJ...979..164C,1.01,0.25,0.25,-0.1,0.2,0.2,0.42,GAIA_EDR3,Cerny et al. 2025,
 leo_6,2025ApJ...979..176T,Tan2025ApJ...979..176T,-0.06,0.2,0.18,-0.22,0.17,0.22,0.025,GAIA_EDR3,Tan et al. 2025,
 2ms_gc02,2025A&A...695A..47A,AlonsoGarcia2025A&A...695A..47A,4.2,0.4,0.4,-4.6,0.4,0.4,,VVV,Alonso-Garcia et al. 2025,
 uks_1,2021MNRAS.505.5978V,Vasiliev2021MNRAS.505.5978V,-2.023,0.107,0.107,-2.76,0.069,0.069,-0.24,GAIA_EDR3,Vasiliev & Baumgardt 2021,
@@ -560,3 +560,7 @@ lmc_gc-ngc_2005,2025A&A...704A.257N,Niederhofer2025A&A...704A.257N,1.847,0.038,0
 lmc_gc-ngc_2210,2025A&A...704A.257N,Niederhofer2025A&A...704A.257N,1.533,0.038,0.038,1.303,0.033,0.033,,HST,Niederhofer et al. 2025,
 lmc_gc-ngc_2257,2025A&A...704A.257N,Niederhofer2025A&A...704A.257N,1.467,0.036,0.036,0.97,0.041,0.041,,HST,Niederhofer et al. 2025,
 lmc_gc-reticulum_1,2025A&A...704A.257N,Niederhofer2025A&A...704A.257N,1.917,0.059,0.059,-0.3,0.059,0.059,,HST,Niederhofer et al. 2025,
+draco_2,2026ApJ...998....3W,Warfield2026ApJ...998....3W,0.994,0.04,0.04,0.897,0.044,0.044,,HST,Warfield et al. 2026,B3PM
+draco_2,2026ApJ...998....3W,Warfield2026ApJ...998....3W,1.001,0.052,0.052,0.858,0.09,0.09,,HST,Warfield et al. 2026,HubPUG; Gaia
+draco_2,2026ApJ...998....3W,Warfield2026ApJ...998....3W,1.043,0.029,0.029,0.879,0.028,0.028,,HST,Warfield et al. 2026,HubPUG; Galaxies
+bootes_1,2026ApJ...998...47S,Sandford2026ApJ...998...47S,-0.38,0.02,0.02,-1.08,0.01,0.01,-0.08,GAIA_EDR3,Sandford et al. 2026,

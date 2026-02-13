@@ -50,10 +50,10 @@ m_v:
 proper_motion:
   pmra: 1.01
   pmra_em: 0.25
-  pmra_ep: 0.26
-  pmdec: -0.11
-  pmdec_em: 0.19
-  pmdec_ep: 0.19
+  pmra_ep: 0.25
+  pmdec: -0.10
+  pmdec_em: 0.20
+  pmdec_ep: 0.20
   pmra_pmdec_corr: 0.42
   ref_proper_motion: Cerny2025ApJ...979..164C
 metallicity_spectroscopic:
