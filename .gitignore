@@ -24,6 +24,7 @@ data/*.fits
 data/candidate.csv
 data/misc_host.csv
 data/comb_all.csv
+data/comb_all.ecsv
 
 # Distribution / packaging
 .Python

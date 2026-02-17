@@ -519,7 +519,29 @@ print(Counter(comb_all['table']))
 
 lvdb.add_column(comb_all, 'name_discovery', 'confirmed_star_cluster', col_type='int')
 
+def add_unts():
+    unit_deg = ['ra', 'dec', 'position_angle', 'position_angle_em', 'position_angle_ep', 'll', 'bb',]
+    unit_arcmin = ['rhalf', 'rhalf_em', 'rhalf_ep', 'rcore', 'rcore_em', 'rcore_ep', 'rking', 'rking_em', 'rking_ep',  'rad_sersic', 'rad_sersic_em', 'rad_sersic_ep']
+    unit_mag = ['distance_modulus', 'distance_modulus_em', 'distance_modulus_ep', 'apparent_magnitude_v', 'apparent_magnitude_v_em', 'apparent_magnitude_v_ep', 'M_V', 'M_V_em', 'M_V_ep']
+    unit_km_s = ['vlos_systemic', 'vlos_systemic_em', 'vlos_systemic_ep', 'vlos_sigma', 'vlos_sigma_em', 'vlos_sigma_ep', 'vlos_sigma_ul', 'velocity_gsr', 'velocity_lg']
+    unit_mas_yr = ['pmra', 'pmra_em', 'pmra_ep', 'pmdec', 'pmdec_em', 'pmdec_ep',]
+    # unit_dex = ['metallicity_spectroscopic', 'metallicity_spectroscopic_em', 'metallicity_spectroscopic_ep', 'metallicity_spectroscopic_sigma', 'metallicity_spectroscopic_sigma_em', 'metallicity_spectroscopic_sigma_ep', 'metallicity_spectroscopic_sigma_ul', 'metallicity_isochrone', 'metallicity_isochrone_em', 'metallicity_isochrone_ep', 'metallicity_photometric', 'metallicity_photometric_em', 'metallicity_photometric_ep', 'metallicity_photometric_sigma', 'metallicity_photometric_sigma_em', 'metallicity_photometric_sigma_ep', 'metallicity_photometric_sigma_ul', 'metallicity', 'metallicity_em', 'metallicity_ep']
+    unit_dex = []
+    unit_kpc = ['distance', 'distance_em', 'distance_ep', 'distance_gc', 'distance_m31', 'distance_lg', 'distance_host','sg_xx', 'sg_yy', 'sg_zz']
+    unit_mpc = []
+    unit_pc = ['rhalf_physical', 'rhalf_physical_em', 'rhalf_physical_ep', 'rhalf_sph_physical', 'rhalf_sph_physical_em', 'rhalf_sph_physical_ep',]
+    unit_mag_masarc = [ 'surface_brightness_rhalf']
+    unit_gyr = ['age', 'age_em', 'age_ep']
+    unit_flux = ['flux_HI', 'flux_HI_em', 'flux_HI_ep', 'flux_HI_ul']
+    unit_msun = ['mass_stellar',  'mass_HI', 'mass_HI_ul',  'mass_dynamical_wolf', 'mass_dynamical_wolf_em', 'mass_dynamical_wolf_ep', 'mass_dynamical_wolf_ul', ]
+    for col, unit in zip([unit_deg,unit_arcmin, unit_mag, unit_km_s, unit_mas_yr, unit_dex, unit_kpc, unit_mpc, unit_pc, unit_mag_masarc, unit_gyr, unit_flux, unit_msun], [u.deg, u.arcmin, u.mag, u.km/u.s, u.mas/u.yr, u.dex, u.kpc, u.mpc, u.pc, u.mag/u.arcsec/u.arcsec, u.Gyr, u.Jy*u.km/u.s, u.dex( u.M_sun)]):
+        for i in col:
+            comb_all[i].unit=  unit
+
+add_unts()
+
 comb_all.write('data/comb_all.csv', format='csv', overwrite=True)
+comb_all.write('data/comb_all.ecsv',  overwrite=True)
 comb_all.write('data/comb_all.fits', format='fits', overwrite=True)
 
 print()
