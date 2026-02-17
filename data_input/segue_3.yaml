@@ -24,7 +24,7 @@ distance:
 m_v:
   apparent_magnitude_v: 16.08
   apparent_magnitude_v_em: 0.78
-  apparent_magnitude_v_ep: 0.078
+  apparent_magnitude_v_ep: 0.78
   ref_m_v: Fadely2011AJ....142...88F
 proper_motion:
   pmdec: -1.667
