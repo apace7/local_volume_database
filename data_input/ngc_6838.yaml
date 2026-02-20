@@ -1,3 +1,15 @@
+key: ngc_6838
+table: gc_harris
+location:
+  ra: 298.443726
+  dec: 18.779194
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6838
+  other_name:
+  - M71
+  host: mw
 age:
   age: 12.4
   age_em: 0.55
@@ -8,42 +20,34 @@ distance:
   distance_modulus_em: 0.027
   distance_modulus_ep: 0.027
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_6838
-location:
-  dec: 18.779194
-  ra: 298.443726
 m_v:
   apparent_magnitude_v: 6.39
   apparent_magnitude_v_em: 0.03
   apparent_magnitude_v_ep: 0.03
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -0.78
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: NGC 6838
-  other_name:
-  - M71
-  host: mw
+  metallicity_spectroscopic: -0.73
+  metallicity_spectroscopic_em: 0.05
+  metallicity_spectroscopic_ep: 0.05
+  metallicity_spectroscopic_sigma_ul: 0.13
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
 proper_motion:
-  pmdec: -2.6559
-  pmdec_em: 0.0244
-  pmdec_ep: 0.0244
-  pmra: -3.4161
-  pmra_em: 0.0245
-  pmra_ep: 0.0245
+  pmra: -3.416
+  pmra_em: 0.025
+  pmra_ep: 0.025
+  pmdec: -2.656
+  pmdec_em: 0.024
+  pmdec_ep: 0.024
+  pmra_pmdec_corr: 0
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 2.85
-table: gc_harris
 velocity:
-  ref_vlos: Baumgardt2018MNRAS.478.1520B
-  vlos_sigma: 2.3
-  vlos_sigma_em: 0.2
-  vlos_systemic: -22.72
-  vlos_systemic_em: 0.2
-  vlos_systemic_ep: 0.2
-  vlos_sigma_ep: 0.2
+  vlos_systemic: -21.8
+  vlos_systemic_em: 0.6
+  vlos_systemic_ep: 0.6
+  vlos_sigma: 2.07
+  vlos_sigma_em: 0.47
+  vlos_sigma_ep: 0.58
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G

@@ -12,6 +12,7 @@ name_discovery:
   host: mw
 notes:
 - half-mass radius in \citet{Leanza2024A&A...688A.133L}
+- vlos sigma from \citet{Geha2026arXiv260210200G}
 age:
   age: 9.98
   age_em: 0.51
@@ -28,15 +29,19 @@ m_v:
   apparent_magnitude_v_ep: 0.04
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.29
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+  metallicity_spectroscopic: -1.08
+  metallicity_spectroscopic_em: 0.03
+  metallicity_spectroscopic_ep: 0.03
+  metallicity_spectroscopic_sigma_ul: 0.14
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
 proper_motion:
-  pmdec: -2.8099
-  pmdec_em: 0.0258
-  pmdec_ep: 0.0258
-  pmra: -0.5975
-  pmra_em: 0.0262
-  pmra_ep: 0.0262
+  pmra: -0.598
+  pmra_em: 0.026
+  pmra_ep: 0.026
+  pmdec: -2.810
+  pmdec_em: 0.026
+  pmdec_ep: 0.026
+  pmra_pmdec_corr: 0.02
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Leanza2024A&A...688A.133L
@@ -61,3 +66,6 @@ velocity:
   vlos_sigma_central: 8.8
   vlos_sigma_central_em: 0.3
   vlos_sigma_central_ep: 0.3
+  vlos_sigma: 3.66
+  vlos_sigma_em: 0.48
+  vlos_sigma_ep: 0.56

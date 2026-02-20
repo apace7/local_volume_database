@@ -35,6 +35,7 @@ proper_motion:
   pmdec: -3.711
   pmdec_em: 0.048
   pmdec_ep: 0.048
+  pmra_pmdec_corr: 0.19
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

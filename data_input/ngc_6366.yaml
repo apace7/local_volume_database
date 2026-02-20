@@ -1,3 +1,13 @@
+key: ngc_6366
+table: gc_harris
+location:
+  ra: 261.934357
+  dec: -5.079861
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 6366
+  host: mw  
 age:
   age: 12.1
   age_em: 0.71
@@ -8,37 +18,34 @@ distance:
   distance_modulus_em: 0.032
   distance_modulus_ep: 0.032
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_6366
-location:
-  dec: -5.079861
-  ra: 261.934357
 m_v:
   apparent_magnitude_v: 6.66
   apparent_magnitude_v_em: 0.04
   apparent_magnitude_v_ep: 0.04
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -0.59
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: NGC 6366
-  host: mw
+  metallicity_spectroscopic: -0.63
+  metallicity_spectroscopic_em: 0.05
+  metallicity_spectroscopic_ep: 0.05
+  metallicity_spectroscopic_sigma_ul: 0.14
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
 proper_motion:
-  pmdec: -5.1595
-  pmdec_em: 0.0244
-  pmdec_ep: 0.0244
-  pmra: -0.3324
-  pmra_em: 0.0246
-  pmra_ep: 0.0246
+  pmra: -0.332
+  pmra_em: 0.025
+  pmra_ep: 0.025
+  pmdec: -5.160
+  pmdec_em: 0.024
+  pmdec_ep: 0.024
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 3.78
-table: gc_harris
 velocity:
-  ref_vlos: Baumgardt2018MNRAS.478.1520B
-  vlos_systemic: -120.65
-  vlos_systemic_em: 0.19
-  vlos_systemic_ep: 0.19
+  vlos_systemic: -120.6
+  vlos_systemic_em: 0.8
+  vlos_systemic_ep: 0.8
+  vlos_sigma: 3.28
+  vlos_sigma_em: 0.57
+  vlos_sigma_ep: 0.76
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G

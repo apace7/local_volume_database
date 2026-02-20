@@ -3,6 +3,16 @@ table: gc_harris
 location:
   ra: 251.745249
   dec: 47.527796
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 1787
+  name: NGC 6229
+  ref_discovery:
+  - Herschel1789RSPT...79..212H
+  host: mw
+notes:
+- discovered by Herschel in 1787
 distance:
   distance_modulus: 17.393
   distance_modulus_em: 0.034
@@ -14,25 +24,19 @@ m_v:
   apparent_magnitude_v_ep: 0.05
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.47
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 1787
-  name: NGC 6229
-  ref_discovery:
-  - Herschel1789RSPT...79..212H
-  host: mw
-notes:
-- discovered by Herschel in 1787
+  metallicity_spectroscopic: -1.2
+  metallicity_spectroscopic_em: 0.04
+  metallicity_spectroscopic_ep: 0.04
+  metallicity_spectroscopic_sigma_ul: 0.14
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
 proper_motion:
-  pmdec: -0.4665
-  pmdec_em: 0.0267
-  pmdec_ep: 0.0267
-  pmra: -1.1706
-  pmra_em: 0.0263
-  pmra_ep: 0.0263
+  pmra: -1.171
+  pmra_em: 0.026
+  pmra_ep: 0.026
+  pmdec: -0.467
+  pmdec_em: 0.027
+  pmdec_ep: 0.027
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   rhalf: 0.41
@@ -56,7 +60,10 @@ structure_sersic:
   rad_sersic_ep: 0.01
   ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref_vlos: Baumgardt2018MNRAS.478.1520B
-  vlos_systemic: -137.89
-  vlos_systemic_em: 0.71
-  vlos_systemic_ep: 0.71
+  vlos_systemic: -139.1
+  vlos_systemic_em: 0.6
+  vlos_systemic_ep: 0.6
+  vlos_sigma: 2.38
+  vlos_sigma_em: 0.45
+  vlos_sigma_ep: 0.59
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G

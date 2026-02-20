@@ -1,3 +1,15 @@
+key: ngc_5024
+table: gc_harris
+location:
+  ra: 198.230209
+  dec: 18.168165
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 5024
+  other_name:
+  - M53
+  host: mw  
 age:
   age: 12.72
   age_em: 0.44
@@ -8,39 +20,34 @@ distance:
   distance_modulus_em: 0.022
   distance_modulus_ep: 0.022
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_5024
-location:
-  dec: 18.168165
-  ra: 198.230209
 m_v:
   apparent_magnitude_v: 7.64
   apparent_magnitude_v_em: 0.04
   apparent_magnitude_v_ep: 0.04
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.1
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: NGC 5024
-  other_name:
-  - M53
-  host: mw
+  metallicity_spectroscopic: -1.95
+  metallicity_spectroscopic_em: 0.02
+  metallicity_spectroscopic_ep: 0.02
+  metallicity_spectroscopic_sigma_ul: 0.12
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
 proper_motion:
-  pmdec: -1.3306
+  pmra: -0.133
+  pmra_em: 0.024
+  pmra_ep: 0.024
+  pmdec: -1.331
   pmdec_em: 0.024
   pmdec_ep: 0.024
-  pmra: -0.1334
-  pmra_em: 0.0241
-  pmra_ep: 0.0241
+  pmra_pmdec_corr: 0.0
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.2
-table: gc_harris
 velocity:
-  ref_vlos: Baumgardt2018MNRAS.478.1520B
-  vlos_systemic: -63.37
-  vlos_systemic_em: 0.25
-  vlos_systemic_ep: 0.25
+  vlos_systemic: -64.8
+  vlos_systemic_em: 0.8
+  vlos_systemic_ep: 0.8
+  vlos_sigma: 3.77
+  vlos_sigma_em: 0.57
+  vlos_sigma_ep: 0.66
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G

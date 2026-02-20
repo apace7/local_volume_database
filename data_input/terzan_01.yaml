@@ -1,22 +1,8 @@
-distance:
-  distance_modulus: 13.769
-  distance_modulus_em: 0.066
-  distance_modulus_ep: 0.066
-  ref_distance: Baumgardt2021MNRAS.505.5957B
 key: terzan_01
+table: gc_harris
 location:
-  dec: -30.481778
   ra: 263.946667
-m_v:
-  apparent_magnitude_v: 6.26
-  apparent_magnitude_v_em: 0.12
-  apparent_magnitude_v_ep: 0.12
-  ref_m_v: Baumgardt2020PASA...37...46B
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -0.71
-  metallicity_spectroscopic_em: 0.15
-  metallicity_spectroscopic_ep: 0.15
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+  dec: -30.481778
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -28,7 +14,22 @@ name_discovery:
   - MWSC 2635
   ref_discovery:
   - Terzan1966CRASB.263..221T
-  host: mw
+  host: mw  
+distance:
+  distance_modulus: 13.769
+  distance_modulus_em: 0.066
+  distance_modulus_ep: 0.066
+  ref_distance: Baumgardt2021MNRAS.505.5957B
+m_v:
+  apparent_magnitude_v: 6.26
+  apparent_magnitude_v_em: 0.12
+  apparent_magnitude_v_ep: 0.12
+  ref_m_v: Baumgardt2020PASA...37...46B
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.71
+  metallicity_spectroscopic_em: 0.15
+  metallicity_spectroscopic_ep: 0.15
+  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
 proper_motion:
   pmra: -2.806
   pmra_em: 0.055
@@ -36,11 +37,11 @@ proper_motion:
   pmdec: -4.861
   pmdec_em: 0.055
   pmdec_ep: 0.055
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 0.89
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 56.75

@@ -30,15 +30,27 @@ m_v:
   apparent_magnitude_v_ep: 0.03
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.15
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
+  metallicity_spectroscopic: -2.02
+  metallicity_spectroscopic_em: 0.02
+  metallicity_spectroscopic_ep: 0.02
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
+velocity:
+  vlos_systemic: -20.9
+  vlos_systemic_em: 0.5
+  vlos_systemic_ep: 0.5
+  vlos_sigma: 4.69
+  vlos_sigma_em: 0.38
+  vlos_sigma_ep: 0.43
+  vlos_sigma_ul: -999.0
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
 proper_motion:
-  pmra: 0.0073
-  pmra_em: 0.0278
-  pmra_ep: 0.0278
-  pmdec: -0.5226
-  pmdec_em: 0.0264
-  pmdec_ep: 0.0264
+  pmra: 0.007
+  pmra_em: 0.028
+  pmra_ep: 0.028
+  pmdec: -0.523
+  pmdec_em: 0.026
+  pmdec_ep: 0.026
+  pmra_pmdec_corr: 0.03
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   rhalf: 0.85
