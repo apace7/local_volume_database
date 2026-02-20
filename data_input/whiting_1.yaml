@@ -29,12 +29,13 @@ m_v:
   apparent_magnitude_v_ep: 0.08
   ref_m_v: Baumgardt2020PASA...37...46B
 proper_motion:
-  pmdec: -2.0458
-  pmdec_em: 0.0561
-  pmdec_ep: 0.0561
-  pmra: -0.2277
-  pmra_em: 0.0653
-  pmra_ep: 0.0653
+  pmra: -0.228
+  pmra_em: 0.065
+  pmra_ep: 0.065
+  pmdec: -2.046
+  pmdec_em: 0.056
+  pmdec_ep: 0.056
+  pmra_pmdec_corr: 0.03
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   rhalf: 1.06

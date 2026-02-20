@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 1261
   host: mw
 proper_motion:
-  pmdec: -2.0642
-  pmdec_em: 0.0251
-  pmdec_ep: 0.0251
-  pmra: 1.5957
-  pmra_em: 0.0249
-  pmra_ep: 0.0249
+  pmra: 1.596
+  pmra_em: 0.025
+  pmra_ep: 0.025
+  pmdec: -2.064
+  pmdec_em: 0.025
+  pmdec_ep: 0.025
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

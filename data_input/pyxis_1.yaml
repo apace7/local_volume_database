@@ -36,12 +36,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.14
   ref_metallicity_spectroscopic: Saviane2012A&A...540A..27S
 proper_motion:
-  pmdec: 0.1378
-  pmdec_em: 0.0347
-  pmdec_ep: 0.0347
-  pmra: 1.0304
-  pmra_em: 0.0318
-  pmra_ep: 0.0318
+  pmra: 1.03
+  pmra_em: 0.032
+  pmra_ep: 0.032
+  pmdec: 0.138
+  pmdec_em: 0.035
+  pmdec_ep: 0.035
+  pmra_pmdec_corr: 0.03
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   rhalf: 1.62

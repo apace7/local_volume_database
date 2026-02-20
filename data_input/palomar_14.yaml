@@ -38,12 +38,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma: 0.16
   ref_metallicity_spectroscopic: Caliskan2012A&A...537A..83C
 proper_motion:
-  pmra: -0.4626
-  pmra_em: 0.0384
-  pmra_ep: 0.0384
-  pmdec: -0.4132
-  pmdec_em: 0.0378
-  pmdec_ep: 0.0378
+  pmra: -0.463
+  pmra_em: 0.038
+  pmra_ep: 0.038
+  pmdec: -0.413
+  pmdec_em: 0.038
+  pmdec_ep: 0.038
+  pmra_pmdec_corr: 0.12
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   rhalf: 1.36

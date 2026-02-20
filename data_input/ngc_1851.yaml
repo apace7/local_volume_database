@@ -32,12 +32,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_ep: 0.001
   ref_metallicity_spectroscopic: Latour2025A&A...694A.248L
 proper_motion:
-  pmdec: -0.6496
-  pmdec_em: 0.0242
-  pmdec_ep: 0.0242
-  pmra: 2.1452
+  pmra: 2.145
   pmra_em: 0.024
   pmra_ep: 0.024
+  pmdec: -0.65
+  pmdec_em: 0.024
+  pmdec_ep: 0.024
+  pmra_pmdec_corr: -0.02
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

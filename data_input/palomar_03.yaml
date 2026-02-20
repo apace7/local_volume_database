@@ -38,12 +38,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.02
   ref_metallicity_spectroscopic: Koch2009A&A...506..729K
 proper_motion:
-  pmdec: -0.1484
-  pmdec_em: 0.0709
-  pmdec_ep: 0.0709
-  pmra: 0.0861
-  pmra_em: 0.0602
-  pmra_ep: 0.0602
+  pmra: 0.086
+  pmra_em: 0.060
+  pmra_ep: 0.060
+  pmdec: -0.148
+  pmdec_em: 0.071
+  pmdec_ep: 0.071
+  pmra_pmdec_corr: -0.41
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   rhalf: 0.71
