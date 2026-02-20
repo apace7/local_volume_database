@@ -60,10 +60,10 @@ structure_sersic:
   rad_sersic_ep: 0.2
   ref_structure_sersic: Higgs2021MNRAS.503..176H
 velocity:
-  ref_vlos: Simon2007ApJ...670..313S
-  vlos_sigma: 7.5
-  vlos_sigma_em: 1.6
-  vlos_sigma_ep: 1.6
-  vlos_systemic: 38.1
-  vlos_systemic_em: 2.0
-  vlos_systemic_ep: 2.0
+  vlos_systemic: 37.1
+  vlos_systemic_em: 1.1
+  vlos_systemic_ep: 1.1
+  vlos_sigma: 6.05
+  vlos_sigma_em: 0.86
+  vlos_sigma_ep: 1.07
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G

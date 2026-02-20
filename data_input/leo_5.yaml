@@ -72,8 +72,10 @@ structure_sersic:
   rad_sersic_ep: 0.22
   ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref_vlos: Jenkins2021ApJ...920...92J
-  vlos_systemic: 173.1
-  vlos_systemic_em: 0.8
-  vlos_systemic_ep: 1.0
-  vlos_sigma_ul: 4.7
+  vlos_systemic: 170.8
+  vlos_systemic_em: 1.5
+  vlos_systemic_ep: 1.5
+  vlos_sigma: 3.37
+  vlos_sigma_em: 1.04
+  vlos_sigma_ep: 1.72
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G

@@ -34,13 +34,11 @@ m_v:
   apparent_magnitude_v_ep: 0.5
   ref_m_v: Correnti2009MNRAS.397L..26C
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.1
-  metallicity_spectroscopic_em: 0.2
-  metallicity_spectroscopic_ep: 0.2
-  metallicity_spectroscopic_sigma: 0.55
-  metallicity_spectroscopic_sigma_em: 0.19
-  metallicity_spectroscopic_sigma_ep: 0.19
-  ref_metallicity_spectroscopic: Carlin2009ApJ...702L...9C
+  metallicity_spectroscopic: -2.51
+  metallicity_spectroscopic_em: 0.09
+  metallicity_spectroscopic_ep: 0.09
+  metallicity_spectroscopic_sigma_ul: 0.31
+  ref_metallicity_spectroscopic: Geha2026arXiv260210202G
 proper_motion:
   pmdec: -0.89
   pmdec_em: 0.015
@@ -62,10 +60,10 @@ structure:
   rhalf_em: 3.8
   rhalf_ep: 4.2
 velocity:
-  ref_vlos: Carlin2009ApJ...702L...9C
-  vlos_sigma: 10.7
-  vlos_sigma_em: 3.5
-  vlos_sigma_ep: 3.5
-  vlos_systemic: 197.5
-  vlos_systemic_em: 3.6
-  vlos_systemic_ep: 3.6
+  vlos_systemic: 189.9
+  vlos_systemic_em: 1.8
+  vlos_systemic_ep: 1.8
+  vlos_sigma: 5.27
+  vlos_sigma_em: 1.67
+  vlos_sigma_ep: 2.1
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G

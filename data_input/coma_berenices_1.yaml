@@ -27,13 +27,13 @@ m_v:
   apparent_magnitude_v_ep: 0.25
   ref_m_v: Munoz2018ApJ...860...66M
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.43
-  metallicity_spectroscopic_em: 0.11
-  metallicity_spectroscopic_ep: 0.11
-  metallicity_spectroscopic_sigma: 0.46
-  metallicity_spectroscopic_sigma_em: 0.08
-  metallicity_spectroscopic_sigma_ep: 0.09
-  ref_metallicity_spectroscopic: Simon2019ARA&A..57..375S
+  metallicity_spectroscopic: -2.44
+  metallicity_spectroscopic_em: 0.07
+  metallicity_spectroscopic_ep: 0.07
+  metallicity_spectroscopic_sigma: 0.26
+  metallicity_spectroscopic_sigma_em: 0.06
+  metallicity_spectroscopic_sigma_ep: 0.07
+  ref_metallicity_spectroscopic: Geha2026arXiv260210202G
 proper_motion:
   pmdec: -1.721
   pmdec_em: 0.024
@@ -71,10 +71,10 @@ structure_sersic:
   rad_sersic_ep: 0.3
   ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref_vlos: Simon2007ApJ...670..313S
-  vlos_sigma: 4.6
-  vlos_sigma_em: 0.8
-  vlos_sigma_ep: 0.8
-  vlos_systemic: 98.1
-  vlos_systemic_em: 0.9
-  vlos_systemic_ep: 0.9
+  vlos_systemic: 93.5
+  vlos_systemic_em: 0.6
+  vlos_systemic_ep: 0.6
+  vlos_sigma: 3.33
+  vlos_sigma_em: 0.46
+  vlos_sigma_ep: 0.58
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
