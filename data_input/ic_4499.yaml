@@ -1,7 +1,13 @@
 key: ic_4499
+table: gc_harris
 location:
-  dec: -82.213792
   ra: 225.077188
+  dec: -82.213792
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: IC 4499
+  host: mw  
 age:
   age: 12.0
   age_em: 0.75
@@ -20,23 +26,18 @@ m_v:
 metallicity_spectroscopic:
   metallicity_spectroscopic: 0.12
   ref_metallicity_spectroscopic: Hankey2011MNRAS.411.1536H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: IC 4499
-  host: mw
 proper_motion:
+  pmra: 0.466
+  pmra_em: 0.025
+  pmra_ep: 0.025
   pmdec: -0.489
-  pmdec_em: 0.0253
-  pmdec_ep: 0.0253
-  pmra: 0.4658
-  pmra_em: 0.0253
-  pmra_ep: 0.0253
+  pmdec_em: 0.025
+  pmdec_ep: 0.025
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.87
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 38.41

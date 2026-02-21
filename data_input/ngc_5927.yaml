@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 5927
   host: mw
 proper_motion:
-  pmdec: -3.2166
-  pmdec_em: 0.0249
-  pmdec_ep: 0.0249
-  pmra: -5.0564
-  pmra_em: 0.0246
-  pmra_ep: 0.0246
+  pmra: -5.056
+  pmra_em: 0.025
+  pmra_ep: 0.025
+  pmdec: -3.217
+  pmdec_em: 0.025
+  pmdec_ep: 0.025
+  pmra_pmdec_corr: -0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

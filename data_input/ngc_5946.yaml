@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 5946
   host: mw
 proper_motion:
-  pmdec: -1.6572
-  pmdec_em: 0.0271
-  pmdec_ep: 0.0271
   pmra: -5.331
-  pmra_em: 0.0275
-  pmra_ep: 0.0275
+  pmra_em: 0.028
+  pmra_ep: 0.028
+  pmdec: -1.657
+  pmdec_em: 0.027
+  pmdec_ep: 0.027
+  pmra_pmdec_corr: -0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

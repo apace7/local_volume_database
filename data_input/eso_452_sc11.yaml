@@ -32,12 +32,13 @@ age:
   age_ep: 0.48
   ref_age: Massari2025A&A...698A.197M
 proper_motion:
+  pmra: -1.423
+  pmra_em: 0.031
+  pmra_ep: 0.031
   pmdec: -6.472
-  pmdec_em: 0.0303
-  pmdec_ep: 0.0303
-  pmra: -1.4234
-  pmra_em: 0.0314
-  pmra_ep: 0.0314
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  pmra_pmdec_corr: -0.06
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

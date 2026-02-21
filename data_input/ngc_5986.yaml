@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 5986
   host: mw
 proper_motion:
+  pmra: -4.192
+  pmra_em: 0.026
+  pmra_ep: 0.026
   pmdec: -4.568
-  pmdec_em: 0.0256
-  pmdec_ep: 0.0256
-  pmra: -4.1925
-  pmra_em: 0.0259
-  pmra_ep: 0.0259
+  pmdec_em: 0.026
+  pmdec_ep: 0.026
+  pmra_pmdec_corr: -0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

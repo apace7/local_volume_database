@@ -27,12 +27,13 @@ m_v:
   apparent_magnitude_v: 13.57
   ref_m_v: Ortolani2009AJ....138..889O
 proper_motion:
-  pmdec: -4.1576
-  pmdec_em: 0.0313
-  pmdec_ep: 0.0313
-  pmra: -2.7837
+  pmra: -2.784
   pmra_em: 0.034
   pmra_ep: 0.034
+  pmdec: -4.158
+  pmdec_em: 0.031
+  pmdec_ep: 0.031
+  pmra_pmdec_corr: 0.09
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Ortolani2009AJ....138..889O

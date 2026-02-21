@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 4372
   host: mw
 proper_motion:
-  pmdec: 3.2975
-  pmdec_em: 0.0238
-  pmdec_ep: 0.0238
   pmra: -6.409
-  pmra_em: 0.0241
-  pmra_ep: 0.0241
+  pmra_em: 0.024
+  pmra_ep: 0.024
+  pmdec: 3.297
+  pmdec_em: 0.024
+  pmdec_ep: 0.024
+  pmra_pmdec_corr: 0
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

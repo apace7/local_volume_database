@@ -29,12 +29,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_ul: 0.11
   ref_metallicity_spectroscopic: Usman2025OJAp....8E..86U
 proper_motion:
-  pmdec: -2.7775
-  pmdec_em: 0.0332
-  pmdec_ep: 0.0332
-  pmra: -0.6878
-  pmra_em: 0.0392
-  pmra_ep: 0.0392
+  pmra: -0.688
+  pmra_em: 0.039
+  pmra_ep: 0.039
+  pmdec: -2.777
+  pmdec_em: 0.033
+  pmdec_ep: 0.033
+  pmra_pmdec_corr: 0.09
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Simpson2019MNRAS.490..741S

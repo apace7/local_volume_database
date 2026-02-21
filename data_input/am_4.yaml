@@ -32,12 +32,13 @@ metallicity_isochrone:
   metallicity_isochrone_ep: 0.08
   ref_metallicity_isochrone: Hamren2013AJ....146..116H
 proper_motion:
-  pmdec: -2.5119
-  pmdec_em: 0.3441
-  pmdec_ep: 0.3441
-  pmra: -0.2911
-  pmra_em: 0.4448
-  pmra_ep: 0.4448
+  pmra: -0.291
+  pmra_em: 0.445
+  pmra_ep: 0.445
+  pmdec: -2.512
+  pmdec_em: 0.344
+  pmdec_ep: 0.344
+  pmra_pmdec_corr: -0.36
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   rhalf: 0.68

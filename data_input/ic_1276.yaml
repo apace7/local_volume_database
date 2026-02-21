@@ -32,18 +32,23 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -0.75
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
 proper_motion:
-  pmdec: -4.5676
-  pmdec_em: 0.0257
-  pmdec_ep: 0.0257
-  pmra: -2.5531
-  pmra_em: 0.0258
-  pmra_ep: 0.0258
+  pmra: -2.553
+  pmra_em: 0.026
+  pmra_ep: 0.026
+  pmdec: -4.568
+  pmdec_em: 0.026
+  pmdec_ep: 0.026
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 2.42
 velocity:
-  ref_vlos: Baumgardt2018MNRAS.478.1520B
-  vlos_systemic: 155.06
-  vlos_systemic_em: 0.69
-  vlos_systemic_ep: 0.69
+  vlos_systemic: 157.4
+  vlos_systemic_em: 1.7
+  vlos_systemic_ep: 1.7
+  vlos_sigma: 5.66
+  vlos_sigma_em: 1.18
+  vlos_sigma_ep: 1.72
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
+

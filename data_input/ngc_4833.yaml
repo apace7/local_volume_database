@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 4833
   host: mw
 proper_motion:
-  pmdec: -0.9631
-  pmdec_em: 0.0245
-  pmdec_ep: 0.0245
-  pmra: -8.3774
-  pmra_em: 0.0249
-  pmra_ep: 0.0249
+  pmra: -8.377
+  pmra_em: 0.025
+  pmra_ep: 0.025
+  pmdec: -0.963
+  pmdec_em: 0.025
+  pmdec_ep: 0.025
+  pmra_pmdec_corr: -0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

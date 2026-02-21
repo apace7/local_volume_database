@@ -34,21 +34,22 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_ep: 0.002
   ref_metallicity_spectroscopic: Latour2025A&A...694A.248L
 proper_motion:
-  pmdec: -7.2987
-  pmdec_em: 0.0244
-  pmdec_ep: 0.0244
-  pmra: -0.7374
-  pmra_em: 0.0246
-  pmra_ep: 0.0246
+  pmra: -0.737
+  pmra_em: 0.025
+  pmra_ep: 0.025
+  pmdec: -7.299
+  pmdec_em: 0.024
+  pmdec_ep: 0.024
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.03
 velocity:
-  ref_vlos: Baumgardt2018MNRAS.478.1520B
-  vlos_sigma: 5.5
-  vlos_sigma_em: 0.4
-  vlos_systemic: -185.19
-  vlos_systemic_em: 0.17
-  vlos_systemic_ep: 0.17
-  vlos_sigma_ep: 0.4
+  vlos_systemic: -185.1
+  vlos_systemic_em: 0.4
+  vlos_systemic_ep: 0.4
+  vlos_sigma: 4.01
+  vlos_sigma_em: 0.28
+  vlos_sigma_ep: 0.3
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G

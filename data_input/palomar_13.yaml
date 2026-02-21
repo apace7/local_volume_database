@@ -30,11 +30,11 @@ m_v:
   apparent_magnitude_v_ep: 0.05
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.6
-  metallicity_spectroscopic_em: 0.1
-  metallicity_spectroscopic_ep: 0.1
-  metallicity_spectroscopic_sigma_ul: 0.3
-  ref_metallicity_spectroscopic: Bradford2011ApJ...743..167B
+  metallicity_spectroscopic: -1.64
+  metallicity_spectroscopic_em: 0.03
+  metallicity_spectroscopic_ep: 0.03
+  metallicity_spectroscopic_sigma_ul: 0.09
+  ref_metallicity_spectroscopic: Geha2026arXiv260210202G
 proper_motion:
   pmra: 1.748
   pmra_em: 0.049
@@ -66,13 +66,11 @@ structure_sersic:
   rad_sersic_ep: 0.09
   ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref_vlos: Bradford2011ApJ...743..167B
-  vlos_sigma: 0.6
-  vlos_sigma_em: 0.5
-  vlos_sigma_ep: 0.7
-  vlos_systemic: 25.3
-  vlos_systemic_em: 0.22
-  vlos_systemic_ep: 0.22
+  vlos_systemic: 26.0
+  vlos_systemic_em: 0.3
+  vlos_systemic_ep: 0.3
+  vlos_sigma_ul: 1.52
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
 age:
   age: 13.4
   age_em: 0.5
