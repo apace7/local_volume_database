@@ -33,7 +33,7 @@ proper_motion:
   pmdec: 0.13
   pmdec_em: 0.02
   pmdec_ep: 0.02
-  pmra_pmdec_corr: -0.07
+  pmra_pmdec_corr: -0.06
   ref_proper_motion: Cerny2026arXiv260217652C
 structure:
   ellipticity: 0.06
@@ -59,3 +59,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.14
   metallicity_spectroscopic_sigma_ul: 0.68
   ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
+age:
+  age: 7
+  ref_age: Cerny2026arXiv260217652C

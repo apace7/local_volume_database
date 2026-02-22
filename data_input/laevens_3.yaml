@@ -35,7 +35,7 @@ proper_motion:
   pmdec: -0.53
   pmdec_em: 0.11
   pmdec_ep: 0.11
-  pmra_pmdec_corr: 0.05
+  pmra_pmdec_corr: 0.07
   ref_proper_motion: Cerny2026arXiv260217652C
 structure:
   ellipticity: 0.11

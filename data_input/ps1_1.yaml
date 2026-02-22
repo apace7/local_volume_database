@@ -32,7 +32,7 @@ proper_motion:
   pmdec: -1.85
   pmdec_em: 0.03
   pmdec_ep: 0.03
-  pmra_pmdec_corr: 0.27
+  pmra_pmdec_corr: 0.29
   ref_proper_motion: Cerny2026arXiv260217652C
 velocity:
   vlos_systemic: 124.5

@@ -71,3 +71,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.18
   metallicity_spectroscopic_ep: 0.18
   ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
+age:
+  age: 13.5
+  ref_age: Cerny2026arXiv260217652C
