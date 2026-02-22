@@ -24,12 +24,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.01
   ref_metallicity_spectroscopic: Montecinos2021MNRAS.503.4336M
 proper_motion:
-  pmdec: -0.4538
-  pmdec_em: 0.0295
-  pmdec_ep: 0.0295
-  pmra: 0.3445
-  pmra_em: 0.0301
-  pmra_ep: 0.0301
+  pmra: 0.344
+  pmra_em: 0.03
+  pmra_ep: 0.03
+  pmdec: -0.454
+  pmdec_em: 0.029
+  pmdec_ep: 0.029
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

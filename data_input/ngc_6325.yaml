@@ -21,12 +21,13 @@ name_discovery:
   name: NGC 6325
   host: mw
 proper_motion:
-  pmdec: -9.0004
-  pmdec_em: 0.0291
-  pmdec_ep: 0.0291
-  pmra: -8.2893
-  pmra_em: 0.0302
-  pmra_ep: 0.0302
+  pmra: -8.289
+  pmra_em: 0.03
+  pmra_ep: 0.03
+  pmdec: -9.0
+  pmdec_em: 0.029
+  pmdec_ep: 0.029
+  pmra_pmdec_corr: 0.02
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

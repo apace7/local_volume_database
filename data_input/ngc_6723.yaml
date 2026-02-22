@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 6723
   host: mw
 proper_motion:
-  pmdec: -2.4185
-  pmdec_em: 0.0254
-  pmdec_ep: 0.0254
-  pmra: 1.0285
-  pmra_em: 0.0255
-  pmra_ep: 0.0255
+  pmra: 1.028
+  pmra_em: 0.025
+  pmra_ep: 0.025
+  pmdec: -2.418
+  pmdec_em: 0.025
+  pmdec_ep: 0.025
+  pmra_pmdec_corr: 0
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

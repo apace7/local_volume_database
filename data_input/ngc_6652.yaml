@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 6652
   host: mw
 proper_motion:
-  pmdec: -4.2739
-  pmdec_em: 0.0268
-  pmdec_ep: 0.0268
-  pmra: -5.4844
-  pmra_em: 0.0274
-  pmra_ep: 0.0274
+  pmra: -5.484
+  pmra_em: 0.027
+  pmra_ep: 0.027
+  pmdec: -4.274
+  pmdec_em: 0.027
+  pmdec_ep: 0.027
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

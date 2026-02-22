@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 6584
   host: mw
 proper_motion:
-  pmdec: -7.2021
-  pmdec_em: 0.0254
-  pmdec_ep: 0.0254
-  pmra: -0.0898
-  pmra_em: 0.0258
-  pmra_ep: 0.0258
+  pmra: -0.09
+  pmra_em: 0.026
+  pmra_ep: 0.026
+  pmdec: -7.202
+  pmdec_em: 0.025
+  pmdec_ep: 0.025
+  pmra_pmdec_corr: -0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

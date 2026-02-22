@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 6712
   host: mw
 proper_motion:
-  pmdec: -4.4362
-  pmdec_em: 0.0266
-  pmdec_ep: 0.0266
-  pmra: 3.3629
+  pmra: 3.363
   pmra_em: 0.027
   pmra_ep: 0.027
+  pmdec: -4.436
+  pmdec_em: 0.027
+  pmdec_ep: 0.027
+  pmra_pmdec_corr: 0.02
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

@@ -28,12 +28,13 @@ name_discovery:
   - M55
   host: mw
 proper_motion:
+  pmra: -3.432
+  pmra_em: 0.024
+  pmra_ep: 0.024
   pmdec: -9.311
-  pmdec_em: 0.0237
-  pmdec_ep: 0.0237
-  pmra: -3.4316
-  pmra_em: 0.0237
-  pmra_ep: 0.0237
+  pmdec_em: 0.024
+  pmdec_ep: 0.024
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

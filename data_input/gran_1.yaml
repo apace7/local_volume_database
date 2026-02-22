@@ -25,12 +25,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_ep: 0.06
   ref_metallicity_spectroscopic: Gran2024A&A...683A.167G
 proper_motion:
-  pmdec: -8.0453
-  pmdec_em: 0.0364
-  pmdec_ep: 0.0364
-  pmra: -8.1628
-  pmra_em: 0.0377
-  pmra_ep: 0.0377
+  pmra: -8.163
+  pmra_em: 0.038
+  pmra_ep: 0.038
+  pmdec: -8.045
+  pmdec_em: 0.036
+  pmdec_ep: 0.036
+  pmra_pmdec_corr: 0
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Gran2022MNRAS.509.4962G

@@ -25,12 +25,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma: 0.16
   ref_metallicity_spectroscopic: Munoz2018A&A...620A..96M
 proper_motion:
+  pmra: -2.157
+  pmra_em: 0.043
+  pmra_ep: 0.043
   pmdec: -5.649
-  pmdec_em: 0.0392
-  pmdec_ep: 0.0392
-  pmra: -2.1571
-  pmra_em: 0.0432
-  pmra_ep: 0.0432
+  pmdec_em: 0.039
+  pmdec_ep: 0.039
+  pmra_pmdec_corr: -0.03
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

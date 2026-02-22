@@ -21,12 +21,13 @@ name_discovery:
   name: NGC 6139
   host: mw
 proper_motion:
-  pmdec: -2.7112
-  pmdec_em: 0.0262
-  pmdec_ep: 0.0262
-  pmra: -6.0814
-  pmra_em: 0.0267
-  pmra_ep: 0.0267
+  pmra: -6.081
+  pmra_em: 0.027
+  pmra_ep: 0.027
+  pmdec: -2.711
+  pmdec_em: 0.026
+  pmdec_ep: 0.026
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

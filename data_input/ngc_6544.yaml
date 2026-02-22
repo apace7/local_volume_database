@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 6544
   host: mw
 proper_motion:
+  pmra: -2.304
+  pmra_em: 0.031
+  pmra_ep: 0.031
   pmdec: -18.604
-  pmdec_em: 0.0305
-  pmdec_ep: 0.0305
-  pmra: -2.3041
-  pmra_em: 0.0308
-  pmra_ep: 0.0308
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

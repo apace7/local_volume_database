@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 6287
   host: mw
 proper_motion:
+  pmra: -5.01
+  pmra_em: 0.029
+  pmra_ep: 0.029
   pmdec: -1.883
-  pmdec_em: 0.0277
-  pmdec_ep: 0.0277
-  pmra: -5.0103
-  pmra_em: 0.0292
-  pmra_ep: 0.0292
+  pmdec_em: 0.028
+  pmdec_ep: 0.028
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

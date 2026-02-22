@@ -21,12 +21,13 @@ name_discovery:
   name: NGC 6256
   host: mw
 proper_motion:
-  pmdec: -1.6375
-  pmdec_em: 0.0304
-  pmdec_ep: 0.0304
-  pmra: -3.7149
-  pmra_em: 0.0312
-  pmra_ep: 0.0312
+  pmra: -3.715
+  pmra_em: 0.031
+  pmra_ep: 0.031
+  pmdec: -1.637
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  pmra_pmdec_corr: 0
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

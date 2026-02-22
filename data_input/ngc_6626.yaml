@@ -23,12 +23,13 @@ name_discovery:
   - M28
   host: mw
 proper_motion:
-  pmdec: -8.9222
+  pmra: -0.278
+  pmra_em: 0.028
+  pmra_ep: 0.028
+  pmdec: -8.922
   pmdec_em: 0.028
   pmdec_ep: 0.028
-  pmra: -0.278
-  pmra_em: 0.0283
-  pmra_ep: 0.0283
+  pmra_pmdec_corr: -0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

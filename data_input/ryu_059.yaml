@@ -24,12 +24,13 @@ name_discovery:
   - Ryu2018ApJ...856..152R
   - Ryu2018ApJ...863L..38R
 proper_motion:
-  pmdec: 0.7697
+  pmra: 1.022
+  pmra_em: 0.055
+  pmra_ep: 0.055
+  pmdec: 0.77
   pmdec_em: 0.047
   pmdec_ep: 0.047
-  pmra: 1.0223
-  pmra_em: 0.0553
-  pmra_ep: 0.0553
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Ryu2018ApJ...863L..38R

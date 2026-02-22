@@ -26,12 +26,13 @@ name_discovery:
   - ESO 456-77
   host: mw
 proper_motion:
-  pmdec: -7.3543
-  pmdec_em: 0.0279
-  pmdec_ep: 0.0279
-  pmra: -4.1247
-  pmra_em: 0.0283
-  pmra_ep: 0.0283
+  pmra: -4.125
+  pmra_em: 0.028
+  pmra_ep: 0.028
+  pmdec: -7.354
+  pmdec_em: 0.028
+  pmdec_ep: 0.028
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Pallanca2023ApJ...950..138P

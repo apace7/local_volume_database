@@ -30,12 +30,13 @@ name_discovery:
   - Froebrich2007MNRAS.374..399F
   - CantatGaudin2018A&A...618A..93C
 proper_motion:
-  pmdec: 2.5186
-  pmdec_em: 0.0255
-  pmdec_ep: 0.0255
-  pmra: -2.8815
-  pmra_em: 0.0259
-  pmra_ep: 0.0259
+  pmra: -2.881
+  pmra_em: 0.026
+  pmra_ep: 0.026
+  pmdec: 2.519
+  pmdec_em: 0.025
+  pmdec_ep: 0.025
+  pmra_pmdec_corr: -0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Barba2019ApJ...870L..24B

@@ -29,12 +29,13 @@ name_discovery:
   - Caldwell 80
   host: mw
 proper_motion:
-  pmdec: -6.7463
-  pmdec_em: 0.0216
-  pmdec_ep: 0.0216
-  pmra: -3.2499
-  pmra_em: 0.0217
-  pmra_ep: 0.0217
+  pmra: -3.25
+  pmra_em: 0.022
+  pmra_ep: 0.022
+  pmdec: -6.746
+  pmdec_em: 0.022
+  pmdec_ep: 0.022
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

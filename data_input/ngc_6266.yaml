@@ -28,12 +28,13 @@ name_discovery:
   - M62
   host: mw
 proper_motion:
-  pmdec: -2.9467
-  pmdec_em: 0.0263
-  pmdec_ep: 0.0263
-  pmra: -4.9778
-  pmra_em: 0.0265
-  pmra_ep: 0.0265
+  pmra: -4.978
+  pmra_em: 0.026
+  pmra_ep: 0.026
+  pmdec: -2.947
+  pmdec_em: 0.026
+  pmdec_ep: 0.026
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

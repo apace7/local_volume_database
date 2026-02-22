@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 6352
   host: mw
 proper_motion:
-  pmdec: -4.4465
-  pmdec_em: 0.0247
-  pmdec_ep: 0.0247
-  pmra: -2.1575
-  pmra_em: 0.0251
-  pmra_ep: 0.0251
+  pmra: -2.158
+  pmra_em: 0.025
+  pmra_ep: 0.025
+  pmdec: -4.446
+  pmdec_em: 0.025
+  pmdec_ep: 0.025
+  pmra_pmdec_corr: -0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

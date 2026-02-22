@@ -27,12 +27,13 @@ name_discovery:
   other_name:
   - VVV GC001
 proper_motion:
-  pmdec: -1.6523
-  pmdec_em: 0.1075
-  pmdec_ep: 0.1075
-  pmra: -3.4875
-  pmra_em: 0.1437
-  pmra_ep: 0.1437
+  pmra: -3.486
+  pmra_em: 0.155
+  pmra_ep: 0.155
+  pmdec: -1.675
+  pmdec_em: 0.106
+  pmdec_ep: 0.106
+  pmra_pmdec_corr: 0.08
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Minniti2011A&A...527A..81M

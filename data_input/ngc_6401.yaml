@@ -25,12 +25,13 @@ name_discovery:
   - MWSC 2653
   host: mw
 proper_motion:
-  pmdec: 1.4441
-  pmdec_em: 0.0342
-  pmdec_ep: 0.0342
-  pmra: -2.7477
-  pmra_em: 0.0353
-  pmra_ep: 0.0353
+  pmra: -2.748
+  pmra_em: 0.035
+  pmra_ep: 0.035
+  pmdec: 1.444
+  pmdec_em: 0.034
+  pmdec_ep: 0.034
+  pmra_pmdec_corr: 0
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

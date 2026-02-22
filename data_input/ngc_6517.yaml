@@ -21,12 +21,13 @@ name_discovery:
   name: NGC 6517
   host: mw
 proper_motion:
-  pmdec: -4.4698
-  pmdec_em: 0.0282
-  pmdec_ep: 0.0282
-  pmra: -1.5508
-  pmra_em: 0.0288
-  pmra_ep: 0.0288
+  pmra: -1.551
+  pmra_em: 0.029
+  pmra_ep: 0.029
+  pmdec: -4.47
+  pmdec_em: 0.028
+  pmdec_ep: 0.028
+  pmra_pmdec_corr: 0.03
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

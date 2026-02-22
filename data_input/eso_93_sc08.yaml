@@ -14,12 +14,13 @@ name_discovery:
   ref_discovery:
   - Holmberg1977A&AS...27..295H
 proper_motion:
-  pmdec: 1.4002
-  pmdec_em: 0.0338
-  pmdec_ep: 0.0338
-  pmra: -4.0679
-  pmra_em: 0.0329
-  pmra_ep: 0.0329
+  pmra: -4.068
+  pmra_em: 0.033
+  pmra_ep: 0.033
+  pmdec: 1.4
+  pmdec_em: 0.034
+  pmdec_ep: 0.034
+  pmra_pmdec_corr: -0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 distance:
   distance_modulus: 15.7

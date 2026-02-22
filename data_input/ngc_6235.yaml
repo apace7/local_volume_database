@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 6235
   host: mw
 proper_motion:
-  pmdec: -7.5872
-  pmdec_em: 0.0266
-  pmdec_ep: 0.0266
-  pmra: -3.9306
-  pmra_em: 0.0272
-  pmra_ep: 0.0272
+  pmra: -3.931
+  pmra_em: 0.027
+  pmra_ep: 0.027
+  pmdec: -7.587
+  pmdec_em: 0.027
+  pmdec_ep: 0.027
+  pmra_pmdec_corr: -0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

@@ -21,12 +21,13 @@ name_discovery:
   name: NGC 6355
   host: mw
 proper_motion:
-  pmdec: -0.5721
-  pmdec_em: 0.0301
-  pmdec_ep: 0.0301
-  pmra: -4.7384
-  pmra_em: 0.0312
-  pmra_ep: 0.0312
+  pmra: -4.738
+  pmra_em: 0.031
+  pmra_ep: 0.031
+  pmdec: -0.572
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  pmra_pmdec_corr: 0.02
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

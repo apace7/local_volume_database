@@ -21,12 +21,13 @@ name_discovery:
   name: NGC 6453
   host: mw
 proper_motion:
-  pmdec: -5.9336
-  pmdec_em: 0.0368
-  pmdec_ep: 0.0368
-  pmra: 0.2026
-  pmra_em: 0.0356
-  pmra_ep: 0.0356
+  pmra: 0.203
+  pmra_em: 0.036
+  pmra_ep: 0.036
+  pmdec: -5.934
+  pmdec_em: 0.037
+  pmdec_ep: 0.037
+  pmra_pmdec_corr: -0.04
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

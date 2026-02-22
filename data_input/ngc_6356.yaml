@@ -21,12 +21,13 @@ name_discovery:
   name: NGC 6356
   host: mw
 proper_motion:
-  pmdec: -3.3923
+  pmra: -3.75
+  pmra_em: 0.026
+  pmra_ep: 0.026
+  pmdec: -3.392
   pmdec_em: 0.026
   pmdec_ep: 0.026
-  pmra: -3.7501
-  pmra_em: 0.0264
-  pmra_ep: 0.0264
+  pmra_pmdec_corr: 0
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

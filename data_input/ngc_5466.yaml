@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 5466
   host: mw
 proper_motion:
-  pmdec: -0.8223
-  pmdec_em: 0.0242
-  pmdec_ep: 0.0242
-  pmra: -5.3423
-  pmra_em: 0.0245
-  pmra_ep: 0.0245
+  pmra: -5.342
+  pmra_em: 0.025
+  pmra_ep: 0.025
+  pmdec: -0.822
+  pmdec_em: 0.024
+  pmdec_ep: 0.024
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B

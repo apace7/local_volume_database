@@ -30,12 +30,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma: 0.08
   ref_metallicity_spectroscopic: Frelijj2025A&A...701A.159F
 proper_motion:
-  pmdec: -4.5916
-  pmdec_em: 0.0301
-  pmdec_ep: 0.0301
-  pmra: -4.9691
-  pmra_em: 0.0313
-  pmra_ep: 0.0313
+  pmra: -4.969
+  pmra_em: 0.031
+  pmra_ep: 0.031
+  pmdec: -4.592
+  pmdec_em: 0.03
+  pmdec_ep: 0.03
+  pmra_pmdec_corr: 0.01
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   rhalf: 29.8

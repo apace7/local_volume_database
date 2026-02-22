@@ -26,12 +26,13 @@ name_discovery:
   name: NGC 6397
   host: mw
 proper_motion:
+  pmra: 3.26
+  pmra_em: 0.023
+  pmra_ep: 0.023
   pmdec: -17.664
-  pmdec_em: 0.0225
-  pmdec_ep: 0.0225
-  pmra: 3.2603
-  pmra_em: 0.0227
-  pmra_ep: 0.0227
+  pmdec_em: 0.022
+  pmdec_ep: 0.022
+  pmra_pmdec_corr: 0
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
