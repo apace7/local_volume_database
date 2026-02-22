@@ -1,3 +1,19 @@
+key: ymca_1
+table: gc_mw_new
+location:
+  ra: 110.8378
+  dec: -64.8319
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2021
+  host: mw
+  name: YMCA-1
+  ref_discovery:
+  - Gatto2021RNAAS...5..159G
+  abbreviation: YMCA1
+notes:
+- Leans Star Cluster \citep{Cerny2026arXiv260217652C}.
 age:
   age: 11.7
   age_em: 1.3
@@ -8,40 +24,37 @@ distance:
   distance_modulus_em: 0.17
   distance_modulus_ep: 0.15
   ref_distance: Gatto2022ApJ...929L..21G
-key: ymca_1
-location:
-  dec: -64.8319
-  ra: 110.8378
 m_v:
   apparent_magnitude_v: 18.25
   apparent_magnitude_v_em: 0.57
   apparent_magnitude_v_ep: 0.57
   ref_m_v: Gatto2022ApJ...929L..21G
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 0
-  discovery_year: 2021
-  host: mw
-  name: YMCA-1
-  ref_discovery:
-  - Gatto2021RNAAS...5..159G
-  abbreviation: YMCA1
 proper_motion:
-  pmdec: 1.107
-  pmdec_em: 0.209
-  pmdec_ep: 0.209
-  pmra: 1.044
-  pmra_em: 0.402
-  pmra_ep: 0.402
-  ref_proper_motion: Piatti2022MNRAS.515.4005P
+  pmra: 0.88
+  pmra_em: 0.15
+  pmra_ep: 0.15
+  pmdec: 1.19
+  pmdec_em: 0.16
+  pmdec_ep: 0.16
+  pmra_pmdec_corr: -0.15
+  ref_proper_motion: Cerny2026arXiv260217652C
 structure:
   ref_structure: Gatto2022ApJ...929L..21G
   rhalf: 0.2167948414
   rhalf_em: 0.03097069163
   rhalf_ep: 0.03097069163
-table: gc_ambiguous
 metallicity_isochrone:
   metallicity_isochrone: -1.12
   metallicity_isochrone_em: 0.13
   metallicity_isochrone_ep: 0.21
   ref_metallicity_isochrone: Gatto2022ApJ...929L..21G
+velocity:
+  vlos_systemic: 361.8
+  vlos_systemic_em: 1.6
+  vlos_systemic_ep: 1.7
+  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.93
+  metallicity_spectroscopic_em: 0.22
+  metallicity_spectroscopic_ep: 0.19
+  metallicity_spectroscopic_sigma_ul: 0.83

@@ -12,6 +12,8 @@ name_discovery:
   ref_discovery:
   - Koposov2007ApJ...669..337K
   abbreviation: Ko2
+notes:
+- Metallicity from bright star.
 distance:
   distance_modulus: 17.7
   ref_distance: Munoz2018ApJ...860...66M
@@ -21,14 +23,14 @@ m_v:
   apparent_magnitude_v_ep: 0.81
   ref_m_v: Munoz2018ApJ...860...66M
 proper_motion:
-  pmdec: -0.025
-  pmdec_em: 0.189
-  pmdec_ep: 0.189
-  pmra: -0.601
-  pmra_em: 0.189
-  pmra_ep: 0.189
-  pmra_pmdec_corr: -0.24
-  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+  pmra: -0.58
+  pmra_em: 0.16
+  pmra_ep: 0.16
+  pmdec: 0.1
+  pmdec_em: 0.1
+  pmdec_ep: 0.1
+  pmra_pmdec_corr: 0.01
+  ref_proper_motion: Cerny2026arXiv260217652C
 structure:
   ellipticity: 0.43
   ellipticity_em: 0.14
@@ -56,3 +58,16 @@ structure_sersic:
   rad_sersic_em: 0.09
   rad_sersic_ep: 0.09
   ref_structure_sersic: Munoz2018ApJ...860...66M
+velocity:
+  vlos_systemic: 109.8
+  vlos_systemic_em: 1.3
+  vlos_systemic_ep: 1.5
+  vlos_sigma: 2.7
+  vlos_sigma_em: 1.3
+  vlos_sigma_ep: 1.7
+  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.86
+  metallicity_spectroscopic_em: 0.18
+  metallicity_spectroscopic_ep: 0.18
+  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C

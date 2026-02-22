@@ -33,7 +33,7 @@ proper_motion:
   pmdec: -3.057
   pmdec_em: 0.029
   pmdec_ep: 0.029
-  pmra_pmdec_corr: 0
+  pmra_pmdec_corr: -0.02
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   ref_structure: Harris1996AJ....112.1487H

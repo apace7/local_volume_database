@@ -5,12 +5,14 @@ location:
   dec: 66.9682
 name_discovery:
   confirmed_real: 1
-  confirmed_star_cluster: 0
+  confirmed_star_cluster: 1
   discovery_year: 2012
   host: mw
   name: Munoz 1
   ref_discovery:
   - Munoz2012ApJ...753L..15M  
+notes:
+- Leans Star Cluster \citep{Cerny2026arXiv260217652C}.
 distance:
   distance_modulus: 18.27
   distance_modulus_em: 0.26
@@ -21,20 +23,15 @@ m_v:
   apparent_magnitude_v_em: 0.97
   apparent_magnitude_v_ep: 0.97
   ref_m_v: Munoz2018ApJ...860...66M
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.46
-  metallicity_spectroscopic_em: 0.32
-  metallicity_spectroscopic_ep: 0.32
-  ref_metallicity_spectroscopic: Munoz2012ApJ...753L..15M
 proper_motion:
-  pmdec: -0.02
-  pmdec_em: 0.207
-  pmdec_ep: 0.207
-  pmra: -0.1
-  pmra_em: 0.203
-  pmra_ep: 0.203
-  pmra_pmdec_corr: -0.23
-  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+  pmra: -0.03
+  pmra_em: 0.61
+  pmra_ep: 0.6
+  pmdec: 0.83
+  pmdec_em: 0.56
+  pmdec_ep: 0.56
+  pmra_pmdec_corr: -0.37
+  ref_proper_motion: Cerny2026arXiv260217652C
 structure:
   ellipticity: 0.34
   ellipticity_em: 0.17
@@ -63,8 +60,12 @@ structure_sersic:
   rad_sersic_ep: 0.32
   ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref_vlos: Munoz2012ApJ...753L..15M
-  vlos_sigma_ul: 4.7
-  vlos_systemic: -137.0
+  vlos_systemic: -138.7
   vlos_systemic_em: 4.0
-  vlos_systemic_ep: 4.0
+  vlos_systemic_ep: 4.5
+  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.26
+  metallicity_spectroscopic_em: 0.28
+  metallicity_spectroscopic_ep: 0.28
+  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C

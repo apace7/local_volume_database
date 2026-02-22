@@ -14,6 +14,8 @@ name_discovery:
   ref_discovery:
   - Cerny2023ApJ...953....1C
   abbreviation: DEL5
+notes:
+- Proper motion measurement from \citet{Cerny2023ApJ...953....1C} shown to be false positive in \citet{Cerny2026arXiv260217652C}.
 age:
   age: 10.0
   ref_age: Cerny2023ApJ...953....1C
@@ -28,15 +30,6 @@ m_v:
   apparent_magnitude_v_ep: 0.4
   mean_ebv: 0.03
   ref_m_v: Cerny2023ApJ...953....1C
-proper_motion:
-  pmdec: -0.93
-  pmdec_em: 0.12
-  pmdec_ep: 0.12
-  pmra: -1.82
-  pmra_em: 0.12
-  pmra_ep: 0.13
-  pmra_pmdec_corr: 0.07
-  ref_proper_motion: Cerny2023ApJ...953....1C
 structure:
   ellipticity: 0.6
   ellipticity_em: 0.2
@@ -53,3 +46,8 @@ structure:
 metallicity_isochrone:
   metallicity_isochrone: -2.2
   ref_metallicity_isochrone: Cerny2023ApJ...953....1C
+velocity:
+  vlos_systemic: -233.5
+  vlos_systemic_em: 6.2
+  vlos_systemic_ep: 6.3
+  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C

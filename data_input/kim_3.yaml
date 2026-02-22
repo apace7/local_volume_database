@@ -1,3 +1,17 @@
+key: kim_3
+table: gc_mw_new
+location:
+  ra: 200.688
+  dec: -30.6
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2016
+  host: mw
+  name: Kim 3
+  ref_discovery:
+  - Kim2016ApJ...820..119K
+  abbreviation: Kim3  
 age:
   age: 9.5
   age_em: 1.7
@@ -8,33 +22,20 @@ distance:
   distance_modulus_em: 0.04
   distance_modulus_ep: 0.11
   ref_distance: Kim2016ApJ...820..119K
-key: kim_3
-location:
-  dec: -30.6
-  ra: 200.688
 m_v:
   apparent_magnitude_v: 16.6
   apparent_magnitude_v_em: 0.3
   apparent_magnitude_v_ep: 0.3
   ref_m_v: Kim2016ApJ...820..119K
-name_discovery:
-  confirmed_real: 0
-  confirmed_star_cluster: 0
-  discovery_year: 2016
-  host: mw
-  name: Kim 3
-  ref_discovery:
-  - Kim2016ApJ...820..119K
-  abbreviation: Kim3
 proper_motion:
-  pmdec: 3.396
-  pmdec_em: 0.14
-  pmdec_ep: 0.14
-  pmra: -0.849
-  pmra_em: 0.178
-  pmra_ep: 0.178
-  pmra_pmdec_corr: -0.12
-  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+  pmra: -0.86
+  pmra_em: 0.16
+  pmra_ep: 0.16
+  pmdec: 3.34
+  pmdec_em: 0.12
+  pmdec_ep: 0.12
+  pmra_pmdec_corr: -0.29
+  ref_proper_motion: Cerny2026arXiv260217652C
 structure:
   ellipticity: 0.17
   ellipticity_em: 0.17
@@ -46,9 +47,14 @@ structure:
   rhalf: 0.52
   rhalf_em: 0.11
   rhalf_ep: 0.24
-table: gc_ambiguous
 metallicity_isochrone:
   metallicity_isochrone: -1.6
   metallicity_isochrone_em: 0.3
   metallicity_isochrone_ep: 0.45
   ref_metallicity_isochrone: Kim2016ApJ...820..119K
+velocity:
+  vlos_systemic: 163.2
+  vlos_systemic_em: 0.8
+  vlos_systemic_ep: 0.7
+  vlos_sigma_ul: 2.9
+  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C

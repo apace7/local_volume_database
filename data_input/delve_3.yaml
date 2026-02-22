@@ -14,6 +14,8 @@ name_discovery:
   ref_discovery:
   - Cerny2023ApJ...953....1C
   abbreviation: DEL3
+notes:
+- Metallicity from bright star.
 distance:
   distance_modulus: 18.73
   distance_modulus_em: 0.23
@@ -26,14 +28,14 @@ m_v:
   mean_ebv: 0.054
   ref_m_v: Cerny2023ApJ...953....1C
 proper_motion:
-  pmdec: -0.8
-  pmdec_em: 0.32
-  pmdec_ep: 0.35
-  pmra: -0.33
-  pmra_em: 0.34
-  pmra_ep: 0.31
-  pmra_pmdec_corr: 0.00
-  ref_proper_motion: Cerny2023ApJ...953....1C
+  pmra: -0.31
+  pmra_em: 0.27
+  pmra_ep: 0.27
+  pmdec: -0.81
+  pmdec_em: 0.28
+  pmdec_ep: 0.28
+  pmra_pmdec_corr: 0.11
+  ref_proper_motion: Cerny2026arXiv260217652C
 structure:
   ellipticity_ul: 0.4
   position_angle: 87.0
@@ -45,3 +47,14 @@ structure:
   rhalf_ep: 0.12
   spatial_model: plummer
   spatial_units: arcmin
+velocity:
+  vlos_systemic: -84.8
+  vlos_systemic_em: 2.8
+  vlos_systemic_ep: 3.0
+  vlos_sigma_ul: 8.7
+  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.98
+  metallicity_spectroscopic_em: 0.29
+  metallicity_spectroscopic_ep: 0.29
+  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
