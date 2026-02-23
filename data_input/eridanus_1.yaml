@@ -31,7 +31,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.05
   metallicity_spectroscopic_ep: 0.05
   metallicity_spectroscopic_sigma_ul: 0.23
-  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
+  ref_metallicity_spectroscopic: Geha2026arXiv260210202G
 velocity:
   vlos_systemic: -18.4
   vlos_systemic_em: 0.3

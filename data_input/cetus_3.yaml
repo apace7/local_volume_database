@@ -14,7 +14,7 @@ name_discovery:
   ref_discovery:
   - Homma2018PASJ...70S..18H
   abbreviation: CetIII
-  # type: dSph/SC
+  type: dSph
 distance:
   distance_modulus: 22.0
   distance_modulus_em: 0.2
@@ -40,3 +40,8 @@ structure:
   rhalf: 1.23
   rhalf_em: 0.19
   rhalf_ep: 0.42
+velocity:
+  vlos_systemic: 1.3
+  vlos_systemic_em: 2.6
+  vlos_systemic_ep: 2.6
+  ref_metallicity_spectroscopic: Geha2026arXiv260210200G

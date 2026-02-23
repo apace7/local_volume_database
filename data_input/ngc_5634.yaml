@@ -28,7 +28,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.01
   metallicity_spectroscopic_ep: 0.01
   metallicity_spectroscopic_sigma_ul: 0.05
-  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
+  ref_metallicity_spectroscopic: Geha2026arXiv260210202G
 proper_motion:
   pmra: -1.692
   pmra_em: 0.027
