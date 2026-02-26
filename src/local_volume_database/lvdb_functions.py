@@ -77,10 +77,14 @@ def add_column(table, yaml_key, yaml_name, **kwargs):
     yaml_name : name in the nested key strucutre in the YAML file
     col_type (optional) : python column type, default is float
     table_yaml_name (optional) : if the table output needs to have the name of the column changed from `yaml_name`
+    unit (optional): astropy unit for new column
     """
     table_yaml_name = kwargs.get('table_yaml_name', yaml_name)
     col_type = kwargs.get('col_type', float)
+    unit = kwargs.get('unit', '')
     table[table_yaml_name] = np.ma.masked_all(len(table), dtype=col_type)
+    if unit !='':
+        table[table_yaml_name].unit = unit
     #np.zeros(len(table), dtype=col_type)
     path = kwargs.get('path', lvdb_path + '/data_input/')
     for i in range(len(table)):
@@ -96,6 +100,7 @@ def add_column(table, yaml_key, yaml_name, **kwargs):
             except yaml.YAMLError as exc:
                 print(exc)
     # return table[table_yaml_name]
+    
                 
 def make_latex_value(value, em, ep, **kwargs):
     ## for rounding when making latex table
@@ -467,7 +472,7 @@ def plot_property_collection(key, property_to_examine, collected_data = pm_data,
     for kk in range(len(collected_data_key)):
         collected_data_key[name_option][kk] = collected_data_key[name_option][kk].replace('&', '\string&')
     
-    fig, ax = plt.subplots(1,1,figsize=(5,len(collected_data_key)))
+    fig, ax = plt.subplots(1,1,figsize=(5,2 + 0.25*len(collected_data_key)))
     for kk in range(len(collected_data_key)):
         if np.ma.is_masked(collected_data_key[property_to_examine][kk])==True and ul_option==True:
             ax.errorbar(collected_data_key[property_to_examine+'_ul'][kk], collected_data_key[name_option][kk], fmt='o', xerr=1, xuplims=True)
