@@ -4,7 +4,7 @@ location:
   ra: 264.657
   dec: -35.651
 name_discovery:
-  confirmed_star_cluster: 0
+  confirmed_star_cluster: 1
   confirmed_real: 1
   host: mw
   name: ESO 393-12

@@ -4,8 +4,8 @@ location:
   ra: 268.476
   dec: -32.466
 name_discovery:
-  confirmed_star_cluster: 0
-  confirmed_real: 0
+  confirmed_star_cluster: 1
+  confirmed_real: 1
   host: mw
   name: ESO 456-09
 notes:

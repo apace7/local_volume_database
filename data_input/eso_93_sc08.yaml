@@ -4,8 +4,8 @@ location:
   ra: 169.925
   dec: -65.22
 name_discovery:
-  confirmed_real: 0
-  confirmed_star_cluster: 0
+  confirmed_real: 1
+  confirmed_star_cluster: 1
   discovery_year: 1977
   host: mw
   name: ESO 93-SC08
