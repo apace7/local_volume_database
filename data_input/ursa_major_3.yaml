@@ -20,7 +20,7 @@ notes:
   the velocity disperison is unresolved if two stars are removed \citep{Smith2024ApJ...961...92S}
 - systematic proper motion errors are 0.033 mas/yr \citep{Smith2024ApJ...961...92S}
 - pmra pmdec correlation computed by ABP from 8 Gaia members.
-- Classified as likely star cluster due to unresolved velocity and metallicity disperison \citep{Cerny2025arXiv251002431C}.
+- Classified as likely star cluster due to unresolved velocity and metallicity disperison \citep{Cerny2026ApJ...999L...8C}.
 structure:
   rhalf: 0.9
   rhalf_em: 0.3
@@ -56,7 +56,7 @@ velocity:
   vlos_systemic_em: 0.6
   vlos_systemic_ep: 0.6
   vlos_sigma_ul: 2.3
-  ref_vlos: Cerny2025arXiv251002431C
+  ref_vlos: Cerny2026ApJ...999L...8C
 age:
   age: 12
   ref_age: Smith2024ApJ...961...92S
@@ -68,4 +68,4 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.32
   metallicity_spectroscopic_ep: 0.32
   metallicity_spectroscopic_sigma_ul: 0.35
-  ref_metallicity_spectroscopic: Cerny2025arXiv251002431C
+  ref_metallicity_spectroscopic: Cerny2026ApJ...999L...8C

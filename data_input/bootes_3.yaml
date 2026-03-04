@@ -17,9 +17,6 @@ notes:
 - Very diffuse. Tidal remnant? \citep{McConnachie2012AJ....144....4M}
 - confirmed dwarf  due to resolved velocity dispersion and high mass-to-light
   ratio.
-- The spectroscopic sample \citet{Carlin2009ApJ...702L...9C} is updated in \citet{Carlin2018ApJ...865....7C}
-  using Gaia astrometry. The velocity dispersion, mean velocity, and metallicity dispersion
-  have updated values \citep{Carlin2018ApJ...865....7C}
 distance:
   distance_modulus: 18.34
   distance_modulus_em: 0.02
@@ -66,4 +63,4 @@ velocity:
   vlos_sigma: 5.27
   vlos_sigma_em: 1.67
   vlos_sigma_ep: 2.1
-  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
+  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G

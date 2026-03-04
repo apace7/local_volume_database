@@ -42,7 +42,7 @@ velocity:
   vlos_sigma_em: 0.38
   vlos_sigma_ep: 0.43
   vlos_sigma_ul: -999.0
-  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
+  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
 proper_motion:
   pmra: 0.007
   pmra_em: 0.028

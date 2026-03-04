@@ -12,7 +12,7 @@ name_discovery:
   host: mw
 notes:
 - half-mass radius in \citet{Leanza2024A&A...688A.133L}
-- vlos sigma from \citet{Geha2026arXiv260210200G}
+- vlos sigma from \citet{Geha2026ApJ...999..140G}
 age:
   age: 9.98
   age_em: 0.51
