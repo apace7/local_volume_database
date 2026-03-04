@@ -9,6 +9,8 @@ from collections import Counter
 
 import numpy.ma as ma
 
+import yaml
+
 lvdb_path = os.environ.get('LVDBDIR')
 print("lvdb_path", lvdb_path)
 
@@ -102,10 +104,36 @@ def check_keys():
         print("repeat keys", Counter(comb_all['key']).most_common(5))
     print("end keys test")
 
+def check_yaml_files():
+    ## files to check
+    path = lvdb_path + "data_input/"
+    dir_list = os.listdir(path)
+    dir_list = [i for i in dir_list if i!='readme.md']
+    
+    # load example yaml keys files, these are the default yaml keys
+    with open("/Users/apace/Documents/local_volume_database/code/example_yaml.yaml", 'r') as stream:
+        example_yaml_keys = yaml.load(stream, Loader=yaml.Loader)
+
+    ## check yaml files if extra keys are in the files
+    for i in range(len(dir_list)):
+        yaml_name  = "/Users/apace/Documents/local_volume_database/data_input/" + dir_list[i]
+        with open(yaml_name, 'r') as stream:
+            stream_yaml = yaml.load(stream, Loader=yaml.Loader)
+            for stream_yaml_keys in list(stream_yaml.keys()):
+                if stream_yaml_keys not in list(example_yaml_keys.keys()):
+                    print("overall yaml key wrong",  stream_yaml['key'], stream_yaml_keys)
+                elif stream_yaml_keys in ['key', 'table', 'notes']:
+                    continue
+                else:
+                    for stream_yaml_keys_keys in list(stream_yaml[stream_yaml_keys].keys()):
+                        if stream_yaml_keys_keys not in list(example_yaml_keys[stream_yaml_keys].keys()):
+                            print("extra yaml key ",  stream_yaml['key'], stream_yaml_keys, stream_yaml_keys_keys)
+
 
 ra_dec_values()
 check_references()
 check_distance()
 check_keys()
+check_yaml_files()
 
 print("unit tests completed")
