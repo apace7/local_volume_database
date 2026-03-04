@@ -20,7 +20,6 @@ distance:
   distance_modulus_em: 0.03
   distance_modulus_ep: 0.03
   ref_distance: Baumgardt2021MNRAS.505.5957B
-
 m_v:
   apparent_magnitude_v: 7.35
   apparent_magnitude_v_em: 0.05
@@ -51,4 +50,4 @@ velocity:
   vlos_sigma: 4.7
   vlos_sigma_em: 0.41
   vlos_sigma_ep: 0.48
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G

@@ -14,7 +14,7 @@ name_discovery:
   - GCL B1625-3514
   - MWSC 2835
   host: mw
-  ref_discovery: 
+  ref_discovery:
   - Abell1955PASP...67..258A
 notes:
 - Discovered by Lewis Swift in 1889
@@ -50,5 +50,4 @@ velocity:
   vlos_sigma: 5.66
   vlos_sigma_em: 1.18
   vlos_sigma_ep: 1.72
-  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
-
+  ref_vlos: Geha2026arXiv260210200G

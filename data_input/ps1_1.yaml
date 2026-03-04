@@ -13,7 +13,7 @@ name_discovery:
   - Prestgard 64
   ref_discovery:
   - Torrealba2019MNRAS.484.2181T
-  abbreviation: PS1-1  
+  abbreviation: PS1-1
 notes:
 - Very Likely Star Cluster \citep{Cerny2026arXiv260217652C}.
 distance:
@@ -41,7 +41,7 @@ velocity:
   vlos_sigma: 2.1
   vlos_sigma_em: 0.6
   vlos_sigma_ep: 0.8
-  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
+  ref_vlos: Cerny2026arXiv260217652C
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.24
   metallicity_spectroscopic_em: 0.08

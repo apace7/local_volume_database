@@ -7,7 +7,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 5634
-  host: mw  
+  host: mw
 age:
   age: 11.84
   age_em: 0.51
@@ -48,4 +48,4 @@ velocity:
   vlos_sigma: 3.4
   vlos_sigma_em: 0.4
   vlos_sigma_ep: 0.47
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G

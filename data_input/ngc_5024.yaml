@@ -9,7 +9,7 @@ name_discovery:
   name: NGC 5024
   other_name:
   - M53
-  host: mw  
+  host: mw
 age:
   age: 12.72
   age_em: 0.44
@@ -50,4 +50,4 @@ velocity:
   vlos_sigma: 3.77
   vlos_sigma_em: 0.57
   vlos_sigma_ep: 0.66
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G

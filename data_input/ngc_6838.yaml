@@ -50,4 +50,4 @@ velocity:
   vlos_sigma: 2.07
   vlos_sigma_em: 0.47
   vlos_sigma_ep: 0.58
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G

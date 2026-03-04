@@ -16,10 +16,11 @@ name_discovery:
   abbreviation: DraII
   type: dSph/SC
 notes:
-- observed mass segregation in \citep{Baumgardt2022MNRAS.510.3531B}; there is potential metallicity
-  dispersion in CaH\&K photometry but main sequence stars are included in this calculation
-  \citep{Fu2023ApJ...958..167F}; no spectroscopic metallicity dispersion or velocity dispersion
-  \citep{Longeard2020MNRAS.491..356L}; size is large for star cluster
+- observed mass segregation in \citep{Baumgardt2022MNRAS.510.3531B}; there is potential
+  metallicity dispersion in CaH\&K photometry but main sequence stars are included
+  in this calculation \citep{Fu2023ApJ...958..167F}; no spectroscopic metallicity
+  dispersion or velocity dispersion \citep{Longeard2020MNRAS.491..356L}; size is large
+  for star cluster
 - Considered likely dwarf galaxy in \citet{Cerny2026arXiv260217652C}.
 distance:
   distance_modulus: 16.67
@@ -42,8 +43,8 @@ metallicity_spectroscopic:
 metallicity_photometric:
   metallicity_photometric: -2.72
   metallicity_photometric_em: 0.11
-  metallicity_photometric_ep: 0.10
-  metallicity_photometric_sigma: 0.40
+  metallicity_photometric_ep: 0.1
+  metallicity_photometric_sigma: 0.4
   metallicity_photometric_sigma_em: 0.12
   metallicity_photometric_sigma_ep: 0.12
   ref_metallicity_photometric: Fu2023ApJ...958..167F
@@ -71,4 +72,4 @@ velocity:
   vlos_systemic_em: 0.7
   vlos_systemic_ep: 0.7
   vlos_sigma_ul: 2.6
-  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
+  ref_vlos: Cerny2026arXiv260217652C

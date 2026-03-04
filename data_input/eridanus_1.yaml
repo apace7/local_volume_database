@@ -10,7 +10,7 @@ name_discovery:
   name: Eridanus
   ref_discovery:
   - Cesarsky1977A&A....61L..31C
-  host: mw  
+  host: mw
 age:
   age: 9.7
   age_em: 0.84
@@ -37,9 +37,9 @@ velocity:
   vlos_systemic_em: 0.3
   vlos_systemic_ep: 0.3
   vlos_sigma_ul: 0.89
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G
 proper_motion:
-  pmra: 0.510
+  pmra: 0.51
   pmra_em: 0.039
   pmra_ep: 0.039
   pmdec: -0.301

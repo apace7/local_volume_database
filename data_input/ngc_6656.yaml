@@ -9,7 +9,7 @@ name_discovery:
   name: NGC 6656
   other_name:
   - M22
-  host: mw  
+  host: mw
 age:
   age: 12.67
   age_em: 0.64
@@ -52,4 +52,4 @@ velocity:
   vlos_sigma: 7.05
   vlos_sigma_em: 0.62
   vlos_sigma_ep: 0.69
-  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
+  ref_vlos: Geha2026arXiv260210200G

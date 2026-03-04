@@ -9,7 +9,7 @@ name_discovery:
   name: NGC 7099
   other_name:
   - M30
-  host: mw 
+  host: mw
 age:
   age: 13.06
   age_em: 0.52
@@ -52,4 +52,4 @@ velocity:
   vlos_sigma: 4.01
   vlos_sigma_em: 0.28
   vlos_sigma_ep: 0.3
-  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
+  ref_vlos: Geha2026arXiv260210200G

@@ -46,7 +46,7 @@ proper_motion:
   pmra: 0.169
   pmra_em: 0.073
   pmra_ep: 0.071
-  pmra_pmdec_corr: -0.040
+  pmra_pmdec_corr: -0.04
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
   ellipticity: 0.3
@@ -74,4 +74,4 @@ velocity:
   vlos_sigma: 5.96
   vlos_sigma_em: 1.81
   vlos_sigma_ep: 2.78
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G

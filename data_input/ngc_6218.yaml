@@ -9,7 +9,7 @@ name_discovery:
   name: NGC 6218
   other_name:
   - M12
-  host: mw  
+  host: mw
 age:
   age: 12.97
   age_em: 0.47
@@ -50,4 +50,4 @@ velocity:
   vlos_systemic_em: 0.8
   vlos_systemic_ep: 0.8
   vlos_sigma_ul: 3.3
-  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
+  ref_vlos: Geha2026arXiv260210200G

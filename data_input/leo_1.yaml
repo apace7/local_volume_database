@@ -1,4 +1,3 @@
-
 key: leo_1
 table: dwarf_mw
 location:
@@ -81,4 +80,4 @@ velocity:
   vlos_sigma: 9.29
   vlos_sigma_em: 0.26
   vlos_sigma_ep: 0.26
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G

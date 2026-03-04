@@ -15,7 +15,8 @@ name_discovery:
   - Cerny2023ApJ...953....1C
   abbreviation: DEL5
 notes:
-- Proper motion measurement from \citet{Cerny2023ApJ...953....1C} shown to be false positive in \citet{Cerny2026arXiv260217652C}.
+- Proper motion measurement from \citet{Cerny2023ApJ...953....1C} shown to be false
+  positive in \citet{Cerny2026arXiv260217652C}.
 age:
   age: 10.0
   ref_age: Cerny2023ApJ...953....1C
@@ -50,4 +51,4 @@ velocity:
   vlos_systemic: -233.5
   vlos_systemic_em: 6.2
   vlos_systemic_ep: 6.3
-  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
+  ref_vlos: Cerny2026arXiv260217652C

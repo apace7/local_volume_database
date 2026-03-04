@@ -12,7 +12,7 @@ name_discovery:
   ref_discovery:
   - Cerny2023ApJ...942..111C
   abbreviation: PegIV
-  type: dSph  
+  type: dSph
 notes:
 - pmra pmdec correlation computed by ABP from 9 Spectra members.
 distance:
@@ -41,7 +41,7 @@ velocity:
   vlos_sigma: 3.33
   vlos_sigma_em: 0.86
   vlos_sigma_ep: 1.19
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G
 proper_motion:
   pmdec: -0.21
   pmdec_em: 0.08

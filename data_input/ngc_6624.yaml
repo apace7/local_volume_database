@@ -7,7 +7,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 6624
-  host: mw  
+  host: mw
 age:
   age: 12.26
   age_em: 0.54
@@ -50,4 +50,4 @@ velocity:
   vlos_sigma: 3.29
   vlos_sigma_em: 0.31
   vlos_sigma_ep: 0.36
-  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
+  ref_vlos: Geha2026arXiv260210200G

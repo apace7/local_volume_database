@@ -42,7 +42,7 @@ metallicity_photometric:
   metallicity_photometric_em: 0.12
   metallicity_photometric_ep: 0.12
   metallicity_photometric_sigma: 0.55
-  metallicity_photometric_sigma_em: 0.10
+  metallicity_photometric_sigma_em: 0.1
   metallicity_photometric_sigma_ep: 0.12
   ref_metallicity_photometric: Fu2023ApJ...958..167F
 proper_motion:
@@ -88,4 +88,4 @@ velocity:
   vlos_sigma: 5.28
   vlos_sigma_em: 0.96
   vlos_sigma_ep: 1.25
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G

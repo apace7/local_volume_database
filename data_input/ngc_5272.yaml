@@ -2,14 +2,14 @@ key: ngc_5272
 table: gc_harris
 location:
   ra: 205.548416
-  dec: 28.377277  
+  dec: 28.377277
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 5272
   other_name:
   - M3
-  host: mw 
+  host: mw
 age:
   age: 11.88
   age_em: 0.42
@@ -37,7 +37,7 @@ proper_motion:
   pmra: -0.152
   pmra_em: 0.023
   pmra_ep: 0.023
-  pmdec: -2.670
+  pmdec: -2.67
   pmdec_em: 0.022
   pmdec_ep: 0.022
   pmra_pmdec_corr: 0.0
@@ -52,4 +52,4 @@ velocity:
   vlos_sigma: 3.85
   vlos_sigma_em: 0.46
   vlos_sigma_ep: 0.53
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G

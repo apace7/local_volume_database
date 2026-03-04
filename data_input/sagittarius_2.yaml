@@ -18,8 +18,8 @@ name_discovery:
   name_lvg: Sgr II
 distance:
   distance_modulus: 19.03
-  distance_modulus_em: 0.10
-  distance_modulus_ep: 0.10
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
   ref_distance: Joo2019ApJ...875..120J
 m_v:
   apparent_magnitude_v: 13.82
@@ -39,7 +39,7 @@ velocity:
   vlos_sigma: 2.32
   vlos_sigma_em: 0.43
   vlos_sigma_ep: 0.53
-  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
+  ref_vlos: Geha2026arXiv260210200G
 proper_motion:
   pmra: -0.769
   pmra_em: 0.035
@@ -60,7 +60,7 @@ structure:
   position_angle_ep: 50
   ref_structure: Richstein2024ApJ...967...72R
 star_formation_history:
-  tau_50: 13.40
+  tau_50: 13.4
   tau_50_em: 0.07
   tau_50_ep: 0.07
   tau_90: 12.68

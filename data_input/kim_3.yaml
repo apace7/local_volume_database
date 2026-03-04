@@ -11,7 +11,7 @@ name_discovery:
   name: Kim 3
   ref_discovery:
   - Kim2016ApJ...820..119K
-  abbreviation: Kim3  
+  abbreviation: Kim3
 age:
   age: 9.5
   age_em: 1.7
@@ -57,4 +57,4 @@ velocity:
   vlos_systemic_em: 0.8
   vlos_systemic_ep: 0.7
   vlos_sigma_ul: 2.9
-  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
+  ref_vlos: Cerny2026arXiv260217652C

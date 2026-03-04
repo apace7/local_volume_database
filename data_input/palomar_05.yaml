@@ -17,7 +17,8 @@ name_discovery:
   - MWSC 2282
   - UGC 9792
 notes:
-- independently discovered by Baade (1950) and Wilson (1995). Cataloged by Abell with Palomar numbers \citep{Abell1955PASP...67..258A}
+- independently discovered by Baade (1950) and Wilson (1995). Cataloged by Abell with
+  Palomar numbers \citep{Abell1955PASP...67..258A}
 age:
   age: 10.9
   age_em: 0.86
@@ -37,7 +38,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -1.41
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
 proper_motion:
-  pmra: -2.730
+  pmra: -2.73
   pmra_em: 0.028
   pmra_ep: 0.028
   pmdec: -2.654
@@ -57,4 +58,4 @@ velocity:
   vlos_sigma: 3.21
   vlos_sigma_em: 0.69
   vlos_sigma_ep: 0.71
-  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
+  ref_vlos: Geha2026arXiv260210200G

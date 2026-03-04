@@ -10,7 +10,7 @@ name_discovery:
   host: mw
   name: Munoz 1
   ref_discovery:
-  - Munoz2012ApJ...753L..15M  
+  - Munoz2012ApJ...753L..15M
 notes:
 - Leans Star Cluster \citep{Cerny2026arXiv260217652C}.
 distance:
@@ -63,7 +63,7 @@ velocity:
   vlos_systemic: -138.7
   vlos_systemic_em: 4.0
   vlos_systemic_ep: 4.5
-  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
+  ref_vlos: Cerny2026arXiv260217652C
 metallicity_spectroscopic:
   metallicity_spectroscopic: -1.26
   metallicity_spectroscopic_em: 0.28

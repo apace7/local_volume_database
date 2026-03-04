@@ -16,8 +16,8 @@ name_discovery:
   - Abell1955PASP...67..258A
   host: mw
 notes:
-- the mean velocity reference is \citet{Baumgardt2018MNRAS.478.1520B} and the velocity dispersion
-  reference is \citet{Bradford2011ApJ...743..167B}
+- the mean velocity reference is \citet{Baumgardt2018MNRAS.478.1520B} and the velocity
+  dispersion reference is \citet{Bradford2011ApJ...743..167B}
 - discovered by A. G. Wilson \citep{Abell1955PASP...67..258A}
 distance:
   distance_modulus: 16.853
@@ -46,8 +46,8 @@ proper_motion:
   ref_proper_motion: Vasiliev2021MNRAS.505.5978V
 structure:
   rhalf: 1.14
-  rhalf_em: 0.10
-  rhalf_ep: 0.10
+  rhalf_em: 0.1
+  rhalf_ep: 0.1
   spatial_units: arcmin
   spatial_model: plummer
   ellipticity: 0.05
@@ -70,7 +70,7 @@ velocity:
   vlos_systemic_em: 0.3
   vlos_systemic_ep: 0.3
   vlos_sigma_ul: 1.52
-  ref_metallicity_spectroscopic: Geha2026arXiv260210200G
+  ref_vlos: Geha2026arXiv260210200G
 age:
   age: 13.4
   age_em: 0.5

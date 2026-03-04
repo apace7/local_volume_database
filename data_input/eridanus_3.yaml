@@ -92,7 +92,7 @@ velocity:
   vlos_systemic_em: 2.1
   vlos_systemic_ep: 2.5
   vlos_sigma_ul: 8.7
-  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
+  ref_vlos: Cerny2026arXiv260217652C
 metallicity_isochrone:
   metallicity_isochrone: -2.4
   metallicity_isochrone_em: 0.12

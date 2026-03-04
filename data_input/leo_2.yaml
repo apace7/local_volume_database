@@ -16,9 +16,9 @@ name_discovery:
   ref_discovery:
   - Harrington1950PASP...62..118H
   abbreviation: LeoII
-  type: dSph  
+  type: dSph
 distance:
-  distance_modulus: 21.60
+  distance_modulus: 21.6
   distance_modulus_em: 0.06
   distance_modulus_ep: 0.06
   distance_measurement_method: rrl
@@ -43,7 +43,7 @@ proper_motion:
   pmdec: -0.143
   pmdec_em: 0.009
   pmdec_ep: 0.009
-  pmra: -0.130
+  pmra: -0.13
   pmra_em: 0.009
   pmra_ep: 0.009
   ref_proper_motion: Bennet2024ApJ...971...98B
@@ -81,4 +81,4 @@ velocity:
   vlos_sigma: 7.53
   vlos_sigma_em: 0.36
   vlos_sigma_ep: 0.39
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G

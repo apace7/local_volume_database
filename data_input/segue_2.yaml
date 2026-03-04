@@ -13,7 +13,7 @@ name_discovery:
   - Belokurov2009MNRAS.397.1748B
   abbreviation: Seg2
   type: dSph
-  name_lvg: Segue 2  
+  name_lvg: Segue 2
 distance:
   distance_modulus: 17.81
   distance_modulus_em: 0.15
@@ -34,7 +34,7 @@ proper_motion:
   pmra: 1.446
   pmra_em: 0.059
   pmra_ep: 0.059
-  pmra_pmdec_corr: 0.260
+  pmra_pmdec_corr: 0.26
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
   ellipticity: 0.22
@@ -76,4 +76,4 @@ velocity:
   vlos_systemic_em: 0.4
   vlos_systemic_ep: 0.4
   vlos_sigma_ul: 2.06
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G

@@ -52,7 +52,7 @@ velocity:
   vlos_systemic_em: 2.8
   vlos_systemic_ep: 3.0
   vlos_sigma_ul: 8.7
-  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C
+  ref_vlos: Cerny2026arXiv260217652C
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.98
   metallicity_spectroscopic_em: 0.29

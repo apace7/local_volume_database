@@ -12,7 +12,7 @@ name_discovery:
   ref_discovery:
   - Kim2015ApJ...804L..44K
   abbreviation: PegIII
-  type: dSph  
+  type: dSph
 distance:
   distance_modulus: 21.66
   distance_modulus_em: 0.12
@@ -61,4 +61,4 @@ velocity:
   vlos_sigma: 2.76
   vlos_sigma_em: 0.91
   vlos_sigma_ep: 1.24
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G

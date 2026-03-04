@@ -7,7 +7,7 @@ name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   name: NGC 5897
-  host: mw  
+  host: mw
 age:
   age: 12.3
   age_em: 1.2
@@ -48,4 +48,4 @@ velocity:
   vlos_sigma: 2.93
   vlos_sigma_em: 0.21
   vlos_sigma_ep: 0.25
-  ref_metallicity_spectroscopic: Geha2026ApJ...999..140G
+  ref_vlos: Geha2026ApJ...999..140G
