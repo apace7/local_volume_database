@@ -6,7 +6,7 @@ The LVDB is a database of dwarf galaxies and star clusters in the Local Volume. 
 The planned limiting distance is ~10+ Mpc (i.e. resolved stars with HST or JWST).  
 The star cluster collections are currently limited to old star clusters/globular clusters in the Milky Way halo and globular clusters/star clusters hosted by low-mass dwarf galaxies.
 
-The main data tables are located in the [`GitHub release pages`](https://github.com/apace7/local_volume_database/releases/) in `CSV` and `FITS` file formats. This includes a combined catalog file of the entire database (comb_all.csv) and a summary pdf document of the database content. 
+The main data tables are located in the [`GitHub release pages`](https://github.com/apace7/local_volume_database/releases/) in `CSV` and `FITS` file formats. Users are enouraged to use the combined catalog file (`comb_all.csv`). The release pages also include a summary pdf document of the database content (`lvdb_table.pdf`). 
 
 
 
@@ -26,13 +26,13 @@ The catalog can be directly loaded into Jupyter notebooks without having to down
 
 An interactive version of the LVDB is available here: [link](https://lvd-interactive.streamlit.app/) (made by Katya Gozman).
 
-Community contributions to the LVDB are welcome. Please feel free to contract me with any questions about LVDB content and/or potential contributions. 
+Community contributions to the LVDB are welcome. Please feel free to create a GitHub issue or contract me with any questions about LVDB content and/or potential contributions. 
 
 ### INSTALLATION and USE:
 
-Users that only want to use the catalogs do not need to install the package. 
-The catalogs are available as csv and fits files in the release pages.
-The package is focused on helper functions and yaml file access. 
+Users only interested in the catalogs do not need to install the package. 
+The catalogs are available in the release pages (`comb_all.fits`, `comb_all.csv`).
+The package is focused on helper functions and `YAML` file access. 
 
 
 The package is installable locally via pip:
@@ -40,6 +40,7 @@ The package is installable locally via pip:
 ```
 git clone https://github.com/apace7/local_volume_database.git
 cd local_volume_database
+pip install build
 python -m build
 pip install .
 ```
