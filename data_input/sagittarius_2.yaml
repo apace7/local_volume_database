@@ -39,7 +39,7 @@ velocity:
   vlos_sigma: 2.32
   vlos_sigma_em: 0.43
   vlos_sigma_ep: 0.53
-  ref_vlos: Geha2026arXiv260210200G
+  ref_vlos: Geha2026ApJ...999..140G
 proper_motion:
   pmra: -0.769
   pmra_em: 0.035

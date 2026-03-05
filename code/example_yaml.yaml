@@ -156,9 +156,9 @@ structure_eff:
   position_angle_ep: 0
   ref_structure_eff: ref
 structure_plummer:
-  rplmmer: 0
-  rplmmer_em: 0
-  rplmmer_ep: 0
+  rplummer: 0
+  rplummer_em: 0
+  rplummer_ep: 0
   spatial_units: arcmin, arcsec
   ellipticity: 0
   ellipticity_em: 0
@@ -219,6 +219,7 @@ age:
   age: 0
   age_em: 0
   age_ep: 0
+  age_ll: 0
   ref_age: ref
 star_formation_history:
   tau_50: 0

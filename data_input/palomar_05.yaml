@@ -58,4 +58,4 @@ velocity:
   vlos_sigma: 3.21
   vlos_sigma_em: 0.69
   vlos_sigma_ep: 0.71
-  ref_vlos: Geha2026arXiv260210200G
+  ref_vlos: Geha2026ApJ...999..140G

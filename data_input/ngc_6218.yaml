@@ -50,4 +50,4 @@ velocity:
   vlos_systemic_em: 0.8
   vlos_systemic_ep: 0.8
   vlos_sigma_ul: 3.3
-  ref_vlos: Geha2026arXiv260210200G
+  ref_vlos: Geha2026ApJ...999..140G
