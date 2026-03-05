@@ -40,7 +40,7 @@ proper_motion:
 structure:
   ref_structure: Simpson2019MNRAS.490..741S
   rhalf: 46.71
-  rhalf_rm: 6.79
+  rhalf_em: 6.79
   rhalf_ep: 5.45
   spatial_units: arcsec
   spatial_model: king

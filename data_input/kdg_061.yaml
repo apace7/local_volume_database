@@ -52,7 +52,7 @@ structure_sersic:
   spatial_units: arcmin
   ellipticity: 0.28
   position_angle: 53.1
-  ref_structure_king: Okamoto2019ApJ...884..128O
+  ref_structure_sersic: Okamoto2019ApJ...884..128O
 velocity:
   vlos_systemic: 221
   vlos_systemic_em: 3

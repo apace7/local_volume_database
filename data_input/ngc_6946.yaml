@@ -12,7 +12,7 @@ name_discovery:
   - UGC 11597
   name_lvg: NGC6946
 structure:
-  diameter_holmberg: 14.79
+  diameter_holm: 14.79
   spatial_units: arcmin
 distance:
   distance_modulus: 29.44

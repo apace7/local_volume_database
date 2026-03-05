@@ -27,7 +27,6 @@ structure:
   ref_structure: Kurtev2008A&A...489..583K
   rhalf: 1.73
 structure_king:
-  king_concentration: 1.33
   rcore: 0.7
   ref_structure_king: Kurtev2008A&A...489..583K
   rking: 15.0

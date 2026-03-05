@@ -15,7 +15,7 @@ name_discovery:
   - Burton1999AJ....117..194B
   discovery_year: 1998
 structure:
-  diameter_holmberg: 3.02
+  diameter_holm: 3.02
   spatial_units: arcmin
 distance:
   distance_fixed_host: true

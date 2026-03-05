@@ -45,9 +45,6 @@ structure:
   rhalf_em: 0.1
   rhalf_ep: 0.1
 structure_king:
-  king_concentration: 0.59
-  king_concentration_em: 0.06
-  king_concentration_ep: 0.06
   rcore: 2.7
   rcore_em: 0.3
   rcore_ep: 0.3

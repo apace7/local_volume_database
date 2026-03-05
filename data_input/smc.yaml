@@ -55,10 +55,10 @@ flux_HI:
   flux_HI: 476675
   flux_HI_em: 4145
   flux_HI_ep: 4145
-  flux_HI_rotation_velocity: 60
-  flux_HI_rotation_velocity_em: 5
-  flux_HI_rotation_velocity_ep: 5
-  flux_HI_dispersion: 22
-  flux_HI_dispersion_em: 2
-  flux_HI_dispersion_ep: 2
+  vrot_HI: 60
+  vrot_HI_em: 5
+  vrot_HI_ep: 5
+  sigma_HI: 22
+  sigma_HI_em: 2
+  sigma_HI_ep: 2
   ref_flux_HI: Bruns2005A&A...432...45B

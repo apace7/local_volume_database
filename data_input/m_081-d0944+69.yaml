@@ -36,5 +36,5 @@ structure_sersic:
   spatial_units: arcsec
   ellipticity: 0.09
   position_angle: -9.7
-  ref_structure: Chiboucas2009AJ....137.3009C
+  ref_structure_sersic: Chiboucas2009AJ....137.3009C
 

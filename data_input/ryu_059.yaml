@@ -1,20 +1,11 @@
-distance:
-  distance_modulus: 17.3
-  distance_modulus_em: 0.3
-  distance_modulus_ep: 0.3
-  ref_distance: Ryu2018ApJ...863L..38R
 key: ryu_059
+table: gc_mw_new
 location:
-  dec: -44.59406
   ra: 244.28504
-m_v:
-  apparent_magnitude_v: 9.05
-  apparent_magnitude_v_em: 0.31
-  apparent_magnitude_v_ep: 0.31
-  ref_m_v: Ryu2018ApJ...863L..38R
+  dec: -44.59406
 name_discovery:
-  confirmed_real: 0
-  confirmed_star_cluster: 0
+  confirmed_real: 1
+  confirmed_star_cluster: 1
   discovery_year: 2018
   host: mw
   name: Ryu 059
@@ -22,7 +13,17 @@ name_discovery:
   - RLGC 1
   ref_discovery:
   - Ryu2018ApJ...856..152R
-  - Ryu2018ApJ...863L..38R
+  - Ryu2018ApJ...863L..38R  
+distance:
+  distance_modulus: 17.3
+  distance_modulus_em: 0.3
+  distance_modulus_ep: 0.3
+  ref_distance: Ryu2018ApJ...863L..38R
+m_v:
+  apparent_magnitude_v: 9.05
+  apparent_magnitude_v_em: 0.31
+  apparent_magnitude_v_ep: 0.31
+  ref_m_v: Ryu2018ApJ...863L..38R
 proper_motion:
   pmra: 1.022
   pmra_em: 0.055
@@ -38,9 +39,6 @@ structure:
   rhalf_em: 0.03
   rhalf_ep: 0.03
 structure_king:
-  king_concentration: 0.7
-  king_concentration_em: 0.2
-  king_concentration_ep: 0.2
   rcore: 0.18
   rcore_em: 0.03
   rcore_ep: 0.03
@@ -48,7 +46,6 @@ structure_king:
   rking: 0.93
   rking_em: 0.4
   rking_ep: 0.4
-table: gc_mw_new
 metallicity_isochrone:
   metallicity_isochrone: -2.2
   metallicity_isochrone_em: 0.2

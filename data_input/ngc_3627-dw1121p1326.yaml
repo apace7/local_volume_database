@@ -30,15 +30,3 @@ m_v:
   apparent_magnitude_v_em: 0.13
   apparent_magnitude_v_ep: 0.13
   ref_m_v: Carlsten2022ApJ...933...47C
-m_v_host:
-  apparent_magnitude_v: 19.06
-  apparent_magnitude_v_em: 0.13
-  apparent_magnitude_v_ep: 0.13
-  ref_m_v: Carlsten2022ApJ...933...47C
-structure_host:
-  rhalf: 9.9
-  rhalf_em: 1.0
-  rhalf_ep: 1.0
-  ref_structure: Carlsten2022ApJ...933...47C
-  spatial_units: arcsec
-  spatial_model: sersic

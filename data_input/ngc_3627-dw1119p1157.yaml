@@ -15,7 +15,7 @@ distance:
   distance_modulus: 30.34
   distance_measurement_method: btf
   ref_distance: Karachentsev2013AJ....145..101K
-m_vt:
+m_v:
   apparent_magnitude_v: 16.07
   apparent_magnitude_v_em: 0.09
   apparent_magnitude_v_ep: 0.09

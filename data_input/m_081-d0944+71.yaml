@@ -44,7 +44,7 @@ structure_sersic:
   spatial_units: arcsec
   ellipticity: 0.11
   position_angle: 3.6
-  ref_structure: Chiboucas2013AJ....146..126C
+  ref_structure_sersic: Chiboucas2013AJ....146..126C
 velocity:
   vlos_systemic: -38.3
   vlos_systemic_em: 9.8

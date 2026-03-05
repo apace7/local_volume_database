@@ -52,9 +52,9 @@ structure_sersic:
   position_angle: 46.3
   ref_structure_sersic: Okamoto2023ApJ...952...77O
 structure_plummer:
-  rplmmer: 6.7
-  rplmmer_em: 0.1
-  rplmmer_ep: 0.1
+  rplummer: 6.7
+  rplummer_em: 0.1
+  rplummer_ep: 0.1
   spatial_units: arcmin, arcsec
   ellipticity: 0.22
   position_angle: 46.3

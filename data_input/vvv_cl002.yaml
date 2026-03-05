@@ -35,11 +35,12 @@ structure:
   rhalf: 0.75
   rhalf_em: 0.1
   rhalf_ep: 0.1
+  spatial_units: arcmin
 structure_king:
-  king_concentration: 0.65
-  king_concentration_em: 0.26
-  king_concentration_ep: 0.26
   ref_structure_king: MoniBidin2011A&A...535A..33M
+  rcore: 0.39
+  rcore_em: 0.17
+  rcore_ep: 0.35
   rking: 1.8
   rking_em: 0.1
   rking_ep: 0.1

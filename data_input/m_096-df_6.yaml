@@ -24,7 +24,7 @@ structure:
   ellipticity: 0.29
   ellipticity_em: 0.01
   ellipticity_ep: 0.01
-  spaital_units: arcmin
+  spatial_units: arcmin
   ref_structure: Cohen2018ApJ...868...96C
 distance:
   distance_modulus: 30.04
@@ -43,8 +43,8 @@ structure_sersic:
   rad_sersic: 0.6767
   rad_sersic_em: 0.0233
   rad_sersic_ep: 0.0233
-  spaital_units: arcmin
+  spatial_units: arcmin
   ellipticity: 0.29
   ellipticity_em: 0.01
   ellipticity_ep: 0.01
-  ref_structure: Cohen2018ApJ...868...96C
+  ref_structure_sersic: Cohen2018ApJ...868...96C
