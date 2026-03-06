@@ -1,17 +1,8 @@
-distance:
-  distance_modulus: 16.0
-  distance_modulus_em: 0.3
-  distance_modulus_ep: 0.3
-  ref_distance: Ryu2018ApJ...863L..38R
 key: ryu_879
+table: gc_mw_new
 location:
-  dec: -5.19258
   ra: 281.36738
-m_v:
-  apparent_magnitude_v: 7.97
-  apparent_magnitude_v_em: 0.33
-  apparent_magnitude_v_ep: 0.33
-  ref_m_v: Ryu2018ApJ...863L..38R
+  dec: -5.19258
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -22,7 +13,17 @@ name_discovery:
   - RLGC 2
   ref_discovery:
   - Ryu2018ApJ...856..152R
-  - Ryu2018ApJ...863L..38R
+  - Ryu2018ApJ...863L..38R  
+distance:
+  distance_modulus: 16.0
+  distance_modulus_em: 0.3
+  distance_modulus_ep: 0.3
+  ref_distance: Ryu2018ApJ...863L..38R
+m_v:
+  apparent_magnitude_v: 7.97
+  apparent_magnitude_v_em: 0.33
+  apparent_magnitude_v_ep: 0.33
+  ref_m_v: Ryu2018ApJ...863L..38R
 proper_motion:
   pmra: -2.396
   pmra_em: 0.077
@@ -45,9 +46,18 @@ structure_king:
   rking: 0.9
   rking_em: 0.1
   rking_ep: 0.1
-table: gc_mw_new
 metallicity_isochrone:
   metallicity_isochrone: -2.1
   metallicity_isochrone_em: 0.3
   metallicity_isochrone_ep: 0.3
   ref_metallicity_isochrone: Ryu2018ApJ...863L..38R
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.33
+  metallicity_spectroscopic_em: 0.04
+  metallicity_spectroscopic_ep: 0.04
+  ref_metallicity_spectroscopic: Ceccarelli2026arXiv260304507C
+velocity:
+  vlos_systemic: -316
+  vlos_systemic_em: 4
+  vlos_systemic_ep: 4
+  ref_vlos: Ceccarelli2026arXiv260304507C
