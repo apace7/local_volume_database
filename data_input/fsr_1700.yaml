@@ -4,8 +4,8 @@ location:
   ra: 234.71875
   dec: -59.2675
 name_discovery:
-  confirmed_star_cluster: 0
-  confirmed_real: 0
+  confirmed_star_cluster: 1
+  confirmed_real: 1
   discovery_year: 2006
   host: mw
   name: FSR 1700
@@ -14,8 +14,6 @@ name_discovery:
   type: OC/GC
 notes:
 - candidate GC \citep{He2023ApJS..267...34H}
-- velocity from 2 Gaia RVS stars \citep{He2023ApJS..267...34H}. APB if velocity is
-  correct this is a disk-like orbit and open cluster like
 structure:
   rhalf: 2.39
   rhalf_em: 0.08
@@ -47,13 +45,16 @@ structure_king:
 age:
   age: 11
   ref_age: Saroon2024A&A...689A.115S
-velocity:
-  vlos_systemic: 10.39
-  vlos_systemic_em: 5.45
-  vlos_systemic_ep: 5.45
-  ref_vlos: He2023ApJS..267...34H
 metallicity_isochrone:
   metallicity_isochrone: -0.8
   metallicity_isochrone_em: 0.2
   metallicity_isochrone_ep: 0.2
   ref_metallicity_isochrone: Saroon2024A&A...689A.115S
+velocity:
+  vlos_systemic: 5.67
+  vlos_systemic_em: 0.63
+  vlos_systemic_ep: 0.64
+  vlos_sigma: 0.95
+  vlos_sigma_em: 0.48
+  vlos_sigma_ep: 0.48
+  ref_vlos: Petralia2026arXiv260315450P

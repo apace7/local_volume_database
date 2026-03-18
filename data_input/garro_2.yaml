@@ -4,8 +4,8 @@ location:
   dec: -17.7
   ra: 271.475
 name_discovery:
-  confirmed_real: 0
-  confirmed_star_cluster: 0
+  confirmed_real: 1
+  confirmed_star_cluster: 1
   discovery_year: 2022
   host: mw
   name: Garro 2
@@ -58,3 +58,11 @@ metallicity_isochrone:
   metallicity_isochrone_em: 0.2
   metallicity_isochrone_ep: 0.2
   ref_metallicity_isochrone: Garro2022A&A...662A..95G
+velocity:
+  vlos_systemic: 168.79
+  vlos_systemic_em: 0.85
+  vlos_systemic_ep: 0.85
+  vlos_sigma: 0.91
+  vlos_sigma_em: 0.78
+  vlos_sigma_ep: 0.78
+  ref_vlos: Petralia2026arXiv260315450P
