@@ -45,15 +45,7 @@ The latest catalog can be loaded as follows:
   version_number_string = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/code/release_version.txt', format='ascii.fast_no_header')['col1'][0]
   comb_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/'+version_number_string+'/comb_all.csv')
 
-The catalogs can also be loaded from the main GitHub (or from older commits).  This functionality might be removed in the future. 
-
-.. code-block:: python
-
-  import astropy.table as table
-  ## latest github
-  comb_all = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/comb_all.csv')
-
-Note that the version number will need to be changed to access the lasted release page while the GitHub link will go to the version on the main branch.
+Older release versions can be loaded by changing the `version_number_string` above. 
 There is also a PDF document (named `lvdb_table.pdf`) in GitHub releases summarizing the contents and properties of each combined catalog. The PDF file contains readable tables for a quick lookup of observed properties. 
 
 
