@@ -5,8 +5,9 @@ Example: Accessing the database and creating a figure
 ---------------------------------------------
 
 This example creates a figure comparing half-light radius and absolute magnitude of dwarf galaxies and star clusters. 
+Note that as of v1.1.0 only the combined data files are located on the release pages (`comb_all.csv`).
 
-Load required packages.
+Load required packages:
 
 .. code-block:: python
 
@@ -14,22 +15,27 @@ Load required packages.
     import matplotlib.pyplot as plt
     import astropy.table as table
 
-load the data from github
+Load the data from github:
 
 .. code-block:: python
 
-    ## can be loaded from the release page (recommended/perfered method). Note that the release tag needs to be selected.
-    dsph_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v1.0.0/dwarf_all.csv')
+    ## can be loaded from the release page (recommended method). Note that the release tag needs to be selected.
+    ## this code block will load the latest version
+    version_number_string = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/code/release_version.txt', format='ascii.fast_no_header')['col1'][0]
+    print("verion", version_number_string)
+    ## load combined table
+    comb_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/'+version_number_string+'/comb_all.csv')
 
-    ## load from main github branch
-    dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_mw.csv')
-    dsph_m31 = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_m31.csv')
-    dsph_lf = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_local_field.csv')
-    gc_halo = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/gc_ambiguous.csv')
-    gc_disk = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/gc_mw_new.csv')
-    gc_harris = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/gc_harris.csv')
+    ## select tables
+    dsph_mw = comb_all[comb_all['table'] == 'dwarf_mw']
+    dsph_m31 = comb_all[comb_all['table'] == 'dwarf_m31']
+    dsph_lf = comb_all[comb_all['table'] == 'dwarf_local_field']
+    gc_halo = comb_all[comb_all['table'] == 'gc_ambiguous']
+    gc_disk = comb_all[comb_all['table'] == 'gc_mw_new']
+    gc_harris = comb_all[comb_all['table'] == 'gc_harris']
 
-make a figure
+
+Make a figure:
 
 .. code-block:: python
 
@@ -76,17 +82,18 @@ In addition to the example above, there are two folders with example ipython not
 Some Recommendations 
 ---------------------------------------------
 
-For scientific analysis, I would recommendation fixing the LVDB version to a tagged GitHub release.
-Alternatively, a specific commit can be useed instead of the latest github version.  
-
-For example, this loads an older version of the data/dwarf_all.csv table for either a tagged release or a specific commit.
+For scientific analysis, I would recommend a fixed tagged GitHub release of the LVDB.
 
 .. code-block:: python
 
     ## tagged GitHub release
-    dsph_mw = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/v1.0.0/dwarf_all.csv')
-    ## specific commit
-    dsph_mw = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/3a473c7f839f228a5702fa0293cebfea5fe3bcb6/data/dwarf_all.csv')
+    version_number_string = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/code/release_version.txt', format='ascii.fast_no_header')['col1'][0]
+    print("verion", version_number_string)
+    ## load combined table
+    comb_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/'+version_number_string+'/comb_all.csv')
+
+    ## or an older version
+    comb_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/'+'v1.0.6'+'/comb_all.csv')
 
 Interactive Website
 ---------------------------------------------

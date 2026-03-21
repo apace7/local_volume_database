@@ -28,8 +28,9 @@ Database Content
 ----------------
 
 The database is structured as a collection of YAML files, where the properties of each system are located in an individual YAML file.
-The YAML files are combined into catalogs that are available as CSV and FITS files on the GitHub release page. 
-The YAML files are located in `data_input/ <https://github.com/apace7/local_volume_database/tree/main/data_input>`_ and the combined tables are located in the `GitHub release page <https://github.com/apace7/local_volume_database/releases>`_ or in `data/ <https://github.com/apace7/local_volume_database/tree/main/data>`_. The FITS files are only located in the GitHub release pages.
+The YAML files are combined into catalogs that are available as `csv` and `fits` files on the GitHub release page. 
+The YAML files are located in `data_input/ <https://github.com/apace7/local_volume_database/tree/main/data_input>`_ and the combined tables are located in the `GitHub release page <https://github.com/apace7/local_volume_database/releases>`_ or in `data/ <https://github.com/apace7/local_volume_database/tree/main/data>`_. The `fits` files are only located in the GitHub release pages.
+`ecsv` files with units have been added in v1.1.0
 
 
 
@@ -50,10 +51,10 @@ The catalogs can also be loaded from the main GitHub (or from older commits).  T
 
   import astropy.table as table
   ## latest github
-  dsph_all = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/dwarf_all.csv')
+  comb_all = table.Table.read('https://raw.githubusercontent.com/apace7/local_volume_database/main/data/comb_all.csv')
 
 Note that the version number will need to be changed to access the lasted release page while the GitHub link will go to the version on the main branch.
-There is also a PDF document (named lvdb_table.pdf) in GitHub releases summarizing the contents and properties of each combined catalog. The PDF file contains readable tables for a quick lookup of observed properties. 
+There is also a PDF document (named `lvdb_table.pdf`) in GitHub releases summarizing the contents and properties of each combined catalog. The PDF file contains readable tables for a quick lookup of observed properties. 
 
 
 Description of Catalogs/Tables 
@@ -61,7 +62,7 @@ Description of Catalogs/Tables
 
 The following are the available tables (in CSV and FITS file formats). The fits files are limited to the GitHub release pages while the CSV files are included in both the GitHub release and main.
 
-* **comb_all**: the union of all tables and includes all systems in the LVDB. Users are recommended to use this table.  This table has an additional column `table` that specifies the table origin of the system. **Only included in the release page.** 
+* **comb_all**: the union of all tables and includes all systems in the LVDB. Users are recommended to use this table.  This table has an additional column `table` that specifies the table origin of the system. **Only included in the release page.** As of v1.1.0 only the combined table is included in the release page. 
 * **dwarf_mw** : Milky Way dwarf galaxies (the most distant dwarf galaxy is Eridanus II at ~ 350 kpc).
 * **dwarf_m31**: M31 dwarf galaxies.
 * **dwarf_local_field**: dwarf galaxies outside of MW/M31 within the Local Field to a distance of ~ 3 Mpc. This is an extension of galaxies from McConnachie 2012 compilation.
@@ -72,8 +73,8 @@ The following are the available tables (in CSV and FITS file formats). The fits 
 * **gc_harris**: globular clusters in Harris catalog (this excludes Koposov 1 and 2 which are in the gc_abmiguous table).
 * **gc_dwarf_hosted**: globular clusters hosted by dwarf galaxies. This does not include the Sagittarius globular clusters which are in gc_harris. This catalog is incomplete for known systems.
 * **gc_other**: for other globular clusters. (mostly for future work)
-* **candidate**: known false-positive candidates, background galaxies, or low confidence candidates. **Only included in the release page.**
-* **misc_host**: brighter galaxies that are hosts to the dwarf galaxies.  The catalog exists for completeness and for host information for dwarf galaxies.  The main properties compiled for these systems are phase-space information (ra,dec,distance, velocity) and overall stellar and gas mass. **Only included in the release page.** Labeled `misc` in the `table` column.
+* **candidate**: known false-positive candidates, background galaxies, or low confidence candidates. 
+* **misc_host**: brighter galaxies that are hosts to the dwarf galaxies.  The catalog exists for completeness and for host information for dwarf galaxies.  The main properties compiled for these systems are phase-space information (ra,dec,distance, velocity) and overall stellar and gas mass.  Labeled `misc` in the `table` column.
 
 
 
