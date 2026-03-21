@@ -16,6 +16,7 @@ name_discovery:
   ref_discovery:
   - GildePaz2005ApJ...627L..29G
   - Karachentsev2015AstBu..70..379K
+  - Carlsten2022ApJ...933...47C
   - Li2025arXiv250408030L
 structure:
   rhalf: 12.8

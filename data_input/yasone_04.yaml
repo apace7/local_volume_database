@@ -1,8 +1,8 @@
 key: yasone_04
 table: candidate
 location:
-  ra: 265.52019
-  dec: 13.17146
+  ra: 225.68761
+  dec: -0.91947
   ref_location: Untzaga2025arXiv250915345U
 name_discovery:
   confirmed_dwarf: 0
@@ -10,7 +10,7 @@ name_discovery:
   confirmed_real: 0
   discovery_year: 2025
   host: mw
-  name: Yasone 1
+  name: Yasone 4
   ref_discovery:
   - Untzaga2025arXiv250915345U
 structure:
