@@ -2,17 +2,17 @@
 
 ### DESCRIPTION:
 
-The LVDB is a database of dwarf galaxies and star clusters in the Local Volume. The database is complete for dwarf galaxies within ~5 Mpc. 
+The LVDB is a database of dwarf galaxies and star clusters in the Local Volume. The database is complete for dwarf galaxies within ~6 Mpc. 
 The planned limiting distance is ~10+ Mpc (i.e. resolved stars with HST or JWST).  
 The star cluster collections are currently limited to old star clusters/globular clusters in the Milky Way halo and globular clusters/star clusters hosted by low-mass dwarf galaxies.
 
-The main data tables are located in the [`GitHub release pages`](https://github.com/apace7/local_volume_database/releases/) in `CSV` and `FITS` file formats. Users are enouraged to use the combined catalog file (`comb_all.csv`). The release pages also include a summary pdf document of the database content (`lvdb_table.pdf`). 
+The main data tables are located in the [`GitHub release pages`](https://github.com/apace7/local_volume_database/releases/) in `CSV`, `FITS`, and `ECSV` file formats. Users are enouraged to use the combined catalog file (`comb_all.csv`). The release pages also include a summary pdf document of the database content (`lvdb_table.pdf`). 
 
 
 
 Documentation: [readthedocs](https://local-volume-database.readthedocs.io/en/latest/index.html).
 
-Overview paper: [arXiv](https://arxiv.org/abs/2411.07424) and  [ADS](https://ui.adsabs.harvard.edu/abs/2025OJAp....8E.142P/abstract).
+Overview paper: [arXiv](https://arxiv.org/abs/2411.07424), [ADS](https://ui.adsabs.harvard.edu/abs/2025OJAp....8E.142P/abstract), and [SciX](https://scixplorer.org/abs/2025OJAp....8E.142P/abstract).
 
 The LVDB releases are also indexed on [Zenodo](https://doi.org/10.5281/zenodo.14076714).
 
@@ -31,7 +31,7 @@ Community contributions to the LVDB are welcome. Please feel free to create a Gi
 ### INSTALLATION and USE:
 
 Users only interested in the catalogs do not need to install the package. 
-The catalogs are available in the release pages (`comb_all.fits`, `comb_all.csv`).
+The catalogs are available in the release pages (`comb_all.fits`, `comb_all.csv`, `comb_all.ecsv`).
 The package is focused on helper functions and `YAML` file access. 
 
 
