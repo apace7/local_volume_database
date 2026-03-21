@@ -564,3 +564,5 @@ draco_2,2026ApJ...998....3W,Warfield2026ApJ...998....3W,0.994,0.04,0.04,0.897,0.
 draco_2,2026ApJ...998....3W,Warfield2026ApJ...998....3W,1.001,0.052,0.052,0.858,0.09,0.09,,HST,Warfield et al. 2026,HubPUG; Gaia
 draco_2,2026ApJ...998....3W,Warfield2026ApJ...998....3W,1.043,0.029,0.029,0.879,0.028,0.028,,HST,Warfield et al. 2026,HubPUG; Galaxies
 bootes_1,2026ApJ...998...47S,Sandford2026ApJ...998...47S,-0.38,0.02,0.02,-1.08,0.01,0.01,-0.08,GAIA_EDR3,Sandford et al. 2026,
+vvv_cl001,2026A&A...706A.114M,Moya2026A&A...706A.114M,-3.68,0.09,0.09,-1.76,0.1,0.1,,VVV,Haro Moya et al. 2026,
+carina_4,2026ApJ..1000...46T,Tan2026ApJ..1000...46T,0.94,0.53,0.54,0.23,0.4,0.41,0.19,GAIA_EDR3,Tan et al. 2026,
