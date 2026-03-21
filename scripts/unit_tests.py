@@ -34,6 +34,8 @@ def ra_dec_values():
         for i in range(len(ra_dec_to_large)):
             print(i, ra_dec_to_large['key'][i], ra_dec_to_large['ra'][i], ra_dec_to_large['dec'][i])
         print()
+    print("check for repeats:")
+    print(Counter(comb_all['name']).most_common(10))
 
 def check_references():
     print('checking references')
