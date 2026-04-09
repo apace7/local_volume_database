@@ -484,3 +484,31 @@ def plot_property_collection(key, property_to_examine, collected_data = pm_data,
         plt.savefig(save_file_name)
         
     plt.show()
+
+def search_lvdb(ra, dec, size=60, print_option=True):
+    """
+    function that searches the LVDB catalog for all sources within a given distance and outputs some quite properties
+    input: 
+    ra, dec = ra, dec to search around
+    size= distance in arcmin to search around, default is 60 arcmin
+    print_option (optional): prints out some quick info
+    output:
+    return systems in the LVDB catalog within radius of size * arcmin
+    """
+    # load LVDB catalog
+    comb_all = table.Table.read(lvdb_path+'/data/comb_all.csv')
+    
+    center = coord.SkyCoord(ra=[ra]*u.deg, dec=[dec]*u.deg)
+    coord_lvdb = coord.SkyCoord(ra=comb_all['ra']*u.deg, dec=comb_all['dec']*u.deg)
+
+    idx_catalog, idx_center, sep2d, dist3d = coord_lvdb.search_around_sky(center, size*u.arcmin)
+    ## make subset table
+    matched_sources = comb_all[idx_center]
+
+    if print_option:
+        print("Number of nearby systems: ", len(matched_sources))
+        print('key, name, host, ra, dec, dist(arcmin)')
+        for i in range(len(matched_sources)):
+            print(matched_sources['key'][i],matched_sources['name'][i],matched_sources['host'][i],matched_sources['ra'][i],matched_sources['dec'][i], round(sep2d[i].arcmin, 3))
+        
+    return matched_sources
