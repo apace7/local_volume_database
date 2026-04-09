@@ -28,7 +28,7 @@ proper_motion:
   pmdec: -5.99
   pmdec_em: 0.008
   pmdec_ep: 0.008
-  ref_proper_motion: Rosignoli2025arXiv251201530R
+  ref_proper_motion: Rosignoli2026A&A...707A.258R
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.89
