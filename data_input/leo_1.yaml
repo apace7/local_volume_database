@@ -39,12 +39,12 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_ep: 0.01
   ref_metallicity_spectroscopic: Geha2026arXiv260210202G
 proper_motion:
-  pmdec: -0.063
-  pmdec_em: 0.005
-  pmdec_ep: 0.005
-  pmra: -0.111
-  pmra_em: 0.004
-  pmra_ep: 0.004
+  pmra: -0.063
+  pmra_em: 0.005
+  pmra_ep: 0.005
+  pmdec: -0.111
+  pmdec_em: 0.004
+  pmdec_ep: 0.004
   ref_proper_motion: Bennet2024ApJ...971...98B
 structure:
   ellipticity: 0.3
