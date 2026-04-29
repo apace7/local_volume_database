@@ -123,7 +123,7 @@ def make_latex_value(value, em, ep, **kwargs):
 
 def add_year(table, **kwargs):
     ## initial version of add_column()
-    table['year'] = np.zeros(len(table), dtype=int)
+    table['year'] = np.ma.masked_all(len(table), dtype=int)
     path = kwargs.get('path', lvdb_path +'data_input/')
     for i in range(len(table)):
         k = table['key'][i]
