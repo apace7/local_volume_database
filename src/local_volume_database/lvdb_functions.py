@@ -306,7 +306,7 @@ def compute_mass_error(rhalf, rhalf_em, rhalf_ep, ellipticity, ellipticity_em, e
         np.random.seed(seed) ## so each monte carlo is the same if nothing is changed
 
     # np.random.seed(1988) ## so each monte carlo is the same if nothing is changed
-    if ma.is_masked(sigma)==True:
+    if ma.is_masked(sigma)==True or ma.is_masked(rhalf)==True:
         return [np.ma.masked,np.ma.masked,np.ma.masked]
     elif (ma.is_masked(sigma_em)==True or ma.is_masked(sigma_ep)==True) and ma.is_masked(sigma)==False:
         rh = distance*rhalf/180./60.*1000.*np.pi
