@@ -34,7 +34,7 @@ structure:
   ellipticity: 0.29
   ellipticity_em: 0.01
   ellipticity_ep: 0.01
-  position_angle: 108.0
+  position_angle: 111.0
   position_angle_em: 2.0
   position_angle_ep: 2.0
   ref_structure: McConnachie2012AJ....144....4M
