@@ -16,7 +16,7 @@ on:
         description: 'Skip creating GitHub release'
         required: false
         type: boolean
-        default: true
+        default: false
 
 jobs:
   build:
