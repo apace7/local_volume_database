@@ -53,8 +53,9 @@ jobs:
       - name: Install LaTeX (TeX Live)
         run: |
           sudo apt-get update -y
-          sudo apt-get install -y texlive-latex-base texlive-latex-extra \
-            texlive-fonts-recommended texlive-bibtex-extra bibtex2html cm-super
+          sudo apt-get install -y dvipng texlive-latex-base texlive-latex-extra \
+            texlive-fonts-recommended cm-super
+            
 
       - name: Set LVDBDIR environment variable
         run: echo "LVDBDIR=$GITHUB_WORKSPACE" >> "$GITHUB_ENV"
