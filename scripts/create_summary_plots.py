@@ -3,6 +3,7 @@ import astropy.coordinates as coord
 from astropy import units as u
 import astropy.table as table
 import os.path
+from pathlib import Path
 import numpy.ma as ma
 import numpy as np
 import corner
@@ -18,10 +19,10 @@ import warnings; warnings.filterwarnings('ignore')
 
 import local_volume_database as lvdb
 ## load environment variable
-lvdb_path = os.environ.get('LVDBDIR')
+lvdb_path = Path(os.environ.get('LVDBDIR'))
 print("lvdb_path", lvdb_path)
 
-plt.style.use(lvdb_path + 'code/std.mplstyle')
+plt.style.use(lvdb_path / 'code/std.mplstyle')
 import matplotlib as mp
 mp.rcParams['text.usetex'] = True
 
@@ -30,14 +31,14 @@ gc_frame = coord.Galactocentric()
 
 from galpy.potential import KeplerPotential, MWPotential2014, vesc
 
-dwarf_all = table.Table.read(lvdb_path + 'data/dwarf_all.csv')
+dwarf_all = table.Table.read(lvdb_path / 'data/dwarf_all.csv')
 # dsph_m31 = table.Table.read('../data/dwarf_m31.csv')
 # dsph_lf = table.Table.read('../data/dwarf_local_field.csv')
 # dsph_lf_distant = table.Table.read('../data/dwarf_local_field_distant.csv')
-gc_ambiguous = table.Table.read(lvdb_path + 'data/gc_ambiguous.csv')
-gc_mw_new = table.Table.read(lvdb_path + 'data/gc_mw_new.csv')
-gc_harris = table.Table.read(lvdb_path + 'data/gc_harris.csv')
-gc_dwarf = table.Table.read(lvdb_path + 'data/gc_dwarf_hosted.csv')
+gc_ambiguous = table.Table.read(lvdb_path / 'data/gc_ambiguous.csv')
+gc_mw_new = table.Table.read(lvdb_path / 'data/gc_mw_new.csv')
+gc_harris = table.Table.read(lvdb_path / 'data/gc_harris.csv')
+gc_dwarf = table.Table.read(lvdb_path / 'data/gc_dwarf_hosted.csv')
 
 
 color_dsph_mw = 'tab:blue'
@@ -271,7 +272,7 @@ add_density(gc_ambiguous)
 ## there are generally two plots created, one plot is added to the overview_plots.pdf and the second is saved in the same location as the paper_example/.ipynb notebooks
 ## axis limits are generally not included in overview_plots.pdf so that outliers can be identified.
 
-with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
+with PdfPages(lvdb_path / 'paper_examples/overview_plots.pdf') as pdf:
     fig = plt.figure()
 
     ### Figure 1
@@ -302,7 +303,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
 
     plt.legend(loc=2)
     plt.tight_layout()
-    plt.savefig(lvdb_path + 'paper_examples/milky_way_m31_lf_discovery_year.pdf')
+    plt.savefig(lvdb_path / 'paper_examples/milky_way_m31_lf_discovery_year.pdf')
     pdf.savefig()
     plt.close()
     print("figure 1 finished")
@@ -321,7 +322,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     plt.ylabel(r'${\rm N(<M_V)}$')
     plt.legend(loc=3)
     plt.tight_layout()
-    plt.savefig(lvdb_path + 'paper_examples/cumulative_distribution.pdf')
+    plt.savefig(lvdb_path / 'paper_examples/cumulative_distribution.pdf')
     
     for i,j,k in zip([comb_cena], ['tab:red'], [r'{\rm Cen~A~Satellite}']):
         sorted_data = np.sort(i['M_V']) 
@@ -355,7 +356,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     ax.grid(ls=':')
 
     plt.tight_layout()
-    plt.savefig(lvdb_path + 'paper_examples/aitoff_MW_v3.pdf', transparent=True)
+    plt.savefig(lvdb_path / 'paper_examples/aitoff_MW_v3.pdf', transparent=True)
     pdf.savefig()
     plt.close()
 
@@ -401,7 +402,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     ax.grid(ls=':')
     ax.legend(loc=4)
     plt.tight_layout()
-    plt.savefig(lvdb_path + 'paper_examples/aitoff_dwarf_LF.pdf',transparent=True)
+    plt.savefig(lvdb_path / 'paper_examples/aitoff_dwarf_LF.pdf',transparent=True)
     pdf.savefig()
     plt.close()
 
@@ -471,7 +472,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     ax.grid(ls=':')
     ax.legend(loc=4)
     plt.tight_layout()
-    plt.savefig(lvdb_path + 'paper_examples/aitoff_mw_gc.pdf')
+    plt.savefig(lvdb_path / 'paper_examples/aitoff_mw_gc.pdf')
     pdf.savefig()
     plt.close()
 
@@ -615,7 +616,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
 
     plt.tight_layout()
     pdf.savefig()
-    plt.savefig(lvdb_path + 'paper_examples/rad_velocity_3panel.pdf')
+    plt.savefig(lvdb_path / 'paper_examples/rad_velocity_3panel.pdf')
     plt.close()
     print("figure 5 finished ")
 
@@ -645,7 +646,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     pdf.savefig()
 
     plt.xlim(0.1, 10.)
-    plt.savefig(lvdb_path + 'paper_examples/rad_velocity_LG2.pdf')
+    plt.savefig(lvdb_path / 'paper_examples/rad_velocity_LG2.pdf')
     plt.close()
     print("figure 6 finished")
 
@@ -691,7 +692,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     plt.tight_layout()
     pdf.savefig()
     plt.xlim(1, 4e3)
-    plt.savefig(lvdb_path + 'paper_examples/mw_rhalf_m_v_m_star.pdf')
+    plt.savefig(lvdb_path / 'paper_examples/mw_rhalf_m_v_m_star.pdf')
     plt.close()
     
 
@@ -725,7 +726,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     plt.tight_layout()
 
     pdf.savefig()
-    plt.savefig(lvdb_path + 'paper_examples/mw_distance_m_v_m_star.pdf')
+    plt.savefig(lvdb_path / 'paper_examples/mw_distance_m_v_m_star.pdf')
     plt.close()
     print ("Figure 7 finished")
 
@@ -764,7 +765,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     plt.tight_layout()
     pdf.savefig()
     plt.xlim(10, 5e3)
-    plt.savefig(lvdb_path + 'paper_examples/dwarf_rhalf_m_v_m_star.pdf')
+    plt.savefig(lvdb_path / 'paper_examples/dwarf_rhalf_m_v_m_star.pdf')
     plt.close()
 
     x = np.arange(1, 1e4, 1)
@@ -901,7 +902,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
 
 
     plt.tight_layout()
-    plt.savefig(lvdb_path + 'paper_examples/stellar_kinematics_6panal.pdf')
+    plt.savefig(lvdb_path / 'paper_examples/stellar_kinematics_6panal.pdf')
     pdf.savefig()
     plt.close()
     print("figure 9 finished")
@@ -942,7 +943,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     pdf.savefig()
     ax[0].set_xlim(1, -15)
     ax[1].set_xlim(1, -15)
-    plt.savefig(lvdb_path + 'paper_examples/metallicity_overview_mw.pdf')
+    plt.savefig(lvdb_path / 'paper_examples/metallicity_overview_mw.pdf')
     plt.close()
     print("figure 10 finished")
     ### Figure 11
@@ -978,7 +979,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     pdf.savefig()
     ax[0].set_xlim(1, -17)
     ax[1].set_xlim(1, -17)
-    plt.savefig(lvdb_path + 'paper_examples/metallicity_overview_dwarf.pdf')
+    plt.savefig(lvdb_path / 'paper_examples/metallicity_overview_dwarf.pdf')
     plt.close()
     print("figure 11 finished")
     ### Figure 12
@@ -1034,7 +1035,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     ax[1][0].set_xlim(0,20)
     ax[1][0].set_ylim(-3, .5)
     ax[1][1].set_ylim(-3, .5)
-    plt.savefig(lvdb_path + 'paper_examples/gc_summary.pdf')
+    plt.savefig(lvdb_path / 'paper_examples/gc_summary.pdf')
     plt.close()
     print("figure 12 finished")
 
@@ -1055,7 +1056,7 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     plt.gca().set_xlabel(r'$D_{\rm min(MW,~M31)}~({\rm kpc})$')
 
     plt.tight_layout()
-    plt.savefig(lvdb_path + 'paper_examples/distance_ratio_gas_stellar.pdf')
+    plt.savefig(lvdb_path / 'paper_examples/distance_ratio_gas_stellar.pdf')
     pdf.savefig()
     plt.close()
     print("figure 13 finished")

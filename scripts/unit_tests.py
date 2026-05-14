@@ -2,6 +2,7 @@ import numpy as np
 import astropy.table as table
 from astropy.io import ascii
 import os
+from pathlib import Path
 
 import bibtexparser
 import local_volume_database as lvdb
@@ -11,10 +12,10 @@ import numpy.ma as ma
 
 import yaml
 
-lvdb_path = os.environ.get('LVDBDIR')
+lvdb_path = Path(os.environ.get('LVDBDIR'))
 print("lvdb_path", lvdb_path)
 
-comb_all = table.Table(ascii.read(lvdb_path + 'data/comb_all.csv'))
+comb_all = table.Table(ascii.read(lvdb_path / 'data/comb_all.csv'))
 
 lvdb.add_column(comb_all,'structure_exponential','ref_structure_exponential', col_type='U50')
 lvdb.add_column(comb_all,'structure_plummer','ref_structure_plummer', col_type='U50')
@@ -54,7 +55,7 @@ def check_references():
     all_reference_clean = all_reference[keep]
     print("number of references",len(all_reference_clean), len(all_reference))
 
-    library = bibtexparser.parse_file(lvdb_path+'table/lvdb.bib')
+    library = bibtexparser.parse_file(lvdb_path / 'table/lvdb.bib')
 
     bib_keys = []
     for entry in library.entries:
@@ -108,17 +109,17 @@ def check_keys():
 
 def check_yaml_files():
     ## files to check
-    path = lvdb_path + "data_input/"
+    path = lvdb_path / "data_input"
     dir_list = os.listdir(path)
     dir_list = [i for i in dir_list if i!='readme.md']
     
     # load example yaml keys files, these are the default yaml keys
-    with open("/Users/apace/Documents/local_volume_database/code/example_yaml.yaml", 'r') as stream:
+    with open(lvdb_path / 'code/example_yaml.yaml', 'r') as stream:
         example_yaml_keys = yaml.load(stream, Loader=yaml.Loader)
 
     ## check yaml files if extra keys are in the files
     for i in range(len(dir_list)):
-        yaml_name  = "/Users/apace/Documents/local_volume_database/data_input/" + dir_list[i]
+        yaml_name  = lvdb_path / "data_input" / dir_list[i]
         with open(yaml_name, 'r') as stream:
             stream_yaml = yaml.load(stream, Loader=yaml.Loader)
             for stream_yaml_keys in list(stream_yaml.keys()):

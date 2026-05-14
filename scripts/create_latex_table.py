@@ -24,11 +24,12 @@ for i in list(string.ascii_lowercase):
         long_list.append(i+j)
 
 import os.path
+from pathlib import Path
 
-path = 'data_input/'
+path = Path('data_input')
 
 import local_volume_database as lvdb
-lvdb_path = os.environ.get('LVDBDIR')
+lvdb_path = Path(os.environ.get('LVDBDIR'))
 print('lvdb_path',lvdb_path)
 
 np.random.seed(1988)
@@ -55,7 +56,7 @@ def add_year(table):
     # path = '/Users/apace/Documents/local_volume_database/data_input/'
     for i in range(len(table)):
         k = table['key'][i]
-        with open(path+ k +'.yaml', 'r') as stream:
+        with open(path / (k + '.yaml'), 'r') as stream:
             try:
                 stream_yaml = yaml.load(stream, Loader=yaml.Loader)
 
@@ -75,7 +76,7 @@ def add_column(table, yaml_key, yaml_name, **kwargs):
     # path = '/Users/apace/Documents/local_volume_database/data_input/'
     for i in range(len(table)):
         k = table['key'][i]
-        with open(path+ k +'.yaml', 'r') as stream:
+        with open(path / (k + '.yaml'), 'r') as stream:
             try:
                 stream_yaml = yaml.load(stream, Loader=yaml.Loader)
 
@@ -108,7 +109,7 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
             ref = []
             host = ''
             
-            with open(path+ k +'.yaml', 'r') as stream:
+            with open(path / (k + '.yaml'), 'r') as stream:
                 try:
                     stream_yaml = yaml.load(stream, Loader=yaml.Loader)
         #             out_str = ''
@@ -127,8 +128,8 @@ def create_latex_table_name_discovery(output, input_table, **kwargs):
                         if host_key in ['MW', 'LF']:
                             host = host_key
                         else:
-                            if os.path.isfile(path + host_key +'.yaml'):  
-                                with open(path + host_key +'.yaml', 'r') as stream:
+                            if os.path.isfile(path / (host_key + '.yaml')):  
+                                with open(path / (host_key + '.yaml'), 'r') as stream:
                                     stream_yaml_key = yaml.load(stream, Loader=yaml.Loader)
                                     host = stream_yaml_key['name_discovery']['name']
                             else:
@@ -568,7 +569,7 @@ dir_list = [i for i in dir_list if i!='readme.md']
 
 table_list = []
 for i in range(len(dir_list)):
-    with open(path+ dir_list[i], 'r') as stream:
+    with open(path / dir_list[i], 'r') as stream:
         try:
             stream_yaml = yaml.load(stream, Loader=yaml.Loader)
             if 'table' in stream_yaml.keys():
@@ -603,7 +604,7 @@ with open(output, 'w+') as f:
         ref = []
         ref_fp = []
         host = ''
-        with open(path+ yaml_name +'.yaml', 'r') as stream:
+        with open(path / (yaml_name + '.yaml'), 'r') as stream:
             try:
                 stream_yaml = yaml.load(stream, Loader=yaml.Loader)
                 c = coord.SkyCoord(ra=stream_yaml['location']['ra']*u.degree, dec=stream_yaml['location']['dec']*u.degree)
@@ -634,8 +635,8 @@ with open(output, 'w+') as f:
                     if host_key in ['MW', 'LF']:
                         host = host_key
                     else:
-                        if os.path.isfile(path + host_key +'.yaml'):  
-                            with open(path + host_key +'.yaml', 'r') as stream:
+                        if os.path.isfile(path / (host_key + '.yaml')):  
+                            with open(path / (host_key + '.yaml'), 'r') as stream:
                                 stream_yaml_key = yaml.load(stream, Loader=yaml.Loader)
                                 host = stream_yaml_key['name_discovery']['name']
                         else:
@@ -713,9 +714,9 @@ with open(output, 'w+') as f:
     for candidate in range(len(table_list_sort)):
         letter_to_list = []
         yaml_name = table_list_sort[candidate][0]
-        # print(yaml_name, path+ yaml_name +'.yaml')
+        # print(yaml_name, path / (yaml_name + '.yaml'))
         
-        with open(path+ yaml_name +'.yaml', 'r') as stream:
+        with open(path / (yaml_name + '.yaml'), 'r') as stream:
             try:
                 # yaml_name = table_list_sort[candidate][0]
                 stream_yaml = yaml.load(stream, Loader=yaml.Loader)
@@ -770,7 +771,7 @@ with open(output, 'w+') as f:
                     dm_str = make_latex_value(stream_yaml['distance']['distance_modulus'], np.ma.masked,np.ma.masked, n=2)
                     dist_str = make_latex_value(d, np.ma.masked,np.ma.masked, n=1)
                 elif 'distance' in stream_yaml.keys() and 'distance_fixed_host' in stream_yaml['distance'].keys() and 'host' in stream_yaml['name_discovery'].keys():
-                    with open(path+ stream_yaml['name_discovery']['host'] +'.yaml', 'r') as stream_host:
+                    with open(path / (stream_yaml['name_discovery']['host'] + '.yaml'), 'r') as stream_host:
                         try:
                             stream_yaml_host = yaml.load(stream_host, Loader=yaml.Loader)
                             d = dm(stream_yaml_host['distance']['distance_modulus'])
@@ -784,7 +785,7 @@ with open(output, 'w+') as f:
                     rh = d*stream_yaml['structure']['rhalf']/180./60.*1000.*np.pi
                     str_rhalf = make_latex_value(rh, np.ma.masked,np.ma.masked, n=1)
                 elif 'distance' in stream_yaml.keys() and 'distance_fixed_host' in stream_yaml['distance'].keys() and 'host' in stream_yaml['name_discovery'].keys() and 'structure' in stream_yaml.keys() and 'rhalf' in stream_yaml['structure'].keys():
-                    with open(path+ stream_yaml['name_discovery']['host'] +'.yaml', 'r') as stream_host:
+                    with open(path / (stream_yaml['name_discovery']['host'] + '.yaml'), 'r') as stream_host:
                         try:
                             stream_yaml_host = yaml.load(stream_host, Loader=yaml.Loader)
                             d = dm(stream_yaml_host['distance']['distance_modulus'])

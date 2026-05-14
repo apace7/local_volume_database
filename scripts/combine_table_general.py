@@ -13,19 +13,20 @@ import numpy.ma as ma
 import yaml
 
 import os
+from pathlib import Path
 
 import corner
 
 import local_volume_database as lvdb
 import warnings; warnings.filterwarnings('ignore')
 
-path = "data_input/"
+path = Path("data_input")
 dir_list = os.listdir(path)
 dir_list = [i for i in dir_list if i!='readme.md']
 ## this is to get a list of all "key"s which should correspond to file names (+.yaml)
 table_list = []
 for i in range(len(dir_list)):
-    with open(path+ dir_list[i], 'r') as stream:
+    with open(path / dir_list[i], 'r') as stream:
         try:
             stream_yaml = yaml.load(stream, Loader=yaml.Loader)
             if 'table' in stream_yaml.keys():
@@ -105,13 +106,13 @@ def add_to_table(yaml_input, table_output, place, ):
             if y == 'distance' and 'distance_fixed_host' in x and stream_yaml['name_discovery']['host'] + '.yaml' in dir_list:
                 try:
                 # if True:
-                    # print("host missing for", stream_yaml['key'], path + stream_yaml['name_discovery']['host'] + '.yaml')
-                    with open(path + stream_yaml['name_discovery']['host'] + '.yaml', 'r') as yaml_to_load:
+                    # print("host missing for", stream_yaml['key'], path / (stream_yaml['name_discovery']['host'] + '.yaml'))
+                    with open(path / (stream_yaml['name_discovery']['host'] + '.yaml'), 'r') as yaml_to_load:
                         stream_yaml_host = yaml.load(yaml_to_load, Loader=yaml.Loader)
                         # print("stream_yaml_host", stream_yaml_host)
                         x = list(stream_yaml_host['distance'].keys())
                         if 'distance_fixed_host' in stream_yaml_host['distance'].keys() and 'host' in stream_yaml_host['name_discovery']:
-                                with open(path + stream_yaml_host['name_discovery']['host'] + '.yaml', 'r') as yaml_to_load_level_two:
+                                with open(path / (stream_yaml_host['name_discovery']['host'] + '.yaml'), 'r') as yaml_to_load_level_two:
                                     stream_yaml_host_level_two = yaml.load(yaml_to_load_level_two, Loader=yaml.Loader)
                                     x2 = list(stream_yaml_host_level_two['distance'].keys())
                                     for list_key in range(len(x2)):
@@ -214,11 +215,11 @@ def value_add(input_table, table_type='dwarf', **kwargs):
     ra0_m31, dec0_m31, distance_m31 = 10.6839167, 41.26567, 776.2
     coord_m31 = coord.SkyCoord(ra=ra0_m31*u.deg, dec=dec0_m31*u.deg, distance=distance_m31*u.kpc,  frame='icrs',)
     try:
-        with open(path + 'm_031' + '.yaml', 'r') as yaml_to_load:
+        with open(path / 'm_031.yaml', 'r') as yaml_to_load:
             host_m31 = yaml.load(yaml_to_load, Loader=yaml.Loader)
             coord_m31 = coord.SkyCoord(ra=host_m31['location']['ra']*u.deg, dec=host_m31['location']['dec']*u.deg, distance=dist_mod( host_m31['distance']['distance_modulus'])[0]*u.kpc,  frame='icrs',)
     except:
-        print("no M31 host info", path + 'm_031' + '.yaml')
+        print("no M31 host info", path / 'm_031.yaml')
     ## 3D distance to M31
     input_table['distance_m31'] = c_table_input.separation_3d(coord_m31)
     
@@ -236,14 +237,14 @@ def value_add(input_table, table_type='dwarf', **kwargs):
             input_table['distance_host'][i] = input_table['distance_gc'][i]
         else:
             try:
-                with open(path + input_table['host'][i] + '.yaml', 'r') as yaml_to_load:
+                with open(path / (input_table['host'][i] + '.yaml'), 'r') as yaml_to_load:
                     host_yaml = yaml.load(yaml_to_load, Loader=yaml.Loader)
                     d = dist_mod( host_yaml['distance']['distance_modulus'])[0]
                     coord_host = coord.SkyCoord(ra=host_yaml['location']['ra']*u.deg, dec=host_yaml['location']['dec']*u.deg, distance=d*u.kpc,  frame='icrs',)
                     coord_dwarf = coord.SkyCoord(ra=input_table['ra'][i]*u.deg, dec=input_table['dec'][i]*u.deg, distance=input_table['distance'][i]*u.kpc,  frame='icrs',)
                     input_table['distance_host'][i] = coord_dwarf.separation_3d(coord_host).value
             except:
-                print("no  host info", input_table['key'][i], path + input_table['host'][i] + '.yaml')    
+                print("no  host info", input_table['key'][i], path / (input_table['host'][i] + '.yaml'))    
 
     #HI mass
     if table_type=='dwarf':
@@ -377,7 +378,7 @@ example_keys= ['discovery_year', 'other_name', 'ref_discovery', 'type', 'spatial
 
 ## this add each galaxy/star cluster to the tables. 
 for i in range(len(dir_list)):
-    with open(path+ dir_list[i], 'r') as stream:
+    with open(path / dir_list[i], 'r') as stream:
         stream_yaml = yaml.load(stream, Loader=yaml.Loader)
         if stream_yaml['table'] == 'dwarf_mw':
             miss = add_to_table(stream_yaml, comb_dwarf_mw, place_dwarf_mw)
@@ -512,7 +513,7 @@ comb_all = table.vstack([comb_dwarf, comb_gc_harris, comb_gc_disk, comb_gc_ufsc,
 comb_all['table'] = np.ma.masked_all(len(comb_all), dtype='U50')
 for i in range(len(comb_all)):
     k = comb_all['key'][i]
-    with open(path+ k +'.yaml', 'r') as stream:
+    with open(path / (k + '.yaml'), 'r') as stream:
         stream_yaml = yaml.load(stream, Loader=yaml.Loader)
         comb_all['table'][i] = stream_yaml['table']
 print(Counter(comb_all['table']))
