@@ -24,16 +24,18 @@ jobs:
     permissions:
       contents: write
 
-    steps:
+    steps:          
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-tags: true
+
       - name: Check tag does not already exist
         run: |
           if git rev-parse "${{ github.event.inputs.release_tag }}" >/dev/null 2>&1; then
             echo "Tag already exists!"
             exit 1
           fi
-          
-      - name: Checkout repository
-        uses: actions/checkout@v6
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -43,7 +45,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install numpy astropy pyyaml corner matplotlib bibtexparser
+          pip install -r .github/workflows/build_release_requirements.txt
 
       - name: Install the local_volume_database package
         run: pip install -e .
