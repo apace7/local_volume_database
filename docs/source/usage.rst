@@ -85,7 +85,7 @@ Columns:
 * confirmed_star_cluster: system is confirmed to be a star cluster.
 * ra: right ascension ICRS J2000.0 [degree]
 * dec: declination ICRS J2000.0 [degree]
-* rhalf: projected (2D) major axis of the half-light radius (or plummer radius) in [arcmin]. Note that input yaml files can have arcsec or arcmin input units but the combined catalogs are in arcmin. 
+* rhalf: projected (2D) semi-major axis of the half-light ellipse defined by `ellipticity` and `position_angle` in units of [arcmin]. Note that input yaml files can have arcsec or arcmin input units but the combined catalogs are in arcmin. 
 * ellipticity: 1 - minor/major axis (or 1 - axis ratio).
 * position_angle: N->E [degree] 
 * distance_modulus [mag]
