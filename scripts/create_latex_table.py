@@ -29,7 +29,7 @@ from pathlib import Path
 path = Path('data_input')
 
 import local_volume_database as lvdb
-lvdb_path = Path(os.environ.get('LVDBDIR'))
+lvdb_path = Path(os.environ.get('LVDBDIR', '.'))
 print('lvdb_path',lvdb_path)
 
 np.random.seed(1988)

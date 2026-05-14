@@ -19,7 +19,7 @@ import warnings; warnings.filterwarnings('ignore')
 
 import local_volume_database as lvdb
 ## load environment variable
-lvdb_path = Path(os.environ.get('LVDBDIR'))
+lvdb_path = Path(os.environ.get('LVDBDIR', '.'))
 print("lvdb_path", lvdb_path)
 
 plt.style.use(lvdb_path / 'code/std.mplstyle')

@@ -12,7 +12,7 @@ import numpy.ma as ma
 
 import yaml
 
-lvdb_path = Path(os.environ.get('LVDBDIR'))
+lvdb_path = Path(os.environ.get('LVDBDIR', '.'))
 print("lvdb_path", lvdb_path)
 
 comb_all = table.Table(ascii.read(lvdb_path / 'data/comb_all.csv'))
