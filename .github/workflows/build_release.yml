@@ -54,7 +54,7 @@ jobs:
         run: |
           sudo apt-get update -y
           sudo apt-get install -y dvipng texlive-latex-base texlive-latex-extra \
-            texlive-fonts-recommended cm-super
+            texlive-fonts-recommended texlive-publishers cm-super
             
 
       - name: Set LVDBDIR environment variable
