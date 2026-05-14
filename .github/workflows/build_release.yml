@@ -54,7 +54,7 @@ jobs:
         run: |
           sudo apt-get update -y
           sudo apt-get install -y texlive-latex-base texlive-latex-extra \
-            texlive-fonts-recommended texlive-bibtex-extra bibtex2html
+            texlive-fonts-recommended texlive-bibtex-extra bibtex2html cm-super
 
       - name: Set LVDBDIR environment variable
         run: echo "LVDBDIR=$GITHUB_WORKSPACE" >> "$GITHUB_ENV"
