@@ -12,11 +12,11 @@ on:
         required: false
         type: string
         default: 'Automated database build.'
-      dry_run:
-        description: 'Skip creating GitHub release'
+      publish_release:
+        description: 'Create GitHub release'
         required: false
         type: boolean
-        default: false
+        default: true
 
 jobs:
   build:
@@ -106,7 +106,7 @@ jobs:
           fi
           
       - name: Create GitHub Release and upload assets
-        if: ${{ !github.event.inputs.dry_run }}
+        if: ${{ github.event.inputs.publish_release }}
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.event.inputs.release_tag }}
