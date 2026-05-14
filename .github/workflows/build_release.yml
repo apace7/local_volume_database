@@ -3,8 +3,8 @@ name: Build and Release Database
 on:
   workflow_dispatch:
     inputs:
-      release_name:
-        description: 'Release name/tag (e.g. v1.2.0)'
+      release_tag:
+        description: 'Release tag (e.g. v1.2.0)'
         required: true
         type: string
       release_notes:
@@ -12,6 +12,11 @@ on:
         required: false
         type: string
         default: 'Automated database build.'
+      dry_run:
+        description: 'Skip creating GitHub release'
+        required: false
+        type: boolean
+        default: true
 
 jobs:
   build:
@@ -20,11 +25,18 @@ jobs:
       contents: write
 
     steps:
+      - name: Check tag does not already exist
+        run: |
+          if git rev-parse "${{ github.event.inputs.release_tag }}" >/dev/null 2>&1; then
+            echo "Tag already exists!"
+            exit 1
+          fi
+          
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
@@ -62,10 +74,10 @@ jobs:
       - name: Compile LaTeX PDF
         working-directory: table
         run: |
-          latex lvdb_table.tex
+          pdflatex lvdb_table.tex
           bibtex lvdb_table
-          latex lvdb_table.tex
-          latex lvdb_table.tex
+          pdflatex lvdb_table.tex
+          pdflatex lvdb_table.tex
           pdflatex lvdb_table.tex
 
       - name: Collect release assets into staging directory
@@ -89,12 +101,13 @@ jobs:
           else
             echo "overview_plots.pdf not found, skipping."
           fi
-
+          
       - name: Create GitHub Release and upload assets
+        if: ${{ !github.event.inputs.dry_run }}
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.event.inputs.release_name }}
-          name: ${{ github.event.inputs.release_name }}
+          tag_name: ${{ github.event.inputs.release_tag }}
+          name: ${{ github.event.inputs.release_tag }}
           body: ${{ github.event.inputs.release_notes }}
           files: release_assets/*
           fail_on_unmatched_files: false
