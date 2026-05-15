@@ -1,0 +1,116 @@
+name: Build and Release Database
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: 'Release tag (e.g. v1.2.0)'
+        required: true
+        type: string
+      release_notes:
+        description: 'Release notes / changelog'
+        required: false
+        type: string
+        default: 'Automated database build.'
+      publish_release:
+        description: 'Create GitHub release'
+        required: false
+        type: boolean
+        default: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:          
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-tags: true
+
+      - name: Check tag does not already exist
+        run: |
+          if git rev-parse "${{ inputs.release_tag }}" >/dev/null 2>&1; then
+            echo "Tag already exists!"
+            exit 1
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r .github/workflows/build_release_requirements.txt
+
+      - name: Install the local_volume_database package
+        run: pip install -e .
+
+      - name: Install LaTeX (TeX Live)
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y dvipng texlive-latex-base texlive-latex-extra \
+            texlive-fonts-recommended texlive-publishers cm-super
+            
+
+      - name: Set LVDBDIR environment variable
+        run: echo "LVDBDIR=$GITHUB_WORKSPACE" >> "$GITHUB_ENV"
+
+      - name: Combine YAML input files into CSV/FITS tables
+        run: python scripts/combine_table_general.py
+
+      - name: Run unit tests
+        run: python scripts/unit_tests.py
+
+      - name: Create LaTeX table data files
+        run: python scripts/create_latex_table.py
+
+      - name: Create summary plots
+        run: |
+          # Use a non-interactive matplotlib backend
+          MPLBACKEND=Agg python scripts/create_summary_plots.py
+
+      - name: Compile LaTeX PDF
+        working-directory: table
+        run: |
+          pdflatex lvdb_table.tex
+          bibtex lvdb_table
+          pdflatex lvdb_table.tex
+          pdflatex lvdb_table.tex
+          pdflatex lvdb_table.tex
+
+      - name: Collect release assets into staging directory
+        run: |
+          mkdir -p release_assets
+          # CSV files
+          cp data/*.csv release_assets/
+          # FITS files
+          cp data/*.fits release_assets/
+          # ECSV file (optional)
+          if ls data/*.ecsv 1>/dev/null 2>&1; then
+            cp data/*.ecsv release_assets/
+          else
+            echo "No .ecsv files found in data/, skipping."
+          fi
+          # Compiled PDF table
+          cp table/lvdb_table.pdf release_assets/
+          # Summary overview plots PDF (optional)
+          if [ -f paper_examples/overview_plots.pdf ]; then
+            cp paper_examples/overview_plots.pdf release_assets/
+          else
+            echo "overview_plots.pdf not found, skipping."
+          fi
+          
+      - name: Create GitHub Release and upload assets
+        if: ${{ inputs.publish_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: ${{ inputs.release_tag }}
+          body: ${{ inputs.release_notes }}
+          files: release_assets/*
+          fail_on_unmatched_files: false
