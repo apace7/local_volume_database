@@ -32,7 +32,7 @@ jobs:
 
       - name: Check tag does not already exist
         run: |
-          if git rev-parse "${{ github.event.inputs.release_tag }}" >/dev/null 2>&1; then
+          if git rev-parse "${{ inputs.release_tag }}" >/dev/null 2>&1; then
             echo "Tag already exists!"
             exit 1
           fi
@@ -106,11 +106,11 @@ jobs:
           fi
           
       - name: Create GitHub Release and upload assets
-        if: ${{ github.event.inputs.publish_release }}
+        if: ${{ inputs.publish_release }}
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.event.inputs.release_tag }}
-          name: ${{ github.event.inputs.release_tag }}
-          body: ${{ github.event.inputs.release_notes }}
+          tag_name: ${{ inputs.release_tag }}
+          name: ${{ inputs.release_tag }}
+          body: ${{ inputs.release_notes }}
           files: release_assets/*
           fail_on_unmatched_files: false
