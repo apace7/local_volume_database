@@ -38,7 +38,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma: 0.30
   metallicity_spectroscopic_sigma_em: 0.11
   metallicity_spectroscopic_sigma_ep: 0.15
-  ref_metallicity_spectroscopic: Chiu2026arXiv260220272C
+  ref_metallicity_spectroscopic: Chiu2026ApJ..1002...55C
 metallicity_photometric:
   metallicity_photometric: -2.53
   metallicity_photometric_em: 0.11
@@ -54,7 +54,7 @@ proper_motion:
   pmdec: -1.097
   pmdec_em: 0.075
   pmdec_ep: 0.075
-  ref_proper_motion: Chiu2026arXiv260220272C
+  ref_proper_motion: Chiu2026ApJ..1002...55C
 structure:
   ellipticity: 0.47
   ellipticity_em: 0.06
@@ -75,7 +75,7 @@ structure_sersic:
   rad_sersic_ep: 0.22
   ref_structure_sersic: Munoz2018ApJ...860...66M
 velocity:
-  ref_vlos: Chiu2026arXiv260220272C
+  ref_vlos: Chiu2026ApJ..1002...55C
   vlos_sigma: 4.7
   vlos_sigma_em: 1.3
   vlos_sigma_ep: 1.5

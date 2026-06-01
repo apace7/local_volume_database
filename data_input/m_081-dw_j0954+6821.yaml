@@ -12,7 +12,7 @@ name_discovery:
   ref_discovery:
   - Bell2022ApJ...937L...3B
 notes:
-- Confirmed with HST imaging \citep{Gozman2024ApJ...977..179G, Karachentsev2025arXiv250821494K}.
+- Confirmed with HST imaging \citep{Gozman2024ApJ...977..179G, Karachentsev2025Ap.....68..537K}.
 structure:
   rhalf: 0.07448451337
   rhalf_em: 0.007639437268
@@ -29,7 +29,7 @@ distance:
   distance_modulus_em: 0.09
   distance_modulus_ep: 0.08
   distance_measurement_method: trgb
-  ref_distance: Karachentsev2025arXiv250821494K
+  ref_distance: Karachentsev2025Ap.....68..537K
 m_v:
   apparent_magnitude_v: 20.68
   apparent_magnitude_v_em: 0.25
