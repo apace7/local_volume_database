@@ -1,15 +1,13 @@
-distance:
-  distance_modulus: 13.3
-  distance_modulus_em: 0.3
-  distance_modulus_ep: 0.308
-  ref_distance: Kurtev2008A&A...489..583K
 key: glimpse_02
+table: gc_harris
 location:
-  dec: -16.97722222
-  ra: 274.6270833
-m_v:
-  apparent_magnitude_v: 7.1
-  ref_m_v: Strader2008AJ....136.2102S
+  ra: 274.62725
+  ra_em: 0.000375
+  ra_ep: 0.000375
+  dec: -16.9763722
+  dec_em: 6.94e-05
+  dec_ep: 6.94e-05
+  ref_location: Loriga2026A&A...709A.186L
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -22,17 +20,41 @@ name_discovery:
   - Mercer2005ApJ...635..560M
   - Kurtev2008A&A...489..583K
   - Strader2008AJ....136.2102S
-  host: mw
+  host: mw  
+distance:
+  distance_modulus: 14.00
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.26
+  distance_measurement_method: cmd
+  ref_distance: Kurtev2008A&A...489..583K
+m_v:
+  apparent_magnitude_v: -5.80
+  apparent_magnitude_v_em: 0.06
+  apparent_magnitude_v_ep: 0.06
+  ref_m_v: Loriga2026A&A...709A.186L
 structure:
-  ref_structure: Kurtev2008A&A...489..583K
-  rhalf: 1.73
+  ref_structure: Loriga2026A&A...709A.186L
+  rhalf: 91
+  rhalf_em: 72
+  rhalf_ep: 443
+  spatial_units: arcsec
+  spatial_model: king
 structure_king:
-  rcore: 0.7
-  ref_structure_king: Kurtev2008A&A...489..583K
-  rking: 15.0
-table: gc_harris
+  rcore: 8.9
+  rcore_em: 2.5
+  rcore_em: 2.9
+  rking: 848
+  rking_em: 669
+  rking_ep: 1912
+  spatial_units: arcsec
+  ref_structure_king: Loriga2026A&A...709A.186L
 metallicity_isochrone:
-  metallicity_isochrone: -0.33
-  metallicity_isochrone_em: 0.14
-  metallicity_isochrone_ep: 0.14
-  ref_metallicity_isochrone: Kurtev2008A&A...489..583K
+  metallicity_isochrone: -0.30
+  metallicity_isochrone_em: 0.08
+  metallicity_isochrone_ep: 0.10
+  ref_metallicity_isochrone: Loriga2026A&A...709A.186L
+age:
+  age: 11.9
+  age_em: 0.6
+  age_ep: 0.7
+  ref_age: Loriga2026A&A...709A.186L
