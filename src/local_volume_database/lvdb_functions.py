@@ -249,15 +249,17 @@ def plot_proper_motion_galaxy_3panel(key, pm_overview = pm_data,  add=[], **kwar
             if non_gaia:
                 ax[2].errorbar(add[jj][0], add[jj][3], fmt='*',  xerr=[[add[jj][1]],[add[jj][2]]], yerr=[[add[jj][4]],[add[jj][5]]], label=add[jj][6], c=temp_color[xkcd], ms=10, zorder=1000)
             xkcd+=1
-        
+    
     for kk in range(len(pm_overview2)):
+        citation_name = pm_overview2['citation'][kk]
+        citation_name = citation_name.replace('&', '\string&')
         if non_gaia:
-            ax[2].errorbar(pm_overview2['pmra'][kk], pm_overview2['pmdec'][kk], fmt='o', xerr=[[pm_overview2['pmra_em'][kk]],[pm_overview2['pmra_ep'][kk]]],yerr=[[pm_overview2['pmdec_em'][kk]], [pm_overview2['pmdec_ep'][kk]]], label=pm_overview2['citation'][kk],c=temp_color[xkcd])
+            ax[2].errorbar(pm_overview2['pmra'][kk], pm_overview2['pmdec'][kk], fmt='o', xerr=[[pm_overview2['pmra_em'][kk]],[pm_overview2['pmra_ep'][kk]]],yerr=[[pm_overview2['pmdec_em'][kk]], [pm_overview2['pmdec_ep'][kk]]], label=citation_name,c=temp_color[xkcd])
             
         if pm_overview2['method'][kk] in ['GAIA_EDR3', 'GAIA_DR2']:
-            ax[1].errorbar(pm_overview2['pmra'][kk], pm_overview2['pmdec'][kk], fmt='o', xerr=[[pm_overview2['pmra_em'][kk]], [pm_overview2['pmra_ep'][kk]]], yerr=[[pm_overview2['pmdec_em'][kk]], [pm_overview2['pmdec_ep'][kk]]], label=pm_overview2['citation'][kk],c=temp_color[xkcd])
+            ax[1].errorbar(pm_overview2['pmra'][kk], pm_overview2['pmdec'][kk], fmt='o', xerr=[[pm_overview2['pmra_em'][kk]], [pm_overview2['pmra_ep'][kk]]], yerr=[[pm_overview2['pmdec_em'][kk]], [pm_overview2['pmdec_ep'][kk]]], label=citation_name,c=temp_color[xkcd])
             if pm_overview2['method'][kk]=='GAIA_EDR3':
-                ax[0].errorbar(pm_overview2['pmra'][kk], pm_overview2['pmdec'][kk], fmt='o', xerr=[[pm_overview2['pmra_em'][kk]], [pm_overview2['pmra_ep'][kk]]],  yerr=[[pm_overview2['pmdec_em'][kk]], [pm_overview2['pmdec_ep'][kk]]], label=pm_overview2['citation'][kk],c=temp_color[xkcd])
+                ax[0].errorbar(pm_overview2['pmra'][kk], pm_overview2['pmdec'][kk], fmt='o', xerr=[[pm_overview2['pmra_em'][kk]], [pm_overview2['pmra_ep'][kk]]],  yerr=[[pm_overview2['pmdec_em'][kk]], [pm_overview2['pmdec_ep'][kk]]], label=citation_name,c=temp_color[xkcd])
         xkcd+=1
     
 #     ax[3].axis("off")
@@ -449,7 +451,7 @@ def plot_property_collection(key, property_to_examine, collected_data = pm_data,
     
     print(key, len(collected_data_key), property_to_examine)
     print("number of measurements and methods:",len(collected_data_key), )
-    print("reference", "method", 'pmra', 'pmra_em', 'pmra_ep', 'pmdec', 'pmdec_em', 'pmdec_ep')
+    print("reference", "method", 'property_to_examine', 'property_to_examine_em', 'property_to_examine_ep', 'notes')
     
     print_measurements = kwargs.get('print_measurements',True)
     if print_measurements:
@@ -469,15 +471,17 @@ def plot_property_collection(key, property_to_examine, collected_data = pm_data,
     print("excluded measurements:",len(collected_data_key)-np.sum(keep), len(exclude))
     collected_data_key = collected_data_key[keep]
     
-    for kk in range(len(collected_data_key)):
-        collected_data_key[name_option][kk] = collected_data_key[name_option][kk].replace('&', '\string&')
-    
+    # for kk in range(len(collected_data_key)):
+    #     collected_data_key[name_option][kk] = collected_data_key[name_option][kk].replace('&', '\string&')
+
     fig, ax = plt.subplots(1,1,figsize=(5,2 + 0.25*len(collected_data_key)))
     for kk in range(len(collected_data_key)):
+        citation_name = collected_data_key[name_option][kk]
+        citation_name = citation_name.replace('&', '\string&')
         if np.ma.is_masked(collected_data_key[property_to_examine][kk])==True and ul_option==True:
-            ax.errorbar(collected_data_key[property_to_examine+'_ul'][kk], collected_data_key[name_option][kk], fmt='o', xerr=1, xuplims=True)
+            ax.errorbar(collected_data_key[property_to_examine+'_ul'][kk], citation_name, fmt='o', xerr=1, xuplims=True)
         else:
-            ax.errorbar(collected_data_key[property_to_examine][kk], collected_data_key[name_option][kk], fmt='o', xerr=[[collected_data_key[property_to_examine + '_em'][kk]], [collected_data_key[property_to_examine + '_ep'][kk]]])
+            ax.errorbar(collected_data_key[property_to_examine][kk], citation_name, fmt='o', xerr=[[collected_data_key[property_to_examine + '_em'][kk]], [collected_data_key[property_to_examine + '_ep'][kk]]])
        
     plt.tight_layout()
     if len(save_file_name)>0:
