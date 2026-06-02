@@ -25,14 +25,13 @@ m_v:
   apparent_magnitude_v_ep: 0.33
   ref_m_v: Ryu2018ApJ...863L..38R
 proper_motion:
-  pmra: -2.396
-  pmra_em: 0.077
-  pmra_ep: 0.077
-  pmdec: -1.794
-  pmdec_em: 0.069
-  pmdec_ep: 0.069
-  pmra_pmdec_corr: 0.39
-  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+  pmra: -2.315
+  pmra_em: 0.033
+  pmra_ep: 0.033
+  pmdec: -1.864
+  pmdec_em: 0.027
+  pmdec_ep: 0.027
+  ref_proper_motion: Libralato2026A&A...709A.140L
 structure:
   ref_structure: Ryu2018ApJ...863L..38R
   rhalf: 0.47

@@ -24,9 +24,13 @@ name_discovery:
   ref_discovery:
   - Gran2022MNRAS.509.4962G
 proper_motion:
-  pmdec: -9.2
-  pmra: -5.32
-  ref_proper_motion: Gran2022MNRAS.509.4962G
+  pmra: -5.49
+  pmra_em: 0.034
+  pmra_ep: 0.034
+  pmdec: -9.335
+  pmdec_em: 0.026
+  pmdec_ep: 0.026
+  ref_proper_motion: Libralato2026A&A...709A.140L
 structure:
   ref_structure: Gran2022MNRAS.509.4962G
   rhalf: 0.94

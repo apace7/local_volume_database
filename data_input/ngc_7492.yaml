@@ -33,14 +33,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_ul: 0.08
   ref_metallicity_spectroscopic: Geha2026arXiv260210202G
 proper_motion:
-  pmra: 0.756
-  pmra_em: 0.028
-  pmra_ep: 0.028
-  pmdec: -2.32
-  pmdec_em: 0.028
-  pmdec_ep: 0.028
-  pmra_pmdec_corr: 0.03
-  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+  pmra: 0.768
+  pmra_em: 0.011
+  pmra_ep: 0.011
+  pmdec: -2.33
+  pmdec_em: 0.009
+  pmdec_ep: 0.009
+  ref_proper_motion: Libralato2026A&A...709A.140L
 structure:
   rhalf: 1.28
   rhalf_em: 0.02

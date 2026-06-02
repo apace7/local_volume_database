@@ -30,14 +30,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic: -0.1
   ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
 proper_motion:
-  pmra: -4.322
-  pmra_em: 0.028
-  pmra_ep: 0.028
-  pmdec: -7.173
-  pmdec_em: 0.029
-  pmdec_ep: 0.029
-  pmra_pmdec_corr: 0.02
-  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+  pmra: -4.325
+  pmra_em: 0.007
+  pmra_ep: 0.007
+  pmdec: -7.153
+  pmdec_em: 0.007
+  pmdec_ep: 0.007
+  ref_proper_motion: Libralato2026A&A...709A.140L
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 1.55

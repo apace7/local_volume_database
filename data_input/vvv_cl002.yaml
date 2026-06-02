@@ -22,14 +22,13 @@ m_v:
   apparent_magnitude_v: 10.06
   ref_m_v: Minniti2021A&A...648A..86M
 proper_motion:
-  pmra: -8.867
-  pmra_em: 0.142
-  pmra_ep: 0.142
-  pmdec: 2.39
-  pmdec_em: 0.085
-  pmdec_ep: 0.085
-  pmra_pmdec_corr: 0.17
-  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+  pmra: -9.145
+  pmra_em: 0.032
+  pmra_ep: 0.032
+  pmdec: 2.347
+  pmdec_em: 0.04
+  pmdec_ep: 0.04
+  ref_proper_motion: Libralato2026A&A...709A.140L
 structure:
   ref_structure: MoniBidin2011A&A...535A..33M
   rhalf: 0.75

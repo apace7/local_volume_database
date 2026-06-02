@@ -18,14 +18,13 @@ distance:
   distance_modulus: 13.7
   ref_distance: Longmore2011MNRAS.416..465L
 proper_motion:
-  pmra: -3.965
-  pmra_em: 0.114
-  pmra_ep: 0.114
-  pmdec: -7.22
-  pmdec_em: 0.111
-  pmdec_ep: 0.111
-  pmra_pmdec_corr: 0.31
-  ref_proper_motion: Vasiliev2021MNRAS.505.5978V
+  pmra: -3.779
+  pmra_em: 0.043
+  pmra_ep: 0.043
+  pmdec: -7.285
+  pmdec_em: 0.064
+  pmdec_ep: 0.064
+  ref_proper_motion: Libralato2026A&A...709A.140L
 structure:
   rhalf: 17
   spatial_units: arcsec

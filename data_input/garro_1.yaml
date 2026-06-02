@@ -37,13 +37,13 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma_ul: 0.1
   ref_metallicity_spectroscopic: Pace2023MNRAS.526.1075P
 proper_motion:
-  pmdec: -1.09
-  pmdec_em: 0.02
-  pmdec_ep: 0.02
-  pmra: -4.35
-  pmra_em: 0.02
-  pmra_ep: 0.02
-  ref_proper_motion: Pace2023MNRAS.526.1075P
+  pmra: -4.431
+  pmra_em: 0.015
+  pmra_ep: 0.015
+  pmdec: -1.127
+  pmdec_em: 0.015
+  pmdec_ep: 0.015
+  ref_proper_motion: Libralato2026A&A...709A.140L
 structure:
   ref_structure: Pace2023MNRAS.526.1075P
   rhalf: 2.4
