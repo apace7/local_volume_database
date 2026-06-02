@@ -28,7 +28,7 @@ distance:
   distance_measurement_method: cmd
   ref_distance: Kurtev2008A&A...489..583K
 m_v:
-  apparent_magnitude_v: -5.80
+  apparent_magnitude_v: 8.2
   apparent_magnitude_v_em: 0.06
   apparent_magnitude_v_ep: 0.06
   ref_m_v: Loriga2026A&A...709A.186L

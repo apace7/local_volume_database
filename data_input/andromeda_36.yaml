@@ -1,0 +1,44 @@
+key: andromeda_36
+table: dwarf_m31
+location:
+  ra: 19.168
+  dec: 47.656
+  ra_em: 0.001
+  ra_ep: 0.001
+  dec_em: 0.001
+  dec_ep: 0.001
+  ref_location: Sakowska2026arXiv260328492S
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2026
+  host: m_031
+  name: Andromeda XXXVI
+  ref_discovery:
+  - Sakowska2026arXiv260328492S
+  type: dSph
+structure:
+  rhalf: 0.284
+  rhalf_em: 0.084
+  rhalf_ep: 0.132
+  spatial_units: arcmin
+  spatial_model: exponential
+  ellipticity: 0.015
+  ellipticity_em: 0.012
+  ellipticity_ep: 0.032
+  position_angle: 78.6
+  position_angle_em: 28.5
+  position_angle_ep: 29.7
+  ref_structure: Sakowska2026arXiv260328492S
+distance:
+  distance_fixed_host: True
+  distance_measurement_method: host
+  ref_distance: Sakowska2026arXiv260328492S
+m_v:
+  apparent_magnitude_v: 18.54
+  apparent_magnitude_v_em: 0.10
+  apparent_magnitude_v_ep: 0.10
+  ref_m_v: Sakowska2026arXiv260328492S
+metallicity_isochrone:
+  metallicity_isochrone: -2.5
+  ref_metallicity_isochrone: Sakowska2026arXiv260328492S
