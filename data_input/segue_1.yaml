@@ -28,8 +28,13 @@ m_v:
   apparent_magnitude_v_ep: 0.73
   ref_m_v: Munoz2018ApJ...860...66M
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.5
-  ref_metallicity_spectroscopic: Simon2011ApJ...733...46S
+  metallicity_spectroscopic: -2.52
+  metallicity_spectroscopic_em: 0.10
+  metallicity_spectroscopic_ep: 0.10
+  metallicity_spectroscopic_sigma: 0.59
+  metallicity_spectroscopic_sigma_em: 0.06
+  metallicity_spectroscopic_sigma_ep: 0.06
+  ref_metallicity_spectroscopic: Bissonette2026arXiv260512810B
 proper_motion:
   pmdec: -3.375
   pmdec_em: 0.046
