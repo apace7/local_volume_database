@@ -1,0 +1,66 @@
+key: delve_8_gemini_1
+table: gc_ambiguous
+location:
+  ra: 118.386
+  dec: 15.990
+  ra_em: 0.001
+  ra_ep: 0.001
+  dec_em: 0.001
+  dec_ep: 0.001
+  ref_location: Overdeck2026arXiv260609975O
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_star_cluster: 0
+  confirmed_real: 1
+  discovery_year: 2026
+  host: mw
+  name: DELVE 8
+  other_name:
+  - Gemini I
+  ref_discovery:
+  - Overdeck2026arXiv260609975O
+  abbreviation: 'DEL8'
+  type: dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster
+structure:
+  rhalf: 0.37
+  rhalf_em: 0.06
+  rhalf_ep: 0.07
+  spatial_units: arcmin
+  spatial_model: plummer
+  ellipticity: 0.6
+  ellipticity_em: 0.1
+  ellipticity_ep: 0.1
+  position_angle: 62
+  position_angle_em: 7
+  position_angle_ep: 7
+  ref_structure: Overdeck2026arXiv260609975O
+distance:
+  distance_modulus: 20.39
+  distance_modulus_em: 0.12
+  distance_modulus_ep: 0.12
+  distance_measurement_method: cmd
+  ref_distance: Overdeck2026arXiv260609975O
+m_v:
+  apparent_magnitude_v: 18.29
+  apparent_magnitude_v_em: 0.6
+  apparent_magnitude_v_ep: 0.4
+  mean_ebv: 0.030
+  ref_m_v: Overdeck2026arXiv260609975O
+structure_plummer:
+  rplummer: 0.37
+  rplummer_em: 0.06
+  rplummer_ep: 0.07
+  spatial_units: arcmin
+  ellipticity: 0.6
+  ellipticity_em: 0.1
+  ellipticity_ep: 0.1
+  position_angle: 62
+  position_angle_em: 7
+  position_angle_ep: 7
+  ref_structure_plummer: Overdeck2026arXiv260609975O
+velocity:
+  vlos_systemic: -82.7
+  vlos_systemic_em: 3.9
+  vlos_systemic_ep: 3.7
+  vlos_sigma_ul: 8.9
+  ref_vlos: Overdeck2026arXiv260609975O
