@@ -17,6 +17,7 @@ distance:
   distance_modulus: 19.46
   distance_modulus_em: 0.2
   distance_modulus_ep: 0.2
+  distance_measurement_method: hb
   ref_distance: Kim2015ApJ...808L..39K
 flux_HI:
   flux_HI_ul: 0.54

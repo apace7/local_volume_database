@@ -1,27 +1,13 @@
 key: grus_2
 table: dwarf_mw
 location:
-  dec: -46.442
-  ra: 331.025
-distance:
-  distance_modulus: 18.71
-  distance_modulus_em: 0.1
-  distance_modulus_ep: 0.1
-  ref_distance: MartinezVazquez2019MNRAS.490.2183M
-flux_HI:
-  flux_HI_ul: 0.6
-  ref_flux_HI: Putman2021ApJ...913...53P
-m_v:
-  apparent_magnitude_v: 15.21
-  apparent_magnitude_v_em: 0.3
-  apparent_magnitude_v_ep: 0.3
-  ref_m_v: Simon2020ApJ...892..137S
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.51
-  metallicity_spectroscopic_em: 0.11
-  metallicity_spectroscopic_ep: 0.11
-  metallicity_spectroscopic_sigma_ul: 0.45
-  ref_metallicity_spectroscopic: Simon2020ApJ...892..137S
+  ra: 331.0237
+  ra_em: 0.1375
+  ra_ep: 0.1125
+  dec: -46.4509
+  dec_em: 0.0055556
+  dec_ep: 0.0066667
+  ref_location: Prabhu2026arXiv260625058P
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -34,6 +20,26 @@ name_discovery:
   - DrlicaWagner2015ApJ...813..109D
   abbreviation: GruII
   type: dSph
+distance:
+  distance_modulus: 18.71
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
+  distance_measurement_method: rrl
+  ref_distance: MartinezVazquez2019MNRAS.490.2183M
+flux_HI:
+  flux_HI_ul: 0.6
+  ref_flux_HI: Putman2021ApJ...913...53P
+m_v:
+  apparent_magnitude_v: 14.52
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.5
+  ref_m_v: Simon2020ApJ...892..137S
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -2.51
+  metallicity_spectroscopic_em: 0.11
+  metallicity_spectroscopic_ep: 0.11
+  metallicity_spectroscopic_sigma_ul: 0.45
+  ref_metallicity_spectroscopic: Simon2020ApJ...892..137S
 proper_motion:
   pmdec: -1.484
   pmdec_em: 0.04
@@ -44,11 +50,18 @@ proper_motion:
   pmra_pmdec_corr: 0.162
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
-  ellipticity_ul: 0.21
-  ref_structure: Simon2020ApJ...892..137S
-  rhalf: 5.9
+  rhalf: 6.8
   rhalf_em: 0.5
   rhalf_ep: 0.5
+  spatial_units: arcmin
+  spatial_model: exponential
+  ellipticity: 0.25
+  ellipticity_em: 0.07
+  ellipticity_ep: 0.07
+  position_angle: 186
+  position_angle_em: 12
+  position_angle_ep: 9
+  ref_structure: Prabhu2026arXiv260625058P
 velocity:
   ref_vlos: Simon2020ApJ...892..137S
   vlos_sigma_ul: 2.0
