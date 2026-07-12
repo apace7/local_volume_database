@@ -18,10 +18,11 @@ flux_HI:
   flux_HI: 38.37
   ref_flux_HI: Makarov2014A&A...570A..13M
 distance:
-  distance_modulus: 31.25
-  distance_modulus_em: 0.89
-  distance_modulus_ep: 0.89
-  ref_distance: Makarov2014A&A...570A..13M
+  distance_modulus: 28.12
+  distance_modulus_em: 0.36
+  distance_modulus_ep: 0.36
+  distance_measurement_method: tf
+  ref_distance: Tully2008ApJ...676..184T
 m_v:
   apparent_magnitude_v: 10.60
   ref_m_v: Makarov2014A&A...570A..13M
