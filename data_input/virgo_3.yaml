@@ -1,12 +1,16 @@
 key: virgo_3
 table: dwarf_mw
 location:
-  ra: 186.348
-  dec: 4.441
+  ra: 186.350
+  dec: 4.442
+  ra_em: 0.002
+  ra_ep: 0.002
+  dec_em: 0.003
+  dec_ep: 0.003
+  ref_location: Pai2026arXiv260725044P
 name_discovery:
   confirmed_dwarf: 0
-  confirmed_real: 0
-  false_positive: 0
+  confirmed_real: 1
   discovery_year: 2023
   host: mw
   name: Virgo III
@@ -15,24 +19,35 @@ name_discovery:
   abbreviation: VirIII
   # type: dSph/SC
 structure:
-  rhalf: 1.0
-  rhalf_em: 0.2
-  rhalf_ep: 0.2
-  ellipticity: 0.29
-  ellipticity_em: 0.19
-  ellipticity_ep: 0.15
-  position_angle: -24
-  position_angle_em: 26
-  position_angle_ep: 21
-  ref_structure: Homma2024PASJ...76..733H
+  rhalf: 1.68
+  rhalf_em: 0.30
+  rhalf_ep: 0.39
+  ellipticity: 0.48
+  ellipticity_em: 0.13
+  ellipticity_ep: 0.11
+  position_angle: -68
+  position_angle_em: 10
+  position_angle_ep: 12
+  spatial_units: arcmin
+  spatial_model: plummer
+  ref_structure: Pai2026arXiv260725044P
 distance:
-  distance_modulus: 20.9
-  distance_modulus_em: 0.2
-  distance_modulus_ep: 0.2
-  ref_distance: Homma2024PASJ...76..733H
+  distance_modulus: 20.90
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.10
+  distance_measurement_method: cmd
+  ref_distance: Pai2026arXiv260725044P
 m_v:
-  apparent_magnitude_v: 18.21
-  apparent_magnitude_v_em: 0.56
-  apparent_magnitude_v_ep: 0.45
+  apparent_magnitude_v: 18.18
+  apparent_magnitude_v_em: 0.70
+  apparent_magnitude_v_ep: 0.49
   mean_ebv: 0.017
-  ref_m_v: Homma2024PASJ...76..733H
+  ref_m_v: Pai2026arXiv260725044P
+proper_motion:
+  pmra: -0.06
+  pmra_em: 0.51
+  pmra_ep: 0.51
+  pmdec: -0.14
+  pmdec_em: 0.30
+  pmdec_ep: 0.30
+  ref_proper_motion: Pai2026arXiv260725044P
