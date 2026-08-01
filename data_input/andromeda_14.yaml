@@ -9,6 +9,8 @@ name_discovery:
   discovery_year: 2007
   host: m_031
   name: Andromeda XIV
+  other_name:
+  - Pisces IV
   ref_discovery:
   - Majewski2007ApJ...670L...9M
   type: dSph
