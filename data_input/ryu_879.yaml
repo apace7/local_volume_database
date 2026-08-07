@@ -52,11 +52,11 @@ metallicity_isochrone:
   ref_metallicity_isochrone: Ryu2018ApJ...863L..38R
 metallicity_spectroscopic:
   metallicity_spectroscopic: -2.33
-  metallicity_spectroscopic_em: 0.04
-  metallicity_spectroscopic_ep: 0.04
-  ref_metallicity_spectroscopic: Ceccarelli2026arXiv260304507C
+  metallicity_spectroscopic_em: 0.13
+  metallicity_spectroscopic_ep: 0.13
+  ref_metallicity_spectroscopic: Ceccarelli2026A&A...711A.183C
 velocity:
   vlos_systemic: -316
-  vlos_systemic_em: 4
-  vlos_systemic_ep: 4
-  ref_vlos: Ceccarelli2026arXiv260304507C
+  vlos_systemic_em: 6
+  vlos_systemic_ep: 6
+  ref_vlos: Ceccarelli2026A&A...711A.183C

@@ -51,12 +51,12 @@ metallicity_isochrone:
   metallicity_isochrone: 0.0
   ref_metallicity_isochrone: Ortolani2009AJ....138..889O
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -0.76
+  metallicity_spectroscopic: -0.75
   metallicity_spectroscopic_em: 0.09
   metallicity_spectroscopic_ep: 0.09
-  ref_metallicity_spectroscopic: Ceccarelli2026arXiv260304507C
+  ref_metallicity_spectroscopic: Ceccarelli2026A&A...711A.183C
 velocity:
-  vlos_systemic: 3
-  vlos_systemic_em: 3
-  vlos_systemic_ep: 3
-  ref_vlos: Ceccarelli2026arXiv260304507C
+  vlos_systemic: 6
+  vlos_systemic_em: 5
+  vlos_systemic_ep: 5
+  ref_vlos: Ceccarelli2026A&A...711A.183C
