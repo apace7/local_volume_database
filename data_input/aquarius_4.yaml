@@ -1,0 +1,44 @@
+key: aquarius_4
+table: dwarf_mw
+location:
+  ra: 330.474
+  dec: -2.575
+  ra_em: 0.002
+  ra_ep: 0.002
+  dec_em: 0.002
+  dec_ep: 0.002
+  ref_location: Cerny2026arXiv260802601C
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 0
+  discovery_year: 2026
+  host: mw
+  name: Aquarius IV
+  other_name:
+  - Rubin J2201-023
+  ref_discovery:
+  - Cerny2026arXiv260802601C
+  abbreviation: 'AquIV'
+  type: dSph
+structure:
+  rhalf: 0.6
+  rhalf_em: 0.17
+  rhalf_ep: 0.14
+  spatial_units: arcmin
+  spatial_model: plummer
+  ellipticity_ul: 0.61
+  position_angle: 144
+  position_angle_em: 33
+  position_angle_ep: 59
+  ref_structure: Cerny2026arXiv260802601C
+distance:
+  distance_modulus: 20.16
+  distance_modulus_em: 0.1
+  distance_modulus_ep: 0.1
+  distance_measurement_method: cmd
+  ref_distance: Cerny2026arXiv260802601C
+m_v:
+  apparent_magnitude_v: 18.26
+  apparent_magnitude_v_em: 1.0
+  apparent_magnitude_v_ep: 0.6
+  ref_m_v: Cerny2026arXiv260802601C
