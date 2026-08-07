@@ -78,3 +78,8 @@ velocity:
   vlos_systemic: 26.2
   vlos_systemic_em: 0.9
   vlos_systemic_ep: 1.0
+gas_phase_metallicity:
+  gas_phase_metallicity: 7.46
+  gas_phase_metallicity_em: 0.09
+  gas_phase_metallicity_ep: 0.09
+  ref_gas_phase_metallicity: Andrade2026A&A...707A.385A
