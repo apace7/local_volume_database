@@ -17,6 +17,7 @@ name_discovery:
   ref_discovery:
   - DrlicaWagner2016ApJ...833L...5D
   abbreviation: PicII
+  type: dSph
 distance:
   distance_modulus: 18.26
   distance_modulus_em: 0.10

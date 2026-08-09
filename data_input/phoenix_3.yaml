@@ -19,6 +19,7 @@ name_discovery:
   ref_discovery:
   - Tan2026ApJ..1000...46T
   abbreviation: PheIII
+  type: dSph
 structure:
   rhalf: 0.85
   rhalf_em: 0.37

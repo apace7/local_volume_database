@@ -16,7 +16,7 @@ name_discovery:
   other_name:
   - KiDS-UFD-1
   abbreviation: SexII
-  # type: dSph/SC
+  type: dSph
 notes:
 - found in HSC and KiDS survey, considered confirmed real 
 structure:

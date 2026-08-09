@@ -20,7 +20,7 @@ name_discovery:
   ref_discovery:
   - Overdeck2026arXiv260609975O
   abbreviation: 'DEL8'
-  type: dSph, dIrr, NSC=Nuclear star cluster, GC=Globular Cluster
+  type: dSph/SC
 structure:
   rhalf: 0.37
   rhalf_em: 0.06

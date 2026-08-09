@@ -14,7 +14,7 @@ name_discovery:
   ref_discovery:
   - Homma2019PASJ...71...94H
   abbreviation: BooIV
-  # type: dSph/SC
+  type: dSph
 distance:
   distance_modulus: 21.6
   distance_modulus_em: 0.2

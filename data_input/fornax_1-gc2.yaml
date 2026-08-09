@@ -12,6 +12,7 @@ name_discovery:
   name: Fornax-GC2
   ref_discovery:
   - Shapley1938BHarO.908....1S
+  type: GC
 notes:
 - distance is from RRL \citep{Mackey2003MNRAS.345..747M} and metallicity corrected by \citep{deBoer2016A&A...590A..35D}
 structure:

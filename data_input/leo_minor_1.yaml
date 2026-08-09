@@ -14,7 +14,7 @@ name_discovery:
   ref_discovery:
   - Cerny2023ApJ...953....1C
   abbreviation: LMiI
-  # type: dSph/SC
+  type: dSph
 distance:
   distance_modulus: 19.56
   distance_modulus_em: 0.19

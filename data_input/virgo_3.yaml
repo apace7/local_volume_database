@@ -17,7 +17,7 @@ name_discovery:
   ref_discovery:
   - Homma2024PASJ...76..733H
   abbreviation: VirIII
-  # type: dSph/SC
+  type: dSph/SC
 structure:
   rhalf: 1.68
   rhalf_em: 0.30

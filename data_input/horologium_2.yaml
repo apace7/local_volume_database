@@ -12,7 +12,7 @@ name_discovery:
   ref_discovery:
   - Kim2015ApJ...808L..39K
   abbreviation: HorII
-  # type: dSph/SC
+  type: dSph
 distance:
   distance_modulus: 19.46
   distance_modulus_em: 0.2
