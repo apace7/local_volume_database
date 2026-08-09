@@ -15,7 +15,7 @@ name_discovery:
   host: mw
   name: Aquarius IV
   other_name:
-  - Rubin J2201-023
+  - Rubin J2201-0234
   ref_discovery:
   - Cerny2026arXiv260802601C
   abbreviation: 'AquIV'
@@ -27,9 +27,6 @@ structure:
   spatial_units: arcmin
   spatial_model: plummer
   ellipticity_ul: 0.61
-  position_angle: 144
-  position_angle_em: 33
-  position_angle_ep: 59
   ref_structure: Cerny2026arXiv260802601C
 distance:
   distance_modulus: 20.16
