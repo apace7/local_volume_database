@@ -6,8 +6,8 @@ project = 'local_volume_database'
 copyright = '2026, Andrew Pace'
 author = 'Andrew Pace'
 
-release = '1.1.0'
-version = '1.1.0'
+release = '1.1.1'
+version = '1.1.1'
 
 # -- General configuration
 
