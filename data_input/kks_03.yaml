@@ -15,6 +15,7 @@ name_discovery:
   - Corwin1985sgcc.book.....C
   - Karachentseva2000A&AS..146..359K
   - Whiting2002ApJS..141..123W
+  type: dSph
 distance:
   distance_modulus: 26.63
   distance_modulus_em: 0.07

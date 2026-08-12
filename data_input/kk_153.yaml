@@ -16,6 +16,7 @@ name_discovery:
   - Karachentseva1968CoBAO..39...61K
   - Karachentseva1998A&AS..127..409K
   - Xu2025ApJ...982L..36X
+  type: dIrr
 structure:
   rhalf: 17.4
   rhalf_em: 0.8

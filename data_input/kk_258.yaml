@@ -22,6 +22,7 @@ name_discovery:
   discovery_year: 1998
   ref_discovery:
   - Karachentseva1998A&AS..127..409K
+  type: dIrr
 structure:
   ellipticity: 0.5
   ref_structure: Karachentsev2004AJ....127.2031K
