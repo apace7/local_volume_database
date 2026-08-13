@@ -15,6 +15,7 @@ name_discovery:
   ref_discovery:
   - Barnard1884AN....110..125B
   type: dIrr
+  abbreviation: NGC6822
 notes:
 - Polar ring morphology \citep{McConnachie2012AJ....144....4M}
 distance:

@@ -12,6 +12,7 @@ name_discovery:
   - McQuinn2024ApJ...967..161M
   type: dSph
   name_lvg: LeoM
+  abbreviation: LeoM
 distance:
   distance_modulus: 23.31
   distance_modulus_em: 0.09

@@ -12,6 +12,7 @@ name_discovery:
   - Schuster1976A&A....49..129S
   - Canterna1977ApJ...212L..57C
   type: dIrr/dSph
+  abbreviation: Phe
 notes:
 - There are 4 GC candidates from \citet{Canterna1977ApJ...212L..57C, MartinezDelgado1999AJ....118..862M}.
 distance:

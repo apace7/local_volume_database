@@ -11,6 +11,7 @@ name_discovery:
   ref_discovery:
   - Whiting1999AJ....118.2767W
   type: dSph
+  abbreviation: Cet
 notes:
 - isolated dSph \citep{McConnachie2012AJ....144....4M} 
 distance:

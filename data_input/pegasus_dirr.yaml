@@ -14,6 +14,7 @@ name_discovery:
   ref_discovery:
   - Holmberg1958_hand
   type: dIrr/dSph
+  abbreviation: PegdIrr
 distance:
   distance_modulus: 24.74
   distance_modulus_em: 0.05

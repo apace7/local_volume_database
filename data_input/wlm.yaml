@@ -17,6 +17,7 @@ name_discovery:
   - Wolf1909AN....183..187W
   - Melotte1926MNRAS..86..636M
   type: dIrr
+  abbreviation: WLM
 notes:
 - Defines $R_{LG}$ \citep{McConnachie2012AJ....144....4M}
 distance:

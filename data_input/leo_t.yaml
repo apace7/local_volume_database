@@ -11,6 +11,7 @@ name_discovery:
   ref_discovery:
   - Irwin2007ApJ...656L..13I
   type: dIrr/dSph
+  abbreviation: LeoT
 distance:
   distance_modulus: 23.08
   distance_modulus_em: 0.08

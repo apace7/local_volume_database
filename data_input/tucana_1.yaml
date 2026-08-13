@@ -13,6 +13,7 @@ name_discovery:
   - Lavery1990IAUC.5139....2L
   - Corwin1985sgcc.book.....C
   type: dSph
+  abbreviation: Tuc
 notes:
 - Isolated dSph; defines $R_{LG}$ \citep{McConnachie2012AJ....144....4M}
 distance:
