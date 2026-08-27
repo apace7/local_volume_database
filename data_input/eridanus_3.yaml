@@ -1,8 +1,13 @@
 key: eridanus_3
 table: gc_ambiguous
 location:
-  ra: 35.68875     
+  ra: 35.68875   
   dec: -52.28472
+  ra_em: 0.0021
+  ra_ep: 0.0021
+  dec_em: 0.0017
+  dec_ep: 0.0017
+  ref_location: Conn2018ApJ...852...68C
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
