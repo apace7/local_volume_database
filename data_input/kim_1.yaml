@@ -1,8 +1,9 @@
 key: kim_1
 table: gc_ambiguous
 location:
-  ra: 332.9214
-  dec: 7.0271
+  ra: 332.9221
+  dec: 7.0255
+  ref_location: Kim2015ApJ...799...73K
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0

@@ -3,6 +3,7 @@ table: gc_ambiguous
 location:
   dec: 14.9403
   ra: 332.6791
+  ref_location: Pace2025OJAp....8E.142P
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0
