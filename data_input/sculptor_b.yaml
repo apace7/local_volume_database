@@ -3,9 +3,10 @@ table: dwarf_local_field
 location:
   ra: 16.71208333333333
   dec: -35.0775
+  ref_location: Sand2024ApJ...977L...5S
 name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 0
+  confirmed_dwarf: 1
+  confirmed_real: 1
   discovery_year: 2024
   name: Sculptor B
   ref_discovery:

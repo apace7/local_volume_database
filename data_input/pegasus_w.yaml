@@ -3,6 +3,7 @@ table: dwarf_local_field
 location:
   ra: 358.3124817
   dec: 22.10197022
+  ref_location: McQuinn2023ApJ...944...14M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
