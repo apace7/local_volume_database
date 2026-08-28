@@ -1,8 +1,13 @@
 key: columba_1
 table: dwarf_mw
 location:
-  ra: 82.85696
-  dec: -28.04253
+  ra: 82.8570
+  dec: -28.0425
+  ra_em: 0.0333
+  ra_ep: 0.0333
+  dec_em: 0.00317
+  dec_ep: 0.00317
+  ref_location: Carlin2017AJ....154..267C
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

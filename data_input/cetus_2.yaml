@@ -3,6 +3,7 @@ table: dwarf_mw
 location:
   ra: 19.47
   dec: -17.42
+  ref_location: DrlicaWagner2015ApJ...813..109D
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1

@@ -3,6 +3,7 @@ table: dwarf_mw
 location:
   ra: 180.038
   dec: -0.681
+  ref_location: Homma2018PASJ...70S..18H
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1

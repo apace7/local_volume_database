@@ -1,8 +1,13 @@
 key: sagittarius_2
 table: gc_mw_new
 location:
-  ra: 298.16875
-  dec: -22.06806
+  ra: 298.1664
+  dec: -22.0642
+  ra_em: 0.0083333
+  ra_ep: 0.0083333
+  dec_em: 0.0005556
+  dec_ep: 0.0005556
+  ref_location: Richstein2024ApJ...967...72R
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -53,6 +58,8 @@ structure:
   rhalf: 1.85
   rhalf_em: 0.07
   rhalf_ep: 0.08
+  spatial_units: arcmin
+  spatial_model: plummer
   ellipticity: 0.03
   ellipticity_ul: 0.08
   position_angle: 96
