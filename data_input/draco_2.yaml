@@ -1,8 +1,13 @@
 key: draco_2
 table: dwarf_mw
 location:
-  ra: 238.1983333
-  dec: 64.56527778
+  ra: 238.174
+  dec: 64.579
+  ra_em: 0.005
+  ra_ep: 0.005
+  dec_em: 0.006
+  dec_ep: 0.006
+  ref_location: Longeard2018MNRAS.480.2609L
 name_discovery:
   confirmed_real: 1
   confirmed_dwarf: 1

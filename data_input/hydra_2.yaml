@@ -3,6 +3,7 @@ table: dwarf_mw
 location:
   ra: 185.4286
   dec: -31.9728
+  ref_location: Richstein2024ApJ...967...72R
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -55,16 +56,18 @@ proper_motion:
   pmra_pmdec_corr: 0.048
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
-  rhalf: 1.52
-  rhalf_em: 0.28
-  rhalf_ep: 0.28
-  ellipticity: 0.24
-  ellipticity_em: 0.16
-  ellipticity_ep: 0.16
-  position_angle: 16
-  position_angle_em: 25
-  position_angle_ep: 25
-  ref_structure: Munoz2018ApJ...860...66M
+  rhalf: 2.13
+  rhalf_em: 0.35
+  rhalf_ep: 0.42
+  ellipticity: 0.30
+  ellipticity_em: 0.09
+  ellipticity_ep: 0.09
+  position_angle: -9
+  position_angle_em: 9
+  position_angle_ep: 8
+  spatial_units: arcmin
+  spatial_model: plummer
+  ref_structure: Richstein2024ApJ...967...72R
 structure_sersic:
   n_sersic: 1.2
   n_sersic_em: 0.46

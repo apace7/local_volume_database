@@ -1,8 +1,9 @@
 key: fornax_1
 table: dwarf_mw
 location:
-  dec: -34.4997
-  ra: 39.9583
+  ra: 39.9708333
+  dec: -34.5069444
+  ref_location: Wang2019ApJ...881..118W
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

@@ -3,6 +3,11 @@ table: dwarf_mw
 location:
   ra: 153.268
   dec: -1.620
+  ra_em: 0.006
+  ra_ep: 0.006
+  dec_em: 0.006
+  dec_ep: 0.006
+  ref_location: Cicuendez2018A&A...609A..53C
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

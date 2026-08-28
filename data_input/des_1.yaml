@@ -1,8 +1,13 @@
 key: des_1
 table: gc_ambiguous
 location:
-  dec: -49.03861
-  ra: 8.49917
+  ra: 8.4991667
+  dec: -49.0386111
+  ra_em: 0.0016667
+  ra_ep: 0.0016667
+  dec_em: 0.0013889
+  dec_ep: 0.0013889
+  ref_location: Conn2018ApJ...852...68C
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 0

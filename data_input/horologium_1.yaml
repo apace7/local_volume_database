@@ -3,6 +3,7 @@ table: dwarf_mw
 location:
   ra: 43.8755
   dec: -54.1174
+  ref_location: Richstein2024ApJ...967...72R
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

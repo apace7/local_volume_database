@@ -3,6 +3,7 @@ table: dwarf_mw
 location:
   ra: 202.0091
   dec: 33.5521
+  ref_location: Munoz2018ApJ...860...66M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

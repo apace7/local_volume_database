@@ -3,6 +3,7 @@ table: dwarf_m31
 location:
   ra: 22.162208333333332
   dec: 30.984333333333336
+  ref_location: Ogami2024arXiv240707481O
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 0

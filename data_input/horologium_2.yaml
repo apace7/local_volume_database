@@ -1,8 +1,9 @@
 key: horologium_2
 table: dwarf_mw
 location:
-  ra: 49.131
-  dec: -50.009
+  ra: 49.1315
+  dec: -50.0088
+  ref_location: Richstein2024ApJ...967...72R
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1

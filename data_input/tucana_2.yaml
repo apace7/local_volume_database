@@ -3,6 +3,7 @@ table: dwarf_mw
 location:
   ra: 342.9796
   dec: -58.5689
+  ref_location: Koposov2015ApJ...805..130K
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

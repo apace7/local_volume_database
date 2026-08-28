@@ -1,8 +1,9 @@
 key: grus_1
 table: dwarf_mw
 location:
-  dec: -50.168
   ra: 344.166
+  dec: -50.168
+  ref_location: Cantu2021ApJ...916...81C
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1

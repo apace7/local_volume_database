@@ -3,6 +3,7 @@ table: gc_dwarf_hosted
 location:
   ra: 132.8719
   dec: 63.1344
+  ref_location: Eadie2022ApJ...926..162E
 name_discovery:
   confirmed_star_cluster: 0
   confirmed_real: 0
