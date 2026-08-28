@@ -5,6 +5,7 @@ key: to_1
 location:
   dec: -69.42255
   ra: 56.08255
+  ref_location: Torrealba2019MNRAS.484.2181T
 m_v:
   apparent_magnitude_v: 16.6
   ref_m_v: Torrealba2019MNRAS.484.2181T

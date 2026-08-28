@@ -3,6 +3,7 @@ table: dwarf_mw
 location:
   ra: 213.909
   dec: 32.914
+  ref_location: Cerny2023ApJ...953....1C
 name_discovery:
   confirmed_dwarf: 0
   confirmed_real: 1

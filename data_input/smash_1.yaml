@@ -5,6 +5,7 @@ key: smash_1
 location:
   dec: -80.3966
   ra: 95.2496
+  ref_location: Martin2016ApJ...830L..10M
 m_v:
   apparent_magnitude_v: 17.8
   apparent_magnitude_v_em: 0.9

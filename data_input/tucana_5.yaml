@@ -3,6 +3,11 @@ table: dwarf_mw
 location:
   ra: 354.347
   dec: -63.266
+  ra_em: 0.008
+  ra_ep: 0.008
+  dec_em: 0.004
+  dec_ep: 0.006
+  ref_location: Simon2020ApJ...892..137S
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
