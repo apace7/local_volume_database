@@ -131,11 +131,33 @@ def check_yaml_files():
                         if stream_yaml_keys_keys not in list(example_yaml_keys[stream_yaml_keys].keys()):
                             print("extra yaml key ",  stream_yaml['key'], stream_yaml_keys, stream_yaml_keys_keys)
 
+def check_infinite_values():
+    ## check that no +/-inf values leaked into the combined table (see issue #49).
+    ## these should be masked/empty instead -- typically caused by taking log10()
+    ## of a value derived from a masked (missing) input without checking the mask first.
+    ## this was written by Claude
+    print("checking for inf/-inf values")
+    n_bad_total = 0
+    for col in comb_all.colnames:
+        if comb_all[col].dtype.kind != 'f':
+            continue
+        vals = np.ma.filled(np.ma.masked_invalid(comb_all[col]), np.nan)
+        bad = np.isinf(vals)
+        n_bad = np.sum(bad)
+        if n_bad > 0:
+            n_bad_total += n_bad
+            print("inf/-inf found in column", col, ":", n_bad, "system(s)")
+            print(comb_all['key'][bad])
+    if n_bad_total == 0:
+        print("no inf/-inf values found")
+    else:
+        print("TOTAL inf/-inf values found:", n_bad_total)
 
 ra_dec_values()
 check_references()
 check_distance()
 check_keys()
 check_yaml_files()
+check_infinite_values()
 
 print("unit tests completed")

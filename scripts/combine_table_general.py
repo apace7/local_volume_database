@@ -19,6 +19,10 @@ import corner
 import local_volume_database as lvdb
 import warnings; warnings.filterwarnings('ignore')
 
+
+from importlib.metadata import version
+print(version('local_volume_database'))
+
 path = "data_input/"
 dir_list = os.listdir(path)
 dir_list = [i for i in dir_list if i!='readme.md']
