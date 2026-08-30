@@ -1,11 +1,16 @@
 key: andromeda_25-gc1
 table: gc_dwarf_hosted
 location:
-  ra: 7.54407917
-  dec: 46.85155
+  ra: 7.54361
+  dec: 46.85139
+  ra_em: 0.00017
+  ra_ep: 0.00017
+  dec_em: 0.00020
+  dec_ep: 0.00017
+  ref_location: Crociati2026arXiv260826959C
 name_discovery:
-  confirmed_star_cluster: 0
-  confirmed_real: 0
+  confirmed_star_cluster: 1
+  confirmed_real: 1
   discovery_year: 2016
   host: andromeda_25
   name: And XXV-GC1
@@ -14,16 +19,35 @@ name_discovery:
   ref_discovery:
   - Cusano2016ApJ...829...26C
 structure:
-  rhalf: 0.1
-  ref_structure: Cusano2016ApJ...829...26C
+  rhalf: 6.7
+  rhalf_em: 1.0
+  rhalf_ep: 1.3
+  spatial_units: arcsec
+  spatial_model: plummer
+  ellipticity: 0.17
+  ellipticity_em: 0.11
+  ellipticity_ep: 0.14
+  position_angle: 60
+  position_angle_em: 30
+  position_angle_ep: 60
+  ref_structure: Crociati2026arXiv260826959C
 distance:
-  distance_fixed_host: true
+  distance_modulus: 24.38
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.12
+  distance_measurement_method: cmd_indices
+  ref_distance: Crociati2026arXiv260826959C
 m_v:
-  apparent_magnitude_v: 20
-  ref_m_v: Cusano2016ApJ...829...26C
+  apparent_magnitude_v: 19.88
+  apparent_magnitude_v_em: 0.20
+  apparent_magnitude_v_ep: 0.20
+  mean_ebv: 0.169
+  ref_m_v: Crociati2026arXiv260826959C
 age:
-  age: 13.0
-  ref_age: Cusano2016ApJ...829...26C
+  age: 10.0
+  ref_age: Crociati2026arXiv260826959C
 metallicity_isochrone:
-  metallicity_isochrone: -1.6
-  ref_metallicity_isochrone: Cusano2016ApJ...829...26C
+  metallicity_isochrone: -2.4
+  metallicity_isochrone_em: 0.4
+  metallicity_isochrone_ep: 0.3
+  ref_metallicity_isochrone: Crociati2026arXiv260826959C
