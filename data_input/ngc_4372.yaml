@@ -1,3 +1,13 @@
+key: ngc_4372
+table: gc_harris
+location:
+  ra: 186.439101
+  dec: -72.659084
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  name: NGC 4372
+  host: mw  
 age:
   age: 12.54
   age_em: 0.9
@@ -8,23 +18,16 @@ distance:
   distance_modulus_em: 0.08
   distance_modulus_ep: 0.08
   ref_distance: Baumgardt2021MNRAS.505.5957B
-key: ngc_4372
-location:
-  dec: -72.659084
-  ra: 186.439101
 m_v:
   apparent_magnitude_v: 6.16
   apparent_magnitude_v_em: 0.05
   apparent_magnitude_v_ep: 0.05
   ref_m_v: Baumgardt2020PASA...37...46B
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.17
-  ref_metallicity_spectroscopic: Harris1996AJ....112.1487H
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  name: NGC 4372
-  host: mw
+  metallicity_spectroscopic: -2.22
+  metallicity_spectroscopic_em: 0.06
+  metallicity_spectroscopic_ep: 0.06
+  ref_metallicity_spectroscopic: Dias2016A&A...590A...9D
 proper_motion:
   pmra: -6.409
   pmra_em: 0.024
@@ -37,7 +40,6 @@ proper_motion:
 structure:
   ref_structure: Baumgardt2018MNRAS.478.1520B
   rhalf: 3.47
-table: gc_harris
 velocity:
   ref_vlos: Baumgardt2018MNRAS.478.1520B
   vlos_systemic: 75.59
