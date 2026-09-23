@@ -1,9 +1,13 @@
 key: draco_1
 table: dwarf_mw
 location:
-  ra: 260.0684
-  dec: 57.9185
-  ref_location: Munoz2018ApJ...860...66M
+  ra: 260.064917
+  dec: 57.9196
+  ra_em: 0.004708
+  ra_ep: 0.004917
+  dec_em: 0.000961
+  dec_ep: 0.000989
+  ref_location: Sato2026arXiv260916476S
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -49,16 +53,18 @@ proper_motion:
   pmra_pmdec_corr: 0.225
   ref_proper_motion: Pace2022ApJ...940..136P
 structure:
-  ellipticity: 0.29
-  ellipticity_em: 0.01
-  ellipticity_ep: 0.01
-  position_angle: 87.0
-  position_angle_em: 1.0
-  position_angle_ep: 1.0
-  ref_structure: Munoz2018ApJ...860...66M
-  rhalf: 9.67
+  rhalf: 10.84
   rhalf_em: 0.09
   rhalf_ep: 0.09
+  ellipticity: 0.266
+  ellipticity_em: 0.007
+  ellipticity_ep: 0.007
+  position_angle: 92.37
+  position_angle_em: 0.89
+  position_angle_ep: 0.89
+  spatial_units: arcmin
+  spatial_model: exponential
+  ref_structure: Sato2026arXiv260916476S
 structure_king:
   rcore: 6.62
   rcore_em: 0.15

@@ -17,11 +17,11 @@ notes:
 - For the isochrone metalliciity, [alpha/Fe]=0.2 is assumed with the [M/H]=-0.4 measurement  \citep{Garro2026arXiv260924811G}.
 structure:
   rhalf: 2.3
-  rcore_em: 0.11
-  rcore_ep: 0.11
+  rhalf_em: 0.11
+  rhalf_ep: 0.11
   spatial_model: king
   spatial_units: arcmin
-  ref_structure_king: Garro2026arXiv260924811G
+  ref_structure: Garro2026arXiv260924811G
 distance:
   distance_modulus: 15.02
   distance_modulus_em: 0.05
@@ -42,7 +42,7 @@ structure_king:
   rcore: 1.88
   rcore_em: 0.20
   rcore_ep: 0.20
-  rtidal: 10
+  rking: 10
   spatial_units: arcmin
   ref_structure_king: Garro2026arXiv260924811G
 velocity:
