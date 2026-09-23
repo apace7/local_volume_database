@@ -1,0 +1,70 @@
+key: garro_04
+table: gc_mw_new
+location:
+  ra: 203.047208
+  dec: -64.6535
+  ref_location: Garro2026arXiv260924811G
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2026
+  host: mw
+  name: Garro 04
+  ref_discovery:
+  - Garro2026arXiv260924811G
+  type: OC/GC
+notes:
+- For the isochrone metalliciity, [alpha/Fe]=0.2 is assumed with the [M/H]=-0.4 measurement  \citep{Garro2026arXiv260924811G}.
+structure:
+  rhalf: 2.3
+  rcore_em: 0.11
+  rcore_ep: 0.11
+  spatial_model: king
+  spatial_units: arcmin
+  ref_structure_king: Garro2026arXiv260924811G
+distance:
+  distance_modulus: 15.02
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Garro2026arXiv260924811G
+m_v:
+  apparent_magnitude_v: 9.97
+  ref_m_v: Garro2026arXiv260924811G
+proper_motion:
+  pmra: -7.08
+  pmra_em: 0.52
+  pmra_ep: 0.52
+  pmdec: -1.36
+  pmdec_em: 0.48
+  pmdec_ep: 0.48
+  ref_proper_motion: Garro2026arXiv260924811G
+structure_king:
+  rcore: 1.88
+  rcore_em: 0.20
+  rcore_ep: 0.20
+  rtidal: 10
+  spatial_units: arcmin
+  ref_structure_king: Garro2026arXiv260924811G
+velocity:
+  vlos_systemic: 28.3
+  vlos_systemic_em: 0.7
+  vlos_systemic_ep: 0.7
+  vlos_sigma: 2.69
+  vlos_sigma_em: 0.48
+  vlos_sigma_ep: 0.48
+  ref_vlos: Garro2026arXiv260924811G
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -0.52
+  metallicity_spectroscopic_em: 0.2
+  metallicity_spectroscopic_ep: 0.2
+  ref_metallicity_spectroscopic: Garro2026arXiv260924811G
+metallicity_isochrone:
+  metallicity_isochrone: -0.55
+  metallicity_isochrone_em: 0.2
+  metallicity_isochrone_ep: 0.2
+  ref_metallicity_isochrone: Garro2026arXiv260924811G
+age:
+  age: 5
+  age_em: 2
+  age_ep: 2
+  ref_age: Garro2026arXiv260924811G
