@@ -3,6 +3,7 @@ table: gc_mw_new
 location:
   ra: 289.17121
   dec: -27.82721
+  ref_location: Torrealba2019MNRAS.484.2181T
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -14,6 +15,7 @@ name_discovery:
   ref_discovery:
   - Torrealba2019MNRAS.484.2181T
   abbreviation: PS1-1
+  type: SC
 notes:
 - Very Likely Star Cluster \citep{Cerny2026arXiv260217652C}.
 distance:

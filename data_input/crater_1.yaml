@@ -3,6 +3,7 @@ table: gc_mw_new
 location:
   ra: 174.0668
   dec: -10.8772
+  ref_location: Weisz2016ApJ...822...32W
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1

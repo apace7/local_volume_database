@@ -2,7 +2,12 @@ key: segue_3
 table: gc_mw_new
 location:
   ra: 320.37925
-  dec: 19.1176944
+  dec: 19.11769
+  ra_em: 0.00050
+  ra_ep: 0.00050
+  dec_em: 0.00072
+  dec_ep: 0.00072
+  ref_location: Fadely2011AJ....142...88F
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1

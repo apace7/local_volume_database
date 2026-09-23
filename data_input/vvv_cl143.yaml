@@ -1,16 +1,18 @@
 key: vvv_cl143
 table: gc_mw_new
 location:
-  ra: 266.15
-  dec: -33.738
+  ra: 266.15000
+  dec: -33.73833
+  ref_location: Borissova2014A&A...569A..24B
 name_discovery:
-  confirmed_star_cluster: 0
-  confirmed_real: 0
+  confirmed_star_cluster: 1
+  confirmed_real: 1
   discovery_year: 2014
   host: mw
   name: VVV-CL143
   ref_discovery:
   - Borissova2014A&A...569A..24B
+  type: GC
 notes:
 - classify old open cluster or young globular cluster \citep{Borissova2014A&A...569A..24B}
 - classify as globular cluster \citep{Garro2022A&A...658A.120G}

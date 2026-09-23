@@ -1,16 +1,18 @@
 key: vvv_cl131
 table: gc_mw_new
 location:
-  ra: 265.321
-  dec: -34.567
+  ra: 265.32083
+  dec: -34.56722
+  ref_location: Borissova2014A&A...569A..24B
 name_discovery:
-  confirmed_star_cluster: 0
-  confirmed_real: 0
+  confirmed_star_cluster: 1
+  confirmed_real: 1
   discovery_year: 2014
   host: mw
   name: VVV-CL131
   ref_discovery:
   - Borissova2014A&A...569A..24B
+  type: GC
 notes:
 - Note that the pmdec error in \citep{Garro2022A&A...658A.120G} is listed as 0.07
   which is likely a typo given the magnitude of the pmra error and the errors of other

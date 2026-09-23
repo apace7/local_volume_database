@@ -1,8 +1,9 @@
 key: ryu_879
 table: gc_mw_new
 location:
-  ra: 281.36738
+  ra: 281.36737
   dec: -5.19258
+  ref_location: Baumgardt2018MNRAS.478.1520B
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1

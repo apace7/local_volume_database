@@ -3,6 +3,7 @@ table: gc_mw_new
 location:
   ra: 244.28504
   dec: -44.59406
+  ref_location: Baumgardt2018MNRAS.478.1520B
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1

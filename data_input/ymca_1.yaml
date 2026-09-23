@@ -3,6 +3,7 @@ table: gc_mw_new
 location:
   ra: 110.8378
   dec: -64.8319
+  ref_location: Gatto2022ApJ...929L..21G
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -58,3 +59,4 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.22
   metallicity_spectroscopic_ep: 0.19
   metallicity_spectroscopic_sigma_ul: 0.83
+  ref_metallicity_spectroscopic: Cerny2026arXiv260217652C

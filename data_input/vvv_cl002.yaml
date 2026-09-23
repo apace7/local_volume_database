@@ -1,8 +1,9 @@
 key: vvv_cl002
 table: gc_mw_new
 location:
-  dec: -28.84508
   ra: 256.52625
+  dec: -28.84508
+  ref_location: MoniBidin2011A&A...535A..33M
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -13,6 +14,7 @@ name_discovery:
   - MoniBidin2011A&A...535A..33M
   other_name:
   - VVV GC002
+  type: GC
 distance:
   distance_modulus: 14.67
   distance_modulus_em: 0.16

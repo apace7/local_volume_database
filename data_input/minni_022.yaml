@@ -1,16 +1,22 @@
 key: minni_022
 table: gc_mw_new
 location:
-  ra: 267.214
-  dec: -33.061
+  ra: 267.2147
+  dec: -33.05083
+  ra_em: 0.00833
+  ra_ep: 0.00833
+  dec_em: 0.00833
+  dec_ep: 0.00833
+  ref_location: Minniti2018ApJ...866...12M
 name_discovery:
-  confirmed_star_cluster: 0
-  confirmed_real: 0
+  confirmed_star_cluster: 1
+  confirmed_real: 1
   discovery_year: 2017
   host: mw
   name: Minni 22
   ref_discovery:
   - Minniti2017ApJ...849L..24M
+  type: GC
 structure:
   rhalf: 1.1
   rhalf_em: 0.3

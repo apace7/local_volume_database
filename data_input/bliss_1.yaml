@@ -3,6 +3,11 @@ table: gc_mw_new
 location:
   ra: 177.51
   dec: -41.772
+  ra_em: 0.003
+  ra_ep: 0.003
+  dec_em: 0.002
+  dec_ep: 0.002
+  ref_location: Mau2019ApJ...875..154M
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1

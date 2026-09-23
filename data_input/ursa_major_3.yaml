@@ -3,6 +3,7 @@ table: gc_mw_new
 location:
   ra: 174.70745
   dec: 31.07833
+  ref_location: Smith2024ApJ...961...92S
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1

@@ -1,11 +1,12 @@
 key: riddle_15
 table: gc_mw_new
 location:
-  ra: 287.787
-  dec: 14.833
+  ra: 287.78708
+  dec: 14.83306
+  ref_location: Garro2022A&A...659A.155G
 name_discovery:
-  confirmed_star_cluster: 0
-  confirmed_real: 0
+  confirmed_star_cluster: 1
+  confirmed_real: 1
   discovery_year: 2005
   host: mw
   name: Riddle 15
@@ -14,6 +15,7 @@ name_discovery:
   ref_discovery:
   - Kronberger2006A&A...447..921K
   - Kharchenko2013A&A...558A..53K
+  type: GC
 notes:
 - open cluster candidate or a compact open cluster remnant candidate \citep{Bica2019AJ....157...12B}
 - classify as globular cluster \citep{Garro2022A&A...659A.155G}

@@ -1,8 +1,9 @@
 key: vvv_cl003
 table: gc_mw_new
 location:
-  ra: 264.728
-  dec: -29.907
+  ra: 264.72733
+  dec: -29.90703
+  ref_location: MoniBidin2011A&A...535A..33M
 name_discovery:
   confirmed_star_cluster: 0
   confirmed_real: 0
@@ -11,6 +12,7 @@ name_discovery:
   name: VVV-CL003
   ref_discovery:
   - MoniBidin2011A&A...535A..33M
+  type: OC?
 structure:
   rhalf: 0.6
   rhalf_em: 0.1

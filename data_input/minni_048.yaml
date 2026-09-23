@@ -1,8 +1,19 @@
 key: minni_048
 table: gc_mw_new
 location:
-  ra: 263.325
-  dec: -28.0
+  ra: 263.32500
+  dec: -28.00056
+  ref_location: Minniti2021A&A...652A.129M
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2017
+  host: mw
+  name: Minni 48
+  ref_discovery:
+  - Minniti2017RNAAS...1...54M
+  - Minniti2021A&A...652A.129M
+  type: GC
 age:
   age: 10.0
   age_em: 2.0
@@ -18,15 +29,6 @@ m_v:
   apparent_magnitude_v_em: 0.8
   apparent_magnitude_v_ep: 0.8
   ref_m_v: Minniti2021A&A...652A.129M
-name_discovery:
-  confirmed_real: 0
-  confirmed_star_cluster: 0
-  discovery_year: 2017
-  host: mw
-  name: Minni 48
-  ref_discovery:
-  - Minniti2017RNAAS...1...54M
-  - Minniti2021A&A...652A.129M
 proper_motion:
   pmdec: -6.0
   pmdec_em: 0.5

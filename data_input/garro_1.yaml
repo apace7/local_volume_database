@@ -3,6 +3,7 @@ table: gc_mw_new
 location:
   ra: 212.25
   dec: -65.62
+  ref_location: Garro2020A&A...642L..19G
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
