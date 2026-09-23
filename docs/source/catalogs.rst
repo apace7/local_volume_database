@@ -38,8 +38,10 @@ Current efforts are focused on verifying this completeness limit with other cata
 
 Here are some visualizations and interactive plots for the Local Group and Local Volume:
 
-* https://localvolumeexplorer.streamlit.app/
+* https://localvolumeexplorer.streamlit.app/ [made by Jiaxuan Li]
 
-* https://lvd-interactive.streamlit.app/
+* https://lvd-interactive.streamlit.app/ [made by Katya Gozman] -- interactive plotting tool for the LVDB.
 
 * A Revised Three-dimensional Visualization of the Local Group of Galaxies `Antonio Ciccolella 2025 Res. Notes AAS 9 307 <https://iopscience.iop.org/article/10.3847/2515-5172/ae1efc>`_. [`flickr <https://www.flickr.com/photos/203760891@N04/albums/72177720330064262/>`_, `zenodo <https://zenodo.org/records/17532709>`_]
+
+* https://jackwarfield.com/localvolume/local_volume_census.html [made by Jack Warfield] -- interactive tool for checking whether dwarf galaxies have existing space based imaging (HST, JWST, Euclid, Roman)
