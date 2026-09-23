@@ -1,11 +1,12 @@
 key: mercer_5
 table: gc_mw_new
 location:
-  ra: 275.82917
-  dec: -13.66722
+  ra: 275.83250
+  dec: -13.66861
+  ref_location: Longmore2011MNRAS.416..465L
 name_discovery:
-  confirmed_real: 0
-  confirmed_star_cluster: 0
+  confirmed_real: 1
+  confirmed_star_cluster: 1
   discovery_year: 2005
   host: mw
   name: Mercer 5
@@ -14,6 +15,7 @@ name_discovery:
   ref_discovery:
   - Mercer2005ApJ...635..560M
   - Longmore2011MNRAS.416..465L
+  type: GC
 distance:
   distance_modulus: 13.7
   ref_distance: Longmore2011MNRAS.416..465L
@@ -38,3 +40,8 @@ metallicity_spectroscopic:
 m_v:
   apparent_magnitude_v: 8.2
   ref_m_v: Longmore2011MNRAS.416..465L
+velocity:
+  ref_vlos: Baumgardt2018MNRAS.478.1520B
+  vlos_systemic: 185.50
+  vlos_systemic_em: 3.75
+  vlos_systemic_ep: 3.75

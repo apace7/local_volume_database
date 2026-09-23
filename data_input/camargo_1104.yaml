@@ -3,6 +3,7 @@ table: gc_mw_new
 location:
   ra: 271.309
   dec: -24.979
+  ref_location: Camargo2018ApJ...860L..27C
 name_discovery:
   confirmed_star_cluster: 0
   confirmed_real: 0

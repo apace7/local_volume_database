@@ -3,6 +3,7 @@ table: gc_mw_new
 location:
   ra: 266.861
   dec: -26.648
+  ref_location: Camargo2019MNRAS.484L..90C
 name_discovery:
   confirmed_star_cluster: 0
   confirmed_real: 0

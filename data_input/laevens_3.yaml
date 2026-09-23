@@ -3,6 +3,7 @@ table: gc_mw_new
 location:
   ra: 316.72938
   dec: 14.9844
+  ref_location: Longeard2019MNRAS.490.1498L
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1

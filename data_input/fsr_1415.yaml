@@ -1,11 +1,12 @@
 key: fsr_1415
 table: gc_other
 location:
-  ra: 130.0995833333333
-  dec: -44.72416666666667
+  ra: 130.09958
+  dec: -44.72417
+  ref_location: Saroon2024A&A...689A.115S
 name_discovery:
-  confirmed_star_cluster: 0
-  confirmed_real: 0
+  confirmed_star_cluster: 1
+  confirmed_real: 1
   discovery_year: 2006
   host: mw
   name: FSR 1415
@@ -16,9 +17,9 @@ name_discovery:
   - He2023ApJS..267...34H
   type: OC
 notes:
-- GC candidate He2023ApJS..267...34H
-- OC candidate Saroon2024A&A...689A.115S
-- velocity from 1 Gaia RVS star He2023ApJS..267...34H
+- GC candidate \citep{He2023ApJS..267...34H}.
+- OC candidate \citep{Saroon2024A&A...689A.115S}.
+- velocity from 1 Gaia RVS star \citep{He2023ApJS..267...34H}.
 - APB if velocity is correct this is a disk-like orbit and open cluster like
 structure:
   rhalf: 1.35

@@ -3,6 +3,7 @@ table: candidate
 location:
   ra: 263.143
   dec: -30.28
+  ref_location: Camargo2018ApJ...860L..27C
 name_discovery:
   confirmed_dwarf: 0
   confirmed_star_cluster: 0

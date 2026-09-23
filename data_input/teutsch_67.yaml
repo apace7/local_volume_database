@@ -3,9 +3,10 @@ table: gc_mw_new
 location:
   ra: 143.44167
   dec: -57.09972
+  ref_location: Saroon2024A&A...689A.115S
 name_discovery:
-  confirmed_star_cluster: 0
-  confirmed_real: 0
+  confirmed_star_cluster: 1
+  confirmed_real: 1
   discovery_year: 2005
   host: mw
   name: Teutsch 67

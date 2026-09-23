@@ -1,8 +1,9 @@
 key: kronberger_49
 table: gc_mw_new
 location:
-  ra: 272.6
-  dec: -23.34
+  ra: 272.59958
+  dec: -23.34028
+  ref_location: Garro2022A&A...658A.120G
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
@@ -13,6 +14,7 @@ name_discovery:
   - DSH J1810.3-2320
   ref_discovery:
   - Kronberger2006A&A...447..921K
+  type: GC
 notes:
 - classify as globular cluster \citep{Garro2022A&A...658A.120G}
 distance:

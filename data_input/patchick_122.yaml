@@ -1,19 +1,23 @@
-distance:
-  distance_modulus: 13.72
-  distance_modulus_em: 0.05
-  distance_modulus_ep: 0.05
-  ref_distance: Garro2022A&A...659A.155G
+
 key: patchick_122
+table: gc_mw_new
 location:
-  dec: -52.42806
   ra: 145.62792
+  dec: -52.42806
+  ref_location: Garro2022A&A...659A.155G
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
   host: mw
   name: Patchick 122
+  type: GC
 notes:
 - classify as globular cluster \citep{Garro2022A&A...659A.155G}
+distance:
+  distance_modulus: 13.72
+  distance_modulus_em: 0.05
+  distance_modulus_ep: 0.05
+  ref_distance: Garro2022A&A...659A.155G
 proper_motion:
   pmdec: 3.81
   pmdec_em: 0.12
@@ -22,7 +26,6 @@ proper_motion:
   pmra_em: 0.12
   pmra_ep: 0.12
   ref_proper_motion: Garro2022A&A...659A.155G
-table: gc_mw_new
 velocity:
   ref_vlos: Garro2023A&A...669A.136G
   vlos_systemic: 98.68

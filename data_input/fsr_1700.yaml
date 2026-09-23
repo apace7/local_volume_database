@@ -3,6 +3,7 @@ table: gc_mw_new
 location:
   ra: 234.71875
   dec: -59.2675
+  ref_location: Saroon2024A&A...689A.115S
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1

@@ -17,6 +17,7 @@ name_discovery:
   ref_discovery:
   - Koposov2007ApJ...669..337K
   abbreviation: Ko2
+  type: SC/dSph
 notes:
 - Metallicity from bright star \citep{Cerny2026arXiv260217652C}.
 - Favors star cluster classification \citep{Bellazzini2026arXiv260612517B}. 

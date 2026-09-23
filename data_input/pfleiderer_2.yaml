@@ -3,6 +3,7 @@ table: gc_mw_new
 location:
   ra: 269.6667
   dec: -5.075
+  ref_location: Pfleiderer1977stcl.symp...39P
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1

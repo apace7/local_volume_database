@@ -1,7 +1,18 @@
 key: gaia_02
+table: gc_mw_new
 location:
-  dec: 53.04
-  ra: 28.124
+  ra: 28.13750
+  dec: 53.04333
+  ref_location: Garro2022A&A...659A.155G
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2017
+  host: mw
+  name: Gaia 2
+  ref_discovery:
+  - Koposov2017MNRAS.470.2702K
+  type: GC
 age:
   age: 8.0
   age_em: 2.0
@@ -17,14 +28,6 @@ m_v:
   apparent_magnitude_v_em: 0.1
   apparent_magnitude_v_ep: 0.1
   ref_m_v: Koposov2017MNRAS.470.2702K
-name_discovery:
-  confirmed_real: 0
-  confirmed_star_cluster: 0
-  discovery_year: 2017
-  host: mw
-  name: Gaia 2
-  ref_discovery:
-  - Koposov2017MNRAS.470.2702K
 structure:
   ellipticity: 0.18
   ellipticity_em: 0.12
@@ -33,7 +36,14 @@ structure:
   rhalf: 1.9
   rhalf_em: 0.34
   rhalf_ep: 0.4
-table: gc_mw_new
+proper_motion:
+  pmra: -1.32
+  pmra_em: 0.33
+  pmra_ep: 0.33
+  pmdec: 1.21
+  pmdec_em: 0.33
+  pmdec_ep: 0.33
+  ref_proper_motion: Garro2023A&A...669A.136G
 velocity:
   ref_vlos: Garro2023A&A...669A.136G
   vlos_systemic: -54.36

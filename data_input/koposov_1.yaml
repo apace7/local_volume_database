@@ -3,6 +3,7 @@ table: gc_mw_new
 location:
   ra: 179.8253
   dec: 12.2615
+  ref_location: Munoz2018ApJ...860...66M
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -12,6 +13,7 @@ name_discovery:
   ref_discovery:
   - Koposov2007ApJ...669..337K
   abbreviation: Ko1
+  type: SC
 notes:
 - Very Likely Star Cluster \citep{Cerny2026arXiv260217652C}.
 distance:

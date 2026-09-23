@@ -12,6 +12,7 @@ name_discovery:
   name: Gaia 10
   ref_discovery:
   - Pace2023MNRAS.526.1075P
+  type: OC
 notes:
 - open cluster
 structure:

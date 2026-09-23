@@ -3,6 +3,7 @@ table: gc_mw_new
 location:
   ra: 269.651
   dec: -32.02
+  ref_location: Gran2022MNRAS.509.4962G
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -11,8 +12,10 @@ name_discovery:
   other_name:
   - MWSC2761
   - Gran 1
+  - ESO 456-29
   ref_discovery:
   - Gran2019A&A...628A..45G
+  type: GC
 distance:
   distance_modulus: 14.5
   ref_distance: Gran2022MNRAS.509.4962G

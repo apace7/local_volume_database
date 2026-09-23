@@ -1,19 +1,10 @@
-distance:
-  distance_modulus: 16.84
-  ref_distance: Gran2022MNRAS.509.4962G
+
 key: gran_4
+table: gc_mw_new
 location:
-  dec: -23.114
   ra: 278.113
-m_v:
-  apparent_magnitude_v: 10.39
-  ref_m_v: Gran2022MNRAS.509.4962G
-metallicity_spectroscopic:
-  metallicity_spectroscopic: -1.84
-  metallicity_spectroscopic_em: 0.02
-  metallicity_spectroscopic_ep: 0.02
-  metallicity_spectroscopic_sigma_ul: 0.1
-  ref_metallicity_spectroscopic: Pace2023MNRAS.526.1075P
+  dec: -23.114
+  ref_location: Gran2022MNRAS.509.4962G
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1
@@ -23,6 +14,18 @@ name_discovery:
   ref_discovery:
   - Gran2022MNRAS.509.4962G
   type: GC
+distance:
+  distance_modulus: 16.84
+  ref_distance: Gran2022MNRAS.509.4962G
+m_v:
+  apparent_magnitude_v: 10.39
+  ref_m_v: Gran2022MNRAS.509.4962G
+metallicity_spectroscopic:
+  metallicity_spectroscopic: -1.84
+  metallicity_spectroscopic_em: 0.02
+  metallicity_spectroscopic_ep: 0.02
+  metallicity_spectroscopic_sigma_ul: 0.1
+  ref_metallicity_spectroscopic: Pace2023MNRAS.526.1075P
 proper_motion:
   pmdec: -3.51
   pmdec_em: 0.01
@@ -41,7 +44,6 @@ structure_king:
   rcore_em: 0.4
   rcore_ep: 0.5
   ref_structure_king: Pace2023MNRAS.526.1075P
-table: gc_mw_new
 velocity:
   ref_vlos: Pace2023MNRAS.526.1075P
   vlos_sigma: 1.4

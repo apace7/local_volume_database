@@ -1,8 +1,13 @@
 key: kim_3
 table: gc_mw_new
 location:
-  ra: 200.688
-  dec: -30.6
+  ra: 200.68833
+  dec: -30.60100
+  ra_em: 0.00833
+  ra_ep: 0.00833
+  dec_em: 0.00056
+  dec_ep: 0.00056
+  ref_location: Kim2016ApJ...820..119K
 name_discovery:
   confirmed_real: 1
   confirmed_star_cluster: 1

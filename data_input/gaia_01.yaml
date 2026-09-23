@@ -1,8 +1,18 @@
 key: gaia_01
 table: gc_mw_new
 location:
-  dec: -16.75
   ra: 101.47
+  dec: -16.75
+  ref_location: Koposov2017MNRAS.470.2702K
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 1
+  discovery_year: 2017
+  host: mw
+  name: Gaia 1
+  ref_discovery:
+  - Koposov2017MNRAS.470.2702K
+  type: OC/GC
 age:
   age: 3.5
   ref_age: Simpson2017MNRAS.471.4087S
@@ -19,14 +29,6 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_em: 0.13
   metallicity_spectroscopic_ep: 0.13
   ref_metallicity_spectroscopic: Simpson2017MNRAS.471.4087S
-name_discovery:
-  confirmed_real: 1
-  confirmed_star_cluster: 1
-  discovery_year: 2017
-  host: mw
-  name: Gaia 1
-  ref_discovery:
-  - Koposov2017MNRAS.470.2702K
 structure:
   ref_structure: Koposov2017MNRAS.470.2702K
   rhalf: 6.5
