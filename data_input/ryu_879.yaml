@@ -15,6 +15,7 @@ name_discovery:
   ref_discovery:
   - Ryu2018ApJ...856..152R
   - Ryu2018ApJ...863L..38R  
+  type: GC
 distance:
   distance_modulus: 16.0
   distance_modulus_em: 0.3
