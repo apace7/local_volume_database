@@ -7,7 +7,7 @@ location:
   ra_ep: 0.00017
   dec_em: 0.00020
   dec_ep: 0.00017
-  ref_location: Crociati2026arXiv260826959C
+  ref_location: Crociati2026MNRAS.551g1649C
 name_discovery:
   confirmed_star_cluster: 1
   confirmed_real: 1
@@ -30,24 +30,24 @@ structure:
   position_angle: 60
   position_angle_em: 30
   position_angle_ep: 60
-  ref_structure: Crociati2026arXiv260826959C
+  ref_structure: Crociati2026MNRAS.551g1649C
 distance:
   distance_modulus: 24.38
   distance_modulus_em: 0.07
   distance_modulus_ep: 0.12
   distance_measurement_method: cmd_indices
-  ref_distance: Crociati2026arXiv260826959C
+  ref_distance: Crociati2026MNRAS.551g1649C
 m_v:
   apparent_magnitude_v: 19.88
   apparent_magnitude_v_em: 0.20
   apparent_magnitude_v_ep: 0.20
   mean_ebv: 0.169
-  ref_m_v: Crociati2026arXiv260826959C
+  ref_m_v: Crociati2026MNRAS.551g1649C
 age:
   age: 10.0
-  ref_age: Crociati2026arXiv260826959C
+  ref_age: Crociati2026MNRAS.551g1649C
 metallicity_isochrone:
   metallicity_isochrone: -2.4
   metallicity_isochrone_em: 0.4
   metallicity_isochrone_ep: 0.3
-  ref_metallicity_isochrone: Crociati2026arXiv260826959C
+  ref_metallicity_isochrone: Crociati2026MNRAS.551g1649C

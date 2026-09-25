@@ -13,7 +13,9 @@ name_discovery:
   confirmed_real: 1
   discovery_year: 1938
   host: fornax_1
-  name: Fornax-GC6
+  name: Fornax 6
+  other_name:
+  - Fornax-GC6
   ref_discovery:
   - Shapley1938BHarO.908....1S
   - Wang2019ApJ...875L..13W
