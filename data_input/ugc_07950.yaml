@@ -18,6 +18,8 @@ structure:
   rhalf: 19.6
   rhalf_em: 0.9
   rhalf_ep: 0.9
+  spatial_units: arcsec
+  spatial_model: sersic
   ref_structure: Li2026ApJ..1002...75L
 distance:
   distance_modulus: 29.24
