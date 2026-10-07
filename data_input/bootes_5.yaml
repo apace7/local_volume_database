@@ -3,9 +3,13 @@ table: dwarf_mw
 location:
   ra: 213.909
   dec: 32.914
+  ra_em: 0.001
+  ra_ep: 0.001
+  dec_em: 0.001
+  dec_ep: 0.001
   ref_location: Cerny2023ApJ...953....1C
 name_discovery:
-  confirmed_dwarf: 0
+  confirmed_dwarf: 1
   confirmed_real: 1
   discovery_year: 2022
   host: mw
@@ -16,7 +20,7 @@ name_discovery:
   - Smith2023AJ....166...76S
   - Cerny2023ApJ...953....1C
   abbreviation: BooV
-  type: dSph/SC
+  type: dSph
 distance:
   distance_modulus: 20.04
   distance_modulus_em: 0.15
@@ -29,19 +33,22 @@ m_v:
   mean_ebv: 0.013
   ref_m_v: Cerny2023ApJ...953....1C
 metallicity_spectroscopic:
-  metallicity_spectroscopic: -2.85
-  metallicity_spectroscopic_em: 0.1
-  metallicity_spectroscopic_ep: 0.1
-  ref_metallicity_spectroscopic: Smith2023AJ....166...76S
+  metallicity_spectroscopic: -2.51
+  metallicity_spectroscopic_em: 0.17
+  metallicity_spectroscopic_ep: 0.17
+  metallicity_spectroscopic_sigma: 0.46
+  metallicity_spectroscopic_sigma_em: 0.12
+  metallicity_spectroscopic_sigma_ep: 0.18
+  ref_metallicity_spectroscopic: Cerny2026arXiv261007182C
 proper_motion:
-  pmdec: -0.28
+  pmra: -0.23
+  pmra_em: 0.04
+  pmra_ep: 0.04
+  pmdec: -0.29
   pmdec_em: 0.07
   pmdec_ep: 0.07
-  pmra: -0.22
-  pmra_em: 0.05
-  pmra_ep: 0.05
-  pmra_pmdec_corr: 0.15
-  ref_proper_motion: Cerny2023ApJ...953....1C
+  pmra_pmdec_corr: 0.17
+  ref_proper_motion: Cerny2026arXiv261007182C
 structure:
   ellipticity: 0.2
   ellipticity_em: 0.1
@@ -56,10 +63,11 @@ structure:
   spatial_model: plummer
   spatial_units: arcmin
 velocity:
-  ref_vlos: Smith2023AJ....166...76S
-  vlos_systemic: 5.1
-  vlos_systemic_em: 13.4
-  vlos_systemic_ep: 13.4
+  vlos_systemic: -9.7
+  vlos_systemic_em: 0.7
+  vlos_systemic_ep: 0.7
+  vlos_sigma_ul: 2.7
+  ref_vlos: Cerny2026arXiv261007182C
 metallicity_isochrone:
   metallicity_isochrone: -2.2
   ref_metallicity_isochrone: Cerny2023ApJ...953....1C
