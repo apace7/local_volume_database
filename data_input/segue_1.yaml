@@ -88,3 +88,14 @@ metallicity_photometric:
   metallicity_photometric_sigma_em: 0.21
   metallicity_photometric_sigma_ep: 0.26
   ref_metallicity_photometric: Fu2023ApJ...958..167F
+star_formation_history:
+  tau_50: 13.18
+  tau_50_em: 1.56
+  tau_50_ep: 0.04
+  tau_80: 13.08
+  tau_80_em: 4.36
+  tau_80_ep: 0.01
+  tau_90: 13.05
+  tau_90_em: 5.69
+  tau_90_ep: 0.00
+  ref_star_formation_history: Durbin2025ApJ...992..106D

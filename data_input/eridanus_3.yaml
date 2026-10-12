@@ -103,3 +103,14 @@ metallicity_isochrone:
   metallicity_isochrone_em: 0.12
   metallicity_isochrone_ep: 0.19
   ref_metallicity_isochrone: Conn2018ApJ...852...68C
+star_formation_history:
+  tau_50: 13.41
+  tau_50_em: 1.01
+  tau_50_ep: 0.00
+  tau_80: 11.75
+  tau_80_em: 1.78
+  tau_80_ep: 0.05
+  tau_90: 11.66
+  tau_90_em: 4.19
+  tau_90_ep: 0.02
+  ref_star_formation_history: Durbin2025ApJ...992..106D

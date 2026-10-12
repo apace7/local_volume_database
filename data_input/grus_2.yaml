@@ -68,3 +68,14 @@ velocity:
   vlos_systemic: -110.0
   vlos_systemic_em: 0.5
   vlos_systemic_ep: 0.5
+star_formation_history:
+  tau_50: 13.47
+  tau_50_em: 1.58
+  tau_50_ep: 0.00
+  tau_80: 13.37
+  tau_80_em: 4.66
+  tau_80_ep: 0.00
+  tau_90: 9.87
+  tau_90_em: 2.55
+  tau_90_ep: 0.00
+  ref_star_formation_history: Durbin2025ApJ...992..106D

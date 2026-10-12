@@ -90,3 +90,14 @@ velocity:
   vlos_sigma_em: 0.96
   vlos_sigma_ep: 1.25
   ref_vlos: Geha2026ApJ...999..140G
+star_formation_history:
+  tau_50: 13.15
+  tau_50_em: 0.44
+  tau_50_ep: 0.23
+  tau_80: 11.21
+  tau_80_em: 0.04
+  tau_80_ep: 0.63
+  tau_90: 11.15
+  tau_90_em: 0.07
+  tau_90_ep: 0.23
+  ref_star_formation_history: Durbin2025ApJ...992..106D

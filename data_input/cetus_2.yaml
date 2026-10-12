@@ -44,3 +44,14 @@ structure:
   rhalf: 1.9
   rhalf_em: 0.5
   rhalf_ep: 1.0
+star_formation_history:
+  tau_50: 13.45
+  tau_50_em: 2.96
+  tau_50_ep: 0.00
+  tau_80: 12.13
+  tau_80_em: 4.66
+  tau_80_ep: 0.02
+  tau_90: 6.22
+  tau_90_em: 0.00
+  tau_90_ep: 1.77
+  ref_star_formation_history: Durbin2025ApJ...992..106D
