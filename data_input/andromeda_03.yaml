@@ -14,6 +14,8 @@ name_discovery:
   other_name:
   - KK 5
   type: dSph
+notes:
+  - Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 24.29
   distance_modulus_em: 0.05
@@ -68,3 +70,14 @@ proper_motion:
   pmdec_em: 0.0125
   pmdec_ep: 0.0125
   ref_proper_motion: CasettiDinescu2024ApJ...975..138C
+star_formation_history:
+  tau_50: 11.9
+  tau_50_em: 1.4
+  tau_50_ep: 0.7
+  tau_80: 10.7
+  tau_80_em: 1.2
+  tau_80_ep: 0.7
+  tau_90: 10.1
+  tau_90_em: 1.2
+  tau_90_ep: 1.1
+  ref_star_formation_history: Savino2025ApJ...979..205S

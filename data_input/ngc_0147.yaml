@@ -22,6 +22,7 @@ name_discovery:
 notes:
 - Binary w/ NGC 185? Tidal stream \citep{McConnachie2012AJ....144....4M}
 - part of local group \citep{Baade1944ApJ...100..147B}
+- Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 24.33
   distance_modulus_em: 0.06
@@ -76,3 +77,14 @@ velocity:
   vlos_systemic: -193.1
   vlos_systemic_em: 0.8
   vlos_systemic_ep: 0.8
+star_formation_history:
+  tau_50: 7.1
+  tau_50_em: 0.8
+  tau_50_ep: 5.5
+  tau_80: 6.0
+  tau_80_em: 0.4
+  tau_80_ep: 1.2
+  tau_90: 5.7
+  tau_90_em: 0.4
+  tau_90_ep: 0.9
+  ref_star_formation_history: Savino2025ApJ...979..205S

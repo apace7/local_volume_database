@@ -16,6 +16,7 @@ name_discovery:
   type: dSph
 notes:
 - In Pisces \citep{McConnachie2012AJ....144....4M}
+- Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 24.57
   distance_modulus_em: 0.07
@@ -48,3 +49,14 @@ velocity:
   vlos_systemic: -185.4
   vlos_systemic_em: 2.4
   vlos_systemic_ep: 2.4
+star_formation_history:
+  tau_50: 10.5
+  tau_50_em: 1.3
+  tau_50_ep: 0.7
+  tau_80: 10.1
+  tau_80_em: 3.5
+  tau_80_ep: 1.2
+  tau_90: 5.8
+  tau_90_em: 1.0
+  tau_90_ep: 2.7
+  ref_star_formation_history: Savino2025ApJ...979..205S

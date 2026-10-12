@@ -12,6 +12,8 @@ name_discovery:
   ref_discovery:
   - Richardson2011ApJ...732...76R
   type: dSph  
+notes:
+  - Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 24.36
   distance_modulus_em: 0.07
@@ -44,3 +46,14 @@ velocity:
   vlos_systemic: -237.7
   vlos_systemic_em: 1.4
   vlos_systemic_ep: 1.4
+star_formation_history:
+  tau_50: 9.2
+  tau_50_em: 0.4
+  tau_50_ep: 1.4
+  tau_80: 8.1
+  tau_80_em: 0.8
+  tau_80_ep: 0.9
+  tau_90: 6.6
+  tau_90_em: 0.3
+  tau_90_ep: 1.7
+  ref_star_formation_history: Savino2025ApJ...979..205S
