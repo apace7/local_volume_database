@@ -47,3 +47,7 @@ metallicity_isochrone:
   metallicity_isochrone_em: 0.1
   metallicity_isochrone_ep: 0.1
   ref_metallicity_isochrone: McQuinn2023ApJ...944...14M
+flux_HI:
+  flux_HI_ul: 0.044
+  ref_flux_HI: Jones2026ApJ...998..142J
+  

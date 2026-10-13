@@ -1,8 +1,13 @@
 key: pisces_7
 table: dwarf_m31
 location:
-  ra: 20.419
-  dec: 26.391
+  ra: 20.4225
+  dec: 26.393611
+  ra_em: 0.000667
+  ra_ep: 0.000667
+  dec_em: 0.000583
+  dec_ep: 0.000583
+  ref_location: Jones2026ApJ...998..142J
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -19,21 +24,31 @@ notes:
 - potential M33 satellite based on projected distance \citep{MartinezDelgado2022MNRAS.509...16M}
 - improved projected distance ($\sim93$ kpc) suggests Pisces VII is M33 satellite \citep{Collins2024MNRAS.528.2614C}
 distance:
-  distance_modulus: 24.8
-  distance_modulus_em: 0.2
-  distance_modulus_ep: 0.2
-  ref_distance: Collins2024MNRAS.528.2614C
+  distance_modulus: 24.84
+  distance_modulus_em: 0.11
+  distance_modulus_ep: 0.11
+  ref_distance: Jones2026ApJ...998..142J
 m_v:
-  apparent_magnitude_v: 18.8
-  apparent_magnitude_v_em: 0.3
-  apparent_magnitude_v_ep: 0.3
-  ref_m_v: Collins2024MNRAS.528.2614C
+  apparent_magnitude_v: 18.74
+  apparent_magnitude_v_em: 0.2
+  apparent_magnitude_v_ep: 0.2
+  ref_m_v: Jones2026ApJ...998..142J
 structure:
-  ellipticity_ul: 0.1
-  position_angle: 96.0
-  position_angle_em: 36.0
-  position_angle_ep: 32.0
-  ref_structure: Collins2024MNRAS.528.2614C
-  rhalf: 0.67
-  rhalf_em: 0.1
-  rhalf_ep: 0.2
+  rhalf: 0.39
+  rhalf_em: 0.05
+  rhalf_ep: 0.05
+  ellipticity: 0.48
+  ellipticity_em: 0.07
+  ellipticity_ep: 0.07
+  position_angle: 55.2
+  position_angle_em: 6.1
+  position_angle_ep: 6.1
+  spatial_model: exponential
+  spatial_units: arcmin
+  ref_structure: Jones2026ApJ...998..142J
+star_formation_history:
+  tau_90: 10
+  ref_star_formation_history: Jones2026ApJ...998..142J
+flux_HI:
+  flux_HI_ul: 0.039
+  ref_flux_HI: Jones2026ApJ...998..142J

@@ -1,9 +1,13 @@
 key: pegasus_5
 table: dwarf_m31
 location:
-  ra: 349.6158333
-  dec: 33.35888889
-  ref_location: Collins2022MNRAS.515L..72C
+  ra: 349.615833
+  dec: 33.359083
+  ra_em: 0.000528
+  ra_ep: 0.000528
+  dec_em: 0.000528
+  dec_ep: 0.000528
+  ref_location: Jones2026ApJ...998..142J
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -16,25 +20,26 @@ name_discovery:
   - Collins2022MNRAS.515L..72C
   type: dSph
 distance:
-  distance_modulus: 24.2
-  distance_modulus_em: 0.1
-  distance_modulus_ep: 0.095
-  ref_distance: Collins2022MNRAS.515L..72C
+  distance_modulus: 24.39
+  distance_modulus_em: 0.15
+  distance_modulus_ep: 0.15
+  ref_distance: Jones2026ApJ...998..142J
 m_v:
-  apparent_magnitude_v: 17.9
-  apparent_magnitude_v_em: 0.2
-  apparent_magnitude_v_ep: 0.2
-  ref_m_v: Collins2022MNRAS.515L..72C
+  apparent_magnitude_v: 19.09
+  apparent_magnitude_v_em: 0.4
+  apparent_magnitude_v_ep: 0.4
+  ref_m_v: Jones2026ApJ...998..142J
 structure:
-  ellipticity: 0.01
-  ellipticity_em: 0.01
-  ellipticity_ep: 0.01
-  position_angle: 96.0
-  position_angle_em: 57.0
-  position_angle_ep: 47.0
-  ref_structure: Collins2022MNRAS.515L..72C
-  rhalf: 0.4
-  rhalf_em: 0.1
-  rhalf_ep: 0.2
-  spatial_model: plummer
+  rhalf: 0.23
+  rhalf_em: 0.05
+  rhalf_ep: 0.05
+  ellipticity_ul: 0.22
+  spatial_model: exponential
   spatial_units: arcmin
+  ref_structure: Jones2026ApJ...998..142J
+flux_HI:
+  flux_HI_ul: 0.047
+  ref_flux_HI: Jones2026ApJ...998..142J
+star_formation_history:
+  tau_90: 10
+  ref_star_formation_history: Jones2026ApJ...998..142J
