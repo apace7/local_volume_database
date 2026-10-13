@@ -15,6 +15,8 @@ name_discovery:
   - Holmberg1958_hand
   type: dIrr/dSph
   abbreviation: PegdIrr
+notes:
+  - Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 24.74
   distance_modulus_em: 0.05
@@ -74,3 +76,14 @@ velocity:
   vlos_rotation: 10.0
   vlos_rotation_em: 0.3
   vlos_rotation_ep: 0.3
+star_formation_history:
+  tau_50: 7.5
+  tau_50_em: 0.4
+  tau_50_ep: 2.0
+  tau_80: 4.6
+  tau_80_em: 0.2
+  tau_80_ep: 1.8
+  tau_90: 3.2
+  tau_90_em: 0.1
+  tau_90_ep: 1.2
+  ref_star_formation_history: Savino2025ApJ...979..205S

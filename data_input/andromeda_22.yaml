@@ -18,6 +18,7 @@ name_discovery:
 notes:
 - M33 Satellite? In Pisces \citep{McConnachie2012AJ....144....4M}
 - radial velocity suggests M33 association \citep{Chapman2013MNRAS.430...37C}
+- Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 24.39
   distance_modulus_em: 0.07
@@ -50,3 +51,14 @@ velocity:
   vlos_systemic: -129.8
   vlos_systemic_em: 2.0
   vlos_systemic_ep: 2.0
+star_formation_history:
+  tau_50: 13.0
+  tau_50_em: 2.4
+  tau_50_ep: 1.1
+  tau_80: 10.7
+  tau_80_em: 1.7
+  tau_80_ep: 2.1
+  tau_90: 4.4
+  tau_90_em: 0.4
+  tau_90_ep: 8.2
+  ref_star_formation_history: Savino2025ApJ...979..205S

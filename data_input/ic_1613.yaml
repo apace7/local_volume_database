@@ -16,6 +16,8 @@ name_discovery:
   - Wolf1906MNRAS..67...91W
   type: dIrr
   abbreviation: IC1613
+notes:
+  - Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 24.32
   distance_modulus_em: 0.05
@@ -73,3 +75,14 @@ velocity:
   vlos_systemic: -231.6
   vlos_systemic_em: 1.2
   vlos_systemic_ep: 1.2
+star_formation_history:
+  tau_50: 8.4
+  tau_50_em: 0.8
+  tau_50_ep: 0.5
+  tau_80: 4.5
+  tau_80_em: 0.5
+  tau_80_ep: 0.5
+  tau_90: 2.1
+  tau_90_em: 0.3
+  tau_90_ep: 0.6
+  ref_star_formation_history: Savino2025ApJ...979..205S

@@ -24,6 +24,8 @@ name_discovery:
   ref_discovery:
   - Richardson2011ApJ...732...76R
   type: dSph
+notes:
+  - Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 structure:
   ellipticity: 0.1
   ellipticity_em: 0.1
@@ -42,3 +44,14 @@ velocity:
   vlos_systemic: -128.2
   vlos_systemic_em: 5.2
   vlos_systemic_ep: 5.2
+star_formation_history:
+  tau_50: 12.3
+  tau_50_em: 2.8
+  tau_50_ep: 0.6
+  tau_80: 8.4
+  tau_80_em: 0.8
+  tau_80_ep: 2.9
+  tau_90: 7.6
+  tau_90_em: 1.5
+  tau_90_ep: 1.4
+  ref_star_formation_history: Savino2025ApJ...979..205S

@@ -16,6 +16,8 @@ name_discovery:
   - Karachentseva1976SoSAO..18...42K
   - Kowal1978IAUC.3305....2K
   type: dIrr/dSph
+notes:
+  - Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 23.91
   distance_modulus_em: 0.05
@@ -54,3 +56,14 @@ proper_motion:
   pmdec_em: 0.0099
   pmdec_ep: 0.0099
   ref_proper_motion: Bennet2025ApJ...993..228B
+star_formation_history:
+  tau_50: 10.8
+  tau_50_em: 1.0
+  tau_50_ep: 0.5
+  tau_80: 7.4
+  tau_80_em: 1.1
+  tau_80_ep: 0.9
+  tau_90: 4.7
+  tau_90_em: 0.6
+  tau_90_ep: 0.7
+  ref_star_formation_history: Savino2025ApJ...979..205S

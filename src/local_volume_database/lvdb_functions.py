@@ -82,11 +82,12 @@ def add_column(table, yaml_key, yaml_name, **kwargs):
     table_yaml_name = kwargs.get('table_yaml_name', yaml_name)
     col_type = kwargs.get('col_type', float)
     unit = kwargs.get('unit', '')
+    lvdb_path_input = kwargs.get('lvdb_path', lvdb_path)
     table[table_yaml_name] = np.ma.masked_all(len(table), dtype=col_type)
     if unit !='':
         table[table_yaml_name].unit = unit
     #np.zeros(len(table), dtype=col_type)
-    path = kwargs.get('path', lvdb_path + '/data_input/')
+    path = kwargs.get('path', lvdb_path_input + '/data_input/')
     for i in range(len(table)):
         k = table['key'][i]
         with open(path+ k +'.yaml', 'r') as stream:

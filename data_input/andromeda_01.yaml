@@ -14,6 +14,8 @@ name_discovery:
   ref_discovery:
   - vandenBergh1972ApJ...171L..31V
   type: dSph
+notes:
+  - Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 24.45
   distance_modulus_em: 0.05
@@ -60,3 +62,14 @@ velocity:
   vlos_systemic: -376.3
   vlos_systemic_em: 2.2
   vlos_systemic_ep: 2.2
+star_formation_history:
+  tau_50: 12.7
+  tau_50_em: 2.6
+  tau_50_ep: 1.5
+  tau_80: 9.2
+  tau_80_em: 0.3
+  tau_80_ep: 1.3
+  tau_90: 9.0
+  tau_90_em: 0.9
+  tau_90_ep: 1.0
+  ref_star_formation_history: Savino2025ApJ...979..205S

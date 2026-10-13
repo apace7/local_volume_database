@@ -13,6 +13,8 @@ name_discovery:
   - NGC 221
   - PGC002555
   type: cE
+notes:
+  - Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 24.44
   distance_modulus_em: 0.06
@@ -45,3 +47,14 @@ velocity:
   vlos_systemic: -199.0
   vlos_systemic_em: 6.0
   vlos_systemic_ep: 6.0
+star_formation_history:
+  tau_50: 13.1
+  tau_50_em: 0.5
+  tau_50_ep: 1.1
+  tau_80: 7.4
+  tau_80_em: 1.0
+  tau_80_ep: 0.6
+  tau_90: 3.1
+  tau_90_em: 0.3
+  tau_90_ep: 1.5
+  ref_star_formation_history: Savino2025ApJ...979..205S

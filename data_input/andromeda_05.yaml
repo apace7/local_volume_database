@@ -12,6 +12,8 @@ name_discovery:
   ref_discovery:
   - Armandroff1998AJ....116.2287A
   type: dSph
+notes:
+  - Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 24.4
   distance_modulus_em: 0.06
@@ -66,3 +68,14 @@ proper_motion:
   pmdec_em: 0.0191
   pmdec_ep: 0.0191
   ref_proper_motion: CasettiDinescu2025ApJ...992...54C
+star_formation_history:
+  tau_50: 13.1
+  tau_50_em: 2.0
+  tau_50_ep: 1.0
+  tau_80: 11.0
+  tau_80_em: 1.0
+  tau_80_ep: 1.6
+  tau_90: 9.5
+  tau_90_em: 1.2
+  tau_90_ep: 2.3
+  ref_star_formation_history: Savino2025ApJ...979..205S

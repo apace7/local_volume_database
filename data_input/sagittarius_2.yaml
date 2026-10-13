@@ -67,10 +67,13 @@ structure:
   position_angle_ep: 50
   ref_structure: Richstein2024ApJ...967...72R
 star_formation_history:
-  tau_50: 13.4
-  tau_50_em: 0.07
-  tau_50_ep: 0.07
-  tau_90: 12.68
-  tau_90_em: 0.28
-  tau_90_ep: 0.28
-  ref_star_formation_history: Sacchi2021ApJ...920L..19S
+  tau_50: 13.49
+  tau_50_em: 0.03
+  tau_50_ep: 0.00
+  tau_80: 13.39
+  tau_80_em: 0.04
+  tau_80_ep: 0.00
+  tau_90: 13.36
+  tau_90_em: 0.52
+  tau_90_ep: 0.00
+  ref_star_formation_history: Durbin2025ApJ...992..106D

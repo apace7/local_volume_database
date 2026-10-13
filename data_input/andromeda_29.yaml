@@ -14,6 +14,7 @@ name_discovery:
   type: dSph
 notes:
 - In Pegasus \citep{McConnachie2012AJ....144....4M}
+- Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 24.26
   distance_modulus_em: 0.06
@@ -54,3 +55,14 @@ velocity:
   vlos_systemic: -194.4
   vlos_systemic_em: 1.5
   vlos_systemic_ep: 1.5
+star_formation_history:
+  tau_50: 13.2
+  tau_50_em: 0.6
+  tau_50_ep: 0.9
+  tau_80: 12.7
+  tau_80_em: 1.1
+  tau_80_ep: 1.4
+  tau_90: 10.4
+  tau_90_em: 2.1
+  tau_90_ep: 2.3
+  ref_star_formation_history: Savino2025ApJ...979..205S

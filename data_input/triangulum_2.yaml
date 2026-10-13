@@ -84,10 +84,13 @@ velocity:
   vlos_systemic_em: 0.7
   vlos_systemic_ep: 0.7
 star_formation_history:
-  tau_50: 13.50
-  tau_50_em: 0.23
-  tau_50_ep: 0.23
-  tau_90: 12.91
-  tau_90_em: 0.53
-  tau_90_ep: 0.53
-  ref_star_formation_history: Sacchi2021ApJ...920L..19S
+  tau_50: 12.88
+  tau_50_em: 1.44
+  tau_50_ep: 0.03
+  tau_80: 12.77
+  tau_80_em: 4.36
+  tau_80_ep: 0.01
+  tau_90: 8.59
+  tau_90_em: 1.35
+  tau_90_ep: 0.02
+  ref_star_formation_history: Durbin2025ApJ...992..106D

@@ -15,6 +15,7 @@ name_discovery:
 notes:
 - No discovery reference/paper but the discovery is cited as M. J. Irwin (2012, in
   preparation)
+- Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 23.74
   distance_modulus_em: 0.06
@@ -47,3 +48,14 @@ velocity:
   vlos_systemic: -139.8
   vlos_systemic_em: 6.6
   vlos_systemic_ep: 36.0
+star_formation_history:
+  tau_50: 13.1
+  tau_50_em: 0.5
+  tau_50_ep: 1.1
+  tau_80: 9.6
+  tau_80_em: 0.7
+  tau_80_ep: 3.2
+  tau_90: 9.1
+  tau_90_em: 1.0
+  tau_90_ep: 3.6
+  ref_star_formation_history: Savino2025ApJ...979..205S

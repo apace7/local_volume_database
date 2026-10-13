@@ -77,10 +77,13 @@ structure_sersic:
   rad_sersic_ep: 0.32
   ref_structure_sersic: Munoz2018ApJ...860...66M
 star_formation_history:
-  tau_50: 13.21
-  tau_50_em: 0.32
-  tau_50_ep: 0.32
-  tau_90: 11.59
-  tau_90_em: 1.0
-  tau_90_ep: 1.0
-  ref_star_formation_history: Sacchi2021ApJ...920L..19S
+  tau_50: 13.48
+  tau_50_em: 0.44
+  tau_50_ep: 0.00
+  tau_80: 13.38
+  tau_80_em: 2.08
+  tau_80_ep: 0.00
+  tau_90: 13.34
+  tau_90_em: 3.67
+  tau_90_ep: 0.00
+  ref_star_formation_history: Durbin2025ApJ...992..106D

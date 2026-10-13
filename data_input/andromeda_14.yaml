@@ -16,6 +16,7 @@ name_discovery:
   type: dSph
 notes:
 - Unbound to M31? In Pisces \citep{McConnachie2012AJ....144....4M}
+- Star formation history uncertainties are the statistical and systematic uncertainties from \citet{Savino2025ApJ...979..205S}.
 distance:
   distance_modulus: 24.44
   distance_modulus_em: 0.06
@@ -53,3 +54,14 @@ velocity:
   vlos_systemic: -480.6
   vlos_systemic_em: 1.2
   vlos_systemic_ep: 1.2
+star_formation_history:
+  tau_50: 10.8
+  tau_50_em: 1.1
+  tau_50_ep: 0.4
+  tau_80: 10.1
+  tau_80_em: 1.7
+  tau_80_ep: 1.1
+  tau_90: 8.2
+  tau_90_em: 1.9
+  tau_90_ep: 1.8
+  ref_star_formation_history: Savino2025ApJ...979..205S
