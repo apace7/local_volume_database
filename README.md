@@ -49,7 +49,7 @@ The `LVDBDIR` environment variable is required to point to the location of the i
 
 ### ACKNOWLEDGEMENT:
 
-If you use this in your research please cite the overview paper and include a link to the github repository (https://github.com/apace7/local_volume_database). It is highly encouraged to cite the input references of the database if they are used in your work. An example acknowledgement in LaTeX (with BibTeX below): This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database}} \citep{Pace2025OJAp....8E.142P}. 
+If you use this in your research please cite the overview paper and include a link to the github repository (https://github.com/apace7/local_volume_database). It is highly encouraged to cite the release version used in your work and to cite any input references of the database used in your work. An example acknowledgement in LaTeX (with BibTeX below): This work has made use of the Local Volume Database\footnote{\url{https://github.com/apace7/local_volume_database}} \citep{Pace2025OJAp....8E.142P}. 
 
 The BibTeX of the citation is available below and on [ADS](https://ui.adsabs.harvard.edu/abs/2025OJAp....8E.142P/exportcitation):
 

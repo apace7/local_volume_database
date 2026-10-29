@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this database in your research, please cite the overview paper below and include a link to the GitHub repository. It is highly encouraged to include the release version."
+title: "The Local Volume Database: a library of the observed properties of nearby dwarf galaxies and star clusters"
+type: dataset
+authors:
+  - family-names: Pace
+    given-names: Andrew B.
+repository-code: "https://github.com/apace7/local_volume_database"
+license: CC0-1.0
+keywords:
+  - Astrophysics of Galaxies
+  - Dwarf galaxies
+  - Globular star clusters
+  - Astronomy databases
+  - Astronomy software
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Pace
+      given-names: Andrew B.
+  title: "The Local Volume Database: a library of the observed properties of nearby dwarf galaxies and star clusters"
+  journal: "The Open Journal of Astrophysics"
+  year: 2025
+  month: 9
+  volume: 8
+  start: 142
+  doi: "10.33232/001c.144859"
+  identifiers:
+    - type: doi
+      value: "10.33232/001c.144859"
+    - type: other
+      value: "arXiv:2411.07424"
+      description: "arXiv eprint (astro-ph.GA)"
+    - type: url
+      value: "https://ui.adsabs.harvard.edu/abs/2025OJAp....8E.142P"
+      description: "NASA ADS record"
+  keywords:
+    - Astrophysics of Galaxies
