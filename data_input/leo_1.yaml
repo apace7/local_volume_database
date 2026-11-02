@@ -18,6 +18,8 @@ name_discovery:
   - Harrington1950PASP...62..118H
   abbreviation: LeoI
   type: dSph
+notes:
+- Star formation history uncertainties are the total (random and systematic) uncertainties from \citet{Weisz2014ApJ...789..147W}.
 distance:
   distance_modulus: 22.06
   distance_modulus_em: 0.08
@@ -82,3 +84,14 @@ velocity:
   vlos_sigma_em: 0.26
   vlos_sigma_ep: 0.26
   ref_vlos: Geha2026ApJ...999..140G
+star_formation_history:
+  tau_50: 5.318
+  tau_50_em: 0.851
+  tau_50_ep: 1.482
+  tau_80: 2.044
+  tau_80_em: 0.049
+  tau_80_ep: 0.24
+  tau_90: 1.682
+  tau_90_em: 0.058
+  tau_90_ep: 0.205
+  ref_star_formation_history: Weisz2014ApJ...789..147W

@@ -12,6 +12,8 @@ name_discovery:
   - Irwin2007ApJ...656L..13I
   type: dIrr/dSph
   abbreviation: LeoT
+notes:
+- Star formation history uncertainties are the total (random and systematic) uncertainties from \citet{Weisz2014ApJ...789..147W}.
 distance:
   distance_modulus: 23.08
   distance_modulus_em: 0.08
@@ -68,3 +70,14 @@ velocity:
   vlos_sigma_em: 0.86
   vlos_sigma_ep: 1.07
   ref_vlos: Geha2026ApJ...999..140G
+star_formation_history:
+  tau_50: 7.534
+  tau_50_em: 0.368
+  tau_50_ep: 5.142
+  tau_80: 2.818
+  tau_80_em: 0.443
+  tau_80_ep: 1.163
+  tau_90: 1.585
+  tau_90_em: 0.115
+  tau_90_ep: 0.064
+  ref_star_formation_history: Weisz2014ApJ...789..147W

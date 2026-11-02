@@ -32,6 +32,8 @@ name_discovery:
   ref_discovery:
   - Swift1888AN....120...33S
   type: dIrr
+notes:
+- Star formation history uncertainties are the total (random and systematic) uncertainties from \citet{Weisz2014ApJ...789..147W}.
 structure:
   ellipticity: 0.19
   ellipticity_em: 0.02
@@ -51,3 +53,14 @@ proper_motion:
   pmdec_em: 0.008
   pmdec_ep: 0.008
   ref_proper_motion: Brunthaler2007A&A...462..101B
+star_formation_history:
+  tau_50: 4.03
+  tau_50_em: 0.867
+  tau_50_ep: 2.537
+  tau_80: 2.03
+  tau_80_em: 0.216
+  tau_80_ep: 2.002
+  tau_90: 1.617
+  tau_90_em: 0.205
+  tau_90_ep: 0.69
+  ref_star_formation_history: Weisz2014ApJ...789..147W

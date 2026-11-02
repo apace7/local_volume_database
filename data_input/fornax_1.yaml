@@ -18,6 +18,8 @@ name_discovery:
   - Shapley1938Natur.142..715S
   abbreviation: For
   type: dSph
+notes:
+- Star formation history uncertainties are the total (random and systematic) uncertainties from \citet{Weisz2014ApJ...789..147W}.
 distance:
   distance_modulus: 20.77
   distance_modulus_em: 0.048
@@ -75,3 +77,14 @@ velocity:
   vlos_systemic: 55.2
   vlos_systemic_em: 0.1
   vlos_systemic_ep: 0.1
+star_formation_history:
+  tau_50: 7.478
+  tau_50_em: 1.072
+  tau_50_ep: 1.004
+  tau_80: 3.105
+  tau_80_em: 0.218
+  tau_80_ep: 1.254
+  tau_90: 2.239
+  tau_90_em: 0.195
+  tau_90_ep: 0.924
+  ref_star_formation_history: Weisz2014ApJ...789..147W

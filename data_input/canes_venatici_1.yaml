@@ -14,6 +14,8 @@ name_discovery:
   - Zucker2006ApJ...643L.103Z
   abbreviation: CVnI
   type: dSph
+notes:
+- Star formation history uncertainties are the total (random and systematic) uncertainties from \citet{Weisz2014ApJ...789..147W}.
 distance:
   distance_modulus: 21.62
   distance_modulus_em: 0.06
@@ -79,3 +81,14 @@ velocity:
   vlos_sigma_em: 0.41
   vlos_sigma_ep: 0.44
   ref_vlos: Geha2026ApJ...999..140G
+star_formation_history:
+  tau_50: 12.801
+  tau_50_em: 2.892
+  tau_50_ep: 0.242
+  tau_80: 8.744
+  tau_80_em: 1.281
+  tau_80_ep: 1.409
+  tau_90: 8.323
+  tau_90_em: 2.013
+  tau_90_ep: 1.134
+  ref_star_formation_history: Weisz2014ApJ...789..147W

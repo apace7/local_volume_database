@@ -17,6 +17,7 @@ name_discovery:
 notes:
 - Defines $R_{LG}$ \citep{McConnachie2012AJ....144....4M}
 - ABP measured metallicity mean/sigma with Normal/Gaussian from data in \citep{Kirby2017ApJ...834....9K}
+- Star formation history uncertainties are the total (random and systematic) uncertainties from \citet{Weisz2014ApJ...789..147W}.
 distance:
   distance_modulus: 25.39
   distance_modulus_em: 0.08
@@ -85,3 +86,14 @@ gas_phase_metallicity:
   gas_phase_metallicity_em: 0.08
   gas_phase_metallicity_ep: 0.08
   ref_gas_phase_metallicity: Andrade2025A&A...699A.281A
+star_formation_history:
+  tau_50: 6.566
+  tau_50_em: 3.519
+  tau_50_ep: 6.507
+  tau_80: 1.481
+  tau_80_em: 0.59
+  tau_80_ep: 5.341
+  tau_90: 0.708
+  tau_90_em: 0.392
+  tau_90_ep: 1.07
+  ref_star_formation_history: Weisz2014ApJ...789..147W

@@ -16,6 +16,8 @@ name_discovery:
   - Cannon1977MNRAS.180P..81C
   abbreviation: Car
   type: dSph
+notes:
+- Star formation history uncertainties are the total (random and systematic) uncertainties from \citet{Weisz2014ApJ...789..147W}.
 distance:
   distance_modulus: 20.118
   distance_modulus_em: 0.111
@@ -79,3 +81,14 @@ velocity:
   vlos_systemic: 222.9
   vlos_systemic_em: 0.1
   vlos_systemic_ep: 0.1
+star_formation_history:
+  tau_50: 4.921
+  tau_50_em: 0.077
+  tau_50_ep: 4.458
+  tau_80: 3.273
+  tau_80_em: 0.301
+  tau_80_ep: 0.686
+  tau_90: 2.818
+  tau_90_em: 0.649
+  tau_90_ep: 0.912
+  ref_star_formation_history: Weisz2014ApJ...789..147W

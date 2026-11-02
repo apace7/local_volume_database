@@ -15,6 +15,7 @@ name_discovery:
   abbreviation: Phe
 notes:
 - There are 4 GC candidates from \citet{Canterna1977ApJ...212L..57C, MartinezDelgado1999AJ....118..862M}.
+- Star formation history from the combined fields (Table 6) of \citet{Weisz2014ApJ...789..147W}; uncertainties are the total (random and systematic) uncertainties.
 distance:
   distance_modulus: 23.06
   distance_modulus_em: 0.12
@@ -84,3 +85,14 @@ velocity:
   vlos_rotation: 5.5
   vlos_rotation_em: 0.6
   vlos_rotation_ep: 0.6
+star_formation_history:
+  tau_50: 10.61
+  tau_50_em: 1.698
+  tau_50_ep: 0.806
+  tau_80: 5.088
+  tau_80_em: 0.783
+  tau_80_ep: 0.29
+  tau_90: 2.614
+  tau_90_em: 0.102
+  tau_90_ep: 0.204
+  ref_star_formation_history: Weisz2014ApJ...789..147W

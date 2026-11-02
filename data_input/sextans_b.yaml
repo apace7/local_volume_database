@@ -16,6 +16,7 @@ name_discovery:
   type: dIrr
 notes:
 - Loose NGC 3109 subgroup \citep{McConnachie2012AJ....144....4M}
+- Star formation history uncertainties are the total (random and systematic) uncertainties from \citet{Weisz2014ApJ...789..147W}.
 distance:
   distance_modulus: 25.72
   distance_modulus_em: 0.056
@@ -66,3 +67,14 @@ gas_phase_metallicity:
   gas_phase_metallicity_em: 0.05
   gas_phase_metallicity_ep: 0.05
   ref_gas_phase_metallicity: Kniazev2005AJ....130.1558K
+star_formation_history:
+  tau_50: 11.633
+  tau_50_em: 3.956
+  tau_50_ep: 1.495
+  tau_80: 6.887
+  tau_80_em: 3.339
+  tau_80_ep: 5.386
+  tau_90: 1.714
+  tau_90_em: 0.244
+  tau_90_ep: 9.506
+  ref_star_formation_history: Weisz2014ApJ...789..147W

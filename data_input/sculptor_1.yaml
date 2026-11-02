@@ -18,6 +18,7 @@ name_discovery:
   type: dSph
 notes:
 - The prototypical dSph \citep{McConnachie2012AJ....144....4M}  
+- Star formation history from the combined fields (Table 6) of \citet{Weisz2014ApJ...789..147W}; uncertainties are the total (random and systematic) uncertainties.
 distance:
   distance_modulus: 19.62
   distance_modulus_em: 0.04
@@ -83,3 +84,14 @@ velocity:
   vlos_systemic: 111.4
   vlos_systemic_em: 0.1
   vlos_systemic_ep: 0.1
+star_formation_history:
+  tau_50: 11.948
+  tau_50_em: 0.117
+  tau_50_ep: 1.218
+  tau_80: 11.306
+  tau_80_em: 2.587
+  tau_80_ep: 1.284
+  tau_90: 10.61
+  tau_90_em: 3.531
+  tau_90_ep: 1.295
+  ref_star_formation_history: Weisz2014ApJ...789..147W

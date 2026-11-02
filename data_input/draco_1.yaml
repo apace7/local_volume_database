@@ -22,6 +22,8 @@ name_discovery:
   abbreviation: Dra
   type: dSph
   name_lvg: Draco
+notes:
+- Star formation history uncertainties are the total (random and systematic) uncertainties from \citet{Weisz2014ApJ...789..147W}.
 distance:
   distance_modulus: 19.557
   distance_modulus_em: 0.04
@@ -89,3 +91,14 @@ velocity:
   vlos_sigma_em: 0.25
   vlos_sigma_ep: 0.26
   ref_vlos: Geha2026ApJ...999..140G
+star_formation_history:
+  tau_50: 11.494
+  tau_50_em: 0.122
+  tau_50_ep: 1.534
+  tau_80: 10.458
+  tau_80_em: 2.001
+  tau_80_ep: 1.675
+  tau_90: 10.153
+  tau_90_em: 2.497
+  tau_90_ep: 1.524
+  ref_star_formation_history: Weisz2014ApJ...789..147W
