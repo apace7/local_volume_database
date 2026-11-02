@@ -1,28 +1,61 @@
 key: kk_186
 table: dwarf_local_field_distant
 location:
-  ra: 197.44
-  dec: -23.543056
+  ra: 197.44038
+  dec: -23.542465
+  ref_location: MutluPakdil2026arXiv261040765M
 name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 0
-  discovery_year: 2025
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 1998
   host: ngc_5068
   name: KK 186
   other_name:
-  - PGC166155
+  - PGC 166155
+  - Hydra B
   ref_discovery:
+  - Karachentseva1998A&AS..127..409K
   - Karachentsev2025PASA...42...26K
+  - MutluPakdil2026arXiv261040765M
   type: Tr
 structure:
-  rhalf: 1.25
-  spatial_units: arcmin
-  ellipticity: 0.65
-  ref_structure: Karachentsev2025PASA...42...26K
+  rhalf: 28
+  rhalf_em: 1
+  rhalf_ep: 1
+  spatial_units: arcsec
+  ellipticity: 0.54
+  ellipticity_em: 0.02
+  ellipticity_ep: 0.02
+  position_angle: 74
+  position_angle_em: 2
+  position_angle_ep: 2
+  ref_structure: MutluPakdil2026arXiv261040765M
 distance:
-  distance_fixed_host: true
-  distance_measurement_method: host
+  distance_modulus: 29.06
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  distance_measurement_method: trgb
+  ref_distance: MutluPakdil2026arXiv261040765M
 m_v:
-  apparent_magnitude_v: 17.09
-  apparent_magnitude_b: 17.4
-  ref_m_v: Karachentsev2025PASA...42...26K
+  apparent_magnitude_v: 17.10
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.11
+  mean_ebv: 0.127
+  ref_m_v: MutluPakdil2026arXiv261040765M
+velocity:
+  vlos_systemic: 739
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: MutluPakdil2026arXiv261040765M
+flux_HI:
+  flux_HI: 0.53
+  flux_HI_em: 0.09
+  flux_HI_ep: 0.09
+  vlos_systemic_HI: 739
+  vlos_systemic_HI_em: 2
+  vlos_systemic_HI_ep: 2
+  ref_flux_HI: MutluPakdil2026arXiv261040765M
+  HI_line_width_50: 44
+  HI_line_width_50_em: 2
+  HI_line_width_50_ep: 2
+  ref_HI_kinematics: MutluPakdil2026arXiv261040765M

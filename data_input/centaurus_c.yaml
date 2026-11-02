@@ -1,0 +1,43 @@
+key: centaurus_c
+table: dwarf_local_field_distant
+location:
+  ra: 204.73214
+  dec: -31.989991
+  ref_location: MutluPakdil2026arXiv261040765M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: Centaurus C
+  abbreviation: Cen C
+  ref_discovery:
+  - MutluPakdil2026arXiv261040765M
+  type: dSph
+notes:
+- isolated within the broader M83/Cen A complex \citep{MutluPakdil2026arXiv261040765M}.
+structure:
+  rhalf: 7
+  rhalf_em: 1
+  rhalf_ep: 1
+  spatial_units: arcsec
+  ellipticity: 0.40
+  ellipticity_em: 0.10
+  ellipticity_ep: 0.10
+  position_angle: 115
+  position_angle_em: 10
+  position_angle_ep: 10
+  ref_structure: MutluPakdil2026arXiv261040765M
+distance:
+  distance_modulus: 28.04
+  distance_modulus_em: 0.22
+  distance_modulus_ep: 0.22
+  distance_measurement_method: trgb
+  ref_distance: MutluPakdil2026arXiv261040765M
+m_v:
+  apparent_magnitude_v: 20.08
+  apparent_magnitude_v_em: 0.17
+  apparent_magnitude_v_ep: 0.17
+  mean_ebv: 0.053
+  ref_m_v: MutluPakdil2026arXiv261040765M
+flux_HI:
+  flux_HI_ul: 0.052
+  ref_flux_HI: MutluPakdil2026arXiv261040765M

@@ -1,8 +1,9 @@
 key: grapes
 table: dwarf_local_field_distant
 location:
-  ra: 178.023333
-  dec: 54.792222
+  ra: 178.02314
+  dec: 54.792785
+  ref_location: MutluPakdil2026arXiv261040765M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -11,16 +12,45 @@ name_discovery:
   - SMDG J1152057+544733
   - SDSS J115205.58+544732.2
   name_lvg: Grapes
+  type: dIrr
+structure:
+  rhalf: 18
+  rhalf_em: 1
+  rhalf_ep: 1
+  spatial_units: arcsec
+  ellipticity: 0.23
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.06
+  position_angle: 22
+  position_angle_em: 10
+  position_angle_ep: 10
+  ref_structure: MutluPakdil2026arXiv261040765M
 distance:
-  distance_modulus: 28.88
-  ref_distance: Anand2021AJ....162...80A
+  distance_modulus: 28.73
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
   distance_measurement_method: trgb
+  ref_distance: MutluPakdil2026arXiv261040765M
 m_v:
-  apparent_magnitude_v: 17.93
-  apparent_magnitude_b: 18.24
-  ref_m_v: Karachentsev2013AJ....145..101K
+  apparent_magnitude_v: 17.94
+  apparent_magnitude_v_em: 0.07
+  apparent_magnitude_v_ep: 0.07
+  mean_ebv: 0.009
+  ref_m_v: MutluPakdil2026arXiv261040765M
 velocity:
-  vlos_systemic: 321
-  vlos_systemic_em: 210
-  vlos_systemic_ep: 210
-  ref_vlos: Karachentsev2013AJ....145..101K
+  vlos_systemic: 226
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: MutluPakdil2026arXiv261040765M
+flux_HI:
+  flux_HI: 0.83
+  flux_HI_em: 0.16
+  flux_HI_ep: 0.16
+  vlos_systemic_HI: 226
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: MutluPakdil2026arXiv261040765M
+  HI_line_width_50: 20.7
+  HI_line_width_50_em: 1.5
+  HI_line_width_50_ep: 1.5
+  ref_HI_kinematics: MutluPakdil2026arXiv261040765M

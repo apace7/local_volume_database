@@ -1,9 +1,9 @@
 key: hydrus_a
 table: dwarf_local_field_distant
 location:
-  ra: 56.1933333
-  dec: -70.3543889
-  ref_location: Fielder2025arXiv251202118F
+  ra: 56.194692
+  dec: -70.354717
+  ref_location: MutluPakdil2026arXiv261040765M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -12,27 +12,31 @@ name_discovery:
   ref_discovery:
   - Fielder2025arXiv251202118F
   abbreviation: 'HyiA'
+  type: dSph
 structure:
-  rhalf: 11.52
-  rhalf_em: 1.2
-  rhalf_ep: 1.2
+  rhalf: 16
+  rhalf_em: 1
+  rhalf_ep: 1
   spatial_units: arcsec
-  ellipticity: 0.15
-  ellipticity_em: 0.03
-  ellipticity_ep: 0.03
-  position_angle: 0
-  ref_structure: Fielder2025arXiv251202118F
+  ellipticity: 0.31
+  ellipticity_em: 0.07
+  ellipticity_ep: 0.07
+  position_angle: -15
+  position_angle_em: 5
+  position_angle_ep: 5
+  ref_structure: MutluPakdil2026arXiv261040765M
 distance:
-  distance_modulus: 27.65
-  distance_modulus_em: 0.20
-  distance_modulus_ep: 0.20
+  distance_modulus: 28.03
+  distance_modulus_em: 0.14
+  distance_modulus_ep: 0.14
   distance_measurement_method: trgb
-  ref_distance: Fielder2025arXiv251202118F
+  ref_distance: MutluPakdil2026arXiv261040765M
 m_v:
-  apparent_magnitude_v: 18.26
-  apparent_magnitude_v_em: 0.20
-  apparent_magnitude_v_ep: 0.20
-  ref_m_v: Fielder2025arXiv251202118F
+  apparent_magnitude_v: 18.72
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  mean_ebv: 0.046
+  ref_m_v: MutluPakdil2026arXiv261040765M
 flux_HI:
   flux_HI_ul: 0.69
-  ref_flux_HI: Fielder2025arXiv251202118F
+  ref_flux_HI: MutluPakdil2026arXiv261040765M

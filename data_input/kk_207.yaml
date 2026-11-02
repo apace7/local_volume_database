@@ -1,21 +1,59 @@
 key: kk_207
 table: dwarf_local_field_distant
 location:
-  ra: 203.35708333333332  # [deg]
-  dec: 56.5 # [deg]
+  ra: 203.35701
+  dec: 56.500077
+  ref_location: MutluPakdil2026arXiv261040765M
 name_discovery:
-  confirmed_dwarf: 0
-  confirmed_real: 0
-  false_positive: 0
+  confirmed_dwarf: 1
+  confirmed_real: 1
   discovery_year: 1998
   name: KK 207
   other_name:
   - PGC166169
+  - Ursa Major C
   ref_discovery:
   - Karachentseva1998A&AS..127..409K
+  - MutluPakdil2026arXiv261040765M
+  type: dIrr
+structure:
+  rhalf: 14
+  rhalf_em: 1
+  rhalf_ep: 1
+  spatial_units: arcsec
+  ellipticity: 0.32
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.06
+  position_angle: 17
+  position_angle_em: 7
+  position_angle_ep: 7
+  ref_structure: MutluPakdil2026arXiv261040765M
 distance:
-  distance_modulus: 29.21
-  ref_distance: Karachentsev2013AJ....145..101K
+  distance_modulus: 28.26
+  distance_modulus_em: 0.15
+  distance_modulus_ep: 0.15
+  distance_measurement_method: trgb
+  ref_distance: MutluPakdil2026arXiv261040765M
 m_v:
-  apparent_magnitude_v: 18.41
-  ref_m_v: Karachentsev2013AJ....145..101K
+  apparent_magnitude_v: 18.62
+  apparent_magnitude_v_em: 0.09
+  apparent_magnitude_v_ep: 0.09
+  mean_ebv: 0.009
+  ref_m_v: MutluPakdil2026arXiv261040765M
+velocity:
+  vlos_systemic: 150
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: MutluPakdil2026arXiv261040765M
+flux_HI:
+  flux_HI: 0.12
+  flux_HI_em: 0.03
+  flux_HI_ep: 0.03
+  vlos_systemic_HI: 150
+  vlos_systemic_HI_em: 2
+  vlos_systemic_HI_ep: 2
+  ref_flux_HI: MutluPakdil2026arXiv261040765M
+  HI_line_width_50: 25
+  HI_line_width_50_em: 3
+  HI_line_width_50_ep: 3
+  ref_HI_kinematics: MutluPakdil2026arXiv261040765M

@@ -1,0 +1,55 @@
+key: m_083-dw14
+table: dwarf_local_field_distant
+location:
+  ra: 204.74115
+  dec: -32.018012
+  ref_location: MutluPakdil2026arXiv261040765M
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: m_083
+  name: M83-dw14
+  ref_discovery:
+  - MutluPakdil2026arXiv261040765M
+  type: dIrr
+structure:
+  rhalf: 10
+  rhalf_em: 1
+  rhalf_ep: 1
+  spatial_units: arcsec
+  ellipticity: 0.51
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.06
+  position_angle: 103
+  position_angle_em: 6
+  position_angle_ep: 6
+  ref_structure: MutluPakdil2026arXiv261040765M
+distance:
+  distance_modulus: 28.51
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  distance_measurement_method: trgb
+  ref_distance: MutluPakdil2026arXiv261040765M
+m_v:
+  apparent_magnitude_v: 18.53
+  apparent_magnitude_v_em: 0.16
+  apparent_magnitude_v_ep: 0.16
+  mean_ebv: 0.051
+  ref_m_v: MutluPakdil2026arXiv261040765M
+velocity:
+  vlos_systemic: 518
+  vlos_systemic_em: 1
+  vlos_systemic_ep: 1
+  ref_vlos: MutluPakdil2026arXiv261040765M
+flux_HI:
+  flux_HI: 0.40
+  flux_HI_em: 0.07
+  flux_HI_ep: 0.07
+  vlos_systemic_HI: 518
+  vlos_systemic_HI_em: 1
+  vlos_systemic_HI_ep: 1
+  ref_flux_HI: MutluPakdil2026arXiv261040765M
+  HI_line_width_50: 14
+  HI_line_width_50_em: 2
+  HI_line_width_50_ep: 2
+  ref_HI_kinematics: MutluPakdil2026arXiv261040765M

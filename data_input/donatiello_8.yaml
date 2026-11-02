@@ -1,9 +1,9 @@
 key: donatiello_8
 table: dwarf_local_field_distant
 location:
-  ra: 10.1454167
-  dec: -20.5571111
-  ref_location: Fielder2025arXiv251202118F
+  ra: 10.145485
+  dec: -20.556725
+  ref_location: MutluPakdil2026arXiv261040765M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -18,29 +18,31 @@ name_discovery:
   other_name:
   - SMDG0040349-203322
   - Cetus B
+  type: dSph
 structure:
-  rhalf: 12.72
-  rhalf_em: 0.37
-  rhalf_ep: 0.37
+  rhalf: 19
+  rhalf_em: 3
+  rhalf_ep: 3
   spatial_units: arcsec
-  ellipticity: 0.47
-  ellipticity_em: 0.02
-  ellipticity_ep: 0.02
-  position_angle: 10.83
-  position_angle_em: 0.59
-  position_angle_ep: 0.59
-  ref_structure: Fielder2025arXiv251202118F
+  ellipticity: 0.64
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.06
+  position_angle: 16
+  position_angle_em: 3
+  position_angle_ep: 3
+  ref_structure: MutluPakdil2026arXiv261040765M
 distance:
-  distance_modulus: 27.60
-  distance_modulus_em: 0.16
-  distance_modulus_ep: 0.16
+  distance_modulus: 27.80
+  distance_modulus_em: 0.23
+  distance_modulus_ep: 0.23
   distance_measurement_method: trgb
-  ref_distance: Fielder2025arXiv251202118F
+  ref_distance: MutluPakdil2026arXiv261040765M
 m_v:
-  apparent_magnitude_v: 19.34
-  apparent_magnitude_v_em: 0.17
-  apparent_magnitude_v_ep: 0.17
-  ref_m_v: Fielder2025arXiv251202118F
+  apparent_magnitude_v: 19.56
+  apparent_magnitude_v_em: 0.13
+  apparent_magnitude_v_ep: 0.13
+  mean_ebv: 0.022
+  ref_m_v: MutluPakdil2026arXiv261040765M
 structure_sersic:
   n_sersic: 1.09
   n_sersic_em: 0.08
@@ -57,5 +59,5 @@ structure_sersic:
   position_angle_ep: 0.8
   ref_structure_sersic: MartinezDelgado2026A&A...705A..77M
 flux_HI:
-  flux_HI_ul: 0.57
-  ref_flux_HI: Fielder2025arXiv251202118F
+  flux_HI_ul: 0.058
+  ref_flux_HI: MutluPakdil2026arXiv261040765M
