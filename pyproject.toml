@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "local_volume_database"
+dynamic = ["version"]
 authors = [{name = "Andrew Pace", email = "pvpace1@gmail.com"}]
 readme = "README.md"
-version="1.1.1"
 requires-python = ">=3.8"
 dependencies = ["numpy","astropy","matplotlib","pyyaml", "corner"
 ]
@@ -16,6 +16,9 @@ classifiers = [
     "License :: CC0-1.0 license",
     "Operating System :: OS Independent",
 ]
+
+[tool.setuptools.dynamic]
+version = {file = "code/release_version.txt"}
 
 [project.urls]
 Homepage = "https://github.com/apace7/local_volume_database"

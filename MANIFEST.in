@@ -1,1 +1,2 @@
 include src/lvdb_functions.py
+include code/release_version.txt

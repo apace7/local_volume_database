@@ -6,8 +6,14 @@ project = 'local_volume_database'
 copyright = '2026, Andrew Pace'
 author = 'Andrew Pace'
 
-release = '1.1.1'
-version = '1.1.1'
+# release = '1.1.1'
+# version = '1.1.1'
+
+from pathlib import Path
+
+_version_file = Path(__file__).resolve().parents[2] / 'code' / 'release_version.txt'
+release = _version_file.read_text().strip().lstrip('v')
+version = release
 
 # -- General configuration
 
