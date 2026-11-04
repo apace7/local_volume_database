@@ -95,7 +95,3 @@ For scientific analysis, I would recommend a fixed tagged GitHub release of the 
     ## or an older version
     comb_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/'+'v1.0.6'+'/comb_all.csv')
 
-Interactive Website
----------------------------------------------
-
-An interactive version of the LVDB is available here: `link <https://lvd-interactive.streamlit.app/>`_ (made by Katya Gozman).

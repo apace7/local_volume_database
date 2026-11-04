@@ -1,4 +1,4 @@
-Notes, Helpful Links, and Comments on Other Catalogs
+Notes, Helpful Links, Visualizations, and Comments on Other Catalogs
 ============================
 
 List of other catalogs relevant to the LVDB including references and links: 
@@ -36,6 +36,10 @@ The completeness of the LVDB is characterized by comparing to other catalogs.
 v1.0.3 of the LVDB is complete to 6 Mpc when comparing to the Local Volume Galaxy catalog and Extragalactic Distance Database. 
 Current efforts are focused on verifying this completeness limit with other catalogs (HyperLEDA, the NED LVS and Siena Galaxy Atlas) and adding missing systems and any new discoveries. 
 
+
+Visualizations and Interactive Plots
+---------------------------------------------
+
 Here are some visualizations and interactive plots for the Local Group and Local Volume:
 
 * https://localvolumeexplorer.streamlit.app/ [made by Jiaxuan Li]
@@ -45,3 +49,5 @@ Here are some visualizations and interactive plots for the Local Group and Local
 * A Revised Three-dimensional Visualization of the Local Group of Galaxies `Antonio Ciccolella 2025 Res. Notes AAS 9 307 <https://iopscience.iop.org/article/10.3847/2515-5172/ae1efc>`_. [`flickr <https://www.flickr.com/photos/203760891@N04/albums/72177720330064262/>`_, `zenodo <https://zenodo.org/records/17532709>`_]
 
 * https://jackwarfield.com/localvolume/local_volume_census.html [made by Jack Warfield] -- interactive tool for checking whether dwarf galaxies have existing space based imaging (HST, JWST, Euclid, Roman)
+
+* https://local-volume-database-explorer.github.io/ [made by John Wu] -- interactive 3D tool.
