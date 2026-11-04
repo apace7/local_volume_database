@@ -13,7 +13,7 @@ name_discovery:
   name_lvg: KKH34
 structure:
   spatial_units: arcmin
-  diameter_holm: 0.93
+  diameter_holmberg: 0.93
 distance:
   distance_modulus: 29.31
   distance_modulus_em: 0.11

@@ -14,7 +14,7 @@ name_discovery:
   name_lvg: NGC4242
 structure:
   spatial_units: arcmin
-  diameter_holm: 5.50
+  diameter_holmberg: 5.50
 distance:
   distance_modulus: 29.41
   ref_distance: Anand2021AJ....162...80A

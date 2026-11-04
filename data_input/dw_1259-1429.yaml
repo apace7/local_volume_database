@@ -14,7 +14,7 @@ name_discovery:
   - Karachentsev2025PASA...42...26K
   type: Sph
 structure:
-  rhalf: 0.66
+  diameter_holmberg: 0.66
   spatial_units: arcmin
   ellipticity: 0.68
   ref_structure: Karachentsev2025PASA...42...26K

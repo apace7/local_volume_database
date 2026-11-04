@@ -10,7 +10,7 @@ name_discovery:
   name: PGC1242
   type: BCD
 structure:
-  rhalf: 3.06
+  diameter_holmberg: 3.06
   spatial_units: arcmin
   ellipticity: 0.51
   ref_structure: Karachentsev2025PASA...42...26K

@@ -13,7 +13,7 @@ name_discovery:
   name_lvg: A0554+07
 structure:
   spatial_units: arcmin
-  diameter_holm: 3.8
+  diameter_holmberg: 3.8
 distance:
   distance_modulus: 28.70
   distance_modulus_em: 0.70

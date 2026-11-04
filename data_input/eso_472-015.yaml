@@ -12,7 +12,7 @@ name_discovery:
   - PGC000513
   type: Im
 structure:
-  rhalf: 1.53
+  diameter_holmberg: 1.53
   spatial_units: arcmin
   ellipticity: 0.56
   ref_structure: Karachentsev2025PASA...42...26K

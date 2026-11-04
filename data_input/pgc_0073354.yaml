@@ -12,7 +12,7 @@ name_discovery:
   - Karachentsev2025PASA...42...26K
   type: BCD
 structure:
-  rhalf: 0.77
+  diameter_holmberg: 0.77
   spatial_units: arcmin
   ellipticity: 0.57
   ref_structure: Karachentsev2025PASA...42...26K

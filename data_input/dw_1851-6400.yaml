@@ -14,7 +14,7 @@ name_discovery:
   - Karachentsev2025PASA...42...26K
   type: Tr
 structure:
-  rhalf: 0.53
+  diameter_holmberg: 0.53
   spatial_units: arcmin
   ellipticity: 0.9
   ref_structure: Karachentsev2025PASA...42...26K
