@@ -24,7 +24,7 @@ The catalog can be directly loaded into Jupyter notebooks without having to down
     comb_all = table.Table.read('https://github.com/apace7/local_volume_database/releases/download/'+version_number_string+'/comb_all.csv')
 
 
-An interactive version of the LVDB is available here: [link](https://lvd-interactive.streamlit.app/) (made by Katya Gozman).
+Visualizations and interactive plots of the LVDB are lists on readthedocs: [link](https://local-volume-database.readthedocs.io/en/latest/catalogs.html#visualizations-and-interactive-plots).
 
 Community contributions to the LVDB are welcome. Please feel free to create a GitHub issue or contract me with any questions about LVDB content and/or potential contributions. 
 
