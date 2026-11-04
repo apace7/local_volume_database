@@ -13,7 +13,7 @@ name_discovery:
   - PGC 70089
   type: Sdm
 structure:
-  rhalf: 5.63
+  diameter_holmberg: 5.63
   spatial_units: arcmin
   ellipticity: 0.1
   ref_structure: Karachentsev2025PASA...42...26K

@@ -11,7 +11,7 @@ name_discovery:
   - PGC 53500
   name_lvg: ESO273-014
 structure:
-  diameter_holm: 3.8
+  diameter_holmberg: 3.8
   spatial_units: arcmin
 distance:
   distance_modulus: 29.98

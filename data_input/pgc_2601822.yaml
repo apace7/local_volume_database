@@ -12,7 +12,7 @@ name_discovery:
   - KKR 55
   name_lvg: KKR55
 structure:
-  diameter_holm: 0.60
+  diameter_holmberg: 0.60
   spatial_units: arcmin
 distance:
   distance_fixed_host: true

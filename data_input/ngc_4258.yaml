@@ -13,7 +13,7 @@ name_discovery:
   - UGC07353
   name_lvg: NGC4258
 structure:
-  diameter_holm: 18.62
+  diameter_holmberg: 18.62
   spatial_units: arcmin
 distance:
   distance_modulus: 29.42

@@ -11,7 +11,7 @@ name_discovery:
   name: PGC580285
   type: Irr
 structure:
-  rhalf: 0.83
+  diameter_holmberg: 0.83
   spatial_units: arcmin
   ellipticity: 0.76
   ref_structure: Karachentsev2025PASA...42...26K
