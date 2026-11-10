@@ -35,7 +35,7 @@ metallicity_spectroscopic:
   metallicity_spectroscopic_sigma: 0.59
   metallicity_spectroscopic_sigma_em: 0.06
   metallicity_spectroscopic_sigma_ep: 0.06
-  ref_metallicity_spectroscopic: Bissonette2026arXiv260512810B
+  ref_metallicity_spectroscopic: Bissonette2026OJAp....972763B
 proper_motion:
   pmdec: -3.375
   pmdec_em: 0.046
