@@ -224,18 +224,17 @@ Most keys are single entries, and several keys are lists (especially other_name,
   * **distance_fixed_host** -- True/False. This option fixes the distance of the system to the distance of its host.  Commonly used for globular clusters hosted by dwarf galaxy, systems without an independent distance measurement, and/or new candidate satellites in more distant systems (>3 Mpc).
 
   * **distance_measurement_method** -- Refers to the method used for the distance measurement.  When  ``distance_measurement_method==host``, distance errors are not included for satellites in the combined tables.   Current options = [``host``, ``trgb``, ``cmd``, ``hb``, ``rrl``, ``tf``, ``sbf``, ``nam``, ``cmd_indices``, ``eb``]:
-    * 'host' = distance fixed to the host (overlaps with **distance_fixed_host**)
-    * 'trgb' = tip of the red giant branch distance
-    * 'sbf' = surface brightness fluctuation
-    * 'rrl' = RR Lyrae
-    * 'cmd' = color-magnitude diagram fitting
-    * 'tf' = Tully-Fisher distance ('btf' = baryonic Tully-Fisher distance, )
-    * 'sn' = supernova based distance
-    * `nam`=numerical action method
-    * `cmd_indices`=color-magnitude diagram indices
-    * `eb`=eclipsing binaries. 
 
-host, trgb, cmd, hb, rrl, tf, sn, nam, cmd_indices, eb
+    * ``host`` = distance fixed to the host (overlaps with **distance_fixed_host**)
+    * ``trgb`` = tip of the red giant branch distance
+    * ``sbf`` = surface brightness fluctuation
+    * ``rrl`` = RR Lyrae
+    * ``cmd`` = color-magnitude diagram fitting
+    * ``tf`` = Tully-Fisher distance ('btf' = baryonic Tully-Fisher distance, )
+    * ``sn`` = supernova based distance
+    * ``nam``=numerical action method
+    * ``cmd_indices``=color-magnitude diagram indices
+    * ``eb``=eclipsing binaries. 
 
   * **ref_distance**
 
