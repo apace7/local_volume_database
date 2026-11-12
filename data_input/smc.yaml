@@ -19,11 +19,13 @@ name_discovery:
   type: dIrr
 notes:
 - The center of the SMC is debated in the literature and the center here is selected to be consistent with the proper motion measurement \citep{Stanimirovic2004ApJ...604..176S, Zivick2018ApJ...864...55Z}.
+- Distance uncertainties are the total (random and systematic) uncertainties from \citet{Graczyk2014ApJ...780...59G}.
 distance:
-  distance_modulus: 18.99
-  distance_modulus_em: 0.1
-  distance_modulus_ep: 0.1
-  ref_distance: Cioni2000A&A...359..601C
+  distance_modulus: 18.965
+  distance_modulus_em: 0.054
+  distance_modulus_ep: 0.054
+  distance_measurement_method: eb
+  ref_distance: Graczyk2014ApJ...780...59G
 structure:
   rhalf: 59.4
   rhalf_em: 4.1
