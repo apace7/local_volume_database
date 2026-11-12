@@ -230,11 +230,11 @@ Most keys are single entries, and several keys are lists (especially other_name,
     * ``sbf`` = surface brightness fluctuation
     * ``rrl`` = RR Lyrae
     * ``cmd`` = color-magnitude diagram fitting
-    * ``tf`` = Tully-Fisher distance ('btf' = baryonic Tully-Fisher distance, )
+    * ``tf`` = Tully-Fisher distance (btf = baryonic Tully-Fisher distance is also included )
     * ``sn`` = supernova based distance
-    * ``nam``=numerical action method
-    * ``cmd_indices``=color-magnitude diagram indices
-    * ``eb``=eclipsing binaries. 
+    * ``nam`` = numerical action method
+    * ``cmd_indices`` = color-magnitude diagram indices
+    * ``eb`` = eclipsing binaries. 
 
   * **ref_distance**
 
