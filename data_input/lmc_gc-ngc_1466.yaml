@@ -20,8 +20,11 @@ structure:
   spatial_model: eff
   ref_structure: Mackey2003MNRAS.338..120M
 distance:
-  ref_distance: Milone2023A&A...672A.161M
-  distance_modulus: 18.58
+  distance_modulus: 18.61
+  distance_modulus_em: 0.09
+  distance_modulus_ep: 0.09
+  distance_measurement_method: rrl
+  ref_distance: Ardern2026MNRAS.552g1748A
 m_v:
   apparent_magnitude_v: 11.43
   apparent_magnitude_v_em: 0.05
