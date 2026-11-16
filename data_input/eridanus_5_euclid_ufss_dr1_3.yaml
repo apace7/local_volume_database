@@ -14,6 +14,7 @@ name_discovery:
   - Euclid UFSS DR1 3
   ref_discovery:
   - Euclid_Gatto2026arXiv261116025E
+  abbreviation: EriV
 distance:
   distance_modulus: 21.1
   distance_modulus_em: 0.3

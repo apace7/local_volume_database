@@ -14,7 +14,9 @@ name_discovery:
   - Fornax-GC7
   ref_discovery:
   - Saifollahi2026arXiv260914535S
+  - Euclid_Gatto2026arXiv261116025E
   type: SC/GC/dSph
+  abbreviation: For7
 notes:
 - age varies from 9.2-10.4 Gyr and [M/H] from -1.4 to -2.2 \citep{Saifollahi2026arXiv260914535S}. 
 structure:
