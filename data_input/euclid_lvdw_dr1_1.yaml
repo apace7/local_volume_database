@@ -1,0 +1,40 @@
+key: euclid_lvdw_dr1_1
+table: dwarf_local_field_distant
+location:
+  ra: 150.0281
+  dec: 74.2053
+  ref_location: Euclid_Gatto2026arXiv261116025E
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2026
+  host: m_081
+  name: Euclid LVDw DR1 1
+  ref_discovery:
+  - Euclid_Gatto2026arXiv261116025E
+distance:
+  distance_modulus: 27.9
+  distance_modulus_em: 0.5
+  distance_modulus_ep: 0.5
+  distance_measurement_method: cmd
+  ref_distance: Euclid_Gatto2026arXiv261116025E
+m_v:
+  apparent_magnitude_v: 19.84
+  apparent_magnitude_v_em: 0.83
+  apparent_magnitude_v_ep: 0.65
+  ref_m_v: Euclid_Gatto2026arXiv261116025E
+structure:
+  rhalf: 0.36
+  rhalf_em: 0.11
+  rhalf_ep: 0.18
+  spatial_units: arcmin
+  ellipticity: 0.63
+  ellipticity_em: 0.17
+  ellipticity_ep: 0.11
+  position_angle: 168
+  position_angle_em: 12
+  position_angle_ep: 11
+  ref_structure: Euclid_Gatto2026arXiv261116025E
+metallicity_isochrone:
+  metallicity_isochrone: -1.9
+  ref_metallicity_isochrone: Euclid_Gatto2026arXiv261116025E

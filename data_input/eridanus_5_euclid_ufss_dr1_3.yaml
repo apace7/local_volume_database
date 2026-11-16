@@ -1,0 +1,42 @@
+key: eridanus_5_euclid_ufss_dr1_3
+table: gc_ambiguous
+location:
+  ra: 28.8623
+  dec: -47.7105
+  ref_location: Euclid_Gatto2026arXiv261116025E
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 0
+  discovery_year: 2026
+  host: mw
+  name: Eridanus V
+  other_name:
+  - Euclid UFSS DR1 3
+  ref_discovery:
+  - Euclid_Gatto2026arXiv261116025E
+distance:
+  distance_modulus: 21.1
+  distance_modulus_em: 0.3
+  distance_modulus_ep: 0.3
+  distance_measurement_method: cmd
+  ref_distance: Euclid_Gatto2026arXiv261116025E
+m_v:
+  apparent_magnitude_v: 19.65
+  apparent_magnitude_v_em: 0.79
+  apparent_magnitude_v_ep: 0.65
+  ref_m_v: Euclid_Gatto2026arXiv261116025E
+structure:
+  rhalf: 0.25
+  rhalf_em: 0.05
+  rhalf_ep: 0.06
+  spatial_units: arcmin
+  ellipticity: 0.20
+  ellipticity_em: 0.14
+  ellipticity_ep: 0.17
+  position_angle: 45
+  position_angle_em: 31
+  position_angle_ep: 27
+  ref_structure: Euclid_Gatto2026arXiv261116025E
+metallicity_isochrone:
+  metallicity_isochrone: -2.2
+  ref_metallicity_isochrone: Euclid_Gatto2026arXiv261116025E

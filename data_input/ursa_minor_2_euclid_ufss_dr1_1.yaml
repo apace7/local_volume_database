@@ -1,0 +1,42 @@
+key: ursa_minor_2_euclid_ufss_dr1_1
+table: gc_ambiguous
+location:
+  ra: 196.1542
+  dec: 75.5724
+  ref_location: Euclid_Gatto2026arXiv261116025E
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 0
+  discovery_year: 2026
+  host: mw
+  name: Ursa Minor II
+  other_name:
+  - Euclid UFSS DR1 1
+  ref_discovery:
+  - Euclid_Gatto2026arXiv261116025E
+distance:
+  distance_modulus: 16.5
+  distance_modulus_em: 0.3
+  distance_modulus_ep: 0.3
+  distance_measurement_method: cmd
+  ref_distance: Euclid_Gatto2026arXiv261116025E
+m_v:
+  apparent_magnitude_v: 18.5
+  apparent_magnitude_v_em: 1.1
+  apparent_magnitude_v_ep: 0.5
+  ref_m_v: Euclid_Gatto2026arXiv261116025E
+structure:
+  rhalf: 2.25
+  rhalf_em: 0.39
+  rhalf_ep: 0.40
+  spatial_units: arcmin
+  ellipticity: 0.20
+  ellipticity_em: 0.14
+  ellipticity_ep: 0.17
+  position_angle: 162
+  position_angle_em: 42
+  position_angle_ep: 48
+  ref_structure: Euclid_Gatto2026arXiv261116025E
+metallicity_isochrone:
+  metallicity_isochrone: -2.2
+  ref_metallicity_isochrone: Euclid_Gatto2026arXiv261116025E
