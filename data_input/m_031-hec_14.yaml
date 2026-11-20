@@ -1,0 +1,42 @@
+key: m_031-hec_14
+table: gc_other
+location:
+  ra: 11.629167
+  ra_em: 0.000333
+  ra_ep: 0.0005
+  dec: 45.111667
+  dec_em: 0.000333
+  dec_ep: 0.0005
+  ref_location: Sakowska2026arXiv261124685S
+name_discovery:
+  confirmed_real: 1
+  confirmed_star_cluster: 0
+  discovery_year: 2026
+  host: m_031
+  name: HEC14
+  ref_discovery:
+  - Sakowska2026arXiv261124685S
+  type: UFSS
+notes:
+- Lies in the size-luminosity gap between globular clusters and dwarf galaxies \citep{Sakowska2026arXiv261124685S}.
+distance:
+  distance_modulus: 24.80
+  distance_modulus_em: 0.20
+  distance_modulus_ep: 0.20
+  distance_measurement_method: cmd
+  ref_distance: Sakowska2026arXiv261124685S
+m_v:
+  apparent_magnitude_v: 19.80
+  apparent_magnitude_v_em: 0.44
+  apparent_magnitude_v_ep: 0.51
+  ref_m_v: Sakowska2026arXiv261124685S
+structure:
+  rhalf: 0.12
+  rhalf_em: 0.03
+  rhalf_ep: 0.05
+  spatial_units: arcmin
+  ellipticity_ul: 0.44
+  position_angle: 165
+  position_angle_em: 48
+  position_angle_ep: 58
+  ref_structure: Sakowska2026arXiv261124685S
