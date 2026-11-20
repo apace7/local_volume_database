@@ -1,0 +1,33 @@
+key: eso_364-029
+table: dwarf_local_field_distant
+location:
+  ra: 91.439167
+  dec: -33.081667
+  ref_location: Karachentsev2013AJ....145..101K
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: ESO364-029
+  other_name:
+  - KKS18
+  - KK 18
+  - PGC018396
+  name_lvg: ESO364-029
+  type: IB
+distance:
+  distance_modulus: 29.73
+  distance_modulus_em: 0.08
+  distance_modulus_ep: 0.08
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 13.36
+  ref_m_v: Karachentsev2013AJ....145..101K
+velocity:
+  vlos_systemic: 787
+  vlos_systemic_em: 3
+  vlos_systemic_ep: 3
+  ref_vlos: Huchtmeier2001A&A...377..801H
+flux_HI:
+  flux_HI: 15.42
+  ref_flux_HI: Makarov2014A&A...570A..13M
