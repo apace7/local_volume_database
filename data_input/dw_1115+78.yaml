@@ -1,0 +1,45 @@
+key: dw_1115+78
+table: dwarf_local_field_distant
+location:
+  ra: 178.9786
+  dec: 78.079
+  ref_location: Euclid_Gatto2026arXiv261116025E
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2023
+  host: m_081
+  name: Dw1155+78
+  other_name:
+  - Euclid LVDw DR1 7
+  ref_discovery:
+  - Karachentsev2023Ap.....66..441K
+  - Euclid_Gatto2026arXiv261116025E
+notes:
+- Resolved into stars by \citet{Euclid_Gatto2026arXiv261116025E}.
+distance:
+  distance_modulus: 27.96
+  distance_modulus_em: 0.28
+  distance_modulus_ep: 0.23
+  distance_measurement_method: trgb
+  ref_distance: Euclid_Gatto2026arXiv261116025E
+m_v:
+  apparent_magnitude_v: 18.34
+  apparent_magnitude_v_em: 0.51
+  apparent_magnitude_v_ep: 0.52
+  ref_m_v: Euclid_Gatto2026arXiv261116025E
+structure:
+  rhalf: 0.26
+  rhalf_em: 0.03
+  rhalf_ep: 0.03
+  spatial_units: arcmin
+  ellipticity: 0.42
+  ellipticity_em: 0.09
+  ellipticity_ep: 0.08
+  position_angle: 127
+  position_angle_em: 8
+  position_angle_ep: 8
+  ref_structure: Euclid_Gatto2026arXiv261116025E
+metallicity_isochrone:
+  metallicity_isochrone: -1.5
+  ref_metallicity_isochrone: Euclid_Gatto2026arXiv261116025E

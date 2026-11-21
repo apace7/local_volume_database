@@ -1,0 +1,45 @@
+key: euclid_lvdw_dr1_4
+table: dwarf_local_field_distant
+location:
+  ra: 188.5979
+  dec: 76.7248
+  ref_location: Euclid_Gatto2026arXiv261116025E
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2023
+  host: m_081
+  name: Euclid LVDw DR1 4
+  other_name:
+  - PYY2023 J123423+764330
+  ref_discovery:
+  - Paudel2023ApJS..265...57P
+  - Euclid_Gatto2026arXiv261116025E
+notes:
+- Resolved into stars by \citet{Euclid_Gatto2026arXiv261116025E}.
+distance:
+  distance_modulus: 27.54
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.06
+  distance_measurement_method: trgb
+  ref_distance: Euclid_Gatto2026arXiv261116025E
+m_v:
+  apparent_magnitude_v: 17.75
+  apparent_magnitude_v_em: 0.11
+  apparent_magnitude_v_ep: 0.12
+  ref_m_v: Euclid_Gatto2026arXiv261116025E
+structure:
+  rhalf: 0.33
+  rhalf_em: 0.03
+  rhalf_ep: 0.02
+  spatial_units: arcmin
+  ellipticity: 0.49
+  ellipticity_em: 0.06
+  ellipticity_ep: 0.04
+  position_angle: 146
+  position_angle_em: 4
+  position_angle_ep: 4
+  ref_structure: Euclid_Gatto2026arXiv261116025E
+metallicity_isochrone:
+  metallicity_isochrone: -1.7
+  ref_metallicity_isochrone: Euclid_Gatto2026arXiv261116025E

@@ -11,6 +11,8 @@ name_discovery:
   name: Euclid LVDw DR1 2
   ref_discovery:
   - Euclid_Gatto2026arXiv261116025E
+notes:
+- Possible ESO 154-023 satellite \citep{Gatto2026arXiv261116025G}.
 distance:
   distance_modulus: 28.2
   distance_modulus_em: 0.5

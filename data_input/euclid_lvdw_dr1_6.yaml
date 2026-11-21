@@ -1,0 +1,44 @@
+key: euclid_lvdw_dr1_6
+table: dwarf_local_field_distant
+location:
+  ra: 147.6009
+  dec: 62.2599
+  ref_location: Euclid_Gatto2026arXiv261116025E
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2008
+  host: m_081
+  name: Euclid LVDw DR1 6
+  other_name:
+  - SDSS J095022.73+621537.8
+  ref_discovery:
+  - Euclid_Gatto2026arXiv261116025E
+notes:
+- Resolved into stars by \citet{Euclid_Gatto2026arXiv261116025E}.
+distance:
+  distance_modulus: 27.9
+  distance_modulus_em: 0.5
+  distance_modulus_ep: 0.5
+  distance_measurement_method: cmd
+  ref_distance: Euclid_Gatto2026arXiv261116025E
+m_v:
+  apparent_magnitude_v: 19.96
+  apparent_magnitude_v_em: 0.81
+  apparent_magnitude_v_ep: 0.66
+  ref_m_v: Euclid_Gatto2026arXiv261116025E
+structure:
+  rhalf: 0.23
+  rhalf_em: 0.06
+  rhalf_ep: 0.1
+  spatial_units: arcmin
+  ellipticity: 0.27
+  ellipticity_em: 0.18
+  ellipticity_ep: 0.23
+  position_angle: 189
+  position_angle_em: 40
+  position_angle_ep: 32
+  ref_structure: Euclid_Gatto2026arXiv261116025E
+metallicity_isochrone:
+  metallicity_isochrone: -1.7
+  ref_metallicity_isochrone: Euclid_Gatto2026arXiv261116025E
