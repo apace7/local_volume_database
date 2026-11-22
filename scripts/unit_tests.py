@@ -110,7 +110,7 @@ def check_yaml_files():
     ## files to check
     path = lvdb_path + "data_input/"
     dir_list = os.listdir(path)
-    dir_list = [i for i in dir_list if i!='readme.md']
+    dir_list = [i for i in dir_list if i.endswith('.yaml')]
     
     # load example yaml keys files, these are the default yaml keys
     with open("/Users/apace/Documents/local_volume_database/code/example_yaml.yaml", 'r') as stream:

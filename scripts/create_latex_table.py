@@ -564,7 +564,7 @@ create_latex_table_kinematics('table/table_data/gc_dwarf_kinematics_data.tex', '
 
 
 dir_list = os.listdir(path)
-dir_list = [i for i in dir_list if i!='readme.md']
+dir_list = [i for i in dir_list if i.endswith('.yaml')]
 
 table_list = []
 for i in range(len(dir_list)):
