@@ -1,0 +1,30 @@
+key: kk_151
+table: dwarf_local_field_distant
+location:
+  ra: 187.599167
+  dec: 42.901389
+  ref_location: Karachentsev2013AJ....145..101K
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  name: KK1 51
+  other_name:
+  - PGC041314
+  name_lvg: KK151
+distance:
+  distance_modulus: 29.52
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Tully2009AJ....138..323T
+  distance_measurement_method: trgb
+m_v:
+  apparent_magnitude_v: 14.70
+  ref_m_v: Makarov2014A&A...570A..13M
+velocity:
+  vlos_systemic: 436
+  vlos_systemic_em: 2
+  vlos_systemic_ep: 2
+  ref_vlos: Makarov2014A&A...570A..13M
+flux_HI:
+  flux_HI: 2.81
+  ref_flux_HI: Makarov2014A&A...570A..13M
