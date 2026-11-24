@@ -14,6 +14,7 @@ name_discovery:
   - dw1042p2501
   ref_discovery:
   - Karachentsev2015AstBu..70..379K
+  type: dTrans
 structure:
   rhalf: 7.1
   rhalf_em: 1.1

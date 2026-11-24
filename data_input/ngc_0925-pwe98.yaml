@@ -1,0 +1,36 @@
+key: ngc_0925-pwe98
+table: candidate
+location:
+  ra: 36.719583
+  dec: 33.426722
+  ref_location: Davis2024arXiv240903999D
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  host: ngc_0925
+  name: PWE98
+  type: dTrans
+  ref_discovery:
+  - Pisano1998AJ....115..975P
+structure:
+  rhalf: 32.3
+  rhalf_em: 1.0
+  rhalf_ep: 1.0
+  spatial_units: arcsec
+  ref_structure: Davis2024arXiv240903999D
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 17.88
+  apparent_magnitude_v_em: 0.1
+  apparent_magnitude_v_ep: 0.1
+  ref_m_v: Davis2024arXiv240903999D
+flux_HI:
+  flux_HI: 10.3
+  flux_HI_em: 0.44
+  flux_HI_ep: 0.46
+  ref_flux_HI: Davis2024arXiv240903999D
+velocity:
+  vlos_systemic: 520
+  ref_vlos: Pisano1998AJ....115..975P

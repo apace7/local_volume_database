@@ -1,0 +1,37 @@
+key: ngc_0672-dwa
+table: candidate
+location:
+  ra: 26.830417
+  dec: 27.254833
+  ref_location: Davis2024arXiv240903999D
+name_discovery:
+  confirmed_dwarf: 1
+  confirmed_real: 1
+  discovery_year: 2024
+  host: ngc_0672
+  name: NGC 672 dwA
+  ref_discovery:
+  - Davis2024arXiv240903999D
+structure:
+  rhalf: 5.8
+  rhalf_em: 0.3
+  rhalf_ep: 0.3
+  spatial_units: arcsec
+  ref_structure: Davis2024arXiv240903999D
+distance:
+  distance_fixed_host: true
+  distance_measurement_method: host
+m_v:
+  apparent_magnitude_v: 19.86
+  apparent_magnitude_v_em: 0.14
+  apparent_magnitude_v_ep: 0.14
+  ref_m_v: Davis2024arXiv240903999D
+flux_HI:
+  flux_HI: 0.026
+  flux_HI_em: 0.0054
+  flux_HI_ep: 0.0067
+  vlos_systemic_HI: 372
+  ref_flux_HI: Davis2024arXiv240903999D
+velocity:
+  vlos_systemic: 372
+  ref_vlos: Davis2024arXiv240903999D

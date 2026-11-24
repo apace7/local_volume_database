@@ -11,6 +11,7 @@ name_discovery:
   other_name:
   - PGC027115
   name_lvg: UGC05086
+  type: dSph
 structure:
   rhalf: 17.34
   rhalf_em: 0.72
