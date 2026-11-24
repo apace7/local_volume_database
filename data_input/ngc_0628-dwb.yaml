@@ -8,8 +8,6 @@ name_discovery:
   confirmed_real: 1
   host: ngc_0628
   name: NGC 628-dwB
-  other_name:
-  - dw0137+1537
   name_lvg: NGC628dwB
   ref_discovery:
   - Davis2021MNRAS.500.3854D
