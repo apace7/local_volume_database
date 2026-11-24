@@ -3,6 +3,7 @@ table: dwarf_local_field
 location:
   ra: 0.4925
   dec: -15.46083333
+  ref_location: McConnachie2012AJ....144....4M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -36,13 +37,13 @@ m_v:
   apparent_magnitude_v_ep: 0.1
   ref_m_v: McConnachie2012AJ....144....4M
 proper_motion:
-  pmra: 0.09
-  pmra_em: 0.03
-  pmra_ep: 0.03
-  pmdec: -0.07
-  pmdec_em: 0.02
-  pmdec_ep: 0.02
-  ref_proper_motion: Battaglia2022A&A...657A..54B
+  pmra: 0.087
+  pmra_em: 0.019
+  pmra_ep: 0.019
+  pmdec: -0.079
+  pmdec_em: 0.017
+  pmdec_ep: 0.017
+  ref_proper_motion: Warfield2026arXiv261128381W
 structure:
   ellipticity: 0.54
   ellipticity_em: 0.06
