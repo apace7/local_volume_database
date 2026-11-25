@@ -3,6 +3,7 @@ table: dwarf_local_field
 location:
   ra: 155.4379167
   dec: 18.08805556
+  ref_location: McQuinn2015ApJ...812..158M
 name_discovery:
   confirmed_dwarf: 1
   confirmed_real: 1
@@ -12,10 +13,10 @@ name_discovery:
   - Giovanelli2013AJ....146...15G
   type: dSph
 distance:
-  distance_modulus: 26.05
-  distance_modulus_em: 0.2
-  distance_modulus_ep: 0.2
-  ref_distance: McQuinn2015ApJ...812..158M
+  distance_modulus: 26.04
+  distance_modulus_em: 0.07
+  distance_modulus_ep: 0.07
+  ref_distance: Slaughter2026ApJ..1012...78S
 flux_HI:
   flux_HI: 1.52
   flux_HI_em: 0.27
