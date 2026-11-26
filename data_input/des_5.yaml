@@ -1,6 +1,5 @@
-
 key: des_5
-table: gc_ambiguous
+table: gc_dwarf_hosted
 location:
   ra: 77.50351
   dec: -62.58046
@@ -9,7 +8,7 @@ name_discovery:
   confirmed_real: 0
   confirmed_star_cluster: 0
   discovery_year: 2016
-  host: mw
+  host: lmc
   name: OGLE-CL LMC 874
   other_name:
   - DES 5

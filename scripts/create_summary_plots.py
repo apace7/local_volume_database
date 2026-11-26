@@ -506,6 +506,37 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
 
     print("GC ambiguous mollweide plot")
 
+    ### Combined Mollweide plot: MW dwarf galaxies (dwarf_mw) and ambiguous systems (gc_ambiguous)
+    ## combines the dwarf_mw (Figure 3 part 1) and gc_ambiguous Mollweide plots
+    ## circles = dwarf_mw, squares = gc_ambiguous; colorbar is distance, point size is based on stellar mass
+    c_comb_dsph = coord.SkyCoord(ra=dsph_mw['ra']*u.deg, dec=dsph_mw['dec']*u.deg,  frame='icrs', distance=dsph_mw['distance']*u.kpc)
+    c_comb_amb = coord.SkyCoord(ra=gc_ambiguous['ra']*u.deg, dec=gc_ambiguous['dec']*u.deg,  frame='icrs', distance=gc_ambiguous['distance']*u.kpc)
+    comb_norm = mp.colors.Normalize(vmin=np.nanmin(np.concatenate([np.ma.filled(dsph_mw['distance'], np.nan), np.ma.filled(gc_ambiguous['distance'], np.nan)])), vmax=np.nanmax(np.concatenate([np.ma.filled(dsph_mw['distance'], np.nan), np.ma.filled(gc_ambiguous['distance'], np.nan)])))
+
+    fig = plt.figure(1,figsize=(16*1.2,6*1.2))
+    ax = fig.add_subplot(111, projection='mollweide')
+    cb = ax.scatter(c_comb_dsph.galactic.l.wrap_at(180*u.deg).rad, c_comb_dsph.galactic.b.rad, c=c_comb_dsph.distance.value, norm=comb_norm, label=r'${\rm Dwarf~MW}$', cmap='bwr', s=dsph_mw['mass_stellar']**2.5, zorder=10, ec='k', marker='o')
+    ax.scatter(c_comb_amb.galactic.l.wrap_at(180*u.deg).rad, c_comb_amb.galactic.b.rad, c=c_comb_amb.distance.value, norm=comb_norm, label=r'${\rm Ambiguous}$', cmap='bwr', s=gc_ambiguous['mass_stellar']**2.5, zorder=10, ec='k', marker='s')
+    plt.colorbar(cb, label=r'${\rm Distance~(kpc)}$')
+
+    ## this labels the objects
+    texts = [plt.text(c_comb_dsph.galactic.l.wrap_at(180*u.deg).rad[i], c_comb_dsph.galactic.b.rad[i], r'${\rm '+dsph_mw['abbreviation'][i]+'}$', ha='center', va='center') for i in range(len(c_comb_dsph))]
+    texts += [plt.text(c_comb_amb.galactic.l.wrap_at(180*u.deg).rad[i], c_comb_amb.galactic.b.rad[i], r'${\rm '+gc_ambiguous['abbreviation'][i]+'}$', ha='center', va='center') for i in range(len(c_comb_amb))]
+    adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey'))
+
+    ## this adds ra, dec=0 grey line
+    gal_long = np.arange(-180., 180., .1)
+    c_gc = coord.SkyCoord(ra=gal_long*u.deg, dec=np.zeros(len(gal_long))*u.deg,  frame='icrs')
+    temp = c_gc.transform_to('galactic')
+    ax.plot(temp.galactic.l.wrap_at(180*u.deg).rad, temp.galactic.b.rad  , '.', c='k', ms=.1, rasterized=True,zorder=1)
+
+    ax.grid(ls=':')
+    ax.legend(loc=4, markerscale=0.5)
+    plt.tight_layout()
+    pdf.savefig()
+    plt.close()
+    print("combined dwarf_mw + gc_ambiguous mollweide plot finished")
+
     ### Figure 4
 
     fig, ax = plt.subplots(1,2, figsize=(10,5))
@@ -531,7 +562,6 @@ with PdfPages(lvdb_path + 'paper_examples/overview_plots.pdf') as pdf:
     plt.tight_layout()
     pdf.savefig()
     plt.close()
-
 
     keep = np.zeros(len(dwarf_all), dtype=bool)
     for i in range(len(dwarf_all)):

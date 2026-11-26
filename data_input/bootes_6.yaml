@@ -1,0 +1,51 @@
+key: bootes_6
+table: dwarf_mw
+location:
+  ra: 235.912
+  ra_em: 0.002
+  ra_ep: 0.002
+  dec: 40.002
+  dec_em: 0.003
+  dec_ep: 0.003
+  ref_location: Smith2026arXiv261134775S
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 1
+  discovery_year: 2026
+  host: mw
+  name: Bootes VI
+  ref_discovery:
+  - Smith2026arXiv261134775S
+  abbreviation: BooVI
+  type: dSph
+distance:
+  distance_modulus: 20.21
+  distance_modulus_em: 0.32
+  distance_modulus_ep: 0.28
+  distance_measurement_method: cmd
+  ref_distance: Smith2026arXiv261134775S
+m_v:
+  apparent_magnitude_v: 17.51
+  apparent_magnitude_v_em: 0.5
+  apparent_magnitude_v_ep: 0.6
+  ref_m_v: Smith2026arXiv261134775S
+structure:
+  rhalf: 1.7
+  rhalf_em: 0.4
+  rhalf_ep: 0.3
+  spatial_units: arcmin
+  ellipticity: 0.36
+  ellipticity_em: 0.2
+  ellipticity_ep: 0.15
+  position_angle: 167
+  position_angle_em: 17
+  position_angle_ep: 15
+  ref_structure: Smith2026arXiv261134775S
+proper_motion:
+  pmra: -0.3
+  pmra_em: 0.2
+  pmra_ep: 0.2
+  pmdec: -0.1
+  pmdec_em: 0.2
+  pmdec_ep: 0.2
+  ref_proper_motion: Smith2026arXiv261134775S

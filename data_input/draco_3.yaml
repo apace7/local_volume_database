@@ -1,0 +1,51 @@
+key: draco_3
+table: dwarf_mw
+location:
+  ra: 280.267
+  ra_em: 0.004
+  ra_ep: 0.005
+  dec: 75.678
+  dec_em: 0.004
+  dec_ep: 0.004
+  ref_location: Smith2026arXiv261134775S
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 1
+  discovery_year: 2026
+  host: mw
+  name: Draco III
+  ref_discovery:
+  - Smith2026arXiv261134775S
+  abbreviation: DraIII
+  type: dSph
+distance:
+  distance_modulus: 20.57
+  distance_modulus_em: 0.57
+  distance_modulus_ep: 0.45
+  distance_measurement_method: cmd
+  ref_distance: Smith2026arXiv261134775S
+m_v:
+  apparent_magnitude_v: 16.57
+  apparent_magnitude_v_em: 0.6
+  apparent_magnitude_v_ep: 0.6
+  ref_m_v: Smith2026arXiv261134775S
+structure:
+  rhalf: 1.4
+  rhalf_em: 0.7
+  rhalf_ep: 0.4
+  spatial_units: arcmin
+  ellipticity: 0.26
+  ellipticity_em: 0.18
+  ellipticity_ep: 0.22
+  position_angle: 146
+  position_angle_em: 57
+  position_angle_ep: 66
+  ref_structure: Smith2026arXiv261134775S
+proper_motion:
+  pmra: -0.1
+  pmra_em: 0.1
+  pmra_ep: 0.1
+  pmdec: 0.29
+  pmdec_em: 0.08
+  pmdec_ep: 0.08
+  ref_proper_motion: Smith2026arXiv261134775S

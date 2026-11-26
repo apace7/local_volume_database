@@ -1,11 +1,12 @@
-distance:
-  distance_modulus: 18.2
-  ref_distance: Torrealba2019MNRAS.484.2181T
 key: to_1
+table: gc_dwarf_hosted
 location:
   dec: -69.42255
   ra: 56.08255
   ref_location: Torrealba2019MNRAS.484.2181T
+distance:
+  distance_modulus: 18.2
+  ref_distance: Torrealba2019MNRAS.484.2181T
 m_v:
   apparent_magnitude_v: 16.6
   ref_m_v: Torrealba2019MNRAS.484.2181T
@@ -13,7 +14,7 @@ name_discovery:
   confirmed_real: 0
   confirmed_star_cluster: 0
   discovery_year: 2018
-  host: mw
+  host: lmc
   name: To 1
   ref_discovery:
   - Torrealba2019MNRAS.484.2181T
@@ -21,4 +22,3 @@ name_discovery:
 structure:
   ref_structure: Torrealba2019MNRAS.484.2181T
   rhalf: 0.27
-table: gc_ambiguous
